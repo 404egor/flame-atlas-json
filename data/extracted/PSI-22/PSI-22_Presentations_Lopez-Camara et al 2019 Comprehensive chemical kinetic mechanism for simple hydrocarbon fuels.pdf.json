@@ -1,0 +1,573 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-22",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-22_Presentations_Lopez-Camara et al 2019 Comprehensive chemical kinetic mechanism for simple hydrocarbon fuels.pdf",
+    "folder": "Presentations",
+    "subfolder": null,
+    "key": "psi-data/PSI-22/Presentations/PSI-22_Presentations_Lopez-Camara et al 2019 Comprehensive chemical kinetic mechanism for simple hydrocarbon fuels.pdf",
+    "version": 1,
+    "sizeBytes": 1864995,
+    "sha256": "8c89e61b8352cadd3be2c3c5afff81d42e4af13ed99af354faaa50329d7ab3ca",
+    "localPath": "data/raw/PSI-22/Presentations/PSI-22_Presentations_Lopez-Camara et al 2019 Comprehensive chemical kinetic mechanism for simple hydrocarbon fuels.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:16:36+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 16,
+    "characters": 7059,
+    "tables": 15,
+    "tableRows": 15,
+    "pages": 16
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Comprehensive chemical kinetic mechanism for simple hydrocarbon\nfuels including important excited and charged species\nC-F. López-Cámara 1 C. Saggese 2 W. Pitz 2 D. Dunn-Rankin 1\n1University of California at Irvine, Civil and Environmental Engineering Dept., Irvine 92697, California, USA\n2 Lawrence Livermore National Laboratory, Livermore 94550, California, USA\n35th Annual Meeting of the American Society for Gravitational and Space Research\nDenver, CO, USA\nNovember 20-23 2019\nAcknowledgements:\nThe National Science Foundation (NSF) with Dr. Prakash Balan as contract monitor for the Non-Academic Research Internship for Graduate Students (INTERN) via grant CBET1605533 for the\ninternship at the Lawrence Livermore National Laboratory (LLNL).\nACME project, supported by NASA’s ISS Research via agreement NNX07AB55A, with Dennis Stocker as contract monitor.\nLLNL-PRES-797100\nThis work was performed under the auspices of the U.S. Department of Energy by Lawrence Livermore National Laboratory under contract DE-AC52-07NA27344. Lawrence Livermore National Security, LLC\nASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu 1",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "table",
+      "id": "b2",
+      "name": "Page 1 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Comprehensive chemical kinetic mechanism for simple hydrocarbon\nfuels including important excited and charged species\nC-F. López-Cámara 1 C. Saggese 2 W. Pitz 2 D. Dunn-Rankin 1\n1University of California at Irvine, Civil and Environmental Engineering Dept., Irvine 92697, California, USA\n2 Lawrence Livermore National Laboratory, Livermore 94550, California, USA\n35th Annual Meeting of the American Society for Gravitational and Space Research\nDenver, CO, USA\nNovember 20-23 2019\nAcknowledgements:\nThe National Science Foundation (NSF) with Dr. Prakash Balan as contract monitor for the Non-Academic Research Internship for Graduate Students (INTERN) via grant CBET1605533 for the\ninternship at the Lawrence Livermore National Laboratory (LLNL).\nACME project, supported by NASA’s ISS Research via agreement NNX07AB55A, with Dennis Stocker as contract monitor.\nLLNL-PRES-797100\nThis work was performed under the auspices of the U.S. Department of Energy by Lawrence Livermore National Laboratory under contract DE-AC52-07NA27344. Lawrence Livermore National Security, LLC"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Comprehensive chemical kinetic mechanism for simple hydrocarbon\nfuels including important excited and charged species\nC-F. López-Cámara 1 C. Saggese 2 W. Pitz 2 D. Dunn-Rankin 1\n1University of California at Irvine, Civil and Environmental Engineering Dept., Irvine 92697, California, USA\n2 Lawrence Livermore National Laboratory, Livermore 94550, California, USA\n35th Annual Meeting of the American Society for Gravitational and Space Research\nDenver, CO, USA\nNovember 20-23 2019\nAcknowledgements:\nThe National Science Foundation (NSF) with Dr. Prakash Balan as contract monitor for the Non-Academic Research Internship for Graduate Students (INTERN) via grant CBET1605533 for the\ninternship at the Lawrence Livermore National Laboratory (LLNL).\nACME project, supported by NASA’s ISS Research via agreement NNX07AB55A, with Dennis Stocker as contract monitor.\nLLNL-PRES-797100\nThis work was performed under the auspices of the U.S. Department of Energy by Lawrence Livermore National Laboratory under contract DE-AC52-07NA27344. Lawrence Livermore National Security, LLC": "ASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu 1"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "No E-Field No E-Field E-Field applied\n1g µg µg\nF. B. Carleton & F. J. Weinberg. Nature. Volume 330, p. 635–636 (1987)",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Introduction\nComprehensive chemical kinetic mechanism for\nsimple hydrocarbon fuels including important\nexcited and charged species\nCH* Flame location\nExcited Species\nMain\nOH* Heat release\nhydrocarbon Minor\n+\nflame Species\nchemistry\nCharged Interact with e-field creating\nHCO+, H O+, e-\nSpecies 3 ion-wind\nASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 3",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "table",
+      "id": "b5",
+      "name": "Page 3 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 3,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Introduction\nComprehensive chemical kinetic mechanism for\nsimple hydrocarbon fuels including important\nexcited and charged species\nCH* Flame location\nExcited Species\nMain\nOH* Heat release\nhydrocarbon Minor\n+\nflame Species\nchemistry\nCharged Interact with e-field creating\nHCO+, H O+, e-\nSpecies 3 ion-wind"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Introduction\nComprehensive chemical kinetic mechanism for\nsimple hydrocarbon fuels including important\nexcited and charged species\nCH* Flame location\nExcited Species\nMain\nOH* Heat release\nhydrocarbon Minor\n+\nflame Species\nchemistry\nCharged Interact with e-field creating\nHCO+, H O+, e-\nSpecies 3 ion-wind": "ASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 3"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Introduction\nOur region of interest\n(low number of species)\nLu & Law, PECS 2009\nASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 4",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "table",
+      "id": "b7",
+      "name": "Page 4 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 4,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Introduction\nOur region of interest\n(low number of species)\nLu & Law, PECS 2009"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Introduction\nOur region of interest\n(low number of species)\nLu & Law, PECS 2009": "ASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 4"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Goal\nGoal\nTo build a chemical kinetic model that contains the minor species CH*, OH*, H O+ and\n3\nHCO+ which trust-worthily predicts non-premixed flame behavior at steady state. The size\nof the model should be small enough to handle e-field 2D simulations.\nASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 5",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "table",
+      "id": "b9",
+      "name": "Page 5 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 5,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Goal\nGoal\nTo build a chemical kinetic model that contains the minor species CH*, OH*, H O+ and\n3\nHCO+ which trust-worthily predicts non-premixed flame behavior at steady state. The size\nof the model should be small enough to handle e-field 2D simulations."
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Goal\nGoal\nTo build a chemical kinetic model that contains the minor species CH*, OH*, H O+ and\n3\nHCO+ which trust-worthily predicts non-premixed flame behavior at steady state. The size\nof the model should be small enough to handle e-field 2D simulations.": "ASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b10",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Methodology\nModel reduction and validation scheme\nChemkin-Pro®\nModel 0\nDETAILED 1. Reduction (PSR)\n2. Validation (Counterflow)\nFuel model 1 + CH*/OH* 2 REDUCED\nModel 1\n+ e- /ions 3 1. Validation (Counterflow and Jet)\n2. Validation (Experiments)\n1The San Diego Mechanism. https://web.eng.ucsd.edu/mae/groups/combustion/mechanism.html\n2 K.T Walsh. PhD Dissertation, Yale University, 2000\n3 Belhi et al. CST 2018\nASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 6",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "table",
+      "id": "b11",
+      "name": "Page 6 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 6,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Methodology\nModel reduction and validation scheme\nChemkin-Pro®\nModel 0\nDETAILED 1. Reduction (PSR)\n2. Validation (Counterflow)\nFuel model 1 + CH*/OH* 2 REDUCED\nModel 1\n+ e- /ions 3 1. Validation (Counterflow and Jet)\n2. Validation (Experiments)\n1The San Diego Mechanism. https://web.eng.ucsd.edu/mae/groups/combustion/mechanism.html\n2 K.T Walsh. PhD Dissertation, Yale University, 2000\n3 Belhi et al. CST 2018"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Methodology\nModel reduction and validation scheme\nChemkin-Pro®\nModel 0\nDETAILED 1. Reduction (PSR)\n2. Validation (Counterflow)\nFuel model 1 + CH*/OH* 2 REDUCED\nModel 1\n+ e- /ions 3 1. Validation (Counterflow and Jet)\n2. Validation (Experiments)\n1The San Diego Mechanism. https://web.eng.ucsd.edu/mae/groups/combustion/mechanism.html\n2 K.T Walsh. PhD Dissertation, Yale University, 2000\n3 Belhi et al. CST 2018": "ASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 6"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b12",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Methodology\nChemistry of minor species\nChemi-ionization reaction\nCH + O HCO+ + e- (1)\nMain reactions for hydronium ion (H O+)\n3\nHCO+ + H O CO + H O+ (2)\n2 3\nH O+ + e- H + H O (3)\n3 2\nMain reactions for chemiluminescence of CH*\nC H + O CH* + CO (4)\n2 2 2\nC H + O CH* + CO (5)\n2\nCH CH* + hν (6)\nMain reaction for chemiluminescence of OH*\nCH + O OH* + CO (7)\n2\nASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 7",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "table",
+      "id": "b13",
+      "name": "Page 7 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 7,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Methodology\nChemistry of minor species\nChemi-ionization reaction\nCH + O HCO+ + e- (1)\nMain reactions for hydronium ion (H O+)\n3\nHCO+ + H O CO + H O+ (2)\n2 3\nH O+ + e- H + H O (3)\n3 2\nMain reactions for chemiluminescence of CH*\nC H + O CH* + CO (4)\n2 2 2\nC H + O CH* + CO (5)\n2\nCH CH* + hν (6)\nMain reaction for chemiluminescence of OH*\nCH + O OH* + CO (7)\n2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Methodology\nChemistry of minor species\nChemi-ionization reaction\nCH + O HCO+ + e- (1)\nMain reactions for hydronium ion (H O+)\n3\nHCO+ + H O CO + H O+ (2)\n2 3\nH O+ + e- H + H O (3)\n3 2\nMain reactions for chemiluminescence of CH*\nC H + O CH* + CO (4)\n2 2 2\nC H + O CH* + CO (5)\n2\nCH CH* + hν (6)\nMain reaction for chemiluminescence of OH*\nCH + O OH* + CO (7)\n2": "ASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 7"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b14",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nReduction of UCSD detailed model with CH*/OH* for CH\n4\nChemkin-Pro® and Workbench\nTargets\nDetailed model:\n83 species All target species\nC H H O O\n2 2\n% relative tolerance Absolute #species\nCH O\n2\nMAXIMUM (target tolerance (BEST\nOH\nspecies) reduction)\n----------------------------------------------------------- 8 1e-5 31\nKeep species:\nCH C H CO H O N O H O+\n4 2 2 2 3\nCH CO H O HCO+\nReduced model contains excited\n2 2\nCH* H OH e-\nspecies, chemi-ions and C H\n2\n2 2\nOH*\nASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 8",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "table",
+      "id": "b15",
+      "name": "Page 8 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 8,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nReduction of UCSD detailed model with CH*/OH* for CH\n4\nChemkin-Pro® and Workbench\nTargets\nDetailed model:\n83 species All target species\nC H H O O\n2 2\n% relative tolerance Absolute #species\nCH O\n2\nMAXIMUM (target tolerance (BEST\nOH\nspecies) reduction)\n----------------------------------------------------------- 8 1e-5 31\nKeep species:\nCH C H CO H O N O H O+\n4 2 2 2 3\nCH CO H O HCO+\nReduced model contains excited\n2 2\nCH* H OH e-\nspecies, chemi-ions and C H\n2\n2 2\nOH*"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nReduction of UCSD detailed model with CH*/OH* for CH\n4\nChemkin-Pro® and Workbench\nTargets\nDetailed model:\n83 species All target species\nC H H O O\n2 2\n% relative tolerance Absolute #species\nCH O\n2\nMAXIMUM (target tolerance (BEST\nOH\nspecies) reduction)\n----------------------------------------------------------- 8 1e-5 31\nKeep species:\nCH C H CO H O N O H O+\n4 2 2 2 3\nCH CO H O HCO+\nReduced model contains excited\n2 2\nCH* H OH e-\nspecies, chemi-ions and C H\n2\n2 2\nOH*": "ASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 8"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b16",
+      "name": "Page 8 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 8,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "% relative tolerance\nMAXIMUM (target\nspecies)",
+        "Absolute\ntolerance",
+        "#species\n(BEST\nreduction)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "% relative tolerance\nMAXIMUM (target\nspecies)": "8",
+            "Absolute\ntolerance": "1e-5",
+            "#species\n(BEST\nreduction)": "31"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b17",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nComparison of detailed and reduced model for CH\n4\nValidation with detailed model in a Chemkin-Pro® counterflow configuration\nLegend Sub-index\nr: reduced model\nd: detailed model\nASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 9",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "table",
+      "id": "b18",
+      "name": "Page 9 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 9,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nComparison of detailed and reduced model for CH\n4\nValidation with detailed model in a Chemkin-Pro® counterflow configuration\nLegend Sub-index\nr: reduced model\nd: detailed model"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nComparison of detailed and reduced model for CH\n4\nValidation with detailed model in a Chemkin-Pro® counterflow configuration\nLegend Sub-index\nr: reduced model\nd: detailed model": "ASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 9"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nComparison of detailed and reduced model for CH\n4\nValidation with detailed model in a Chemkin-Pro® counterflow configuration\nSf\n**\n*\n*\n* j\n*\n*\nASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 10",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "table",
+      "id": "b20",
+      "name": "Page 10 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 10,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nComparison of detailed and reduced model for CH\n4\nValidation with detailed model in a Chemkin-Pro® counterflow configuration\nSf * *\n* *\n**\n* j"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nComparison of detailed and reduced model for CH\n4\nValidation with detailed model in a Chemkin-Pro® counterflow configuration\nSf * *\n* *\n**\n* j": "ASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 10"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b21",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nComparison of detailed and reduced model for CH\n4\nValidation with detailed model in a Chemkin-Pro® counterflow configuration\n+ 5\n+\n+5\n+ 5\n5\n5+ c\n+\n+\n-e\ne-\ne-\nASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 11",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "table",
+      "id": "b22",
+      "name": "Page 11 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 11,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nComparison of detailed and reduced model for CH\n4\nValidation with detailed model in a Chemkin-Pro® counterflow configuration\ne-\n5 +\n+ + e-\n+5\n5+ c\n+ 5 + 5 -e"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nComparison of detailed and reduced model for CH\n4\nValidation with detailed model in a Chemkin-Pro® counterflow configuration\ne-\n5 +\n+ + e-\n+5\n5+ c\n+ 5 + 5 -e": "ASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 11"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b23",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Burner geometries\nEXTRUDED BURNER JET BURNER\n289.647 points (144.230 blocks) 289.647 points (144.230 blocks)\nAll units in [mm] - Meshes and simulations made using OpenFOAM®\nASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 12",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "table",
+      "id": "b24",
+      "name": "Page 12 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 12,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Burner geometries\nEXTRUDED BURNER JET BURNER\n289.647 points (144.230 blocks) 289.647 points (144.230 blocks)\nAll units in [mm] - Meshes and simulations made using OpenFOAM®"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Burner geometries\nEXTRUDED BURNER JET BURNER\n289.647 points (144.230 blocks) 289.647 points (144.230 blocks)\nAll units in [mm] - Meshes and simulations made using OpenFOAM®": "ASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 12"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b25",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Boundary conditions\nDrawing not in scale\n13\nASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 13",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "table",
+      "id": "b26",
+      "name": "Page 13 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 13,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Boundary conditions\nDrawing not in scale"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Boundary conditions\nDrawing not in scale": "13\nASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 13"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b27",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nComparison of predicted and measured flame location (CH*)\nValidation with experiments using 2D CFD OpenFOAM® simulations\n[CH*] plot. Extruded geometry - 20sccm\n–– Experiments (Tinajero and Dunn-Rankin, CNF 2019)\n–– RM; LLNL Model 0 (detailed chemical kinetic model)\n–– RM; LLNL Model 1 (reduced chemical kinetic model)\nContour threshold (model): [CH*] = 1e-12\nASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 14",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "table",
+      "id": "b28",
+      "name": "Page 14 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 14,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nComparison of predicted and measured flame location (CH*)\nValidation with experiments using 2D CFD OpenFOAM® simulations\n[CH*] plot. Extruded geometry - 20sccm\n–– Experiments (Tinajero and Dunn-Rankin, CNF 2019)\n–– RM; LLNL Model 0 (detailed chemical kinetic model)\n–– RM; LLNL Model 1 (reduced chemical kinetic model)\nContour threshold (model): [CH*] = 1e-12"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nComparison of predicted and measured flame location (CH*)\nValidation with experiments using 2D CFD OpenFOAM® simulations\n[CH*] plot. Extruded geometry - 20sccm\n–– Experiments (Tinajero and Dunn-Rankin, CNF 2019)\n–– RM; LLNL Model 0 (detailed chemical kinetic model)\n–– RM; LLNL Model 1 (reduced chemical kinetic model)\nContour threshold (model): [CH*] = 1e-12": "ASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 14"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b29",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Final remarks and future work\nFinal remarks\n• We have built a chemical kinetic model that contains the minor species CH*, OH*, H O+\n3\nand HCO+ and trust-worthily predicts non-premixed flame behavior at steady state.\nComparison between experimental and numerical results validated the reduced model.\n• Speed up in the simulations without e-field in comparison with detailed model was\nobtained (> x2).\n• The size of the reduced model should be small enough to handle e-field 2D simulations.\nNear-future goals\nValidation of the model\n• Change the burner geometry and repeat the simulation, comparing it to experiments.\n• Check how the methane flame responds to an external applied e-field, comparing it to\nexperiments (at 1g and µg).\nOthers\n• Repeat the mechanism reduction process with an C H detailed model.\n2 4\nASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 15",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "table",
+      "id": "b30",
+      "name": "Page 15 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 15,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Final remarks and future work\nFinal remarks\n• We have built a chemical kinetic model that contains the minor species CH*, OH*, H O+\n3\nand HCO+ and trust-worthily predicts non-premixed flame behavior at steady state.\nComparison between experimental and numerical results validated the reduced model.\n• Speed up in the simulations without e-field in comparison with detailed model was\nobtained (> x2).\n• The size of the reduced model should be small enough to handle e-field 2D simulations.\nNear-future goals\nValidation of the model\n• Change the burner geometry and repeat the simulation, comparing it to experiments.\n• Check how the methane flame responds to an external applied e-field, comparing it to\nexperiments (at 1g and µg).\nOthers\n• Repeat the mechanism reduction process with an C H detailed model.\n2 4"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Final remarks and future work\nFinal remarks\n• We have built a chemical kinetic model that contains the minor species CH*, OH*, H O+\n3\nand HCO+ and trust-worthily predicts non-premixed flame behavior at steady state.\nComparison between experimental and numerical results validated the reduced model.\n• Speed up in the simulations without e-field in comparison with detailed model was\nobtained (> x2).\n• The size of the reduced model should be small enough to handle e-field 2D simulations.\nNear-future goals\nValidation of the model\n• Change the burner geometry and repeat the simulation, comparing it to experiments.\n• Check how the methane flame responds to an external applied e-field, comparing it to\nexperiments (at 1g and µg).\nOthers\n• Repeat the mechanism reduction process with an C H detailed model.\n2 4": "ASGSR Annual meeting. Nov 20-23, 2019. clopezca@uci.edu - LLNL-PRES-797100 15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b31",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Thank you\nDisclaimer\nThis document was prepared as an account of work sponsored by an agency of the United States government. Neither the United\nStates government nor Lawrence Livermore National Security, LLC, nor any of their employees makes any warranty, expressed or\nimplied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus,\nproduct, or process disclosed, or represents that its use would not infringe privately owned rights. Reference herein to any specific\ncommercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or\nimply its endorsement, recommendation, or favoring by the United States government or Lawrence Livermore National Security, LLC.\nThe views and opinions of authors expressed herein do not necessarily state or reflect those of the United States government or\nLawrence Livermore National Security, LLC, and shall not be used for advertising or product endorsement purposes.",
+      "location": {
+        "page": 16
+      }
+    }
+  ]
+}

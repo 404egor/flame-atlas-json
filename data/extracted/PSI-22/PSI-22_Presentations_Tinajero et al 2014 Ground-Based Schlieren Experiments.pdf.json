@@ -1,0 +1,1513 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-22",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-22_Presentations_Tinajero et al 2014 Ground-Based Schlieren Experiments.pdf",
+    "folder": "Presentations",
+    "subfolder": null,
+    "key": "psi-data/PSI-22/Presentations/PSI-22_Presentations_Tinajero et al 2014 Ground-Based Schlieren Experiments.pdf",
+    "version": 1,
+    "sizeBytes": 1827407,
+    "sha256": "eb5f3d6d0cbc5bc023dca013d3b76c743182b9a6e9e7aca1aa8575e495a45216",
+    "localPath": "data/raw/PSI-22/Presentations/PSI-22_Presentations_Tinajero et al 2014 Ground-Based Schlieren Experiments.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:16:39+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 1 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 2 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 3 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 4 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 5 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 6 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 7 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 7 table 2: 6 empty header(s) named column_<n> (columns 4-9)",
+    "Page 7 table 2: 1 duplicate header(s) renamed: 2.5\n2\n]Aµ[\n1.5\ntnerruC\n1 noI\n0.5\n5 0 (2)",
+    "Page 7 table 5: 6 empty header(s) named column_<n> (columns 4-9)",
+    "Page 7 table 5: 1 duplicate header(s) renamed: 2.5\n2\n]Aµ[\n1.5\ntnerruC\n1 noI\n0.5\n5 0 (2)",
+    "Page 8 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 9 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 9 table 2: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 9 table 4: 10 empty header(s) named column_<n> (columns 1-10)",
+    "Page 10 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 10 table 2: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 10 table 4: 10 empty header(s) named column_<n> (columns 1-10)",
+    "Page 11 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 11 table 2: 7 empty header(s) named column_<n> (columns 4-10)",
+    "Page 11 table 2: 1 duplicate header(s) renamed: 0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)",
+    "Page 12 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 12 table 2: 7 empty header(s) named column_<n> (columns 4-10)",
+    "Page 12 table 2: 1 duplicate header(s) renamed: 0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)",
+    "Page 13 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 13 table 2: 7 empty header(s) named column_<n> (columns 4-10)",
+    "Page 13 table 2: 1 duplicate header(s) renamed: 0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)",
+    "Page 14 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 14 table 2: 7 empty header(s) named column_<n> (columns 4-10)",
+    "Page 14 table 2: 1 duplicate header(s) renamed: 0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)",
+    "Page 15 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 15 table 2: 7 empty header(s) named column_<n> (columns 4-10)",
+    "Page 15 table 2: 1 duplicate header(s) renamed: 0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)",
+    "Page 16 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 17 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 17 table 2: 6 empty header(s) named column_<n> (columns 4-9)",
+    "Page 17 table 3: 6 line(s) above the header skipped",
+    "Page 17 table 3: 4 empty header(s) named column_<n> (columns 1-4)",
+    "Page 17 table 4: 9 line(s) above the header skipped",
+    "Page 17 table 4: 7 empty header(s) named column_<n> (columns 1-7)",
+    "Page 18 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 19 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 20 table 1: 1 empty header(s) named column_<n> (columns 2)"
+  ],
+  "stats": {
+    "textBlocks": 20,
+    "characters": 9460,
+    "tables": 32,
+    "tableRows": 43,
+    "pages": 20
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Ground-Based Schlieren Experiments of\nChemi-Ion Driven Flows in a Time Varying\nElectric Field\nJesseTinajero1 DerekDunn-Rankin1 JieBia2 MiguelPlascencia1\n1MechanicalandAerospaceEngineering,\nUniversityofCalifornia-Irvine\n2SchoolofMarineEngineering,\nNorthwesternPolytechnicalUniversity\nASGSR-October26th,2014\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "table",
+      "id": "b2",
+      "name": "Page 1 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Ground-Based Schlieren Experiments of\nChemi-Ion Driven Flows in a Time Varying\nElectric Field\nJesseTinajero1 DerekDunn-Rankin1 JieBia2 MiguelPlascencia1\n1MechanicalandAerospaceEngineering,\nUniversityofCalifornia-Irvine\n2SchoolofMarineEngineering,\nNorthwesternPolytechnicalUniversity\nASGSR-October26th,2014",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Ground-Based Schlieren Experiments of\nChemi-Ion Driven Flows in a Time Varying\nElectric Field\nJesseTinajero1 DerekDunn-Rankin1 JieBia2 MiguelPlascencia1\n1MechanicalandAerospaceEngineering,\nUniversityofCalifornia-Irvine\n2SchoolofMarineEngineering,\nNorthwesternPolytechnicalUniversity\nASGSR-October26th,2014": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Motivation\nI Preparationfor2016-17micro-gravityexperimentson-boardtheISSvia\nNasa’sACME(AdvancedCombustionViaMicrogravityExperiments)\nI Studythetransienteffectofchemi-ionsinthebulkgas\nI Studytheeffectsofimportantparameters(i.e. fieldstrengthandelectrode\ngapdistance)thatcharacterizeelectricfieldcombustion(i.e. time-scales\nandlength-scales)inatransientstate\nI Acquirefulldynamiccontrolofcombustionusingelectricfields\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "table",
+      "id": "b4",
+      "name": "Page 2 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 2,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Motivation\nI Preparationfor2016-17micro-gravityexperimentson-boardtheISSvia\nNasa’sACME(AdvancedCombustionViaMicrogravityExperiments)\nI Studythetransienteffectofchemi-ionsinthebulkgas\nI Studytheeffectsofimportantparameters(i.e. fieldstrengthandelectrode\ngapdistance)thatcharacterizeelectricfieldcombustion(i.e. time-scales\nandlength-scales)inatransientstate\nI Acquirefulldynamiccontrolofcombustionusingelectricfields",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Motivation\nI Preparationfor2016-17micro-gravityexperimentson-boardtheISSvia\nNasa’sACME(AdvancedCombustionViaMicrogravityExperiments)\nI Studythetransienteffectofchemi-ionsinthebulkgas\nI Studytheeffectsofimportantparameters(i.e. fieldstrengthandelectrode\ngapdistance)thatcharacterizeelectricfieldcombustion(i.e. time-scales\nandlength-scales)inatransientstate\nI Acquirefulldynamiccontrolofcombustionusingelectricfields": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Introduction\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "table",
+      "id": "b6",
+      "name": "Page 3 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 3,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Introduction",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Introduction": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experiment - schlieren\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "table",
+      "id": "b8",
+      "name": "Page 4 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 4,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Experiment - schlieren",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Experiment - schlieren": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experiment - h.v. power supply circuit\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "table",
+      "id": "b10",
+      "name": "Page 5 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 5,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Experiment - h.v. power supply circuit",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Experiment - h.v. power supply circuit": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experiment - uci Coflow Burner\nI Fuel: Methane\nI FuelFlowRate: 7cm/s\nI BurnerMaterial: StainlessSteel\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "table",
+      "id": "b12",
+      "name": "Page 6 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 6,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Experiment - uci Coflow Burner\nI Fuel: Methane\nI FuelFlowRate: 7cm/s\nI BurnerMaterial: StainlessSteel",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Experiment - uci Coflow Burner\nI Fuel: Methane\nI FuelFlowRate: 7cm/s\nI BurnerMaterial: StainlessSteel": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Ion Current Vs Field Strength - E = V/H\nave\n\u0000 4\nACMEH.V.P.S.\n2.5\n2\n1.5\n1\n0.5\n00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5\n]Aµ[\ntnerruC\nnoI\nUltraVolt − Field Strength vs Ion Current\nMethane Flame − 25mm gap\n2.5\n2\n1.5\n1\n0.5\n00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5\n]Aµ[\ntnerruC\nnoI\nUltraVolt − Field Strength vs Ion Current\nMethane Flame − 30mm gap\n2.5\n2\n1.5\n1\n0.5\n00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5\n]Aµ[\ntnerruC\nnoI\nUltraVolt − Field Strength vs Ion Current\nMethane Flame − 35mm gap\nUCIH.V.P.S.\n2.5\n2\n1.5\n1\n0.5\n00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5\n]Aµ[\ntnerruC\nnoI\nTrek − Field Strength vs Ion Current\nMethane Flame − 25mm gap\n2.5\n2\n1.5\n1\n0.5\n00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5\n]Aµ[\ntnerruC\nnoI\nTrek − Field Strength vs Ion Current\nMethane Flame − 30mm gap\n2.5\n2\n1.5\n1\n0.5\n00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5\n]Aµ[\ntnerruC\nnoI\nTrek − Field Strength vs Ion Current\nMethane Flame − 35mm gap\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "table",
+      "id": "b14",
+      "name": "Page 7 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 7,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Ion Current Vs Field Strength - E = V/H\nave\n\u0000 4\nACMEH.V.P.S.\nUltraVolt − Field Strength vs Ion Current UltraVolt − Field Strength vs Ion Current UltraVolt − Field Strength vs Ion Current\nMethane Flame − 25mm gap Methane Flame − 30mm gap Methane Flame − 35mm gap\n2.5 2.5 2.5\n2 2 2\n]Aµ[ ]Aµ[ ]Aµ[\n1.5 1.5 1.5\ntnerruC tnerruC tnerruC\n1 noI 1 noI 1 noI\n0.5 0.5 0.5\n00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5 00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5 00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5\nUCIH.V.P.S.\nTrek − Field Strength vs Ion Current Trek − Field Strength vs Ion Current Trek − Field Strength vs Ion Current\nMethane Flame − 25mm gap Methane Flame − 30mm gap Methane Flame − 35mm gap\n2.5 2.5 2.5\n2 2 2\n]Aµ[ ]Aµ[ ]Aµ[\n1.5 1.5 1.5\ntnerruC tnerruC tnerruC\n1 noI 1 noI 1 noI\n0.5 0.5 0.5\n00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5 00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5 00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Ion Current Vs Field Strength - E = V/H\nave\n\u0000 4\nACMEH.V.P.S.\nUltraVolt − Field Strength vs Ion Current UltraVolt − Field Strength vs Ion Current UltraVolt − Field Strength vs Ion Current\nMethane Flame − 25mm gap Methane Flame − 30mm gap Methane Flame − 35mm gap\n2.5 2.5 2.5\n2 2 2\n]Aµ[ ]Aµ[ ]Aµ[\n1.5 1.5 1.5\ntnerruC tnerruC tnerruC\n1 noI 1 noI 1 noI\n0.5 0.5 0.5\n00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5 00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5 00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5\nUCIH.V.P.S.\nTrek − Field Strength vs Ion Current Trek − Field Strength vs Ion Current Trek − Field Strength vs Ion Current\nMethane Flame − 25mm gap Methane Flame − 30mm gap Methane Flame − 35mm gap\n2.5 2.5 2.5\n2 2 2\n]Aµ[ ]Aµ[ ]Aµ[\n1.5 1.5 1.5\ntnerruC tnerruC tnerruC\n1 noI 1 noI 1 noI\n0.5 0.5 0.5\n00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5 00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5 00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b15",
+      "name": "Page 7 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 7,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "UltraVolt − Field Strength vs Ion Current\nMethane Flame − 25mm gap\n2.5\n2\n]Aµ[\n1.5\ntnerruC\n1 noI\n0.5\n00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.",
+        "2.5\n2\n]Aµ[\n1.5\ntnerruC\n1 noI\n0.5\n5 0",
+        "UltraVolt − Field Strength vs Ion Current\nMethane Flame − 30mm gap",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8",
+        "column_9",
+        "2.5\n2\n]Aµ[\n1.5\ntnerruC\n1 noI\n0.5\n5 0 (2)",
+        "UltraVolt − Field Strength vs Ion Current\nMethane Flame − 35mm gap\n0 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 6,
+          "raw": {
+            "UltraVolt − Field Strength vs Ion Current\nMethane Flame − 25mm gap\n2.5\n2\n]Aµ[\n1.5\ntnerruC\n1 noI\n0.5\n00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.": "",
+            "2.5\n2\n]Aµ[\n1.5\ntnerruC\n1 noI\n0.5\n5 0": "",
+            "UltraVolt − Field Strength vs Ion Current\nMethane Flame − 30mm gap": "0 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "2.5\n2\n]Aµ[\n1.5\ntnerruC\n1 noI\n0.5\n5 0 (2)": "",
+            "UltraVolt − Field Strength vs Ion Current\nMethane Flame − 35mm gap\n0 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b16",
+      "name": "Page 7 table 5",
+      "confidence": "low",
+      "location": {
+        "page": 7,
+        "table": 5
+      },
+      "headerRow": 1,
+      "columns": [
+        "Trek − Field Strength vs Ion Current\nMethane Flame − 25mm gap\n2.5\n2\n]Aµ[\n1.5\ntnerruC\n1 noI\n0.5\n00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.",
+        "2.5\n2\n]Aµ[\n1.5\ntnerruC\n1 noI\n0.5\n5 0",
+        "Trek − Field Strength vs Ion Current\nMethane Flame − 30mm gap",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8",
+        "column_9",
+        "2.5\n2\n]Aµ[\n1.5\ntnerruC\n1 noI\n0.5\n5 0 (2)",
+        "Trek − Field Strength vs Ion Current\nMethane Flame − 35mm gap\n0 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Trek − Field Strength vs Ion Current\nMethane Flame − 25mm gap\n2.5\n2\n]Aµ[\n1.5\ntnerruC\n1 noI\n0.5\n00 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.": "",
+            "2.5\n2\n]Aµ[\n1.5\ntnerruC\n1 noI\n0.5\n5 0": "",
+            "Trek − Field Strength vs Ion Current\nMethane Flame − 30mm gap": "0 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "2.5\n2\n]Aµ[\n1.5\ntnerruC\n1 noI\n0.5\n5 0 (2)": "",
+            "Trek − Field Strength vs Ion Current\nMethane Flame − 35mm gap\n0 0.5 1Field S1.t5rength [k2V/cm]2.5 3 3.5": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b17",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Ion Current Vs Field Strength - E = V/H\nave\n\u0000 4\n2.5\n2\n1.5\n1\n0.5\n0\n0 0.5 1 1.5 2 2.5 3 3.5\nField Strength [kV/cm]\n]Aµ[\ntnerruC\nnoI\nTrek − Field Strength vs Ion Current\nMethane Flame − 35mm gap\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "table",
+      "id": "b18",
+      "name": "Page 8 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 8,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Ion Current Vs Field Strength - E = V/H\nave\n\u0000 4\nTrek − Field Strength vs Ion Current\nMethane Flame − 35mm gap\n2.5\n2\n]Aµ[\n1.5\ntnerruC\n1\nnoI\n0.5\n0\n0 0.5 1 1.5 2 2.5 3 3.5\nField Strength [kV/cm]",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Ion Current Vs Field Strength - E = V/H\nave\n\u0000 4\nTrek − Field Strength vs Ion Current\nMethane Flame − 35mm gap\n2.5\n2\n]Aµ[\n1.5\ntnerruC\n1\nnoI\n0.5\n0\n0 0.5 1 1.5 2 2.5 3 3.5\nField Strength [kV/cm]": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Transient Results - uci h.v. power supply\n35mmgap\n0\n−1\n−2\n−3\n−4\n−5\n−6\n−7\n−8\n−9 0 10 20 30 40 50 60 70 80 90 100\n]Vk[\nlaitnetoP\nhseM\nedortcelE\nTrek − Transient High Voltage Steps\nMethane Flame − 35mm Gap\n0\n−0.5\n−1\n−1.5\n−2\n−2.5 0 10 20 30 40 50 60 70 80 90 100\nTime [ms]\n]Aµ[\ntnerruC\nnoI\nTrek − Transient Shunt Measurements\nMethane Flame − 35mm Gap\nNeg2000VStep\nNeg3000VStep Neg4000VStep\nNeg5000VStep Neg6000VStep Neg7000VStep\nNeg8000VStep\nTime [ms]\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "table",
+      "id": "b20",
+      "name": "Page 9 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 9,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Transient Results - uci h.v. power supply\n35mmgap\nTrek − Transient High Voltage Steps\nTrek − Transient Shunt Measurements\nMethane Flame − 35mm Gap Methane Flame − 35mm Gap\n0 0\nNeg2000VStep\n−1 Neg3000VStep Neg4000VStep\n−2 ]Vk[ −0.5 Neg5000VStep Neg6000VStep Neg7000VStep\nNeg8000VStep\nlaitnetoP\n−3 ]Aµ[\n−1\n−4 tnerruC\nhseM\n−5\nedortcelE −1.5 noI\n−6\n−7\n−2\n−8\n−9 0 10 20 30 40 50 60 70 80 90 100 −2.5 0 10 20 30 40 50 60 70 80 90 100\nTime [ms] Time [ms]",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Transient Results - uci h.v. power supply\n35mmgap\nTrek − Transient High Voltage Steps\nTrek − Transient Shunt Measurements\nMethane Flame − 35mm Gap Methane Flame − 35mm Gap\n0 0\nNeg2000VStep\n−1 Neg3000VStep Neg4000VStep\n−2 ]Vk[ −0.5 Neg5000VStep Neg6000VStep Neg7000VStep\nNeg8000VStep\nlaitnetoP\n−3 ]Aµ[\n−1\n−4 tnerruC\nhseM\n−5\nedortcelE −1.5 noI\n−6\n−7\n−2\n−8\n−9 0 10 20 30 40 50 60 70 80 90 100 −2.5 0 10 20 30 40 50 60 70 80 90 100\nTime [ms] Time [ms]": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b21",
+      "name": "Page 9 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 9,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Trek − Transient High Voltage Steps\nMethane Flame − 35mm Gap\n0 0\n−1\n]Vk[\n−2 −0.5\nlaitnetoP\n−3 ]Aµ[\n−1\n−4 tnerruC\nhseM\n−5\nedortcelE −1.5 noI\n−6\n−7\n−2\n−8\n−9 0 10 20 30 40 50 60 70 80 90 100 −2.5\nTime [ms]",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Trek − Transient High Voltage Steps\nMethane Flame − 35mm Gap\n0 0\n−1\n]Vk[\n−2 −0.5\nlaitnetoP\n−3 ]Aµ[\n−1\n−4 tnerruC\nhseM\n−5\nedortcelE −1.5 noI\n−6\n−7\n−2\n−8\n−9 0 10 20 30 40 50 60 70 80 90 100 −2.5\nTime [ms]": "",
+            "column_2": "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.5",
+            "column_3": "Trek − Transient Shunt Measurements\nMethane Flame − 35mm Gap\nNeg2000VStep\nNeg3000VStep\nNeg4000VStep\nNeg5000VStep\nNeg6000VStep\nNeg7000VStep\nNeg8000VStep\n0 10 20 30 40 50 60 70 80 90 100\nTime [ms]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b22",
+      "name": "Page 9 table 4",
+      "confidence": "low",
+      "location": {
+        "page": 9,
+        "table": 4
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "column_2",
+        "column_3",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8",
+        "column_9",
+        "column_10",
+        "Neg20\nNeg30\nNeg40\nNeg50\nNeg60",
+        "00VStep\n00VStep\n00VStep\n00VStep\n00VStep"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "Neg20\nNeg30\nNeg40\nNeg50\nNeg60": "Neg70\nNeg80",
+            "00VStep\n00VStep\n00VStep\n00VStep\n00VStep": "00VStep\n00VStep"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b23",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Transient Results - acme h.v. power supply\n35mmgap\n1\n0\n−1\n−2\n−3\n−4\n−5\n−6\n−7\n−8\n−9 0 10 20 30 40 50 60 70 80 90 100\n]Vk[\nlaitnetoP\nhseM\nedortcelE\nUltraVolt − Transient High Voltage Steps\nMethane Flame − 35mm Gap\n0\n−0.5\n−1\n−1.5\n−2\n−2.5 0 10 20 30 40 50 60 70 80 90 100\nTime [ms]\n]Aµ[\ntnerruC\nnoI\nUltraVolt − Transient Shunt Measurements\nMethane Flame − 35mm Gap\nNeg2000VStep\nNeg3000VStep\nNeg4000VStep\nNeg5000VStep Neg6000VStep Neg7000VStep\nNeg8000VStep\nTime [ms]\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "table",
+      "id": "b24",
+      "name": "Page 10 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 10,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Transient Results - acme h.v. power supply\n35mmgap\nUltraVolt − Transient High Voltage Steps\nUltraVolt − Transient Shunt Measurements\nMethane Flame − 35mm Gap Methane Flame − 35mm Gap\n1 0\nNeg2000VStep\n0 Neg3000VStep\nNeg4000VStep\n−1 ]Vk[ −0.5 Neg5000VStep Neg6000VStep Neg7000VStep\nNeg8000VStep\n−2 laitnetoP\n]Aµ[\n−3 −1\ntnerruC\n−4 hseM\n−5 edortcelE −1.5 noI\n−6\n−7 −2\n−8\n−9 0 10 20 30 40 50 60 70 80 90 100 −2.5 0 10 20 30 40 50 60 70 80 90 100\nTime [ms] Time [ms]",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Transient Results - acme h.v. power supply\n35mmgap\nUltraVolt − Transient High Voltage Steps\nUltraVolt − Transient Shunt Measurements\nMethane Flame − 35mm Gap Methane Flame − 35mm Gap\n1 0\nNeg2000VStep\n0 Neg3000VStep\nNeg4000VStep\n−1 ]Vk[ −0.5 Neg5000VStep Neg6000VStep Neg7000VStep\nNeg8000VStep\n−2 laitnetoP\n]Aµ[\n−3 −1\ntnerruC\n−4 hseM\n−5 edortcelE −1.5 noI\n−6\n−7 −2\n−8\n−9 0 10 20 30 40 50 60 70 80 90 100 −2.5 0 10 20 30 40 50 60 70 80 90 100\nTime [ms] Time [ms]": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b25",
+      "name": "Page 10 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 10,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "UltraVolt − Transient High Voltage Steps\nMethane Flame − 35mm Gap\n1 0\n0\n−1 ]Vk[ −0.5\n−2 laitnetoP\n]Aµ[\n−3 −1\ntnerruC\n−4 hseM\n−5 edortcelE −1.5 noI\n−6\n−7 −2\n−8\n−9 0 10 20 30 40 50 60 70 80 90 100 −2.5\nTime [ms]",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "UltraVolt − Transient High Voltage Steps\nMethane Flame − 35mm Gap\n1 0\n0\n−1 ]Vk[ −0.5\n−2 laitnetoP\n]Aµ[\n−3 −1\ntnerruC\n−4 hseM\n−5 edortcelE −1.5 noI\n−6\n−7 −2\n−8\n−9 0 10 20 30 40 50 60 70 80 90 100 −2.5\nTime [ms]": "",
+            "column_2": "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.5",
+            "column_3": "UltraVolt − Transient Shunt Measurements\nMethane Flame − 35mm Gap\nNeg2000VStep\nNeg3000VStep\nNeg4000VStep\nNeg5000VStep\nNeg6000VStep\nNeg7000VStep\nNeg8000VStep\n0 10 20 30 40 50 60 70 80 90 100\nTime [ms]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b26",
+      "name": "Page 10 table 4",
+      "confidence": "low",
+      "location": {
+        "page": 10,
+        "table": 4
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "column_2",
+        "column_3",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8",
+        "column_9",
+        "column_10",
+        "Neg20\nNeg30\nNeg40\nNeg50\nNeg60",
+        "00VStep\n00VStep\n00VStep\n00VStep\n00VStep"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "Neg20\nNeg30\nNeg40\nNeg50\nNeg60": "Neg70\nNeg80",
+            "00VStep\n00VStep\n00VStep\n00VStep\n00VStep": "00VStep\n00VStep"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b27",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Transient Ion Current Measurements\nuci h.v.p.s. 25mm gap\n0\n−0.5\n−1\n−1.5\n−2\n−2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg1000VStep 25mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg2000VStep 25mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg5000VStep 25mm Gap\nTime [ms]\n0\n−0.5\n−1\n−1.5\n−2\n−2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg5750VStep 25mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg6000VStep 25mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg6250VStep 25mm Gap\nTime [ms]\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "table",
+      "id": "b28",
+      "name": "Page 11 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 11,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Transient Ion Current Measurements\nuci h.v.p.s. 25mm gap\nTrek Neg1000VStep 25mm Gap Trek Neg2000VStep 25mm Gap Trek Neg5000VStep 25mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]\nTrek Neg5750VStep 25mm Gap Trek Neg6000VStep 25mm Gap Trek Neg6250VStep 25mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Transient Ion Current Measurements\nuci h.v.p.s. 25mm gap\nTrek Neg1000VStep 25mm Gap Trek Neg2000VStep 25mm Gap Trek Neg5000VStep 25mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]\nTrek Neg5750VStep 25mm Gap Trek Neg6000VStep 25mm Gap Trek Neg6250VStep 25mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b29",
+      "name": "Page 11 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 11,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Trek Neg1000VStep 25mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]",
+        "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5",
+        "Trek Neg2000VStep 25mm Gap",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8",
+        "column_9",
+        "column_10",
+        "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)",
+        "Trek Neg5000VStep 25mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Trek Neg1000VStep 25mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5": "",
+            "Trek Neg2000VStep 25mm Gap": "0 100 200 300Time40 [0ms]500 600 700 80",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)": "",
+            "Trek Neg5000VStep 25mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Trek Neg1000VStep 25mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]": "Trek Neg5750VStep 25mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5": "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5",
+            "Trek Neg2000VStep 25mm Gap": "Trek Neg6000VStep 25mm Gap",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)": "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5",
+            "Trek Neg5000VStep 25mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800": "Trek Neg6250VStep 25mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Trek Neg1000VStep 25mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5": "",
+            "Trek Neg2000VStep 25mm Gap": "0 100 200 300Time40 [0ms]500 600 700 80",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)": "",
+            "Trek Neg5000VStep 25mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b30",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Transient Ion Current Measurements\nuci h.v.p.s. 30mm gap\n0\n−0.5\n−1\n−1.5\n−2\n−2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg2000VStep 30mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg2500VStep 30mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg3000VStep 30mm Gap\nTime [ms]\n0\n−0.5\n−1\n−1.5\n−2\n−2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg6000VStep 30mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg7000VStep 30mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg7250VStep 30mm Gap\nTime [ms]\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "table",
+      "id": "b31",
+      "name": "Page 12 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 12,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Transient Ion Current Measurements\nuci h.v.p.s. 30mm gap\nTrek Neg2000VStep 30mm Gap Trek Neg2500VStep 30mm Gap Trek Neg3000VStep 30mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]\nTrek Neg6000VStep 30mm Gap Trek Neg7000VStep 30mm Gap Trek Neg7250VStep 30mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Transient Ion Current Measurements\nuci h.v.p.s. 30mm gap\nTrek Neg2000VStep 30mm Gap Trek Neg2500VStep 30mm Gap Trek Neg3000VStep 30mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]\nTrek Neg6000VStep 30mm Gap Trek Neg7000VStep 30mm Gap Trek Neg7250VStep 30mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b32",
+      "name": "Page 12 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 12,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Trek Neg2000VStep 30mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]",
+        "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5",
+        "Trek Neg2500VStep 30mm Gap",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8",
+        "column_9",
+        "column_10",
+        "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)",
+        "Trek Neg3000VStep 30mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Trek Neg2000VStep 30mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5": "",
+            "Trek Neg2500VStep 30mm Gap": "0 100 200 300Time40 [0ms]500 600 700 80",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)": "",
+            "Trek Neg3000VStep 30mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Trek Neg2000VStep 30mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]": "Trek Neg6000VStep 30mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5": "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5",
+            "Trek Neg2500VStep 30mm Gap": "Trek Neg7000VStep 30mm Gap",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)": "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5",
+            "Trek Neg3000VStep 30mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800": "Trek Neg7250VStep 30mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Trek Neg2000VStep 30mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5": "",
+            "Trek Neg2500VStep 30mm Gap": "0 100 200 300Time40 [0ms]500 600 700 80",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)": "",
+            "Trek Neg3000VStep 30mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b33",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Transient Ion Current Measurements\nuci h.v.p.s. 35mm gap\n0\n−0.5\n−1\n−1.5\n−2\n−2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg3000VStep 35mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg3500VStep 35mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg4000VStep 35mm Gap\nTime [ms]\n0\n−0.5\n−1\n−1.5\n−2\n−2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg7000VStep 35mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg7500VStep 35mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nTrek Neg8000VStep 35mm Gap\nTime [ms]\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "table",
+      "id": "b34",
+      "name": "Page 13 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 13,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Transient Ion Current Measurements\nuci h.v.p.s. 35mm gap\nTrek Neg3000VStep 35mm Gap Trek Neg3500VStep 35mm Gap Trek Neg4000VStep 35mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]\nTrek Neg7000VStep 35mm Gap Trek Neg7500VStep 35mm Gap Trek Neg8000VStep 35mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Transient Ion Current Measurements\nuci h.v.p.s. 35mm gap\nTrek Neg3000VStep 35mm Gap Trek Neg3500VStep 35mm Gap Trek Neg4000VStep 35mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]\nTrek Neg7000VStep 35mm Gap Trek Neg7500VStep 35mm Gap Trek Neg8000VStep 35mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b35",
+      "name": "Page 13 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 13,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Trek Neg3000VStep 35mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]",
+        "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5",
+        "Trek Neg3500VStep 35mm Gap",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8",
+        "column_9",
+        "column_10",
+        "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)",
+        "Trek Neg4000VStep 35mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Trek Neg3000VStep 35mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5": "",
+            "Trek Neg3500VStep 35mm Gap": "0 100 200 300Time40 [0ms]500 600 700 80",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)": "",
+            "Trek Neg4000VStep 35mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Trek Neg3000VStep 35mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]": "Trek Neg7000VStep 35mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5": "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5",
+            "Trek Neg3500VStep 35mm Gap": "Trek Neg7500VStep 35mm Gap",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)": "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5",
+            "Trek Neg4000VStep 35mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800": "Trek Neg8000VStep 35mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Trek Neg3000VStep 35mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5": "",
+            "Trek Neg3500VStep 35mm Gap": "0 100 200 300Time40 [0ms]500 600 700 80",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)": "",
+            "Trek Neg4000VStep 35mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b36",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Transient Ion Current Measurements\nacme h.v.p.s. 25mm gap\n0\n−0.5\n−1\n−1.5\n−2\n−2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nUltraVolt Neg1000VStep 25mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nUltraVolt Neg2000VStep 25mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nUltraVolt Neg5000VStep 25mm Gap\nTime [ms]\n0\n−0.5\n−1\n−1.5\n−2\n−2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nUltraVolt Neg5750VStep 25mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nUltraVolt Neg6000VStep 25mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nUltraVolt Neg6250VStep 25mm Gap\nTime [ms]\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "table",
+      "id": "b37",
+      "name": "Page 14 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 14,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Transient Ion Current Measurements\nacme h.v.p.s. 25mm gap\nUltraVolt Neg1000VStep 25mm Gap UltraVolt Neg2000VStep 25mm Gap UltraVolt Neg5000VStep 25mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]\nUltraVolt Neg5750VStep 25mm Gap UltraVolt Neg6000VStep 25mm Gap UltraVolt Neg6250VStep 25mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Transient Ion Current Measurements\nacme h.v.p.s. 25mm gap\nUltraVolt Neg1000VStep 25mm Gap UltraVolt Neg2000VStep 25mm Gap UltraVolt Neg5000VStep 25mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]\nUltraVolt Neg5750VStep 25mm Gap UltraVolt Neg6000VStep 25mm Gap UltraVolt Neg6250VStep 25mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b38",
+      "name": "Page 14 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 14,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "UltraVolt Neg1000VStep 25mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]",
+        "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5",
+        "UltraVolt Neg2000VStep 25mm Gap",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8",
+        "column_9",
+        "column_10",
+        "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)",
+        "UltraVolt Neg5000VStep 25mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 6,
+          "raw": {
+            "UltraVolt Neg1000VStep 25mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5": "",
+            "UltraVolt Neg2000VStep 25mm Gap": "0 100 200 300Time40 [0ms]500 600 700 80",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)": "",
+            "UltraVolt Neg5000VStep 25mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "UltraVolt Neg1000VStep 25mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]": "UltraVolt Neg5750VStep 25mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5": "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5",
+            "UltraVolt Neg2000VStep 25mm Gap": "UltraVolt Neg6000VStep 25mm Gap",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)": "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5",
+            "UltraVolt Neg5000VStep 25mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800": "UltraVolt Neg6250VStep 25mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "UltraVolt Neg1000VStep 25mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5": "",
+            "UltraVolt Neg2000VStep 25mm Gap": "0 100 200 300Time40 [0ms]500 600 700 80",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)": "",
+            "UltraVolt Neg5000VStep 25mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b39",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Transient Ion Current Measurements\nacme h.v.p.s. 35mm gap\n0\n−0.5\n−1\n−1.5\n−2\n−2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nUltraVolt Neg3000VStep 35mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nUltraVolt Neg3500VStep 35mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nUltraVolt Neg4000VStep 35mm Gap\nTime [ms]\n0\n−0.5\n−1\n−1.5\n−2\n−2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nUltraVolt Neg7000VStep 35mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nUltraVolt Neg7500VStep 35mm Gap\n0\n−0.5\n−1\n−1.5\n−2\nTime [ms] −2.50 100 200 300 400 500 600 700 800\n]Aµ[\ntnerruC\nnoI\nUltraVolt Neg8000VStep 35mm Gap\nTime [ms]\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "table",
+      "id": "b40",
+      "name": "Page 15 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 15,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Transient Ion Current Measurements\nacme h.v.p.s. 35mm gap\nUltraVolt Neg3000VStep 35mm Gap UltraVolt Neg3500VStep 35mm Gap UltraVolt Neg4000VStep 35mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]\nUltraVolt Neg7000VStep 35mm Gap UltraVolt Neg7500VStep 35mm Gap UltraVolt Neg8000VStep 35mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Transient Ion Current Measurements\nacme h.v.p.s. 35mm gap\nUltraVolt Neg3000VStep 35mm Gap UltraVolt Neg3500VStep 35mm Gap UltraVolt Neg4000VStep 35mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]\nUltraVolt Neg7000VStep 35mm Gap UltraVolt Neg7500VStep 35mm Gap UltraVolt Neg8000VStep 35mm Gap\n0 0 0\n−0.5 −0.5 −0.5\n]Aµ[ ]Aµ[ ]Aµ[\n−1 −1 −1\ntnerruC tnerruC tnerruC\n−1.5 noI −1.5 noI −1.5 noI\n−2 −2 −2\n−2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms] −2.50 100 200 300 400 500 600 700 800 Time [ms]": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b41",
+      "name": "Page 15 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 15,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "UltraVolt Neg3000VStep 35mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]",
+        "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5",
+        "UltraVolt Neg3500VStep 35mm Gap",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8",
+        "column_9",
+        "column_10",
+        "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)",
+        "UltraVolt Neg4000VStep 35mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 6,
+          "raw": {
+            "UltraVolt Neg3000VStep 35mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5": "",
+            "UltraVolt Neg3500VStep 35mm Gap": "0 100 200 300Time40 [0ms]500 600 700 80",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)": "",
+            "UltraVolt Neg4000VStep 35mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "UltraVolt Neg3000VStep 35mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]": "UltraVolt Neg7000VStep 35mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5": "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5",
+            "UltraVolt Neg3500VStep 35mm Gap": "UltraVolt Neg7500VStep 35mm Gap",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)": "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5",
+            "UltraVolt Neg4000VStep 35mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800": "UltraVolt Neg8000VStep 35mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "UltraVolt Neg3000VStep 35mm Gap\n0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n−2.50 100 200 300 400 500 600 700 80 Time [ms]": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5": "",
+            "UltraVolt Neg3500VStep 35mm Gap": "0 100 200 300Time40 [0ms]500 600 700 80",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "0\n−0.5\n]Aµ[\n−1\ntnerruC\n−1.5 noI\n−2\n0 −2.5 (2)": "",
+            "UltraVolt Neg4000VStep 35mm Gap\n0 100 200 300Time40 [0ms]500 600 700 800": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b42",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Schlieren Still Images\nInitialState PlumeInTransition\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "table",
+      "id": "b43",
+      "name": "Page 16 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 16,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Schlieren Still Images\nInitialState PlumeInTransition",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Schlieren Still Images\nInitialState PlumeInTransition": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b44",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Average Plume Velocity Vs Field Strength\nU = H/ t\nave\n4\nUCIH.V.P.S.\nAverage Plume Velocity Vs Field Strength\n25mm Gap\n160\n140\n120\n100\n80\n60\n40\n200 0.5 Field1 Strength [kV1.5/cm] 2 2.5\n]s/mc[\nevaU\nAverage Plume Velocity Vs Field Strength\n30mm Gap\n300\n250\n200\n150\n100\nData 50 Fit\nConfidence bounds\n00 0.5 Field1 Strength [kV1.5/cm] 2 2.5\n]s/mc[\nevaU\nAverage Plume Velocity Vs Field Strength\n35mm Gap\n240\n220\n200\n180\n160\n140 120\n100\n80 D Fi a t ta 60\nConfidence bounds\n400.4 0.6 0.8 1Field1 .2Stren1g.4th [kV1.6/cm]1.8 2 2.2 2.4\n]s/mc[\nevaU\nData Fit\nConfidence bounds\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "table",
+      "id": "b45",
+      "name": "Page 17 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 17,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Average Plume Velocity Vs Field Strength\nU = H/ t\nave\n4\nUCIH.V.P.S.\nAverage Plume Velocity Vs Field Strength Average Plume Velocity Vs Field Strength Average Plume Velocity Vs Field Strength\n25mm Gap 30mm Gap 35mm Gap\n160 300 240\n220\n140 250 200\n120 200 180\n100 ]s/mc[ ]s/mc[ 160 ]s/mc[\n80 evaU 150 evaU 140 120 evaU\n60 100 100\n40 Data 50 Fit 80 D Fi a t ta 60 Data Fit\nConfidence bounds Confidence bounds Confidence bounds\n200 0.5 Field1 Strength [kV1.5/cm] 2 2.5 00 0.5 Field1 Strength [kV1.5/cm] 2 2.5 400.4 0.6 0.8 1Field1 .2Stren1g.4th [kV1.6/cm]1.8 2 2.2 2.4",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Average Plume Velocity Vs Field Strength\nU = H/ t\nave\n4\nUCIH.V.P.S.\nAverage Plume Velocity Vs Field Strength Average Plume Velocity Vs Field Strength Average Plume Velocity Vs Field Strength\n25mm Gap 30mm Gap 35mm Gap\n160 300 240\n220\n140 250 200\n120 200 180\n100 ]s/mc[ ]s/mc[ 160 ]s/mc[\n80 evaU 150 evaU 140 120 evaU\n60 100 100\n40 Data 50 Fit 80 D Fi a t ta 60 Data Fit\nConfidence bounds Confidence bounds Confidence bounds\n200 0.5 Field1 Strength [kV1.5/cm] 2 2.5 00 0.5 Field1 Strength [kV1.5/cm] 2 2.5 400.4 0.6 0.8 1Field1 .2Stren1g.4th [kV1.6/cm]1.8 2 2.2 2.4": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b46",
+      "name": "Page 17 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 17,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Average Plume Velocity Vs Field Strength\n25mm Gap\n160\n140\n120\n100 ]s/mc[\n80 evaU\n60\n40 Data\nFit\nConfidence bounds\n200 0.5 Field1 Strength [kV1.5/cm] 2 2.",
+        "300\n250\n200\n]s/mc[\n150 evaU\n100\n50\n5 0",
+        "Average Plume Velocity Vs Field Strength\n30mm Gap",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8",
+        "column_9",
+        "240\n220\n200\n180\n160 ]s/mc[\n140 evaU\n120\n100\n80\n60\n5 400",
+        "Average Plume Velocity Vs Field Strength\n35mm Gap\nData\nFit\nConfidence bounds\n.4 0.6 0.8 1Field1 .2Stren1g.4th [kV1.6/cm]1.8 2 2.2 2.4"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Average Plume Velocity Vs Field Strength\n25mm Gap\n160\n140\n120\n100 ]s/mc[\n80 evaU\n60\n40 Data\nFit\nConfidence bounds\n200 0.5 Field1 Strength [kV1.5/cm] 2 2.": "",
+            "300\n250\n200\n]s/mc[\n150 evaU\n100\n50\n5 0": "",
+            "Average Plume Velocity Vs Field Strength\n30mm Gap": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "Data\nFit\nConfidence boun",
+            "column_8": "ds",
+            "column_9": "",
+            "240\n220\n200\n180\n160 ]s/mc[\n140 evaU\n120\n100\n80\n60\n5 400": "",
+            "Average Plume Velocity Vs Field Strength\n35mm Gap\nData\nFit\nConfidence bounds\n.4 0.6 0.8 1Field1 .2Stren1g.4th [kV1.6/cm]1.8 2 2.2 2.4": ""
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Average Plume Velocity Vs Field Strength\n25mm Gap\n160\n140\n120\n100 ]s/mc[\n80 evaU\n60\n40 Data\nFit\nConfidence bounds\n200 0.5 Field1 Strength [kV1.5/cm] 2 2.": "",
+            "300\n250\n200\n]s/mc[\n150 evaU\n100\n50\n5 0": "",
+            "Average Plume Velocity Vs Field Strength\n30mm Gap": "0 0.5 Field1 Strength [kV1.5/cm] 2 2.",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "240\n220\n200\n180\n160 ]s/mc[\n140 evaU\n120\n100\n80\n60\n5 400": "",
+            "Average Plume Velocity Vs Field Strength\n35mm Gap\nData\nFit\nConfidence bounds\n.4 0.6 0.8 1Field1 .2Stren1g.4th [kV1.6/cm]1.8 2 2.2 2.4": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b47",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Conclusions\n1. TransientEffectsduetoVoltageSteps\nI Awaveiscreatedinthermalplume. Thewaveismoreapparentnear\nsatuartionfieldsandforlongerelectrodespacings.\nI Averageplumewavevelocitywaslinearwithaveragefieldstrength\nI 75hzoscillationappearsintheioncurrentmeasurementswhenfieldstrength\nsurpasses2kV/cm. Thisoscillationcanclearlybeseenintheschlieren\nvideos\n2. Time-Scales\nI UCIH.V.powersupplyproduceselectrodepotentialontheorderofa1kVin\n2-3ms. TheACMEH.V.powersupplyproducesthesameelectrodepotential\natarate0.1kV/ms\nI Bulkofioncurrentarrivesdownstreamat 10-20ms\n⇡\nI PlumereactiontimeforavoltagestepfromtheUCIpowersupplywas\n2-3ms. TheplumereactiontimefortheACMEpowersupplywasseento\n⇡\nbelonger\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "table",
+      "id": "b48",
+      "name": "Page 18 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 18,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Conclusions\n1. TransientEffectsduetoVoltageSteps\nI Awaveiscreatedinthermalplume. Thewaveismoreapparentnear\nsatuartionfieldsandforlongerelectrodespacings.\nI Averageplumewavevelocitywaslinearwithaveragefieldstrength\nI 75hzoscillationappearsintheioncurrentmeasurementswhenfieldstrength\nsurpasses2kV/cm. Thisoscillationcanclearlybeseenintheschlieren\nvideos\n2. Time-Scales\nI UCIH.V.powersupplyproduceselectrodepotentialontheorderofa1kVin\n2-3ms. TheACMEH.V.powersupplyproducesthesameelectrodepotential\natarate0.1kV/ms\nI Bulkofioncurrentarrivesdownstreamat 10-20ms\n⇡\nI PlumereactiontimeforavoltagestepfromtheUCIpowersupplywas\n2-3ms. TheplumereactiontimefortheACMEpowersupplywasseento\n⇡\nbelonger",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Conclusions\n1. TransientEffectsduetoVoltageSteps\nI Awaveiscreatedinthermalplume. Thewaveismoreapparentnear\nsatuartionfieldsandforlongerelectrodespacings.\nI Averageplumewavevelocitywaslinearwithaveragefieldstrength\nI 75hzoscillationappearsintheioncurrentmeasurementswhenfieldstrength\nsurpasses2kV/cm. Thisoscillationcanclearlybeseenintheschlieren\nvideos\n2. Time-Scales\nI UCIH.V.powersupplyproduceselectrodepotentialontheorderofa1kVin\n2-3ms. TheACMEH.V.powersupplyproducesthesameelectrodepotential\natarate0.1kV/ms\nI Bulkofioncurrentarrivesdownstreamat 10-20ms\n⇡\nI PlumereactiontimeforavoltagestepfromtheUCIpowersupplywas\n2-3ms. TheplumereactiontimefortheACMEpowersupplywasseento\n⇡\nbelonger": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b49",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Acknowledgments\nThisworkissupportedbyNASAsISSResearchProjectviaagreement\nNNX11AP42A,withDennisStockerascontractmonitor.\nTheproductnamesandmodelsareprovidedonlyforclarificationandareinnowayanendorsementonthepartofNASAorthefederal\ngovernment.\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "table",
+      "id": "b50",
+      "name": "Page 19 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 19,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Acknowledgments\nThisworkissupportedbyNASAsISSResearchProjectviaagreement\nNNX11AP42A,withDennisStockerascontractmonitor.\nTheproductnamesandmodelsareprovidedonlyforclarificationandareinnowayanendorsementonthepartofNASAorthefederal\ngovernment.",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Acknowledgments\nThisworkissupportedbyNASAsISSResearchProjectviaagreement\nNNX11AP42A,withDennisStockerascontractmonitor.\nTheproductnamesandmodelsareprovidedonlyforclarificationandareinnowayanendorsementonthepartofNASAorthefederal\ngovernment.": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b51",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Thanksforyourattention\nASGSR2014,Pasadena Chemi-IonDrivenFlowsinaTimeVaryingElectricField",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "table",
+      "id": "b52",
+      "name": "Page 20 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 20,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Thanksforyourattention",
+        "column_2"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Thanksforyourattention": "ASGSR2014,Pasadena",
+            "column_2": "Chemi-IonDrivenFlowsinaTimeVaryingElectricField"
+          }
+        }
+      ]
+    }
+  ]
+}

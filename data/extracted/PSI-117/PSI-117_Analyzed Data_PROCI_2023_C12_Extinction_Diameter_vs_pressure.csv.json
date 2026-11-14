@@ -1,0 +1,199 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-117",
+  "format": "csv",
+  "source": {
+    "fileName": "PSI-117_Analyzed Data_PROCI_2023_C12_Extinction_Diameter_vs_pressure.csv",
+    "folder": "Analyzed Data",
+    "subfolder": "Reduced Gravity/Simulation/PROC1",
+    "key": "psi-data/PSI-117/Analyzed Data/PSI-117_Analyzed Data_PROCI_2023_C12_Extinction_Diameter_vs_pressure.csv",
+    "version": 1,
+    "sizeBytes": 449,
+    "sha256": "4ab6f8c19f40a3349096eab8bdceb0a62611020af15e63f816922b149cfa7001",
+    "localPath": "data/raw/PSI-117/Analyzed Data/Reduced Gravity/Simulation/PROC1/PSI-117_Analyzed Data_PROCI_2023_C12_Extinction_Diameter_vs_pressure.csv",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-117"
+  },
+  "extractor": {
+    "name": "csv",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:29:16+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "PSI-117_Analyzed Data_PROCI_2023_C12_Extinction_Diameter_vs_pressure: 5 empty header(s) named column_<n> (columns 3, 6, 9, 12, 15)",
+    "PSI-117_Analyzed Data_PROCI_2023_C12_Extinction_Diameter_vs_pressure: 5 duplicate header(s) renamed: P (atm) (2), P (atm) (3), P (atm) (4), P (atm) (5), P (atm) (6)"
+  ],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 1,
+    "tableRows": 6,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "table",
+      "id": "b1",
+      "name": "PSI-117_Analyzed Data_PROCI_2023_C12_Extinction_Diameter_vs_pressure",
+      "confidence": "high",
+      "location": {},
+      "headerRow": 1,
+      "columns": [
+        "P (atm)",
+        "Dext_HF_EXPT",
+        "column_3",
+        "P (atm) (2)",
+        "Dext_HF_model",
+        "column_6",
+        "P (atm) (3)",
+        "Dext_CF_EXPT",
+        "column_9",
+        "P (atm) (4)",
+        "Dext_CF_Model",
+        "column_12",
+        "P (atm) (5)",
+        "Dext_CF_ErrorBar+",
+        "column_15",
+        "P (atm) (6)",
+        "Dext_CF_ErrorBar-"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "P (atm)": "0.5",
+            "Dext_HF_EXPT": "3.48",
+            "column_3": "",
+            "P (atm) (2)": "0.5",
+            "Dext_HF_model": "3.43",
+            "column_6": "",
+            "P (atm) (3)": "0.5",
+            "Dext_CF_EXPT": "1.89",
+            "column_9": "",
+            "P (atm) (4)": "0.5",
+            "Dext_CF_Model": "1.19",
+            "column_12": "",
+            "P (atm) (5)": "0.5",
+            "Dext_CF_ErrorBar+": "2.29",
+            "column_15": "",
+            "P (atm) (6)": "0.5",
+            "Dext_CF_ErrorBar-": "0.66"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "P (atm)": "0.75",
+            "Dext_HF_EXPT": "3.57",
+            "column_3": "",
+            "P (atm) (2)": "0.75",
+            "Dext_HF_model": "3.69",
+            "column_6": "",
+            "P (atm) (3)": "0.75",
+            "Dext_CF_EXPT": "0.49",
+            "column_9": "",
+            "P (atm) (4)": "0.75",
+            "Dext_CF_Model": "0.41",
+            "column_12": "",
+            "P (atm) (5)": "0.75",
+            "Dext_CF_ErrorBar+": "0.81",
+            "column_15": "",
+            "P (atm) (6)": "0.75",
+            "Dext_CF_ErrorBar-": "0.23"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "P (atm)": "1",
+            "Dext_HF_EXPT": "3.56",
+            "column_3": "",
+            "P (atm) (2)": "1",
+            "Dext_HF_model": "3.68",
+            "column_6": "",
+            "P (atm) (3)": "1",
+            "Dext_CF_EXPT": "0.39",
+            "column_9": "",
+            "P (atm) (4)": "1",
+            "Dext_CF_Model": "0.25",
+            "column_12": "",
+            "P (atm) (5)": "1",
+            "Dext_CF_ErrorBar+": "0.67",
+            "column_15": "",
+            "P (atm) (6)": "1",
+            "Dext_CF_ErrorBar-": "0.15"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "P (atm)": "1.25",
+            "Dext_HF_EXPT": "3.62",
+            "column_3": "",
+            "P (atm) (2)": "1.25",
+            "Dext_HF_model": "3.74",
+            "column_6": "",
+            "P (atm) (3)": "1",
+            "Dext_CF_EXPT": "0.48",
+            "column_9": "",
+            "P (atm) (4)": "1.25",
+            "Dext_CF_Model": "0.33",
+            "column_12": "",
+            "P (atm) (5)": "1.25",
+            "Dext_CF_ErrorBar+": "0.58",
+            "column_15": "",
+            "P (atm) (6)": "1.25",
+            "Dext_CF_ErrorBar-": "0.14"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "P (atm)": "3",
+            "Dext_HF_EXPT": "3.56",
+            "column_3": "",
+            "P (atm) (2)": "3",
+            "Dext_HF_model": "3.94",
+            "column_6": "",
+            "P (atm) (3)": "1.25",
+            "Dext_CF_EXPT": "0.38",
+            "column_9": "",
+            "P (atm) (4)": "3",
+            "Dext_CF_Model": "0.03",
+            "column_12": "",
+            "P (atm) (5)": "3",
+            "Dext_CF_ErrorBar+": "0",
+            "column_15": "",
+            "P (atm) (6)": "3",
+            "Dext_CF_ErrorBar-": "0"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "P (atm)": "",
+            "Dext_HF_EXPT": "",
+            "column_3": "",
+            "P (atm) (2)": "",
+            "Dext_HF_model": "",
+            "column_6": "",
+            "P (atm) (3)": "3",
+            "Dext_CF_EXPT": "0",
+            "column_9": "",
+            "P (atm) (4)": "",
+            "Dext_CF_Model": "",
+            "column_12": "",
+            "P (atm) (5)": "",
+            "Dext_CF_ErrorBar+": "",
+            "column_15": "",
+            "P (atm) (6)": "",
+            "Dext_CF_ErrorBar-": ""
+          }
+        }
+      ]
+    }
+  ]
+}

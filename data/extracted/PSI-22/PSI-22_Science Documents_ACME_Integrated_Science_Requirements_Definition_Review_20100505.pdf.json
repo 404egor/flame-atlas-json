@@ -1,0 +1,2599 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-22",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-22_Science Documents_ACME_Integrated_Science_Requirements_Definition_Review_20100505.pdf",
+    "folder": "Science Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-22/Science Documents/PSI-22_Science Documents_ACME_Integrated_Science_Requirements_Definition_Review_20100505.pdf",
+    "version": 1,
+    "sizeBytes": 3119886,
+    "sha256": "de4fbf2c4b4a88629b7938c8a61cd1530ed77440188015cccc60d56dbe85a08e",
+    "localPath": "data/raw/PSI-22/Science Documents/PSI-22_Science Documents_ACME_Integrated_Science_Requirements_Definition_Review_20100505.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:17:32+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 7 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 7 table 3: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 15 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 16 table 1: 3 empty header(s) named column_<n> (columns 2-4)",
+    "Page 16 table 2: 1 line(s) above the header skipped",
+    "Page 20 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 30 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 39 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 40 table 1: 1 empty header(s) named column_<n> (columns 2)"
+  ],
+  "stats": {
+    "textBlocks": 40,
+    "characters": 22140,
+    "tables": 41,
+    "tableRows": 217,
+    "pages": 40
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nAACCMMEE\nAdvanced Combustion via Microgravity Experiments\nIntegrated Science Requirements\nRRequiirementts DDeffiiniittiion RReviiew\nMay 10-11, 2010\nCClleevveellaanndd, OOhhiioo\nwww.nasa.gov\n1",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "table",
+      "id": "b2",
+      "name": "Page 1 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration": "AACCMMEE"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration": "Advanced Combustion via Microgravity Experiments"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration": "Integrated Science Requirements"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration": "RRequiirementts DDeffiiniittiion RReviiew\nMay 10-11, 2010\nCClleevveellaanndd, OOhhiioo"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration": "www.nasa.gov\n1"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nInteggrated Science Reqquirements\n• Introduction\n– Expperiments\n– Concept\n• Requirements*\n– HHarddware RRequiirementts\n• Experiment Configuration\n• Monitoring Measurements\n• Science Diagnostics\nMDCA insert\n*NNoonn-hhaarrddwwaarree rreeqquuiirreemmeennttss wwiillll bbee aaddddrreesssseedd bbyy eeaacchh eexxppeerriimmeenntt\n– Operational Requirements\n– Test Matrices\n– SSuucccceessss CCrriitteerriiaa\nwww.nasa.gov\n2",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "table",
+      "id": "b4",
+      "name": "Page 2 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 2,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nInteggrated Science Reqquirements"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nInteggrated Science Reqquirements": "• Introduction\n– Expperiments"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nInteggrated Science Reqquirements": "– Concept\n• Requirements*"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nInteggrated Science Reqquirements": "– HHarddware RRequiirementts\n• Experiment Configuration\n• Monitoring Measurements"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nInteggrated Science Reqquirements": "• Science Diagnostics\nMDCA insert\n*NNoonn-hhaarrddwwaarree rreeqquuiirreemmeennttss wwiillll bbee aaddddrreesssseedd bbyy eeaacchh eexxppeerriimmeenntt"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nInteggrated Science Reqquirements": "– Operational Requirements\n– Test Matrices\n– SSuucccceessss CCrriitteerriiaa"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nInteggrated Science Reqquirements": "www.nasa.gov\n2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\n4 ACME Expperiments\n• CLD Flame\n– Coflow Laminar Diffusion Flame\n– PPII MMarshhallll LLong ((YYalle UU.))\n– Co-I Mitchell Smooke (Yale U.)\n• E-FIELD Flames\n– Electric Field Effects on Laminar Diffusion Flames\n– PI Derek Dunn-Rankin (UC Irvine)\n– Co-Is Felix Weinberg (Imperial College)\nZeng-Guang Yuan (NCSER)\n•• FFllaammee DDeessiiggnn\n- aa nnoovveell aapppprrooaacchh ttoo cclleeaann, eeffffiicciieenntt ddiiffffuussiioonn ffllaammeess\n– PI Richard L. Axelbaum (Washington U. in St. Louis)\n– Co-Is Beei-Huan Chao (U. Hawaii),\nPeter B. Sunderland (U. Maryland),\nDDaviidd LL. UUrbban ((NNAASSAA GGllenn))\n• s-Flame\n– Structure and Response of Spherical Diffusion Flames\n– PPII CC..KK.. LLaaww ((PPrriinncceettoonn UU..))\n– Co-Is Stephen D. Tse (Rutgers U.)\nKurt R. Sacksteder (NASA Glenn)\nwww.nasa.gov\n3",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "table",
+      "id": "b6",
+      "name": "Page 3 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 3,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\n4 ACME Expperiments"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\n4 ACME Expperiments": "• CLD Flame\n– Coflow Laminar Diffusion Flame"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\n4 ACME Expperiments": "– PPII MMarshhallll LLong ((YYalle UU.))\n– Co-I Mitchell Smooke (Yale U.)\n• E-FIELD Flames\n– Electric Field Effects on Laminar Diffusion Flames"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\n4 ACME Expperiments": "– PI Derek Dunn-Rankin (UC Irvine)\n– Co-Is Felix Weinberg (Imperial College)\nZeng-Guang Yuan (NCSER)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\n4 ACME Expperiments": "•• FFllaammee DDeessiiggnn\n- aa nnoovveell aapppprrooaacchh ttoo cclleeaann, eeffffiicciieenntt ddiiffffuussiioonn ffllaammeess\n– PI Richard L. Axelbaum (Washington U. in St. Louis)\n– Co-Is Beei-Huan Chao (U. Hawaii),\nPeter B. Sunderland (U. Maryland),"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\n4 ACME Expperiments": "DDaviidd LL. UUrbban ((NNAASSAA GGllenn))\n• s-Flame\n– Structure and Response of Spherical Diffusion Flames\n– PPII CC..KK.. LLaaww ((PPrriinncceettoonn UU..))"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\n4 ACME Expperiments": "– Co-Is Stephen D. Tse (Rutgers U.)\nKurt R. Sacksteder (NASA Glenn)\nwww.nasa.gov\n3"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames\n• 4 previous space experiments\n– LSP: Laminar Soot Processes\n• PPII:: GG.MM. FFaaeetthh ((UU. MMiicchhiiggaann))\n• Combustion Module\n• STS-83 and STS-94 (1997), STS-107 (2003)\n– TGDF: Turbulent Gas-jjet Diffusion Flames\n• PI: M.Y. Bahadori (SAIC)\n• Get Away Special Canister (GAS can)\n• STS-87 (1997)\n– EELLFF:: EEnncclloosseedd LLaammiinnaarr FFllaammeess\n• PI: L.-D. Chen (U. Iowa)\n• Middeck Glovebox (MGBX)\n• STS-87 (1997)\n– SPICE: Smoke Point In Coflow Experiment\n• PI: D.L. Urban (NASA Glenn) - initially G.M. Faeth\n• Microgravity Science Glovebox (MSG)\n• IISSSS EExxppeeddiittiioonnss 1188-1199 ((22000099))\nRoger Crouch with CM-1 on STS-83 (top), Michael Barratt with SPICE (bottom) www.nasa.gov 4",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "table",
+      "id": "b8",
+      "name": "Page 4 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 4,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames": "• 4 previous space experiments\n– LSP: Laminar Soot Processes"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames": "• PPII:: GG.MM. FFaaeetthh ((UU. MMiicchhiiggaann))\n• Combustion Module\n• STS-83 and STS-94 (1997), STS-107 (2003)\n– TGDF: Turbulent Gas-jjet Diffusion Flames"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames": "• PI: M.Y. Bahadori (SAIC)\n• Get Away Special Canister (GAS can)\n• STS-87 (1997)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames": "– EELLFF:: EEnncclloosseedd LLaammiinnaarr FFllaammeess\n• PI: L.-D. Chen (U. Iowa)\n• Middeck Glovebox (MGBX)\n• STS-87 (1997)"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames": "– SPICE: Smoke Point In Coflow Experiment\n• PI: D.L. Urban (NASA Glenn) - initially G.M. Faeth\n• Microgravity Science Glovebox (MSG)\n• IISSSS EExxppeeddiittiioonnss 1188-1199 ((22000099))"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames": "Roger Crouch with CM-1 on STS-83 (top), Michael Barratt with SPICE (bottom) www.nasa.gov 4"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nACME Conceppt\n• ACME experiments all use laminar gaseous diffusion flames\n• Conduct them using a single modular insert for the Combustion\nIntegrated Rack (CIR) on the International Space Station (ISS)\n– The only currently existing insert is for droplet combustion experiments\nKoichi Wakata with MDCA in CIR (left), ISS (right) www.nasa.gov 5",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "table",
+      "id": "b10",
+      "name": "Page 5 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 5,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nACME Conceppt"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Conceppt": "• ACME experiments all use laminar gaseous diffusion flames\n• Conduct them using a single modular insert for the Combustion"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Conceppt": "Integrated Rack (CIR) on the International Space Station (ISS)\n– The only currently existing insert is for droplet combustion experiments"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Conceppt": "Koichi Wakata with MDCA in CIR (left), ISS (right) www.nasa.gov 5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nACME Hardware\n• ACME hardware\n– single modular insert\n– aavviioonniiccss bbooxx\n– color camera(s) & optics\n– gas bottles, filter cartridges, etc.\nNicole Stott with MDCA (left), CIR (right) www.nasa.gov 6",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "table",
+      "id": "b12",
+      "name": "Page 6 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 6,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nACME Hardware"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware": "• ACME hardware\n– single modular insert\n– aavviioonniiccss bbooxx"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware": "– color camera(s) & optics\n– gas bottles, filter cartridges, etc."
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware": "Nicole Stott with MDCA (left), CIR (right) www.nasa.gov 6"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nACME Insert Concept\nLamp(s) to\nMesh electrode or SiC fiber array for TFP\nilluminate\n(vertically translating)\nconfiguration\nMesh electrode\nRadiometer\nRaaddioomeetteer\nPMT\nPMT Radiometer\nPMT\nRadiometer\nRadiometer\nHigh-voltage\npower supply\nwith current P\nmeasurement\nIIggnniitteerr ((rreettrraaccttiinngg))\nFuel MFC Mixer\nInert MFC Thermocouples\nOxidizer MFC\nwww.nasa.gov\n7",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "table",
+      "id": "b14",
+      "name": "Page 7 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 7,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nACME Insert Concept",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 10,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Insert Concept": "",
+            "column_2": "Lamp(s) to\nMesh electrode or SiC fiber array for TFP\nilluminate\n(vertically translating)\nconfiguration",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Insert Concept": "",
+            "column_2": "Mesh electrode\nRadiometer\nRaaddioomeetteer",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Insert Concept": "",
+            "column_2": "",
+            "column_3": "Radiometer"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Insert Concept": "",
+            "column_2": "",
+            "column_3": "Raaddioomeetteer"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Insert Concept": "",
+            "column_2": "PMT\nPMT\nPMT",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Insert Concept": "",
+            "column_2": "",
+            "column_3": "Radiometer"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Insert Concept": "",
+            "column_2": "",
+            "column_3": "Radiometer"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Insert Concept": "",
+            "column_2": "Radiometer\nHigh-voltage\npower supply\nwith current P\nmeasurement\nIIggnniitteerr ((rreettrraaccttiinngg))",
+            "column_3": "Radiometer"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Insert Concept": "",
+            "column_2": "Fuel MFC Mixer\nInert MFC Thermocouples",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Insert Concept": "Oxidizer MFC\nwww.nasa.gov\n7",
+            "column_2": "Oxidizer MFC",
+            "column_3": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b15",
+      "name": "Page 7 table 3",
+      "confidence": "low",
+      "location": {
+        "page": 7,
+        "table": 3
+      },
+      "headerRow": 1,
+      "columns": [
+        "PMT",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 2,
+          "raw": {
+            "PMT": "",
+            "column_2": "P",
+            "column_3": "MT\nPMT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b16",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nScience Reqquirements Disallowed\n• ACME must be done within resource constraints\n• DDiiffffiiccuulltt//ccoossttllyy oorr ddeessiirreedd rreeqquuiirreemmeennttss wweerree nnoott aalllloowweedd\n– Measurements\n• CH* imaging\n•• iinnffrraarreedd iimmaaggiinngg\n• Schlieren and shadowgraph imaging\n• PAH limit\n• ssoooott iinncceeppttiioonn lliimmiitt bbyy llaasseerr ssccaatttteerriinngg\n• soot sampling\n• species concentrations (other than via CIR’s GC)\n• bburrnneerr ggaass tteemmppeerraatturreess\n– Testing\n• oxygen concentrations over 40% in the chamber\n• dynamic venting ffor constant pressure testing\nwww.nasa.gov\n8",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "table",
+      "id": "b17",
+      "name": "Page 8 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 8,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nScience Reqquirements Disallowed"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nScience Reqquirements Disallowed": "• ACME must be done within resource constraints\n• DDiiffffiiccuulltt//ccoossttllyy oorr ddeessiirreedd rreeqquuiirreemmeennttss wweerree nnoott aalllloowweedd"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nScience Reqquirements Disallowed": "– Measurements\n• CH* imaging"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nScience Reqquirements Disallowed": "•• iinnffrraarreedd iimmaaggiinngg\n• Schlieren and shadowgraph imaging\n• PAH limit"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nScience Reqquirements Disallowed": "• ssoooott iinncceeppttiioonn lliimmiitt bbyy llaasseerr ssccaatttteerriinngg\n• soot sampling\n• species concentrations (other than via CIR’s GC)"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nScience Reqquirements Disallowed": "• bburrnneerr ggaass tteemmppeerraatturreess\n– Testing\n• oxygen concentrations over 40% in the chamber"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nScience Reqquirements Disallowed": "• dynamic venting ffor constant pressure testing\nwww.nasa.gov\n8"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b18",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nNominal Opperational Seqquence\n• Flow > Ignite > Measure > Extinguish\n– Initiate burner flows at iggnition condition\n– Ignite flame\n• Wait for flame to stabilize\n–– IIff nneeeeddeedd, aaddjjuusstt fflloowwss ttoo iinniittiiaall tteesstt ccoonnddiittiioonn\n• Wait for flame to stabilize\n– If needed:\n• rraammpp bbuurrnneerr ffllooww((ss))\n• activate and adjust electric field\n• translate TFP array\n– SSttop bburner ffllows\n• per extinction detection or test duration\nNicole Stott with CIR www.nasa.gov 9",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "table",
+      "id": "b19",
+      "name": "Page 9 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 9,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nNominal Opperational Seqquence"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nNominal Opperational Seqquence": "• Flow > Ignite > Measure > Extinguish\n– Initiate burner flows at iggnition condition"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nNominal Opperational Seqquence": "– Ignite flame\n• Wait for flame to stabilize\n–– IIff nneeeeddeedd, aaddjjuusstt fflloowwss ttoo iinniittiiaall tteesstt ccoonnddiittiioonn"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nNominal Opperational Seqquence": "• Wait for flame to stabilize\n– If needed:"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nNominal Opperational Seqquence": "• rraammpp bbuurrnneerr ffllooww((ss))\n• activate and adjust electric field\n• translate TFP array"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nNominal Opperational Seqquence": "– SSttop bburner ffllows\n• per extinction detection or test duration"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nNominal Opperational Seqquence": "Nicole Stott with CIR www.nasa.gov 9"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b20",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nACME Hardware Reqquirements\n• Experiment Configuration\n– General ((1.1))\n– Burners (1.2-1.4)\n– Electric Field (1.5-1.7)\n– GGaass DDeelliivveerryy ((11.88-11.99))\n– Ignition (1.10)\n– Ambient Environment (1.11)\n– Data Acquisition (1.12)\n• Monitoring Measurements\n•• SScciieennccee DDiiaaggnnoossttiiccss\nFrank DeWinne with CIR www.nasa.gov 10",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "table",
+      "id": "b21",
+      "name": "Page 10 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 10,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nACME Hardware Reqquirements"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "• Experiment Configuration\n– General ((1.1))"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "– Burners (1.2-1.4)\n– Electric Field (1.5-1.7)"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "– GGaass DDeelliivveerryy ((11.88-11.99))\n– Ignition (1.10)\n– Ambient Environment (1.11)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "– Data Acquisition (1.12)\n• Monitoring Measurements"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "•• SScciieennccee DDiiaaggnnoossttiiccss"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "Frank DeWinne with CIR www.nasa.gov 10"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b22",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nGeneral Reqquirements ((1.1))\n• Burners all burners accommodated, but only one at a time\nexchangeable during spaceflight\none duplicate of each provided to Project Scientist\n• Compatibility of burners and gas delivery system\n– fuels H2, CH4, C2H6, C3H8, C2H4, C3H6, and mixes\n– inerts N2, CO2, He, Ne, Ar, Kr, Xe, and mixes\n– fuel/inert mixtures of any fuel(s) and inert(s) above\n– oxygen mix ≤85% oxygen with any fuel(s) and/or inerts above\n• Chamber contents compatible with ≤40% oxygen\n• Simultaneous all configuration requirements apply simultaneously\nunless otherwise specified\nwww.nasa.gov\n11",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "table",
+      "id": "b23",
+      "name": "Page 11 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 11,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nGeneral Reqquirements ((1.1))"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nGeneral Reqquirements ((1.1))": "• Burners all burners accommodated, but only one at a time\nexchangeable during spaceflight"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nGeneral Reqquirements ((1.1))": "one duplicate of each provided to Project Scientist\n• Compatibility of burners and gas delivery system"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nGeneral Reqquirements ((1.1))": "– fuels H2, CH4, C2H6, C3H8, C2H4, C3H6, and mixes\n– inerts N2, CO2, He, Ne, Ar, Kr, Xe, and mixes\n– fuel/inert mixtures of any fuel(s) and inert(s) above"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nGeneral Reqquirements ((1.1))": "– oxygen mix ≤85% oxygen with any fuel(s) and/or inerts above\n• Chamber contents compatible with ≤40% oxygen"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nGeneral Reqquirements ((1.1))": "• Simultaneous all configuration requirements apply simultaneously\nunless otherwise specified"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nGeneral Reqquirements ((1.1))": "www.nasa.gov\n11"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b24",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nBurners ((1.2-1.4))\n• 3 types of exchangeable burners\n– pporous sppherical burners ((3 sizes))\n– circular gas-jet burners (6 sizes)\n– axisymmetric, coflow burner (1 size)\n•• ccaappaabbllee ooff iinnvveerrssee ffllaammeess\nwww.nasa.gov\n12",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "table",
+      "id": "b25",
+      "name": "Page 12 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 12,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nBurners ((1.2-1.4))"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurners ((1.2-1.4))": "• 3 types of exchangeable burners\n– pporous sppherical burners ((3 sizes))"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurners ((1.2-1.4))": "– circular gas-jet burners (6 sizes)\n– axisymmetric, coflow burner (1 size)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurners ((1.2-1.4))": "•• ccaappaabbllee ooff iinnvveerrssee ffllaammeess"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurners ((1.2-1.4))": "www.nasa.gov\n12"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b26",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nSppherical Burners ((1.2))\n• Porous sphere ODs 6.4, 9.5, 12.7 mm known to ±0.1 mm\n• Burner tube\n– inner diameter so pressure drop is ≤20% of that across burner\n– outer diameter ≤25% of sphere diameter\n– length ≥100 mm\n– material stainless steel\n• Sphericity 2.2s drop verification of flame with r /r >0.8\nmin max\n• Positions (1) centered in chamber & windows\nor (2) 30 mm ‘below’ window center\n• Volume (internal) ≤10 cc from last solenoid valves\n• Resistance withstand 0-450 oC\nwww.nasa.gov\n13",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "table",
+      "id": "b27",
+      "name": "Page 13 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 13,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nSppherical Burners ((1.2))"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nSppherical Burners ((1.2))": "• Porous sphere ODs 6.4, 9.5, 12.7 mm known to ±0.1 mm\n• Burner tube"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nSppherical Burners ((1.2))": "– inner diameter so pressure drop is ≤20% of that across burner\n– outer diameter ≤25% of sphere diameter\n– length ≥100 mm"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nSppherical Burners ((1.2))": "– material stainless steel\n• Sphericity 2.2s drop verification of flame with r /r >0.8\nmin max\n• Positions (1) centered in chamber & windows"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nSppherical Burners ((1.2))": "or (2) 30 mm ‘below’ window center\n• Volume (internal) ≤10 cc from last solenoid valves\n• Resistance withstand 0-450 oC"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nSppherical Burners ((1.2))": "www.nasa.gov\n13"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b28",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nGas-Jet Burners ((1.3))\n• Shape straight tube with circular cross section\n• Length ≥40 inner diameters\n• Tube sizes 0.4±0.1 mm ID, 0.8±0.1 mm OD\n0.8±0.1 mm ID, 1.2±0.1 mm OD\n1.3±0.1 mm ID, 1.6±0.1 mm OD\n2.1±0.1 mm ID, 2.4±0.1 mm OD\n2.7±0.1 mm ID, 3.1±0.1 mm wall\n3.2±0.1 mm ID, 3.6±0.1 mm wall\nID and OD known to ±0.05 mm\n• Burner tip smooth, free from burs\n• Position on chamber axis either:\n(1) 10 mm ‘below’ window center\n(2) 30 mm ‘below’ window center\n• Material stainless steel\n• Resistance withstand 0-1000 oC\nSoot volume fraction measurement in LSP experiment on STS-83 www.nasa.gov 14",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "table",
+      "id": "b29",
+      "name": "Page 14 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 14,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nGas-Jet Burners ((1.3))"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas-Jet Burners ((1.3))": "• Shape straight tube with circular cross section\n• Length ≥40 inner diameters"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas-Jet Burners ((1.3))": "• Tube sizes 0.4±0.1 mm ID, 0.8±0.1 mm OD\n0.8±0.1 mm ID, 1.2±0.1 mm OD\n1.3±0.1 mm ID, 1.6±0.1 mm OD"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas-Jet Burners ((1.3))": "2.1±0.1 mm ID, 2.4±0.1 mm OD\n2.7±0.1 mm ID, 3.1±0.1 mm wall\n3.2±0.1 mm ID, 3.6±0.1 mm wall"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas-Jet Burners ((1.3))": "ID and OD known to ±0.05 mm\n• Burner tip smooth, free from burs\n• Position on chamber axis either:"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas-Jet Burners ((1.3))": "(1) 10 mm ‘below’ window center\n(2) 30 mm ‘below’ window center\n• Material stainless steel"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas-Jet Burners ((1.3))": "• Resistance withstand 0-1000 oC\nSoot volume fraction measurement in LSP experiment on STS-83 www.nasa.gov 14"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b30",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nCoflow Burner ((1.4))\nHoneycomb\n• Concentricity within ±0.3 mm\n• Outlets orthogonal and flat within ±0.1 mm\n•• DDiimmeennssiioonnss\n– inner tube 2.1±0.1 mm ID, 2.4±0.1 mm OD,\nlength of ≥40 inner diameters\n≤≤1100 cccc vvoolluummee ffrroomm llaasstt ssoolleennooiidd vvaallvveess\n0.5 to 1.0 mm downstream of annular outlet\nstainless steel\n– outer tube 25±0.5 mm ID\n0.0 to 0.5 downstream of annular outlet\n• Annular flow axisymmetric, plug flow for velocities of ≤50 cm/s\nno swirl or turbulence\n≤0.75 mm boundary layer at inner tube\nwell characterized with cold flow for 10-50 cm/s\n• Axisymmetry flame axisymmetry demonstrated in 1g and 0g\n• PPoossiittiioonn cceenntteerreedd, 1122 mmmm ‘bbeellooww’ wwiinnddooww cceenntteerr\n• Resistance withstand 0-1000 oC range\nwww.nasa.gov\n15",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "table",
+      "id": "b31",
+      "name": "Page 15 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 15,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nCoflow Burner ((1.4))",
+        "column_2"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nCoflow Burner ((1.4))": "Honeycomb\n• Concentricity within ±0.3 mm\n• Outlets orthogonal and flat within ±0.1 mm",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nCoflow Burner ((1.4))": "",
+            "column_2": "Honeycomb"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nCoflow Burner ((1.4))": "•• DDiimmeennssiioonnss\n– inner tube 2.1±0.1 mm ID, 2.4±0.1 mm OD,\nlength of ≥40 inner diameters\n≤≤1100 cccc vvoolluummee ffrroomm llaasstt ssoolleennooiidd vvaallvveess",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "National Aeronautics and Space Administration\nCoflow Burner ((1.4))": "0.5 to 1.0 mm downstream of annular outlet\nstainless steel\n– outer tube 25±0.5 mm ID",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "National Aeronautics and Space Administration\nCoflow Burner ((1.4))": "0.0 to 0.5 downstream of annular outlet\n• Annular flow axisymmetric, plug flow for velocities of ≤50 cm/s\nno swirl or turbulence",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "National Aeronautics and Space Administration\nCoflow Burner ((1.4))": "≤0.75 mm boundary layer at inner tube\nwell characterized with cold flow for 10-50 cm/s\n• Axisymmetry flame axisymmetry demonstrated in 1g and 0g",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "National Aeronautics and Space Administration\nCoflow Burner ((1.4))": "• PPoossiittiioonn cceenntteerreedd, 1122 mmmm ‘bbeellooww’ wwiinnddooww cceenntteerr\n• Resistance withstand 0-1000 oC range\nwww.nasa.gov\n15",
+            "column_2": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b32",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nElectric Field ((1.5-1.7))\nNozzle\nInsulator\nMesh\nGGaass ssuuppppllyy\nelectrode\ntubes\nShunt for current\nmmeeaassuurreemmeenntt,, RRss\nHH.VV.\nCChhambber\nLow voltage input, e.g., 0-24VDC\nwww.nasa.gov\n16",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "table",
+      "id": "b33",
+      "name": "Page 16 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 16,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nElectric Field ((1.5-1.7))",
+        "column_2",
+        "column_3",
+        "column_4"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectric Field ((1.5-1.7))": "",
+            "column_2": "Nozzle",
+            "column_3": "",
+            "column_4": "Insulator"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectric Field ((1.5-1.7))": "Mesh\nGGaass ssuuppppllyy\nelectrode\ntubes\nShunt for current\nmmeeaassuurreemmeenntt,, RRss",
+            "column_2": "",
+            "column_3": "",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectric Field ((1.5-1.7))": "HH.VV.",
+            "column_2": "",
+            "column_3": "",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectric Field ((1.5-1.7))": "CChhambber\nLow voltage input, e.g., 0-24VDC\nwww.nasa.gov\n16",
+            "column_2": "",
+            "column_3": "",
+            "column_4": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b34",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nElectrodes: Burner ((1.5)) and Mesh ((1.6))\nBurner as Electrode (1.5) - doesn’t apply to spherical burners\n• Resistance <1 Ohm along/across burner (i.e., same potential)\n• Insulation burner insulated from the chamber\nElectrode Mesh (1.6)\n• Shape flat circle\n• Material copper (mesh and ring)\n• Mesh 16-22 wires/inch\n0.38-0.64 mm diameter wire\n• Edge 2-3 mm diameter ring\n• Size ≥80 mm diameter (ring OD)\n• Orientation orthogonal and on chamber axis\n• Position 25 or 40 mm ‘above’ window centers\n• Removable duringg sppacefligght\nwww.nasa.gov\n17",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "table",
+      "id": "b35",
+      "name": "Page 17 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 17,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nElectrodes: Burner ((1.5)) and Mesh ((1.6))"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectrodes: Burner ((1.5)) and Mesh ((1.6))": "Burner as Electrode (1.5) - doesn’t apply to spherical burners\n• Resistance <1 Ohm along/across burner (i.e., same potential)"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectrodes: Burner ((1.5)) and Mesh ((1.6))": "• Insulation burner insulated from the chamber\nElectrode Mesh (1.6)"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectrodes: Burner ((1.5)) and Mesh ((1.6))": "• Shape flat circle\n• Material copper (mesh and ring)\n• Mesh 16-22 wires/inch"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectrodes: Burner ((1.5)) and Mesh ((1.6))": "0.38-0.64 mm diameter wire\n• Edge 2-3 mm diameter ring\n• Size ≥80 mm diameter (ring OD)"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectrodes: Burner ((1.5)) and Mesh ((1.6))": "• Orientation orthogonal and on chamber axis\n• Position 25 or 40 mm ‘above’ window centers\n• Removable duringg sppacefligght"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectrodes: Burner ((1.5)) and Mesh ((1.6))": "www.nasa.gov\n17"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b36",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nElectric Field ((1.7))\n• Voltage range -10 to +10 kV set within ±0.1% of set point\n• Step change any polarity and magnitude within range\n≤5 ms rise time\n• Alternating polarity sequence of steps at 0-100 Hz (mimic AC field)\n• Uplink voltage, polarity, step changes, timing\n• No conductive contact mesh and burner (except for temp. measurement)\n• Conductive free zone ≥30 mm more than mesh diameter\nfrom burner to ≥20 mm downstream of mesh\n• Current leakage <100 nanoamps (at ±10 kV with a 35-mm spacing)\n• Removable high voltage power supplies, associated electronics\nwww.nasa.gov\n18",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "table",
+      "id": "b37",
+      "name": "Page 18 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 18,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nElectric Field ((1.7))"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectric Field ((1.7))": "• Voltage range -10 to +10 kV set within ±0.1% of set point\n• Step change any polarity and magnitude within range"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectric Field ((1.7))": "≤5 ms rise time\n• Alternating polarity sequence of steps at 0-100 Hz (mimic AC field)\n• Uplink voltage, polarity, step changes, timing"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectric Field ((1.7))": "• No conductive contact mesh and burner (except for temp. measurement)\n• Conductive free zone ≥30 mm more than mesh diameter\nfrom burner to ≥20 mm downstream of mesh"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectric Field ((1.7))": "• Current leakage <100 nanoamps (at ±10 kV with a 35-mm spacing)\n• Removable high voltage power supplies, associated electronics"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectric Field ((1.7))": "www.nasa.gov\n18"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b38",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nGas Supppplyy ((1.8))\n• For required testing\n– fuels 100% H2, 100% CH4, 100% C2H4\nHH22//CCHH44 mmiixxeess*:: 5555.66//4444.44, 4444.44//5555.66, 6666.77//3333.33\n– oxidizers** O2/N2 mixes*: 85/15, 50/50, 30/70, 21/79\n40/60 O2/He\n– inerts 100% N2 (available from ISS), 100% He\n• For desired testing\n– fuels none\n– oxidizers** O2/CO2 mixes*: 85/15, 40/60\n– iinneerrttss 110000%% CCOO22\n*Mixes on a molar (volume) basis\n**CIR gas bottles limited to ≤85% O2\nwww.nasa.gov\n19",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "table",
+      "id": "b39",
+      "name": "Page 19 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 19,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nGas Supppplyy ((1.8))"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas Supppplyy ((1.8))": "• For required testing\n– fuels 100% H2, 100% CH4, 100% C2H4\nHH22//CCHH44 mmiixxeess*:: 5555.66//4444.44, 4444.44//5555.66, 6666.77//3333.33"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas Supppplyy ((1.8))": "– oxidizers** O2/N2 mixes*: 85/15, 50/50, 30/70, 21/79\n40/60 O2/He\n– inerts 100% N2 (available from ISS), 100% He"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas Supppplyy ((1.8))": "• For desired testing\n– fuels none\n– oxidizers** O2/CO2 mixes*: 85/15, 40/60\n– iinneerrttss 110000%% CCOO22"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas Supppplyy ((1.8))": "*Mixes on a molar (volume) basis\n**CIR gas bottles limited to ≤85% O2\nwww.nasa.gov\n19"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b40",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nBurner Gas Deliveryy ((1.9))\n• Capability simultaneous flow of fuel, oxidizer, and inert to burner\n(coflow burner: each gas to inner or outer tube, not both)\n• Uplink mixture composition, flow rates\n• Composition ±0.01 mole fraction, known as function of time\n• Flow rate control accuracy of ≤5% (plus shut off capability)\n• Flow capacity 60s at maximum flow rates (see below)\n• Gas temperature 300±10 K\n• Contaminants ≤0.001 mole fraction, dry\n• Flow ranges see below (slpm on a N2 basis)\nCLD E-FIELD E-FIELD Flame Flame Flame\nFlame Flames Flames Design Design Design s-Flame\ncoffllow gas jjett coffllow sphheriicall coffllow** coffllow**** sphheriicall\nfuel 0.2 0.1 0.1 0.3 0.3 2.0 0.5\noxy 15 n/a 2.0 3.0 20 2.0 n/a\niinneerrtt 00..11 00..0055 00..0055 1100 22..00 2200 11..00\n*normal **inverse\nwww.nasa.gov\n20",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "table",
+      "id": "b41",
+      "name": "Page 20 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 20,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nBurner Gas Deliveryy ((1.9))",
+        "column_2"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurner Gas Deliveryy ((1.9))": "• Capability simultaneous flow of fuel, oxidizer, and inert to burner\n(coflow burner: each gas to inner or outer tube, not both)",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurner Gas Deliveryy ((1.9))": "• Uplink mixture composition, flow rates\n• Composition ±0.01 mole fraction, known as function of time\n• Flow rate control accuracy of ≤5% (plus shut off capability)",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurner Gas Deliveryy ((1.9))": "• Flow capacity 60s at maximum flow rates (see below)\n• Gas temperature 300±10 K\n• Contaminants ≤0.001 mole fraction, dry",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurner Gas Deliveryy ((1.9))": "• Flow ranges see below (slpm on a N2 basis)\nCLD E-FIELD E-FIELD Flame Flame Flame\nFlame Flames Flames Design Design Design s-Flame",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurner Gas Deliveryy ((1.9))": "",
+            "column_2": "CLD E-FIELD E-FIELD Flame Flame Flame\nFlame Flames Flames Design Design Design s-Flame"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurner Gas Deliveryy ((1.9))": "",
+            "column_2": "coffllow gas jjett coffllow sphheriicall coffllow** coffllow**** sphheriicall\nfuel 0.2 0.1 0.1 0.3 0.3 2.0 0.5\noxy 15 n/a 2.0 3.0 20 2.0 n/a\niinneerrtt 00..11 00..0055 00..0055 1100 22..00 2200 11..00"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurner Gas Deliveryy ((1.9))": "*normal **inverse\nwww.nasa.gov\n20",
+            "column_2": "*normal **inverse"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b42",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nIggnition ((1.10))\n• Reliable ignite all initial flow conditions\nverified to ignite within 1 s in 1g at limiting/extreme conditions\n• Disturbance minimize hydrodynamic wakes\n• Insertion ≥30 s before igniton\n• Retraction ≤0.5 s after ignition\n• Energy variable and minimized\n• Duration uplinkable and variable between 0-10 s\nMDCA ignition www.nasa.gov 21",
+      "location": {
+        "page": 21
+      }
+    },
+    {
+      "type": "table",
+      "id": "b43",
+      "name": "Page 21 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 21,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nIggnition ((1.10))"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nIggnition ((1.10))": "• Reliable ignite all initial flow conditions\nverified to ignite within 1 s in 1g at limiting/extreme conditions"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nIggnition ((1.10))": "• Disturbance minimize hydrodynamic wakes\n• Insertion ≥30 s before igniton\n• Retraction ≤0.5 s after ignition"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nIggnition ((1.10))": "• Energy variable and minimized\n• Duration uplinkable and variable between 0-10 s"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nIggnition ((1.10))": "MDCA ignition www.nasa.gov 21"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b44",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nAmbient Environment ((1.11))\n• Composition uplinkable and variable to ±0.01 mole fraction\n• Contaminants ≤0.01 mole fraction and dry, unless waived\n• Atmosphere well mixed\n• Quiescent 300 s hold period before ignition\n• Pressure 0.1 to 3 bar within ±3% of set point\n• Temperature 290-310 K, uniform within ±5 K\n• Free volume ≥80 liters, symmetric as possible\n• Free zone\n– spherical flames ≥200 mm diameter\n– non-spherical ≥150 mm diameter cylinder, ≥200 mm up, etc.\n• Disturbance limit burner flow, combustion, probe motion, g-jitter\n• No test prohibition during thruster firing, docking, or undocking\n• ‘Black’ background no reflection or emission in view of sensor\n• Emissivity ≥0.5 except for burners, probe tips, igniter, etc.\nReq’t for dynamic venting was disallowed because of difficulty & cost!\nwww.nasa.gov\n22",
+      "location": {
+        "page": 22
+      }
+    },
+    {
+      "type": "table",
+      "id": "b45",
+      "name": "Page 22 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 22,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nAmbient Environment ((1.11))"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nAmbient Environment ((1.11))": "• Composition uplinkable and variable to ±0.01 mole fraction\n• Contaminants ≤0.01 mole fraction and dry, unless waived"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nAmbient Environment ((1.11))": "• Atmosphere well mixed\n• Quiescent 300 s hold period before ignition\n• Pressure 0.1 to 3 bar within ±3% of set point"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nAmbient Environment ((1.11))": "• Temperature 290-310 K, uniform within ±5 K\n• Free volume ≥80 liters, symmetric as possible\n• Free zone"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nAmbient Environment ((1.11))": "– spherical flames ≥200 mm diameter\n– non-spherical ≥150 mm diameter cylinder, ≥200 mm up, etc.\n• Disturbance limit burner flow, combustion, probe motion, g-jitter"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nAmbient Environment ((1.11))": "• No test prohibition during thruster firing, docking, or undocking\n• ‘Black’ background no reflection or emission in view of sensor\n• Emissivity ≥0.5 except for burners, probe tips, igniter, etc."
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nAmbient Environment ((1.11))": "Req’t for dynamic venting was disallowed because of difficulty & cost!\nwww.nasa.gov\n22"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b46",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nData Synchronization & Recording (1.12)\n• Synchronization common time reference, within 2x response time\n• Data acquisition start & stop times can be uplinked\nimaging ≤1 min before ignition, ≤1 min after extinction\nnon-imaging ≤5 min before ignition, ≤5 min after extinction\n• Downlink can downlink from only selected imaging systems\ncan downlink image data for selected time period(s)\n• Recording simultaneous for all of the following\nmonitoring chamber pressure, gas flow rates, burner pressure\nddiifffferenttiiall ((sphheriicall ffllames)), ellecttriicall pottenttiiall ((EE-\nFIELD Flames only), acceleration\ndiagnostics\niimmaaggiinngg ccoolloorr iimmaaggiinngg ffoorr ooppeerraattiioonnss, ccoolloorr iimmaaggiinngg ffoorr ddaattaa\nanalysis, UV imaging, pyrometry, soot volume fraction\nnon-imaging burner & far-field temperatures, radiant emission,\ncchheemmiilluummiinneesscceenntt eemmiissssiioonn,, iioonn ccuurrrreenntt ((EE-FFIIEELLDD\nFlames only)\nwww.nasa.gov\n23",
+      "location": {
+        "page": 23
+      }
+    },
+    {
+      "type": "table",
+      "id": "b47",
+      "name": "Page 23 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 23,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nData Synchronization & Recording (1.12)"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nData Synchronization & Recording (1.12)": "• Synchronization common time reference, within 2x response time\n• Data acquisition start & stop times can be uplinked"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nData Synchronization & Recording (1.12)": "imaging ≤1 min before ignition, ≤1 min after extinction\nnon-imaging ≤5 min before ignition, ≤5 min after extinction\n• Downlink can downlink from only selected imaging systems"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nData Synchronization & Recording (1.12)": "can downlink image data for selected time period(s)\n• Recording simultaneous for all of the following\nmonitoring chamber pressure, gas flow rates, burner pressure"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nData Synchronization & Recording (1.12)": "ddiifffferenttiiall ((sphheriicall ffllames)), ellecttriicall pottenttiiall ((EE-\nFIELD Flames only), acceleration\ndiagnostics"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nData Synchronization & Recording (1.12)": "iimmaaggiinngg ccoolloorr iimmaaggiinngg ffoorr ooppeerraattiioonnss, ccoolloorr iimmaaggiinngg ffoorr ddaattaa\nanalysis, UV imaging, pyrometry, soot volume fraction\nnon-imaging burner & far-field temperatures, radiant emission,\ncchheemmiilluummiinneesscceenntt eemmiissssiioonn,, iioonn ccuurrrreenntt ((EE-FFIIEELLDD"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nData Synchronization & Recording (1.12)": "Flames only)\nwww.nasa.gov\n23"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b48",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nACME Hardware Reqquirements\n• Experiment Configuration\n• MMoonniittoorriinngg MMeeaassuurreemmeennttss\n– Chamber Pressure (2.1)\n– Oxygen Concentration (2.2)\n– GGas FFllow RRattes ((22.33))\n– Burner Pressure Differential (2.4)\n– Electrical Potential (2.5)\n– Acceleration (2.6)\n• Science Diagnostics\nThese measurements are required to\nverify boundary and initial conditions\nand thus enable modeling and analysis.\nMichael Barratt with MDCA in CIR www.nasa.gov 24",
+      "location": {
+        "page": 24
+      }
+    },
+    {
+      "type": "table",
+      "id": "b49",
+      "name": "Page 24 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 24,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nACME Hardware Reqquirements"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "• Experiment Configuration\n• MMoonniittoorriinngg MMeeaassuurreemmeennttss"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "– Chamber Pressure (2.1)\n– Oxygen Concentration (2.2)"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "– GGas FFllow RRattes ((22.33))\n– Burner Pressure Differential (2.4)\n– Electrical Potential (2.5)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "– Acceleration (2.6)\n• Science Diagnostics"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "These measurements are required to\nverify boundary and initial conditions"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "and thus enable modeling and analysis.\nMichael Barratt with MDCA in CIR www.nasa.gov 24"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b50",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nGas Monitoringg ((2.1-2.3))\nChamber Pressure (2.1)\n• Accuracy ±1% of reading\n• Range 0.1-4.0 bar absolute\n• Frequency ≥1 samples/s\n• Response time ≤0.5 s\nChamber Oxygen Concentration (2.2)\n• Instrument Gas Chromatograph Instrumentation Package (GCIP)\n• Measure when? prior to each test, after filling, scrubbing (if any), & mixing\nGas Flow Rates ((2.3))\n• Accuracy ±5% of reading\n• Frequency ≥10 samples/s\n• Respponse time ≤1 s\n• Measure all supply lines during testing whether or not in use\nwww.nasa.gov\n25",
+      "location": {
+        "page": 25
+      }
+    },
+    {
+      "type": "table",
+      "id": "b51",
+      "name": "Page 25 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 25,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nGas Monitoringg ((2.1-2.3))"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas Monitoringg ((2.1-2.3))": "Chamber Pressure (2.1)\n• Accuracy ±1% of reading"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas Monitoringg ((2.1-2.3))": "• Range 0.1-4.0 bar absolute\n• Frequency ≥1 samples/s\n• Response time ≤0.5 s"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas Monitoringg ((2.1-2.3))": "Chamber Oxygen Concentration (2.2)\n• Instrument Gas Chromatograph Instrumentation Package (GCIP)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas Monitoringg ((2.1-2.3))": "• Measure when? prior to each test, after filling, scrubbing (if any), & mixing\nGas Flow Rates ((2.3))"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas Monitoringg ((2.1-2.3))": "• Accuracy ±5% of reading\n• Frequency ≥10 samples/s\n• Respponse time ≤1 s"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas Monitoringg ((2.1-2.3))": "• Measure all supply lines during testing whether or not in use\nwww.nasa.gov\n25"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b52",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nOther Monitoringg ((2.4-2.6))\nBurner Pressure Differential (2.4) – only required for spherical flames\n• Difference across porous spherical burner (i.e., versus chamber)\n• Accuracy ±2% of reading\n• Range 0.1 to ~1.5x pressure drop at 5 slpm (on N2 basis)\n• Frequency ≥10 samples/s\n• Response time ≤0.5 s\nElectric Potential (2.4) – for E-FIELD Flames only\n• Accuracy ±1% of reading\n• Range matching range of electric field\n• Frequency ≥1 samples/s\n• Response time ≤0.5 s\nAcceleration (2.6)\n• Instrument Space Acceleration Measurement System (SAMS)\n• Sensor location at or near CIR\nwww.nasa.gov\n26",
+      "location": {
+        "page": 26
+      }
+    },
+    {
+      "type": "table",
+      "id": "b53",
+      "name": "Page 26 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 26,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nOther Monitoringg ((2.4-2.6))"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nOther Monitoringg ((2.4-2.6))": "Burner Pressure Differential (2.4) – only required for spherical flames\n• Difference across porous spherical burner (i.e., versus chamber)"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nOther Monitoringg ((2.4-2.6))": "• Accuracy ±2% of reading\n• Range 0.1 to ~1.5x pressure drop at 5 slpm (on N2 basis)\n• Frequency ≥10 samples/s"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nOther Monitoringg ((2.4-2.6))": "• Response time ≤0.5 s\nElectric Potential (2.4) – for E-FIELD Flames only"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nOther Monitoringg ((2.4-2.6))": "• Accuracy ±1% of reading\n• Range matching range of electric field\n• Frequency ≥1 samples/s"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nOther Monitoringg ((2.4-2.6))": "• Response time ≤0.5 s\nAcceleration (2.6)"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nOther Monitoringg ((2.4-2.6))": "• Instrument Space Acceleration Measurement System (SAMS)\n• Sensor location at or near CIR\nwww.nasa.gov\n26"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b54",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nACME Hardware Reqquirements\n• Experiment Configuration\n• MMoonniittoorriinngg MMeeaassuurreemmeennttss\n• Science Diagnostics\n– Color Imaging for Ops (3.1)\n– Color Imaging for Data (3.2)\n– Ultraviolet (UV) Imaging (3.3)\n– Tempperature ((33.4))\n– Soot Volume Fraction (3.5)\n– Radiant Emission (3.6)\n– CChheemmiilluummiinneesscceenntt EEmmiissssiioonn ((33.77))\n– Ion Current (3.8)\n– Post-Test Gas Composition (3.9)\nMDCA and CIR www.nasa.gov 27",
+      "location": {
+        "page": 27
+      }
+    },
+    {
+      "type": "table",
+      "id": "b55",
+      "name": "Page 27 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 27,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nACME Hardware Reqquirements"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "• Experiment Configuration\n• MMoonniittoorriinngg MMeeaassuurreemmeennttss"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "• Science Diagnostics\n– Color Imaging for Ops (3.1)"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "– Color Imaging for Data (3.2)\n– Ultraviolet (UV) Imaging (3.3)\n– Tempperature ((33.4))"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "– Soot Volume Fraction (3.5)\n– Radiant Emission (3.6)"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "– CChheemmiilluummiinneesscceenntt EEmmiissssiioonn ((33.77))\n– Ion Current (3.8)\n– Post-Test Gas Composition (3.9)"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware Reqquirements": "MDCA and CIR www.nasa.gov 27"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b56",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nColor Imaggingg for Opperations ((3.1))\n• Range, spectral 0.4-0.7 µm\n• Focus chamber axis\n• FOV include ≥90 mm circle\n• Uplink control at least gain or iris\n• Framing rate ≥25 fps\n• Downlink near-real time\n• Exchangeable yes (e.g., because of radiation susceptibility)\n• Illumination optional via uplink\nMichael Barratt with MDCA and CIR www.nasa.gov 28",
+      "location": {
+        "page": 28
+      }
+    },
+    {
+      "type": "table",
+      "id": "b57",
+      "name": "Page 28 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 28,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nColor Imaggingg for Opperations ((3.1))"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nColor Imaggingg for Opperations ((3.1))": "• Range, spectral 0.4-0.7 µm\n• Focus chamber axis"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nColor Imaggingg for Opperations ((3.1))": "• FOV include ≥90 mm circle\n• Uplink control at least gain or iris\n• Framing rate ≥25 fps"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nColor Imaggingg for Opperations ((3.1))": "• Downlink near-real time\n• Exchangeable yes (e.g., because of radiation susceptibility)\n• Illumination optional via uplink"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nColor Imaggingg for Opperations ((3.1))": "Michael Barratt with MDCA and CIR www.nasa.gov 28"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b58",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nColor Imaggingg for Data Analyysis ((3.2))\n• Range, spectral 0.4-0.7 µm\n• Sensitivity ≥ cameras with Sony ICX285 2/3” CCD\n• Lens f-number ≤2.8\n• Spatial resolution ≤0.2% FOV dimension\n• Bit depth ≥3x12 (i.e., 12 bits each for red, green, blue)\n• Focus chamber axis, centered with chamber windows\n• FOV: 1D flames ≥90 mm diameter\n• FOV: 2D flames 35 mm along axis, ≥20 mm wide\n• Orientation long dimension (if any) with chamber axis\n• Views ≥1\n• Filter option to image with or without BG-7 filter\n• Framing rate ≥20 fps\n• Uplink control ≥ bit depth, gain, iris, exposure time,\nframing rate, binning, Region Of Interest (ROI)\n• Characterization blackbody with 800-1200 oC, etc., etc., etc.\n• Exchangeable yes, in spaceflight\nwww.nasa.gov\n29",
+      "location": {
+        "page": 29
+      }
+    },
+    {
+      "type": "table",
+      "id": "b59",
+      "name": "Page 29 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 29,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nColor Imaggingg for Data Analyysis ((3.2))"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nColor Imaggingg for Data Analyysis ((3.2))": "• Range, spectral 0.4-0.7 µm\n• Sensitivity ≥ cameras with Sony ICX285 2/3” CCD"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nColor Imaggingg for Data Analyysis ((3.2))": "• Lens f-number ≤2.8\n• Spatial resolution ≤0.2% FOV dimension\n• Bit depth ≥3x12 (i.e., 12 bits each for red, green, blue)"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nColor Imaggingg for Data Analyysis ((3.2))": "• Focus chamber axis, centered with chamber windows\n• FOV: 1D flames ≥90 mm diameter\n• FOV: 2D flames 35 mm along axis, ≥20 mm wide"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nColor Imaggingg for Data Analyysis ((3.2))": "• Orientation long dimension (if any) with chamber axis\n• Views ≥1\n• Filter option to image with or without BG-7 filter"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nColor Imaggingg for Data Analyysis ((3.2))": "• Framing rate ≥20 fps\n• Uplink control ≥ bit depth, gain, iris, exposure time,\nframing rate, binning, Region Of Interest (ROI)"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nColor Imaggingg for Data Analyysis ((3.2))": "• Characterization blackbody with 800-1200 oC, etc., etc., etc.\n• Exchangeable yes, in spaceflight\nwww.nasa.gov\n29"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b60",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nUltraviolet (UV) Imaging (3.3)\n• Specifications generally similar to color imaging\n• Spectral range OH*, 310 nm, 10 nm FWHM*\n• FOV\n– 1D flames ≥75 mm diameter\n– 2D flames 60±5mm along chamber axis,\n≥30 mm wide\n* Full Width at Half Maximum\nr - ←→ r +\nAbel deconvolved OH*\nimage from s-Flame\nLLL-UV camera (right) www.nasa.gov 30",
+      "location": {
+        "page": 30
+      }
+    },
+    {
+      "type": "table",
+      "id": "b61",
+      "name": "Page 30 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 30,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nUltraviolet (UV) Imaging (3.3)",
+        "column_2"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nUltraviolet (UV) Imaging (3.3)": "• Specifications generally similar to color imaging\n• Spectral range OH*, 310 nm, 10 nm FWHM*",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nUltraviolet (UV) Imaging (3.3)": "• FOV\n– 1D flames ≥75 mm diameter\n– 2D flames 60±5mm along chamber axis,",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nUltraviolet (UV) Imaging (3.3)": "≥30 mm wide\n* Full Width at Half Maximum",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "National Aeronautics and Space Administration\nUltraviolet (UV) Imaging (3.3)": "",
+            "column_2": "r - ←→ r +"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "National Aeronautics and Space Administration\nUltraviolet (UV) Imaging (3.3)": "Abel deconvolved OH*\nimage from s-Flame\nLLL-UV camera (right) www.nasa.gov 30",
+            "column_2": "Abel deconvolved OH*\nimage from s-Flame"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b62",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nTempperature: Burner ((3.4.1))\n• Position\n– Spherical burner 20o to 90o of tube\nnot visible in ≥1 color view\n– 2D burners at/near nozzle tip\n• Non-disturbance flame symmetry verified via testing\n• Probe size (if any) ≤250 micron\n• Range\n– Spherical burner 0-700 oC\n– 2D burners 0-300 oC\n• Precision ±2 oC\n• Accuracy ±5 oC\n• Frequency ≥10 samples/s\n• Response time ≤0.5 s\nFrank DeWinne with CIR www.nasa.gov 31",
+      "location": {
+        "page": 31
+      }
+    },
+    {
+      "type": "table",
+      "id": "b63",
+      "name": "Page 31 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 31,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nTempperature: Burner ((3.4.1))"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nTempperature: Burner ((3.4.1))": "• Position\n– Spherical burner 20o to 90o of tube"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nTempperature: Burner ((3.4.1))": "not visible in ≥1 color view\n– 2D burners at/near nozzle tip\n• Non-disturbance flame symmetry verified via testing"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nTempperature: Burner ((3.4.1))": "• Probe size (if any) ≤250 micron\n• Range\n– Spherical burner 0-700 oC"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nTempperature: Burner ((3.4.1))": "– 2D burners 0-300 oC\n• Precision ±2 oC\n• Accuracy ±5 oC"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nTempperature: Burner ((3.4.1))": "• Frequency ≥10 samples/s\n• Response time ≤0.5 s"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nTempperature: Burner ((3.4.1))": "Frank DeWinne with CIR www.nasa.gov 31"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b64",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nTemperature: Hot Soot-Containing Regions (3.4.2)\n• FOV\n– Spherical flames ≥85 mm diameter\n– 2D flames 50±5 mm along axis, ≥20 mm wide\n• Characterization required for any new instrumentation\n• Gain variable\n• Frequency ≥0.2 sample/s\n• Response time ≤5 s\n• Uplink gain, start & stop times\nHiBMs camera www.nasa.gov 3322",
+      "location": {
+        "page": 32
+      }
+    },
+    {
+      "type": "table",
+      "id": "b65",
+      "name": "Page 32 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 32,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nTemperature: Hot Soot-Containing Regions (3.4.2)"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nTemperature: Hot Soot-Containing Regions (3.4.2)": "• FOV\n– Spherical flames ≥85 mm diameter"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nTemperature: Hot Soot-Containing Regions (3.4.2)": "– 2D flames 50±5 mm along axis, ≥20 mm wide\n• Characterization required for any new instrumentation\n• Gain variable"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nTemperature: Hot Soot-Containing Regions (3.4.2)": "• Frequency ≥0.2 sample/s\n• Response time ≤5 s\n• Uplink gain, start & stop times"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nTemperature: Hot Soot-Containing Regions (3.4.2)": "HiBMs camera www.nasa.gov 3322"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b66",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nTemperature: Hot Soot-Free Regions (3.4.3)\n• Where? orthogonal to chamber axis, in plane including axis\n• Multiple lines ≥5 lines spaced 5±0.5 mm apart\nppoossiittiioonn kknnoowwnn ttoo ±±11 mmmm\n• If fibers… retract to ≥100 mm from burner\npartial retraction to burn off soot\n15 micron oxidized SiC fibers\n≤≤2255oo tto ortthhogonall off corresponddiing iimagiing\nremovable & exchangeable during spaceflight\n• FOV\n– SSpphheerriiccaall ffllaammeess ≥≥8855 mmmm ddiiaammeetteerr\n– 2D flames 50±5 mm along axis, ≥20 mm wide\n• Characterization required for any new instrumentation\n•• FFrreeqquueennccyy ≥≥00.22 ssaammppllee//ss\n• Response time ≤5 s\n• Uplink gain, start & stop times\nwww.nasa.gov\n33",
+      "location": {
+        "page": 33
+      }
+    },
+    {
+      "type": "table",
+      "id": "b67",
+      "name": "Page 33 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 33,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nTemperature: Hot Soot-Free Regions (3.4.3)"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nTemperature: Hot Soot-Free Regions (3.4.3)": "• Where? orthogonal to chamber axis, in plane including axis\n• Multiple lines ≥5 lines spaced 5±0.5 mm apart\nppoossiittiioonn kknnoowwnn ttoo ±±11 mmmm"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nTemperature: Hot Soot-Free Regions (3.4.3)": "• If fibers… retract to ≥100 mm from burner\npartial retraction to burn off soot\n15 micron oxidized SiC fibers"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nTemperature: Hot Soot-Free Regions (3.4.3)": "≤≤2255oo tto ortthhogonall off corresponddiing iimagiing\nremovable & exchangeable during spaceflight\n• FOV"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nTemperature: Hot Soot-Free Regions (3.4.3)": "– SSpphheerriiccaall ffllaammeess ≥≥8855 mmmm ddiiaammeetteerr\n– 2D flames 50±5 mm along axis, ≥20 mm wide\n• Characterization required for any new instrumentation"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nTemperature: Hot Soot-Free Regions (3.4.3)": "•• FFrreeqquueennccyy ≥≥00.22 ssaammppllee//ss\n• Response time ≤5 s\n• Uplink gain, start & stop times"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nTemperature: Hot Soot-Free Regions (3.4.3)": "www.nasa.gov\n33"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b68",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nTempperature: Far-Field ((3.4.4))\n• Unobstructed open path to burner, avoid ≤20o of burner tube\n• Positions (radial)\ncclloossee oorr 1133, 2255, 5500, 110000, 220000, 220000 mmmm\ndistant 45, 60, 100, 100, 200, 200 mm\n• Range 700-1700 oC for r≤40 mm, otherwise 0-1250 oC\n• AAccccuurraaccyy ±±33 oCC ffoorr rr≤≤4400 mmmm, ±±11 oCC ffoorr oouutteerr ppoossiittiioonnss\n• Frequency ≥10 sample/s\n• Response time ≤0.1 s in air at 1 bar at ≤20 m/s\n• FFrreeee zzoonnee ≥≥5500 mmmm ddiiaa. ccyylliinnddeerr ffrroomm cceenntteerr ttoo ppoossiittiioonn && bbeeyyoonndd\n• TC probe, if any within ±10o of parallel to ray from center for r≤100 mm\n• TC size ≤0.2 mm OD within 5 mm of tip\n≤≤22 mmmm OODD wwiitthhiinn 2200 mmmm ooff ttiipp\n≤3.5 mm OD within 50 mm of tip\n• Exchangeable during spaceflight\n• EE-FFIIEELLDD FFllaammeess nnoott rreeqquuiirreedd\nwww.nasa.gov\n34",
+      "location": {
+        "page": 34
+      }
+    },
+    {
+      "type": "table",
+      "id": "b69",
+      "name": "Page 34 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 34,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nTempperature: Far-Field ((3.4.4))"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nTempperature: Far-Field ((3.4.4))": "• Unobstructed open path to burner, avoid ≤20o of burner tube\n• Positions (radial)"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nTempperature: Far-Field ((3.4.4))": "cclloossee oorr 1133, 2255, 5500, 110000, 220000, 220000 mmmm\ndistant 45, 60, 100, 100, 200, 200 mm\n• Range 700-1700 oC for r≤40 mm, otherwise 0-1250 oC\n• AAccccuurraaccyy ±±33 oCC ffoorr rr≤≤4400 mmmm, ±±11 oCC ffoorr oouutteerr ppoossiittiioonnss"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nTempperature: Far-Field ((3.4.4))": "• Frequency ≥10 sample/s\n• Response time ≤0.1 s in air at 1 bar at ≤20 m/s\n• FFrreeee zzoonnee ≥≥5500 mmmm ddiiaa. ccyylliinnddeerr ffrroomm cceenntteerr ttoo ppoossiittiioonn && bbeeyyoonndd"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nTempperature: Far-Field ((3.4.4))": "• TC probe, if any within ±10o of parallel to ray from center for r≤100 mm\n• TC size ≤0.2 mm OD within 5 mm of tip\n≤≤22 mmmm OODD wwiitthhiinn 2200 mmmm ooff ttiipp"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nTempperature: Far-Field ((3.4.4))": "≤3.5 mm OD within 50 mm of tip\n• Exchangeable during spaceflight\n• EE-FFIIEELLDD FFllaammeess nnoott rreeqquuiirreedd"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nTempperature: Far-Field ((3.4.4))": "www.nasa.gov\n34"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b70",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nSoot Volume Fraction ((3.5))\n• FOV: 1D flames ≥45 mm along the chamber axis, ≥45 mm wide\n• FOV: 2D flames ≥25 mm along the chamber axis, ≥25 mm wide\n•• IImmaaggeess iilllluummiinnaattiioonn, ffllaammee, iilllluummiinnaattiioonn pplluuss ffllaammee\n• Frequency ≥1 samples/s\n• Response time ≤1 s\n• UUpplliinnkk ccoonnttrrooll ssttaarrtt aanndd ssttoopp ttiimmeess\nSandra Magnus with CIR (left), CIR illumination package (right) www.nasa.gov 35",
+      "location": {
+        "page": 35
+      }
+    },
+    {
+      "type": "table",
+      "id": "b71",
+      "name": "Page 35 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 35,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nSoot Volume Fraction ((3.5))"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nSoot Volume Fraction ((3.5))": "• FOV: 1D flames ≥45 mm along the chamber axis, ≥45 mm wide\n• FOV: 2D flames ≥25 mm along the chamber axis, ≥25 mm wide"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nSoot Volume Fraction ((3.5))": "•• IImmaaggeess iilllluummiinnaattiioonn, ffllaammee, iilllluummiinnaattiioonn pplluuss ffllaammee\n• Frequency ≥1 samples/s\n• Response time ≤1 s\n• UUpplliinnkk ccoonnttrrooll ssttaarrtt aanndd ssttoopp ttiimmeess"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nSoot Volume Fraction ((3.5))": "Sandra Magnus with CIR (left), CIR illumination package (right) www.nasa.gov 35"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b72",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nRadiant Emission ((3.6))\n• Accuracy ±10%\n• FOV cone ≥120 mm in diameter at the chamber axis\n•• LLiinneeaarr aarrrraayy ≥≥55 sseennssoorrss ssppaacceedd ≤≤3300 mmmm\northogonal (±3 degrees) to chamber axis\ncentered with chamber windows\n• AAnngglleedd aarrrraayy ≥≥11 nnoonn-oorrtthhooggoonnaall sseennssoorrss eexxtteennddiinngg ttoo ≥≥6600o\n• Range\n– Spectral 0.2-11 microns\n– Irradiance 0.0001-0.1 W/cm2\n• Frequency ≥60 samples/s\n• Response time ≤0.05 s\nMichael Fincke with MDCA www.nasa.gov 36",
+      "location": {
+        "page": 36
+      }
+    },
+    {
+      "type": "table",
+      "id": "b73",
+      "name": "Page 36 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 36,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nRadiant Emission ((3.6))"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nRadiant Emission ((3.6))": "• Accuracy ±10%\n• FOV cone ≥120 mm in diameter at the chamber axis"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nRadiant Emission ((3.6))": "•• LLiinneeaarr aarrrraayy ≥≥55 sseennssoorrss ssppaacceedd ≤≤3300 mmmm\northogonal (±3 degrees) to chamber axis\ncentered with chamber windows\n• AAnngglleedd aarrrraayy ≥≥11 nnoonn-oorrtthhooggoonnaall sseennssoorrss eexxtteennddiinngg ttoo ≥≥6600o"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nRadiant Emission ((3.6))": "• Range\n– Spectral 0.2-11 microns\n– Irradiance 0.0001-0.1 W/cm2"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nRadiant Emission ((3.6))": "• Frequency ≥60 samples/s\n• Response time ≤0.05 s"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nRadiant Emission ((3.6))": "Michael Fincke with MDCA www.nasa.gov 36"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b74",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nChemiluminescent Emission ((3.7))\n• Range, spectral simultaneous for each\n– OH* 310 nm with ≥10 nm or larger FWHM\n– CCHH** 443311 nnmm wwiitthh ≥≥1100 nnmm oorr llaarrggeerr FFWWHHMM\n– broadband ≤300 to at least ~600 nm\n• FOV 120 mm diameter sphere at window center\n• SSeennssiittiivviittyy ttoo ffllaammee ggoooodd aass hhuummaann eeyyee, vveerriiffiieedd iinn 11gg\n• Frequency ≥120 samples/s\n• Response time ≤5 ms\n• Exchanggeable in sppacefligght\nKoichi Wakata with MDCA in CIR www.nasa.gov 37",
+      "location": {
+        "page": 37
+      }
+    },
+    {
+      "type": "table",
+      "id": "b75",
+      "name": "Page 37 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 37,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nChemiluminescent Emission ((3.7))"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nChemiluminescent Emission ((3.7))": "• Range, spectral simultaneous for each\n– OH* 310 nm with ≥10 nm or larger FWHM"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nChemiluminescent Emission ((3.7))": "– CCHH** 443311 nnmm wwiitthh ≥≥1100 nnmm oorr llaarrggeerr FFWWHHMM\n– broadband ≤300 to at least ~600 nm\n• FOV 120 mm diameter sphere at window center\n• SSeennssiittiivviittyy ttoo ffllaammee ggoooodd aass hhuummaann eeyyee, vveerriiffiieedd iinn 11gg"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nChemiluminescent Emission ((3.7))": "• Frequency ≥120 samples/s\n• Response time ≤5 ms\n• Exchanggeable in sppacefligght"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nChemiluminescent Emission ((3.7))": "Koichi Wakata with MDCA in CIR www.nasa.gov 37"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b76",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nOther Science Diaggnostics ((3.8-3.9))\nIon Current (3.8) – E-FIELD Flames only\n• Measure between the burner and mesh\n• Range 0-25 microamps\n• Accuracy ≤ larger of (±5% of reading) or (±0.05 microamps)\n• Frequency ≥120 samples/s\n• Response time ≤1 ms\nPost-Test Gas Composition (3.9)\n• Instrument Gas Chromatograph Instrumentation Package (GCIP)\n• Measure when? (1) immediately after extinction and/or (2) after mixing\n• Species at least CO, CO2, CH4, C2H2, C2H4, N2, O2\nwww.nasa.gov\n38",
+      "location": {
+        "page": 38
+      }
+    },
+    {
+      "type": "table",
+      "id": "b77",
+      "name": "Page 38 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 38,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nOther Science Diaggnostics ((3.8-3.9))"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nOther Science Diaggnostics ((3.8-3.9))": "Ion Current (3.8) – E-FIELD Flames only\n• Measure between the burner and mesh"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nOther Science Diaggnostics ((3.8-3.9))": "• Range 0-25 microamps\n• Accuracy ≤ larger of (±5% of reading) or (±0.05 microamps)\n• Frequency ≥120 samples/s"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nOther Science Diaggnostics ((3.8-3.9))": "• Response time ≤1 ms\nPost-Test Gas Composition (3.9)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nOther Science Diaggnostics ((3.8-3.9))": "• Instrument Gas Chromatograph Instrumentation Package (GCIP)\n• Measure when? (1) immediately after extinction and/or (2) after mixing\n• Species at least CO, CO2, CH4, C2H2, C2H4, N2, O2"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nOther Science Diaggnostics ((3.8-3.9))": "www.nasa.gov\n38"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b78",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nMaajjoor CChaanggeess ssinccee SSCCR\n• Added\n– Inverse sppherical flame testingg ((tentative,, assumingg safetyy apppproval))\n– Color imaging for operations (i.e., with near real-time downlink)\n• Eliminated\n(where most items were desired)\n– DDynamiic venttiing\n– Oxygen measurement (other than via GCIP)\n– Burner gas temperature measurement\n– CH* imaging\n– IR imaging\n– SScchhlliieerreenn oorr sshhaaddoowwggrraapphh iimmaaggiinngg\n• Other Changes\n– Reduced maximum oxygen in chamber from 50% to 40%\nwww.nasa.gov\n39",
+      "location": {
+        "page": 39
+      }
+    },
+    {
+      "type": "table",
+      "id": "b79",
+      "name": "Page 39 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 39,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nMaajjoor CChaanggeess ssinccee SSCCR",
+        "column_2"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nMaajjoor CChaanggeess ssinccee SSCCR": "• Added\n– Inverse sppherical flame testingg ((tentative,, assumingg safetyy apppproval))",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nMaajjoor CChaanggeess ssinccee SSCCR": "",
+            "column_2": "• Added\n– Inverse sppherical flame testingg ((tentative,, assumingg safetyy apppproval))"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nMaajjoor CChaanggeess ssinccee SSCCR": "",
+            "column_2": "– Color imaging for operations (i.e., with near real-time downlink)\n• Eliminated\n(where most items were desired)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nMaajjoor CChaanggeess ssinccee SSCCR": "",
+            "column_2": "– DDynamiic venttiing\n– Oxygen measurement (other than via GCIP)\n– Burner gas temperature measurement"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nMaajjoor CChaanggeess ssinccee SSCCR": "",
+            "column_2": "– CH* imaging\n– IR imaging\n– SScchhlliieerreenn oorr sshhaaddoowwggrraapphh iimmaaggiinngg"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nMaajjoor CChaanggeess ssinccee SSCCR": "",
+            "column_2": "• Other Changes\n– Reduced maximum oxygen in chamber from 50% to 40%"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "National Aeronautics and Space Administration\nMaajjoor CChaanggeess ssinccee SSCCR": "www.nasa.gov\n39",
+            "column_2": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b80",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nNASSA SSccieenccee Teeaam\n• Dennis Stocker, Project Scientist\n• DDrr. FFuummiiaakkii TTaakkaahhaasshhii, DDeeppuuttyy PPrroojjeecctt SScciieennttiisstt\n• Jay Owens, Imaging Technology\nWile E. Coyote ® www.nasa.gov 40",
+      "location": {
+        "page": 40
+      }
+    },
+    {
+      "type": "table",
+      "id": "b81",
+      "name": "Page 40 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 40,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nNASSA SSccieenccee Teeaam",
+        "column_2"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nNASSA SSccieenccee Teeaam": "• Dennis Stocker, Project Scientist\n• DDrr. FFuummiiaakkii TTaakkaahhaasshhii, DDeeppuuttyy PPrroojjeecctt SScciieennttiisstt",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nNASSA SSccieenccee Teeaam": "",
+            "column_2": "• Dennis Stocker, Project Scientist\n• DDrr. FFuummiiaakkii TTaakkaahhaasshhii, DDeeppuuttyy PPrroojjeecctt SScciieennttiisstt"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nNASSA SSccieenccee Teeaam": "",
+            "column_2": "• Jay Owens, Imaging Technology"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "National Aeronautics and Space Administration\nNASSA SSccieenccee Teeaam": "Wile E. Coyote ® www.nasa.gov 40",
+            "column_2": ""
+          }
+        }
+      ]
+    }
+  ]
+}

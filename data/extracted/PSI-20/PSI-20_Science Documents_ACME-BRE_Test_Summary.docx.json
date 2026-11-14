@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-20",
+  "format": "docx",
+  "source": {
+    "fileName": "PSI-20_Science Documents_ACME-BRE_Test_Summary.docx",
+    "folder": "Science Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-20/Science Documents/PSI-20_Science Documents_ACME-BRE_Test_Summary.docx",
+    "version": 1,
+    "sizeBytes": 127529,
+    "sha256": "c60bcab8c39487114c20936a625db2b705ae53c556442e05dfed2bd599ecc0a6",
+    "localPath": "data/raw/PSI-20/Science Documents/PSI-20_Science Documents_ACME-BRE_Test_Summary.docx",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20"
+  },
+  "extractor": {
+    "name": "docx",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:12:47+00:00",
+  "status": "partial",
+  "error": null,
+  "warnings": [
+    "document has no text or tables"
+  ],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": null
+  },
+  "blocks": []
+}

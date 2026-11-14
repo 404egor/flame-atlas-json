@@ -1,0 +1,1395 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-26",
+  "format": "csv",
+  "source": {
+    "fileName": "PSI-26_Experimental table_BASS.csv",
+    "folder": "Experimental table",
+    "subfolder": null,
+    "key": "psi-data/PSI-26/Experimental table/PSI-26_Experimental table_BASS.csv",
+    "version": 1,
+    "sizeBytes": 4726,
+    "sha256": "ccfc3c54d948b64a1c5d2596a63c7c8019e51df0c91a1d62f039f48fa28c300f",
+    "localPath": "data/raw/PSI-26/Experimental table/PSI-26_Experimental table_BASS.csv",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26"
+  },
+  "extractor": {
+    "name": "csv",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:23:07+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 1,
+    "tableRows": 122,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "table",
+      "id": "b1",
+      "name": "PSI-26_Experimental table_BASS",
+      "confidence": "high",
+      "location": {},
+      "headerRow": 1,
+      "columns": [
+        "Date",
+        "GMT",
+        "As Run Test #",
+        "Test #",
+        "Sample #",
+        "Fuel Sample Material"
+      ],
+      "rowCount": 122,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Date": "3/30/2012",
+            "GMT": "90",
+            "As Run Test #": "1",
+            "Test #": "1",
+            "Sample #": "4",
+            "Fuel Sample Material": "SIBAL 2 cm"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Date": "3/30/2012",
+            "GMT": "90",
+            "As Run Test #": "2",
+            "Test #": "42",
+            "Sample #": "24",
+            "Fuel Sample Material": "PMMA sphere 2 cm"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Date": "3/30/2012",
+            "GMT": "90",
+            "As Run Test #": "3",
+            "Test #": "18",
+            "Sample #": "19",
+            "Fuel Sample Material": "PMMA sphere 1 cm"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Date": "4/5/2012",
+            "GMT": "96",
+            "As Run Test #": "4",
+            "Test #": "7",
+            "Sample #": "10",
+            "Fuel Sample Material": "SIBAL 2 cm"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Date": "4/5/2012",
+            "GMT": "96",
+            "As Run Test #": "5",
+            "Test #": "8",
+            "Sample #": "11",
+            "Fuel Sample Material": "SIBAL 2 cm"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Date": "4/9/2012",
+            "GMT": "100",
+            "As Run Test #": "6",
+            "Test #": "43",
+            "Sample #": "24",
+            "Fuel Sample Material": "PMMA sphere 2 cm"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Date": "4/9/2012",
+            "GMT": "100",
+            "As Run Test #": "7",
+            "Test #": "44",
+            "Sample #": "24",
+            "Fuel Sample Material": "PMMA sphere 2 cm"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Date": "4/9/2012",
+            "GMT": "100",
+            "As Run Test #": "8",
+            "Test #": "45",
+            "Sample #": "24",
+            "Fuel Sample Material": "PMMA sphere 2 cm"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Date": "5/2/2012",
+            "GMT": "123",
+            "As Run Test #": "9",
+            "Test #": "19",
+            "Sample #": "19",
+            "Fuel Sample Material": "PMMA sphere 1 cm"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Date": "5/2/2012",
+            "GMT": "123",
+            "As Run Test #": "10",
+            "Test #": "20",
+            "Sample #": "19",
+            "Fuel Sample Material": "PMMA sphere 1 cm"
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Date": "5/2/2012",
+            "GMT": "123",
+            "As Run Test #": "11",
+            "Test #": "21",
+            "Sample #": "19",
+            "Fuel Sample Material": "PMMA sphere 1 cm"
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "Date": "5/10/2012",
+            "GMT": "131",
+            "As Run Test #": "12",
+            "Test #": "4",
+            "Sample #": "12",
+            "Fuel Sample Material": "SIBAL 2 cm"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Date": "5/10/2012",
+            "GMT": "131",
+            "As Run Test #": "13",
+            "Test #": "10",
+            "Sample #": "2",
+            "Fuel Sample Material": "SIBAL 1 cm"
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "Date": "5/10/2012",
+            "GMT": "131",
+            "As Run Test #": "14",
+            "Test #": "12",
+            "Sample #": "27",
+            "Fuel Sample Material": "Nomex blend 2 cm"
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "Date": "5/11/2012",
+            "GMT": "132",
+            "As Run Test #": "15",
+            "Test #": "54",
+            "Sample #": "21",
+            "Fuel Sample Material": "PMMA 2 cm"
+          }
+        },
+        {
+          "sourceRow": 16,
+          "raw": {
+            "Date": "5/11/2012",
+            "GMT": "132",
+            "As Run Test #": "16",
+            "Test #": "55",
+            "Sample #": "21",
+            "Fuel Sample Material": "PMMA 2 cm"
+          }
+        },
+        {
+          "sourceRow": 17,
+          "raw": {
+            "Date": "5/11/2012",
+            "GMT": "132",
+            "As Run Test #": "17",
+            "Test #": "56",
+            "Sample #": "21",
+            "Fuel Sample Material": "PMMA 2 cm"
+          }
+        },
+        {
+          "sourceRow": 18,
+          "raw": {
+            "Date": "5/11/2012",
+            "GMT": "132",
+            "As Run Test #": "18",
+            "Test #": "57",
+            "Sample #": "21",
+            "Fuel Sample Material": "PMMA 2 cm"
+          }
+        },
+        {
+          "sourceRow": 19,
+          "raw": {
+            "Date": "5/11/2012",
+            "GMT": "132",
+            "As Run Test #": "19",
+            "Test #": "110",
+            "Sample #": "21",
+            "Fuel Sample Material": "PMMA 2 cm"
+          }
+        },
+        {
+          "sourceRow": 20,
+          "raw": {
+            "Date": "6/5/2012",
+            "GMT": "157",
+            "As Run Test #": "20",
+            "Test #": "30",
+            "Sample #": "15",
+            "Fuel Sample Material": "PMMA 1 cm"
+          }
+        },
+        {
+          "sourceRow": 21,
+          "raw": {
+            "Date": "6/5/2012",
+            "GMT": "157",
+            "As Run Test #": "21",
+            "Test #": "31",
+            "Sample #": "15",
+            "Fuel Sample Material": "PMMA 1 cm"
+          }
+        },
+        {
+          "sourceRow": 22,
+          "raw": {
+            "Date": "6/5/2012",
+            "GMT": "157",
+            "As Run Test #": "22",
+            "Test #": "32",
+            "Sample #": "15",
+            "Fuel Sample Material": "PMMA 1 cm"
+          }
+        },
+        {
+          "sourceRow": 23,
+          "raw": {
+            "Date": "6/5/2012",
+            "GMT": "157",
+            "As Run Test #": "23",
+            "Test #": "33",
+            "Sample #": "15",
+            "Fuel Sample Material": "PMMA 1 cm"
+          }
+        },
+        {
+          "sourceRow": 24,
+          "raw": {
+            "Date": "6/5/2012",
+            "GMT": "157",
+            "As Run Test #": "24",
+            "Test #": "12-R",
+            "Sample #": "27",
+            "Fuel Sample Material": "Nomex blend 2 cm"
+          }
+        },
+        {
+          "sourceRow": 25,
+          "raw": {
+            "Date": "6/5/2012",
+            "GMT": "157",
+            "As Run Test #": "24",
+            "Test #": "12-R2",
+            "Sample #": "27",
+            "Fuel Sample Material": "Nomex blend 2 cm"
+          }
+        },
+        {
+          "sourceRow": 26,
+          "raw": {
+            "Date": "6/11/2012",
+            "GMT": "163",
+            "As Run Test #": "25",
+            "Test #": "46",
+            "Sample #": "22",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 27,
+          "raw": {
+            "Date": "6/11/2012",
+            "GMT": "163",
+            "As Run Test #": "26",
+            "Test #": "47",
+            "Sample #": "22",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 28,
+          "raw": {
+            "Date": "6/11/2012",
+            "GMT": "163",
+            "As Run Test #": "27",
+            "Test #": "48",
+            "Sample #": "22",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 29,
+          "raw": {
+            "Date": "6/11/2012",
+            "GMT": "163",
+            "As Run Test #": "28",
+            "Test #": "49",
+            "Sample #": "22",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 30,
+          "raw": {
+            "Date": "6/14/2012",
+            "GMT": "166",
+            "As Run Test #": "29",
+            "Test #": "22",
+            "Sample #": "18",
+            "Fuel Sample Material": "1 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 31,
+          "raw": {
+            "Date": "6/14/2012",
+            "GMT": "166",
+            "As Run Test #": "30",
+            "Test #": "23",
+            "Sample #": "18",
+            "Fuel Sample Material": "1 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 32,
+          "raw": {
+            "Date": "6/14/2012",
+            "GMT": "166",
+            "As Run Test #": "31",
+            "Test #": "24",
+            "Sample #": "18",
+            "Fuel Sample Material": "1 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 33,
+          "raw": {
+            "Date": "6/14/2012",
+            "GMT": "166",
+            "As Run Test #": "32",
+            "Test #": "25",
+            "Sample #": "18",
+            "Fuel Sample Material": "1 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 34,
+          "raw": {
+            "Date": "6/18/2012",
+            "GMT": "170",
+            "As Run Test #": "33",
+            "Test #": "58",
+            "Sample #": "25",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 35,
+          "raw": {
+            "Date": "6/18/2012",
+            "GMT": "170",
+            "As Run Test #": "34",
+            "Test #": "59",
+            "Sample #": "25",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 36,
+          "raw": {
+            "Date": "6/18/2012",
+            "GMT": "170",
+            "As Run Test #": "35",
+            "Test #": "60",
+            "Sample #": "25",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 37,
+          "raw": {
+            "Date": "6/18/2012",
+            "GMT": "170",
+            "As Run Test #": "36",
+            "Test #": "61",
+            "Sample #": "25",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 38,
+          "raw": {
+            "Date": "6/28/2012",
+            "GMT": "180",
+            "As Run Test #": "37",
+            "Test #": "5",
+            "Sample #": "9",
+            "Fuel Sample Material": "SIBAL 2 cm"
+          }
+        },
+        {
+          "sourceRow": 39,
+          "raw": {
+            "Date": "6/28/2012",
+            "GMT": "180",
+            "As Run Test #": "38",
+            "Test #": "14",
+            "Sample #": "29",
+            "Fuel Sample Material": "Nomex III Natural"
+          }
+        },
+        {
+          "sourceRow": 40,
+          "raw": {
+            "Date": "6/28/2012",
+            "GMT": "180",
+            "As Run Test #": "39",
+            "Test #": "66",
+            "Sample #": "33",
+            "Fuel Sample Material": "PMMA slab"
+          }
+        },
+        {
+          "sourceRow": 41,
+          "raw": {
+            "Date": "6/28/2012",
+            "GMT": "180",
+            "As Run Test #": "40",
+            "Test #": "67",
+            "Sample #": "33",
+            "Fuel Sample Material": "PMMA slab"
+          }
+        },
+        {
+          "sourceRow": 42,
+          "raw": {
+            "Date": "6/29/2012",
+            "GMT": "181",
+            "As Run Test #": "41",
+            "Test #": "34",
+            "Sample #": "16",
+            "Fuel Sample Material": "1 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 43,
+          "raw": {
+            "Date": "6/29/`12",
+            "GMT": "181",
+            "As Run Test #": "42",
+            "Test #": "35",
+            "Sample #": "16",
+            "Fuel Sample Material": "1 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 44,
+          "raw": {
+            "Date": "6/29/2012",
+            "GMT": "181",
+            "As Run Test #": "43",
+            "Test #": "16",
+            "Sample #": "31",
+            "Fuel Sample Material": "ultem sheet"
+          }
+        },
+        {
+          "sourceRow": 45,
+          "raw": {
+            "Date": "6/29/2012",
+            "GMT": "181",
+            "As Run Test #": "44",
+            "Test #": "5b",
+            "Sample #": "9",
+            "Fuel Sample Material": "SIBAL 2 cm   opposed flow "
+          }
+        },
+        {
+          "sourceRow": 46,
+          "raw": {
+            "Date": "7/3/2012",
+            "GMT": "185",
+            "As Run Test #": "45",
+            "Test #": "6",
+            "Sample #": "8",
+            "Fuel Sample Material": "SIBAL 2 cm"
+          }
+        },
+        {
+          "sourceRow": 47,
+          "raw": {
+            "Date": "7/3/2012",
+            "GMT": "185",
+            "As Run Test #": "46",
+            "Test #": "82",
+            "Sample #": "35",
+            "Fuel Sample Material": "candle"
+          }
+        },
+        {
+          "sourceRow": 48,
+          "raw": {
+            "Date": "7/3/2012",
+            "GMT": "185",
+            "As Run Test #": "47",
+            "Test #": "82a",
+            "Sample #": "35",
+            "Fuel Sample Material": "candle"
+          }
+        },
+        {
+          "sourceRow": 49,
+          "raw": {
+            "Date": "7/3/2012",
+            "GMT": "185",
+            "As Run Test #": "48",
+            "Test #": "82b",
+            "Sample #": "35",
+            "Fuel Sample Material": "candle"
+          }
+        },
+        {
+          "sourceRow": 50,
+          "raw": {
+            "Date": "7/3/2012",
+            "GMT": "185",
+            "As Run Test #": "49",
+            "Test #": "68",
+            "Sample #": "33",
+            "Fuel Sample Material": "pmma slab"
+          }
+        },
+        {
+          "sourceRow": 51,
+          "raw": {
+            "Date": "7/12/2012",
+            "GMT": "194",
+            "As Run Test #": "50",
+            "Test #": "69",
+            "Sample #": "33",
+            "Fuel Sample Material": "pmma slab"
+          }
+        },
+        {
+          "sourceRow": 52,
+          "raw": {
+            "Date": "7/12/2012",
+            "GMT": "194",
+            "As Run Test #": "51",
+            "Test #": "111",
+            "Sample #": "21",
+            "Fuel Sample Material": "2 cm sphere   wake ign"
+          }
+        },
+        {
+          "sourceRow": 53,
+          "raw": {
+            "Date": "7/12/2012",
+            "GMT": "194",
+            "As Run Test #": "52",
+            "Test #": "112",
+            "Sample #": "21",
+            "Fuel Sample Material": "2 cm sphere   wake ign"
+          }
+        },
+        {
+          "sourceRow": 54,
+          "raw": {
+            "Date": "7/12/2012",
+            "GMT": "194",
+            "As Run Test #": "53",
+            "Test #": "113",
+            "Sample #": "21",
+            "Fuel Sample Material": "2 cm sphere   wake ign"
+          }
+        },
+        {
+          "sourceRow": 55,
+          "raw": {
+            "Date": "7/19/2012",
+            "GMT": "201",
+            "As Run Test #": "54",
+            "Test #": "2",
+            "Sample #": "5",
+            "Fuel Sample Material": "SIBAL 2 cm"
+          }
+        },
+        {
+          "sourceRow": 56,
+          "raw": {
+            "Date": "7/19/2012",
+            "GMT": "201",
+            "As Run Test #": "55",
+            "Test #": "3",
+            "Sample #": "6",
+            "Fuel Sample Material": "SIBAL 2 cm"
+          }
+        },
+        {
+          "sourceRow": 57,
+          "raw": {
+            "Date": "7/19/2012",
+            "GMT": "201",
+            "As Run Test #": "56",
+            "Test #": "15",
+            "Sample #": "30",
+            "Fuel Sample Material": "nomex natural III"
+          }
+        },
+        {
+          "sourceRow": 58,
+          "raw": {
+            "Date": "7/19/2012",
+            "GMT": "201",
+            "As Run Test #": "57",
+            "Test #": "13",
+            "Sample #": "28",
+            "Fuel Sample Material": "Nomex blend 2 cm"
+          }
+        },
+        {
+          "sourceRow": 59,
+          "raw": {
+            "Date": "7/19/2012",
+            "GMT": "201",
+            "As Run Test #": "58",
+            "Test #": "17",
+            "Sample #": "32",
+            "Fuel Sample Material": "ultem sheet"
+          }
+        },
+        {
+          "sourceRow": 60,
+          "raw": {
+            "Date": "7/19/2012",
+            "GMT": "201",
+            "As Run Test #": "59",
+            "Test #": "114",
+            "Sample #": "25",
+            "Fuel Sample Material": "pmma sphere"
+          }
+        },
+        {
+          "sourceRow": 61,
+          "raw": {
+            "Date": "7/23/2012",
+            "GMT": "205",
+            "As Run Test #": "60",
+            "Test #": "62",
+            "Sample #": "23",
+            "Fuel Sample Material": "PMMA sphere 2 cm"
+          }
+        },
+        {
+          "sourceRow": 62,
+          "raw": {
+            "Date": "7/23/2012",
+            "GMT": "205",
+            "As Run Test #": "61",
+            "Test #": "63",
+            "Sample #": "23",
+            "Fuel Sample Material": "PMMA sphere 2 cm"
+          }
+        },
+        {
+          "sourceRow": 63,
+          "raw": {
+            "Date": "7/23/2012",
+            "GMT": "205",
+            "As Run Test #": "62",
+            "Test #": "64",
+            "Sample #": "23",
+            "Fuel Sample Material": "PMMA sphere 2 cm"
+          }
+        },
+        {
+          "sourceRow": 64,
+          "raw": {
+            "Date": "7/23/2012",
+            "GMT": "205",
+            "As Run Test #": "63",
+            "Test #": "65",
+            "Sample #": "23",
+            "Fuel Sample Material": "PMMA sphere 2 cm"
+          }
+        },
+        {
+          "sourceRow": 65,
+          "raw": {
+            "Date": "7/23/2012",
+            "GMT": "205",
+            "As Run Test #": "64",
+            "Test #": "118",
+            "Sample #": "23",
+            "Fuel Sample Material": "PMMA sphere 2 cm"
+          }
+        },
+        {
+          "sourceRow": 66,
+          "raw": {
+            "Date": "8/3/2012",
+            "GMT": "216",
+            "As Run Test #": "",
+            "Test #": "",
+            "Sample #": "",
+            "Fuel Sample Material": "SOOT Cleaning"
+          }
+        },
+        {
+          "sourceRow": 67,
+          "raw": {
+            "Date": "8/9/2012",
+            "GMT": "222",
+            "As Run Test #": "65",
+            "Test #": "11",
+            "Sample #": "3",
+            "Fuel Sample Material": "SIBAL 1 cm"
+          }
+        },
+        {
+          "sourceRow": 68,
+          "raw": {
+            "Date": "8/9/2012",
+            "GMT": "222",
+            "As Run Test #": "66",
+            "Test #": "9",
+            "Sample #": "7",
+            "Fuel Sample Material": "SIBAL 2 cm"
+          }
+        },
+        {
+          "sourceRow": 69,
+          "raw": {
+            "Date": "8/9/2012",
+            "GMT": "222",
+            "As Run Test #": "67",
+            "Test #": "102",
+            "Sample #": "22",
+            "Fuel Sample Material": "PMMA sphere 2 cm"
+          }
+        },
+        {
+          "sourceRow": 70,
+          "raw": {
+            "Date": "8/16/2012",
+            "GMT": "229",
+            "As Run Test #": "68",
+            "Test #": "83a",
+            "Sample #": "36",
+            "Fuel Sample Material": "Japan Wax Candle   wake"
+          }
+        },
+        {
+          "sourceRow": 71,
+          "raw": {
+            "Date": "8/16/2012",
+            "GMT": "229",
+            "As Run Test #": "69",
+            "Test #": "83b",
+            "Sample #": "36",
+            "Fuel Sample Material": "Japan Wax Candle   wake"
+          }
+        },
+        {
+          "sourceRow": 72,
+          "raw": {
+            "Date": "8/16/2012",
+            "GMT": "229",
+            "As Run Test #": "70",
+            "Test #": "83c",
+            "Sample #": "36",
+            "Fuel Sample Material": "Japan Wax Candle   wake"
+          }
+        },
+        {
+          "sourceRow": 73,
+          "raw": {
+            "Date": "8/16/2012",
+            "GMT": "229",
+            "As Run Test #": "71",
+            "Test #": "84a",
+            "Sample #": "37",
+            "Fuel Sample Material": "Japan Wax Candle   wake"
+          }
+        },
+        {
+          "sourceRow": 74,
+          "raw": {
+            "Date": "8/16/2012",
+            "GMT": "229",
+            "As Run Test #": "72",
+            "Test #": "84b",
+            "Sample #": "37",
+            "Fuel Sample Material": "Japan Wax Candle   wake"
+          }
+        },
+        {
+          "sourceRow": 75,
+          "raw": {
+            "Date": "8/16/2012",
+            "GMT": "229",
+            "As Run Test #": "73",
+            "Test #": "86a",
+            "Sample #": "38",
+            "Fuel Sample Material": "Japan Wax Candle   wake"
+          }
+        },
+        {
+          "sourceRow": 76,
+          "raw": {
+            "Date": "8/16/2012",
+            "GMT": "229",
+            "As Run Test #": "74",
+            "Test #": "86b",
+            "Sample #": "38",
+            "Fuel Sample Material": "Japan Wax Candle   wake"
+          }
+        },
+        {
+          "sourceRow": 77,
+          "raw": {
+            "Date": "8/16/2012",
+            "GMT": "229",
+            "As Run Test #": "75",
+            "Test #": "86c",
+            "Sample #": "38",
+            "Fuel Sample Material": "Japan Wax Candle   wake"
+          }
+        },
+        {
+          "sourceRow": 78,
+          "raw": {
+            "Date": "8/21/2012",
+            "GMT": "234",
+            "As Run Test #": "76",
+            "Test #": "70",
+            "Sample #": "34",
+            "Fuel Sample Material": "PMMA slab"
+          }
+        },
+        {
+          "sourceRow": 79,
+          "raw": {
+            "Date": "8/21/2012",
+            "GMT": "234",
+            "As Run Test #": "77",
+            "Test #": "71",
+            "Sample #": "34",
+            "Fuel Sample Material": "PMMA slab"
+          }
+        },
+        {
+          "sourceRow": 80,
+          "raw": {
+            "Date": "8/21/2012",
+            "GMT": "234",
+            "As Run Test #": "78",
+            "Test #": "74",
+            "Sample #": "41",
+            "Fuel Sample Material": "paraffin wax slab"
+          }
+        },
+        {
+          "sourceRow": 81,
+          "raw": {
+            "Date": "8/21/2012",
+            "GMT": "234",
+            "As Run Test #": "79",
+            "Test #": "75",
+            "Sample #": "41",
+            "Fuel Sample Material": "parrafin wax slab"
+          }
+        },
+        {
+          "sourceRow": 82,
+          "raw": {
+            "Date": "4/5/2013",
+            "GMT": "95",
+            "As Run Test #": "80",
+            "Test #": "98",
+            "Sample #": "24",
+            "Fuel Sample Material": "PMMA 2 cm"
+          }
+        },
+        {
+          "sourceRow": 83,
+          "raw": {
+            "Date": "4/5/2013",
+            "GMT": "95",
+            "As Run Test #": "81",
+            "Test #": "99",
+            "Sample #": "24",
+            "Fuel Sample Material": "PMMA 2 cm"
+          }
+        },
+        {
+          "sourceRow": 84,
+          "raw": {
+            "Date": "4/9/2013",
+            "GMT": "99",
+            "As Run Test #": "82",
+            "Test #": "114",
+            "Sample #": "25",
+            "Fuel Sample Material": "PMMA 2 cm"
+          }
+        },
+        {
+          "sourceRow": 85,
+          "raw": {
+            "Date": "4/9/2013",
+            "GMT": "99",
+            "As Run Test #": "83",
+            "Test #": "115",
+            "Sample #": "25",
+            "Fuel Sample Material": "pmma 2 cm"
+          }
+        },
+        {
+          "sourceRow": 86,
+          "raw": {
+            "Date": "4/9/2013",
+            "GMT": "99",
+            "As Run Test #": "84",
+            "Test #": "116",
+            "Sample #": "25",
+            "Fuel Sample Material": "pmma 2 cm"
+          }
+        },
+        {
+          "sourceRow": 87,
+          "raw": {
+            "Date": "4/9/2013",
+            "GMT": "99",
+            "As Run Test #": "85",
+            "Test #": "117",
+            "Sample #": "25",
+            "Fuel Sample Material": "pmma 2 cm"
+          }
+        },
+        {
+          "sourceRow": 88,
+          "raw": {
+            "Date": "4/9/2013",
+            "GMT": "99",
+            "As Run Test #": "85",
+            "Test #": "117a",
+            "Sample #": "25",
+            "Fuel Sample Material": "pmma 2 cm"
+          }
+        },
+        {
+          "sourceRow": 89,
+          "raw": {
+            "Date": "4/12/2013",
+            "GMT": "102",
+            "As Run Test #": "86",
+            "Test #": "100",
+            "Sample #": "24",
+            "Fuel Sample Material": "pmma 2 cm"
+          }
+        },
+        {
+          "sourceRow": 90,
+          "raw": {
+            "Date": "4/12/2013",
+            "GMT": "102",
+            "As Run Test #": "87",
+            "Test #": "85",
+            "Sample #": "43",
+            "Fuel Sample Material": "candle    paraffin   wake"
+          }
+        },
+        {
+          "sourceRow": 91,
+          "raw": {
+            "Date": "4/12/2013",
+            "GMT": "102",
+            "As Run Test #": "88",
+            "Test #": "93",
+            "Sample #": "43",
+            "Fuel Sample Material": "candle    paraffin   wake"
+          }
+        },
+        {
+          "sourceRow": 92,
+          "raw": {
+            "Date": "4/16/2013",
+            "GMT": "106",
+            "As Run Test #": "89",
+            "Test #": "26",
+            "Sample #": "17",
+            "Fuel Sample Material": "pmma 1 cm"
+          }
+        },
+        {
+          "sourceRow": 93,
+          "raw": {
+            "Date": "4/16/2013",
+            "GMT": "106",
+            "As Run Test #": "90",
+            "Test #": "27",
+            "Sample #": "17",
+            "Fuel Sample Material": "pmma 1 cm"
+          }
+        },
+        {
+          "sourceRow": 94,
+          "raw": {
+            "Date": "4/16/2013",
+            "GMT": "106",
+            "As Run Test #": "91",
+            "Test #": "28",
+            "Sample #": "17",
+            "Fuel Sample Material": "pmma 1 cm"
+          }
+        },
+        {
+          "sourceRow": 95,
+          "raw": {
+            "Date": "4/23/2013",
+            "GMT": "113",
+            "As Run Test #": "89",
+            "Test #": "87",
+            "Sample #": "40",
+            "Fuel Sample Material": "candle   Japan wax"
+          }
+        },
+        {
+          "sourceRow": 96,
+          "raw": {
+            "Date": "4/23/2013",
+            "GMT": "113",
+            "As Run Test #": "90",
+            "Test #": "103",
+            "Sample #": "22",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 97,
+          "raw": {
+            "Date": "4/23/2013",
+            "GMT": "113",
+            "As Run Test #": "91",
+            "Test #": "104",
+            "Sample #": "22",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 98,
+          "raw": {
+            "Date": "4/23/2013",
+            "GMT": "113",
+            "As Run Test #": "92",
+            "Test #": "105",
+            "Sample #": "22",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 99,
+          "raw": {
+            "Date": "4/26/2013",
+            "GMT": "113",
+            "As Run Test #": "93",
+            "Test #": "38",
+            "Sample #": "20",
+            "Fuel Sample Material": "1 cm sphere   wake"
+          }
+        },
+        {
+          "sourceRow": 100,
+          "raw": {
+            "Date": "4/26/2013",
+            "GMT": "116",
+            "As Run Test #": "94",
+            "Test #": "39",
+            "Sample #": "20",
+            "Fuel Sample Material": "1 cm wake sphere"
+          }
+        },
+        {
+          "sourceRow": 101,
+          "raw": {
+            "Date": "4/26/2013",
+            "GMT": "116",
+            "As Run Test #": "95",
+            "Test #": "40",
+            "Sample #": "20",
+            "Fuel Sample Material": "1 cm wake sphere"
+          }
+        },
+        {
+          "sourceRow": 102,
+          "raw": {
+            "Date": "4/26/2013",
+            "GMT": "116",
+            "As Run Test #": "96",
+            "Test #": "72",
+            "Sample #": "34",
+            "Fuel Sample Material": "pmma slab opposed"
+          }
+        },
+        {
+          "sourceRow": 103,
+          "raw": {
+            "Date": "4/26/2013",
+            "GMT": "116",
+            "As Run Test #": "97",
+            "Test #": "73",
+            "Sample #": "34",
+            "Fuel Sample Material": "pmma slab   oppsed"
+          }
+        },
+        {
+          "sourceRow": 104,
+          "raw": {
+            "Date": "4/29/2013",
+            "GMT": "119",
+            "As Run Test #": "98",
+            "Test #": "118",
+            "Sample #": "23",
+            "Fuel Sample Material": "2 cm pmma sphere "
+          }
+        },
+        {
+          "sourceRow": 105,
+          "raw": {
+            "Date": "4/29/2013",
+            "GMT": "119",
+            "As Run Test #": "99",
+            "Test #": "119",
+            "Sample #": "23",
+            "Fuel Sample Material": "2 cm pmma sphere "
+          }
+        },
+        {
+          "sourceRow": 106,
+          "raw": {
+            "Date": "5/2/2013",
+            "GMT": "122",
+            "As Run Test #": "100",
+            "Test #": "89",
+            "Sample #": "44",
+            "Fuel Sample Material": "parrafin wax candle"
+          }
+        },
+        {
+          "sourceRow": 107,
+          "raw": {
+            "Date": "5/2/2013",
+            "GMT": "122",
+            "As Run Test #": "101",
+            "Test #": "95",
+            "Sample #": "44",
+            "Fuel Sample Material": "paraffin wax candle"
+          }
+        },
+        {
+          "sourceRow": 108,
+          "raw": {
+            "Date": "5/2/2013",
+            "GMT": "122",
+            "As Run Test #": "102",
+            "Test #": "92",
+            "Sample #": "40",
+            "Fuel Sample Material": "candle   Japan wax"
+          }
+        },
+        {
+          "sourceRow": 109,
+          "raw": {
+            "Date": "5/2/2013",
+            "GMT": "122",
+            "As Run Test #": "103",
+            "Test #": "78",
+            "Sample #": "42",
+            "Fuel Sample Material": "paraffin wax slab"
+          }
+        },
+        {
+          "sourceRow": 110,
+          "raw": {
+            "Date": "5/15/2103",
+            "GMT": "135",
+            "As Run Test #": "104",
+            "Test #": "50",
+            "Sample #": "26",
+            "Fuel Sample Material": "2 cm pmma sphere "
+          }
+        },
+        {
+          "sourceRow": 111,
+          "raw": {
+            "Date": "5/15/2013",
+            "GMT": "135",
+            "As Run Test #": "105",
+            "Test #": "51",
+            "Sample #": "26",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 112,
+          "raw": {
+            "Date": "5/15/2013",
+            "GMT": "135",
+            "As Run Test #": "106",
+            "Test #": "52",
+            "Sample #": "26",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 113,
+          "raw": {
+            "Date": "5/15/2013",
+            "GMT": "135",
+            "As Run Test #": "107",
+            "Test #": "53",
+            "Sample #": "26",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 114,
+          "raw": {
+            "Date": "5/17/2013",
+            "GMT": "137",
+            "As Run Test #": "108",
+            "Test #": "106",
+            "Sample #": "26",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 115,
+          "raw": {
+            "Date": "5/17/2013",
+            "GMT": "137",
+            "As Run Test #": "109",
+            "Test #": "107",
+            "Sample #": "26",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 116,
+          "raw": {
+            "Date": "5/17/2013",
+            "GMT": "137",
+            "As Run Test #": "110",
+            "Test #": "108",
+            "Sample #": "26",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 117,
+          "raw": {
+            "Date": "6/1/2013",
+            "GMT": "137",
+            "As Run Test #": "111",
+            "Test #": "109",
+            "Sample #": "26",
+            "Fuel Sample Material": "2 cm sphere"
+          }
+        },
+        {
+          "sourceRow": 118,
+          "raw": {
+            "Date": "6/1/2013",
+            "GMT": "150",
+            "As Run Test #": "112",
+            "Test #": "79",
+            "Sample #": "42",
+            "Fuel Sample Material": "flat wax slab"
+          }
+        },
+        {
+          "sourceRow": 119,
+          "raw": {
+            "Date": "6/1/2013",
+            "GMT": "150",
+            "As Run Test #": "113",
+            "Test #": "80",
+            "Sample #": "42",
+            "Fuel Sample Material": "flat wax slab"
+          }
+        },
+        {
+          "sourceRow": 120,
+          "raw": {
+            "Date": "6/1/2013",
+            "GMT": "150",
+            "As Run Test #": "114",
+            "Test #": "75",
+            "Sample #": "41",
+            "Fuel Sample Material": "flat wax slab"
+          }
+        },
+        {
+          "sourceRow": 121,
+          "raw": {
+            "Date": "6/1/2013",
+            "GMT": "150",
+            "As Run Test #": "115",
+            "Test #": "53",
+            "Sample #": "26",
+            "Fuel Sample Material": "pmma sphere"
+          }
+        },
+        {
+          "sourceRow": 122,
+          "raw": {
+            "Date": "6/1/2013",
+            "GMT": "150",
+            "As Run Test #": "116",
+            "Test #": "53a",
+            "Sample #": "26",
+            "Fuel Sample Material": "pmma sphere"
+          }
+        }
+      ]
+    }
+  ]
+}

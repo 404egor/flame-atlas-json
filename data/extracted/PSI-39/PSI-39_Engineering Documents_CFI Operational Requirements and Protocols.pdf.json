@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-39",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-39_Engineering Documents_CFI Operational Requirements and Protocols.pdf",
+    "folder": "Engineering Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-39/Engineering Documents/PSI-39_Engineering Documents_CFI Operational Requirements and Protocols.pdf",
+    "version": 2,
+    "sizeBytes": 115496,
+    "sha256": "4e6dc66cb2a4bac018296ddc956281f71637242d72a764fc8d5e349bf1418a7b",
+    "localPath": "data/raw/PSI-39/Engineering Documents/PSI-39_Engineering Documents_CFI Operational Requirements and Protocols.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:24:29+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 1,
+    "characters": 1657,
+    "tables": 2,
+    "tableRows": 12,
+    "pages": 1
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Cool Flames Investigation (CFI) Operational Requirements and Protocols\nOperational Requirements:\nDroplets must be deployed free floating without any residual momentum in the center of the field of view of the CIR\ndiagnostics. Diagnostics must be capable of recording the radiant emissions of both hot and cool flames. CIR must\nstore be able to store digital imagery data from a full day of test point (approx. 8 burns) for later downlink.\nOperational Protocols:\nFollowing setup and initialization of the CIR rack and MDCA, the chamber is filled with the appropriate atmosphere for\nthe day’s test points. Conditions vary in pressure (0.5 atm to 5.0 atm) and oxygen concentration (10 to 30%). A\nsettling time of approximately 2 minutes elapses prior to initiating the test in order to ensure that the temperature and\npressure of the chamber gases have stabilized. This settling time is followed by the dispensing of a predetermined\namount of fuel (based on the target droplet size) onto a support fiber. When sufficient fuel has been dispensed the\ndispensing needles are retracted and a dwell period of at least 10 seconds is allowed for the droplet internal fluid\nmotion induced by deployment to subside. This is then be followed by initiating power to an igniter pair for a\nselectable amount of time ranging from 1 second to 5 seconds after which the igniter will be retracted from the field of\nview. A near real-time download of the color camera video is required in order to verify successful droplet\ndeployment, ignition, and overall progress of the experiment. Pressure and temperature data of the chamber\nenvironment is also required in near real time.",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "table",
+      "id": "b2",
+      "name": "Page 1 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Droplets must be deployed free floating without any residual momentum in the center of the field of view of the CIR"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Droplets must be deployed free floating without any residual momentum in the center of the field of view of the CIR": "diagnostics. Diagnostics must be capable of recording the radiant emissions of both hot and cool flames. CIR must"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Droplets must be deployed free floating without any residual momentum in the center of the field of view of the CIR": "store be able to store digital imagery data from a full day of test point (approx. 8 burns) for later downlink."
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b3",
+      "name": "Page 1 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Following setup and initialization of the CIR rack and MDCA, the chamber is filled with the appropriate atmosphere fo"
+      ],
+      "rowCount": 10,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Following setup and initialization of the CIR rack and MDCA, the chamber is filled with the appropriate atmosphere fo": "the day’s test points. Conditions vary in pressure (0.5 atm to 5.0 atm) and oxygen concentration (10 to 30%). A"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Following setup and initialization of the CIR rack and MDCA, the chamber is filled with the appropriate atmosphere fo": "settling time of approximately 2 minutes elapses prior to initiating the test in order to ensure that the temperature and"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Following setup and initialization of the CIR rack and MDCA, the chamber is filled with the appropriate atmosphere fo": "pressure of the chamber gases have stabilized. This settling time is followed by the dispensing of a predetermined"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Following setup and initialization of the CIR rack and MDCA, the chamber is filled with the appropriate atmosphere fo": "amount of fuel (based on the target droplet size) onto a support fiber. When sufficient fuel has been dispensed the"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Following setup and initialization of the CIR rack and MDCA, the chamber is filled with the appropriate atmosphere fo": "dispensing needles are retracted and a dwell period of at least 10 seconds is allowed for the droplet internal fluid"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Following setup and initialization of the CIR rack and MDCA, the chamber is filled with the appropriate atmosphere fo": "motion induced by deployment to subside. This is then be followed by initiating power to an igniter pair for a"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Following setup and initialization of the CIR rack and MDCA, the chamber is filled with the appropriate atmosphere fo": "selectable amount of time ranging from 1 second to 5 seconds after which the igniter will be retracted from the field of"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Following setup and initialization of the CIR rack and MDCA, the chamber is filled with the appropriate atmosphere fo": "view. A near real-time download of the color camera video is required in order to verify successful droplet"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Following setup and initialization of the CIR rack and MDCA, the chamber is filled with the appropriate atmosphere fo": "deployment, ignition, and overall progress of the experiment. Pressure and temperature data of the chamber"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Following setup and initialization of the CIR rack and MDCA, the chamber is filled with the appropriate atmosphere fo": "environment is also required in near real time."
+          }
+        }
+      ]
+    }
+  ]
+}

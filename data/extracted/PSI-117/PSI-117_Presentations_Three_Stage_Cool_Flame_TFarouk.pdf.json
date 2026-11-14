@@ -1,0 +1,275 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-117",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-117_Presentations_Three_Stage_Cool_Flame_TFarouk.pdf",
+    "folder": "Presentations",
+    "subfolder": null,
+    "key": "psi-data/PSI-117/Presentations/PSI-117_Presentations_Three_Stage_Cool_Flame_TFarouk.pdf",
+    "version": 1,
+    "sizeBytes": 30873451,
+    "sha256": "99b341840ed423878c622478b3b7817729d0ccf4d772f407f860a91d66972917",
+    "localPath": "data/raw/PSI-117/Presentations/PSI-117_Presentations_Three_Stage_Cool_Flame_TFarouk.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-117"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:29:19+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 22,
+    "characters": 7223,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": 22
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Three Stage Cool Flame Droplet Burning Behavior of n-\nAlkane Droplets at Elevated Pressure Conditions: Hot,\nWarm and Cool Flame\nT. I. Farouka, D. Dietrichb and F. L. Dryera\na Department of Mechanical Engineering\nUniversity of South Carolina, Columbia, SC 29208, USA\nb NASA Glenn Research Center\nCleveland, OH 44135, USA\n37th International Symposium on Combustion\nDublin, Ireland\nJuly 29th – August 3rd, 2018\n1",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "“Cool” Flames Triggered By Radiative Losses\nFirst observation of “Cool Flames” in\nn-heptane droplet diffusion flames\nInternational Space Station 2011, Flame\nExtinguishment Experiments (FLEX)\nHot Flame\nFirst Stage\n“Cool Flame”\nSecond Stage\nEvolution of droplet diameter and burning rate (n-\nheptane, d = 4.00 mm, air, atmospheric pressure)\no\nV. Nayagam et al. Combustion and Flame (2012), 159, 3583 – 3588.\n2\nT. Farouk and F. L. Dryer Combustion and Flame (2014), 161, 565 – 581",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "“Cool Flames” – Multistage (hot-cool) Burning\nHigher Pressure, n-heptane, CO diluent\n2\naugmenting radiative losses\nEvolution of droplet diameter and burning\nrate (d = 4.08 mm, O /CO /N\no 2 2 2\nEvolution of flame diameter (d = 4.08\n0.21/0.15/0.64, 3 atm) o\nmm, O /CO /N 0.21/0.15/0.64, 3 atm)\n2 2 2\nT. Farouk and F. L. Dryer Proceedings of Combustion Institute (2015) 35, 1701 – 1708\n3\nA. Cuoci et al. Proceedings of the Combustion Institute (2015) 35, 1621 - 1627",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Initiation\nWith a Hot Flame\nHigh Temperature\nCombustion\n“Cool Flame”\nAElxtetirnncattiiovne\n4",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Conditions augmenting diffusive losses\nand higher reactivity– Helium diluent and\nHigher pressure?\n5",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "+\nTransient Droplet Combustion Model*\nGas Phase:\n• Multi-component molecular diffusion\n• Detailed chemical kinetics - high and low temperature\n• Mass conservation m\nv Fiber Model:\n• Species equation\nOne dimensional temperature\n• Energy conservation\ndr m distribution\nStatistical s p\nq\ndt ambient Energy exchange with\nNarrowband Liquid Phase: ∂Y\nD l,i q flame and ambient\nRadiation Model • Mass conservation l,i ∂r q loss\nR\nq\n• Species equation fib\n• Energy conservation\n∂T\nλ ∂T\nl ∂r λ\n∂r\nDroplet Surface:\nThe code numeric and data\n• Surface regression – Adaptive Grid\n• Evaporation of fuel handling methodology has\n• Condensation/Dissolution of products been revised to relax\n• Radiative heat exchange\nnumber of species\nconstraints\n* T. Farouk and F. L. Dryer Combust. and Flame (2012) 159, 200 – 209\n6\n+ T. Farouk and F. L. Dryer Combust Theory & Modelling (2011), 15, 487 – 515",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "High Pressure Helium Exchange – 3 atm\nIntroduction of helium increases the\nburning rate, at higher helium\nconcentration a third stage quasi-steady\nburn is observed\n1st Stage\nHigh Temperature\nburn\n2nd Stage 3rd Stage\nModerate Low Temperature\nTemperature burn burn\nT ~ 950 K T ~ 770 K\nEvolution of droplet diameter (n-heptane, d = flame flame\no\n4.00 mm, X = 21%, He exchange with balance\nO2\nN , 3 atm).\n2\nEvolution of peak temperature (n-heptane, d =\no\n4.00 mm, X = 21%, He exchange with balance\nO2\nN , 3 atm).\n2 7",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "High Pressure Helium Exchange – 3 atm\n• The second stage suppresses at\nhigher helium concentration\n• The droplet diameter regression do not\nshow any significant changes\n2nd Stage\nModerate\nTemperature burn\nT ~ 950 K\nflame\n3rd Stage\nLow Temperature burn\nEvolution of droplet diameter (n-heptane, d =\no T ~ 770 K\nflame\n4.00 mm, X = 21%, He exchange with balance\nO2\nN , 3 atm).\n2\nEvolution of peak temperature (n-heptane, d =\no\n4.00 mm, X = 21%, He exchange with balance\nO2\nN , 3 atm).\n2 8",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "High Pressure Helium Exchange – 3 atm\n• A second contraction in the flame occurs as\nthe system transitions to the third stage/low\n1st 2nd 3rd temperature burn.\nStage Stage 3Stradge\n• Despite the decrease in the maximum\ntemperature it is the flame contraction that\nmakes the droplet diameter regression\ninsensitive to the different burn stages.\nEvolution of flame standoff ratio (n-heptane, d =\no\n4.00 mm, X = 21%, He exchange with balance\nO2\nN , 3 atm).\n2\nEvolution of burning rate (n-heptane, d = 4.00\no\nmm, X = 21%, He exchange with balance N , 3\nO2 2\natm). 9",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "text",
+      "id": "b10",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "High Pressure Helium Exchange – 3 atm\n• A strong coupling between heat generation\nand losses in the system.\n• The radiative and diffusive heat losses are\ncomparable in the first and second stage.\n• The diffusive losses become prominent in\nthe third stage “Cool flame” burn.\nEvolution of radiative loss (n-heptane, d = 4.00\no\nmm, X = 21%, He exchange with balance N , 3\nO2 2\natm).\nEvolution of diffusive loss (n-heptane, d = 4.00\no\nmm, X = 21%, He exchange with balance N , 3\nO2 2\natm).\n10",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Pressure Dependence\nIgnition delay of n-heptane\nDegenerate\nBranching\n11",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "text",
+      "id": "b12",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Spatiotemporal variation of species and temperature\nCO\nTemperature\nCH O\n2\n12",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Species Distribution – 3 atm, X = 40%\nHe\nSpatiotemporal distribution of species representative of three distinct stages\n13",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "text",
+      "id": "b14",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Species Distribution – 3 atm, X = 40%\nHe\n• Species representative of low temperature kinetics is in prominence in the third stage\n• Competition between O addition to QOOH and decomposition of QOOH (i.e. OH, HO , olefin,\n2 2\ncarbonyl, QO)\n14",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "text",
+      "id": "b15",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experimental Observation of 3 Stage Behavior\nFLEX 1268:\nn-dodecane, 2.75 atm, 21.6% O , 50.2% N ,\n2 2\n28.2% He.\nQualitative agreement between\npredictions and observations\n15",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "text",
+      "id": "b16",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experimental Observation of 3 Stage Behavior\nAtef et al. Combustion and Flame (2017)\nFLEX 1268:\nn-dodecane, 2.75 atm, 21.6% O , 50.2% N ,\n2 2\n28.2% He.\nQualitative agreement between\npredictions and observations\n16",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "text",
+      "id": "b17",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Summary\n• The experimental results and detailed predictions support that\nthere exists two possible modes of quasi-steady cool flame\ndroplet burning behaviour: “Warm” in the NTC regime and “Cold”\nin the low temperature regime.\n• The helium concentration is critical for the observed\ncharacteristics – promoting the second stage burn or completely\nsupressing it.\n• A dynamic coupling between heat generation and heat loss in\nthe system.\n• The low temperature kinetics is distinctive and different in the\nsecond and third stage.\n• Experimental observation with n-dodecane at higher pressure\nand helium exchange validates the “a priori” numerical\npredictions of a three stage behaviour inferred from n-heptane\nsimulations.\n17",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "text",
+      "id": "b18",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Acknowledgements\n• This work was supported by the National Aeronautics and\nSpace Administration through grants NNX14AG461A (TIF),\nNNX09AW 19A (FLD) .\n• Thanks to Drs. Michael Hicks, Forman Williams and Vedha\nNayagam for interest and insight throughout the course of this\ninvestigation.\n18",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Thank You\nQuestions??\nSolar Eclipse in Columbia, South Carolina\nAugust 22, 2017\nCanon 60D, 400 mm telepho1t9o",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "text",
+      "id": "b20",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "High Pressure Helium Exchange – 5 atm\nSimilar stable three stage burning\n1st Stage\nbehavior is observed at increased\nHigh Temperature\nburn pressure, but under higher helium\n2nd Stage\nloading conditions\nModerate\nTemperature 3rd Stage\nburn Low Temperature burn\nT ~ 950 K T ~ 770 K\nflame flame\nEvolution of peak temperature (n-heptane, d =\no\n4.00 mm, X = 21%, He exchange with balance\nO2\nN , 5 atm).\n2\nEvolution of flame standoff ratio (n-heptane, d =\no\n4.00 mm, X = 21%, He exchange with balance\nO2\nN , 5 atm).\n2 20",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "text",
+      "id": "b21",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experimental Observation of 3 Stage Behavior\nFLEX 1256:\nn-dodecane, 3.00 atm, 21.0% O , 79.0% N\n2 2\nD ~ 4.2 mm\no\n21",
+      "location": {
+        "page": 21
+      }
+    },
+    {
+      "type": "text",
+      "id": "b22",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experimental Observation of 3 Stage Behavior\nFLEX 1256:\nn-dodecane, 3.00 atm, 21.0% O , 79.0% N\n2 2\nD ~ 4.2 mm\no\n22",
+      "location": {
+        "page": 22
+      }
+    }
+  ]
+}

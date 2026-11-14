@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-39",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-39_Analyzed Data_FLEX-1248_Summary.pdf",
+    "folder": "Analyzed Data",
+    "subfolder": "Reduced Gravity/CFI – DODECANE",
+    "key": "psi-data/PSI-39/Analyzed Data/PSI-39_Analyzed Data_FLEX-1248_Summary.pdf",
+    "version": 2,
+    "sizeBytes": 382777,
+    "sha256": "532d5ad452ede1f2f7210470e289d8e804b0d7aa4f73c1a6ec2e45ccef54ff59",
+    "localPath": "data/raw/PSI-39/Analyzed Data/Reduced Gravity/CFI – DODECANE/PSI-39_Analyzed Data_FLEX-1248_Summary.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:24:15+00:00",
+  "status": "failed",
+  "error": "PdfminerException: No /Root object! - Is this really a PDF?",
+  "warnings": [],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": null
+  },
+  "blocks": []
+}

@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-106",
+  "format": "csv",
+  "source": {
+    "fileName": "PSI-106_Experimental table_Slice.csv",
+    "folder": "Experimental table",
+    "subfolder": null,
+    "key": "psi-data/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+    "version": 1,
+    "sizeBytes": 734,
+    "sha256": "89ef980810ca6d9aa8be817b42e36cd2adff23f5e9058361b5a33d18b4363f4d",
+    "localPath": "data/raw/PSI-106/Experimental table/PSI-106_Experimental table_Slice.csv",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-106"
+  },
+  "extractor": {
+    "name": "csv",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:28:50+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 1,
+    "tableRows": 12,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "table",
+      "id": "b1",
+      "name": "PSI-106_Experimental table_Slice",
+      "confidence": "high",
+      "location": {},
+      "headerRow": 1,
+      "columns": [
+        "Test Date",
+        "Fuel Type"
+      ],
+      "rowCount": 12,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Test Date": "2012-FEB-09",
+            "Fuel Type": "100% CH4"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Test Date": "2012-FEB-13 SLICE testing with ",
+            "Fuel Type": "40% CH4 (balance N2) including 2 pyrometry calibration tests and 2 fan calibrations"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Test Date": "2012-FEB-17",
+            "Fuel Type": "70% CH4 (balance N2) including 1 pyrometry calibration test"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Test Date": "2012-FEB-20 ",
+            "Fuel Type": "20% C2H4 (balance N2)"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Test Date": "2012-FEB-27 ",
+            "Fuel Type": "100% CH4"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Test Date": "2012-MAR-01",
+            "Fuel Type": "40% CH4 (balance N2)"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Test Date": "2012-MAR-05 SLICE testing with ",
+            "Fuel Type": "70% CH4 (balance N2) where the fuel bottle was not emptied (in contrast to most days)"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Test Date": "2012-MAR-09  ",
+            "Fuel Type": "100% C2H6"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Test Date": "2012-MAR-12 ",
+            "Fuel Type": " 100% CH4"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Test Date": "2012-MAR-15 ",
+            "Fuel Type": " 20% C2H4 (balance N2)"
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Test Date": "2012-MAR-19 SLICE testing with ",
+            "Fuel Type": "70% CH4 (balance N2) including 1 pyrometry calibration test and 2 fan calibrations"
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "Test Date": "2012-MAR-23 Last day of testing: SPICE testing with 100% C3H8 and then 100%",
+            "Fuel Type": "100% C2H4"
+          }
+        }
+      ]
+    }
+  ]
+}

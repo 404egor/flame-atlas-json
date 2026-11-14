@@ -1,0 +1,441 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-101",
+  "format": "xlsx",
+  "source": {
+    "fileName": "PSI-101_Analyzed Data_thermal precipitator map updated.xlsx",
+    "folder": "Analyzed Data",
+    "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 054",
+    "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_thermal precipitator map updated.xlsx",
+    "version": 1,
+    "sizeBytes": 17138,
+    "sha256": "fe3765a3980ef9c6c53f48c99abdaecdc205e727386c78cae2bb79c0ea1ff849",
+    "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/Cotton Lamp wick/Run 054/PSI-101_Analyzed Data_thermal precipitator map updated.xlsx",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101"
+  },
+  "extractor": {
+    "name": "xlsx",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:25:52+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Sheet1: 3 line(s) above the header skipped",
+    "Sheet1: 4 empty header(s) named column_<n> (columns 1-2, 7-8)",
+    "Sheet1: 5 duplicate header(s) renamed: Date viewed - comments (2), Date viewed - comments (3), A (2), Date viewed - comments (4), B (2)",
+    "sheet 'Sheet2' is empty",
+    "sheet 'Sheet3' is empty"
+  ],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 1,
+    "tableRows": 22,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "table",
+      "id": "b1",
+      "name": "Sheet1",
+      "confidence": "high",
+      "location": {
+        "sheet": "Sheet1"
+      },
+      "headerRow": 4,
+      "columns": [
+        "column_1",
+        "column_2",
+        "Date viewed - comments",
+        "A",
+        "Date viewed - comments (2)",
+        "B",
+        "column_7",
+        "column_8",
+        "Date viewed - comments (3)",
+        "A (2)",
+        "Date viewed - comments (4)",
+        "B (2)"
+      ],
+      "rowCount": 22,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "column_2": "1",
+            "Date viewed - comments": "8/24 - no particles - No images",
+            "A": "48 (SAMERFLT 1S)",
+            "Date viewed - comments (2)": "2/22 - few particles, mostly debris",
+            "B": "67 (SAMERFLT 20S)",
+            "column_7": "",
+            "column_8": "1",
+            "Date viewed - comments (3)": "12/9 & 4/23 - no particles",
+            "A (2)": "78 preage (SAMERFLT 31L)",
+            "Date viewed - comments (4)": "12/9 - no particles",
+            "B (2)": "78 postage (SAMERFLT 31L)"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "column_2": "2",
+            "Date viewed - comments": "8/24 - no particles Ubiquitous particles",
+            "A": "49 (SAMERFLT 2L)",
+            "Date viewed - comments (2)": "9/12 - no particles",
+            "B": "68 (SAMERFLT 21L)",
+            "column_7": "",
+            "column_8": "2",
+            "Date viewed - comments (3)": "10/5 - no particles",
+            "A (2)": "79 preage (SAMERFLT 32T)",
+            "Date viewed - comments (4)": "12/9 - no particles",
+            "B (2)": "79 postage (SAMERFLT 32T)"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "column_2": "3",
+            "Date viewed - comments": "9/1 no particles",
+            "A": "50 (SAMERFLT 3T)",
+            "Date viewed - comments (2)": "2/22 - few particles, some background particles",
+            "B": "69 (SAMERFLT 22T)",
+            "column_7": "",
+            "column_8": "3",
+            "Date viewed - comments (3)": "12/9 - No particles",
+            "A (2)": "80 preage (SAMERFLT 33L)",
+            "Date viewed - comments (4)": "12/9 - no particles",
+            "B (2)": "80 postage (SAMERFLT 33L)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "column_2": "4",
+            "Date viewed - comments": "8/31 - no particles - tinies/ chains",
+            "A": "51 (SAMERFLT 4K)",
+            "Date viewed - comments (2)": "9/13 - no particles",
+            "B": "70 (SAMERFLT 23K)",
+            "column_7": "",
+            "column_8": "4",
+            "Date viewed - comments (3)": "10/5 - no particles",
+            "A (2)": "81 preage (SAMERFLT 34T)",
+            "Date viewed - comments (4)": "10/6 - no particles",
+            "B (2)": "81 postage (SAMERFLT 34T)"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "",
+            "column_2": "5",
+            "Date viewed - comments": "9/12 no particles",
+            "A": "52 (SAMERFLT 5P)",
+            "Date viewed - comments (2)": "2/22 - few particles, mostly debris",
+            "B": "71 (SAMERFLT 24P)",
+            "column_7": "",
+            "column_8": "5",
+            "Date viewed - comments (3)": "12/9 - No particles",
+            "A (2)": "82 preage (SAMERFLT 35L)",
+            "Date viewed - comments (4)": "12/9 & 4/23 -  no particles",
+            "B (2)": "82 postage (SAMERFLT 35L)"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "",
+            "column_2": "6",
+            "Date viewed - comments": "2/22 - few particles, mostly debris",
+            "A": "53 (SAMERFLT 6S)",
+            "Date viewed - comments (2)": "2/22 -  few particles, mostly debris",
+            "B": "72 (SAMERFLT 25S)",
+            "column_7": "",
+            "column_8": "6",
+            "Date viewed - comments (3)": "10/5 - no measurable particles",
+            "A (2)": "83 preage (SAMERFLT 36T)",
+            "Date viewed - comments (4)": "10/6 - no particles",
+            "B (2)": "83 postage (SAMERFLT 36T)"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "Date viewed - comments": "",
+            "A": "Thermal Precipitator 2",
+            "Date viewed - comments (2)": "",
+            "B": "",
+            "column_7": "",
+            "column_8": "",
+            "Date viewed - comments (3)": "",
+            "A (2)": "Thermal Precipitator 3",
+            "Date viewed - comments (4)": "",
+            "B (2)": ""
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "Date viewed - comments": "Date viewed - comments",
+            "A": "A",
+            "Date viewed - comments (2)": "Date viewed - comments",
+            "B": "B",
+            "column_7": "",
+            "column_8": "",
+            "Date viewed - comments (3)": "Date viewed - comments",
+            "A (2)": "A",
+            "Date viewed - comments (4)": "Date viewed - comments",
+            "B (2)": "B"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "column_1": "",
+            "column_2": "1",
+            "Date viewed - comments": "9/16 & 4/23 - particles present",
+            "A": "54 (SAMERFLT 7L)",
+            "Date viewed - comments (2)": "9/16 -  particles present",
+            "B": "62 preage (SAMERFLT 15K)",
+            "column_7": "",
+            "column_8": "1",
+            "Date viewed - comments (3)": "10/5 - particles noted",
+            "A (2)": "84 preage (SAMERFLT 37P)",
+            "Date viewed - comments (4)": "10/5 -  particles noted",
+            "B (2)": "84 postage (SAMERFLT 37P)"
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "column_1": "",
+            "column_2": "2",
+            "Date viewed - comments": "9/28 - particles present",
+            "A": "55 (SAMERFLT 8L)",
+            "Date viewed - comments (2)": "2/17 - particles present",
+            "B": "62 postage (SAMERFLT 15K)",
+            "column_7": "",
+            "column_8": "2",
+            "Date viewed - comments (3)": "2/6/12 - no measureable particles",
+            "A (2)": "85 (SAMERFLT 38K)",
+            "Date viewed - comments (4)": "2/6/12 - particles present",
+            "B (2)": "87 (SAMERFLT 40P)"
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "column_1": "",
+            "column_2": "3",
+            "Date viewed - comments": "9/21 - particles present",
+            "A": "56 (SAMERFLT 9T)",
+            "Date viewed - comments (2)": "2/17 - particles present",
+            "B": "63 preage (SAMERFLT 16P)",
+            "column_7": "",
+            "column_8": "3",
+            "Date viewed - comments (3)": "3/19 - particles mixed in with extraneous bkg.",
+            "A (2)": "106 (SAMERFLT 59L)",
+            "Date viewed - comments (4)": "3/19 - particles present",
+            "B (2)": "89 (SAMERFLT 42T)"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "column_1": "",
+            "column_2": "4",
+            "Date viewed - comments": "9/21 - no measureable particles",
+            "A": "#58 Preage (SAMERFLT 11T)",
+            "Date viewed - comments (2)": "2/17 - particles present",
+            "B": "63 postage (SAMERFLT 16P)",
+            "column_7": "",
+            "column_8": "4",
+            "Date viewed - comments (3)": "2/6/12 - Particles but not enough to measure - no images",
+            "A (2)": "105 preage (SAMERFLT 58T)",
+            "Date viewed - comments (4)": "2/6/12 - very small particles - not measureable.",
+            "B (2)": "105 postage (SAMERFLT 58T)"
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "column_1": "",
+            "column_2": "5",
+            "Date viewed - comments": "2/17 - particles present",
+            "A": "#58 Postage (SAMERFLT 11T)",
+            "Date viewed - comments (2)": "9/21 - particles present",
+            "B": "64 preage (SAMERFLT 17P)",
+            "column_7": "",
+            "column_8": "5",
+            "Date viewed - comments (3)": "3/29/12 - particles present",
+            "A (2)": "107 preage (SAMERFLT 60P)",
+            "Date viewed - comments (4)": "2/22 - particles present",
+            "B (2)": "107 postage (SAMERFLT 60P)"
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "column_1": "",
+            "column_2": "6",
+            "Date viewed - comments": "9/28 & 4/23 particles present",
+            "A": "60 (SAMERFLT 13S)",
+            "Date viewed - comments (2)": "2/22 - Particles present",
+            "B": "64 postage (SAMERFLT 17P)",
+            "column_7": "",
+            "column_8": "6",
+            "Date viewed - comments (3)": "3/29/12 - very small particles present",
+            "A (2)": "108 preage (SAMERFLT 61K)",
+            "Date viewed - comments (4)": "3/29/12 - very small particles",
+            "B (2)": "108 postage (SAMERFLT 61K)"
+          }
+        },
+        {
+          "sourceRow": 17,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "Date viewed - comments": "",
+            "A": "Thermal Precipitator 5",
+            "Date viewed - comments (2)": "",
+            "B": "",
+            "column_7": "",
+            "column_8": "",
+            "Date viewed - comments (3)": "",
+            "A (2)": "Thermal Precipitator 6",
+            "Date viewed - comments (4)": "",
+            "B (2)": ""
+          }
+        },
+        {
+          "sourceRow": 18,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "Date viewed - comments": "Date viewed/comments",
+            "A": "A",
+            "Date viewed - comments (2)": "Date viewed - comments",
+            "B": "B",
+            "column_7": "",
+            "column_8": "",
+            "Date viewed - comments (3)": "Date viewed - comments",
+            "A (2)": "A",
+            "Date viewed - comments (4)": "Date viewed - comments",
+            "B (2)": "B"
+          }
+        },
+        {
+          "sourceRow": 19,
+          "raw": {
+            "column_1": "",
+            "column_2": "1",
+            "Date viewed - comments": "10/28 - no particles",
+            "A": "73 preage (SAMERFLT 26K)",
+            "Date viewed - comments (2)": "11/9 - no particles extremely clean",
+            "B": "73 postage (SAMERFLT 26K)",
+            "column_7": "",
+            "column_8": "1",
+            "Date viewed - comments (3)": "3/19 - no particles",
+            "A (2)": "93 preage (SAMERFLT 46K)",
+            "Date viewed - comments (4)": "2/13 - no particles",
+            "B (2)": "93 postage (SAMERFLT 46K)"
+          }
+        },
+        {
+          "sourceRow": 20,
+          "raw": {
+            "column_1": "",
+            "column_2": "2",
+            "Date viewed - comments": "11/3 - no particles",
+            "A": "74 preage (SAMERFLT 27P)",
+            "Date viewed - comments (2)": "11/9 -  particles found upstream at -3y.",
+            "B": "74 postage (SAMERFLT 27P)",
+            "column_7": "",
+            "column_8": "2",
+            "Date viewed - comments (3)": "3/8 - very tiny",
+            "A (2)": "94 preage (SAMERFLT 47K)",
+            "Date viewed - comments (4)": "2/13 - Yes, few",
+            "B (2)": "94 postage (SAMERFLT 47K)"
+          }
+        },
+        {
+          "sourceRow": 21,
+          "raw": {
+            "column_1": "",
+            "column_2": "3",
+            "Date viewed - comments": "10/28 - no particles",
+            "A": "75 preage (SAMERFLT 28K)",
+            "Date viewed - comments (2)": "11/9 - possible population of very tiny particles",
+            "B": "75 postage (SAMERFLT 28K)",
+            "column_7": "",
+            "column_8": "3",
+            "Date viewed - comments (3)": "2/13 - yes, few",
+            "A (2)": "95 (SAMERFLT 48P)",
+            "Date viewed - comments (4)": "2/13 -  yes, various",
+            "B (2)": "96 (SAMERFLT 49L)"
+          }
+        },
+        {
+          "sourceRow": 22,
+          "raw": {
+            "column_1": "",
+            "column_2": "4",
+            "Date viewed - comments": "11/3 - many agglomerated particles",
+            "A": "76 preage (SAMERFLT 29P)",
+            "Date viewed - comments (2)": "11/3 - particles found not as far upstream",
+            "B": "76 postage (SAMERFLT 29P)",
+            "column_7": "",
+            "column_8": "4",
+            "Date viewed - comments (3)": "3/8 - yes, few",
+            "A (2)": "97 (SAMERFLT 50P)",
+            "Date viewed - comments (4)": "2/13 - yes, few ",
+            "B (2)": "100 (SAMERFLT 53T)"
+          }
+        },
+        {
+          "sourceRow": 23,
+          "raw": {
+            "column_1": "",
+            "column_2": "5",
+            "Date viewed - comments": "11/3 - very tiny particles",
+            "A": "77 preage (SAMERFLT 30K)",
+            "Date viewed - comments (2)": "11/3 -  more very tiny particles",
+            "B": "77 postage (SAMERFLT 30K)",
+            "column_7": "",
+            "column_8": "5",
+            "Date viewed - comments (3)": "3/8 - yes, tiny",
+            "A (2)": "98 preage (SAMERFLT 51L)",
+            "Date viewed - comments (4)": "2/13 - yes, few large & tiny spots",
+            "B (2)": "98 postage (SAMERFLT 51L)"
+          }
+        },
+        {
+          "sourceRow": 24,
+          "raw": {
+            "column_1": "",
+            "column_2": "6",
+            "Date viewed - comments": "",
+            "A": "empty",
+            "Date viewed - comments (2)": "",
+            "B": "empty",
+            "column_7": "",
+            "column_8": "6",
+            "Date viewed - comments (3)": "3/8 - yes, small & large",
+            "A (2)": "101 preage (SAMERFLT 54K)",
+            "Date viewed - comments (4)": "2/13 - yes, few",
+            "B (2)": "101 postage (SAMERFLT 54K)"
+          }
+        }
+      ]
+    }
+  ]
+}

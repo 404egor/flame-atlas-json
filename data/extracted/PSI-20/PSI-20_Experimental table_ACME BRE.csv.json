@@ -1,0 +1,289 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-20",
+  "format": "csv",
+  "source": {
+    "fileName": "PSI-20_Experimental table_ACME BRE.csv",
+    "folder": "Experimental table",
+    "subfolder": null,
+    "key": "psi-data/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+    "version": 1,
+    "sizeBytes": 1113,
+    "sha256": "4aa5d3f98708ceacced5c620d46858b9965f8d4d941b203229f46467d53e5ab7",
+    "localPath": "data/raw/PSI-20/Experimental table/PSI-20_Experimental table_ACME BRE.csv",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20"
+  },
+  "extractor": {
+    "name": "csv",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:10:54+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 1,
+    "tableRows": 18,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "table",
+      "id": "b1",
+      "name": "PSI-20_Experimental table_ACME BRE",
+      "confidence": "high",
+      "location": {},
+      "headerRow": 1,
+      "columns": [
+        "Year",
+        "Month",
+        "Date",
+        "Burner Size (mm)",
+        "Fuel Bottle",
+        "Oxygen Conc (percent)",
+        "Flames Ignited",
+        "Notes"
+      ],
+      "rowCount": 18,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Year": "2019",
+            "Month": "Feb",
+            "Date": "8",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "100% C2H4",
+            "Oxygen Conc (percent)": "21; 26.5; 40",
+            "Flames Ignited": "10",
+            "Notes": "Oxygen Conc. (as diluted with nitrogen on a volume basis) was varied between tests where approximate concentrations for tests that ignited are listed. The chamber pressures were also varied but are not identified in this summary table."
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Year": "2019",
+            "Month": "Feb",
+            "Date": "20",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "100% C2H4",
+            "Oxygen Conc (percent)": "26.5; 34",
+            "Flames Ignited": "8",
+            "Notes": "Flames Ignited is the number ignited on that day (neglecting the day change on ISS)."
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Year": "2019",
+            "Month": "Feb",
+            "Date": "25",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "50% C2H4",
+            "Oxygen Conc (percent)": "21; 26.5; 34; 40",
+            "Flames Ignited": "8",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Year": "2019",
+            "Month": "March",
+            "Date": "4",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "50% C2H4",
+            "Oxygen Conc (percent)": "26.5; 40",
+            "Flames Ignited": "6",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Year": "2019",
+            "Month": "March",
+            "Date": "7",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "50% C2H4",
+            "Oxygen Conc (percent)": "3400%",
+            "Flames Ignited": "6",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Year": "2019",
+            "Month": "March",
+            "Date": "11",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "50% C2H4",
+            "Oxygen Conc (percent)": "26.5; 34",
+            "Flames Ignited": "7",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Year": "2019",
+            "Month": "March",
+            "Date": "28",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "100%C2H4",
+            "Oxygen Conc (percent)": "26.5; 34",
+            "Flames Ignited": "8",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Year": "2019",
+            "Month": "April",
+            "Date": "1",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "100%C2H4",
+            "Oxygen Conc (percent)": "2100%",
+            "Flames Ignited": "0",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Year": "2019",
+            "Month": "April",
+            "Date": "4",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "100%C2H4",
+            "Oxygen Conc (percent)": "21; 26.5; 34",
+            "Flames Ignited": "9",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Year": "2020",
+            "Month": "Sept",
+            "Date": "3",
+            "Burner Size (mm)": "50",
+            "Fuel Bottle": "100% C2H4",
+            "Oxygen Conc (percent)": "25; 34; 40",
+            "Flames Ignited": "13",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Year": "2020",
+            "Month": "Oct",
+            "Date": "17",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "100% C2H4",
+            "Oxygen Conc (percent)": "26.5; 34",
+            "Flames Ignited": "13",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "Year": "2020",
+            "Month": "Dec",
+            "Date": "5",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "100% CH4",
+            "Oxygen Conc (percent)": "25; 34; 40",
+            "Flames Ignited": "21",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Year": "2020",
+            "Month": "Dec",
+            "Date": "4",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "100% CH4",
+            "Oxygen Conc (percent)": "25; 40",
+            "Flames Ignited": "18",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "Year": "2020",
+            "Month": "Dec",
+            "Date": "11",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "50% C2H4",
+            "Oxygen Conc (percent)": "25; 40",
+            "Flames Ignited": "12",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "Year": "2020",
+            "Month": "Dec",
+            "Date": "17",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "100% C2H4",
+            "Oxygen Conc (percent)": "34; 40",
+            "Flames Ignited": "10",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 16,
+          "raw": {
+            "Year": "2020",
+            "Month": "Dec",
+            "Date": "23",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "100% C2H4",
+            "Oxygen Conc (percent)": "25; 34; 40",
+            "Flames Ignited": "17",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 17,
+          "raw": {
+            "Year": "2021",
+            "Month": "Jan",
+            "Date": "20",
+            "Burner Size (mm)": "25",
+            "Fuel Bottle": "100% C2H4",
+            "Oxygen Conc (percent)": "21; 26.5; 34",
+            "Flames Ignited": "15",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 18,
+          "raw": {
+            "Year": "2021",
+            "Month": "Jan",
+            "Date": "28",
+            "Burner Size (mm)": "50",
+            "Fuel Bottle": "100% C2H4",
+            "Oxygen Conc (percent)": "25; 34; 40",
+            "Flames Ignited": "13",
+            "Notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

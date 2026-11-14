@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-98",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-98_Science Documents_SAFFIRE-I Image Directory Nomenclature.pdf",
+    "folder": "Science Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-98/Science Documents/PSI-98_Science Documents_SAFFIRE-I Image Directory Nomenclature.pdf",
+    "version": 1,
+    "sizeBytes": 262860,
+    "sha256": "c775153b5c68f5aa8bbdcdb455ef9f737f5291da752ce6befe1f5558cf3fd6ce",
+    "localPath": "data/raw/PSI-98/Science Documents/PSI-98_Science Documents_SAFFIRE-I Image Directory Nomenclature.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:25:34+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 1,
+    "characters": 1054,
+    "tables": 1,
+    "tableRows": 6,
+    "pages": 1
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAFFIRE-I Image Directory Nomenclature\nXn_Raw_CamOriginal RAW Camera Original - contains 8 byte offset that must be corrected prior\nto color interpolation.\nXn_Raw_DistroMaster RAW Distribution Master - 8 byte offset corrected using ImageJ. Use this\nfile set to distribute RAW image files and color interpolation processing.\nXn_Raw2TIFF RAW_DistroMaster files color interpolated and saved as TIFF, using\nIrfanView Batch Conversion process.\nXn_Raw2TIFF_icmad Raw2TIFF files annotated with ICMAD 'Exposure' and 'Gain' information.\nData is appended to the bottom of each frame using ImageMagick script.\nXn_jpeg Flight hardware generated jpeg images, created on-board from the RAW\nCamera Original.\nXn_jpeg_corrupt Jpeg images received corrupted after downlink.\nXn_jpeg2png_icmad Flight hardware generated jpeg images annotated with ICMAD 'Exposure'\nand 'Gain' information. Data is appended to the bottom of each frame\nusing ImageMagick script and re-saved as .png format to prevent\nadditional compression artifacts.\n\"X\" Denotes run type\n\"n\" Denotes run number",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "table",
+      "id": "b2",
+      "name": "Page 1 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Xn_Raw_CamOriginal",
+        "RAW Camera Original - contains 8 byte offset that must be corrected prior\nto color interpolation."
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Xn_Raw_CamOriginal": "Xn_Raw_DistroMaster",
+            "RAW Camera Original - contains 8 byte offset that must be corrected prior\nto color interpolation.": "RAW Distribution Master - 8 byte offset corrected using ImageJ. Use this\nfile set to distribute RAW image files and color interpolation processing."
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Xn_Raw_CamOriginal": "Xn_Raw2TIFF",
+            "RAW Camera Original - contains 8 byte offset that must be corrected prior\nto color interpolation.": "RAW_DistroMaster files color interpolated and saved as TIFF, using\nIrfanView Batch Conversion process."
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Xn_Raw_CamOriginal": "Xn_Raw2TIFF_icmad",
+            "RAW Camera Original - contains 8 byte offset that must be corrected prior\nto color interpolation.": "Raw2TIFF files annotated with ICMAD 'Exposure' and 'Gain' information.\nData is appended to the bottom of each frame using ImageMagick script."
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Xn_Raw_CamOriginal": "Xn_jpeg",
+            "RAW Camera Original - contains 8 byte offset that must be corrected prior\nto color interpolation.": "Flight hardware generated jpeg images, created on-board from the RAW\nCamera Original."
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Xn_Raw_CamOriginal": "Xn_jpeg_corrupt",
+            "RAW Camera Original - contains 8 byte offset that must be corrected prior\nto color interpolation.": "Jpeg images received corrupted after downlink."
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Xn_Raw_CamOriginal": "Xn_jpeg2png_icmad",
+            "RAW Camera Original - contains 8 byte offset that must be corrected prior\nto color interpolation.": "Flight hardware generated jpeg images annotated with ICMAD 'Exposure'\nand 'Gain' information. Data is appended to the bottom of each frame\nusing ImageMagick script and re-saved as .png format to prevent\nadditional compression artifacts."
+          }
+        }
+      ]
+    }
+  ]
+}

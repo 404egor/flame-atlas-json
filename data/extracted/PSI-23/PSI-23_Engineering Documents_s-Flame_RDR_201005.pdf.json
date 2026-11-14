@@ -1,0 +1,4903 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-23",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-23_Engineering Documents_s-Flame_RDR_201005.pdf",
+    "folder": "Engineering Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-23/Engineering Documents/PSI-23_Engineering Documents_s-Flame_RDR_201005.pdf",
+    "version": 1,
+    "sizeBytes": 1045448,
+    "sha256": "1c752c0871ede997458a2afb259a1095d2f8b566c5514d9cba4d78fc45f2c97e",
+    "localPath": "data/raw/PSI-23/Engineering Documents/PSI-23_Engineering Documents_s-Flame_RDR_201005.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:18:49+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 1 table 1: 4 line(s) above the header skipped",
+    "Page 1 table 1: 2 empty header(s) named column_<n> (columns 1-2)",
+    "Page 2 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 3 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 4 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 5 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 6 table 1: 4 line(s) above the header skipped",
+    "Page 6 table 1: 2 empty header(s) named column_<n> (columns 1-2)",
+    "Page 7 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 8 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 9 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 10 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 11 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 12 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 13 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 14 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 15 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 16 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 17 table 1: 3 empty header(s) named column_<n> (columns 2-4)",
+    "Page 18 table 1: 7 line(s) above the header skipped",
+    "Page 18 table 1: 14 empty header(s) named column_<n> (columns 1-2, 4-9, 11-16)",
+    "Page 19 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 20 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 21 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 22 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 23 table 1: 8 line(s) above the header skipped",
+    "Page 23 table 1: 3 empty header(s) named column_<n> (columns 1-2, 5)",
+    "Page 24 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 25 table 1: 6 line(s) above the header skipped",
+    "Page 25 table 1: 4 empty header(s) named column_<n> (columns 1-2, 6-7)",
+    "Page 26 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 27 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 28 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 29 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 30 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 31 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 32 table 1: 3 empty header(s) named column_<n> (columns 2-4)",
+    "Page 33 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 34 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 35 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 36 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 37 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 38 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 38 table 2: 1 line(s) above the header skipped",
+    "Page 39 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 40 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 41 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 42 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 43 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 44 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 45 table 1: 5 line(s) above the header skipped",
+    "Page 45 table 1: 4 empty header(s) named column_<n> (columns 1-3, 9)",
+    "Page 46 table 1: 6 line(s) above the header skipped",
+    "Page 46 table 1: 4 empty header(s) named column_<n> (columns 1-3, 9)",
+    "Page 47 table 1: 6 line(s) above the header skipped",
+    "Page 47 table 1: 4 empty header(s) named column_<n> (columns 1-3, 9)",
+    "Page 48 table 1: 5 line(s) above the header skipped",
+    "Page 48 table 1: 4 empty header(s) named column_<n> (columns 1-3, 9)"
+  ],
+  "stats": {
+    "textBlocks": 48,
+    "characters": 26221,
+    "tables": 51,
+    "tableRows": 378,
+    "pages": 48
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "s-Flame\nPrincipal Investigator: Chung K. Law\nPrinceton University\nCo-Investigator: Stephen D. Tse\nRutgers University\nCo-Investigator: Kurt R. Sacksteder\nNASA Glenn Research Center\nNNAASSAA AACCMMEE RRDDRR\nMiddleburgg Heigghts,, OH\nMay 10, 2010\n00",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "table",
+      "id": "b2",
+      "name": "Page 1 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 1
+      },
+      "headerRow": 5,
+      "columns": [
+        "column_1",
+        "column_2",
+        "s-Flame"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "s-Flame": "Principal Investigator: Chung K. Law"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "s-Flame": "Princeton University\nCo-Investigator: Stephen D. Tse\nRutgers University"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "s-Flame": "Co-Investigator: Kurt R. Sacksteder\nNASA Glenn Research Center"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "s-Flame": "NNAASSAA AACCMMEE RRDDRR\nMiddleburgg Heigghts,, OH"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "May 10, 2010\n00",
+            "column_2": "",
+            "s-Flame": "May 10, 2010\n00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "OOuuttlliinnee\ns-Flame\n•\nSummary Introduction\n••\nEExxppeerriimmeennttaall OObbjjeeccttiivveess\n•\nExperimental Approach to Achieve\nOObbjjeeccttiivveess\n•\nJustification for Extended Microgravity\nDDuurraattiioonn\n•\nOther Requirements – Burner\n•\nOOppeerraattiioonn SSeeqquueennccee ((EExxppeerriimmeenntt PPllaann))\n•\nSummary of Test Matrix Parameters\n•\nSSuucccceessss CCrriitteerriiaa\n11",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "table",
+      "id": "b4",
+      "name": "Page 2 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 2,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "OOuuttlliinnee",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "OOuuttlliinnee": "",
+            "column_2": "OOuuttlliinnee",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "OOuuttlliinnee": "",
+            "column_2": "",
+            "column_3": "OOuuttlliinnee"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "OOuuttlliinnee": "",
+            "column_2": "",
+            "column_3": "OOuuttlliinnee"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "OOuuttlliinnee": "",
+            "column_2": "",
+            "column_3": "s-Flame\n•\nSummary Introduction"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "OOuuttlliinnee": "",
+            "column_2": "",
+            "column_3": "••\nEExxppeerriimmeennttaall OObbjjeeccttiivveess\n•\nExperimental Approach to Achieve\nOObbjjeeccttiivveess"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "OOuuttlliinnee": "",
+            "column_2": "",
+            "column_3": "•\nJustification for Extended Microgravity\nDDuurraattiioonn"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "OOuuttlliinnee": "",
+            "column_2": "",
+            "column_3": "•\nOther Requirements – Burner\n•\nOOppeerraattiioonn SSeeqquueennccee ((EExxppeerriimmeenntt PPllaann))"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "OOuuttlliinnee": "",
+            "column_2": "",
+            "column_3": "•\nSummary of Test Matrix Parameters\n•\nSSuucccceessss CCrriitteerriiaa"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "OOuuttlliinnee": "11",
+            "column_2": "",
+            "column_3": "11"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "GGooaallss\ns-Flame\n•\nUse spherical diffusion flames in long-duration µg\neennvviirroonnmmeenntt ttoo::\n– obtain experimental data of exceptional quality in\nsimple, well-defined flow fields.\n– understand various key elemental diffusion flame\nprocesses.\n•\nCCoommppaarree tthheessee ddaattaa wwiitthh tthhoossee oobbttaaiinneedd tthhrroouugghh\nindependent computational simulation with detailed\nchemistry and transport in order to:\n– scruttiiniize andd iimprove tthhe accuracy andd\ncomprehensiveness of these descriptions.\n22",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "table",
+      "id": "b6",
+      "name": "Page 3 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 3,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "GGooaallss",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "GGooaallss": "",
+            "column_2": "GGooaallss",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "GGooaallss": "",
+            "column_2": "",
+            "column_3": "GGooaallss"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "GGooaallss": "",
+            "column_2": "",
+            "column_3": "GGooaallss"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "GGooaallss": "",
+            "column_2": "",
+            "column_3": "s-Flame\n•\nUse spherical diffusion flames in long-duration µg"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "GGooaallss": "",
+            "column_2": "",
+            "column_3": "eennvviirroonnmmeenntt ttoo::\n– obtain experimental data of exceptional quality in\nsimple, well-defined flow fields."
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "GGooaallss": "",
+            "column_2": "",
+            "column_3": "– understand various key elemental diffusion flame\nprocesses.\n•\nCCoommppaarree tthheessee ddaattaa wwiitthh tthhoossee oobbttaaiinneedd tthhrroouugghh"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "GGooaallss": "",
+            "column_2": "",
+            "column_3": "independent computational simulation with detailed\nchemistry and transport in order to:"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "GGooaallss": "",
+            "column_2": "",
+            "column_3": "– scruttiiniize andd iimprove tthhe accuracy andd\ncomprehensiveness of these descriptions."
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "GGooaallss": "22",
+            "column_2": "",
+            "column_3": "22"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Merits of One-Dimensional Flames\ns-Flame for Fundamental Studies\n• Flame structure fundamentally affected by\naerodynamics.\n• Simple flow and flame configuration facilitate\nexperimentation, computation, analysis, and\ncompparison,, with enhanced accuracyy and reliabilityy.\n• Reduced effort in describing flows allows more\ndetailed study of other aspects of flames such as\ncchheemmiissttrryy.\n• A one-dimensional flame is the simplest possible\nconfigguration.\n33",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "table",
+      "id": "b8",
+      "name": "Page 4 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 4,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Merits of One-Dimensional Flames",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Merits of One-Dimensional Flames": "",
+            "column_2": "Merits of One-Dimensional Flames",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Merits of One-Dimensional Flames": "",
+            "column_2": "",
+            "column_3": "Merits of One-Dimensional Flames"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Merits of One-Dimensional Flames": "",
+            "column_2": "",
+            "column_3": "Merits of One-Dimensional Flames"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Merits of One-Dimensional Flames": "",
+            "column_2": "",
+            "column_3": "s-Flame for Fundamental Studies"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Merits of One-Dimensional Flames": "",
+            "column_2": "",
+            "column_3": "• Flame structure fundamentally affected by\naerodynamics."
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Merits of One-Dimensional Flames": "",
+            "column_2": "",
+            "column_3": "• Simple flow and flame configuration facilitate\nexperimentation, computation, analysis, and\ncompparison,, with enhanced accuracyy and reliabilityy."
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Merits of One-Dimensional Flames": "",
+            "column_2": "",
+            "column_3": "• Reduced effort in describing flows allows more\ndetailed study of other aspects of flames such as"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Merits of One-Dimensional Flames": "",
+            "column_2": "",
+            "column_3": "cchheemmiissttrryy.\n• A one-dimensional flame is the simplest possible\nconfigguration."
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Merits of One-Dimensional Flames": "33",
+            "column_2": "",
+            "column_3": "33"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Merits of Burner-Generated\nSSphheriicall DDiiffffusiion FFllames\ns-Flame\n•• OOnnllyy sspphheerriiccaall ((vvss. ppllaannaarr aanndd ccyylliinnddrriiccaall)) ccoonnffiigguurraattiioonn aaddmmiittss\nsteady-state 1D behavior in semi-infinite domain.\n• Spherically symmetric droplet combustion complicated by\nttrraannssiieenntt eeffffeeccttss dduuee ttoo ddrroopplleett hheeaattiinngg aanndd ssuurrffaaccee rreeggrreessssiioonn.\nKinetics of large HC fuels also less well established.\n• Burner generation assures O O\nF F\nsteaddy-state surfface bbounddary\nBurner Droplet\nSurface\nconditions. regressing\nSpherical Burner Flame Droplet Flame\nO\nFFllaammee\nDiffusion\n• • Planar flame in counterflow is not 1D\nin terms of diffusion-convection as\nStagnation\nsurface\nF well as radiation misalignment.\nCounterflow Flame 44",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "table",
+      "id": "b10",
+      "name": "Page 5 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 5,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Merits of Burner-Generated",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Merits of Burner-Generated": "",
+            "column_2": "Merits of Burner-Generated",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Merits of Burner-Generated": "",
+            "column_2": "",
+            "column_3": "Merits of Burner-Generated"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Merits of Burner-Generated": "",
+            "column_2": "",
+            "column_3": "Merits of Burner-Generated"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Merits of Burner-Generated": "",
+            "column_2": "",
+            "column_3": "SSphheriicall DDiiffffusiion FFllames\ns-Flame\n•• OOnnllyy sspphheerriiccaall ((vvss. ppllaannaarr aanndd ccyylliinnddrriiccaall)) ccoonnffiigguurraattiioonn aaddmmiittss"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Merits of Burner-Generated": "",
+            "column_2": "",
+            "column_3": "steady-state 1D behavior in semi-infinite domain.\n• Spherically symmetric droplet combustion complicated by"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Merits of Burner-Generated": "",
+            "column_2": "",
+            "column_3": "ttrraannssiieenntt eeffffeeccttss dduuee ttoo ddrroopplleett hheeaattiinngg aanndd ssuurrffaaccee rreeggrreessssiioonn.\nKinetics of large HC fuels also less well established.\n• Burner generation assures O O\nF F"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Merits of Burner-Generated": "",
+            "column_2": "",
+            "column_3": "steaddy-state surfface bbounddary\nBurner Droplet\nSurface\nconditions. regressing\nSpherical Burner Flame Droplet Flame\nO"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Merits of Burner-Generated": "",
+            "column_2": "",
+            "column_3": "FFllaammee\nDiffusion\n• • Planar flame in counterflow is not 1D\nin terms of diffusion-convection as\nStagnation\nsurface"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Merits of Burner-Generated": "F well as radiation misalignment.\nCounterflow Flame 44",
+            "column_2": "",
+            "column_3": "F well as radiation misalignment.\nCounterflow Flame 44"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "s-Flame\nFocus A: Focus B:\nExpperimentation on Developpment of\nElemental (Diffusion) Fundamental Physical &\nFlame Processes Chemical Database\n• Spreading of diffusion • Detailed fuel oxidation\nffllaammee sshheeeettss mmeecchhaanniissmmss\n• Dual extinction states • Reduced fuel oxidation\nmechanisms\n• Flamefront instabilities\n• Diffusion coefficients\n• Radiation models\n55",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "table",
+      "id": "b12",
+      "name": "Page 6 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 6,
+        "table": 1
+      },
+      "headerRow": 5,
+      "columns": [
+        "column_1",
+        "column_2",
+        "s-Flame\nFocus A: Focus B:\nExpperimentation on Developpment of"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "s-Flame\nFocus A: Focus B:\nExpperimentation on Developpment of": "Elemental (Diffusion) Fundamental Physical &\nFlame Processes Chemical Database"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "s-Flame\nFocus A: Focus B:\nExpperimentation on Developpment of": "• Spreading of diffusion • Detailed fuel oxidation\nffllaammee sshheeeettss mmeecchhaanniissmmss"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "s-Flame\nFocus A: Focus B:\nExpperimentation on Developpment of": "• Dual extinction states • Reduced fuel oxidation\nmechanisms\n• Flamefront instabilities"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "s-Flame\nFocus A: Focus B:\nExpperimentation on Developpment of": "• Diffusion coefficients\n• Radiation models"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "55",
+            "column_2": "",
+            "s-Flame\nFocus A: Focus B:\nExpperimentation on Developpment of": "55"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "The Role of µg Spherical Diffusion Flame in\nComprehensive Mechanism Development\ns-Flame\n•• SSuubbssttaannttiiaall rreesseeaarrcchh oonn hhoommooggeenneeoouuss ssyysstteemmss ((sshhoocckk\ntubes, flow reactors, etc.) and premixed flames\n• Diffusion flame experiments mostly involve counter-\nandd stagnatiion ffllows, andd ddropllet ffllames\n• Burner-supported spherical flame is 1D and steady state\n•• EExxppeerriimmeennttss ooff iinntteerreesstt ttoo cchheemmiissttrryy aarree tthhoossee iinnvvoollvviinngg\nignition and extinction.\n• Expperiments for situations awayy from extinction would\nyield information on the diffusion and radiation\nparameters.\n66",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "table",
+      "id": "b14",
+      "name": "Page 7 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 7,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "The Role of µg Spherical Diffusion Flame in",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "The Role of µg Spherical Diffusion Flame in": "",
+            "column_2": "The Role of µg Spherical Diffusion Flame in",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "The Role of µg Spherical Diffusion Flame in": "",
+            "column_2": "",
+            "column_3": "The Role of µg Spherical Diffusion Flame in"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "The Role of µg Spherical Diffusion Flame in": "",
+            "column_2": "",
+            "column_3": "The Role of µg Spherical Diffusion Flame in"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "The Role of µg Spherical Diffusion Flame in": "",
+            "column_2": "",
+            "column_3": "Comprehensive Mechanism Development\ns-Flame\n•• SSuubbssttaannttiiaall rreesseeaarrcchh oonn hhoommooggeenneeoouuss ssyysstteemmss ((sshhoocckk"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "The Role of µg Spherical Diffusion Flame in": "",
+            "column_2": "",
+            "column_3": "tubes, flow reactors, etc.) and premixed flames\n• Diffusion flame experiments mostly involve counter-"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "The Role of µg Spherical Diffusion Flame in": "",
+            "column_2": "",
+            "column_3": "andd stagnatiion ffllows, andd ddropllet ffllames\n• Burner-supported spherical flame is 1D and steady state"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "The Role of µg Spherical Diffusion Flame in": "",
+            "column_2": "",
+            "column_3": "•• EExxppeerriimmeennttss ooff iinntteerreesstt ttoo cchheemmiissttrryy aarree tthhoossee iinnvvoollvviinngg\nignition and extinction.\n• Expperiments for situations awayy from extinction would"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "The Role of µg Spherical Diffusion Flame in": "",
+            "column_2": "",
+            "column_3": "yield information on the diffusion and radiation\nparameters."
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "The Role of µg Spherical Diffusion Flame in": "66",
+            "column_2": "",
+            "column_3": "66"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b15",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Article Published Since SCR\ns-Flame\nYang, F., Law, C.K., Sung, C.J., Zhang, H.Q. \"A\nmechanistic study of Soret diffusion in hydrogen-air\nflames\" Combustion and Flame 157,, 192-200,, 2010.\n77",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "table",
+      "id": "b16",
+      "name": "Page 8 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 8,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Article Published Since SCR",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Article Published Since SCR": "",
+            "column_2": "Article Published Since SCR",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Article Published Since SCR": "",
+            "column_2": "",
+            "column_3": "Article Published Since SCR"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Article Published Since SCR": "",
+            "column_2": "",
+            "column_3": "Article Published Since SCR"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Article Published Since SCR": "",
+            "column_2": "",
+            "column_3": "s-Flame"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Article Published Since SCR": "",
+            "column_2": "",
+            "column_3": "Yang, F., Law, C.K., Sung, C.J., Zhang, H.Q. \"A\nmechanistic study of Soret diffusion in hydrogen-air\nflames\" Combustion and Flame 157,, 192-200,, 2010."
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Article Published Since SCR": "77",
+            "column_2": "",
+            "column_3": "77"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b17",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Expperimental Objjectives\ns-Flame\nObjective A. Flame Structure Evolution: Measure and\nchharactteriize tthhe ttransiientt sttructture ((suchh as ttemperatture andd\nspecies distribution) of\ndiffusion flames established\nat initially non-steady,\nspherical flame structures\nffoorr mmiixxttuurreess ooff ddiiffffeerreenntt\nH /CH /diluent ratios\n2 4\n(soot-free) and different\nCC HH //ddiillueenntt rraattiiooss ((ssooootty)),\n2 4\nfor different flow rates.\n88",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "table",
+      "id": "b18",
+      "name": "Page 9 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 9,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Expperimental Objjectives",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "Expperimental Objjectives",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "Expperimental Objjectives"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "Expperimental Objjectives"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "s-Flame\nObjective A. Flame Structure Evolution: Measure and"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "chharactteriize tthhe ttransiientt sttructture ((suchh as ttemperatture andd\nspecies distribution) of\ndiffusion flames established"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "at initially non-steady,\nspherical flame structures\nffoorr mmiixxttuurreess ooff ddiiffffeerreenntt"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "H /CH /diluent ratios\n2 4\n(soot-free) and different"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "CC HH //ddiillueenntt rraattiiooss ((ssooootty)),\n2 4\nfor different flow rates."
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Expperimental Objjectives": "88",
+            "column_2": "",
+            "column_3": "88"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Expperimental Objjectives\ns-Flame\nObjective B. Dual Extinction Limits at Low and High\nSSyysstteemm DDaammkkööhhlleerr nnuummbbeerrss, DDaa:: DDeetteerrmmiinnee tthhee qquuaassii-\nsteady convective/chemical-kinetic extinction limits (low\nsystem Da) and radiative/chemical-kinetic extinction limits\n(high system Da) for mixtures of different\nH /CH /diluent ratios (soot-free)\n2 4\nand different C H /diluent\n2 4\ne\nPurely Kinetic\nRadiative\nExtinction\nExtinction\n2 4\nratios (sooty).\nerutarepmeT\nxaM\nSSyysstteemm Damkohler NNuummbbeerr\n99",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "table",
+      "id": "b20",
+      "name": "Page 10 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 10,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Expperimental Objjectives",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "Expperimental Objjectives",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "Expperimental Objjectives"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "Expperimental Objjectives"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "s-Flame\nObjective B. Dual Extinction Limits at Low and High"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "SSyysstteemm DDaammkkööhhlleerr nnuummbbeerrss, DDaa:: DDeetteerrmmiinnee tthhee qquuaassii-\nsteady convective/chemical-kinetic extinction limits (low\nsystem Da) and radiative/chemical-kinetic extinction limits"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "(high system Da) for mixtures of different\nH /CH /diluent ratios (soot-free)\n2 4 Purely Kinetic\nRadiative\nand different C H /diluent Extinction\nExtinction\n22 44"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "e erutarepmeT\nratios (sooty)."
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "xaM"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Expperimental Objjectives": "SSyysstteemm Damkohler NNuummbbeerr\n99",
+            "column_2": "",
+            "column_3": "SSyysstteemm Damkohler NNuummbbeerr\n99"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b21",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Expperimental Objjectives\ns-Flame\nObjective C. Flame Front Instabilities in Non-\nPPremiixedd FFllames: DDetermiine thhe exiistence ((ffor ddiifffferent\nZel’dovich number, Ze), onset\n((aass aa ffuunnccttiioonn DDaa)),, aanndd\nnature (i.e. mode, frequency,\namplitude) of pulsating\ninstabilities theoretically\npredicted to occur in transient\nsspphheerriiccaall ddiiffffuussiioonn ffllaammeess\nusing fuel/diluent mixtures\nthat are above a critical\nLewis number.\n1100",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "table",
+      "id": "b22",
+      "name": "Page 11 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 11,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Expperimental Objjectives",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "Expperimental Objjectives",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "Expperimental Objjectives"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "Expperimental Objjectives"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "s-Flame\nObjective C. Flame Front Instabilities in Non-"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "PPremiixedd FFllames: DDetermiine thhe exiistence ((ffor ddiifffferent\nZel’dovich number, Ze), onset\n((aass aa ffuunnccttiioonn DDaa)),, aanndd"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "nature (i.e. mode, frequency,\namplitude) of pulsating"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "instabilities theoretically\npredicted to occur in transient\nsspphheerriiccaall ddiiffffuussiioonn ffllaammeess"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Expperimental Objjectives": "",
+            "column_2": "",
+            "column_3": "using fuel/diluent mixtures\nthat are above a critical"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Expperimental Objjectives": "Lewis number.\n1100",
+            "column_2": "",
+            "column_3": "Lewis number.\n1100"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b23",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Oscillatory Response Prior to\nExtinction\ns-Flame\n• 50%CH / 50%He vs. air ((Le = 2.3,, Le = 1.9))\n44 FF oo\n• Oscillation observed at both kinetic and radiation extinction\nlimits\nKKiinetiic EExtiinctiion RRaddiiattiion EExttiincttiion\nComputation\n1111",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "table",
+      "id": "b24",
+      "name": "Page 12 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 12,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Oscillatory Response Prior to",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Oscillatory Response Prior to": "",
+            "column_2": "Oscillatory Response Prior to",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Oscillatory Response Prior to": "",
+            "column_2": "",
+            "column_3": "Oscillatory Response Prior to"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Oscillatory Response Prior to": "",
+            "column_2": "",
+            "column_3": "Oscillatory Response Prior to"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Oscillatory Response Prior to": "",
+            "column_2": "",
+            "column_3": "Extinction\ns-Flame\n• 50%CH / 50%He vs. air ((Le = 2.3,, Le = 1.9))"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Oscillatory Response Prior to": "",
+            "column_2": "",
+            "column_3": "44 FF oo\n• Oscillation observed at both kinetic and radiation extinction\nlimits"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Oscillatory Response Prior to": "",
+            "column_2": "",
+            "column_3": "KKiinetiic EExtiinctiion RRaddiiattiion EExttiincttiion"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Oscillatory Response Prior to": "Computation\n1111",
+            "column_2": "",
+            "column_3": "Computation\n1111"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b25",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Expperiment Setupp and Apppproach\ns-Flame\n• A series of experiments is proposed in which mixtures of various\ngaseous fuels, diluents and oxygen will be issued into an oxidizing\neennvviirroonnmmeenntt tthhrroouugghh aa sspphheerriiccaall ppoorroouuss bbuurrnneerr aanndd iiggnniitteedd ttoo\nnominally obtain a spherical, one-dimensional stabilized flame\n• All experimental sets will address transient phenomenon, as flame\nevolves from localized ignition towards “steady” behavior\nOOxxiiddiizziinngg ((FFuueell)) EEnnvviirroonnmmeenntt\nSteady\nTT\nDDiiffffuussiioonn FFllaammee\ndenr Transient\nrr--rr 00\nPPoorroouuss BBuurrnneerr\nruB\nleuF\nFuel Ejected\nFFuueell ((OOxxiiddiizzeerr)) Flame spread behavior\n• Various mixtures to assess both chemical and transpport effects on\nflame behavior\n1122",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "table",
+      "id": "b26",
+      "name": "Page 13 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 13,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Expperiment Setupp and Apppproach",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Expperiment Setupp and Apppproach": "",
+            "column_2": "Expperiment Setupp and Apppproach",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Expperiment Setupp and Apppproach": "",
+            "column_2": "",
+            "column_3": "Expperiment Setupp and Apppproach"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Expperiment Setupp and Apppproach": "",
+            "column_2": "",
+            "column_3": "Expperiment Setupp and Apppproach"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Expperiment Setupp and Apppproach": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• A series of experiments is proposed in which mixtures of various\ngaseous fuels, diluents and oxygen will be issued into an oxidizing\neennvviirroonnmmeenntt tthhrroouugghh aa sspphheerriiccaall ppoorroouuss bbuurrnneerr aanndd iiggnniitteedd ttoo"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Expperiment Setupp and Apppproach": "",
+            "column_2": "",
+            "column_3": "nominally obtain a spherical, one-dimensional stabilized flame\n• All experimental sets will address transient phenomenon, as flame\nevolves from localized ignition towards “steady” behavior"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Expperiment Setupp and Apppproach": "",
+            "column_2": "",
+            "column_3": "OOxxiiddiizziinngg ((FFuueell)) EEnnvviirroonnmmeenntt\nSteady\nTT\nDDiiffffuussiioonn FFllaammee\nden Transient"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Expperiment Setupp and Apppproach": "",
+            "column_2": "",
+            "column_3": "r ruB\nrr--rr 00 leuF\nPPoorroouuss BBuurrnneerr"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Expperiment Setupp and Apppproach": "",
+            "column_2": "",
+            "column_3": "Fuel Ejected\nFFuueell ((OOxxiiddiizzeerr)) Flame spread behavior\n• Various mixtures to assess both chemical and transpport effects on"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Expperiment Setupp and Apppproach": "flame behavior\n1122",
+            "column_2": "",
+            "column_3": "flame behavior\n1122"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b27",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Achievingg Objjective A\ns-Flame\n• Objective A – Flame Structure Evolution\n–Fuel/diluent mixtures will be issued from the spherical\nburner and ignited at flow rates expected to form flames\ntthhaatt eevvoollvvee ttoowwaarrdd iiddeeaalliizzeedd sstteeaaddyy-ssttaattee ccoonnddiittiioonnss.\n–As the flame spreads outward, transient measurements of\nflame front velocity and flame structure will be obtained\nusing imaging and radiometric systems.\n–The flame characteristics will be compared with the\npreddiictiions off thhe transiient numeriicall siimullatiion off\nspherical diffusion flames for evaluations of detailed\nchemical kinetic and transpport models.\n1133",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "table",
+      "id": "b28",
+      "name": "Page 14 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 14,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Achievingg Objjective A",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Achievingg Objjective A": "",
+            "column_2": "Achievingg Objjective A",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Achievingg Objjective A": "",
+            "column_2": "",
+            "column_3": "Achievingg Objjective A"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Achievingg Objjective A": "",
+            "column_2": "",
+            "column_3": "Achievingg Objjective A"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Achievingg Objjective A": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Objective A – Flame Structure Evolution"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Achievingg Objjective A": "",
+            "column_2": "",
+            "column_3": "–Fuel/diluent mixtures will be issued from the spherical\nburner and ignited at flow rates expected to form flames\ntthhaatt eevvoollvvee ttoowwaarrdd iiddeeaalliizzeedd sstteeaaddyy-ssttaattee ccoonnddiittiioonnss."
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Achievingg Objjective A": "",
+            "column_2": "",
+            "column_3": "–As the flame spreads outward, transient measurements of\nflame front velocity and flame structure will be obtained"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Achievingg Objjective A": "",
+            "column_2": "",
+            "column_3": "using imaging and radiometric systems.\n–The flame characteristics will be compared with the"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Achievingg Objjective A": "",
+            "column_2": "",
+            "column_3": "preddiictiions off thhe transiient numeriicall siimullatiion off\nspherical diffusion flames for evaluations of detailed\nchemical kinetic and transpport models."
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Achievingg Objjective A": "1133",
+            "column_2": "",
+            "column_3": "1133"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b29",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame Structure Evolution SDEP A1 -\nDirect Color (Visible) Imaging\ns-Flame\n• Seqquence of color and OH* imagges of the flame as a\nfunction of time, flow rate, and fuel composition.\n• VViissiibbllee CChheemmiilluummiinneesscceennccee ((CCHH*))\n• Soot incandescence\n• Assess flame symmetry and influence of feed tube\n1144",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "table",
+      "id": "b30",
+      "name": "Page 15 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 15,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame Structure Evolution SDEP A1 -",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame Structure Evolution SDEP A1 -": "",
+            "column_2": "Flame Structure Evolution SDEP A1 -",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame Structure Evolution SDEP A1 -": "",
+            "column_2": "",
+            "column_3": "Flame Structure Evolution SDEP A1 -"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Flame Structure Evolution SDEP A1 -": "",
+            "column_2": "",
+            "column_3": "Flame Structure Evolution SDEP A1 -"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Flame Structure Evolution SDEP A1 -": "",
+            "column_2": "",
+            "column_3": "Direct Color (Visible) Imaging\ns-Flame\n• Seqquence of color and OH* imagges of the flame as a"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Flame Structure Evolution SDEP A1 -": "",
+            "column_2": "",
+            "column_3": "function of time, flow rate, and fuel composition.\n• VViissiibbllee CChheemmiilluummiinneesscceennccee ((CCHH*))"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Flame Structure Evolution SDEP A1 -": "",
+            "column_2": "",
+            "column_3": "• Soot incandescence\n• Assess flame symmetry and influence of feed tube"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Flame Structure Evolution SDEP A1 -": "1144",
+            "column_2": "",
+            "column_3": "1144"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b31",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame Structure Evolution SDEP A1\n- UV Imaging\ns-Flame\n• Chemiluminescence from OH* (310nm)\n• CChhemiisttry ((compariisons wiitthh computtattiions))\n• Indirect assessment of flame structure\nrr - ←←→→ rr +\nProjection Image (310nm) Abel deconvoluted image\n• 9%O /91%N2, m = 0.078 g/s, into 100%H at 0.079 atm\n2 2\n• XXybbiion IIMMCC-220011 iinttensiiffiiedd mullttiispecttrall viiddeo camera wiitthh ffiilltter\n• OH* chemiluminescence 1155",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "table",
+      "id": "b32",
+      "name": "Page 16 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 16,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame Structure Evolution SDEP A1",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 8,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame Structure Evolution SDEP A1": "",
+            "column_2": "Flame Structure Evolution SDEP A1",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame Structure Evolution SDEP A1": "",
+            "column_2": "",
+            "column_3": "Flame Structure Evolution SDEP A1"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Flame Structure Evolution SDEP A1": "",
+            "column_2": "",
+            "column_3": "Flame Structure Evolution SDEP A1"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Flame Structure Evolution SDEP A1": "",
+            "column_2": "",
+            "column_3": "- UV Imaging\ns-Flame\n• Chemiluminescence from OH* (310nm)"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Flame Structure Evolution SDEP A1": "",
+            "column_2": "",
+            "column_3": "• CChhemiisttry ((compariisons wiitthh computtattiions))\n• Indirect assessment of flame structure"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Flame Structure Evolution SDEP A1": "",
+            "column_2": "",
+            "column_3": "- +"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Flame Structure Evolution SDEP A1": "",
+            "column_2": "",
+            "column_3": "rr ←←→→ rr\nProjection Image (310nm) Abel deconvoluted image\n• 9%O /91%N2, m = 0.078 g/s, into 100%H at 0.079 atm\n2 2"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Flame Structure Evolution SDEP A1": "• XXybbiion IIMMCC-220011 iinttensiiffiiedd mullttiispecttrall viiddeo camera wiitthh ffiilltter\n• OH* chemiluminescence 1155",
+            "column_2": "",
+            "column_3": "• XXybbiion IIMMCC-220011 iinttensiiffiiedd mullttiispecttrall viiddeo camera wiitthh ffiilltter\n• OH* chemiluminescence 1155"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b33",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame Structure Evolution SDEP A2\ns-Flame\n• Visible flame radius as a function of time, flow rate,\nand fuel compposition.\n• Requirements\n22..00\n• Color images\n• UV images\n1.5\n1 0\n)mc(\nsu\n1.5\n1 0\n)mc(\nsu\n1.0\nmax T (no radiation)\nmax CH* (no radiation)\n0.5\nmax T (SNB reabsorption)\nuidaR 1.0\nmax T (no radiation)\nmax CH* (no radiation)\n0.5\nmax T (SNB reabsorption)\nuidaR\n(( pp ))\nmmaaxx CCHH** ((SSNNBB rreeaabbssoorrppttiioonn))\neexxppeerriimmeennttaall ddaattaa\n00\n00 00..55 11..00 11..55 22..00 22..55 33..00\nTTiiiimmee ((((ss))))\n1166",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "table",
+      "id": "b34",
+      "name": "Page 17 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 17,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame Structure Evolution SDEP A2",
+        "column_2",
+        "column_3",
+        "column_4"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame Structure Evolution SDEP A2": "",
+            "column_2": "Flame Structure Evolution SDEP A2",
+            "column_3": "",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame Structure Evolution SDEP A2": "",
+            "column_2": "",
+            "column_3": "Flame Structure Evolution SDEP A2",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Flame Structure Evolution SDEP A2": "",
+            "column_2": "",
+            "column_3": "Flame Structure Evolution SDEP A2",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Flame Structure Evolution SDEP A2": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Visible flame radius as a function of time, flow rate,\nand fuel compposition.",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Flame Structure Evolution SDEP A2": "",
+            "column_2": "",
+            "column_3": "• Requirements\n22..00\n• Color images",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Flame Structure Evolution SDEP A2": "",
+            "column_2": "",
+            "column_3": "• UV images\n1.5 1.5\n)mc( )mc(\nsu suuu",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Flame Structure Evolution SDEP A2": "",
+            "column_2": "",
+            "column_3": "111.000 1.0\nidaR idaR\n0.5 0.5",
+            "column_4": "mmaaxx TT ((nnoo rraaddiiaattiioonn))\nmmaaxx CCHH** ((nnoo rraaddiiaattiioonn))\nmmaaxx TT ((((SSNNBB rreeaabbssoorrppppttiioonn))))"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Flame Structure Evolution SDEP A2": "",
+            "column_2": "",
+            "column_3": "mmaaxx CCHH** ((SSNNBB rreeaabbssoorrppttiioonn))\neexxppeerriimmeennttaall ddaattaa\n00\n00 00..55 11..00 11..55 22..00 22..55 33..00",
+            "column_4": "mmaaxx CCHH** ((SSNNBB rreeaabbssoorrppttiioonn))\neexxppeerriimmeennttaall ddaattaa"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Flame Structure Evolution SDEP A2": "TTiiiimmee ((((ss))))\n1166",
+            "column_2": "",
+            "column_3": "TTiiiimmee ((((ss))))\n1166",
+            "column_4": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b35",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame Structure Evolution SDEP A3\ns-Flame\n• Temperature (and desired major species) radial\ndistribution as a function of time, flow rate, and fuel\ncomposiittiion.\n• Requirements\n• TTeemmppeerraattuurree pprrooffiilleess\nTemperature Profiles -- Constant Volume Chamber (100L) Temperature Profiles -- Constant Pressure Chamber (100L)\nAdiabatic Adiabatic\n2500 2500\n2000\n1500 )K(\nerutar\n2000\nt=0.1s\nt=0.2s\n1500 t=0.5s\nt=1.0s\nt=2.0s\n)K(\nerutar\nt=0.1s\nt=0.2s\nt=0.5s\nt=1.0s\nt=2.0s\n1000\n500\n0\nrepmeT\nt 0s\nt=5.0s\n1000 t=10s\nt=20s\nt=50s\n500\n0\nrepmeT t=5.0s\nt=10s\nt=20s\nt=25s\nt=50s\n0 5 10 15 20 25 30 0 5 10 15 20 25 30\nRadius (cm) Radius (cm)\n1177\n20%H -25%CH -55%N into air, m=15.72mg/s\n2 4 2",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "table",
+      "id": "b36",
+      "name": "Page 18 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 18,
+        "table": 1
+      },
+      "headerRow": 8,
+      "columns": [
+        "column_1",
+        "column_2",
+        "2000\n1500 )K(\neruta",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8",
+        "column_9",
+        "2000\nt=0.1s\nt=0.2s\n1500 )K( t=0.5s\neruta t=1.0s\nt=2.0s",
+        "column_11",
+        "column_12",
+        "column_13",
+        "column_14",
+        "column_15",
+        "column_16",
+        "t=0.1s\nt=0.2s\nt=0.5s\nt=1.0s\ntt=2.00ss"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "2000\n1500 )K(\neruta": "r repmeT\n1000\n500\n0",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "2000\nt=0.1s\nt=0.2s\n1500 )K( t=0.5s\neruta t=1.0s\nt=2.0s": "r repmeT t=5.0s\nt=10s\n1000 t=20s\nt=25s\nt=50s\n500\n0",
+            "column_11": "",
+            "column_12": "",
+            "column_13": "",
+            "column_14": "",
+            "column_15": "",
+            "column_16": "",
+            "t=0.1s\nt=0.2s\nt=0.5s\nt=1.0s\ntt=2.00ss": "t=5.0s\nt=10s\nt=20s\nt=50s"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "column_1": "0 5 10 15 20 25 30 0 5 10 15 20 25 30\nRadius (cm) Radius (cm)\n1177\n20%H -25%CH -55%N into air, m=15.72mg/s\n2 4 2",
+            "column_2": "",
+            "2000\n1500 )K(\neruta": "0 5 10 15 20 25 30 0 5 10 15 20 25 30\nRadius (cm) Radius (cm)\n1177\n20%H -25%CH -55%N into air, m=15.72mg/s\n2 4 2",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "2000\nt=0.1s\nt=0.2s\n1500 )K( t=0.5s\neruta t=1.0s\nt=2.0s": "",
+            "column_11": "",
+            "column_12": "",
+            "column_13": "",
+            "column_14": "",
+            "column_15": "",
+            "column_16": "",
+            "t=0.1s\nt=0.2s\nt=0.5s\nt=1.0s\ntt=2.00ss": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b37",
+      "name": "Page 18 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 18,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "t=0.1s\nt=0.2s\nt=0.5s\nt=1.0s\nt=2.0s"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "t=0.1s\nt=0.2s\nt=0.5s\nt=1.0s\nt=2.0s": "t=5.0s\nt=10s\nt=20s\nt=25s\nt=50s"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b38",
+      "name": "Page 18 table 3",
+      "confidence": "low",
+      "location": {
+        "page": 18,
+        "table": 3
+      },
+      "headerRow": 1,
+      "columns": [
+        "t=0.1s\nt=0.2s\nt=0.5s\nt=1.0s\ntt=2.00ss"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "t=0.1s\nt=0.2s\nt=0.5s\nt=1.0s\ntt=2.00ss": "t=5.0s\nt=10s\nt=20s\nt=50s"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b39",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame Structure Evolution SDEP A4\ns-Flame\n• Soot onset (determined from visible luminescence\nversus soot extinction measurements) as a function of\nraddiiii ffor ddiifffferentt ffllow rattes andd ffuell composiittiions.\n• Requirements\n• CCoolloorr iimmaaggeess\n• Soot volume fraction measurements\n• Temperature profiles\ne.g. 25%C H / 2%O / 49% Ar / 24% N\n3 8 2 2\nHigh flow rate\nLow flow rate\n1188",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "table",
+      "id": "b40",
+      "name": "Page 19 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 19,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame Structure Evolution SDEP A4",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame Structure Evolution SDEP A4": "",
+            "column_2": "Flame Structure Evolution SDEP A4",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame Structure Evolution SDEP A4": "",
+            "column_2": "",
+            "column_3": "Flame Structure Evolution SDEP A4"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Flame Structure Evolution SDEP A4": "",
+            "column_2": "",
+            "column_3": "Flame Structure Evolution SDEP A4"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Flame Structure Evolution SDEP A4": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Soot onset (determined from visible luminescence\nversus soot extinction measurements) as a function of"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Flame Structure Evolution SDEP A4": "",
+            "column_2": "",
+            "column_3": "raddiiii ffor ddiifffferentt ffllow rattes andd ffuell composiittiions.\n• Requirements\n• CCoolloorr iimmaaggeess"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Flame Structure Evolution SDEP A4": "",
+            "column_2": "",
+            "column_3": "• Soot volume fraction measurements\n• Temperature profiles"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Flame Structure Evolution SDEP A4": "",
+            "column_2": "",
+            "column_3": "e.g. 25%C H / 2%O / 49% Ar / 24% N\n3 8 2 2"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Flame Structure Evolution SDEP A4": "",
+            "column_2": "",
+            "column_3": "High flow rate"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Flame Structure Evolution SDEP A4": "Low flow rate\n1188",
+            "column_2": "",
+            "column_3": "Low flow rate\n1188"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b41",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Achievingg Objjective B\ns-Flame\n• Objective B – Quasi-Steady Extinction Limits, Low Da\n– FFuell//iinert miixtures wiillll bbe iissuedd ffrom thhe sphheriicall bburner andd\nignited at initial flow rates expected (or known/observed) to\nform flames that evolve toward idealized steady-state conditions.\n– Following ignition and initial flame front movement, the\nfuel/inert flow rate will be abruptly reduced to a second flow\nrraattee bbeellooww tthhee eexxppeecctteedd eexxttiinnccttiioonn lliimmiitt.\n– Quasi-steady extinction is expected to occur as the flame adjusts\nto the reduced flow rate.\n– To refine the determination of the extinction flow rate for each\nfuel/diluent mixture, repeated tests are to be conducted at\nssuucccceessssiivveellyy lloowweerr iinniittiiaall ffllooww rraatteess aanndd hhiigghheerr sseeccoonnddaarryy ffllooww\nrates.\n1199",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "table",
+      "id": "b42",
+      "name": "Page 20 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 20,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Achievingg Objjective B",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Achievingg Objjective B": "",
+            "column_2": "Achievingg Objjective B",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Achievingg Objjective B": "",
+            "column_2": "",
+            "column_3": "Achievingg Objjective B"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Achievingg Objjective B": "",
+            "column_2": "",
+            "column_3": "Achievingg Objjective B"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Achievingg Objjective B": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Objective B – Quasi-Steady Extinction Limits, Low Da"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Achievingg Objjective B": "",
+            "column_2": "",
+            "column_3": "– FFuell//iinert miixtures wiillll bbe iissuedd ffrom thhe sphheriicall bburner andd\nignited at initial flow rates expected (or known/observed) to\nform flames that evolve toward idealized steady-state conditions."
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Achievingg Objjective B": "",
+            "column_2": "",
+            "column_3": "– Following ignition and initial flame front movement, the\nfuel/inert flow rate will be abruptly reduced to a second flow\nrraattee bbeellooww tthhee eexxppeecctteedd eexxttiinnccttiioonn lliimmiitt."
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Achievingg Objjective B": "",
+            "column_2": "",
+            "column_3": "– Quasi-steady extinction is expected to occur as the flame adjusts\nto the reduced flow rate."
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Achievingg Objjective B": "",
+            "column_2": "",
+            "column_3": "– To refine the determination of the extinction flow rate for each\nfuel/diluent mixture, repeated tests are to be conducted at\nssuucccceessssiivveellyy lloowweerr iinniittiiaall ffllooww rraatteess aanndd hhiigghheerr sseeccoonnddaarryy ffllooww"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Achievingg Objjective B": "rates.\n1199",
+            "column_2": "",
+            "column_3": "rates.\n1199"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b43",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Achievingg Objjective B\n((cont.))\ns-Flame\n• Objective B – Quasi-Steady Extinction Limits, Low Da\n–At the low Da extinction limit, chemical kinetic rates are\nretarded with respect to flow rates by inert gas in the fuel\nssttrreeaamm tthhaatt rreedduucceess tthhee ffllaammee tteemmppeerraattuurree.\n–Based on theoretical predictions, fuel/inert mixtures are to\nbe chosen for which the extinction flame radius is largge\nenough to minimize the effects of heat loss to the burner.\n–The surface temperature of the burner will be directly\nmeasured to quantify this loss.\n2200",
+      "location": {
+        "page": 21
+      }
+    },
+    {
+      "type": "table",
+      "id": "b44",
+      "name": "Page 21 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 21,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Achievingg Objjective B\n((cont.))",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "Achievingg Objjective B\n((cont.))",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "",
+            "column_3": "Achievingg Objjective B\n((cont.))"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "",
+            "column_3": "Achievingg Objjective B\n((cont.))"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Objective B – Quasi-Steady Extinction Limits, Low Da"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "",
+            "column_3": "–At the low Da extinction limit, chemical kinetic rates are\nretarded with respect to flow rates by inert gas in the fuel"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "",
+            "column_3": "ssttrreeaamm tthhaatt rreedduucceess tthhee ffllaammee tteemmppeerraattuurree.\n–Based on theoretical predictions, fuel/inert mixtures are to\nbe chosen for which the extinction flame radius is largge"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "",
+            "column_3": "enough to minimize the effects of heat loss to the burner.\n–The surface temperature of the burner will be directly"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "",
+            "column_3": "measured to quantify this loss."
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "2200",
+            "column_2": "",
+            "column_3": "2200"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b45",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Achievingg Objjective B\n((cont.))\ns-Flame\n• Objective B – Quasi-Steady Extinction Limits, High Da\n–Fuel/inert mixtures will be issued from the spherical burner\nand ignited at flow rates above and beyond those expected\n((oorr kknnoowwnn//oobbsseerrvveedd)) ttoo ffoorrmm sstteeaaddyy ffllaammeess wwhheenn rraaddiiaattiivvee\nloss is considered.\n–The qquasi-steadyy extinction is exppected to occur as the\nflame moves outward before reaching the adiabatic steady-\nstate radius.\n–Rates of radiative emissions from the flame and radiative\nreabsorption elsewhere are to be accentuated in some cases\nbbyy uussiinngg aa rraaddiiaattiivveellyy aaccttiivvee ddiilluueenntt ssuucchh aass CCOO\n22.\n2211",
+      "location": {
+        "page": 22
+      }
+    },
+    {
+      "type": "table",
+      "id": "b46",
+      "name": "Page 22 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 22,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Achievingg Objjective B\n((cont.))",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "Achievingg Objjective B\n((cont.))",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "",
+            "column_3": "Achievingg Objjective B\n((cont.))"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "",
+            "column_3": "Achievingg Objjective B\n((cont.))"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Objective B – Quasi-Steady Extinction Limits, High Da"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "",
+            "column_3": "–Fuel/inert mixtures will be issued from the spherical burner\nand ignited at flow rates above and beyond those expected"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "",
+            "column_3": "((oorr kknnoowwnn//oobbsseerrvveedd)) ttoo ffoorrmm sstteeaaddyy ffllaammeess wwhheenn rraaddiiaattiivvee\nloss is considered.\n–The qquasi-steadyy extinction is exppected to occur as the"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "",
+            "column_3": "flame moves outward before reaching the adiabatic steady-\nstate radius."
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "",
+            "column_2": "",
+            "column_3": "–Rates of radiative emissions from the flame and radiative\nreabsorption elsewhere are to be accentuated in some cases\nbbyy uussiinngg aa rraaddiiaattiivveellyy aaccttiivvee ddiilluueenntt ssuucchh aass CCOO"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Achievingg Objjective B\n((cont.))": "22.\n2211",
+            "column_2": "",
+            "column_3": "22.\n2211"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b47",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Extinction Limits SDEP B1,, B2,, B4\ns-Flame\n• B1) Extinction limits as a function of system\nDamköhler number.\n• B2) Total radiation loss as a function of radius for\ndifferent flow rates and fuel compositions.\n• BB44)) RRaaddiiaattiioonn lloossss vveerrssuuss ttiimmee ffoorr ssoooottyy ffllaammeess, ffoorr\ndifferent flow rates and fuel compositions.\n• Requirements\nAAddiiaabbaattiicc\n• Temperature profiles\n• Color images\n• UV images Radiative\nerutarepmeT\nm\nRadiative\nerutarepmeT\nm\n• UV images\nRadiation\n• Mass flow rate Extinction\nKinetic\nExtinction\n• Radiometer data\nmumixaM\nRadiation\nExtinction\nKinetic\nExtinction\nmumixaM\nMMaassss FFllooww RRaattee 2222",
+      "location": {
+        "page": 23
+      }
+    },
+    {
+      "type": "table",
+      "id": "b48",
+      "name": "Page 23 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 23,
+        "table": 1
+      },
+      "headerRow": 9,
+      "columns": [
+        "column_1",
+        "column_2",
+        "• Temperature profiles\neerruuttaarreeppmmeeTT\n• Color images\n• •",
+        "RRaaddiiaattiivvee",
+        "column_5"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "• Temperature profiles\neerruuttaarreeppmmeeTT\n• Color images\n• •": "UV images UV images\nmm mmuummiixxaaMM\n• Mass flow rate\n• Radiometer data",
+            "RRaaddiiaattiivvee": "RRaaddii\nEExxttii\nKKiinneettiicc\nEExxttiinnccttiioonn",
+            "column_5": "aattiioonn\nnnccttiioonn"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "MMaassss FFllooww RRaattee 2222",
+            "column_2": "",
+            "• Temperature profiles\neerruuttaarreeppmmeeTT\n• Color images\n• •": "MMaassss FFllooww RRaattee 2222",
+            "RRaaddiiaattiivvee": "",
+            "column_5": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b49",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Extinction Limits SDEP B3\ns-Flame\n• Peak CH* or OH* chemiluminescence along with\npeak temperature as a function of radius, for different\ntimes, flow rates, and fuel compositions.\n•• RReeqquuiirreemmeennttss\n• UV images (OH* filter)\n• Temperature profiles\n• Assess evolving flame structure\n• Assess moment of LOCAL flame extinction (based on\nprecipitous drop in local peak temperature)\n•• TTrackk ffllameffrontt mottiion bbasedd on peakk ttemperatture\n• Radial temperature profile to be provided by thin filament\npyrometry\n2233",
+      "location": {
+        "page": 24
+      }
+    },
+    {
+      "type": "table",
+      "id": "b50",
+      "name": "Page 24 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 24,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Extinction Limits SDEP B3",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Extinction Limits SDEP B3": "",
+            "column_2": "Extinction Limits SDEP B3",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Extinction Limits SDEP B3": "",
+            "column_2": "",
+            "column_3": "Extinction Limits SDEP B3"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Extinction Limits SDEP B3": "",
+            "column_2": "",
+            "column_3": "Extinction Limits SDEP B3"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Extinction Limits SDEP B3": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Peak CH* or OH* chemiluminescence along with"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Extinction Limits SDEP B3": "",
+            "column_2": "",
+            "column_3": "peak temperature as a function of radius, for different\ntimes, flow rates, and fuel compositions.\n•• RReeqquuiirreemmeennttss"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Extinction Limits SDEP B3": "",
+            "column_2": "",
+            "column_3": "• UV images (OH* filter)\n• Temperature profiles"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Extinction Limits SDEP B3": "",
+            "column_2": "",
+            "column_3": "• Assess evolving flame structure\n• Assess moment of LOCAL flame extinction (based on\nprecipitous drop in local peak temperature)"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Extinction Limits SDEP B3": "",
+            "column_2": "",
+            "column_3": "•• TTrackk ffllameffrontt mottiion bbasedd on peakk ttemperatture\n• Radial temperature profile to be provided by thin filament\npyrometry"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Extinction Limits SDEP B3": "2233",
+            "column_2": "",
+            "column_3": "2233"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b51",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Extinction – Quasi-steadyy\ns-Flame\n3.0\n2.5\n)m\nSNB reabsorption Visible Luminosity Consideration\n2.0\n1.5\n1.0 max T (no radiation)\nmax CH* (no radiation)\nmax T (T&H thin)\nmax CH* (T&H thin)\n0.5 maxT(SNBreabsorption)\nmc(\necnatsiD\nffodnatS\n2.5 10-9\nT&H thin k[CH*] profiles (non-radiative)\nPeak k[CH*] (non-radiative)\n2.0 10-9 Peak k[CH*] (T&H-thin)\nSteady-state peak k[CH*] (non-radiative)\n1.5 10-9\n)s⋅3mc(\n/ snot\nmax T (SNB reabsorption)\nmax CH* (SNB reabsorption)\nexperimental data 1.0 10-9\n0\n0 0.5 1.0 1.5 2.0 2.5 3.0\nTime (s)\n5.0 10-10\n2000\nno radiation 0\ntohp-fo-seloM\n•\n1800\n1600\n1400\n)K(\nerutarepmeT\nmum\n2000\n1500\n1000\n)K(\nerutare\n1200\n1000\n0 0.5 1.0 1.5 2.0 2.5 3.0\nTime (s)\nmixaM\nSNB reabsorption\nSNB thin\nT&H thin\n500 T profiles (non-radiative)\nT at peak k[CH*] (non-radiative)\nT at peak k[CH*] (T&H-thin)\nSteady-state T at peak k[CH*] (non-radiative)\n0\n0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0\nepmeT\n• 20%H -25%CH -55%N (15.72mg/s) into STP air Radius (cm)\n2 4 2\n2244",
+      "location": {
+        "page": 25
+      }
+    },
+    {
+      "type": "table",
+      "id": "b52",
+      "name": "Page 25 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 25,
+        "table": 1
+      },
+      "headerRow": 7,
+      "columns": [
+        "column_1",
+        "column_2",
+        "2.0 c(\necnatsiD\n1.5\nffodnatS\n1.0\n0.5",
+        "T&H thin\nmax T (no radiation)\nmax CH* (no radiation)\nmax T (T&H thin)\nmax CH* (T&H thin)\nmmaaxx TT ((SSNNBB rreeaabbssoorrppttiioonn))",
+        "2.5 10-9\nk[CH*] profiles (non-radiative)\nPeak k[CH*] (non-radiative)\n2.0 10-9 Peak k[CH*] (T&H-thin) )s⋅3mc(\nSteady-state peak k[CH*] (non-radiative)\n1.5 10-9 / sno",
+        "column_6",
+        "column_7"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "2.0 c(\necnatsiD\n1.5\nffodnatS\n1.0\n0.5": "",
+            "T&H thin\nmax T (no radiation)\nmax CH* (no radiation)\nmax T (T&H thin)\nmax CH* (T&H thin)\nmmaaxx TT ((SSNNBB rreeaabbssoorrppttiioonn))": "",
+            "2.5 10-9\nk[CH*] profiles (non-radiative)\nPeak k[CH*] (non-radiative)\n2.0 10-9 Peak k[CH*] (T&H-thin) )s⋅3mc(\nSteady-state peak k[CH*] (non-radiative)\n1.5 10-9 / sno": "",
+            "column_6": "k[CH*] profiles (non-radiative)\nPeak k[CH*] (non-radiative)\nPeak k[CH*] (T&H-thin)\nSteady-state peak k[CH*] (non-radiative)",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "2.0 c(\necnatsiD\n1.5\nffodnatS\n1.0\n0.5": "t tohp-fo-seloM\nmax CH* (SNB reabsorption)\nexperimental data 1.0 10-9\n0\n0 0.5 1.0 1.5 2.0 2.5 3.0\nTime (s)\n5.0 10-10 •\n2000\nno radiation 0",
+            "T&H thin\nmax T (no radiation)\nmax CH* (no radiation)\nmax T (T&H thin)\nmax CH* (T&H thin)\nmmaaxx TT ((SSNNBB rreeaabbssoorrppttiioonn))": "max CH* (SNB reabsorption)\nexperimental data",
+            "2.5 10-9\nk[CH*] profiles (non-radiative)\nPeak k[CH*] (non-radiative)\n2.0 10-9 Peak k[CH*] (T&H-thin) )s⋅3mc(\nSteady-state peak k[CH*] (non-radiative)\n1.5 10-9 / sno": "",
+            "column_6": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "2.0 c(\necnatsiD\n1.5\nffodnatS\n1.0\n0.5": "",
+            "T&H thin\nmax T (no radiation)\nmax CH* (no radiation)\nmax T (T&H thin)\nmax CH* (T&H thin)\nmmaaxx TT ((SSNNBB rreeaabbssoorrppttiioonn))": "no radiation",
+            "2.5 10-9\nk[CH*] profiles (non-radiative)\nPeak k[CH*] (non-radiative)\n2.0 10-9 Peak k[CH*] (T&H-thin) )s⋅3mc(\nSteady-state peak k[CH*] (non-radiative)\n1.5 10-9 / sno": "",
+            "column_6": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "2.0 c(\necnatsiD\n1.5\nffodnatS\n1.0\n0.5": "1800 )K(\nerutarepmeT\n1600\n1400 mumm",
+            "T&H thin\nmax T (no radiation)\nmax CH* (no radiation)\nmax T (T&H thin)\nmax CH* (T&H thin)\nmmaaxx TT ((SSNNBB rreeaabbssoorrppttiioonn))": "",
+            "2.5 10-9\nk[CH*] profiles (non-radiative)\nPeak k[CH*] (non-radiative)\n2.0 10-9 Peak k[CH*] (T&H-thin) )s⋅3mc(\nSteady-state peak k[CH*] (non-radiative)\n1.5 10-9 / sno": "2000\n1500 )K(\nerutaree\n1000",
+            "column_6": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "2.0 c(\necnatsiD\n1.5\nffodnatS\n1.0\n0.5": "ixaM SNB reabsorption pmeT\nSNB thin\n1200\nT&H thin\n500 T profiles (non-radiative)\nT at peak k[CH*] (non-radiative)\n1000 T at peak k[CH*] (T&H-thin)\n0 0.5 1.0 1.5 2.0 2.5 3.0 Steady-state T at peak k[CH*] (non-radiative)\nTime (s) 0\n0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0",
+            "T&H thin\nmax T (no radiation)\nmax CH* (no radiation)\nmax T (T&H thin)\nmax CH* (T&H thin)\nmmaaxx TT ((SSNNBB rreeaabbssoorrppttiioonn))": "SNB reabsorption\nSNB thin\nT&H thin",
+            "2.5 10-9\nk[CH*] profiles (non-radiative)\nPeak k[CH*] (non-radiative)\n2.0 10-9 Peak k[CH*] (T&H-thin) )s⋅3mc(\nSteady-state peak k[CH*] (non-radiative)\n1.5 10-9 / sno": "",
+            "column_6": "T profiles (non-radiative)\nT at peak k[CH*] (non-radiative)\nT at peak k[CH*] (T&H-thin)\nSteady-state T at peak k[CH*] (non-radiative)",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "2.0 c(\necnatsiD\n1.5\nffodnatS\n1.0\n0.5": "",
+            "T&H thin\nmax T (no radiation)\nmax CH* (no radiation)\nmax T (T&H thin)\nmax CH* (T&H thin)\nmmaaxx TT ((SSNNBB rreeaabbssoorrppttiioonn))": "",
+            "2.5 10-9\nk[CH*] profiles (non-radiative)\nPeak k[CH*] (non-radiative)\n2.0 10-9 Peak k[CH*] (T&H-thin) )s⋅3mc(\nSteady-state peak k[CH*] (non-radiative)\n1.5 10-9 / sno": "",
+            "column_6": "",
+            "column_7": "T profiles (non-radiative)\nT at peak k[CH*] (non-radiative)\nT at peak k[CH*] (T&H-thin)\nSteady-state T at peak k[CH*] (non-radiative)"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "column_1": "• 20%H -25%CH -55%N (15.72mg/s) into STP air Radius (cm)\n2 4 2\n2244",
+            "column_2": "",
+            "2.0 c(\necnatsiD\n1.5\nffodnatS\n1.0\n0.5": "• 20%H -25%CH -55%N (15.72mg/s) into STP air Radius (cm)\n2 4 2\n2244",
+            "T&H thin\nmax T (no radiation)\nmax CH* (no radiation)\nmax T (T&H thin)\nmax CH* (T&H thin)\nmmaaxx TT ((SSNNBB rreeaabbssoorrppttiioonn))": "",
+            "2.5 10-9\nk[CH*] profiles (non-radiative)\nPeak k[CH*] (non-radiative)\n2.0 10-9 Peak k[CH*] (T&H-thin) )s⋅3mc(\nSteady-state peak k[CH*] (non-radiative)\n1.5 10-9 / sno": "",
+            "column_6": "",
+            "column_7": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b53",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Achievingg Objjective C\ns-Flame\n• Objective C – Flame Front Instabilities\n–Pulsating flame front instabilities are predicted to occur\nnear the extinction conditions at both low and high Da.\n–TThhee aapppprrooaacchh ttaakkeenn ttoo oobbsseerrvvee tthhee iinnssttaabbiilliittiieess iiss ssiimmiillaarr ttoo\nthe approach for observing extinction except fuel/diluent\nmixtures with large system Lewis numbers (Le) are used.\n• LLooww DDaa:: mmooddeerraattee iinniittiiaall ffllooww rraattee,, aabbrruupptt cchhaannggee ttoo ffllooww rraattee\nbelow predicted extinction rate.\n• High Da: initial flow rate above predicted extinction flow rate\nwith radiation.\n• Instabilities are expected to appear before extinction.\n–Radiating diluents are used to further encourage the\niinnssttaabbiilliittiieess.\n2255",
+      "location": {
+        "page": 26
+      }
+    },
+    {
+      "type": "table",
+      "id": "b54",
+      "name": "Page 26 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 26,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Achievingg Objjective C",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Achievingg Objjective C": "",
+            "column_2": "Achievingg Objjective C",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Achievingg Objjective C": "",
+            "column_2": "",
+            "column_3": "Achievingg Objjective C"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Achievingg Objjective C": "",
+            "column_2": "",
+            "column_3": "Achievingg Objjective C"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Achievingg Objjective C": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Objective C – Flame Front Instabilities"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Achievingg Objjective C": "",
+            "column_2": "",
+            "column_3": "–Pulsating flame front instabilities are predicted to occur\nnear the extinction conditions at both low and high Da.\n–TThhee aapppprrooaacchh ttaakkeenn ttoo oobbsseerrvvee tthhee iinnssttaabbiilliittiieess iiss ssiimmiillaarr ttoo"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Achievingg Objjective C": "",
+            "column_2": "",
+            "column_3": "the approach for observing extinction except fuel/diluent\nmixtures with large system Lewis numbers (Le) are used.\n• LLooww DDaa:: mmooddeerraattee iinniittiiaall ffllooww rraattee,, aabbrruupptt cchhaannggee ttoo ffllooww rraattee"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Achievingg Objjective C": "",
+            "column_2": "",
+            "column_3": "below predicted extinction rate.\n• High Da: initial flow rate above predicted extinction flow rate\nwith radiation."
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Achievingg Objjective C": "",
+            "column_2": "",
+            "column_3": "• Instabilities are expected to appear before extinction.\n–Radiating diluents are used to further encourage the\niinnssttaabbiilliittiieess."
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Achievingg Objjective C": "2255",
+            "column_2": "",
+            "column_3": "2255"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b55",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Instabilities SDEP C1,, C2,, C3,, C4\ns-Flame\n• C1) Total chemiluminescence as a function of time.\n• C2) Total radiation loss (based on radiation flux) as a function of\nrraaddiiuuss, ffoorr ddiiffffeerreenntt ffllooww rraatteess aanndd ffuueell ccoommppoossiittiioonnss.\n• C3) Oscillation mode, frequency, and amplitude near extinction as\na function of flow rate for flames of different Le and mass flow\nrates.\n• C4) Comparison of extinction times and extinction radii as a\nfunction of flow rate, for different fuel compositions.\n• Requirements\n• PMT (chemiluminescence)\n• Radiometer data\n• Color imagges\n• UV images\n• Temperature profiles\n• Mass flow rate\n2266",
+      "location": {
+        "page": 27
+      }
+    },
+    {
+      "type": "table",
+      "id": "b56",
+      "name": "Page 27 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 27,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Instabilities SDEP C1,, C2,, C3,, C4",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Instabilities SDEP C1,, C2,, C3,, C4": "",
+            "column_2": "Instabilities SDEP C1,, C2,, C3,, C4",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Instabilities SDEP C1,, C2,, C3,, C4": "",
+            "column_2": "",
+            "column_3": "Instabilities SDEP C1,, C2,, C3,, C4"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Instabilities SDEP C1,, C2,, C3,, C4": "",
+            "column_2": "",
+            "column_3": "Instabilities SDEP C1,, C2,, C3,, C4"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Instabilities SDEP C1,, C2,, C3,, C4": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• C1) Total chemiluminescence as a function of time.\n• C2) Total radiation loss (based on radiation flux) as a function of\nrraaddiiuuss, ffoorr ddiiffffeerreenntt ffllooww rraatteess aanndd ffuueell ccoommppoossiittiioonnss."
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Instabilities SDEP C1,, C2,, C3,, C4": "",
+            "column_2": "",
+            "column_3": "• C3) Oscillation mode, frequency, and amplitude near extinction as\na function of flow rate for flames of different Le and mass flow\nrates."
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Instabilities SDEP C1,, C2,, C3,, C4": "",
+            "column_2": "",
+            "column_3": "• C4) Comparison of extinction times and extinction radii as a\nfunction of flow rate, for different fuel compositions.\n• Requirements"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Instabilities SDEP C1,, C2,, C3,, C4": "",
+            "column_2": "",
+            "column_3": "• PMT (chemiluminescence)\n• Radiometer data\n• Color imagges"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Instabilities SDEP C1,, C2,, C3,, C4": "",
+            "column_2": "",
+            "column_3": "• UV images\n• Temperature profiles\n• Mass flow rate"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Instabilities SDEP C1,, C2,, C3,, C4": "2266",
+            "column_2": "",
+            "column_3": "2266"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b57",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Radiation Flux Measurement\ns-Flame\n• Global/local flame radiation measured at faster rate than cameras to\ncapture “high” frequency oscillation\n• Assess radiation heat transfer\n• Flame movement often small\n• Help to assess extinction moment\n2277",
+      "location": {
+        "page": 28
+      }
+    },
+    {
+      "type": "table",
+      "id": "b58",
+      "name": "Page 28 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 28,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Radiation Flux Measurement",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Radiation Flux Measurement": "",
+            "column_2": "Radiation Flux Measurement",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Radiation Flux Measurement": "",
+            "column_2": "",
+            "column_3": "Radiation Flux Measurement"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Radiation Flux Measurement": "",
+            "column_2": "",
+            "column_3": "Radiation Flux Measurement"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Radiation Flux Measurement": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Global/local flame radiation measured at faster rate than cameras to\ncapture “high” frequency oscillation"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Radiation Flux Measurement": "",
+            "column_2": "",
+            "column_3": "• Assess radiation heat transfer\n• Flame movement often small"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Radiation Flux Measurement": "• Help to assess extinction moment\n2277",
+            "column_2": "",
+            "column_3": "• Help to assess extinction moment\n2277"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b59",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Extinction - Oscillatoryy\ns-Flame\nMicro-buoyancy Experimentation\n((FFuell: HHyddrogen))\nRadiation Extinction Kinetic Extinction\n2288",
+      "location": {
+        "page": 29
+      }
+    },
+    {
+      "type": "table",
+      "id": "b60",
+      "name": "Page 29 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 29,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Extinction - Oscillatoryy",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Extinction - Oscillatoryy": "",
+            "column_2": "Extinction - Oscillatoryy",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Extinction - Oscillatoryy": "",
+            "column_2": "",
+            "column_3": "Extinction - Oscillatoryy"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Extinction - Oscillatoryy": "",
+            "column_2": "",
+            "column_3": "Extinction - Oscillatoryy"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Extinction - Oscillatoryy": "",
+            "column_2": "",
+            "column_3": "s-Flame\nMicro-buoyancy Experimentation"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Extinction - Oscillatoryy": "",
+            "column_2": "",
+            "column_3": "((FFuell: HHyddrogen))\nRadiation Extinction Kinetic Extinction"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Extinction - Oscillatoryy": "2288",
+            "column_2": "",
+            "column_3": "2288"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b61",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Instabilities SDEP C5\ns-Flame\n• Soot radial distribution as a function of time for\ndifferent flow rates and fuel compositions during fully\ntransient flame front movement\n• RRequiirements\n• Color images\n• Temperature profiles\n• Soot volume fraction measurements\n2299",
+      "location": {
+        "page": 30
+      }
+    },
+    {
+      "type": "table",
+      "id": "b62",
+      "name": "Page 30 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 30,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Instabilities SDEP C5",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 8,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Instabilities SDEP C5": "",
+            "column_2": "Instabilities SDEP C5",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Instabilities SDEP C5": "",
+            "column_2": "",
+            "column_3": "Instabilities SDEP C5"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Instabilities SDEP C5": "",
+            "column_2": "",
+            "column_3": "Instabilities SDEP C5"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Instabilities SDEP C5": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Soot radial distribution as a function of time for"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Instabilities SDEP C5": "",
+            "column_2": "",
+            "column_3": "different flow rates and fuel compositions during fully\ntransient flame front movement"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Instabilities SDEP C5": "",
+            "column_2": "",
+            "column_3": "• RRequiirements\n• Color images"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Instabilities SDEP C5": "",
+            "column_2": "",
+            "column_3": "• Temperature profiles\n• Soot volume fraction measurements"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Instabilities SDEP C5": "2299",
+            "column_2": "",
+            "column_3": "2299"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b63",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Justification for Space-Flight\nFacility\ns-Flame\n• High-quality and sufficient duration microgravity\n• Transient evolution to “steady-state”\n• Radiative extinction\n• Flame instability\n• Multi-staged flow for kinetic extinction\n• Computation comparison (need 1-D flames)\n• Diagnostics afforded, KEY (cid:198) Flame structure\n• UUVV iimagiing\n• Radiometer\n•• TTeemmppeerraattuurree pprrooffiillee\n3300",
+      "location": {
+        "page": 31
+      }
+    },
+    {
+      "type": "table",
+      "id": "b64",
+      "name": "Page 31 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 31,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Justification for Space-Flight",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Justification for Space-Flight": "",
+            "column_2": "Justification for Space-Flight",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Justification for Space-Flight": "",
+            "column_2": "",
+            "column_3": "Justification for Space-Flight"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Justification for Space-Flight": "",
+            "column_2": "",
+            "column_3": "Justification for Space-Flight"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Justification for Space-Flight": "",
+            "column_2": "",
+            "column_3": "Facility\ns-Flame\n• High-quality and sufficient duration microgravity"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Justification for Space-Flight": "",
+            "column_2": "",
+            "column_3": "• Transient evolution to “steady-state”\n• Radiative extinction"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Justification for Space-Flight": "",
+            "column_2": "",
+            "column_3": "• Flame instability\n• Multi-staged flow for kinetic extinction"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Justification for Space-Flight": "",
+            "column_2": "",
+            "column_3": "• Computation comparison (need 1-D flames)\n• Diagnostics afforded, KEY (cid:198) Flame structure"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Justification for Space-Flight": "",
+            "column_2": "",
+            "column_3": "• UUVV iimagiing\n• Radiometer"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Justification for Space-Flight": "•• TTeemmppeerraattuurree pprrooffiillee\n3300",
+            "column_2": "",
+            "column_3": "•• TTeemmppeerraattuurree pprrooffiillee\n3300"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b65",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Limitations of Ground-Based Testingg\ns-Flame\n• Inverse-flame configuration in n-g is limited and\nconstrained\n99%%OO //9911%%NN , m = 00.007788 g//s, iinto 110000%%HH at 00.007799 atm AAiir iinto CCHH at 00.007799 atm\n2 2 2 4\nOH* chemiluminesence H O infrared emission\n2\n• Durations in 2.2-s and 5.0-s drop towers insufficient\nto observe radiative extinction Comparistion of Extinction Times for Different Mixtures\n2100\n1900\n1700\n1500\n1300\n1100\n900\n700\n)K(\npmeT\nxaM\n• Radiative extinction never\n`\nobserved in parabolic aircraft (up\nttoo 1100ss lloow-g)) (cid:198)(cid:198) g-jjiitttteerr, GGr~ll33 25%H2-20%CH4-55%N2, 0.01055g/s\n50%H2-10%CH4-40%N2, 0.0081g/s\n500\n45%H2-55%N2, 0.001g/s\n300\n0 5 10 15 20 25 30 35\n• Need extended duration and high-quality mTiimce (s)rogravity\nttoo ssttuuddyy ddiiffffuussiioonn ffllaammee oosscciillllaattiioonnss wwiitthh “llooww”\ncharacteristic frequency\n3311",
+      "location": {
+        "page": 32
+      }
+    },
+    {
+      "type": "table",
+      "id": "b66",
+      "name": "Page 32 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 32,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Limitations of Ground-Based Testingg",
+        "column_2",
+        "column_3",
+        "column_4"
+      ],
+      "rowCount": 10,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Limitations of Ground-Based Testingg": "",
+            "column_2": "Limitations of Ground-Based Testingg",
+            "column_3": "",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Limitations of Ground-Based Testingg": "",
+            "column_2": "",
+            "column_3": "Limitations of Ground-Based Testingg",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Limitations of Ground-Based Testingg": "",
+            "column_2": "",
+            "column_3": "Limitations of Ground-Based Testingg",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Limitations of Ground-Based Testingg": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Inverse-flame configuration in n-g is limited and\nconstrained",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Limitations of Ground-Based Testingg": "",
+            "column_2": "",
+            "column_3": "99%%OO //9911%%NN , m = 00.007788 g//s, iinto 110000%%HH at 00.007799 atm AAiir iinto CCHH at 00.007799 atm\n2 2 2 4",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Limitations of Ground-Based Testingg": "",
+            "column_2": "",
+            "column_3": "OH* chemiluminesence H O infrared emission\n2\n• Durations in 2.2-s and 5.0-s drop towers insufficient\nto observe radiative extinction Comparistion of Extinction Times for Different Mixtures\n2100",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Limitations of Ground-Based Testingg": "",
+            "column_2": "",
+            "column_3": "1900\n1700 • Radiative extinction never\n1500 )K(\n1300 pmeT\nobserved in parabolic aircraft (up\n1100\nxaM\n900\n33\n700",
+            "column_4": "`\n25%H2-20%CH4-55%N2, 0.01055g/s"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Limitations of Ground-Based Testingg": "",
+            "column_2": "",
+            "column_3": "ttoo 1100ss lloow-g)) (cid:198)(cid:198) g-jjiitttteerr, GGr~ll\n50%H2-10%CH4-40%N2, 0.0081g/s\n500\n45%H2-55%N2, 0.001g/s\n300\n0 5 10 15 20 25 30 35\n• Need extended duration and high-quality mTiimce (s)rogravity",
+            "column_4": "50%H2-10%CH4-40%N2, 0.0081g/s\n45%H2-55%N2, 0.001g/s"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Limitations of Ground-Based Testingg": "",
+            "column_2": "",
+            "column_3": "ttoo ssttuuddyy ddiiffffuussiioonn ffllaammee oosscciillllaattiioonnss wwiitthh “llooww”",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Limitations of Ground-Based Testingg": "characteristic frequency\n3311",
+            "column_2": "",
+            "column_3": "characteristic frequency\n3311",
+            "column_4": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b67",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Other Reqquirements - Burner\ns-Flame\n• PI provided spherical porous bronze burner can presently provide 0.99\nsspphheerriicciittyy aanndd 00.9944 ccoonncceennttrriicciittyy ddiiffffuussiioonn ffllaammeess.\n5500%%HH //1100%%CCHH //4400%%NN , 88.11mmgg//ss iinnttoo SSTTPP\n22 44 22\nair (2.2-s drop tower), ½” burner diameter\n• Burner purpose is only to provide uniform, spherical flow\nΛ\nIInnddeeppeennddeenntt ooff bbuurrnneerr ssiizzee aanndd ppoorroossiittyy r = OO\nf\n⎛ fY ⎞\n(r >R ) ln⎜ O∞ +1⎟\nf b ⎜ Y ⎟\n⎝ FR ⎠\n• ¼¼” ((00..663355ccmm)) ddiiaammeetteerr bbuurrnneerr pprreeffeerrrreedd ttoo mmiinniimmiizzee bbuurrnneerr eeffffeecctt ((ii..ee..\nachieve small flame dimensions, reduce heat loss to burner)\n3322",
+      "location": {
+        "page": 33
+      }
+    },
+    {
+      "type": "table",
+      "id": "b68",
+      "name": "Page 33 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 33,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Other Reqquirements - Burner",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Other Reqquirements - Burner": "",
+            "column_2": "Other Reqquirements - Burner",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Other Reqquirements - Burner": "",
+            "column_2": "",
+            "column_3": "Other Reqquirements - Burner"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Other Reqquirements - Burner": "",
+            "column_2": "",
+            "column_3": "Other Reqquirements - Burner"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Other Reqquirements - Burner": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• PI provided spherical porous bronze burner can presently provide 0.99\nsspphheerriicciittyy aanndd 00.9944 ccoonncceennttrriicciittyy ddiiffffuussiioonn ffllaammeess."
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Other Reqquirements - Burner": "",
+            "column_2": "",
+            "column_3": "5500%%HH //1100%%CCHH //4400%%NN , 88.11mmgg//ss iinnttoo SSTTPP"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Other Reqquirements - Burner": "",
+            "column_2": "",
+            "column_3": "22 44 22\nair (2.2-s drop tower), ½” burner diameter"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Other Reqquirements - Burner": "",
+            "column_2": "",
+            "column_3": "• Burner purpose is only to provide uniform, spherical flow\nΛ\nOO"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Other Reqquirements - Burner": "",
+            "column_2": "",
+            "column_3": "IInnddeeppeennddeenntt ooff bbuurrnneerr ssiizzee aanndd ppoorroossiittyy\nr =\nf\n⎛ fY ⎞\n(r >R ) ln⎜ O∞ +1⎟\nf b ⎜ Y ⎟\n⎝ FR ⎠\n• ¼¼” ((00..663355ccmm)) ddiiaammeetteerr bbuurrnneerr pprreeffeerrrreedd ttoo mmiinniimmiizzee bbuurrnneerr eeffffeecctt ((ii..ee.."
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Other Reqquirements - Burner": "achieve small flame dimensions, reduce heat loss to burner)\n3322",
+            "column_2": "",
+            "column_3": "achieve small flame dimensions, reduce heat loss to burner)\n3322"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b69",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Opperation Seqquence\ns-Flame\nI. Establish chamber at constant pressure and species\nconcenttrattiion\nII. Discharge fuel mixture through porous burner at initial flow rate\nIII. Iggnite fuel mixture and retract uppon successful iggnition\nIV. Allow for spherical diffusion flame to evolve\nV. Apply one of the following:\n(cid:131) Maiintaiin ffllow rate wiithh same iiniitiiall miixture ffor dduratiion off\nexperiment (25s) or until extinction\n(cid:131) Singgle stepp decrease in flow rate with same initial mixture at\nspecified time, maintaining new flow rate for duration of\nexperiment (25s) or until extinction\nVVII. TTeerrmmiinnaattee ffuueell ssuuppppllyy ttoo bbuurrnneerr aafftteerr 2255ss.\n3333",
+      "location": {
+        "page": 34
+      }
+    },
+    {
+      "type": "table",
+      "id": "b70",
+      "name": "Page 34 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 34,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Opperation Seqquence",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Opperation Seqquence": "",
+            "column_2": "Opperation Seqquence",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Opperation Seqquence": "",
+            "column_2": "",
+            "column_3": "Opperation Seqquence"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Opperation Seqquence": "",
+            "column_2": "",
+            "column_3": "Opperation Seqquence"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Opperation Seqquence": "",
+            "column_2": "",
+            "column_3": "s-Flame\nI. Establish chamber at constant pressure and species"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Opperation Seqquence": "",
+            "column_2": "",
+            "column_3": "concenttrattiion\nII. Discharge fuel mixture through porous burner at initial flow rate\nIII. Iggnite fuel mixture and retract uppon successful iggnition"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Opperation Seqquence": "",
+            "column_2": "",
+            "column_3": "IV. Allow for spherical diffusion flame to evolve\nV. Apply one of the following:"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Opperation Seqquence": "",
+            "column_2": "",
+            "column_3": "(cid:131) Maiintaiin ffllow rate wiithh same iiniitiiall miixture ffor dduratiion off\nexperiment (25s) or until extinction\n(cid:131) Singgle stepp decrease in flow rate with same initial mixture at"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Opperation Seqquence": "",
+            "column_2": "",
+            "column_3": "specified time, maintaining new flow rate for duration of\nexperiment (25s) or until extinction\nVVII. TTeerrmmiinnaattee ffuueell ssuuppppllyy ttoo bbuurrnneerr aafftteerr 2255ss."
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Opperation Seqquence": "3333",
+            "column_2": "",
+            "column_3": "3333"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b71",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Expperiment Plan\ns-Flame\nPPrriioorriittiizzaattiioonn aanndd LLooggiicc\na) Transient phenomenon leading toward steady\nflaamee\nb) Extinction phenomenon at “quasi-steady”-\nstates\nc) Instability phenomenon, e.g. Le > 1\noscillations\n(cid:198) Non-sootyy and sootyy flames\n3344",
+      "location": {
+        "page": 35
+      }
+    },
+    {
+      "type": "table",
+      "id": "b72",
+      "name": "Page 35 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 35,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Expperiment Plan",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Expperiment Plan": "",
+            "column_2": "Expperiment Plan",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Expperiment Plan": "",
+            "column_2": "",
+            "column_3": "Expperiment Plan"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Expperiment Plan": "",
+            "column_2": "",
+            "column_3": "Expperiment Plan"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Expperiment Plan": "",
+            "column_2": "",
+            "column_3": "s-Flame\nPPrriioorriittiizzaattiioonn aanndd LLooggiicc"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Expperiment Plan": "",
+            "column_2": "",
+            "column_3": "a) Transient phenomenon leading toward steady\nflaamee"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Expperiment Plan": "",
+            "column_2": "",
+            "column_3": "b) Extinction phenomenon at “quasi-steady”-\nstates"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Expperiment Plan": "",
+            "column_2": "",
+            "column_3": "c) Instability phenomenon, e.g. Le > 1\noscillations"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Expperiment Plan": "",
+            "column_2": "",
+            "column_3": "(cid:198) Non-sootyy and sootyy flames"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Expperiment Plan": "3344",
+            "column_2": "",
+            "column_3": "3344"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b73",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flow Supppplyy and Flow Rate\ns-Flame\n• Deliver fuel and inert(s) to burner\n• Different flow rates\n• Small versus large characteristic flame sizes (residence time)\n• Radiative extinction\n• Characteristic time to steady state\n• Ignite at moderate flow rate, establish quasi-steady flame, step\nflow rate down to examine kinetic extinction at small flame radii\nm\n1\nerutarepmeT\nPurely Kinetic\nExtinction Radiation-affected\nExtinction\nerutarepmeT\nPurely Kinetic\nExtinction Radiation-affected\nExtinction\nm\n2\ntime\nT\nxaM\nSystemDamkohlerNumber\nT\nxaM\nSSSyyysssttteeemmm DDDaaammmkkkooohhhllleeerrr NNNuuummmbbbeeerrr\n• Provide gas (different compositions) at max flow rate for > 25s\n3355",
+      "location": {
+        "page": 36
+      }
+    },
+    {
+      "type": "table",
+      "id": "b74",
+      "name": "Page 36 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 36,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flow Supppplyy and Flow Rate",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flow Supppplyy and Flow Rate": "",
+            "column_2": "Flow Supppplyy and Flow Rate",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flow Supppplyy and Flow Rate": "",
+            "column_2": "",
+            "column_3": "Flow Supppplyy and Flow Rate"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Flow Supppplyy and Flow Rate": "",
+            "column_2": "",
+            "column_3": "Flow Supppplyy and Flow Rate"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Flow Supppplyy and Flow Rate": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Deliver fuel and inert(s) to burner\n• Different flow rates"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Flow Supppplyy and Flow Rate": "",
+            "column_2": "",
+            "column_3": "• Small versus large characteristic flame sizes (residence time)\n• Radiative extinction"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Flow Supppplyy and Flow Rate": "",
+            "column_2": "",
+            "column_3": "• Characteristic time to steady state\n• Ignite at moderate flow rate, establish quasi-steady flame, step\nflow rate down to examine kinetic extinction at small flame radii"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Flow Supppplyy and Flow Rate": "",
+            "column_2": "",
+            "column_3": "m Purely Kinetic Purely Kinetic\n1\nerutarepme Extinction Radiation-affected erutarepme Extinction Radiation-affected\nExtinction Extinction"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Flow Supppplyy and Flow Rate": "",
+            "column_2": "",
+            "column_3": "TT T T\nm xaM xaM\n2\ntime\nSystemDamkohlerNumber SSSyyysssttteeemmm DDDaaammmkkkooohhhllleeerrr NNNuuummmbbbeeerrr"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Flow Supppplyy and Flow Rate": "• Provide gas (different compositions) at max flow rate for > 25s\n3355",
+            "column_2": "",
+            "column_3": "• Provide gas (different compositions) at max flow rate for > 25s\n3355"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b75",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Test Matrix - Fuel Mixtures\ns-Flame\n• H /Inert (Required)\n2\n• Addresses pure hydrogen chemistry\n• Only H O in radiation considerations\n2\n• Only OH* chemiluminescence\n• CH /Inert (Required)\n4\n• Addddresses methhane chhemiistry, e.g. GRI-Mechh\n• H O, CO , CO in radiation considerations\n2 2\n• H /CH /Inert (Required)\n2 4\n•• AAddddrreesssseess cchheemmiiccaall kkiinneettiiccss ooff bblleennddeedd mmiixxttuurree iinncclluuddiinngg kkiinneettiicc\nextinction\n• Different characteristic radiative extinction times\n• OOHH* aanndd CCHH* cchheemmiilluummiinneesscceennccee\n• C H (Highly Desired)\n2 4\n• Nominally sooty C2 fuel\n• Sootingg tendencies deppend on characteristic residence time,, so different\nflow rates must be examined\n3366",
+      "location": {
+        "page": 37
+      }
+    },
+    {
+      "type": "table",
+      "id": "b76",
+      "name": "Page 37 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 37,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Test Matrix - Fuel Mixtures",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Test Matrix - Fuel Mixtures": "",
+            "column_2": "Test Matrix - Fuel Mixtures",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Test Matrix - Fuel Mixtures": "",
+            "column_2": "",
+            "column_3": "Test Matrix - Fuel Mixtures"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Test Matrix - Fuel Mixtures": "",
+            "column_2": "",
+            "column_3": "Test Matrix - Fuel Mixtures"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Test Matrix - Fuel Mixtures": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• H /Inert (Required)\n2\n• Addresses pure hydrogen chemistry"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Test Matrix - Fuel Mixtures": "",
+            "column_2": "",
+            "column_3": "• Only H O in radiation considerations\n2\n• Only OH* chemiluminescence\n• CH /Inert (Required)\n4"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Test Matrix - Fuel Mixtures": "",
+            "column_2": "",
+            "column_3": "• Addddresses methhane chhemiistry, e.g. GRI-Mechh\n• H O, CO , CO in radiation considerations\n2 2\n• H /CH /Inert (Required)\n2 4"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Test Matrix - Fuel Mixtures": "",
+            "column_2": "",
+            "column_3": "•• AAddddrreesssseess cchheemmiiccaall kkiinneettiiccss ooff bblleennddeedd mmiixxttuurree iinncclluuddiinngg kkiinneettiicc\nextinction\n• Different characteristic radiative extinction times\n• OOHH* aanndd CCHH* cchheemmiilluummiinneesscceennccee"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Test Matrix - Fuel Mixtures": "",
+            "column_2": "",
+            "column_3": "• C H (Highly Desired)\n2 4\n• Nominally sooty C2 fuel\n• Sootingg tendencies deppend on characteristic residence time,, so different"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Test Matrix - Fuel Mixtures": "flow rates must be examined\n3366",
+            "column_2": "",
+            "column_3": "flow rates must be examined\n3366"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b77",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Fuel Mixtures\ns-Flame\n– 20%H /25%CH /Inert, 25%H /20%CH /Inert, 30%H /15%CH /Inert\n2 4 2 4 2 4\n• AAddddrreesssseess cchheemmiiccaall kkiinneettiiccss ooff bblleennddeedd mmiixxttuurree iinncclluuddiinngg kkiinneettiicc\nextinction\n• Different characteristic radiative extinction times\nCCompariison off EExttiincttiion RRaddiius ffor DDiifffferentt MMiixttures CCoommppaarriissttiioonn ooff EExxttiinnccttiioonn TTiimmeess ffoorr DDiiffffeerreenntt MMiixxttuurreess\n4.5 2100\n4 1900\n3.5 1700\n3\n2.5\n2\n15\n)mc(\nsuidaR\n1500\n1300\n1100\n900\n)K(\npmeT\nxaM\n`\n1.5 900\n1 25%H2-20%CH4-55%N2, 0.01055g/s 700\n50%H2-10%CH4-40%N2, 0.0081g/s\n0.5 500\n45%H2-55%N2, 0.001g/s\n0 300\nM\n25%H2-20%CH4-55%N2, 0.01055g/s\n50%H2-10%CH4-40%N2, 0.0081g/s\n45%H2-55%N2, 0.001g/s\n0 5 10 15 20 25 30 35 0 5 10 15 20 25 30 35\nTime (s) Time (s) 3377",
+      "location": {
+        "page": 38
+      }
+    },
+    {
+      "type": "table",
+      "id": "b78",
+      "name": "Page 38 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 38,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Fuel Mixtures",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 8,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Fuel Mixtures": "",
+            "column_2": "Fuel Mixtures",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Fuel Mixtures": "",
+            "column_2": "",
+            "column_3": "Fuel Mixtures"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Fuel Mixtures": "",
+            "column_2": "",
+            "column_3": "Fuel Mixtures"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Fuel Mixtures": "",
+            "column_2": "",
+            "column_3": "s-Flame\n– 20%H /25%CH /Inert, 25%H /20%CH /Inert, 30%H /15%CH /Inert\n2 4 2 4 2 4\n• AAddddrreesssseess cchheemmiiccaall kkiinneettiiccss ooff bblleennddeedd mmiixxttuurree iinncclluuddiinngg kkiinneettiicc"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Fuel Mixtures": "",
+            "column_2": "",
+            "column_3": "extinction\n• Different characteristic radiative extinction times"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Fuel Mixtures": "",
+            "column_2": "",
+            "column_3": "CCompariison off EExttiincttiion RRaddiius ffor DDiifffferentt MMiixttures CCoommppaarriissttiioonn ooff EExxttiinnccttiioonn TTiimmeess ffoorr DDiiffffeerreenntt MMiixxttuurreess\n4.5 2100\n4 1900\n3.5 1700\n3 1500\n)K(\n)mc(\n2.5 1300 pm\n`"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Fuel Mixtures": "",
+            "column_2": "",
+            "column_3": "suidaR\neT\n2 1100\nxaM\nM\n15 900 1.5 900\n1 25%H2-20%CH4-55%N2, 0.01055g/s 700 25%H2-20%CH4-55%N2, 0.01055g/s\n50%H2-10%CH4-40%N2, 0.0081g/s 50%H2-10%CH4-40%N2, 0.0081g/s\n0.5 500\n45%H2-55%N2, 0.001g/s 45%H2-55%N2, 0.001g/s\n0 300"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Fuel Mixtures": "0 5 10 15 20 25 30 35 0 5 10 15 20 25 30 35\nTime (s) Time (s) 3377",
+            "column_2": "",
+            "column_3": "0 5 10 15 20 25 30 35 0 5 10 15 20 25 30 35\nTime (s) Time (s) 3377"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b79",
+      "name": "Page 38 table 3",
+      "confidence": "low",
+      "location": {
+        "page": 38,
+        "table": 3
+      },
+      "headerRow": 1,
+      "columns": [
+        "`"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "`": "25%H2-20%CH4-55%N2, 0.01055g/s\n50%H2-10%CH4-40%N2, 0.0081g/s\n45%H2-55%N2, 0.001g/s"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b80",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Test Matrix - Inerts\ns-Flame\n• Different inerts to affect diffusive properties, radiative\nproperties, and flame temperature\n– N (Required)\n2\n• Moderate flame temperature\n• Radiatively transparent\n• Normal “air”\n– He (Required)\n• Higher flame temperature\n• RRaddiiattiivelly ttransparentt\n• High-Lewis number promoting pulsating instability\n– CO (Desired)\n2\n•• LLoowweerr ffllaammee tteemmppeerraattuurree\n• Optically participating medium (highly reabsorptive species)\n• All inerts fixed at 0.55 mole fraction for non C H fuel\n2 2\nmmiixxttuurreess\n3388",
+      "location": {
+        "page": 39
+      }
+    },
+    {
+      "type": "table",
+      "id": "b81",
+      "name": "Page 39 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 39,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Test Matrix - Inerts",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Test Matrix - Inerts": "",
+            "column_2": "Test Matrix - Inerts",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Test Matrix - Inerts": "",
+            "column_2": "",
+            "column_3": "Test Matrix - Inerts"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Test Matrix - Inerts": "",
+            "column_2": "",
+            "column_3": "Test Matrix - Inerts"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Test Matrix - Inerts": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Different inerts to affect diffusive properties, radiative\nproperties, and flame temperature"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Test Matrix - Inerts": "",
+            "column_2": "",
+            "column_3": "– N (Required)\n2\n• Moderate flame temperature\n• Radiatively transparent"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Test Matrix - Inerts": "",
+            "column_2": "",
+            "column_3": "• Normal “air”\n– He (Required)\n• Higher flame temperature"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Test Matrix - Inerts": "",
+            "column_2": "",
+            "column_3": "• RRaddiiattiivelly ttransparentt\n• High-Lewis number promoting pulsating instability\n– CO (Desired)\n2"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Test Matrix - Inerts": "",
+            "column_2": "",
+            "column_3": "•• LLoowweerr ffllaammee tteemmppeerraattuurree\n• Optically participating medium (highly reabsorptive species)\n• All inerts fixed at 0.55 mole fraction for non C H fuel\n2 2"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Test Matrix - Inerts": "mmiixxttuurreess\n3388",
+            "column_2": "",
+            "column_3": "mmiixxttuurreess\n3388"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b82",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Test- Matrix Ambient Environment\ns-Flame\n• STP\n• Different sets of ambient gas mixtures to alter characteristic flame\ntemperatures, diffusive transport, and radiative properties\n• “Air”: 0.21 O , 0.79 N (Required)\n2 2\n• “He-Air”: 0.21 O , 0.79 He (Required)\n2\n• “CO -Air”: 0.21 O , 0.79 CO (Desired)\n2 2 2\n• Specified to within 1% mole fraction\n• Ambient gas may be scrubbed and recycled for subsequent tests\n3399",
+      "location": {
+        "page": 40
+      }
+    },
+    {
+      "type": "table",
+      "id": "b83",
+      "name": "Page 40 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 40,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Test- Matrix Ambient Environment",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Test- Matrix Ambient Environment": "",
+            "column_2": "Test- Matrix Ambient Environment",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Test- Matrix Ambient Environment": "",
+            "column_2": "",
+            "column_3": "Test- Matrix Ambient Environment"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Test- Matrix Ambient Environment": "",
+            "column_2": "",
+            "column_3": "Test- Matrix Ambient Environment"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Test- Matrix Ambient Environment": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• STP"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Test- Matrix Ambient Environment": "",
+            "column_2": "",
+            "column_3": "• Different sets of ambient gas mixtures to alter characteristic flame\ntemperatures, diffusive transport, and radiative properties"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Test- Matrix Ambient Environment": "",
+            "column_2": "",
+            "column_3": "• “Air”: 0.21 O , 0.79 N (Required)\n2 2\n• “He-Air”: 0.21 O , 0.79 He (Required)\n2"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Test- Matrix Ambient Environment": "",
+            "column_2": "",
+            "column_3": "• “CO -Air”: 0.21 O , 0.79 CO (Desired)\n2 2 2\n• Specified to within 1% mole fraction"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Test- Matrix Ambient Environment": "",
+            "column_2": "",
+            "column_3": "• Ambient gas may be scrubbed and recycled for subsequent tests"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Test- Matrix Ambient Environment": "3399",
+            "column_2": "",
+            "column_3": "3399"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b84",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Minimal Success\ns-Flame\n• Observations of transient flame pphenomena leadingg toward\nsteady state flames for 1 CH case and 1 C H case; or\n4 2 4\n• Observations of flame extinction at both low and high\nsystem Damköhler number for 1 case; or\n• Observations of spherical soot formation in 1 C H case.\n22 44\n4400",
+      "location": {
+        "page": 41
+      }
+    },
+    {
+      "type": "table",
+      "id": "b85",
+      "name": "Page 41 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 41,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Minimal Success",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 8,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Minimal Success": "",
+            "column_2": "Minimal Success",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Minimal Success": "",
+            "column_2": "",
+            "column_3": "Minimal Success"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Minimal Success": "",
+            "column_2": "",
+            "column_3": "Minimal Success"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Minimal Success": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Observations of transient flame pphenomena leadingg toward"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Minimal Success": "",
+            "column_2": "",
+            "column_3": "steady state flames for 1 CH case and 1 C H case; or\n4 2 4"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Minimal Success": "",
+            "column_2": "",
+            "column_3": "• Observations of flame extinction at both low and high\nsystem Damköhler number for 1 case; or"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Minimal Success": "",
+            "column_2": "",
+            "column_3": "• Observations of spherical soot formation in 1 C H case.\n22 44"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Minimal Success": "4400",
+            "column_2": "",
+            "column_3": "4400"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b86",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Siggnificant Success\ns-Flame\n•• OObbsseerrvvaattiioonnss ooff aatt lleeaasstt ttwwoo iinnssttaanncceess ooff ffllaammee ffrroonntt\ninstabilities including at least one hydrocarbon fuel; or\n• Combinations or extensions (in terms of number of\nmmiixxttuurree rraattiiooss ffoorr aa ssiinnggllee hhyyddrrooccaarrbboonn ffuueell oorr nnuummbbeerr ooff\nhydrocarbon fuels) of at least two of items\n4411",
+      "location": {
+        "page": 42
+      }
+    },
+    {
+      "type": "table",
+      "id": "b87",
+      "name": "Page 42 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 42,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Siggnificant Success",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 8,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Siggnificant Success": "",
+            "column_2": "Siggnificant Success",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Siggnificant Success": "",
+            "column_2": "",
+            "column_3": "Siggnificant Success"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Siggnificant Success": "",
+            "column_2": "",
+            "column_3": "Siggnificant Success"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Siggnificant Success": "",
+            "column_2": "",
+            "column_3": "s-Flame"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Siggnificant Success": "",
+            "column_2": "",
+            "column_3": "•• OObbsseerrvvaattiioonnss ooff aatt lleeaasstt ttwwoo iinnssttaanncceess ooff ffllaammee ffrroonntt\ninstabilities including at least one hydrocarbon fuel; or"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Siggnificant Success": "",
+            "column_2": "",
+            "column_3": "• Combinations or extensions (in terms of number of\nmmiixxttuurree rraattiiooss ffoorr aa ssiinnggllee hhyyddrrooccaarrbboonn ffuueell oorr nnuummbbeerr ooff"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Siggnificant Success": "",
+            "column_2": "",
+            "column_3": "hydrocarbon fuels) of at least two of items"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Siggnificant Success": "4411",
+            "column_2": "",
+            "column_3": "4411"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b88",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Compplete Success\ns-Flame\n• Observations of transient flame phenomena leading toward\nsstteeaaddyy ssttaattee ffllaammeess ffoorr aatt lleeaasstt tthhrreeee ddiiffffeerreenntt mmiixxttuurree\nratios of each of two hydrocarbon fuels and two diluents;\nand\n• Observations of flame extinction at both low and high\nsystem Damköhler number for at least three different\nmixture ratios of each of two hyydrocarbon fuels and two\ndiluents; and\n• Observations of at least two instances of flame front\niinsttabbiilliittiies eachh iinclluddiing att lleastt one hhyddrocarbbon ffuell;\nand\n• OObbsseerrvvaattiioonnss ooff ssoooott ffoorrmmaattiioonn..\n4422",
+      "location": {
+        "page": 43
+      }
+    },
+    {
+      "type": "table",
+      "id": "b89",
+      "name": "Page 43 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 43,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Compplete Success",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Compplete Success": "",
+            "column_2": "Compplete Success",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Compplete Success": "",
+            "column_2": "",
+            "column_3": "Compplete Success"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Compplete Success": "",
+            "column_2": "",
+            "column_3": "Compplete Success"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Compplete Success": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Observations of transient flame phenomena leading toward\nsstteeaaddyy ssttaattee ffllaammeess ffoorr aatt lleeaasstt tthhrreeee ddiiffffeerreenntt mmiixxttuurree"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Compplete Success": "",
+            "column_2": "",
+            "column_3": "ratios of each of two hydrocarbon fuels and two diluents;\nand"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Compplete Success": "",
+            "column_2": "",
+            "column_3": "• Observations of flame extinction at both low and high\nsystem Damköhler number for at least three different\nmixture ratios of each of two hyydrocarbon fuels and two"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Compplete Success": "",
+            "column_2": "",
+            "column_3": "diluents; and\n• Observations of at least two instances of flame front"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Compplete Success": "",
+            "column_2": "",
+            "column_3": "iinsttabbiilliittiies eachh iinclluddiing att lleastt one hhyddrocarbbon ffuell;\nand\n• OObbsseerrvvaattiioonnss ooff ssoooott ffoorrmmaattiioonn.."
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Compplete Success": "4422",
+            "column_2": "",
+            "column_3": "4422"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b90",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Other Team Members\ns-Flame\n• Sean Yoo, Princeton doctoral student, graduated with\nPPhh.DD. iinn 22000066.\n• Heyang Wang, Princeton doctoral student, graduated with\nPh.D. in 2007.\n• Grunde Jomaas, Princeton doctoral student, graduated\nwith Ph.D. in 2008.\n•• YYuuxxuuaann XXiinn, 33rrdd yyeeaarr PPrriinncceettoonn ddooccttoorraall ssttuuddeenntt.\n• Xiaofei Liu, Rutgers doctoral student, graduated with\nPh.D. in 2009.\n4433",
+      "location": {
+        "page": 44
+      }
+    },
+    {
+      "type": "table",
+      "id": "b91",
+      "name": "Page 44 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 44,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Other Team Members",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 8,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Other Team Members": "",
+            "column_2": "Other Team Members",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Other Team Members": "",
+            "column_2": "",
+            "column_3": "Other Team Members"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Other Team Members": "",
+            "column_2": "",
+            "column_3": "Other Team Members"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Other Team Members": "",
+            "column_2": "",
+            "column_3": "s-Flame\n• Sean Yoo, Princeton doctoral student, graduated with\nPPhh.DD. iinn 22000066."
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Other Team Members": "",
+            "column_2": "",
+            "column_3": "• Heyang Wang, Princeton doctoral student, graduated with\nPh.D. in 2007."
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Other Team Members": "",
+            "column_2": "",
+            "column_3": "• Grunde Jomaas, Princeton doctoral student, graduated\nwith Ph.D. in 2008.\nrrdd"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Other Team Members": "",
+            "column_2": "",
+            "column_3": "•• YYuuxxuuaann XXiinn, 33 yyeeaarr PPrriinncceettoonn ddooccttoorraall ssttuuddeenntt.\n• Xiaofei Liu, Rutgers doctoral student, graduated with\nPh.D. in 2009."
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Other Team Members": "4433",
+            "column_2": "",
+            "column_3": "4433"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b92",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Test Matrix\n((1/4))\ns-Flame\nREQUIRED\nEExxpp SSuubb FFuueell MMiixxttuurree AAmmbbiieenntt FFllooww rraattee ((cccc//ss)) NNoo. ooff rruunnss\nSet Set\n1 (a) 25%H /20%CH /55%N 21%O /79%N (i) 5 (entire duration, 25s) 5\n2 4 2 2 2\n(ii) 10 (entire duration, 25s)\n(iii) 15 (entire duration, 25s)\n((iivv)) 1100 ((55ss))(cid:198)(cid:198)22 ((rreesstt ooff dduurraattiioonn))\n(v) 5 (5s)(cid:198)2 (rest of duration)\n(b) 20%H /25%CH /55%N (i) through (v) as shown above 5\n2 4 2\n(c) 30%H /15%CH /55%N (i) through (v) as shown above 5\n2 4 2\n(d) 45%H /55%N (x) 1 (entire duration, 25s) 3\n2 2\n(y) 2 (entire duration, 25s)\n(z) 2 (5s)(cid:198)0.5 (rest of duration)\n(e) 45%CH /55%N (i) through (v) as shown in (a) 5\n4 2\n4444",
+      "location": {
+        "page": 45
+      }
+    },
+    {
+      "type": "table",
+      "id": "b93",
+      "name": "Page 45 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 45,
+        "table": 1
+      },
+      "headerRow": 6,
+      "columns": [
+        "column_1",
+        "column_2",
+        "column_3",
+        "EExxpp",
+        "SSuubb",
+        "FFuueell MMiixxttuurree",
+        "AAmmbbiieenntt",
+        "FFllooww rraattee ((cccc//ss))",
+        "column_9"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "EExxpp": "Set",
+            "SSuubb": "Set",
+            "FFuueell MMiixxttuurree": "",
+            "AAmmbbiieenntt": "",
+            "FFllooww rraattee ((cccc//ss))": "",
+            "column_9": "5"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "EExxpp": "1",
+            "SSuubb": "(a)",
+            "FFuueell MMiixxttuurree": "25%H /20%CH /55%N\n2 4 2",
+            "AAmmbbiieenntt": "21%O /79%N\n2 2",
+            "FFllooww rraattee ((cccc//ss))": "(i) 5 (entire duration, 25s)\n(ii) 10 (entire duration, 25s)\n(iii) 15 (entire duration, 25s)\n((iivv)) 1100 ((55ss))(cid:198)(cid:198)22 ((rreesstt ooff dduurraattiioonn))",
+            "column_9": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "EExxpp": "",
+            "SSuubb": "(b)",
+            "FFuueell MMiixxttuurree": "20%H /25%CH /55%N\n2 4 2",
+            "AAmmbbiieenntt": "",
+            "FFllooww rraattee ((cccc//ss))": "(v) 5 (5s)(cid:198)2 (rest of duration)\n(i) through (v) as shown above",
+            "column_9": "5"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "EExxpp": "",
+            "SSuubb": "(c)\n(d)",
+            "FFuueell MMiixxttuurree": "30%H /15%CH /55%N\n2 4 2\n45%H /55%N\n2 2",
+            "AAmmbbiieenntt": "",
+            "FFllooww rraattee ((cccc//ss))": "(i) through (v) as shown above\n(x) 1 (entire duration, 25s)\n(y) 2 (entire duration, 25s)\n(z) 2 (5s)(cid:198)0.5 (rest of duration)",
+            "column_9": "5\n3"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "(e) 45%CH /55%N (i) through (v) as shown in (a) 5\n4 2",
+            "EExxpp": "",
+            "SSuubb": "(e)",
+            "FFuueell MMiixxttuurree": "45%CH /55%N\n4 2",
+            "AAmmbbiieenntt": "",
+            "FFllooww rraattee ((cccc//ss))": "(i) through (v) as shown in (a)",
+            "column_9": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "4444",
+            "column_2": "",
+            "column_3": "4444",
+            "EExxpp": "",
+            "SSuubb": "",
+            "FFuueell MMiixxttuurree": "",
+            "AAmmbbiieenntt": "",
+            "FFllooww rraattee ((cccc//ss))": "",
+            "column_9": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b94",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Test Matrix\n((2/4))\ns-Flame\nREQUIRED Continued…\n2 (a) 25%H /20%CH /55%He 21%O /79%He (i) 5 (entire duration, 25s) 5\n2 4 2\n(ii) 10 (entire duration, 25s)\n(iii) 15 (entire duration, 25s)\n(iv) 10 (5s)(cid:198)2 (rest of duration)\n((v)) 5 ((5s))(cid:198)2 ((rest of duration))\n(b) 20%H /25%CH /55%He (i) through (v) as shown above 5\n2 4\n(c) 30%H /15%CH /55%He (i) through (v) as shown above 5\n2 4\n(d) 45%H /55%He (x) 1 (entire duration, 25s) 3\n2\n(y) 2 (entire duration, 25s)\n(z) 2 (5s)(cid:198)0.5 (rest of duration)\n((e)) 445%%CCH //55%%He ((ii)) thhroughh ((v)) as shhown iin ((a)) 5\n4\nTotal: 46\n4455",
+      "location": {
+        "page": 46
+      }
+    },
+    {
+      "type": "table",
+      "id": "b95",
+      "name": "Page 46 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 46,
+        "table": 1
+      },
+      "headerRow": 7,
+      "columns": [
+        "column_1",
+        "column_2",
+        "column_3",
+        "2",
+        "(a)",
+        "25%H /20%CH /55%He\n2 4",
+        "21%O /79%He\n2",
+        "(i) 5 (entire duration, 25s)\n(ii) 10 (entire duration, 25s)\n(iii) 15 (entire duration, 25s)\n(iv) 10 (5s)(cid:198)2 (rest of duration)\n((v)) 5 ((5s))(cid:198)2 ((rest of duration))",
+        "column_9"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "2": "",
+            "(a)": "(b)\n(c)",
+            "25%H /20%CH /55%He\n2 4": "20%H /25%CH /55%He\n2 4\n30%H /15%CH /55%He\n2 4",
+            "21%O /79%He\n2": "",
+            "(i) 5 (entire duration, 25s)\n(ii) 10 (entire duration, 25s)\n(iii) 15 (entire duration, 25s)\n(iv) 10 (5s)(cid:198)2 (rest of duration)\n((v)) 5 ((5s))(cid:198)2 ((rest of duration))": "(i) through (v) as shown above\n(i) through (v) as shown above",
+            "column_9": "5\n5"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "2": "",
+            "(a)": "(d)",
+            "25%H /20%CH /55%He\n2 4": "45%H /55%He\n2",
+            "21%O /79%He\n2": "",
+            "(i) 5 (entire duration, 25s)\n(ii) 10 (entire duration, 25s)\n(iii) 15 (entire duration, 25s)\n(iv) 10 (5s)(cid:198)2 (rest of duration)\n((v)) 5 ((5s))(cid:198)2 ((rest of duration))": "(x) 1 (entire duration, 25s)\n(y) 2 (entire duration, 25s)\n(z) 2 (5s)(cid:198)0.5 (rest of duration)",
+            "column_9": "3"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "((e)) 445%%CCH //55%%He ((ii)) thhroughh ((v)) as shhown iin ((a)) 5\n4\nTotal: 46",
+            "2": "",
+            "(a)": "((e))",
+            "25%H /20%CH /55%He\n2 4": "445%%CCH //55%%He\n4",
+            "21%O /79%He\n2": "",
+            "(i) 5 (entire duration, 25s)\n(ii) 10 (entire duration, 25s)\n(iii) 15 (entire duration, 25s)\n(iv) 10 (5s)(cid:198)2 (rest of duration)\n((v)) 5 ((5s))(cid:198)2 ((rest of duration))": "((ii)) thhroughh ((v)) as shhown iin ((a))",
+            "column_9": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "4455",
+            "column_2": "",
+            "column_3": "4455",
+            "2": "",
+            "(a)": "",
+            "25%H /20%CH /55%He\n2 4": "",
+            "21%O /79%He\n2": "",
+            "(i) 5 (entire duration, 25s)\n(ii) 10 (entire duration, 25s)\n(iii) 15 (entire duration, 25s)\n(iv) 10 (5s)(cid:198)2 (rest of duration)\n((v)) 5 ((5s))(cid:198)2 ((rest of duration))": "",
+            "column_9": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b96",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Test Matrix\n((3/4))\ns-Flame\nHIGHLY DESIRED\nExp Sub Fuel Mixture Ambient Flow rate (cc/s) No. of runs\nSet Set\n3 (a) 20%C H /80%N 21%O /79%N (i) 5 (entire duration, 25s) 2\n2 4 2 2 2\n(ii) 10 (entire duration, 25s)\n(b) 25%C H /75%N (i) and (ii) as shown above 2\n2 4 2\n(c) 30%C H /70%N (i) and (ii) as shown above 2\n2 4 2\n4 (a) 20%C H /80%He 21%O /79%He (i) 5 (entire duration, 25s) 2\n2 4 2\n((iiii)) 1100 ((eennttiirree dduurraattiioonn,, 2255ss))\n(b) 25%C H /75%He (i) and (ii) as shown above 2\n2 4\n(c) 30%C H /70%He (i) and (ii) as shown above 2\n2 4\nTotal: 12\n4466",
+      "location": {
+        "page": 47
+      }
+    },
+    {
+      "type": "table",
+      "id": "b97",
+      "name": "Page 47 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 47,
+        "table": 1
+      },
+      "headerRow": 7,
+      "columns": [
+        "column_1",
+        "column_2",
+        "column_3",
+        "Exp\nSet",
+        "Sub\nSet",
+        "Fuel Mixture",
+        "Ambient",
+        "Flow rate (cc/s)",
+        "column_9"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "Exp\nSet": "3",
+            "Sub\nSet": "(a)",
+            "Fuel Mixture": "20%C H /80%N\n2 4 2",
+            "Ambient": "21%O /79%N\n2 2",
+            "Flow rate (cc/s)": "(i) 5 (entire duration, 25s)\n(ii) 10 (entire duration, 25s)",
+            "column_9": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "Exp\nSet": "",
+            "Sub\nSet": "(b)\n(c)",
+            "Fuel Mixture": "25%C H /75%N\n2 4 2\n30%C H /70%N\n2 4 2",
+            "Ambient": "",
+            "Flow rate (cc/s)": "(i) and (ii) as shown above\n(i) and (ii) as shown above",
+            "column_9": "2\n2\n2"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "Exp\nSet": "4",
+            "Sub\nSet": "(a)",
+            "Fuel Mixture": "20%C H /80%He\n2 4",
+            "Ambient": "21%O /79%He\n2",
+            "Flow rate (cc/s)": "(i) 5 (entire duration, 25s)\n((iiii)) 1100 ((eennttiirree dduurraattiioonn,, 2255ss))",
+            "column_9": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "Exp\nSet": "",
+            "Sub\nSet": "(b)\n(c)",
+            "Fuel Mixture": "25%C H /75%He\n2 4\n30%C H /70%He\n2 4",
+            "Ambient": "",
+            "Flow rate (cc/s)": "(i) and (ii) as shown above\n(i) and (ii) as shown above",
+            "column_9": "2\n2\nTotal: 12"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "column_1": "4466",
+            "column_2": "",
+            "column_3": "4466",
+            "Exp\nSet": "",
+            "Sub\nSet": "",
+            "Fuel Mixture": "",
+            "Ambient": "",
+            "Flow rate (cc/s)": "",
+            "column_9": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b98",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Test Matrix\n((4/4))\ns-Flame\nDESIRED\nExp Sub Fuel Mixture Ambient Flow rate (cc/s) No. of runs\nSet Set\n5 ((a)) 225%%H //2200%%CCH //55%%CCOO 2211%%OO //799%%CCOO ((ii)) 5 ((entiire dduratiion, 225s)) 5\n2 4 2 2 2\n(ii) 10 (entire duration, 25s)\n(iii) 15 (entire duration, 25s)\n(iv) 10 (5s)(cid:198)2 (rest of duration)\n(v) 5 (5s)(cid:198)2 (rest of duration)\n(b) 20%H /25%CH /55%CO (i) through (v) as shown above 5\n2 4 2\n(c) 30%H /15%CH /55%CO (i) through (v) as shown above 5\n2 4 2\n((dd)) 4455%%HH //5555%%CCOO ((xx)) 11 ((eennttiirree dduurraattiioonn, 2255ss)) 33\n22 22\n(y) 2 (entire duration, 25s)\n(z) 2 (5s)(cid:198)0.5 (rest of duration)\n(e) 45%CH /55%CO (i) through (v) as shown in (a) 5\n4 2\n66 ((aa)) 2200%%CC HH //8800%%CCOO ((ii)) 55 ((eennttiirree dduurraattiioonn,, 2255ss)) 22\n22 44 22\n(ii) 10 (entire duration, 25s)\n(b) 25%C H /75%CO (i) and (ii) as shown above 2\n2 4 2\n((c)) 30%C H /70%CO ((i)) and ((ii)) as shown above 2\n22 44 22\nTotal: 29\n4477",
+      "location": {
+        "page": 48
+      }
+    },
+    {
+      "type": "table",
+      "id": "b99",
+      "name": "Page 48 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 48,
+        "table": 1
+      },
+      "headerRow": 6,
+      "columns": [
+        "column_1",
+        "column_2",
+        "column_3",
+        "Exp\nSet",
+        "Sub\nSet",
+        "Fuel Mixture",
+        "Ambient",
+        "Flow rate (cc/s)",
+        "column_9"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "Exp\nSet": "5",
+            "Sub\nSet": "((a))",
+            "Fuel Mixture": "225%%H //2200%%CCH //55%%CCOO\n2 4 2",
+            "Ambient": "2211%%OO //799%%CCOO\n2 2",
+            "Flow rate (cc/s)": "((ii)) 5 ((entiire dduratiion, 225s))\n(ii) 10 (entire duration, 25s)\n(iii) 15 (entire duration, 25s)\n(iv) 10 (5s)(cid:198)2 (rest of duration)\n(v) 5 (5s)(cid:198)2 (rest of duration)",
+            "column_9": "5"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "Exp\nSet": "",
+            "Sub\nSet": "(b)\n(c)\n((dd))",
+            "Fuel Mixture": "20%H /25%CH /55%CO\n2 4 2\n30%H /15%CH /55%CO\n2 4 2\n4455%%HH //5555%%CCOO",
+            "Ambient": "",
+            "Flow rate (cc/s)": "(i) through (v) as shown above\n(i) through (v) as shown above\n((xx)) 11 ((eennttiirree dduurraattiioonn, 2255ss))",
+            "column_9": "5\n5\n33"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "Exp\nSet": "",
+            "Sub\nSet": "(e)",
+            "Fuel Mixture": "22 22\n45%CH /55%CO\n4 2",
+            "Ambient": "",
+            "Flow rate (cc/s)": "(y) 2 (entire duration, 25s)\n(z) 2 (5s)(cid:198)0.5 (rest of duration)\n(i) through (v) as shown in (a)",
+            "column_9": "5\n22"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "Exp\nSet": "66",
+            "Sub\nSet": "((aa))",
+            "Fuel Mixture": "2200%%CC HH //8800%%CCOO",
+            "Ambient": "",
+            "Flow rate (cc/s)": "((ii)) 55 ((eennttiirree dduurraattiioonn,, 2255ss))",
+            "column_9": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "Exp\nSet": "",
+            "Sub\nSet": "(b)\n((c))",
+            "Fuel Mixture": "22 44 22\n25%C H /75%CO\n2 4 2\n30%C H /70%CO\n22 44 22",
+            "Ambient": "",
+            "Flow rate (cc/s)": "(ii) 10 (entire duration, 25s)\n(i) and (ii) as shown above\n((i)) and ((ii)) as shown above",
+            "column_9": "2\n2"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "Total: 29\n4477",
+            "column_2": "",
+            "column_3": "Total: 29\n4477",
+            "Exp\nSet": "",
+            "Sub\nSet": "",
+            "Fuel Mixture": "",
+            "Ambient": "",
+            "Flow rate (cc/s)": "",
+            "column_9": ""
+          }
+        }
+      ]
+    }
+  ]
+}

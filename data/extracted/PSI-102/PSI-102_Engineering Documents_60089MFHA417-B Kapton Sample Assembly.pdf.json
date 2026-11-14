@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-102",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-102_Engineering Documents_60089MFHA417-B Kapton Sample Assembly.pdf",
+    "folder": "Engineering Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA417-B Kapton Sample Assembly.pdf",
+    "version": 2,
+    "sizeBytes": 149738,
+    "sha256": "02604f468029563e4f43213129302af8e01a239caf1c98a616962d7af29cf6cb",
+    "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA417-B Kapton Sample Assembly.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-102"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:27:15+00:00",
+  "status": "partial",
+  "error": null,
+  "warnings": [
+    "no-text-layer: no page has extractable text (scanned PDF?)"
+  ],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": 1
+  },
+  "blocks": []
+}

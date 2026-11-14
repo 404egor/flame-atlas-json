@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-20",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-20_Engineering Documents_S1101MFB0001_-ACME_Drawing_Tree.pdf",
+    "folder": "Engineering Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-20/Engineering Documents/PSI-20_Engineering Documents_S1101MFB0001_-ACME_Drawing_Tree.pdf",
+    "version": 1,
+    "sizeBytes": 129741,
+    "sha256": "b64f772e4eea0c804f8ff33318e38d7d107755c6612401f0ba2f193fee0038cc",
+    "localPath": "data/raw/PSI-20/Engineering Documents/PSI-20_Engineering Documents_S1101MFB0001_-ACME_Drawing_Tree.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:09:22+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 1 table 1: 1 line(s) above the header skipped",
+    "Page 1 table 1: 3 empty header(s) named column_<n> (columns 1-3)",
+    "Page 1 table 2: 1 line(s) above the header skipped"
+  ],
+  "stats": {
+    "textBlocks": 1,
+    "characters": 2433,
+    "tables": 1,
+    "tableRows": 7,
+    "pages": 1
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "4 3 2 1\nD D\nC C\nB\nCHG ZONE DESCRIPTION APP/DATE\nREVISIONS\nUNLESS OTHERWISE SPECIFIED NATIONAL AERONAUTICS AND SPACE ADMINISTRATION\nDIMENSIONS ARE IN INCHES JOHN H. GLENN RESEARCH CENTER\nLEWIS FIELD\nCLEVELAND, OHIO\nTOLERANCE ON\n.X ± DESIGNER\nLEAD\n.XX ± ENGINEER\nA .XXX ± RE M PR AT E E S R EN IA T L IV S E A\nFRACTION ± QUALITY\nANGULAR ± SAFETY\nPROJECT\nBREAK EDGES\nCONTRACT NO. SIZE DRAWING NUMBER REV BLDG AREA\nDIMENSIONING AND C\nDELIVERY ORDER UNITS:\nASME Y14.5M-1994\nSCALE: INITIAL REL DATE SHEET DISCIPLINE\nPRIOR TO USE CHECK FOR ANY OUTSTANDING ECO'S WITH CONFIGURATION MANAGEMENT OFFICE OF\n4 3 2 1\nVER\nREBMUN\nGNIWARD\nEZIS C\nZIN TECHNOLOGIES\n6745 ENGLE ROAD\nAIRPORT EXECUTIVE PARK\nCLEVELAND, OHIO 44130\n440 625-2200\nLEAD\nTOLERANCING PER\nAutoCad\n1000BFM1011S\n-\nACME Matrix\nS1101XXXXXXX\nChamber Color Camera Avionics Ground Support and Shipping\nInsert Package Package Non-Deliverable and\nAssembly\nTest Equipment Stowage\nS1101XXX0001-1999 S1101XXX2000-2999 S1101XXX3000-3999\nS1101XXX4000-4999 S1101XXX5000-5999\nOn-Orbit Launch Common Hoses Assembly Camera Common Assembly Main Power Ground Non-Deliverable Flight Shipping\nConfiguration Configuration Electrical and QD Configuration System Electrical Configuration Computer Distribution Support Test/Support Stowage Containers\nSystem Assemblies System System System Hardware Equipment Containers\nS1101XXX0003-0099 S1101XXX0100-0199 S1101XXX2000-2099 S1101XXX2200-2299 S1101XXX3000-3099 S1101XXX5500-5999\nS1101XXX0200-0499 S1101XXX0500-0599 S1101XXX2400-2499 S1101XXX3200-3299 S1101XXX3400-3499 S1101XXX4000-4499 S1101XXX4500-4999 S1101XXX5000-5499\nHousing Filter Housing Data Common\nMechanism Storage Electrical\nSystem System System\nExperiment Burner Analog Measurement Cooling S1101XXX2100-2199 S1101XXX3100-3199\nMounting System Camera System System S1101XXX2300-2399 S1101XXX3300-3399 S1101XXX3500-3599\nStructure System\nS1101XXX1200-1299 S1101XXX1600-1699 S1101XXX1800-1899\nS1101XXX1000-1099 S1101XXX1400-1499\nFlow Ignition Diagnostic E-Field\nSystem System System System\nS1101XXX1100-1199 S1101XXX1300-1399 S1101XXX1500-1599 S1101XXX1700-1799\n.XX P.GALANT 11/09/10\n.XX A.DRAKE 11/09/10\n.XXX A.DRAKE 11/09/10\nX/X D.SEELEY 11/09/10 ACME\nX° XX' N/A FLIGHT DRAWING TREE\nTHIS DRAWING IS UNDER CONFIGURATION\n.XX-.XX B.BOROWSKI 11/09/10\nCONTROL: DO NOT REVISE WITHOUT APPROVED ECO\nNNC09BA02B S1101MFB0001 ZIN GRC\nL.FOLGER 11/09/10 INCH APPROVED: DATE: -\nSPACE 110\nNONE 11/09/2010 1 1 MECH",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "table",
+      "id": "b2",
+      "name": "Page 1 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 1
+      },
+      "headerRow": 2,
+      "columns": [
+        "column_1",
+        "column_2",
+        "column_3",
+        "CHG ZONE DESC",
+        "RIPTION APP/DATE"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "column_3": "",
+            "CHG ZONE DESC": "REVISIONS",
+            "RIPTION APP/DATE": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "column_2": "ZI\nSS OTHERWISE SPECIFIED\n67\nENSIONS ARE IN INCHES\nAIR\nCL\nTOLERANCE ON 44",
+            "column_3": "N TECHNOLOGIES\n45 ENGLE ROAD\nPORT EXECUTIVE PARK\nEVELAND, OHIO 44130\n0 625-2200",
+            "CHG ZONE DESC": "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION\nJOHN H. GLENN RESEARCH CENTER\nLEWIS FIELD\nCLEVELAND, OHIO",
+            "RIPTION APP/DATE": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "column_2": "± .XX DESIGNER",
+            "column_3": "P.GALANT 11/09/10",
+            "CHG ZONE DESC": "",
+            "RIPTION APP/DATE": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "column_2": "LEAD\n± .XX",
+            "column_3": "A.DRAKE 11/09/10",
+            "CHG ZONE DESC": "",
+            "RIPTION APP/DATE": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "",
+            "column_2": "ENGINEER\nMATERIALS\n.XXX",
+            "column_3": "A.DRAKE 11/09/10",
+            "CHG ZONE DESC": "",
+            "RIPTION APP/DATE": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "",
+            "column_2": "± REPRESENTIVE\nTION ± X/X QUALITY",
+            "column_3": "D.SEELEY 11/09/10",
+            "CHG ZONE DESC": "ACME\nFLIGHT DRAWING TREE\nSIZE DRAWING NUMBER REV BLDG AREA\nC S1101MFB0001 ZIN GRC",
+            "RIPTION APP/DATE": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "column_1": "",
+            "column_2": "LAR ± X° XX' SAFETY\nPROJECT\nK EDGES .XX-.XX\nLEAD\nCONTRAC\nDIMENSIONING AND\nNNC09BA02B",
+            "column_3": "N/A\nB.BOROWSKI 11/09/10\nT NO.",
+            "CHG ZONE DESC": "",
+            "RIPTION APP/DATE": ""
+          }
+        }
+      ]
+    }
+  ]
+}

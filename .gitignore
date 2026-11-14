@@ -40,6 +40,3 @@ _bmad/custom/*.user.toml
 __pycache__/
 *.pyc
 *.part
-
-# generated document text/tables (122 MB, rebuilt by `python3 -m pipeline`)
-data/extracted/

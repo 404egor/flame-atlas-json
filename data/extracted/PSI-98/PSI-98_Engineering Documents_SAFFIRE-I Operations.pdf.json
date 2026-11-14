@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-98",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-98_Engineering Documents_SAFFIRE-I Operations.pdf",
+    "folder": "Engineering Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-98/Engineering Documents/PSI-98_Engineering Documents_SAFFIRE-I Operations.pdf",
+    "version": 1,
+    "sizeBytes": 13957,
+    "sha256": "01f812143679acbd31d7013404e3a8b8752ad554cf93b40a96845ebf37ffe882",
+    "localPath": "data/raw/PSI-98/Engineering Documents/PSI-98_Engineering Documents_SAFFIRE-I Operations.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:25:30+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 1,
+    "characters": 2555,
+    "tables": 2,
+    "tableRows": 23,
+    "pages": 1
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAFFIRE-I Operations\nOperational Requirements and Protocols\nThe Saffire experiments are conducted in three consecutive flights of the Cygnus vehicle. Since Cygnus undergoes a\ndestructive re-entry, three Saffire experiment units (Saffire-I, -II, and –III) are constructed and all data must be\ndownlinked. Even with these three flight opportunities, the experiment is very limited in the amount of data and test\nconditions that can be investigated. In Saffire-I and –III, the sample material is a single large sample (approx. 0.4 m\nwide by 0.94 m tall) to demonstrate the development and spread of a large-scale low-gravity fire. Once started, the\nentire burn of each of these samples is recorded, the data compressed, and downlinked. Nine smaller samples are\nburned on Saffire-II each having a dimension of 5 cm wide x 25 cm long. These are burned sequentially with the\ncamera recording images only from the sample being burned. Once started, these experiments run automatically.\nBecause of limitations in time available for downlinking, a maximum of 20 gigabits of data can be downlinked.\nThe Saffire-I experiment begins only after Cygnus is unberthed from the ISS. Prior to unberthing, the crew must\ncheck that the inlet and outlet ends of the flow duct be clear of any stowage bags being deorbited.\nSaffire-I mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT)\nestablishes the vehicle in a lower, circular orbit. Based on this new orbit, ground station contact times are calculated\nand the experiment start is confirmed and coordinated with the Saffire FOT. From Cygnus undock until experiment\nstart takes about 1 day.\nThe experiment operations are be conducted in two phases. The first phase consists of turning on power to the\nexperiment avionics, checking the experiment is initialized successfully, starting the experiment run, and recording\nand compressing the resulting data. The second phase consists of downloading all experiment data via downlink\npasses at various ground sites. The data is examined for quality and files are retransmitted if necessary. When a\ncomplete set of data files has been successfully retrieved, or the timeline has reached a predetermined maximum\nduration, the experiment avionics power is switched off and the Cygnus vehicle deorbits.\nCygnus burns up on re-entry into the Earth's atmosphere. Consequently, the flight unit is permanently disposed of\nduring this process. No specific disposal processes are expected if the experiment hardware is burned up upon re-\nentry.",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "table",
+      "id": "b2",
+      "name": "Page 1 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Operational Requirements and Protocols"
+      ],
+      "rowCount": 11,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Operational Requirements and Protocols": "The Saffire experiments are conducted in three consecutive flights of the Cygnus vehicle. Since Cygnus undergoes a"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Operational Requirements and Protocols": "destructive re-entry, three Saffire experiment units (Saffire-I, -II, and –III) are constructed and all data must be"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Operational Requirements and Protocols": "downlinked. Even with these three flight opportunities, the experiment is very limited in the amount of data and test"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Operational Requirements and Protocols": "conditions that can be investigated. In Saffire-I and –III, the sample material is a single large sample (approx. 0.4 m"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Operational Requirements and Protocols": "wide by 0.94 m tall) to demonstrate the development and spread of a large-scale low-gravity fire. Once started, the"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Operational Requirements and Protocols": "entire burn of each of these samples is recorded, the data compressed, and downlinked. Nine smaller samples are"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Operational Requirements and Protocols": "burned on Saffire-II each having a dimension of 5 cm wide x 25 cm long. These are burned sequentially with the"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Operational Requirements and Protocols": "camera recording images only from the sample being burned. Once started, these experiments run automatically."
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Operational Requirements and Protocols": "Because of limitations in time available for downlinking, a maximum of 20 gigabits of data can be downlinked."
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "Operational Requirements and Protocols": "The Saffire-I experiment begins only after Cygnus is unberthed from the ISS. Prior to unberthing, the crew must"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Operational Requirements and Protocols": "check that the inlet and outlet ends of the flow duct be clear of any stowage bags being deorbited."
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b3",
+      "name": "Page 1 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Saffire-I mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT)"
+      ],
+      "rowCount": 12,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Saffire-I mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT)": "establishes the vehicle in a lower, circular orbit. Based on this new orbit, ground station contact times are calculated"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Saffire-I mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT)": "and the experiment start is confirmed and coordinated with the Saffire FOT. From Cygnus undock until experiment"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Saffire-I mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT)": "start takes about 1 day."
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Saffire-I mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT)": "The experiment operations are be conducted in two phases. The first phase consists of turning on power to the"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Saffire-I mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT)": "experiment avionics, checking the experiment is initialized successfully, starting the experiment run, and recording"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Saffire-I mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT)": "and compressing the resulting data. The second phase consists of downloading all experiment data via downlink"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Saffire-I mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT)": "passes at various ground sites. The data is examined for quality and files are retransmitted if necessary. When a"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Saffire-I mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT)": "complete set of data files has been successfully retrieved, or the timeline has reached a predetermined maximum"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Saffire-I mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT)": "duration, the experiment avionics power is switched off and the Cygnus vehicle deorbits."
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "Saffire-I mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT)": "Cygnus burns up on re-entry into the Earth's atmosphere. Consequently, the flight unit is permanently disposed of"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Saffire-I mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT)": "during this process. No specific disposal processes are expected if the experiment hardware is burned up upon re-"
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "Saffire-I mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT)": "entry."
+          }
+        }
+      ]
+    }
+  ]
+}

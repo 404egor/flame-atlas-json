@@ -1,0 +1,3754 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-102",
+  "format": "xlsx",
+  "source": {
+    "fileName": "PSI-102_Analyzed Data_Run 2 GMT254 testlog.xlsx",
+    "folder": "Analyzed Data",
+    "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 02",
+    "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_Run 2 GMT254 testlog.xlsx",
+    "version": 2,
+    "sizeBytes": 20970,
+    "sha256": "f476a603bdce8e04608fb5d459fa4286e3d4cf8f2ada5b980ea5d3fc00789eee",
+    "localPath": "data/raw/PSI-102/Analyzed Data/Reduced Gravity/Dibutyl Phthalate/Run 02/PSI-102_Analyzed Data_Run 2 GMT254 testlog.xlsx",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-102"
+  },
+  "extractor": {
+    "name": "xlsx",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:27:00+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Run 2 GMT254 testlog: 1 empty header(s) named column_<n> (columns 7)"
+  ],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 1,
+    "tableRows": 308,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "table",
+      "id": "b1",
+      "name": "Run 2 GMT254 testlog",
+      "confidence": "high",
+      "location": {
+        "sheet": "Run 2 GMT254 testlog"
+      },
+      "headerRow": 1,
+      "columns": [
+        "2007/254/14:27:12",
+        "Command Received",
+        "SetRegistryValue(\"VideoChannel\"",
+        "1)",
+        "3",
+        "210",
+        "column_7"
+      ],
+      "rowCount": 308,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:27:12",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "SetRegistryValue(\"VideoChannel\"",
+            "1)": "1)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:27:32",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "Shutdown(Restart)",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:27:32",
+            "Command Received": "Starting Shutdown",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:27:32",
+            "Command Received": "Shutting down Watchdog Timer",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2019",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:27:32",
+            "Command Received": "Watchdog Timer Disabled",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2019",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:27:32",
+            "Command Received": "Shutting down Video System",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2018",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:27:32",
+            "Command Received": "Shutting down Thermal Precipitator",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2017",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:27:32",
+            "Command Received": "Shutting down STSDetector",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2016",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:27:32",
+            "Command Received": "Shutting down Sample Heater",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:15",
+            "Command Received": "Starting SAME software...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:21",
+            "Command Received": "Changed system time",
+            "SetRegistryValue(\"VideoChannel\"": "2007/254/14:28:21",
+            "1)": "5",
+            "3": "280",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:23",
+            "Command Received": "Getting Version and Checksum...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:23",
+            "Command Received": "Report of version information",
+            "SetRegistryValue(\"VideoChannel\"": "Version:1.0 Checksum:Check Disabled",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:23",
+            "Command Received": "Startup complete",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:42",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "Initialize()",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 16,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:42",
+            "Command Received": "Starting Initialize",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 17,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:50",
+            "Command Received": "Initializing CrewInterfacePanel",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2007",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 18,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:50",
+            "Command Received": "CrewInterfacePanel initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2007",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 19,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:50",
+            "Command Received": "Initializing DustTrak at port 5",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "5",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 20,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:50",
+            "Command Received": "DustTrak initialized",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "5",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 21,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:50",
+            "Command Received": "Initializing DustTrak at port 8",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "5",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 22,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:50",
+            "Command Received": "DustTrak initialized",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "5",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 23,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:50",
+            "Command Received": "Initializing DynamicDilutor",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2020",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 24,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:50",
+            "Command Received": "DynamicDilutor initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2020",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 25,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:50",
+            "Command Received": "Initializing FluidsControlBox",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 26,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:51",
+            "Command Received": "Initializing Mass Flow Controller",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2010",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 27,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:56",
+            "Command Received": "Mass Flow Controller initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2010",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 28,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:56",
+            "Command Received": "FluidsControlBox initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 29,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:56",
+            "Command Received": "Initializing ISSDetector",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2011",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 30,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:56",
+            "Command Received": "ISSDetector initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2011",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 31,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:56",
+            "Command Received": "Initializing P-Trak",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2012",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 32,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:56",
+            "Command Received": "P-Trak initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2012",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 33,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:56",
+            "Command Received": "Initializing Sample Carousel",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2013",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 34,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:56",
+            "Command Received": "Sample Carousel initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2013",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 35,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:56",
+            "Command Received": "Initializing Sample Heater",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 36,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:57",
+            "Command Received": "Sample Heater Initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 37,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:57",
+            "Command Received": "Initializing STSDetector",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2016",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 38,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:57",
+            "Command Received": "STSDetector initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2016",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 39,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:57",
+            "Command Received": "Initializing Thermal Precipitator",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2017",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 40,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:57",
+            "Command Received": "Thermal Precipitator initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2017",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 41,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:28:57",
+            "Command Received": "Initializing Video System",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2018",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 42,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:29:02",
+            "Command Received": "Error setting camera settings",
+            "SetRegistryValue(\"VideoChannel\"": "Exception: Not enough bytes read from camera serial port",
+            "1)": "2",
+            "3": "2018",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 43,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:29:02",
+            "Command Received": "Video System initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2018",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 44,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:29:02",
+            "Command Received": "Initializing Watchdog Timer",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2019",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 45,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:29:02",
+            "Command Received": "Watchdog Timer initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2019",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 46,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:29:02",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "Initialize()",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 47,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:29:02",
+            "Command Received": "WatchDogTimer Enabled",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2019",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 48,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:30:03",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "VideoDrawerPower(on)",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 49,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:30:05",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "VideoDrawerPower(on)",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 50,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:31:30",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "SetDigitalOutput(ILLUM_LED_PWR",
+            "1)": "on)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 51,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:31:30",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "SetDigitalOutput(ILLUM_LED_PWR",
+            "1)": "on)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 52,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:31:50",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "SelfTest(1)",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 53,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:31:50",
+            "Command Received": "Starting SelfTest",
+            "SetRegistryValue(\"VideoChannel\"": "Test:1 P1:0 P2:0",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 54,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:31:50",
+            "Command Received": "Engaging sample carousel",
+            "SetRegistryValue(\"VideoChannel\"": "As part of self test",
+            "1)": "1",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 55,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:31:58",
+            "Command Received": "SelfTest complete",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 56,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:31:58",
+            "Command Received": "Command Complete",
+            "SetRegistryValue(\"VideoChannel\"": "SelfTest(1)",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 57,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:32:22",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "SetDigitalOutput(12VDC_HTR_ENABLE",
+            "1)": "on)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 58,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:32:22",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "SetDigitalOutput(12VDC_HTR_ENABLE",
+            "1)": "on)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 59,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:33:27",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "DownlinkTestParameters(2)",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 60,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:33:27",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "DownlinkTestParameters(2)",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 61,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:33:48",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "SetHeaterSetpoint(2",
+            "1)": "0)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 62,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:33:48",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "SetHeaterSetpoint(2",
+            "1)": "0)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 63,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:34:24",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "SetTestSetup(2",
+            "1)": "505",
+            "3": "496)",
+            "210": "3",
+            "column_7": "210"
+          }
+        },
+        {
+          "sourceRow": 64,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:34:25",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "SetTestSetup(2",
+            "1)": "505",
+            "3": "496)",
+            "210": "3",
+            "column_7": "210"
+          }
+        },
+        {
+          "sourceRow": 65,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:20",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "StartTest(SAMETest",
+            "1)": "2)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 66,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:20",
+            "Command Received": "Entering Start State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 67,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:20",
+            "Command Received": "Manual positioning option in effect",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 68,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:20",
+            "Command Received": "Zeroing the LFE",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2020",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 69,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:22",
+            "Command Received": "Command Complete",
+            "SetRegistryValue(\"VideoChannel\"": "StartTest(SAMETest",
+            "1)": "2)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 70,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:22",
+            "Command Received": "Test Started",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 71,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:27",
+            "Command Received": "P-Trak turning on and warming up",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2012",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 72,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:29",
+            "Command Received": "DustTrak turning on",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 73,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:31",
+            "Command Received": "DustTrak turning on",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 74,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:32",
+            "Command Received": "Entering PreConfigure State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 75,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:32",
+            "Command Received": "Video recorder powered on",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 76,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:32",
+            "Command Received": "Preparing to exhaust aging chamber...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 77,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:33",
+            "Command Received": "Lights! Cameras!",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 78,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:39",
+            "Command Received": "Sample Heater offset corrected",
+            "SetRegistryValue(\"VideoChannel\"": "Offset(uV)=28.6107",
+            "1)": "1",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 79,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:39",
+            "Command Received": "Sample type should be DBP",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 80,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:39",
+            "Command Received": "Sample type is confirmed",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 81,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:39",
+            "Command Received": "Setting heating parameters",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 82,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:39",
+            "Command Received": "Setting heater setpoint to 0 or 0 Ohms",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 83,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:39",
+            "Command Received": "Setting heater duration to 2250 cycles or 60 secs",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 84,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:39",
+            "Command Received": "Setting heater PIDs to 15360",
+            "SetRegistryValue(\"VideoChannel\"": "1536",
+            "1)": "384",
+            "3": "",
+            "210": "1",
+            "column_7": "2014"
+          }
+        },
+        {
+          "sourceRow": 85,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:39",
+            "Command Received": "Setting MaxRt to 0.989 Ohms",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 86,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:39",
+            "Command Received": "Warning:  Sample was heated 1 time(s) before",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 87,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:40",
+            "Command Received": "Video recording started",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 88,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:41",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "HighVacuumPressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 89,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:42",
+            "Command Received": "Event clear.",
+            "SetRegistryValue(\"VideoChannel\"": "HighVacuumPressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 90,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:43",
+            "Command Received": "Exhausting aging chamber...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 91,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:45",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 92,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:46",
+            "Command Received": "DustTrak serial number is 85200804",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 93,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:47",
+            "Command Received": "Setting DustTrak time constant to 1 second(s)",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 94,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:47",
+            "Command Received": "Setting DustTrak date to 09/11/07",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 95,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:47",
+            "Command Received": "Setting DustTrak time to 14:35:47",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 96,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:48",
+            "Command Received": "Setting DustTrak analog output range to 100",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 97,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:49",
+            "Command Received": "DustTrak serial number is 85200796",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 98,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:49",
+            "Command Received": "Setting DustTrak time constant to 1 second(s)",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 99,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:49",
+            "Command Received": "Setting DustTrak date to 09/11/07",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 100,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:50",
+            "Command Received": "Setting DustTrak time to 14:35:50",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 101,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:50",
+            "Command Received": "Video recording stopped",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 102,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:50",
+            "Command Received": "Setting DustTrak analog output range to 100",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 103,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:58",
+            "Command Received": "Aging chamber is exhausted",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 104,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:35:58",
+            "Command Received": "Event clear.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 105,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:36:09",
+            "Command Received": "Entering Pause State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 106,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:36:09",
+            "Command Received": "Waiting for P-Trak to warmup",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 107,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:36:27",
+            "Command Received": "P-Trak warmup complete",
+            "SetRegistryValue(\"VideoChannel\"": " initializing",
+            "1)": "",
+            "3": "1",
+            "210": "2012",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 108,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:36:27",
+            "Command Received": "Setting P-Trak date to 09/11/07",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2012",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 109,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:36:27",
+            "Command Received": "Setting P-Trak time to 14:36:27",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2012",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 110,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:36:28",
+            "Command Received": "P-Trak warmed up",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 111,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:36:28",
+            "Command Received": "Test paused at 00:01:05 elapsed test time",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 112,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:36:28",
+            "Command Received": "Paused 31 secs into PreConfigure State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 113,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:39:53",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "ResumeTest()",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 114,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:39:53",
+            "Command Received": "Entering SampleHeating State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 115,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:39:53",
+            "Command Received": "Test Resumed",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 116,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:39:53",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "ResumeTest()",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 117,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:39:53",
+            "Command Received": "Warning: StartOfVideoRecording was less than zero",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "2",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 118,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:39:54",
+            "Command Received": "Starting diagnostic flow",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 119,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:39:55",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 120,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:39:55",
+            "Command Received": "Dilution control enabled",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2020",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 121,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:39:56",
+            "Command Received": "Event clear.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 122,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:40:04",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 123,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:40:07",
+            "Command Received": "Starting diagnostic flow complete",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 124,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:40:08",
+            "Command Received": "Waiting for diagnostics with flow warmup",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 125,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:40:31",
+            "Command Received": "Nominal fill rate is 4.70016 LPM",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 126,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:40:31",
+            "Command Received": "Preparing to fill aging chamber...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 127,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:23",
+            "Command Received": "Aging chamber is filled",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 128,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:24",
+            "Command Received": "Event clear.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 129,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:26",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 130,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:27",
+            "Command Received": "Event clear.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 131,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:36",
+            "Command Received": "Starting to save heater data",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 132,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:36",
+            "Command Received": "Video recording stopped",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 133,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:37",
+            "Command Received": "Light and camera turned off",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 134,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:38",
+            "Command Received": "Video recorder powered off",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 135,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:39",
+            "Command Received": "Entering PrimaryAging State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 136,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:39",
+            "Command Received": "Primary aging for 8 seconds",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 137,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:47",
+            "Command Received": "Entering PrimaryDiagnostic State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 138,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:47",
+            "Command Received": "Exhausting at 6.78 LPM",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 139,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:47",
+            "Command Received": "Preparing to exhaust aging chamber...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 140,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:55",
+            "Command Received": "Heater data saved",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 141,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:57",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "HighVacuumPressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 142,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:58",
+            "Command Received": "Event clear.",
+            "SetRegistryValue(\"VideoChannel\"": "HighVacuumPressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 143,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:42:59",
+            "Command Received": "Exhausting aging chamber...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 144,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:43:01",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 145,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:43:02",
+            "Command Received": "Sending file via FTP",
+            "SetRegistryValue(\"VideoChannel\"": "/data/2007_254/2007_254_14_42.htr",
+            "1)": "1",
+            "3": "314",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 146,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:43:05",
+            "Command Received": "File sent via FTP",
+            "SetRegistryValue(\"VideoChannel\"": "2007_254_14_42.htr",
+            "1)": "1",
+            "3": "314",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 147,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:43:52",
+            "Command Received": "Aging chamber is exhausted",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 148,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:43:52",
+            "Command Received": "Event clear.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 149,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:43:53",
+            "Command Received": "Entering SecondaryAging State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 150,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:43:53",
+            "Command Received": "Secondary aging period is categorized as medium",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 151,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:43:53",
+            "Command Received": "Dilution control disabled",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2020",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 152,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:43:54",
+            "Command Received": "Secondary aging for 150 seconds",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 153,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:43:55",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "SetDigitalOutput(ILLUM_LED_PWR",
+            "1)": "on)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 154,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:43:56",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "SetDigitalOutput(ILLUM_LED_PWR",
+            "1)": "on)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 155,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:44:14",
+            "Command Received": "Starting diagnostic flow",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 156,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:44:15",
+            "Command Received": "Dilution control enabled",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2020",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 157,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:44:18",
+            "Command Received": "Starting diagnostic flow complete",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 158,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:44:19",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 159,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:46:24",
+            "Command Received": "Entering SecondaryDiagnostic State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 160,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:46:24",
+            "Command Received": "Exhausting at 2.18 LPM",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 161,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:46:24",
+            "Command Received": "Preparing to exhaust aging chamber...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 162,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:46:27",
+            "Command Received": "Event clear.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 163,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:46:27",
+            "Command Received": "Exhausting aging chamber...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 164,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:46:30",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 165,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:47:01",
+            "Command Received": "Aging chamber is exhausted",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 166,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:47:02",
+            "Command Received": "Event clear.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 167,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:47:13",
+            "Command Received": "Entering FastPurge State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 168,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:47:15",
+            "Command Received": "Fast purge for 120 seconds",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 169,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:47:29",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "SetDigitalOutput(12VDC_HTR_ENABLE",
+            "1)": "on)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 170,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:47:29",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "SetDigitalOutput(12VDC_HTR_ENABLE",
+            "1)": "on)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 171,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:47:45",
+            "Command Received": "Dilution control disabled",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2020",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 172,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:49:15",
+            "Command Received": "Entering SlowPurge State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 173,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:49:16",
+            "Command Received": "Dilution control enabled",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2020",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 174,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:49:18",
+            "Command Received": "Slow purge for 120 seconds",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 175,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:51:18",
+            "Command Received": "Entering BaselineData State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 176,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:51:19",
+            "Command Received": "Baseline data for 120 seconds",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 177,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:51:19",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 178,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:51:20",
+            "Command Received": "Event clear.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 179,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:53:50",
+            "Command Received": "Starting SAME software...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 180,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:53:51",
+            "Command Received": "Changed system time",
+            "SetRegistryValue(\"VideoChannel\"": "2007/254/14:53:51",
+            "1)": "5",
+            "3": "280",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 181,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:53:53",
+            "Command Received": "Getting Version and Checksum...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 182,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:53:53",
+            "Command Received": "Report of version information",
+            "SetRegistryValue(\"VideoChannel\"": "Version:1.0 Checksum:Check Disabled",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 183,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:53:53",
+            "Command Received": "Startup complete",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 184,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:56:09",
+            "Command Received": "Starting SAME software...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 185,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:56:14",
+            "Command Received": "Changed system time",
+            "SetRegistryValue(\"VideoChannel\"": "2007/254/14:56:14",
+            "1)": "5",
+            "3": "280",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 186,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:56:16",
+            "Command Received": "Getting Version and Checksum...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 187,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:56:16",
+            "Command Received": "Report of version information",
+            "SetRegistryValue(\"VideoChannel\"": "Version:1.0 Checksum:Check Disabled",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 188,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:56:16",
+            "Command Received": "Startup complete",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 189,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:07",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "Initialize()",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 190,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:07",
+            "Command Received": "Starting Initialize",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2001",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 191,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:15",
+            "Command Received": "Initializing CrewInterfacePanel",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2007",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 192,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:15",
+            "Command Received": "CrewInterfacePanel initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2007",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 193,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:15",
+            "Command Received": "Initializing DustTrak at port 5",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "5",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 194,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:15",
+            "Command Received": "DustTrak initialized",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "5",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 195,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:15",
+            "Command Received": "Initializing DustTrak at port 8",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "5",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 196,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:16",
+            "Command Received": "DustTrak initialized",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "5",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 197,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:16",
+            "Command Received": "Initializing DynamicDilutor",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2020",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 198,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:16",
+            "Command Received": "DynamicDilutor initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2020",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 199,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:16",
+            "Command Received": "Initializing FluidsControlBox",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 200,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:16",
+            "Command Received": "Initializing Mass Flow Controller",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2010",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 201,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:17",
+            "Command Received": "Mass Flow Controller initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2010",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 202,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:18",
+            "Command Received": "FluidsControlBox initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 203,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:18",
+            "Command Received": "Initializing ISSDetector",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2011",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 204,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:18",
+            "Command Received": "ISSDetector initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2011",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 205,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:18",
+            "Command Received": "Initializing P-Trak",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2012",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 206,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:18",
+            "Command Received": "P-Trak initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2012",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 207,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:18",
+            "Command Received": "Initializing Sample Carousel",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2013",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 208,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:18",
+            "Command Received": "Sample Carousel initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2013",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 209,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:18",
+            "Command Received": "Initializing Sample Heater",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 210,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:18",
+            "Command Received": "Sample Heater Initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 211,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:18",
+            "Command Received": "Initializing STSDetector",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2016",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 212,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:18",
+            "Command Received": "STSDetector initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2016",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 213,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:18",
+            "Command Received": "Initializing Thermal Precipitator",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2017",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 214,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:18",
+            "Command Received": "Thermal Precipitator initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2017",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 215,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:18",
+            "Command Received": "Initializing Video System",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2018",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 216,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:23",
+            "Command Received": "Error setting camera settings",
+            "SetRegistryValue(\"VideoChannel\"": "Exception: Not enough bytes read from camera serial port",
+            "1)": "2",
+            "3": "2018",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 217,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:23",
+            "Command Received": "Video System initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2018",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 218,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:23",
+            "Command Received": "Initializing Watchdog Timer",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2019",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 219,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:23",
+            "Command Received": "Watchdog Timer initialized",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "5",
+            "3": "2019",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 220,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:23",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "Initialize()",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 221,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:23",
+            "Command Received": "WatchDogTimer Enabled",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2019",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 222,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:40",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "DownlinkTestParameters(2)",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 223,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:57:40",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "DownlinkTestParameters(2)",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 224,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:58:13",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "SetHeaterSetpoint(2",
+            "1)": "9239)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 225,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:58:13",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "SetHeaterSetpoint(2",
+            "1)": "9239)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 226,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:58:33",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "SetTestSetup(2",
+            "1)": "509",
+            "3": "496)",
+            "210": "3",
+            "column_7": "210"
+          }
+        },
+        {
+          "sourceRow": 227,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:58:33",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "SetTestSetup(2",
+            "1)": "509",
+            "3": "496)",
+            "210": "3",
+            "column_7": "210"
+          }
+        },
+        {
+          "sourceRow": 228,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:59:17",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "SetSecondaryAgingVolume(2",
+            "1)": "23)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 229,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/14:59:17",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "SetSecondaryAgingVolume(2",
+            "1)": "23)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 230,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:00",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "StartTest(SAMETest",
+            "1)": "2)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 231,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:01",
+            "Command Received": "Entering Start State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 232,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:01",
+            "Command Received": "Manual positioning option in effect",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 233,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:01",
+            "Command Received": "Zeroing the LFE",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2020",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 234,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:03",
+            "Command Received": "Command Complete",
+            "SetRegistryValue(\"VideoChannel\"": "StartTest(SAMETest",
+            "1)": "2)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 235,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:03",
+            "Command Received": "Test Started",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 236,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:04",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "LowMainGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 237,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:06",
+            "Command Received": "Sending file via FTP",
+            "SetRegistryValue(\"VideoChannel\"": "/data/2007_254/2007_254_14.hkp",
+            "1)": "1",
+            "3": "314",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 238,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:08",
+            "Command Received": "P-Trak turning on and warming up",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2012",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 239,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:10",
+            "Command Received": "DustTrak turning on",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 240,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:12",
+            "Command Received": "DustTrak turning on",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 241,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:13",
+            "Command Received": "Entering PreConfigure State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 242,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:13",
+            "Command Received": "Video recorder powered on",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 243,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:13",
+            "Command Received": "Preparing to exhaust aging chamber...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 244,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:14",
+            "Command Received": "Lights! Cameras!",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 245,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:16",
+            "Command Received": "Exhausting aging chamber...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 246,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:18",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 247,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:19",
+            "Command Received": "Sample Heater offset corrected",
+            "SetRegistryValue(\"VideoChannel\"": "Offset(uV)=23.8422",
+            "1)": "1",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 248,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:19",
+            "Command Received": "Sample type should be DBP",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 249,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:19",
+            "Command Received": "Sample type is confirmed",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 250,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:19",
+            "Command Received": "Setting heating parameters",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 251,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:19",
+            "Command Received": "Setting heater setpoint to 9239 or 0.881113 Ohms",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 252,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:20",
+            "Command Received": "Setting heater duration to 2250 cycles or 60 secs",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 253,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:20",
+            "Command Received": "Setting heater PIDs to 15360",
+            "SetRegistryValue(\"VideoChannel\"": "1536",
+            "1)": "384",
+            "3": "",
+            "210": "1",
+            "column_7": "2014"
+          }
+        },
+        {
+          "sourceRow": 254,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:20",
+            "Command Received": "Setting MaxRt to 0.989 Ohms",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2014",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 255,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:20",
+            "Command Received": "Warning:  Sample was heated 2 time(s) before",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 256,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:22",
+            "Command Received": "Video recording started",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 257,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:27",
+            "Command Received": "DustTrak serial number is 85200804",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 258,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:28",
+            "Command Received": "Setting DustTrak time constant to 1 second(s)",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 259,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:28",
+            "Command Received": "Setting DustTrak date to 09/11/07",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 260,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:28",
+            "Command Received": "Setting DustTrak time to 15:00:28",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 261,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:28",
+            "Command Received": "Aging chamber is exhausted",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 262,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:29",
+            "Command Received": "Setting DustTrak analog output range to 100",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakA",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 263,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:29",
+            "Command Received": "Event clear.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 264,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:30",
+            "Command Received": "DustTrak serial number is 85200796",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 265,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:30",
+            "Command Received": "Setting DustTrak time constant to 1 second(s)",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 266,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:30",
+            "Command Received": "Setting DustTrak date to 09/11/07",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 267,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:31",
+            "Command Received": "Setting DustTrak time to 15:00:31",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 268,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:31",
+            "Command Received": "Setting DustTrak analog output range to 100",
+            "SetRegistryValue(\"VideoChannel\"": "DustTrakB",
+            "1)": "1",
+            "3": "2008",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 269,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:32",
+            "Command Received": "Video recording stopped",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 270,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:40",
+            "Command Received": "Entering Pause State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 271,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:40",
+            "Command Received": "Waiting for P-Trak to warmup",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 272,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:00:58",
+            "Command Received": "File sent via FTP",
+            "SetRegistryValue(\"VideoChannel\"": "2007_254_14.hkp",
+            "1)": "1",
+            "3": "314",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 273,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:01:08",
+            "Command Received": "P-Trak warmup complete",
+            "SetRegistryValue(\"VideoChannel\"": " initializing",
+            "1)": "",
+            "3": "1",
+            "210": "2012",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 274,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:01:08",
+            "Command Received": "Setting P-Trak date to 09/11/07",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2012",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 275,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:01:08",
+            "Command Received": "Setting P-Trak time to 15:01:08",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2012",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 276,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:01:09",
+            "Command Received": "P-Trak warmed up",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 277,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:01:09",
+            "Command Received": "Test paused at 00:01:05 elapsed test time",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 278,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:01:09",
+            "Command Received": "Paused 20 secs into PreConfigure State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 279,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:02:20",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "StartTest(SAMETest",
+            "1)": "2)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 280,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:02:21",
+            "Command Received": "Command Rejected",
+            "SetRegistryValue(\"VideoChannel\"": "A test is already running or paused",
+            "1)": "2",
+            "3": "2003",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 281,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:02:21",
+            "Command Received": "Command Failed",
+            "SetRegistryValue(\"VideoChannel\"": "StartTest(SAMETest",
+            "1)": "2)",
+            "3": "3",
+            "210": "210",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 282,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:02:29",
+            "Command Received": "Command Received",
+            "SetRegistryValue(\"VideoChannel\"": "ResumeTest()",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 283,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:02:29",
+            "Command Received": "Entering SampleHeating State",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 284,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:02:29",
+            "Command Received": "Test Resumed",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 285,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:02:29",
+            "Command Received": "Command Completed",
+            "SetRegistryValue(\"VideoChannel\"": "ResumeTest()",
+            "1)": "3",
+            "3": "210",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 286,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:02:29",
+            "Command Received": "Warning: StartOfVideoRecording was less than zero",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "2",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 287,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:02:30",
+            "Command Received": "Starting diagnostic flow",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 288,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:02:31",
+            "Command Received": "Dilution control enabled",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2020",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 289,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:02:40",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 290,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:02:44",
+            "Command Received": "Starting diagnostic flow complete",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 291,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:02:44",
+            "Command Received": "Waiting for diagnostics with flow warmup",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 292,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:03:08",
+            "Command Received": "Nominal fill rate is 4.70016 LPM",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 293,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:03:08",
+            "Command Received": "Preparing to fill aging chamber...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 294,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:03:26",
+            "Command Received": "6 secs before piston moving mark",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 295,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:03:27",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "HighVacuumPressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 296,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:03:28",
+            "Command Received": "Event clear.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 297,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:03:33",
+            "Command Received": "Filling aging chamber...",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "1",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 298,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:03:34",
+            "Command Received": "Heater will start in 6 seconds",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 299,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:03:34",
+            "Command Received": "Video recording started",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 300,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:03:39",
+            "Command Received": "Turning on heater now",
+            "SetRegistryValue(\"VideoChannel\"": "/config/test_matrices/same_test_2.txt",
+            "1)": "4",
+            "3": "2002",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 301,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:03:39",
+            "Command Received": "Event clear.",
+            "SetRegistryValue(\"VideoChannel\"": "HighVacuumPressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 302,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:04:32",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 303,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:04:35",
+            "Command Received": "Event clear.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 304,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:04:36",
+            "Command Received": "Event occurred.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 305,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:04:39",
+            "Command Received": "Heating sequence finished",
+            "SetRegistryValue(\"VideoChannel\"": "Nominal finish",
+            "1)": "1",
+            "3": "2015",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 306,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:04:59",
+            "Command Received": "Aging chamber is filled",
+            "SetRegistryValue(\"VideoChannel\"": "",
+            "1)": "4",
+            "3": "2009",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 307,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:05:01",
+            "Command Received": "Event clear.",
+            "SetRegistryValue(\"VideoChannel\"": "LowRegulatedGN2Pressure",
+            "1)": "5",
+            "3": "0",
+            "210": "",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 308,
+          "raw": {
+            "2007/254/14:27:12": "2007/254/15:05:12",
+            "Command Received": "Video recording stopped",
+            "SetRegistryValue(\"VideoChannel\"": "/conf",
+            "1)": "",
+            "3": "",
+            "210": "",
+            "column_7": ""
+          }
+        }
+      ]
+    }
+  ]
+}

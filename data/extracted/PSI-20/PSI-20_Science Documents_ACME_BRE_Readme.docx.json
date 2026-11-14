@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-20",
+  "format": "docx",
+  "source": {
+    "fileName": "PSI-20_Science Documents_ACME_BRE_Readme.docx",
+    "folder": "Science Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-20/Science Documents/PSI-20_Science Documents_ACME_BRE_Readme.docx",
+    "version": 1,
+    "sizeBytes": 134101,
+    "sha256": "4f0b5b1eb1c13fb2bcb04de8074ecb6e31eb49b6420f1d35b127db94e54a335f",
+    "localPath": "data/raw/PSI-20/Science Documents/PSI-20_Science Documents_ACME_BRE_Readme.docx",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20"
+  },
+  "extractor": {
+    "name": "docx",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:12:47+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 9,
+    "characters": 1298,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "The BRE data is organized in PSI by burner and fuel composition. Raw data, Video and Images Data, and Experiment Documents are available on the “Scientific Data and Information Tab” of each of the four “Experiment Data” records:",
+      "location": {
+        "paragraph": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "list-item",
+      "level": null,
+      "style": "List Paragraph",
+      "text": "1. 25-mm burner, 50% ethylene (balance nitrogen)",
+      "location": {
+        "paragraph": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "list-item",
+      "level": null,
+      "style": "List Paragraph",
+      "text": "2. 25-mm burner, 100% ethylene",
+      "location": {
+        "paragraph": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "list-item",
+      "level": null,
+      "style": "List Paragraph",
+      "text": "3. 25-mm burner, 100% methane",
+      "location": {
+        "paragraph": 4
+      }
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "list-item",
+      "level": null,
+      "style": "List Paragraph",
+      "text": "4. 50-mm burner, 100% ethylene",
+      "location": {
+        "paragraph": 5
+      }
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "Within each “Experiment Data” record, “Raw Data”, “Images” and “Audio/Video Files” are available on the “Scientific Data and Information” tab. Test names are formatted YYDDDX# where YY identifies year, DDD identifies day of year (GMT), X identifies a letter and # identifies a number – where the different numbers can be for repeats but are typically variants. Record naming and listings are based on the detailed information in the test conditions table below (page 2).",
+      "location": {
+        "paragraph": 6
+      }
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "Test specific raw data files are located on the “Raw Data and Information” tab of the “Raw & Analyzed Data” record. The first row of the .csv files provides information about the test configuration.",
+      "location": {
+        "paragraph": 8
+      }
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "Associated Images are located on the “Image Data and Information” tab of the “Videos & Images” record. Videos can be found of the “Video Data and Information” tab as well.",
+      "location": {
+        "paragraph": 10
+      }
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "There are other supporting reports available on the other tabs of the “Investigations” record.",
+      "location": {
+        "paragraph": 11
+      }
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-22",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-22_Presentations_Lopez-Camara et al 2018 Numerical Simulations of Laminar Non-premixed CH4-Air Jet Flames.pdf",
+    "folder": "Presentations",
+    "subfolder": null,
+    "key": "psi-data/PSI-22/Presentations/PSI-22_Presentations_Lopez-Camara et al 2018 Numerical Simulations of Laminar Non-premixed CH4-Air Jet Flames.pdf",
+    "version": 1,
+    "sizeBytes": 672846,
+    "sha256": "039b5b68b2686be286fd773f185c59a2e4c1bbd0c2548106a731de923db24fed",
+    "localPath": "data/raw/PSI-22/Presentations/PSI-22_Presentations_Lopez-Camara et al 2018 Numerical Simulations of Laminar Non-premixed CH4-Air Jet Flames.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:16:35+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 5 table 2: 1 empty header(s) named column_<n> (columns 1)"
+  ],
+  "stats": {
+    "textBlocks": 12,
+    "characters": 4074,
+    "tables": 10,
+    "tableRows": 10,
+    "pages": 12
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "0kV/cm 0,4kV/cm 0,8kV/cm 1,2kV/cm 1,6kV/cm 2kV/cm\n2,4kV/cm 2,8kV/cm 3,2kV/cm 3,6kV/cm 4kV/cm 4,4kV/cm 4,8kV/cm\nCH –air flame (no co-flow). Fuel velocity of 40 cc/min, 1g.\n4\nDifferent DC electric fields applied. Gradations on scale to the left are 1 mm\n[S. Karnani and D. Dunn-Rankin; CNF 162, 7, July 2015, 2865-2872]",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Numerical simulations of laminar nonpremixed\nCH -Air flames varying buoyancy and applied e-field\n4\nC-F. Lopez-Camara1 M. Belhi 2 H. Im 2 D. Dunn-Rankin 1\n1King Abdullah University of Science and Technology, Clean Combustion Research Center, Thuwal 23955, KSA\n2University of California at Irvine, Civil and Environmental Engineering Dept., Irvine 92697, California, USA\n34th Annual Meeting of the American Society for Gravitational and Space Research\nBethesda, MD, USA\nOctober 31-November 3 2018\nASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 2",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "table",
+      "id": "b3",
+      "name": "Page 2 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 2,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Numerical simulations of laminar nonpremixed\nCH -Air flames varying buoyancy and applied e-field\n4\nC-F. Lopez-Camara1 M. Belhi 2 H. Im 2 D. Dunn-Rankin 1\n1King Abdullah University of Science and Technology, Clean Combustion Research Center, Thuwal 23955, KSA\n2University of California at Irvine, Civil and Environmental Engineering Dept., Irvine 92697, California, USA\n34th Annual Meeting of the American Society for Gravitational and Space Research\nBethesda, MD, USA\nOctober 31-November 3 2018"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Numerical simulations of laminar nonpremixed\nCH -Air flames varying buoyancy and applied e-field\n4\nC-F. Lopez-Camara1 M. Belhi 2 H. Im 2 D. Dunn-Rankin 1\n1King Abdullah University of Science and Technology, Clean Combustion Research Center, Thuwal 23955, KSA\n2University of California at Irvine, Civil and Environmental Engineering Dept., Irvine 92697, California, USA\n34th Annual Meeting of the American Society for Gravitational and Space Research\nBethesda, MD, USA\nOctober 31-November 3 2018": "ASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Motivation\n• The response of flames to the electric field has strong dependence\non the electrodes geometry (1g and 0g).\n• Experiments show that an applied e-field creates body forces like\ngravity.\n• High-fidelity numerical simulations are needed to provide a deeper\nunderstanding of this observations.\nASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 3",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "table",
+      "id": "b5",
+      "name": "Page 3 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 3,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Motivation\n• The response of flames to the electric field has strong dependence\non the electrodes geometry (1g and 0g).\n• Experiments show that an applied e-field creates body forces like\ngravity.\n• High-fidelity numerical simulations are needed to provide a deeper\nunderstanding of this observations."
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Motivation\n• The response of flames to the electric field has strong dependence\non the electrodes geometry (1g and 0g).\n• Experiments show that an applied e-field creates body forces like\ngravity.\n• High-fidelity numerical simulations are needed to provide a deeper\nunderstanding of this observations.": "ASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 3"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Goal\nUnderstand the laminar nonpremixed CH -air flame behavior under\n4\n1g and 0g conditions when an axial electric field is applied to the\nflame using three different burner configurations\n(extruded, flush and jet) by using numerical simulations.\nASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 4",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "table",
+      "id": "b7",
+      "name": "Page 4 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 4,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Goal\nUnderstand the laminar nonpremixed CH -air flame behavior under\n4\n1g and 0g conditions when an axial electric field is applied to the\nflame using three different burner configurations\n(extruded, flush and jet) by using numerical simulations."
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Goal\nUnderstand the laminar nonpremixed CH -air flame behavior under\n4\n1g and 0g conditions when an axial electric field is applied to the\nflame using three different burner configurations\n(extruded, flush and jet) by using numerical simulations.": "ASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 4"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Burner geometries\nEXTRUDED BURNER [mm] FLUSH BURNER [mm] JET BURNER [mm]\n289.647 points (144.230 blocks) 240.327 points (119.660 blocks) 289.647 points (144.230 blocks)\nASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 5",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "table",
+      "id": "b9",
+      "name": "Page 5 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 5,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Burner geometries\nEXTRUDED BURNER [mm] FLUSH BURNER [mm] JET BURNER [mm]\n289.647 points (144.230 blocks) 240.327 points (119.660 blocks) 289.647 points (144.230 blocks)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Burner geometries\nEXTRUDED BURNER [mm] FLUSH BURNER [mm] JET BURNER [mm]\n289.647 points (144.230 blocks) 240.327 points (119.660 blocks) 289.647 points (144.230 blocks)": "ASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b10",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Boundary conditions\nChemical kinetic model\nThe chemical kinetic model used was published by M. Belhi et al. [Combust. Theory Modelling, 2017].\n• 76 reactions; 25 species\n• Includes positive and negative ions (H O+, O -, O-, OH-, CHO -, CO -) and electrons.\n3 2 3 3\n6\nASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 6",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "table",
+      "id": "b11",
+      "name": "Page 6 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 6,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Boundary conditions\nChemical kinetic model\nThe chemical kinetic model used was published by M. Belhi et al. [Combust. Theory Modelling, 2017].\n• 76 reactions; 25 species\n• Includes positive and negative ions (H O+, O -, O-, OH-, CHO -, CO -) and electrons.\n3 2 3 3"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Boundary conditions\nChemical kinetic model\nThe chemical kinetic model used was published by M. Belhi et al. [Combust. Theory Modelling, 2017].\n• 76 reactions; 25 species\n• Includes positive and negative ions (H O+, O -, O-, OH-, CHO -, CO -) and electrons.\n3 2 3 3": "6\nASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 6"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b12",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nExtruded burner geometry\n2,5\n2\n]\nA\nμ\n[\n1,5\nt\nn\ne\nr\nr\nu\nC 1\nn\no\nI Numerical\n0,5\nExperimental*\n0\n0 0,5 1 1,5 2 2,5 3\nField Strength [kV/cm]\n*Tinajero et al (CST, 10, 1739–1750)\n7\nASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 7",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "table",
+      "id": "b13",
+      "name": "Page 7 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 7,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nExtruded burner geometry\n2,5\n2\n]\nA\nμ\n[\n1,5\nt\nn\ne\nr\nr\nu\nC 1\nn\no\nI Numerical\n0,5\nExperimental*\n0\n0 0,5 1 1,5 2 2,5 3\nField Strength [kV/cm]\n*Tinajero et al (CST, 10, 1739–1750)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nExtruded burner geometry\n2,5\n2\n]\nA\nμ\n[\n1,5\nt\nn\ne\nr\nr\nu\nC 1\nn\no\nI Numerical\n0,5\nExperimental*\n0\n0 0,5 1 1,5 2 2,5 3\nField Strength [kV/cm]\n*Tinajero et al (CST, 10, 1739–1750)": "7\nASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 7"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b14",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nExtruded burner geometry\n-4947,29V (sat) -4000V -3000V -2000V -1000V -500V\n8\nASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 8",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "table",
+      "id": "b15",
+      "name": "Page 8 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 8,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nExtruded burner geometry\n-4947,29V (sat) -4000V -3000V -2000V -1000V -500V"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nExtruded burner geometry\n-4947,29V (sat) -4000V -3000V -2000V -1000V -500V": "8\nASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 8"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b16",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nFlush burner geometry\n2,5\n2\n]\nA\nμ\n[ 1,5\nt\nn\ne\nr\nr\nu\nC 1\nn\no\nNumerical\nI\n0,5\n*\nExperimental\n0\n0 0,5 1 1,5 2 2,5 3\nField Strength [kV/cm]\n*Tinajero et al (CST, 10, 1739–1750)\n9\nASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 9",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "table",
+      "id": "b17",
+      "name": "Page 9 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 9,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nFlush burner geometry\n2,5\n2\n]\nA\nμ\n[ 1,5\nt\nn\ne\nr\nr\nu\nC 1\nn\no\nNumerical\nI\n0,5\n*\nExperimental\n0\n0 0,5 1 1,5 2 2,5 3\nField Strength [kV/cm]\n*Tinajero et al (CST, 10, 1739–1750)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nFlush burner geometry\n2,5\n2\n]\nA\nμ\n[ 1,5\nt\nn\ne\nr\nr\nu\nC 1\nn\no\nNumerical\nI\n0,5\n*\nExperimental\n0\n0 0,5 1 1,5 2 2,5 3\nField Strength [kV/cm]\n*Tinajero et al (CST, 10, 1739–1750)": "9\nASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 9"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b18",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nFlush burner geometry\nAt saturation (-4945.83V)\n10\nASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 10",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "table",
+      "id": "b19",
+      "name": "Page 10 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 10,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nFlush burner geometry\nAt saturation (-4945.83V)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nFlush burner geometry\nAt saturation (-4945.83V)": "10\nASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 10"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b20",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Summary\n• The extruded burner geometry shows an I-V curve similar to the one obtained in the experiments in a 1g\nenvironment. Changes in the boundary condition have to still be performed.\n• The saturation point in the I-V curve obtained using the flush burner geometry simulation is aligning with\nthe one obtained experimentally. The peak of positive charges (H O+) that reach the upper electrode (anode)\n3\nis displaced from the center, aligning with the experimental observations. However, simulations at sub-\nsaturation regimes show that higher e-fields are needed in the simulation in order to get the same ion\ncurrents (z-direction) than the ones obtained experimentally. This might be caused by the interaction\nbetween burner (positive electrode) and reaction zone. More investigation has to be performed in order to\nclarify this phenomena.\nNext steps:\n• Define why sub-saturation flush burner geometry simulations show that higher electric fields are needed to\nachieve the ion currents obtained experimentally.\n• Proceed by simulating jet geometry burner flames at 1g.\n• Proceed by simulating the three burner geometries at 0g.\nASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 11",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "table",
+      "id": "b21",
+      "name": "Page 11 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 11,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Summary\n• The extruded burner geometry shows an I-V curve similar to the one obtained in the experiments in a 1g\nenvironment. Changes in the boundary condition have to still be performed.\n• The saturation point in the I-V curve obtained using the flush burner geometry simulation is aligning with\nthe one obtained experimentally. The peak of positive charges (H O+) that reach the upper electrode (anode)\n3\nis displaced from the center, aligning with the experimental observations. However, simulations at sub-\nsaturation regimes show that higher e-fields are needed in the simulation in order to get the same ion\ncurrents (z-direction) than the ones obtained experimentally. This might be caused by the interaction\nbetween burner (positive electrode) and reaction zone. More investigation has to be performed in order to\nclarify this phenomena.\nNext steps:\n• Define why sub-saturation flush burner geometry simulations show that higher electric fields are needed to\nachieve the ion currents obtained experimentally.\n• Proceed by simulating jet geometry burner flames at 1g.\n• Proceed by simulating the three burner geometries at 0g."
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Summary\n• The extruded burner geometry shows an I-V curve similar to the one obtained in the experiments in a 1g\nenvironment. Changes in the boundary condition have to still be performed.\n• The saturation point in the I-V curve obtained using the flush burner geometry simulation is aligning with\nthe one obtained experimentally. The peak of positive charges (H O+) that reach the upper electrode (anode)\n3\nis displaced from the center, aligning with the experimental observations. However, simulations at sub-\nsaturation regimes show that higher e-fields are needed in the simulation in order to get the same ion\ncurrents (z-direction) than the ones obtained experimentally. This might be caused by the interaction\nbetween burner (positive electrode) and reaction zone. More investigation has to be performed in order to\nclarify this phenomena.\nNext steps:\n• Define why sub-saturation flush burner geometry simulations show that higher electric fields are needed to\nachieve the ion currents obtained experimentally.\n• Proceed by simulating jet geometry burner flames at 1g.\n• Proceed by simulating the three burner geometries at 0g.": "ASGSR Annual meeting. Oct. 31- Nov 3, 2018. clopezca@uci.edu 11"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b22",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Thank you",
+      "location": {
+        "page": 12
+      }
+    }
+  ]
+}

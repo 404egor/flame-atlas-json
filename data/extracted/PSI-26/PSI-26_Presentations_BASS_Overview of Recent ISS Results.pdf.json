@@ -1,0 +1,1000 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-26",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-26_Presentations_BASS_Overview of Recent ISS Results.pdf",
+    "folder": "Presentations",
+    "subfolder": null,
+    "key": "psi-data/PSI-26/Presentations/PSI-26_Presentations_BASS_Overview of Recent ISS Results.pdf",
+    "version": 2,
+    "sizeBytes": 4640227,
+    "sha256": "6e654a3468577dd9dce8a14b61a6d0460870d6c88475bbfb18d6c2d94fbad3ea",
+    "localPath": "data/raw/PSI-26/Presentations/PSI-26_Presentations_BASS_Overview of Recent ISS Results.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:23:08+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "8 page(s) without extractable text"
+  ],
+  "stats": {
+    "textBlocks": 55,
+    "characters": 12153,
+    "tables": 12,
+    "tableRows": 24,
+    "pages": 63
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Burning and Suppression of Solids (BASS):\nAn Overview of Recent ISS Results\nPaul V. Ferkul, National Center for Space Exploration Research\nSandra L. Olson, NASA Glenn Research Center\nFumiaki Takahashi, National Center for Space Exploration Research\nMichael C. Johnston, Case Western Reserve University\nMakoto Endo, Case Western Reserve University\nJames S. T’ien, Case Western Reserve University\nThis work was supported by the NASA Space Life and Physical Sciences Research and\nApplications Division (SLPSRA).\nPresented at the 2nd Annual ISS Research and Development Conference\nDenver, Colorado, July 16-18, 2013",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Typical Flammability Boundary for a Solid Fuel\nScience Background:\n0.23\n♦ Combustion of solid fuels in microgravity\n0.22\nhas been an active area of research\nO Mole\n2 0.21\nFraction\n♦ Numerical models predict that 1-g\n0.20 Flammable\nbuoyant flows profoundly affect fuel\nflammability 1-g buoyant\n0.19\nflow limit\n0.18\n♦ Ground-based facilities have verified this\nbehavior but only for thin fuels in 0.17\nopposed flow\n0.16\nNot Flammable\n♦ Flow speeds below the buoyant limit are 0.15\nof interest\n1 10 100\nFlow speed (cm/s)\n300",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Typical Flammability Boundary for a Solid Fuel\nHypotheses:\n0.23\n♦ Materials in microgravity, with\nadequate ventilation, may burn more 0.22\nreadily compared to normal gravity O Mole\n2 0.21\nFraction\n0.20 Flammable\n♦ Testing at constant O mole fraction\n2\npermits studying flame spread and 1-g buoyant\n0.19\nflow limit\nextinction at low and high flow speed.\n0.18\n0.17\n0.16\nNot Flammable\n0.15\n1 10 100\nFlow speed (cm/s)\n300",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Approach:\n♦ Microgravity combustion tests were performed\naboard the International Space Station using the\nBASS (Burning and Suppression of Solids)\nhardware.\n♦ The wind tunnel was installed in the Microgravity\nScience Glovebox which supplied power, imaging,\nand a level of containment.\n♦ Fuel samples were mounted inside a small wind\ntunnel which could impose airflow speeds up to\n40 cm/s.\n♦ The effects of airflow speed on flame appearance,\nflame growth, and spread rates were determined\nin both the opposed and concurrent flow.\n♦ More recent tests varying oxygen (below 21%)\nhave been completed.",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Science Applications:\n Understanding of long-duration microgravity solid material burning and extinction\n Improved strategies for NASA spacecraft materials selection; link actual burn\nbehavior in microgravity to Earth-based selection methods\n Improved combustion computational models used in the design of fire detection\nand suppression systems in microgravity and on Earth\n Validated detailed combustion models in the simpler flow environment of\nmicrogravity build more complex combustion models needed to capture the\nimportant details of flames burning in normal gravity; models have wide\napplicability to the general understanding of many terrestrial combustion\nproblems.",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Microgravity Science\nGlovebox (MSG)\nBASS flame visible\nthrough viewport",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Fish-eye view of the inside of the Microgravity Science Glovebox (MSG)",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Hardware Details\nTop window\nTop window Air exit\nFront window\nFan section\nPermits variety of solid samples to be mounted, ignited, and burned:\nThin, flat (17) Spheres (12) Thick, flat (4) Candles (8)\n(Note: samples are not to scale; samples can be flipped 180 degrees if desired)",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Hardware Summary:\nSample Images\n BASS utilized the on-orbit SPICE hardware; Digital Still Video\nminor modifications were made to burn solid\nsamples\n Small flow tunnel\n Solid samples were installed, ignited,\nextinguished, and recorded\n Video and digital still camera provided bulk\nof the data. Flame appearance, behavior,\nspread rate, and extinction dynamics were\nmeasured\n Airflow speed was the main variable\nFlow\n 41 samples, 115 burns completed",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "text",
+      "id": "b10",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Top Window and\nExperiment Operation:\nSample Holder\nFlow Duct\nAirflow\nAlignment tab\nFuel\n2 cm\nIgniter\nFrame\n2-pin connector",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experiment Operation:\nFuel Sample Installed\nAirflow",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "text",
+      "id": "b12",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experiment Operation:\nIgniter On\nAirflow",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experiment Operation:\nFlame\nAirflow",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "text",
+      "id": "b14",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experiment Operation:\nFlame Spread\nAirflow",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "text",
+      "id": "b15",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experiment Operation:\nFlame Responds\nto Higher Flow\nAirflow\nChanges",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "text",
+      "id": "b16",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experiment Operation:\nFlame Extinction\n(Flow reduced too far\nor fuel consumed)\nAirflow",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "text",
+      "id": "b17",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experiment Operation:\nNitrogen\nSuppression\nAir Flow",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "text",
+      "id": "b18",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Alignment tab\nFuel\n2 cm\nIgniter\nFrame\n2-pin connector",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flow\nVideo (edge view) of 2-cm-wide sample in concurrent flow.\nIgnition at airflow speed of 10 cm/s, then flow is reduced to 5 cm/s.",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "text",
+      "id": "b20",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Effect of flow speed on 2-cm-wide sample in concurrent flow (top view)\n10 cm/s Flow 5 cm/s Flow",
+      "location": {
+        "page": 21
+      }
+    },
+    {
+      "type": "text",
+      "id": "b21",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Effect of flow speed on sample in concurrent flow (edge view)\n2 cm wide, 20 cm/s flow 1 cm wide, 10 cm/s flow",
+      "location": {
+        "page": 22
+      }
+    },
+    {
+      "type": "text",
+      "id": "b22",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "10 cm/s\n6 cm/s\nFlow\n4 cm/s\n2 cm/s\n1.5 cm/s\n1 cm/s\nDigital still camera images showing a flame burning a 2-cm wide cotton-fiberglass\nfabric in opposed flow. Images are taken every 1.25 sec (starting at top and moving\nfrom left to right). The flow is decreased in discrete steps from 10 cm/s all the way\ndown to about 1 cm/s. The flame response to flow changes is very rapid, and the flow\neffects on the flame and its spread rate are dramatic. Total burn time is 90 sec. Flow\nchanges are indicated by numbers.",
+      "location": {
+        "page": 23
+      }
+    },
+    {
+      "type": "text",
+      "id": "b23",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Concurrent and Opposed Spread at ~ 10 cm/s\n2.55 mm/s versus 1.21 mm/s\n10 cm/s Flow",
+      "location": {
+        "page": 24
+      }
+    },
+    {
+      "type": "text",
+      "id": "b24",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "6\n2 cm concurrent\n1 cm concurrent\n5\n2 cm opposed\nV = - 0.20 U + 0.56\nF ∞\ns 4\n/\nm\nm\n,\ne\nt\na\nR\nd 3\na\ne\nr\np\nS\ne\nm V = - 0.15 U + 0.07\na\nl\n2 F ∞\nF\n1\nConcurrent-Flow\nExtinction\n0\n-50 -40 -30 -20 -10 0 10 20 30 40 50\nForced Flow Velocity, cm/s",
+      "location": {
+        "page": 25
+      }
+    },
+    {
+      "type": "text",
+      "id": "b25",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Summary 1. Thin Fuel: Flame Spread and Extinction\n♦ Opposed flow:\n• flame quickly reached steady spread\n• spread rate was fastest at an intermediate value of flow speed\n♦ Concurrent flow:\n• Flame spread rate increased linearly with increasing flow.\n• Quenching extinction was observed (around 1 cm/s)\n♦ This is the first time that detailed transient flame growth data was obtained in\npurely forced flows in microgravity.\n♦ Long-duration experiments validate a number of theoretical predictions and\nalso provide the data for a transient flame growth model under development.",
+      "location": {
+        "page": 26
+      }
+    },
+    {
+      "type": "text",
+      "id": "b26",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Fuels tested\n• Ultem® 1000 C H O N\n37 24 6 2\n• Fire retarded polyetherimide (PEI) in 10 mil thick film is\ninherently flame-retarding, with charring characteristics, a very\nlow smoke signature, very low smoke toxicity, and a low heat-\nrelease rate.\nULOI: 23.5% O\n2\n• Nomex® (C H O N )\n14 12 2 2 n\nHT90-40 fabric is a 12 mil thick fire retarded aromatic nylon\nfabric which does not melt or drip as it burns. When\nexposed to a heat source, the Nomex fibers swell and seal\nthe spaces between the fibers, stopping air movement\nthrough the fabric and thus inhibiting heat transfer through the\nfabric.\nULOI: 23.5% O\n2\nFuel\n2 cm\nIgniter\nNomex-III\nULOI: 22% O\n2",
+      "location": {
+        "page": 28
+      }
+    },
+    {
+      "type": "text",
+      "id": "b27",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results:\nUltem and Nomex HT90-40 samples did not burn on ISS atmosphere\n21% to 22% O\n2\nFlow speeds around 15 cm/s\nSimilar to 1-g (Note: samples narrower on ISS)\nNomex-III sample did burn",
+      "location": {
+        "page": 30
+      }
+    },
+    {
+      "type": "text",
+      "id": "b28",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "NOMEX – III, 22% O , 1 atm 14 cm/s (0g)\n2\n2 cm wide sample\nAt 1g ULOI, but narrower sample\nNomex III sample residue after nearly complete\nconcurrent propagation at 15 cm/s on ISS.\nFlame was shrinking in width until it extinguished\nwithin 1 cm of the end of the sample, as its width\nbecame smaller than ~ 1 cm, which is on the\nscale of a fingering flamelet.\nFlow",
+      "location": {
+        "page": 31
+      }
+    },
+    {
+      "type": "text",
+      "id": "b29",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Comparison of 0-g and 1-g Opposed Flow Flames\n0-g with flow (10 cm/s) 1-g\nSteady flame size and spread Flame does not propagate downward\nConvex base\nExtended blue zone",
+      "location": {
+        "page": 32
+      }
+    },
+    {
+      "type": "text",
+      "id": "b30",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flow\nFlame sequence of a burning 2-cm diameter PMMA sphere at 17% oxygen and 12 cm/s\nflow. The images are about 1.5 sec. apart. The high resolution images allow model\ncomparison of flame growth rate, flame-to-fuel distance, and the solid regression rate.",
+      "location": {
+        "page": 34
+      }
+    },
+    {
+      "type": "text",
+      "id": "b31",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame sequence of a burning\nPMMA sphere (1-cm\ndiameter) at 17% oxygen and\nless than 1 cm/s.\n(Images are 1.3 sec. apart)\nThe fuel itself is clearly visible\nin this contrast-enhanced\nmontage. This enables us to\nget an accurate measure of\nthe fuel burning rate which is\nan important parameter to\ncharacterize the system for\ncomparison to the model.\nFlow",
+      "location": {
+        "page": 36
+      }
+    },
+    {
+      "type": "text",
+      "id": "b32",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Mesh\nHaving 33930 points total, Using quad-core CPU (4 processors) with 16GB\nmemory, it takes 2.7 hours to compute one second in the computation (with\ncapability of shape change due to solid surface regression).",
+      "location": {
+        "page": 37
+      }
+    },
+    {
+      "type": "text",
+      "id": "b33",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame spread (10sec.)\n20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nON\nIgniter:\nFlow\nSolid\nTemperature [K]",
+      "location": {
+        "page": 38
+      }
+    },
+    {
+      "type": "table",
+      "id": "b34",
+      "name": "Page 38 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 38,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame spread (10sec.)"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame spread (10sec.)": "20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nON\nIgniter:\nFlow"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame spread (10sec.)": "Solid\nTemperature [K]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b35",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame spread (20sec.)\n20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nON\nIgniter:\nSolid\nTemperature [K]",
+      "location": {
+        "page": 39
+      }
+    },
+    {
+      "type": "table",
+      "id": "b36",
+      "name": "Page 39 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 39,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame spread (20sec.)"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame spread (20sec.)": "20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nON\nIgniter:"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame spread (20sec.)": "Solid\nTemperature [K]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b37",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame spread (30sec.)\n20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nON\nIgniter:\nSolid\nTemperature [K]",
+      "location": {
+        "page": 40
+      }
+    },
+    {
+      "type": "table",
+      "id": "b38",
+      "name": "Page 40 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 40,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame spread (30sec.)"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame spread (30sec.)": "20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nON\nIgniter:"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame spread (30sec.)": "Solid\nTemperature [K]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b39",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame spread (40sec.)\n20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nON\nIgniter:\nSolid\nTemperature [K]",
+      "location": {
+        "page": 41
+      }
+    },
+    {
+      "type": "table",
+      "id": "b40",
+      "name": "Page 41 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 41,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame spread (40sec.)"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame spread (40sec.)": "20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nON\nIgniter:"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame spread (40sec.)": "Solid\nTemperature [K]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b41",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame spread (50sec.)\n20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nON\nIgniter:\nSolid\nTemperature [K]",
+      "location": {
+        "page": 42
+      }
+    },
+    {
+      "type": "table",
+      "id": "b42",
+      "name": "Page 42 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 42,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame spread (50sec.)"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame spread (50sec.)": "20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nON\nIgniter:"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame spread (50sec.)": "Solid\nTemperature [K]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b43",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame spread (60sec.)\n20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nON\nIgniter:\nSolid\nTemperature [K]",
+      "location": {
+        "page": 43
+      }
+    },
+    {
+      "type": "table",
+      "id": "b44",
+      "name": "Page 43 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 43,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame spread (60sec.)"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame spread (60sec.)": "20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nON\nIgniter:"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame spread (60sec.)": "Solid\nTemperature [K]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b45",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame spread (70sec.)\n20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nOFF\nIgniter:\nSolid\nTemperature [K]",
+      "location": {
+        "page": 44
+      }
+    },
+    {
+      "type": "table",
+      "id": "b46",
+      "name": "Page 44 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 44,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame spread (70sec.)"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame spread (70sec.)": "20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nOFF\nIgniter:"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame spread (70sec.)": "Solid\nTemperature [K]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b47",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame spread (80sec.)\n20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nOFF\nIgniter:\nSolid\nTemperature [K]",
+      "location": {
+        "page": 45
+      }
+    },
+    {
+      "type": "table",
+      "id": "b48",
+      "name": "Page 45 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 45,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame spread (80sec.)"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame spread (80sec.)": "20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nOFF\nIgniter:"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame spread (80sec.)": "Solid\nTemperature [K]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b49",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame spread (90sec.)\n20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nOFF\nIgniter:\nSolid\nTemperature [K]",
+      "location": {
+        "page": 46
+      }
+    },
+    {
+      "type": "table",
+      "id": "b50",
+      "name": "Page 46 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 46,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame spread (90sec.)"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame spread (90sec.)": "20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nOFF\nIgniter:"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame spread (90sec.)": "Solid\nTemperature [K]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b51",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame spread (100sec.)\n20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nOFF\nIgniter:\nSolid\nTemperature [K]",
+      "location": {
+        "page": 47
+      }
+    },
+    {
+      "type": "table",
+      "id": "b52",
+      "name": "Page 47 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 47,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame spread (100sec.)"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame spread (100sec.)": "20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nOFF\nIgniter:"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame spread (100sec.)": "Solid\nTemperature [K]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b53",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame spread (110sec.)\n20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nOFF\nIgniter:\nSolid\nTemperature [K]",
+      "location": {
+        "page": 48
+      }
+    },
+    {
+      "type": "table",
+      "id": "b54",
+      "name": "Page 48 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 48,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame spread (110sec.)"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame spread (110sec.)": "20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nOFF\nIgniter:"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame spread (110sec.)": "Solid\nTemperature [K]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b55",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame spread (120sec.)\n20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nOFF\nIgniter:\nSolid\nTemperature [K]",
+      "location": {
+        "page": 49
+      }
+    },
+    {
+      "type": "table",
+      "id": "b56",
+      "name": "Page 49 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 49,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Flame spread (120sec.)"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Flame spread (120sec.)": "20 cm/s\nJET velocity:\nGas phase Reaction rate [kg mol/m3/s]\nOFF\nIgniter:"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Flame spread (120sec.)": "Solid\nTemperature [K]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b57",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame spread graph\n(c)\n90 [s]\nq=51.68 [deg.]\nq\nBurning angle q is defined by the solid surface temperature (570K).",
+      "location": {
+        "page": 50
+      }
+    },
+    {
+      "type": "text",
+      "id": "b58",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame burning an acrylic sphere (top) from is compared to model computation (bottom).\nThe comprehensive model even includes solid phase shape change effects. Adjusted\nsolid phase chemical kinetic parameters will improve the prediction of the flame standoff\ndistance.\nFuel: Acrylic sphere; Atmosphere: 17% O /N ; 1 atm; Flow speed: 12 cm/s (left to right)\n2 2",
+      "location": {
+        "page": 51
+      }
+    },
+    {
+      "type": "text",
+      "id": "b59",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Dynamic flow change effects\nFlow",
+      "location": {
+        "page": 52
+      }
+    },
+    {
+      "type": "text",
+      "id": "b60",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flow\nTop view image montage for a 1-cm wide flat acrylic sample burning in air at low flow speed\n(around 9 cm/s). Images progress from left to right then top to bottom (1.3 seconds between\nimages). The air flow direction is from right to left. The flame is about 1 cm in size and can\npersist for a very long time at this low air flow speed. The flame goes out only in the last two\nframes when the air flow is completely shut off.",
+      "location": {
+        "page": 54
+      }
+    },
+    {
+      "type": "text",
+      "id": "b61",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flow\nFlow of less than 1 cm/s. Near the end of the burn, a jet of nitrogen is imposed but it\nfails to extinguish the flame. Finally after a series of flow reductions, the flame goes out\nwhen the flow speed is zero.\nFuel: PMMA; 15-mm initial diameter; 17% O /N ; 1 atm; Time between images: 1.3 sec\n2 2",
+      "location": {
+        "page": 56
+      }
+    },
+    {
+      "type": "text",
+      "id": "b62",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Nitrogen on\nFlow\nFlame Minimum\nPMMA sphere burning in wake\nconfiguration in air.\nFlow is from right to left\nNitrogen off Nitrogen flow of 500 cc/min\nweakens but does not\nextinguish the flame\nFlame extinguishes",
+      "location": {
+        "page": 57
+      }
+    },
+    {
+      "type": "text",
+      "id": "b63",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Image sequence of a\nburning paraffin wax candle\nwithin a ceramic tube at\n17% oxygen and less than\n1 cm/s flow. Images are\nabout 9 sec. apart and the\nflow direction is up. The\ntest is concluded when the\nflow is turned off and the\nflame rapidly goes out.\nFlow",
+      "location": {
+        "page": 59
+      }
+    },
+    {
+      "type": "text",
+      "id": "b64",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flow\nImage sequence of a burning candle in microgravity. Flow is from bottom to top.\nAtmosphere: 17% O /N ; 1 atm; Flow speed: Varied --> 5, 4, 3, 2, 1, <1 cm/s;\n2 2\nRelative time (mm:ss) is indicated on the images",
+      "location": {
+        "page": 60
+      }
+    },
+    {
+      "type": "text",
+      "id": "b65",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flow\nFlow direction comparison on candle flame burning in 17% O flowing at around 1 cm/s.\n2\nFlow is from bottom to top.",
+      "location": {
+        "page": 61
+      }
+    },
+    {
+      "type": "text",
+      "id": "b66",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Acknowledgments:\nFumiaki Takahashi, National Center for Space Exploration Research\nBob Hawersaat, NASA Glenn Research Center\nJay Owens, National Center for Space Exploration Research\nTibor Lorik, ZIN Technologies\nChuck Bunnell, ZIN Technologies\nDennis Siedlak, Georgia Institute of Technology\nCarol Reynolds, NASA Marshall Space Flight Center\nDon Pettit, NASA Johnson Space Center\nJoe Acaba, NASA Johnson Space Center\nSuni Williams,NASA Johnson Space Center\nChris Cassidy, NASA Johnson Space Center",
+      "location": {
+        "page": 62
+      }
+    },
+    {
+      "type": "text",
+      "id": "b67",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Questions?\nPMMA sphere burning in 17% O with occasional vapor jetting\n2",
+      "location": {
+        "page": 63
+      }
+    }
+  ]
+}

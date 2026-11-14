@@ -1,0 +1,473 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-20",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-20_Engineering Documents_BRE_procedure_20210520.pdf",
+    "folder": "Engineering Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-20/Engineering Documents/PSI-20_Engineering Documents_BRE_procedure_20210520.pdf",
+    "version": 1,
+    "sizeBytes": 776857,
+    "sha256": "2db6091c56c862848916d58d0e236ca9bb772f122bad3d283e3a65fb4f669a14",
+    "localPath": "data/raw/PSI-20/Engineering Documents/PSI-20_Engineering Documents_BRE_procedure_20210520.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:09:21+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 40,
+    "characters": 75753,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": 40
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nAdvanced Combustion via Microgravity Experiments (ACME)\nBurning Rate Emulator (BRE)\nACME/BRE Experimental Procedure\nPrepared by:\nDennis P. Stocker, ACME Project Scientist\nNASA Glenn Research Center\ndennis.p.stocker@nasa.gov, 216-433-2166\nTable of Contents\nPage\n1. Introduction 2\n2. Test Sequence and Parameters 5\n3. BRE Script 11\n4. Test Matrices 37\nA. Test Matrices: Years in Advance 37\nB. Test Matrices: Months in Advance 37\nC. Test Matrices: Days in Advance 38\nD. Test Matrices: As-Run 38\n5. Nomenclature 39\nIdentification of commercial products is for clarification and does\nnot indicate endorsement by NASA or the federal government.\n1",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\n1. Introduction\nThe narrative description of the experimental procedure is an excerpt from the ‘Methods / Experimental’\nsection of the following conference paper.\nY.-C. Chien, J. Tinajero, D. Stocker, U. Hegde, and D. Dunn-Rankin, “Electric Field Effects on Flames in\nMicrogravity on the International Space Station,” 2018 Spring Technical Meeting of the Central States\nSection of The Combustion Institute, Minneapolis, MN, 20-22 May 2018.\nWhile the paper was written for the Electric-Field Effects on Laminar Diffusion Flames (E-FIELD Flames)\nexperiment, much of the discussion applies to ACME in general, including the BRE investigation. The figure\nreferenced in this excerpt is not included herein. Clarifications and additional information, not in the\nconference paper, are included in boxed notes like this.\nThe CIR experiments are configured, but not conducted, by the ISS crew. Thus far, ACME’s activity has\nincluded the majority of the crew members, regardless of their nationalities. Most often the astronauts\nand cosmonauts exchange gas bottles, mass flow controllers, and igniter tips. In the latter case, the igniter\ntip exchange can occur after failure or proactively before failure when the crew already has changes to\nmake changes in the interior of the insert. While these activities may seem mundane, the crew play a\ncritical role in setting up the hardware for each experiment. As an extreme example, there were crew\nactivities on 8 separate days in Sept.-Oct. 2017 to configure the CIR and ACME hardware for the first ACME\nexperiment, namely the Coflow Laminar Diffusion Flame (CLD Flame) experiment. In contrast, only two\ncrew days were required to reconfigure the hardware for the first E-FIELD Flames tests because of the\ninitial use of the same coflow burner. Planning is critical because crew activity is scheduled three weeks\nin advance, for which detailed procedures must be prepared and uplinked to the ISS.\nBRE has its own unique burners and it was the first ACME experiment conducted with large flames, as\ncompared to those in the CLD Flame and E-FIELD Flames investigations. That required changes to some\noptical elements for BRE as well as subsequent ACME experiments. BRE was also the first experiment to\nuse the CIR facility’s Gas Chromatograph Instrumentation Package (GCIP). As a result, the initial BRE set-\nup included 9 days of crew activity, mostly by Canadian astronaut David Saint-Jacques, although that\nincludes 4 days in which hardware was either gathered or stowed.\nAll CIR tests are remotely commanded from the ground from NASA’s Glenn ISS Payload Operations Center\n(GIPOC) in Cleveland, Ohio. Typically, four to six people staff four consoles during the testing. The CIR\nhardware is controlled from the Rack Officer (RO) and Data Management Officer (DMO) consoles, and the\nACME hardware is controlled from the Payload Developer (PD) console. Two shifts of personnel are\nscheduled to staff these three consoles on test days because they typically last 14 hours with the many\npre- and post-testing activities. Given that the tests are remotely commanded, the operations are carried\nout in the day and evening in Cleveland, e.g., from 7 AM to 9 PM. A day’s tests, i.e., with flames, are\nnormally conducted in a period of 10 hours of less. Tests are normally conducted on three weekdays per\ntwo weeks. On intervening weekdays, the image data is downlinked and the crew often swap one or both\ngas bottles. Transferring and downlinking data from a day’s tests also requires a 2-shift day for the RO\nand DMO consoles, where it is always necessary to verify that data was downlinked without errors and\nthat data is not missing. Those two positions are also staffed to guide and oversee the crew activity. As\na result, the CIR consoles are normally actively staffed on four weekdays per week. A team of four carry\nout the detailed planning for the CIR and ACME console staff, and the daily operational plans typically\nexceed 50 pages on days including testing.\n2",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nThe science console allows for review of the analog video and non-imaging telemetry (at 1 Hz) in near real\ntime but doesn’t allow for commanding. In the case of E-FIELD Flames, arrangements were made so that\nthe analog video is streamed to a secure computer at UC Irvine to allow the research team to participate\nin test operations and to recommend adjustments to the day’s planned parameters. That team does not\nsee the telemetry during the testing, but is in communication via phone and e-mail with their NASA\nresearch partners at the GRC ISS Payload Operations Center (GIPOC). While there are many preparatory\nsteps, the tests are ultimately conducted using an uploaded software script and parameter files. In\nadvance of the test day, the UC Irvine science team plans the nearly 60 parameters in the voltage sweep\nscript and specifies other parameters that are configured outside of the script, such as camera settings.\nIt is also possible to effectively conduct tests in a ‘manual’ mode, where parameters are changed in\nresponse to the analog video downlink or telemetry. For example, the electric field potential can be\nadjusted to approach a stability or soot limit.\nProvisions have been made to enable the investigators from all ACME experiments to remotely view the\nanalog video while they communicated verbally with NASA science personnel in the operations center.\nThus far, all ACME flame tests, including those for BRE, have been conducted in an automated manner\nusing software scripts and extensive parameter files.\nTypically, ten E-FIELD Flames tests are conducted per test day. Despite the short test durations, the low\nrate results from several unavoidable factors. After a test is conducted, the 125-Hz non-imaging data is\ndownlinked for immediate review by the science team. A small sample of images are often downlinked\nto ensure that the camera exposures are appropriate, where the times for those images are typically\nselected based on non-imaging data to provide extreme examples. The review helps to verify parameters\nor plan for adjustments in subsequent tests, e.g., to select the voltage range after determining where the\nion current saturates for the given flame conditions. After a test is conducted, a fan circulates the chamber\natmosphere after which the chamber is vented (to space) back to atmospheric pressure, if needed.\nMidway through a day’s E-FIELD Flames tests, the atmosphere is circulated for 15 minutes through a filter\ncartridge filled with molecular sieves to capture any soot and adsorb at least a portion of the combustion\nproducts, e.g., carbon dioxide, water vapor, and incomplete combustion products. The tests are only\nconducted when both Ku and S band communication is available through NASA’s Tracking and Data Relay\nSatellite (TDRS) System. Depending on the various orbits, there are periodic communication outages with\na loss of signal (LOS) that can be a short handover (from one satellite to another) or can last as long as 30\nminutes.\nAbout eight flames were ignited per test day in BRE’s first round, neglecting the day in which no tests were\nconducted because the igniter had unknowingly failed at the end of the preceding test day. The nominal\ndurations were typically planned for 2 or 3 minutes but some tests were 5 minutes long. Meanwhile the\nsecond round of BRE had roughly 15 tests conducted per day, but the durations were nominally 2 minutes\nat most.\nUnlike E-FIELD Flames, the BRE experiment also made use of the CIR’s Gas Chromatograph\nInstrumentational Package (GCIP) to measure species concentrations of the atmosphere in the combustion\nchamber. There is no sampling probe and measurements are only made before, between, or after tests\nwhen the chamber atmosphere was ‘stirred’ through use of a fan. The GC measurements were made on\nroughly 60% of the test days with flames in the first round, specifically on 19039, 19063, 19066, 19070,\n19087, and 19094. In the second round, such data was acquired on less than half of the test days,\nspecifically on 20247, 20261, 20279, and 20352.\n3",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nLike E-FIELD Flames, BRE made periodic use of the adsorber cartridge, for example between atmospheres\nand after GC measurements, if any, were made.\nA variety of constraints limit the number of tests that can be performed, both overall and on a daily basis.\nThe next combustion experiments in the CIR will feature solid fuels and focus on flame spread and material\nflammability. That follow-on plan limits the duration of ACME operations, where each ACME experiment\nis allotted four months for testing. Although it requires additional crew time, these allotments are split\ninto two rounds so that the investigators have a break from testing for careful review of the early results\nso that they can maximize the scientific outcome of their second round. This paper reports on early results\nfrom the first round of E-FIELD Flames.\nWhile nitrogen is available from the space station, the combustion testing is limited by the available gas\nbottles that were and are launched to support the tests. For E-FIELD Flames and most of ACME’s\nexperiments, the test matrices used to plan those gas resources were established in 2010. At that time,\nNASA limited the scope of the ACME tests matrices with the intent of focused experiments with limited\nobjectives rather than comprehensive experiments. As such, the general target was 50 tests per\nexperiment. For most ACME experiments, the limiting gas constraint is the oxygen/nitrogen bottles used\nto fill the chamber. This resource constraint is exacerbated by the CIR because it is equipped with a pair\nof redundant safety timers to limit the fuel that can flow into the combustion chamber (where the timers\ncan be set for the oxidizer flow in the case of inverse flame testing). The timers can only be reset by\nventing the combustion chamber. Therefore, the timer limit combined with other constraints effectively\ncorresponds to the day’s maximum flow time for the fuel (or more generally, the limiting reactant). For\nE-FIELD Flames, the safety timers are set to the maximum value of 999 seconds, which corresponds to the\n10 tests typically completed per day.\nThe 999-second limit on the valve safety timers has thus far been common for all ACME testing. However,\nthe timers can be reset to 999 by nearly completely venting the chamber. Sufficient time and gas resources\nare needed to vent and refill the chamber and still conduct tests afterward, but this was done on most BRE\ntest days. The only exceptions were 19039, 19063, and 19091 where in the last case no flames were ignited\nbecause the igniter had unknowingly failed at the end of the prior test day.\nAnother constraint is the available time in a day, where the console personnel and ISS resources, such as\nthe video downlink, are planned for a limited number of hours. When necessary for the research, NASA\ndoes have continuous 24-hour/day operations for some non-CIR experiments. But as discussed, the ACME\ntests are typically two minutes or less in duration, so the testing is almost always limited to the planned\ndurations.\nData limits are yet another constraint, where the on-orbit hardware can store a limited amount of data.\nMore importantly, 127,000 MB is the most that can be reasonably managed in a two-shift transfer and\ndownlink day. Therefore, tests days are limited to this amount of data, where image data from select\ncameras is often archived at reduced rates to mitigate this challenge. Nonetheless, the limit sometimes\nforces decisions to abandon recorded images.\nThis detailed description of operations and hardware provides the context under which the ACME\nexperiments are conducted. …\n4",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\n2. Test Sequence and Parameters\nAll BRE tests conducted on the ISS were carried out using automated software which had its roots in\nACME’s Integrated Science Requirements Documents (ISRD, RDR version, Rev. B) and Science Operations\nRequirements Documents (SORD, Rev. A). The BRE Science Requirements Document (SRD) is of course\npertinent but only that which was incorporated in the ISRD and SORD was used by the engineering team\nin developing the control software.\nThe major phases of the test sequence are graphically displayed in Figure 1, which incorporates the\noptional pre-flow first implemented on BRE’s third test day. The lines appearing in the figure represent\nthe nitrogen flow rate, the fuel flow rate, the igniter position and power. The lines that are more lightly\nshaded represent some optional changes to flow rates, for example the pre-flow. However, the flow\nvariations in the darkly shaded lines are also optional. The phases are described in detail at the bottom\nof the schematic, where the nomenclature generally corresponds to the script parameter names.\n5",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\n.s\nn\no\nit\np\no\ny\nn\na\nm\ns\nt\ni\nh\nt\niw\ne\nc\nn\ne\nu\nq\ne\ns\nt\np\nir\nc\ns\nE\nR\nB\ne\nh\nt\ng\nn\nit\na\nr\nt\ns\nu\nlli\nc\nit\na\nm\ne\nh\nc\nS\n.1\ne\nr\nu\ng\niF\n6",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nWith the exception of the first two test days in which the script didn’t feature the pre-flow option shown\nin Figure 1, the BRE script used 69 parameters. The early script revision added the four parameters found\nat the end of this list, which includes example values from the final BRE test, 21028G5. The parameters\nare briefly explained, where many of them are common to all ACME experiments because of their use of\nthe same set of modular hardware. The lines separate general types of parameters, e.g., those\ncorresponding to imaging, ignition, the fiber array, gas flow, etc.\ntestpointName:21028G5,\ntest point name that will be used by the IPSUs and ACME Data File (in the image and data file\nnames and directories)\npreIgnitionDataTimeSec:0,\ntime (in seconds) ACME Data File records data before IPSUs open test point and start archiving\nimages\npostFlameDataTimeSec:15,\ntime (in seconds) ACME Data File records data after the postFlameImagingTimeSec has elapsed\nwhich occurs after command sent to close manifolds (i.e., stop gas flow)\nuseIPSUs:true,\nindicates if IPSUs will be used (images archived) for the test point\nipsuTimeoutSec:40,\ntime (in seconds) to wait for command responses from IPSUs and IPSUG when opening and\nstarting test points\nuseAcmeCamera:true,\nindicates if the ACME Camera will be used for the test point\nuseIntensifiedCamera:true,\nindicates if the CIR Intensified Camera will be used for the test point\nipsu1ArchiveRate:2,\nindicates that every nth HiBMS Camera (IPSU1) image is saved (archived) (e.g., 10 indicates every\n10th image)\ndataCameraPreIgnitionExposureUs:1000000,\nexposure (in microseconds) of the ACME Camera prior to ignition and igniter retraction (set for\nimaging the igniter and ignition event)\ndataCameraTestExposureUs:50000,\nexposure (in microseconds) of the ACME Camera after igniter retraction (set for imaging the\nflame)\nanalogCameraPreIgnitionShutter:2,\nshutter speed of the ACME Chamber Insert Camera (ops camera - no IPSU data recorded for this\ncamera) prior to ignition and igniter retraction (set for imaging the igniter and ignition event)\nanalogCameraTestShutter:2,\nshutter speed of the ACME Chamber Insert Camera (ops camera - no IPSU data recorded for this\ncamera) after igniter retraction (set for imaging the flame)\nintensifierGainAmplitude:50000,\nCIR Intensified Camera intensifier gain setting; commanded to this value after turning off chamber\nLED lights; this is the actual gain value; the script will convert to counts when sending the\ncommand\npreIgnitionImageTimeSec:0,\ntime (in seconds) IPSUs record images before the CIR fuel manifold is commanded open\n7",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\npostFlameImagingTimeSec:3,\ntime (in seconds) IPSUs record images after flow stops\nuseBracketedExposures:true,\nindicates if bracketed exposures on the ACME Camera will be used for the test point; if true,\nreplaces dataCameraTestExposureUs\nbracketingImagesPerExposure:1,\nnumber of images at each exposure before moving on to the next exposure when using bracketed\nexposure\nbracketingNumberOfExposures:4,\nnumber of exposures when using bracketed exposure\nbracketingExposureStartUsec:5000,\ninitial exposure (in microseconds) for the ACME Camera when using bracketed exposure\nbracketingExposureMultiplierTimes100:200,\nvalue, divided by 100, that will get multiplied to the current exposure to determine the next\nexposure, when using bracketed exposure\nigniterIgnitionPosition:2100,\nposition (in counts) of the igniter for preheat and ignition\nigniterPreheatPowerV:3,\nigniter power (in volts) during preheat (igniterPreheatDurationMs)\nigniterPreheatTimeMs:2000,\ntime (in milliseconds) the igniter is powered during the preheat\nigniterIgnitionPowerV:3.75,\nigniter power (in volts) during ignition (igniterIgnitionDurationMs)\nigniterIgnitionDurationMs:3000,\ntime (in milliseconds) the igniter is powered for ignition; ends early if ignition is detected\nigniterDelayBeforeRetractMs:3000,\ntime (in milliseconds) the igniter stays in igniterIgnitionPosition before retracting\nigniterRetractVelocityCountsPerSec:3000,\nvelocity (in counts/second) used when the igniter retracts if ignition is not detected\nuseIgnitionDetection:true,\nindicates if Ignition Detection will be used; when ignition is detected (per the specified values),\nthe igniter turns off and retracts\nextinctionDetectionStopsTest:true,\nindicates if Extinction Detection will be used to detect flame extinction; when extinction is\ndetected (per the specified values or when commanded by operators), the script ends the gas\nflow and IPSUs recording of images and continues to the end of the script\npmt1Gain:5.75,\nPMT1 gain during the script; set to 0 at end of script; PMT1 = 310nm, OH*\npmt2Gain:6,\nPMT2 gain during the script; set to 0 at end of script; PMT2 = Broadband\npmt3Gain:6,\nPMT3 gain during the script; set to 0 at end of script; PMT3 = 430nm, CH*\nfiberIgnitionPosition:10000,\nposition (in counts) the fiber moves to prior to ignition (pre-positions the fiber so it can reach\nfiberTestPosition more quickly)\n8",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nfiberTestPosition:18500,\nposition (in counts) the fiber moves to during test point (after stabalizationTime2Sec), starting\nposition for fiber movement\nfiberMoveDuringTest:false,\nindicates if fiber will move back and forth during test; if true, fiber will move back and forth during\nthe test; starts after fiberTestPosition is reached; if false, fiber will still go into test position\n(fiberTestPosition) but not move back and forth\nfiberSegmentDistance:100,\ndistance (in counts) the fiber moves towards the burner from the fiberTestPosition and back\nfiberVelocity:3000,\nvelocity (in counts/second) of fiber when moving during test\nfiberAcceleration:1000,\nacceleration (in counts/second squared) of fiber when moving during test\nfiberDeceleration:0,\ndeceleration (in counts/second squared) of fiber when moving during test\nfiberHoldDurationSec:1,\ntime (in seconds) to hold at the innermost and outermost positions of the fiber movement\nfiberCycles:100,\nnumber of cycles the fiber moves; one cycle is towards the burner (number of counts in\nfiberSegmentDistance) and back (to fiberTestPosition)\nuseFoma:true,\nindicates if gas flow will be used for test points\nflowTimeoutSec:160,\ntotal time (in seconds) gas flows during script, starting when the fuel flow starts; gas flow stops\nafter this time if not at end of script\nnitrogenPriming1DurationSec:0,\ntime (in seconds) for nitrogen to flow prior to the start of fuel flow; time is before IPSUs start\narchiving, before opening CIR fuel manifold, and before nitrogenPriming2DurationSec\nnitrogenPriming2DurationSec:0,\ntime (in seconds) for nitrogen to flow prior to the start of fuel flow; time starts after CIR fuel\nmanifold has been opened\nfuelFlowIgnitionDeltaMs:21000,\ntime (in milliseconds) fuel (and nitrogen) flows before or after start of igniterIgnitionDurationMs\nstabilizationTime1Sec:2,\ntime (in seconds) to wait after igniter starts retracting, before increasing fuel (and nitrogen) to\ntest flow rates\nstabilizationTime2Sec:2,\ntime (in seconds) to wait after ignitionToTestRampTimeSec, before the fiber moves into test\nposition (fiberTestPosition)\nfuelBottleIgnitionFlowRateN2Slpm:0.103,\ninitial fuel bottle flow rate (SLPM N2 basis) through stabilizationTime1Sec\nnitrogenIgnitionFlowRateN2Slpm:0.126,\ninitial nitrogen flow rate (SLPM N2 basis) through stabilizationTime1Sec\nfuelBottleTestFlowRateN2Slpm:0.103,\nfuel bottle flow rate (SLPM N2 basis) after ignitionToTestRampTimeSec through the end of\nconstantFlowTimeSec\n9",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "text",
+      "id": "b10",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nnitrogenTestFlowRateN2Slpm:0.126,\nnitrogen flow rate (SLPM N2 basis) after ignitionToTestRampTimeSec through the end of\nconstantFlowTimeSec\nignitionToTestRampTimeSec:1,\ntime (in seconds) it takes to ramp from fuelBottleIgnitionFlowRateN2Slpm to\nfuelBottleTestFlowRateN2Slpm and nitrogenIgnitionFlowRateN2Slpm to\nnitrogenTestFlowRateN2Slpm after stabilizationTime1Sec\nconstantFlowTimeSec:90,\ntime (in seconds) to wait at a constant flow before continuing script\nnumberOfRampHolds:0,\nnumber of times gas flow will ramp and hold following constantFlowTimeSec\nrampSizePercent:-20,\npercentage amount the flow rate changes the per ramp, based on fuelBottleTestFlowRateN2Slpm\nand nitrogenTestFlowRateN2Slpm\nrampDurationSec:2,\ntime (in seconds) to ramp to next flow rate\nholdDurationSec:10,\ntime (in seconds) to hold at the flow rate after each ramp\ntemperatureLimitCriticalC:300,\ntemperature limit (in degrees C) that ends the test point (stops all flows; script still performs post-\nflame data and imaging collection, and then closes the test point nicely)\ntemperatureLimitC:250,\ntemperature limit (in degrees C) that ends the constantFlowTimeSec and causes the script to\nmoves on to ramping\nuseCenterThermocouple:true,\nindicates if Center Thermocouple will be used in temperature limit checks\nuseOffsetThermocouple:true,\nindicates if Offset Thermocouple will be used in temperature limit checks\nuseCenterFluxThermocouple:true,\nindicates if Center Flux Thermocouple will be used in temperature limit checks\nuseOffsetFluxThermocouple:true,\nindicates if Offset Flux Thermocouple will be used in temperature limit checks\npreflowFlowDurationSecs:5,\ntime in seconds to flow from fuel bottle and/or nitrogen prior to starting gas flow for ignition\npreflowFuelRateSlpm:0,\nfuel bottle flow rate (SLPM N2 basis) during preflowDurationSecs\npreflowNitrogenRateSlpm:0.16,\nnitrogen flow rate (SLPM N2 basis) during preflowDurationSecs\npreflowWaitDurationSecs:300\ntime in seconds to wait after preflowFlowDurationSecs is complete before starting gas flow for\nignition\n10",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\n3. BRE Script\nFor a deeper understanding of the experimental procedure, the final version of the JavaScript used to\ncontrol the BRE tests is presented here. Neglecting the first two days of testing, it was largely unchanged\nthroughout the two rounds of BRE operations. The minor changes included:\n~2020-03-17 flow ramp hold was fixed so that the hold values were achieved exactly\n~2020-12-18 ignition detection was disabled prior to igniter arm retraction so that the\nretraction wasn’t interrupted\nThe first change was implemented between the first and second rounds of testing, while the second was\nmade during the second round.\nThe significant early change in the script was related to the comparatively large internal volume of the\nBRE burners which led to concern about understanding the composition of the gas initially flowing from\nthe burner. Therefore, on the second BRE test day (20 Feb. 2019, i.e., 19051), a no-flame ‘test’ was run\nbefore each flame test in which the burner was flushed with nitrogen. A shortcoming of this measure was\nthat the time between the nitrogen flushing and the start of the fuel flow was not precisely controlled.\nTherefore, the script was revised to allow specification of a ‘pre-flow’ with a specified wait time between\nthe pre-flow and the start of the gas flow for the flame. The revised version, which added four new\nparameters, was implemented on BRE’s third test day (25 Feb. 2019, 19056) and eliminated the need for\nthe no-flame ‘test’ to flush the burner with nitrogen.\nWith the addition of the scripted pre-low and wait time, the basic non-imaging data was captured during\nboth the pre-flow and in the flame test, but not during the intervening wait period. Therefore, one should\npay close attention to the time stamp when reviewing BRE data prior to the start of the fuel flow because\nthe listed time abruptly jumps.\nNote that the early portion of the script includes an example set of parameter values which are\noverwritten by values specified for each test.\n/**\n* BRETest.js\n* Script which executes a BRE test point.\n*\n* Assumptions:\n* - Cameras are configured except that data camera exposure and analog camera shutter\n* are set in this script, and the intensified camera gate and gain are set here.\n* - ACME Camera lens and filter is configured. Intensified Camera filter is configured.\n* - IPSUs being used, as specified in SystemDefineSetup command, are ready\n* - Mass flow controllers are enabled and zeroed\n* - PMTs are enabled\n* - ExtinctionDetectionConfigure and one of the ExinctionDetectionSet Action commands\n* has been issued and ExtinctinctionDetectionSetState(Disabled)\n* - Ignition detection parameters are set as desired using the IgnitionDetectionConfigure command.\n*/\n//Hook up to the runScript signal to show where to start execution\nAcmeAvionicsController.runScript.connect(run);\n11",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "text",
+      "id": "b12",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\n//This variable must be named parameters so the ground and flight software can manipulate the values.\nvar parameters = {\ntestpointName:\"NONE\",\n// data only recording\npreIgnitionDataTimeSec:0,\npostFlameDataTimeSec:15,\n// IPSU imaging\nuseIPSUs:true,\nipsuTimeoutSec:40,\nuseAcmeCamera:true,\nuseIntensifiedCamera:true,\nipsu1ArchiveRate:2,\ndataCameraPreIgnitionExposureUs:100000,\ndataCameraTestExposureUs:650000,\nanalogCameraPreIgnitionShutter:2,\nanalogCameraTestShutter:2,\nintensifierGainAmplitude:50000, // not raw, 2500 - 80,000\npreIgnitionImageTimeSec:0,\npostFlameImagingTimeSec:3,\n// exposure bracketing\nuseBracketedExposures:false,\nbracketingImagesPerExposure:1,\nbracketingNumberOfExposures:4,\nbracketingExposureStartUsec:5000,\nbracketingExposureMultiplierTimes100:1000, // eg. 1050 = factor of 10.50\n// ignition\nigniterIgnitionPosition:0,\nigniterPreheatPowerV:0.0,\nigniterPreheatTimeMs:0,\nigniterIgnitionPowerV:3.75,\nigniterIgnitionDurationMs:2000,\nigniterDelayBeforeRetractMs:1500, // after the start of the ignition pulse\nigniterRetractVelocityCountsPerSec:2000, // velocity of retract if ignition is not detected\n// ignition detection to power off igniter and send home with velocity in AcmeConfig.ini\nuseIgnitionDetection:true,\n// extinction detection\nextinctionDetectionStopsTest:true,\n// PMTs\npmt1Gain:6.25,\npmt2Gain:6.5,\n12",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\npmt3Gain:6.5,\n// fiber movement\nfiberIgnitionPosition:0, // >0 to decrease time to get to test position\nfiberTestPosition:0, // where to start back and forth movement\nfiberMoveDuringTest:false,\nfiberSegmentDistance:100, // first move is toward the burner this amount, then back\nfiberVelocity:3000,\nfiberAcceleration:1000,\nfiberDeceleration:0,\nfiberHoldDurationSec:1,\nfiberCycles:100, // can be large. stopped when test is complete\n// gas flow\nuseFoma:true,\nflowTimeoutSec: 120,\nnitrogenPriming1DurationSec:0,\nnitrogenPriming2DurationSec:0,\nfuelFlowIgnitionDeltaMs:1000, // positive for fuel flow starting before ignition, negative for after\nstabilizationTime1Sec:4,\nstabilizationTime2Sec:4,\nfuelBottleIgnitionFlowRateN2Slpm:1.2,\nnitrogenIgnitionFlowRateN2Slpm:0,\nfuelBottleTestFlowRateN2Slpm:1.2,\nnitrogenTestFlowRateN2Slpm:0,\nignitionToTestRampTimeSec:5,\nconstantFlowTimeSec:30,\nnumberOfRampHolds:0,\nrampSizePercent:-20,\nrampDurationSec:2.0,\nholdDurationSec:10,\n// temperature limits\ntemperatureLimitCriticalC:300,\ntemperatureLimitC:250,\nuseCenterThermocouple:true,\nuseOffsetThermocouple:true,\nuseCenterFluxThermocouple:true,\nuseOffsetFluxThermocouple:true,\n// pre-flow parameters\npreflowFlowDurationSecs:0,\npreflowFuelRateSlpm:0,\npreflowNitrogenRateSlpm:0,\npreflowWaitDurationSecs:300\n};\n13",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "text",
+      "id": "b14",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\n// Print out the parameters so the ground software can display and support changes\nprintParams();\n// Execution begins here when the RunScript command is issued\nfunction run()\n{\n// tell ACME telemetry that the script is running\nsetScriptStateRunning();\n// print parameters for a record of what was used after any changes\nprintParams();\nvar cirManifoldsOpen = false;\nvar ipsusStarted = false;\ntry\n{\nprint(\"BRE test point \" + parameters.testpointName + \" STARTED\");\n// Check that MFCS are in operate state\nif ( FlowTelemetry.MFCA2BypassState != 4) { print(\"WARNING: MFCA2 not in Operate state\"); }\nif ( FlowTelemetry.MFCA3FuelState != 4) { print(\"WARNING: MFCA3 not in Operate state\"); }\n// check that all of the flows are within the MFCs full scales. Throw exception if not.\nif ( parameters.nitrogenIgnitionFlowRateN2Slpm > FlowTelemetry.MFCA2BypassFullScaleFlowSlpm\n)\nthrow(\"INVALID PARAMETER: nitrogenIgnitionFlowRateN2Slpm exceeds MFCA2 maximum\");\nif ( parameters.nitrogenTestFlowRateN2Slpm > FlowTelemetry.MFCA2BypassFullScaleFlowSlpm )\nthrow(\"INVALID PARAMETER: nitrogenTestFlowRateN2Slpm exceeds MFCA2 maximum\");\nif ( parameters.fuelBottleIgnitionFlowRateN2Slpm > FlowTelemetry.MFCA3FuelFullScaleFlowSlpm )\nthrow(\"INVALID PARAMETER: fuelBottleIgnitionFlowRateN2Slpm exceeds MFCA3 maximum\");\nif ( parameters.fuelBottleTestFlowRateN2Slpm > FlowTelemetry.MFCA3FuelFullScaleFlowSlpm )\nthrow(\"INVALID PARAMETER: fuelBottleTestFlowRateN2Slpm exceeds MFCA3 maximum\");\nif ( ExtinctionDetectionTelemetry.extinctionDetectionAveragingDuration <= 0 )\n{ throw \"Extinction detection averaging duration must be greater than zero.\"; }\n// check that any preflow wait duration is long enough to close the CIR manifolds\nif ( parameters.preflowFlowDurationSecs > 0 )\n{\nif ( parameters.preflowWaitDurationSecs < 50 )\n{ throw \"INVALID PARAMETER: preflowWaitDurationSecs must be 50 or more seconds\"; }\n}\nif ( DiagnosticTelemetry.PMTPower < 4.0) { print(\"WARNING: PMT's are not powered.\"); }\nprint(\"Setting PMT gains\");\nPmtSetAllGains.PMT1Gain = parameters.pmt1Gain;\n14",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "text",
+      "id": "b15",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nPmtSetAllGains.PMT2Gain = parameters.pmt2Gain;\nPmtSetAllGains.PMT3Gain = parameters.pmt3Gain;\nsendCommand(PmtSetAllGains);\n// Figure out and display the timing of ignition-related events\n// times are milliseconds from the start of N2 priming, even if that is not performed\nvar fuelOpenValvesTimeMs = parameters.nitrogenPriming2DurationSec * 1000;\nvar fuelOpenMfcsTimeMs = fuelOpenValvesTimeMs + 500;\nvar igniterIgnitionTimeMs = fuelOpenValvesTimeMs + parameters.fuelFlowIgnitionDeltaMs;\nvar igniterPreheatTimeMs = igniterIgnitionTimeMs - parameters.igniterPreheatTimeMs;\nvar igniterRetractTimeMs = igniterIgnitionTimeMs + parameters.igniterDelayBeforeRetractMs;\nvar minTime = Math.min(fuelOpenValvesTimeMs, fuelOpenMfcsTimeMs, igniterIgnitionTimeMs,\nigniterPreheatTimeMs, igniterRetractTimeMs );\nif ( minTime < 0 )\n{\n// add to get every time above 0\nfuelOpenValvesTimeMs += (-1 * minTime);\nfuelOpenMfcsTimeMs += (-1 * minTime);\nigniterIgnitionTimeMs += (-1 * minTime);\nigniterPreheatTimeMs += (-1 * minTime);\nigniterRetractTimeMs += (-1 * minTime);\n}\nvar stabilizationTime1Ms = Math.max(igniterRetractTimeMs,fuelOpenValvesTimeMs);\nprint(\"Ignition Timing Values:\");\nprint(\"----------------------\");\nif ( parameters.nitrogenIgnitionFlowRateN2Slpm > 0)\nprint(\"Start of N2 priming (period 2): 0 Ms\");\nprint(\"Start of Fuel flow at ignition rate \" + fuelOpenValvesTimeMs + \" Ms\");\nif ( parameters.igniterPreheatTimeMs > 0 )\nprint(\"Start of igniter preheat: \" + igniterPreheatTimeMs + \" Ms\");\nprint(\"Start of ignition: \" + igniterIgnitionTimeMs + \" Ms\");\nprint(\"Start of igniter retraction: \" + igniterRetractTimeMs + \" Ms\");\nprint(\"Start of stabilization time 1: \" + stabilizationTime1Ms + \" Ms\");\nprint(\"----------------------\");\n// Open the test point\nif(parameters.testpointName == \"NONE\") { throw \"Must define a test point name.\"; }\nif(parameters.testpointName.length > 7) { throw \"Test point name must be 7 characters or less.\" }\nSystemOpenTestPoint.testpointName = parameters.testpointName;\nsendCommand(SystemOpenTestPoint);\nvar usingNitrogen = (parameters.nitrogenIgnitionFlowRateN2Slpm>0)\n|| (parameters.nitrogenTestFlowRateN2Slpm>0);\nvar usingFuel = (parameters.fuelBottleIgnitionFlowRateN2Slpm>0)\n|| (parameters.fuelBottleTestFlowRateN2Slpm>0);\n15",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "text",
+      "id": "b16",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\n// Set camera settings\nprint(\"Changing cameras to pre-ignition settings\")\nif ( parameters.useIPSUs == true)\n{\nDataCameraSetManualExposure.integrationTimeUs =\nparameters.dataCameraPreIgnitionExposureUs;\nsendCommand(DataCameraSetManualExposure);\n}\nAnalogCameraSetShutter.shutter = parameters.analogCameraPreIgnitionShutter;\nsendCommand(AnalogCameraSetShutter);\n// Put intensified camera in safe mode before turning on lights\n// gateType = 0 is pulsed mode\nprint(\"Intensified camera to safe mode\");\nIntensifiedCameraGate.gateType = 0;\nIntensifiedCameraGate.pulsedGateWidthCounts = 0;\nsendCommand(IntensifiedCameraGate);\nmSleep(500);\nIntensifiedCameraGainAmplitude.gainAmplitudeCounts = 2048;\nsendCommand(IntensifiedCameraGainAmplitude);\n// delay to get to safed mode?\nmSleep(2000);\n// Turn on chamber lights for viewing igniter insertion\nIlluminationConfigure.sideLEDBankState = 1;\nIlluminationConfigure.endLEDBankState = 1;\nsendCommand(IlluminationConfigure);\n// Insert the fiber\nif( SystemDefineSetup.efieldConfig == 0 )\n{\nprint(\"Moving fiber to its starting position\");\nFiberMove.position = parameters.fiberIgnitionPosition;\nFiberMove.velocity = 3000;\nsendCommand(FiberMove);\n}\n// Insert the igniter\nif( parameters.igniterIgnitionPosition != 0)\n{\nprint(\"Inserting igniter\");\nIgniterMove.position = parameters.igniterIgnitionPosition;\nsendCommand(IgniterMove);\n}\n// Disable extinction detection\nExtinctionDetectionSetState.state = 0;\nsendCommand(ExtinctionDetectionSetState);\n16",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "text",
+      "id": "b17",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nif ( parameters.useFoma )\n{\n// clear and report initial MFC gas usage\nclearMfcIntegratedFlow();\nif ( parameters.preflowFlowDurationSecs == 0 )\n{ reportMfcIntegratedFlow(true); }\n// otherwise report it at the end of preflow\n}\n// Pause here to check the igniter position and CIR manifold states\nprint(\"Test point PAUSED to check igniter. SystemResumeScript when ready.\");\npauseScript();\n// Set the igniter ready to retract after ignition\nIgniterSetupMoveWithParameters.position = 0;\nIgniterSetupMoveWithParameters.velocity = parameters.igniterRetractVelocityCountsPerSec;\nIgniterSetupMoveWithParameters.acceleration = 5000;\nIgniterSetupMoveWithParameters.deceleration = 5000;\nsendCommand(IgniterSetupMoveWithParameters);\n// make sure ACME valves are closed before opening CIR manifolds\nsendCommand(FlowCloseAll);\n// pre-flow to fill burner with known gas\nif ( parameters.preflowFlowDurationSecs > 0 )\n{\nif ( parameters.useFoma )\n{\nprint(\"Opening CIR manifolds for pre-flow\");\n// This function in helpers.js waits until complete or throws an error.\n// The parameters are (N2, O2, Diluent, Fuel, N2 Bypass)\nopenManifolds((parameters.preflowNitrogenRateSlpm > 0), false, false,\n(parameters.preflowFuelRateSlpm>0), (parameters.preflowNitrogenRateSlpm > 0),6000);\n}\nprint(\"Starting data recording during pre-flow.\");\nsendCommand(DataRecordingStart);\n// start N2 and/or fuel flowing at pre-flow rates for pre-flow duration\nprint(\"Starting fuel and/or N2 flow at pre-flow rate(s)\");\n// Open valves\nFlowSetAllSolenoidValveStates.SVA1State = 0;\nFlowSetAllSolenoidValveStates.SVA2State = 0;\nFlowSetAllSolenoidValveStates.SVA3State = 0;\nFlowSetAllSolenoidValveStates.SVA4State = 0;\nFlowSetAllSolenoidValveStates.SVA5State = 0;\n17",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "text",
+      "id": "b18",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nFlowSetAllSolenoidValveStates.SVA6State = 0;\n// N2 to burner\nFlowSetAllSolenoidValveStates.SVA7State = parameters.preflowNitrogenRateSlpm > 0 ? 1 : 0;\nFlowSetAllSolenoidValveStates.SVA8State = 0;\n// Fuel to burner\nFlowSetAllSolenoidValveStates.SVA9State = parameters.preflowFuelRateSlpm > 0 ? 1 : 0;\nsendCommand(FlowSetAllSolenoidValveStates);\nmSleep(500);\nFlowSetAllMfcRates.MFCA1StaticMixerFlowSlm = 0;\nFlowSetAllMfcRates.MFCA2BypassFlowSlm = parameters.preflowNitrogenRateSlpm;\nFlowSetAllMfcRates.MFCA3FuelFlowSlm = parameters.preflowFuelRateSlpm;\nsendCommand(FlowSetAllMfcRates);\n// for TADS timestamp of MFCs open\nprint(\"Priming gas lines for\");\nprint(\"Waiting pre-flow time \" + parameters.preflowFlowDurationSecs + \" sec\");\nsecsRemaining = parameters.preflowFlowDurationSecs;\nSystemTelemetry.scriptDurationRemaining = secsRemaining;\nwhile ( secsRemaining > 0 )\n{\nmSleep(1000);\nsecsRemaining--;\nSystemTelemetry.scriptDurationRemaining = secsRemaining;\n}\n// close ACME valves and MFCs\nsendCommand(FlowCloseAll);\nif ( parameters.useFoma )\n{\n// this does not wait for complete\ncloseManifolds();\n}\nprint(\"Stopping data recording during pre-flow.\");\nsendCommand(DataRecordingStop);\nprint(\"Gas flow off. Waiting pre-flow wait time \" + parameters.preflowWaitDurationSecs + \"\nsec\");\nsecsRemaining = parameters.preflowWaitDurationSecs;\nSystemTelemetry.scriptDurationRemaining = secsRemaining;\nwhile ( secsRemaining > 0 )\n{\nmSleep(1000);\nsecsRemaining--;\n18",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nSystemTelemetry.scriptDurationRemaining = secsRemaining;\n}\n// report how much gas was used during pre-flow\nreportMfcIntegratedFlow(true);\n}\nif ( parameters.useFoma && (usingNitrogen))\n{\nprint(\"Opening CIR nitrogen manifold\");\n// This function in helpers.js waits until complete or throws an error.\n// The parameters are (N2, O2, Diluent, Fuel, N2 Bypass)\nopenManifolds(true, false, false, false, true,6000);\ncirManifoldsOpen = true;\n}\nvar cirManifoldStartTime = new Date().getTime();\nsendCommand(DataRecordingStart);\n// priming N2 period 1\nif ( (parameters.nitrogenIgnitionFlowRateN2Slpm > 0) &&\n(parameters.nitrogenPriming1DurationSec > 0))\n{\n// open N2 valve and MFC and prime the nitrogen\nFlowSetSolenoidValveState.solenoidValve = 7;\nFlowSetSolenoidValveState.state = 1;\nsendCommand(FlowSetSolenoidValveState);\nmSleep(500);\nFlowSetMfcRate.massFlowController = 2;\nFlowSetMfcRate.flowSlm = parameters.nitrogenIgnitionFlowRateN2Slpm;\nsendCommand(FlowSetMfcRate);\n// for TADS timestamp of MFCs open\nif ( parameters.preflowFlowDurationSecs == 0)\n{ print(\"Priming gas lines for\"); }\nprint(\"Priming nitrogen (period 1) for \" + parameters.nitrogenPriming1DurationSec + \" sec\");\nvar startTime = new Date().getTime();\nwhile ( updateDurationRemaining(startTime, parameters.nitrogenPriming1DurationSec) > 0 )\n{\nmSleep(1000);\n}\n}\n// Start pre-ignition data capture and wait the prescribed time.\n19",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "text",
+      "id": "b20",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nprint(\"Recording pre-ignition data for \" + parameters.preIgnitionDataTimeSec + \" sec\");\nvar secsRemaining = parameters.preIgnitionDataTimeSec;\nSystemTelemetry.scriptDurationRemaining = secsRemaining;\nwhile ( secsRemaining > 0 )\n{\nmSleep(1000);\nsecsRemaining--;\nSystemTelemetry.scriptDurationRemaining = secsRemaining;\n}\n// Start the IPSU(s) recording images\nif ( parameters.useIPSUs == true)\n{\n// set the archive rate for IPSU1\nIpsuSetArchiveRate.ipsu = 1;\nIpsuSetArchiveRate.archiveRate = parameters.ipsu1ArchiveRate;\nsendCommand(IpsuSetArchiveRate);\n// This is a flag that gets set by the ImagingController if there is trouble\n// talking to an IPSU\nImagingController.ipsuErrorFlag = false;\nsendStartIpsusCommand();\nprint(\"Starting IPSU(s) archiving. Waiting up to \" + parameters.ipsuTimeoutSec + \" sec\");\nvar secsRemaining = parameters.ipsuTimeoutSec;\nwhile ( secsRemaining > 0 )\n{\nSystemTelemetry.scriptDurationRemaining = secsRemaining;\nif ( IpsuTelemetry.ipsuPhase == 5 ) { break; }\nif ( ImagingController.ipsuErrorFlag == true ) { break; }\nmSleep(1000);\nsecsRemaining--;\n}\nif ( ImagingController.ipsuErrorFlag == true ) { throw \"IPSU error\" };\nif ( secsRemaining <= 0 ) { throw \"IPSU timeout error\" };\nipsusStarted = true;\nprint(\"Recording pre-ignition images for \" + parameters.preIgnitionImageTimeSec + \" sec\");\nsecsRemaining = parameters.preIgnitionImageTimeSec;\nSystemTelemetry.scriptDurationRemaining = secsRemaining;\nwhile ( secsRemaining > 0 )\n{\nmSleep(1000);\nsecsRemaining--;\nSystemTelemetry.scriptDurationRemaining = secsRemaining;\n}\n20",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "text",
+      "id": "b21",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\n}\nif ( parameters.useFoma && usingFuel)\n{\n// under certain conditions a delay is needed between CIR scripts\nif ( cirManifoldsOpen == true && ( new Date().getTime() - cirManifoldStartTime < 6000 ))\n{\nprint(\"Waiting 6 seconds between CIR manifold scripts\");\n// CIR open manifold script was run and 6 seconds have not yet elapsed\nmSleep(6000);\n}\nprint(\"Opening CIR fuel manifold\");\nopenFuelManifold();\ncirManifoldsOpen = true;\n}\n// Turn off the lights\nIlluminationConfigure.sideLEDBankState = 0;\nIlluminationConfigure.endLEDBankState = 0;\nsendCommand(IlluminationConfigure);\n// Put intensified camera in continuous mode and set gain\n// gateType = 1 is continuous mode. pulsed gate width parameter is ignored.\nprint(\"Intensified camera to continuous mode\");\nIntensifiedCameraGate.gateType = 1;\nIntensifiedCameraGate.pulsedGateWidthCounts = 0;\nsendCommand(IntensifiedCameraGate);\nmSleep(500);\nIntensifiedCameraGainAmplitude.gainAmplitudeCounts =\nintensifierGainToRaw(parameters.intensifierGainAmplitude);\nsendCommand(IntensifiedCameraGainAmplitude);\n// priming N2 period 2\nif ( (parameters.nitrogenIgnitionFlowRateN2Slpm > 0) &&\n(parameters.nitrogenPriming2DurationSec > 0))\n{\n// open N2 valve and MFC and prime the nitrogen\nFlowSetSolenoidValveState.solenoidValve = 7;\nFlowSetSolenoidValveState.state = 1;\nsendCommand(FlowSetSolenoidValveState);\nmSleep(500);\nFlowSetMfcRate.massFlowController = 2;\nFlowSetMfcRate.flowSlm = parameters.nitrogenIgnitionFlowRateN2Slpm;\nsendCommand(FlowSetMfcRate);\n21",
+      "location": {
+        "page": 21
+      }
+    },
+    {
+      "type": "text",
+      "id": "b22",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nif (( parameters.nitrogenPriming1DurationSec == 0)\n&& (parameters.preflowFlowDurationSecs == 0))\n{\n// for TADS timestamp of MFCs open\nprint(\"Priming gas lines for\");\n}\nprint(\"Priming nitrogen (period 2) for \" + parameters.nitrogenPriming2DurationSec + \" sec\");\n// priming switches over to mixed flow at the appropriate time in the timing loop below\n}\n// start ignition detection\nif ( parameters.useIgnitionDetection)\n{\nIgnitionDetectionSetState.state = 1;\nsendCommand(IgnitionDetectionSetState);\n}\nvar flowStartTime = new Date().getTime();\nvar timedOut = false;\n// iterate through the timed ignition events\nvar maxTime = Math.max(fuelOpenValvesTimeMs, fuelOpenMfcsTimeMs, igniterIgnitionTimeMs,\nigniterPreheatTimeMs, igniterRetractTimeMs );\nvar timeStampMs = 0;\nwhile ( timeStampMs <= maxTime )\n{\nif ( timeStampMs == fuelOpenValvesTimeMs)\n{\n// Start fuel flow (and N2 flow if not already priming)\nprint(\"Starting fuel flow at ignition flow rate\");\n// Open valves\nFlowSetAllSolenoidValveStates.SVA1State = 0;\nFlowSetAllSolenoidValveStates.SVA2State = 0;\nFlowSetAllSolenoidValveStates.SVA3State = 0;\nFlowSetAllSolenoidValveStates.SVA4State = 0;\nFlowSetAllSolenoidValveStates.SVA5State = 0;\nFlowSetAllSolenoidValveStates.SVA6State = 0;\n// N2 to burner\nFlowSetAllSolenoidValveStates.SVA7State = usingNitrogen ? 1 : 0;\nFlowSetAllSolenoidValveStates.SVA8State = 0;\n// Fuel to burner\nFlowSetAllSolenoidValveStates.SVA9State = usingFuel ? 1 : 0;\nsendCommand(FlowSetAllSolenoidValveStates);\n}\nif ( timeStampMs == fuelOpenMfcsTimeMs )\n{\n22",
+      "location": {
+        "page": 22
+      }
+    },
+    {
+      "type": "text",
+      "id": "b23",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\n// Set the MFCs to ignition flow rates\n// separate from valve opening because want a delay between\nFlowSetAllMfcRates.MFCA1StaticMixerFlowSlm = 0;\nFlowSetAllMfcRates.MFCA2BypassFlowSlm = parameters.nitrogenIgnitionFlowRateN2Slpm;\nFlowSetAllMfcRates.MFCA3FuelFlowSlm = parameters.fuelBottleIgnitionFlowRateN2Slpm;\nsendCommand(FlowSetAllMfcRates);\n// Mark start time for flow timeout.\nprint(\"Flow timeout in \" + parameters.flowTimeoutSec + \" sec\");\nflowStartTime = new Date().getTime();\n}\nif ( timeStampMs == igniterPreheatTimeMs)\n{\n// preheat igniter\nif (( parameters.igniterPreheatTimeMs > 0) && (parameters.igniterPreheatPowerV > 0))\n{\nvar preheatDurationMs = parameters.igniterPreheatTimeMs;\nif ( parameters.igniterIgnitionDurationMs > 0 )\n{\n// add to the duration so there is overlap with ignition and no drop out\npreheatDurationMs += 500;\n}\nprint(\"Preheating igniter with \" + parameters.igniterPreheatPowerV + \"V for \" +\nparameters.igniterPreheatTimeMs + \" Ms\");\nIgniterPulse.power = parameters.igniterPreheatPowerV;\nIgniterPulse.durationMs = preheatDurationMs;\nsendCommand(IgniterPulse);\n}\n}\nif ( timeStampMs == igniterIgnitionTimeMs )\n{\n// ignition\nif ( (parameters.igniterIgnitionPowerV > 0) && (parameters.igniterIgnitionDurationMs > 0))\n{\nprint(\"Igniting with \" + parameters.igniterIgnitionPowerV + \"V for \" +\nparameters.igniterIgnitionDurationMs + \" Ms\");\nIgniterPulse.power = parameters.igniterIgnitionPowerV;\nIgniterPulse.durationMs = parameters.igniterIgnitionDurationMs;\nsendCommand(IgniterPulse);\n}\n}\nif ( timeStampMs == igniterRetractTimeMs )\n{\nif ( parameters.useIgnitionDetection)\n{\n23",
+      "location": {
+        "page": 23
+      }
+    },
+    {
+      "type": "text",
+      "id": "b24",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\n// disable ignition detection so it doesn't interrupt igniter retraction\nIgnitionDetectionSetState.state = 0;\nsendCommand(IgnitionDetectionSetState);\n}\n// retract igniter\nprint(\"Retracting igniter\");\nsendCommand(IgniterExecuteSetupMove);\n}\n// increment time\ntimeStampMs += 50;\nmSleep(50);\n}\n// Change camera settings\nprint(\"Changing cameras to test settings\")\nif ( parameters.useIPSUs )\n{\nif ( parameters.useBracketedExposures )\n{\nprint(\"Starting bracketed exposures on ACME camera\");\nDataCameraExposureBracketing.enable = true;\nDataCameraExposureBracketing.imagesPerExposure =\nparameters.bracketingImagesPerExposure;\nDataCameraExposureBracketing.exposures = parameters.bracketingNumberOfExposures;\nDataCameraExposureBracketing.exposureStartUsec =\nparameters.bracketingExposureStartUsec;\nDataCameraExposureBracketing.exposureIncrementUsec =\nparameters.bracketingExposureMultiplierTimes100;\nsendCommand(DataCameraExposureBracketing);\n}\nelse\n{\nDataCameraExposureBracketing.enable = false;\nsendCommand(DataCameraExposureBracketing);\nDataCameraSetManualExposure.integrationTimeUs = parameters.dataCameraTestExposureUs;\nsendCommand(DataCameraSetManualExposure);\n}\n}\nAnalogCameraSetShutter.shutter = parameters.analogCameraTestShutter;\nsendCommand(AnalogCameraSetShutter);\n// waiting stabilization time 1\nprint(\"Waiting stabilization time #1 \" + parameters.stabilizationTime1Sec + \" sec\");\nvar startTime = new Date().getTime();\n24",
+      "location": {
+        "page": 24
+      }
+    },
+    {
+      "type": "text",
+      "id": "b25",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nwhile ( updateDurationRemaining(startTime, parameters.stabilizationTime1Sec) > 0 )\n{\ncheckExtinctionDetected( flowStartTime, parameters.flowTimeoutSec,\nparameters.extinctionDetectionStopsTest );\nmSleep(1000);\n}\n// Enable extinction detection\n// Assumes ExtinctionDetectionConfigure and one of the ExtinctionDetectionSetAction\n// commands has been issued prior to running script and state is disabled.\nExtinctionDetectionSetState.state = 1;\nsendCommand(ExtinctionDetectionSetState);\nprint(\"Extinction detection enabled\");\n// Ramp gas flow from ignition rates to test rates\n// A rate of zero leaves that MFC at its last setting\nif ( (parameters.nitrogenTestFlowRateN2Slpm != parameters.nitrogenIgnitionFlowRateN2Slpm)\n|| (parameters.fuelBottleTestFlowRateN2Slpm !=\nparameters.fuelBottleIgnitionFlowRateN2Slpm))\n{\nif ( parameters.ignitionToTestRampTimeSec > 0 )\nFlowRamped.rampDurationSec = parameters.ignitionToTestRampTimeSec;\nelse\nFlowRamped.rampDurationSec = 0.1;\nFlowRamped.holdDurationSec = 0;\nFlowRamped.MFCA1MinimumFlowSlm = 0;\nFlowRamped.MFCA1MaximumFlowSlm = 0;\nFlowRamped.MFCA1RampRateSlmPerSec = 0;\nFlowRamped.MFCA2MinimumFlowSlm = ( parameters.nitrogenTestFlowRateN2Slpm >\nparameters.nitrogenIgnitionFlowRateN2Slpm ) ? parameters.nitrogenIgnitionFlowRateN2Slpm :\nparameters.nitrogenTestFlowRateN2Slpm;\nFlowRamped.MFCA2MaximumFlowSlm = ( parameters.nitrogenTestFlowRateN2Slpm >\nparameters.nitrogenIgnitionFlowRateN2Slpm ) ? parameters.nitrogenTestFlowRateN2Slpm :\nparameters.nitrogenIgnitionFlowRateN2Slpm;\nFlowRamped.MFCA2RampRateSlmPerSec = (parameters.nitrogenTestFlowRateN2Slpm -\nparameters.nitrogenIgnitionFlowRateN2Slpm) / parameters.ignitionToTestRampTimeSec;\nFlowRamped.MFCA3MinimumFlowSlm = ( parameters.fuelBottleTestFlowRateN2Slpm >\nparameters.fuelBottleIgnitionFlowRateN2Slpm ) ? parameters.fuelBottleIgnitionFlowRateN2Slpm :\nparameters.fuelBottleTestFlowRateN2Slpm;\nFlowRamped.MFCA3MaximumFlowSlm = ( parameters.fuelBottleTestFlowRateN2Slpm >\nparameters.fuelBottleIgnitionFlowRateN2Slpm ) ? parameters.fuelBottleTestFlowRateN2Slpm :\nparameters.fuelBottleIgnitionFlowRateN2Slpm;\nFlowRamped.MFCA3RampRateSlmPerSec = (parameters.fuelBottleTestFlowRateN2Slpm -\nparameters.fuelBottleIgnitionFlowRateN2Slpm) / parameters.ignitionToTestRampTimeSec;\n25",
+      "location": {
+        "page": 25
+      }
+    },
+    {
+      "type": "text",
+      "id": "b26",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nprint(\"Ramping gas flow from ignition to test rates in \" + parameters.ignitionToTestRampTimeSec\n+ \" secs\");\nsendCommand(FlowRamped);\n}\n// calculate thermocouple limits in Volts for easy comparison with telemetry\ncriticalTemperatureLimitV =\nconvertKTypeThermocoupleTempToVolts(parameters.temperatureLimitCriticalC,\nDiagnosticTelemetry.tcCj);\ntemperatureLimitV = convertKTypeThermocoupleTempToVolts(parameters.temperatureLimitC,\nDiagnosticTelemetry.tcCj);\nprint(\"critical temperature limit of \" + parameters.temperatureLimitCriticalC + \" C is \" +\ncriticalTemperatureLimitV*1000 + \"mV\");\nprint(\"temperature limit of \" + parameters.temperatureLimitC + \" C is \" + temperatureLimitV*1000\n+ \"mV\");\nprint(\"Starting to monitor burner thermocouples for critical temperature \" +\nparameters.temperatureLimitCriticalC + \" C.\");\nif ( parameters.ignitionToTestRampTimeSec > 0 )\n{\nvar startTime = new Date().getTime();\nwhile ( updateDurationRemaining(startTime, parameters.ignitionToTestRampTimeSec) > 0 )\n{\ncheckExtinctionDetected( flowStartTime, parameters.flowTimeoutSec,\nparameters.extinctionDetectionStopsTest );\ncheckCriticalTemperature( parameters.useCenterThermocouple,\nparameters.useOffsetThermocouple, parameters.useCenterFluxThermocouple,\nparameters.useOffsetFluxThermocouple, criticalTemperatureLimitV );\nmSleep(1000);\n}\n// make sure ramp is done\nwhile (FlowTelemetry.MFCA3FuelWaveform != 0)\n{\ncheckExtinctionDetected( flowStartTime, parameters.flowTimeoutSec,\nparameters.extinctionDetectionStopsTest );\ncheckCriticalTemperature( parameters.useCenterThermocouple,\nparameters.useOffsetThermocouple, parameters.useCenterFluxThermocouple,\nparameters.useOffsetFluxThermocouple, criticalTemperatureLimitV );\nmSleep(1000);\n}\n}\n// waiting stabilization time 2\nprint(\"Waiting stabilization time #2 \" + parameters.stabilizationTime2Sec + \" sec\");\nvar startTime = new Date().getTime();\nwhile ( updateDurationRemaining(startTime, parameters.stabilizationTime2Sec) > 0 )\n{\n26",
+      "location": {
+        "page": 26
+      }
+    },
+    {
+      "type": "text",
+      "id": "b27",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\ncheckExtinctionDetected( flowStartTime, parameters.flowTimeoutSec,\nparameters.extinctionDetectionStopsTest );\ncheckCriticalTemperature( parameters.useCenterThermocouple,\nparameters.useOffsetThermocouple, parameters.useCenterFluxThermocouple,\nparameters.useOffsetFluxThermocouple, criticalTemperatureLimitV );\nmSleep(1000);\n}\n// Start moving fiber to test position\nif ( parameters.fiberTestPosition > 0 && SystemDefineSetup.efieldConfig == 0 )\n{\nprint(\"Moving fiber to test position\");\nFiberMove.position = parameters.fiberTestPosition;\nFiberMove.velocity = 3000;\nsendCommand(FiberMove);\nmSleep(2000);\n}\n// start fiber back and forth\nif ( parameters.fiberMoveDuringTest && SystemDefineSetup.efieldConfig == 0 )\n{\n// wait until fiber is stopped\nprint(\"Waiting for fiber to reach test position\");\nfiberLastPosition = -1;\nwhile ( fiberLastPosition != FiberTelemetry.fiberPosition)\n{\nfiberLastPosition = FiberTelemetry.fiberPosition;\nmSleep(2000);\ncheckExtinctionDetected( flowStartTime, parameters.flowTimeoutSec,\nparameters.extinctionDetectionStopsTest );\ncheckCriticalTemperature( parameters.useCenterThermocouple,\nparameters.useOffsetThermocouple, parameters.useCenterFluxThermocouple,\nparameters.useOffsetFluxThermocouple, criticalTemperatureLimitV );\n}\nprint(\"Starting fiber movement\");\n// Moves from test position toward burner first, then back\nFiberRampedWaveMove.segmentDistanceA = parameters.fiberSegmentDistance;\nFiberRampedWaveMove.segmentDistanceB = -1 * parameters.fiberSegmentDistance;\nFiberRampedWaveMove.velocityA = parameters.fiberVelocity;\nFiberRampedWaveMove.velocityB = parameters.fiberVelocity;\nFiberRampedWaveMove.accelerationA = parameters.fiberAcceleration;\nFiberRampedWaveMove.accelerationB = parameters.fiberAcceleration;\nFiberRampedWaveMove.decelerationA = parameters.fiberDeceleration;\nFiberRampedWaveMove.decelerationB = parameters.fiberDeceleration;\nFiberRampedWaveMove.holdDurationA = parameters.fiberHoldDurationSec;\n27",
+      "location": {
+        "page": 27
+      }
+    },
+    {
+      "type": "text",
+      "id": "b28",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nFiberRampedWaveMove.holdDurationB = parameters.fiberHoldDurationSec;\nFiberRampedWaveMove.cycles = parameters.fiberCycles;\nsendCommand(FiberRampedWaveMove);\n}\nprint(\"Watching for temperature limit \" + parameters.temperatureLimitC + \" C\");\nprint(\"Waiting constant flow time \" + parameters.constantFlowTimeSec + \" sec\");\nif ( parameters.constantFlowTimeSec > 0 )\n{\nexceededTemperatureLimit = false;\nvar startTime = new Date().getTime();\nwhile (( updateDurationRemaining(startTime, parameters.constantFlowTimeSec) > 0 )\n&& !exceededTemperatureLimit )\n{\ncheckExtinctionDetected( flowStartTime, parameters.flowTimeoutSec,\nparameters.extinctionDetectionStopsTest );\ncheckCriticalTemperature( parameters.useCenterThermocouple,\nparameters.useOffsetThermocouple, parameters.useCenterFluxThermocouple,\nparameters.useOffsetFluxThermocouple, criticalTemperatureLimitV );\nif (( parameters.useCenterThermocouple && (DiagnosticTelemetry.tcA > temperatureLimitV))\n|| ( parameters.useOffsetThermocouple && (DiagnosticTelemetry.tcB > temperatureLimitV))\n|| ( parameters.useCenterFluxThermocouple && (DiagnosticTelemetry.tcC >\ntemperatureLimitV))\n|| ( parameters.useOffsetFluxThermocouple && (DiagnosticTelemetry.tcD >\ntemperatureLimitV)))\n{\n// End constant flow time early if any burner TCs is greater than temperatureLimitC\nconverted to volts\nprint(\"Temperature exceeded limit. Ending constant flow time early.\");\nexceededTemperatureLimit = true;\n}\nmSleep(1000);\n}\n}\nif ( parameters.numberOfRampHolds > 0)\n{\n// perform the ramp holds\nif ( parameters.rampDurationSec == 0)\n{ FlowRamped.rampDurationSec = 0.1; }\nelse { FlowRamped.rampDurationSec = parameters.rampDurationSec; }\nFlowRamped.holdDurationSec = parameters.holdDurationSec;\nFlowRamped.MFCA1MinimumFlowSlm = 0;\nFlowRamped.MFCA1MaximumFlowSlm = 0;\n28",
+      "location": {
+        "page": 28
+      }
+    },
+    {
+      "type": "text",
+      "id": "b29",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nFlowRamped.MFCA1RampRateSlmPerSec = 0;\nvar nitrogenRampSizeSlpm = parameters.nitrogenTestFlowRateN2Slpm *\nparameters.rampSizePercent / 100;\nFlowRamped.MFCA2MinimumFlowSlm = ( nitrogenRampSizeSlpm >= 0 ) ?\nparameters.nitrogenTestFlowRateN2Slpm : parameters.nitrogenTestFlowRateN2Slpm +\nparameters.numberOfRampHolds * nitrogenRampSizeSlpm - 1e-6;\nFlowRamped.MFCA2MaximumFlowSlm = ( nitrogenRampSizeSlpm >= 0 ) ?\nparameters.nitrogenTestFlowRateN2Slpm + parameters.numberOfRampHolds * nitrogenRampSizeSlpm\n+ 1e-6 : parameters.nitrogenTestFlowRateN2Slpm;\nFlowRamped.MFCA2RampRateSlmPerSec = nitrogenRampSizeSlpm /\nFlowRamped.rampDurationSec;\nvar fuelRampSizeSlpm = parameters.fuelBottleTestFlowRateN2Slpm *\nparameters.rampSizePercent / 100;\nFlowRamped.MFCA3MinimumFlowSlm = ( fuelRampSizeSlpm >= 0 ) ?\nparameters.fuelBottleTestFlowRateN2Slpm : parameters.fuelBottleTestFlowRateN2Slpm +\nparameters.numberOfRampHolds * fuelRampSizeSlpm - 1e-6;\nFlowRamped.MFCA3MaximumFlowSlm = ( fuelRampSizeSlpm >= 0 ) ?\nparameters.fuelBottleTestFlowRateN2Slpm + parameters.numberOfRampHolds * fuelRampSizeSlpm +\n1e-6 : parameters.fuelBottleTestFlowRateN2Slpm;\nFlowRamped.MFCA3RampRateSlmPerSec = fuelRampSizeSlpm / FlowRamped.rampDurationSec;\nprint(\"Starting ramp holds\");\nsendCommand(FlowRamped);\n// Wait for flow waveform to go back to None\nvar startTime = new Date().getTime();\nsecsRemaining = parameters.flowTimeoutSec - Math.floor((startTime - flowStartTime) / 1000);\nprint(\"Waiting for end of ramp holds or flow timeout in \" + secsRemaining + \" sec\");\nvar waveformStarted = false;\nvar waveformEnded = false;\nwhile ((updateDurationRemaining(startTime, secsRemaining) > 0) && (waveformEnded != true))\n{\ncheckExtinctionDetected(flowStartTime, parameters.flowTimeoutSec,\nparameters.extinctionDetectionStopsTest);\ncheckCriticalTemperature( parameters.useCenterThermocouple,\nparameters.useOffsetThermocouple, parameters.useCenterFluxThermocouple,\nparameters.useOffsetFluxThermocouple, criticalTemperatureLimitV );\nmSleep(1000);\n// wait for waveform state to start then wait for it to end\nif ( waveformStarted == false )\n{\n29",
+      "location": {
+        "page": 29
+      }
+    },
+    {
+      "type": "text",
+      "id": "b30",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nif ((FlowTelemetry.MFCA3FuelWaveform != 0 ) || (FlowTelemetry.MFCA2BypassWaveform !=\n0))\n{ waveformStarted = true; }\n}\nelse if (( FlowTelemetry.MFCA3FuelWaveform == 0) &&\n(FlowTelemetry.MFCA2BypassWaveform == 0))\n{ waveformEnded = true; }\n}\n// ramped command doesn't include a final hold\nprint(\"Waiting final hold duration \" + parameters.holdDurationSec + \" sec\");\nif ( parameters.holdDurationSec > 0 )\n{\nvar startTime = new Date().getTime();\nwhile ( updateDurationRemaining(startTime, parameters.holdDurationSec) > 0 )\n{\ncheckExtinctionDetected( flowStartTime, parameters.flowTimeoutSec,\nparameters.extinctionDetectionStopsTest );\ncheckCriticalTemperature( parameters.useCenterThermocouple,\nparameters.useOffsetThermocouple, parameters.useCenterFluxThermocouple,\nparameters.useOffsetFluxThermocouple, criticalTemperatureLimitV );\nmSleep(1000);\n}\n}\n}\nif ( parameters.useIgnitionDetection)\n{\n// disable ignition detection\nIgnitionDetectionSetState.state = 0;\nsendCommand(IgnitionDetectionSetState);\n}\n// Disable extinction detection\nExtinctionDetectionSetState.state = 0;\nsendCommand(ExtinctionDetectionSetState);\nprint(\"Turning off gas flow\");\nsendCommand(FlowCloseAll);\nif ( parameters.useFoma )\n{\n// this does not wait for complete\ncloseManifolds();\n}\n// Post-flame imaging\nif ( ipsusStarted )\n30",
+      "location": {
+        "page": 30
+      }
+    },
+    {
+      "type": "text",
+      "id": "b31",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\n{\nprint(\"Waiting post-flame imaging duration of \" + parameters.postFlameImagingTimeSec + \"\nsec\");\nvar startTime = new Date().getTime();\nwhile ( updateDurationRemaining(startTime, parameters.postFlameImagingTimeSec) > 0 )\n{\nmSleep(1000);\n}\nprint(\"Stopping IPSU(s)\");\nsendCommand(StopIpsus);\n}\nsendCommand(FiberHaltMove);\nmSleep(2000);\n// Post-flame data\nprint(\"Waiting post-flame data duration of \" + parameters.postFlameDataTimeSec + \" sec\");\nvar startTime = new Date().getTime();\nwhile ( updateDurationRemaining(startTime, parameters.postFlameDataTimeSec) > 0 )\n{\nmSleep(1000);\n}\nsendCommand(SystemCloseTestPoint);\nprint(\"Homing fiber\");\nFiberMove.position=0;\nFiberMove.velocity=3000;\nsendCommand(FiberMove);\n// Put intensified camera back in safe mode\nprint(\"Intensified camera to safe mode\");\nIntensifiedCameraGate.gateType = 0;\nIntensifiedCameraGate.pulsedGateWidthCounts = 0;\nsendCommand(IntensifiedCameraGate);\nmSleep(500);\nIntensifiedCameraGainAmplitude.gainAmplitudeCounts = 2048;\nsendCommand(IntensifiedCameraGainAmplitude);\nif ( parameters.useBracketedExposures )\n{\n// Turn off bracketed exposures\nDataCameraExposureBracketing.enable = false;\nsendCommand(DataCameraExposureBracketing);\n}\nprint(\"Setting PMT gains to zero\");\n31",
+      "location": {
+        "page": 31
+      }
+    },
+    {
+      "type": "text",
+      "id": "b32",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nPmtSetAllGains.PMT1Gain = 0;\nPmtSetAllGains.PMT2Gain = 0;\nPmtSetAllGains.PMT3Gain = 0;\nsendCommand(PmtSetAllGains);\nif ( parameters.useFoma )\n{\n// report final MFC gas usage\nreportMfcIntegratedFlow(false);\n}\nprint(\"BRE test point \" + parameters.testpointName + \" COMPLETE\");\nsetScriptStateComplete();\n}\ncatch(error)\n{\nprint(\"BRE test point \" + parameters.testpointName + \" ABORTED. Reason: \" + error);\nsetScriptStateAborted();\nif ( parameters.useIgnitionDetection)\n{\n// disable ignition detection\nIgnitionDetectionSetState.state = 0;\nsendCommand(IgnitionDetectionSetState);\n}\n// disable extinction detection and any action that may result\nExtinctionDetectionSetState.state = 0;\nsendCommand(ExtinctionDetectionSetState);\nprint(\"Turning off gas flow\");\n// close ACME valves\nsendCommand(FlowCloseAll);\nsendCommand(FiberHaltMove);\nmSleep(1000);\n// close CIR valves\nif ( cirManifoldsOpen )\n{\n// this does not wait for complete\ncloseManifolds();\n}\nif ((error == \"EXTINCTION DETECTED\") || (error == \"Flow timeout reached\"))\n{\n32",
+      "location": {
+        "page": 32
+      }
+    },
+    {
+      "type": "text",
+      "id": "b33",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\n// Still do post-flame imaging\nif ( ipsusStarted )\n{\nprint(\"Waiting post-flame imaging duration of \" + parameters.postFlameImagingTimeSec + \"\nsec\");\nvar startTime = new Date().getTime();\nwhile ( updateDurationRemaining(startTime, parameters.postFlameImagingTimeSec) > 0 )\n{\nmSleep(1000);\n}\nprint(\"Stopping IPSU(s)\");\nsendCommand(StopIpsus);\n}\n// Still do post-flame data\nprint(\"Waiting post-flame data duration of \" + parameters.postFlameDataTimeSec + \" sec\");\nvar startTime = new Date().getTime();\nwhile ( updateDurationRemaining(startTime, parameters.postFlameDataTimeSec) > 0 )\n{\nmSleep(1000);\n}\nsendCommand(SystemCloseTestPoint);\n}\nelse\n{\nprint(\"Stopping data and image collection\");\n// stop data collection\nsendCommand(SystemCloseTestPoint);\n// stop IPSUs from archiving images\nif ( ipsusStarted )\n{\nsendCommand(StopIpsus);\n}\n}\n// home the igniter\nprint(\"Homing igniter\");\nIgniterMove.position = 0;\nsendCommand(IgniterMove);\n// home the fiber\nprint(\"Homing fiber\");\nFiberMove.position=0;\nFiberMove.velocity=3000;\n33",
+      "location": {
+        "page": 33
+      }
+    },
+    {
+      "type": "text",
+      "id": "b34",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nsendCommand(FiberMove);\n// Put intensified camera back in safe mode\nprint(\"Intensified camera to safe mode\");\nIntensifiedCameraGate.gateType = 0;\nIntensifiedCameraGate.pulsedGateWidthCounts = 0;\nsendCommand(IntensifiedCameraGate);\nmSleep(500);\nIntensifiedCameraGainAmplitude.gainAmplitudeCounts = 2048;\nsendCommand(IntensifiedCameraGainAmplitude);\nif ( parameters.useBracketedExposures )\n{\n// Turn off bracketed exposures\nDataCameraExposureBracketing.enable = false;\nsendCommand(DataCameraExposureBracketing);\n}\nprint(\"Setting PMT gains to zero\");\nPmtSetAllGains.PMT1Gain = 0;\nPmtSetAllGains.PMT2Gain = 0;\nPmtSetAllGains.PMT3Gain = 0;\nsendCommand(PmtSetAllGains);\nif ( parameters.useFoma )\n{\n// report final MFC gas usage\nreportMfcIntegratedFlow(false);\n}\nprint(\"BRE test point \" + parameters.testpointName + \" complete after abort\");\n}\n}\nfunction checkExtinctionDetected(flowStartTime, timeoutSec, abortTest)\n{\n// if abortTest is true this throws a message if extinction is detected\n// or if the timeout has been exceeded\n// if abortTest is false this returns 2 if extinction is detected, 0 if extinction\n// is disabled, 3 if a timeout has been exceeded, and 1 if none of these is true.\nvar currentTime = new Date().getTime();\nvar timedOut = false;\nvar detected = false;\nvar disabled = false;\nif((currentTime - flowStartTime) >= (timeoutSec * 1000))\n34",
+      "location": {
+        "page": 34
+      }
+    },
+    {
+      "type": "text",
+      "id": "b35",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\n{\ntimedOut = true;\n}\nif ( ExtinctionDetectionTelemetry.extinctionDetectionState == 2)\n{\ndetected = true;\n}\nif ( ExtinctionDetectionTelemetry.extinctionDetectionState == 0)\n{\ndisabled = true;\n}\nif (abortTest==true)\n{\nif (timedOut==true)\n{ throw \"Flow timeout reached\"; }\nif (detected==true)\n{ throw \"EXTINCTION DETECTED\"; }\n}\nif ( detected == true)\n{ return 2;}\nelse if ( timedOut == true )\n{ return 3;}\nelse if ( disabled == true )\n{ return 0; }\nelse\n{ return 1; }\n}\nfunction checkCriticalTemperature(useCenterThermocouple, useOffsetThermocouple,\nuseCenterFluxThermocouple,\nuseOffsetFluxThermocouple, criticalTemperatureLimitV)\n{\nif ( useCenterThermocouple)\n{\nif ( DiagnosticTelemetry.tcA > criticalTemperatureLimitV)\n{\nthrow \"Critical temperature exceeded on center thermocouple\";\n}\n}\nif ( useOffsetThermocouple)\n{\nif ( DiagnosticTelemetry.tcB > criticalTemperatureLimitV)\n35",
+      "location": {
+        "page": 35
+      }
+    },
+    {
+      "type": "text",
+      "id": "b36",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\n{\nthrow \"Critical temperature exceeded on offset thermocouple\";\n}\n}\nif ( useCenterFluxThermocouple)\n{\nif ( DiagnosticTelemetry.tcC > criticalTemperatureLimitV)\n{\nthrow \"Critical temperature exceeded on center flux thermocouple\";\n}\n}\nif ( useOffsetFluxThermocouple)\n{\nif ( DiagnosticTelemetry.tcD > criticalTemperatureLimitV)\n{\nthrow \"Critical temperature exceeded on offset flux thermocouple\";\n}\n}\n}\nfunction updateDurationRemaining(startTime, startDurationSecs)\n{\nvar currentTime = new Date().getTime();\nelapsedSecs = Math.floor((currentTime - startTime) / 1000);\nSystemTelemetry.scriptDurationRemaining = startDurationSecs - elapsedSecs;\nreturn SystemTelemetry.scriptDurationRemaining;\n}\nfunction sendStartIpsusCommand()\n{\n// Start the sequence of commands sent to IPSU(s) to open a test point\n// and start archiving images\nStartIpsus.testpointName = parameters.testpointName;\nStartIpsus.ipsu5NumberCameras = 0;\nif ( parameters.useAcmeCamera == true )\n{\nStartIpsus.ipsu5NumberCameras = 1;\nStartIpsus.ipsu5Camera1 = 3;\nif ( parameters.useIntensifiedCamera == true )\n{\nStartIpsus.ipsu5NumberCameras = 2;\nStartIpsus.ipsu5Camera2 = 4;\n}\n}\nelse if ( parameters.useIntensifiedCamera == true )\n{\nStartIpsus.ipsu5NumberCameras = 1;\n36",
+      "location": {
+        "page": 36
+      }
+    },
+    {
+      "type": "text",
+      "id": "b37",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nStartIpsus.ipsu5Camera1 = 4;\n}\nsendCommand(StartIpsus);\n}\n4. Test Matrices\nFor all ACME experiments, including BRE, the test planning was refined in multiple steps as described in\nthis section. Despite refinement, the experiments were always expected to address the science objectives\napproved in the ACME ISRD.\nA. Test Matrices: Years in Advance\nThe test matrices found in section 5 of the ACME Integrated Science Requirements Document\n(ISRD, RDR version, Rev. B) were the basis for planning the equipment and resources, such as gas\nbottles, needed to carry out each of the NASA-selected ACME experiments. For BRE, the test\nmatrices are found in section 5.5. The investigators were each directed to define matrices with\nrequired testing which included at most one burner configuration and no more than nominally 50\nflames ignited. Regarding these constraints specified by Project Scientist Dennis Stocker, the\nintent was to conduct focused rather than comprehensive research given the considerable\nresources required for testing on the International Space Station. Meanwhile, there were no\nlimits put on desired or highly desired tests because of NASA’s plan to only carry out tests\ndesignated as required.\nNASA Glenn’s ISS Control Board later decided to limit ACME testing to nominally 4 months of ISS\ntesting per experiment which with preparatory operations, minor delays, repeat testing due to\nscience loss, etc. were expected to typically occur in a total of 5 months. This decision was made\nwith the expectation that the required testing, e.g., as specified in the ISRD, could at least mostly\nbe accomplished in that time period assuming the availability of crew and other needed\nresources.\nAs part of his planning, Stocker instigated an alternating sequence of experiment testing, wherein\ninvestigators would get a break in their testing in order to analyze early results in depth and with\nthat knowledge achieve higher science outcomes in their second round of testing. As a result,\neach experiment was expected to get 2 months of testing per round, which meant nominally 8\ntest days per round of testing. Within that time constraint and available resources, experiments\nwere ultimately permitted to plan for and conduct more tests than had been specified as required\nin the ISRD, despite the initial planning which ignored desired and highly desired testing.\nB. Test Matrices: Months in Advance\nAt least a few months in advance of testing, ACME investigators were directed to submit a refined\ntest matrix for the upcoming round corresponding to available hardware, gas bottles, and the\nagreed number of test days. The refinement could be based on what is learned from\nexperimental, analytical, or computational efforts which followed the 2013 ISRD. Generally, this\nplanning was done in detail comparable to that found in the ISRD, with the important exception\nthat it had to furthermore establish the required hardware, including the specific mass flow\n37",
+      "location": {
+        "page": 37
+      }
+    },
+    {
+      "type": "text",
+      "id": "b38",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\ncontrollers (and thus specification of the flow ranges) and gas bottles so that overall experiment\noperations, including crew activity, could be adequately planned. In this regard, it had to establish\ngeneral operational plans for the chamber atmosphere on each day of testing including filling,\nscrubbing (via circulation through the adsorber cartridge), venting (whether partial or complete),\nand measurements, if any, with the Gas Chromatograph Instrumentation Package (GCIP).\nC. Test Matrices: Days in Advance\nSoon after BRE’s start, the investigators were required to submit their test parameters for all\nplanned tests by noon Eastern at least three business days in advance of each scheduled test day.\nThose submissions included all of the test parameters within the script and additional ones\noutside of the script. Most of the latter dealt with the camera settings which don’t change during\na test, for example the filters used with the ACME Data Camera (DataCam) and the Cool Flames\nInvestigation (CFI) intensified camera. Outside of the script, the investigators were again required\nto specify the chamber atmosphere(s) and when GCIP measurements, if any, are planned. It was\nexpected that those correspond to the plan submitted months earlier, but some allowances were\nmade for changes. The script parameters, e.g., specifications of flow rates, didn’t need to\ncorrespond to those previously specified, but they normally had to correspond to the hardware\nand gas bottles planned months earlier and generally the chamber atmospheres as well by\nextension.\nNon-script parameters specified in advance for BRE are listed here.\nchamber fill pressure (psia)\nchamber fill O2%\nchamber fill N2%\nGC Sample (Before, After or No)\nGC Sample Method (O2, Byproducts or Both)\nRecirculation (After or No)\nuse HiBMS Camera?\nHiBMS Exposure (ms)\nHiBMS Illumination (backlight)\nHiBMS Gain (V)\nHiBMS Binning\ndataCamera Gain\ndataCamera Zoom\ndataCamera Focus\ndataCamera Iris\ndataCamera Filter\nIntensified Camera Frame Rate\nAnalog Camera Gain\nD. Test Matrices: As-Run\nWithin constraints, the ACME tests conducted could use different parameter values than those\nspecified in advance. While the planning is critically important, the plans themselves are not\nparticularly useful for interpreting the data. This is because most tests were conducted with\nparameter values that differed in at least a few ways from those planned days earlier.\nWhile it may seem obvious and simple enough to focus attention on the as-run parameter values\n38",
+      "location": {
+        "page": 38
+      }
+    },
+    {
+      "type": "text",
+      "id": "b39",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\n(where an example BRE file name is as run21028G5.txt), that is unfortunately not the case for\nACME because the as-run values were not always completely recorded, despite the\nimplementation of automated recording. The most assured way to get the as-run parameter\nvalues is presumably from the test day’s automated ACME log file(s), where an example name is\n2021-01-28_12-28_ACME.log.\n5. Nomenclature\nACME Advanced Combustion via Microgravity Experiments (project conducted in the CIR)\nADP Acceptance Data Package\nAVP avionics package\nBRE Burning Rate Emulator (an ACME experiment)\nCASIS Center for the Advancement of Science in Space\nCCD Charge-Coupled Device (such as a camera sensor)\nCIA Chamber Insert Assembly (inserted into the CIR combustion chamber)\nCIR Combustion Integrated Rack (ISS facility in which ACME experiments are conducted)\nCFI Cool Flames Investigation (an MDCA experiment preceding ACME in the CIR)\nCFI-G Cool Flames Investigation with Gases (an ACME experiment selected by CASIS and NSF)\nCLD Flame Coflow Laminar Diffusion Flame (an ACME experiments)\nCM Combustion Module (space shuttle precursor to the CIR)\nCSV comma-separated values\nDataCam Data Camera (developed for the ACME experiments, characterized for pyrometry, etc.)\nE-FIELD Flames Electric-Field Effects on Laminar Diffusion Flames (an ACME experiment)\nEMI electromagnetic interference\nEMS Experiment Mounting Structure\nERD Engineering Requirements Document\nFiji Fiji Is Just ImageJ (a version of ImageJ preloaded with many plug-in features)\nFlame Design an ACME experiment\nFOMA Fuel Oxidizer Management Assembly (CIR’s gas management subsystem)\nFOV field of view\nfps frames per second\nGC Gas Chromatograph\nGCIP Gas Chromatograph Instrumentation Package (a CIR subsystem)\nGIPOC Glenn ISS Payload Operations Center (also known as the TSC)\nGMT Greenwich Mean Time\nHiBMs High Bit-depth Multi-spectral camera (developed for the CIR facility)\nHOBJ Halcon object (binary uncompressed format; used for the DataCam)\nHV high voltage\nImageJ Image Processing and Analysis in Java (open-source image processing software)\nIPSU Image Processing and Storage Unit (a CIR subsystem)\nIPSU-G IPSU for Gigabit ethernet cameras\nISRD Integrated Science Requirements Document (for a set of experiments)\nISS International Space Station\njs JavaScript\nLLL-UV Low Light Level Ultraviolet camera ((developed for the CIR facility)\nLSP Laminar Soot Processes (a shuttle experiment conducted in the Combustion Module)\nMDCA Multi-user Droplet Combustion Apparatus (CIR chamber insert preceding ACME)\n39",
+      "location": {
+        "page": 39
+      }
+    },
+    {
+      "type": "text",
+      "id": "b40",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "ACME/BRE Experimental Procedure 20 May 2022\nMFC mass flow controller\nMist Water-Mist Fire Suppression Experiment (a Combustion Module experiment)\nMIUL Materials Identification/Usage List\nms millisecond\nNSF National Science Foundation\nNTSC National Television System Committee\nOMA2 Optical Multi-channel Analyzer 2 (open-source software for image processing and display)\nops operations\nPaRIS Passive Rack Isolation System\nPIMS Principal Investigator Microgravity Services\nPMT Photomultiplier Tube (where ACME is equipped with three PMT modules)\nPSI Physical Sciences Informatics System\nPT pressure transducer\npsia pounds per square inch\nQD quick disconnect\nRDR Requirements Definition Review\ns-Flame Structure and Response of Spherical Diffusion Flames (an ACME experiment)\nSAMS Space Acceleration Measurement System\nSDP Safety Data Package\nslpm standard liters per minute (a measure of the mass or molar flow rate of a gas)\nSOFBALL Structure Of Flame Balls At Low Lewis-number (a Combustion Module experiment)\nSoFIE Solid Fuel Ignition and Extinction (project to be conducted in the CIR after ACME)\nSORD Science Operations Requirements Document\nSRD Science Requirements Document\nTFP Thin-Filament Pyrometry (a technique for making gas-phase temperature measurements)\nTIFF or TIF Tagged Image File Format (used for the CFI intensified, HiBMs, and LLL-UV cameras)\nTM thermistor\nTS Transport Stream (a video format)\nTSC Telescience Support Center (also known as the GIPOC)\nV volt\n40",
+      "location": {
+        "page": 40
+      }
+    }
+  ]
+}

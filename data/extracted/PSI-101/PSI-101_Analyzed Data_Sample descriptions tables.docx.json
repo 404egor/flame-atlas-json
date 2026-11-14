@@ -1,0 +1,1393 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-101",
+  "format": "docx",
+  "source": {
+    "fileName": "PSI-101_Analyzed Data_Sample descriptions tables.docx",
+    "folder": "Analyzed Data",
+    "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 054",
+    "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_Sample descriptions tables.docx",
+    "version": 1,
+    "sizeBytes": 28571083,
+    "sha256": "715cd2c4560799a0fcb9d9c824d1f56761414e3264da191c4e379021235b24bd",
+    "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/Cotton Lamp wick/Run 054/PSI-101_Analyzed Data_Sample descriptions tables.docx",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101"
+  },
+  "extractor": {
+    "name": "docx",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:25:52+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 1,
+    "tableRows": 70,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "table",
+      "id": "b1",
+      "name": "Table 1",
+      "confidence": "high",
+      "location": {
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Precipitator",
+        "Run",
+        "Sample",
+        "Aged?",
+        "Date TEM",
+        "Description",
+        "Rt/R0",
+        "Morphology",
+        "Image 1",
+        "Image 2",
+        "M0 Best Diameter",
+        "M1/M0 (m) AMD",
+        "Diameter of Average Mass (m)",
+        "Hatch Choate sigma-g"
+      ],
+      "rowCount": 70,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Precipitator": "1",
+            "Run": "#48",
+            "Sample": "Silicone",
+            "Aged?": "Aged",
+            "Date TEM": "8/24",
+            "Description": "Low Temp",
+            "Rt/R0": "1.304",
+            "Morphology": "No particles noted. No images",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "2,523,939",
+            "M1/M0 (m) AMD": "0.244",
+            "Diameter of Average Mass (m)": "0.450",
+            "Hatch Choate sigma-g": "2.188"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Precipitator": "1",
+            "Run": "#49",
+            "Sample": "Lampwick",
+            "Aged?": "Unaged",
+            "Date TEM": "8/24",
+            "Description": "Baseline High RT/RO",
+            "Rt/R0": "1.251",
+            "Morphology": "No aerosol particles noted – debris and random particles present .Particles <50nm in diameter visible at higher magnifications.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "2,819,891",
+            "M1/M0 (m) AMD": "0.149",
+            "Diameter of Average Mass (m)": "0.286",
+            "Hatch Choate sigma-g": "2.239"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Precipitator": "1",
+            "Run": "#50",
+            "Sample": "Teflon",
+            "Aged?": "Unaged",
+            "Date TEM": "9/1",
+            "Description": "Baseline High RT/RO",
+            "Rt/R0": "1.452",
+            "Morphology": "No aerosol particles noted – debris and random particles present; denser particles exhibit a primary particle size of <200nm.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "3,654,789",
+            "M1/M0 (m) AMD": "65.14",
+            "Diameter of Average Mass (m)": "0.148",
+            "Hatch Choate sigma-g": "2.079"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Precipitator": "1",
+            "Run": "#51",
+            "Sample": "Kapton",
+            "Aged?": "?",
+            "Date TEM": "8/31",
+            "Description": "Baseline new formula",
+            "Rt/R0": "1.380",
+            "Morphology": "No particles noted – small population of chained particles similar to Teflon; primary particles in chains measure ~40-150nm.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,825,597",
+            "M1/M0 (m) AMD": "0.056",
+            "Diameter of Average Mass (m)": "0.097",
+            "Hatch Choate sigma-g": "2.091"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Precipitator": "1",
+            "Run": "#52",
+            "Sample": "Pyrell",
+            "Aged?": "n/a",
+            "Date TEM": "9/12",
+            "Description": "Baseline",
+            "Rt/R0": "1.220",
+            "Morphology": "No significant number of particles noted. Images exhibit a few particles downstream. Not enough to",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "3,110,971",
+            "M1/M0 (m) AMD": "0.208",
+            "Diameter of Average Mass (m)": "0.405",
+            "Hatch Choate sigma-g": "2.262"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Precipitator": "1",
+            "Run": "#53",
+            "Sample": "Silicone",
+            "Aged?": "Unaged",
+            "Date TEM": "2/22",
+            "Description": "High Temp",
+            "Rt/R0": "1.350",
+            "Morphology": "No significant  particles noted – some debris particles present plus the presence of background particles <50nm in diameter.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "3,889,059",
+            "M1/M0 (m) AMD": "0.250",
+            "Diameter of Average Mass (m)": "0.547",
+            "Hatch Choate sigma-g": "2.422"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Precipitator": "1",
+            "Run": "#67",
+            "Sample": "Silicone",
+            "Aged?": "Aged",
+            "Date TEM": "2/22",
+            "Description": "High temp aged STS det",
+            "Rt/R0": "1.350",
+            "Morphology": "Few particles noted – downstream – many noted upstream; ubiquitous particles <50nm noted.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,352,021",
+            "M1/M0 (m) AMD": "0.385",
+            "Diameter of Average Mass (m)": "0.668",
+            "Hatch Choate sigma-g": "2.100"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Precipitator": "1",
+            "Run": "#68",
+            "Sample": "Lampwick",
+            "Aged?": "Aged",
+            "Date TEM": "9/12",
+            "Description": "High temp aged STS det",
+            "Rt/R0": "1.280",
+            "Morphology": "No particles noted – exhibits small population of debris and  chained particles similar to Teflon.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,251,719",
+            "M1/M0 (m) AMD": "0.230",
+            "Diameter of Average Mass (m)": "0.377",
+            "Hatch Choate sigma-g": "2.020"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Precipitator": "1",
+            "Run": "#69",
+            "Sample": "Teflon",
+            "Aged?": "Aged",
+            "Date TEM": "2/22",
+            "Description": "High temp aged STS det",
+            "Rt/R0": "1.450",
+            "Morphology": "Very few particles noted – some debris particles present.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "840,336",
+            "M1/M0 (m) AMD": "0.446",
+            "Diameter of Average Mass (m)": "0.0",
+            "Hatch Choate sigma-g": ""
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Precipitator": "1",
+            "Run": "#70",
+            "Sample": "Kapton",
+            "Aged?": "Aged",
+            "Date TEM": "9/13",
+            "Description": "High temp aged STS det",
+            "Rt/R0": "1.480",
+            "Morphology": "No significant number of particles noted – small population of debris and chained clusters.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,112,405",
+            "M1/M0 (m) AMD": "0.161",
+            "Diameter of Average Mass (m)": "0.208",
+            "Hatch Choate sigma-g": "1.660"
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Precipitator": "1",
+            "Run": "#71",
+            "Sample": "Pyrell",
+            "Aged?": "Aged",
+            "Date TEM": "2/22",
+            "Description": "High temp aged STS det",
+            "Rt/R0": "1.230",
+            "Morphology": "No significant particles – some debris.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,352,317",
+            "M1/M0 (m) AMD": "0.321",
+            "Diameter of Average Mass (m)": "0.434",
+            "Hatch Choate sigma-g": "1.731"
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "Precipitator": "1",
+            "Run": "#72",
+            "Sample": "Silicone",
+            "Aged?": "Unaged",
+            "Date TEM": "2/22",
+            "Description": "Baseline STS det",
+            "Rt/R0": "1.327",
+            "Morphology": "No significant particles – some debris",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "2,987,870",
+            "M1/M0 (m) AMD": "0.182",
+            "Diameter of Average Mass (m)": "0.419",
+            "Hatch Choate sigma-g": "2.491"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Precipitator": "2",
+            "Run": "#54",
+            "Sample": "Lampwick",
+            "Aged?": "Unaged",
+            "Date TEM": "9/16\n& 4/23",
+            "Description": "High RT/RO",
+            "Rt/R0": "1.260",
+            "Morphology": "Particle deposition starts upstream at grid opening y-3. Particles are large, spherical and usually occur singly; particles range in size from 200-1400nm.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "3,197,762",
+            "M1/M0 (m) AMD": "0.110",
+            "Diameter of Average Mass (m)": "0.253",
+            "Hatch Choate sigma-g": "2.493"
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "Precipitator": "2",
+            "Run": "#55",
+            "Sample": "Lampwick",
+            "Aged?": "?",
+            "Date TEM": "9/28",
+            "Description": "High RT/RO test aging",
+            "Rt/R0": "1.253",
+            "Morphology": "Possibly a bit small smaller than #54; ranging ~240-1200nm (adjacent areas taken for image analysis).",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "3,373,889",
+            "M1/M0 (m) AMD": "0.116",
+            "Diameter of Average Mass (m)": "0.275",
+            "Hatch Choate sigma-g": "2.528"
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "Precipitator": "2",
+            "Run": "#56",
+            "Sample": "Teflon",
+            "Aged?": "Unaged",
+            "Date TEM": "9/21",
+            "Description": "Baseline",
+            "Rt/R0": "1.445",
+            "Morphology": "Particle deposition – upstream at y-3; dense primary particles <50-200nm in diameter . Density differences could be due to age or the fact that Teflon is electron beam sensitive.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "3,037,044",
+            "M1/M0 (m) AMD": "0.132",
+            "Diameter of Average Mass (m)": "0.185",
+            "Hatch Choate sigma-g": "1.786"
+          }
+        },
+        {
+          "sourceRow": 16,
+          "raw": {
+            "Precipitator": "2",
+            "Run": "#58",
+            "Sample": "Teflon",
+            "Aged?": "Aged",
+            "Date TEM": "9/21",
+            "Description": "Baseline aging",
+            "Rt/R0": "1.445",
+            "Morphology": "Extremely few particles observed; faint chained clusters noted.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "2,105,295",
+            "M1/M0 (m) AMD": "0.053",
+            "Diameter of Average Mass (m)": "0.149",
+            "Hatch Choate sigma-g": "2.764"
+          }
+        },
+        {
+          "sourceRow": 17,
+          "raw": {
+            "Precipitator": "2",
+            "Run": "#58",
+            "Sample": "Teflon",
+            "Aged?": "Aged",
+            "Date TEM": "2/17",
+            "Description": "Baseline aging",
+            "Rt/R0": "",
+            "Morphology": "Few particles observed – Teflon aggregates are very faint, not dense.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "557,920",
+            "M1/M0 (m) AMD": "0.105",
+            "Diameter of Average Mass (m)": "0.232",
+            "Hatch Choate sigma-g": "2.442"
+          }
+        },
+        {
+          "sourceRow": 18,
+          "raw": {
+            "Precipitator": "2",
+            "Run": "#60",
+            "Sample": "Silicone",
+            "Aged?": "",
+            "Date TEM": "9/28 & 4/23",
+            "Description": "H Temp aging",
+            "Rt/R0": "1.350",
+            "Morphology": "Particles noted on second observation. Small and faint.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "4,278,213",
+            "M1/M0 (m) AMD": "0.241",
+            "Diameter of Average Mass (m)": "0.533",
+            "Hatch Choate sigma-g": "2.440"
+          }
+        },
+        {
+          "sourceRow": 19,
+          "raw": {
+            "Precipitator": "2",
+            "Run": "#62",
+            "Sample": "Kapton",
+            "Aged?": "Unaged",
+            "Date TEM": "9/16",
+            "Description": "",
+            "Rt/R0": "1.480",
+            "Morphology": "Particle deposition – upstream at y-3; particles generally range in size ~90-430nm. Much smaller size than Lampwick.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "5,850,382",
+            "M1/M0 (m) AMD": "0.148",
+            "Diameter of Average Mass (m)": "0.251",
+            "Hatch Choate sigma-g": "20.66"
+          }
+        },
+        {
+          "sourceRow": 20,
+          "raw": {
+            "Precipitator": "2",
+            "Run": "#62",
+            "Sample": "Kapton",
+            "Aged?": "Aged",
+            "Date TEM": "2/17",
+            "Description": "High Temp aging",
+            "Rt/R0": "",
+            "Morphology": "Particle deposition upstream at y-4; spherical particles, most less than 1.0m.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,797,876",
+            "M1/M0 (m) AMD": "0.243",
+            "Diameter of Average Mass (m)": "0.383",
+            "Hatch Choate sigma-g": "1.962"
+          }
+        },
+        {
+          "sourceRow": 21,
+          "raw": {
+            "Precipitator": "2",
+            "Run": "#63",
+            "Sample": "Pyrell",
+            "Aged?": "Unaged",
+            "Date TEM": "2/17",
+            "Description": "Baseline aging",
+            "Rt/R0": "1.220",
+            "Morphology": "Particle deposition upstream at y-4; heavy coverage with spherical particles and agglomerates. Primary particles generally measure >130nm – 1450nm.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "3,862,679",
+            "M1/M0 (m) AMD": "0.207",
+            "Diameter of Average Mass (m)": "0.392",
+            "Hatch Choate sigma-g": "2.222"
+          }
+        },
+        {
+          "sourceRow": 22,
+          "raw": {
+            "Precipitator": "2",
+            "Run": "#63",
+            "Sample": "Pyrell",
+            "Aged?": "Aged",
+            "Date TEM": "2/17",
+            "Description": "Baseline aging",
+            "Rt/R0": "",
+            "Morphology": "Particle deposition upstream at y-4; again heavy coverage; particles appear a bit smaller than preage, <100nm-600nm.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,414,788",
+            "M1/M0 (m) AMD": "0.359",
+            "Diameter of Average Mass (m)": "0.539",
+            "Hatch Choate sigma-g": "1.892"
+          }
+        },
+        {
+          "sourceRow": 23,
+          "raw": {
+            "Precipitator": "2",
+            "Run": "#64",
+            "Sample": "Pyrell",
+            "Aged?": "Unaged",
+            "Date TEM": "9/21",
+            "Description": "",
+            "Rt/R0": "1.230",
+            "Morphology": "Particle deposition – upstream at y-5; some chained Teflon-type particles; primary particles in chains range in size from ~90-270nm. Larger single particles often measure >700nm.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "3,881,194",
+            "M1/M0 (m) AMD": "0.254",
+            "Diameter of Average Mass (m)": "0.445",
+            "Hatch Choate sigma-g": "2.115"
+          }
+        },
+        {
+          "sourceRow": 24,
+          "raw": {
+            "Precipitator": "2",
+            "Run": "#64",
+            "Sample": "Pyrell",
+            "Aged?": "Aged",
+            "Date TEM": "2/22",
+            "Description": "High Temp aging",
+            "Rt/R0": "",
+            "Morphology": "Particle deposition at y-4; particles are more highly aggregated with primaries measuring ~85-850nm.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,417,571",
+            "M1/M0 (m) AMD": "0.450",
+            "Diameter of Average Mass (m)": "0.616",
+            "Hatch Choate sigma-g": "1.750"
+          }
+        },
+        {
+          "sourceRow": 25,
+          "raw": {
+            "Precipitator": "3",
+            "Run": "#84",
+            "Sample": "Pyrell",
+            "Aged?": "Unaged",
+            "Date TEM": "10/5",
+            "Description": "Mid temp aging retry",
+            "Rt/R0": "1.225",
+            "Morphology": "Particle deposition – upstream at y-6; particles range from ~60-630nm. Particles agglomerated like Run #64 – adjacent areas taken for image analysis.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "3,721,977",
+            "M1/M0 (m) AMD": "0.233",
+            "Diameter of Average Mass (m)": "0.412",
+            "Hatch Choate sigma-g": "2.131"
+          }
+        },
+        {
+          "sourceRow": 26,
+          "raw": {
+            "Precipitator": "3",
+            "Run": "#84",
+            "Sample": "Pyrell",
+            "Aged?": "Aged",
+            "Date TEM": "10/5",
+            "Description": "Mid temp aging retry",
+            "Rt/R0": "",
+            "Morphology": "Particle deposition – upstream at y-4-5; particles range in size ~60-1250nm. Particles highly agglomerated - adjacent areas taken for image analysis.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,683,215",
+            "M1/M0 (m) AMD": "0.355",
+            "Diameter of Average Mass (m)": "0.533",
+            "Hatch Choate sigma-g": "1.893"
+          }
+        },
+        {
+          "sourceRow": 27,
+          "raw": {
+            "Precipitator": "3",
+            "Run": "#85",
+            "Sample": "Kapton",
+            "Aged?": "",
+            "Date TEM": "2/6",
+            "Description": "Mid temp aging run 75 repeat, low ptrack on peak one",
+            "Rt/R0": "1.430",
+            "Morphology": "Exhibits very tiny particles – not enough for image analysis particle size, exhibits a few denser particles ~100-200nm;  also exhibits extraneous material.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "954,553",
+            "M1/M0 (m) AMD": "0.112",
+            "Diameter of Average Mass (m)": "0.174",
+            "Hatch Choate sigma-g": "1.936"
+          }
+        },
+        {
+          "sourceRow": 28,
+          "raw": {
+            "Precipitator": "3",
+            "Run": "#87",
+            "Sample": "Pyrell",
+            "Aged?": "Unaged",
+            "Date TEM": "3/19",
+            "Description": "Baseline STS det",
+            "Rt/R0": "1.220",
+            "Morphology": "Heavy particle deposition – at y-5; small particles, range in size from <50nm – 200nm but could be up to~1000nm.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "2,924,886",
+            "M1/M0 (m) AMD": "0.220",
+            "Diameter of Average Mass (m)": "0.421",
+            "Hatch Choate sigma-g": "2.241"
+          }
+        },
+        {
+          "sourceRow": 29,
+          "raw": {
+            "Precipitator": "3",
+            "Run": "#106",
+            "Sample": "Lampwick",
+            "Aged?": "",
+            "Date TEM": "3/19",
+            "Description": "No flow run w/ aging",
+            "Rt/R0": "1.280",
+            "Morphology": "Deposition at y-4; large amount of background deposits, very faint particles ~200-500nm. Occasional extremely large particles usually are ~0.67-3.67m.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "105,517",
+            "M1/M0 (m) AMD": "0.442",
+            "Diameter of Average Mass (m)": "0.600",
+            "Hatch Choate sigma-g": "1.736"
+          }
+        },
+        {
+          "sourceRow": 30,
+          "raw": {
+            "Precipitator": "3",
+            "Run": "#89",
+            "Sample": "Teflon",
+            "Aged?": "Unaged",
+            "Date TEM": "3/29",
+            "Description": "Baseline STS det",
+            "Rt/R0": "1.445",
+            "Morphology": "Small agglomerates at ~y-5 with tiny (<70nm) background particles. Small needle-like crystals noted.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "2,774,308",
+            "M1/M0 (m) AMD": "0.055",
+            "Diameter of Average Mass (m)": "0.151",
+            "Hatch Choate sigma-g": "2.733"
+          }
+        },
+        {
+          "sourceRow": 31,
+          "raw": {
+            "Precipitator": "3",
+            "Run": "#105",
+            "Sample": "Teflon",
+            "Aged?": "Unaged",
+            "Date TEM": "2/6",
+            "Description": "No flow run",
+            "Rt/R0": "1.450",
+            "Morphology": "Particle deposition upstream; not enough particles to measure. No images.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "195,397",
+            "M1/M0 (m) AMD": "0.172",
+            "Diameter of Average Mass (m)": "0.306",
+            "Hatch Choate sigma-g": "2.132"
+          }
+        },
+        {
+          "sourceRow": 32,
+          "raw": {
+            "Precipitator": "3",
+            "Run": "#105",
+            "Sample": "Teflon",
+            "Aged?": "Aged",
+            "Date TEM": "2/6",
+            "Description": "No flow run w/ aging",
+            "Rt/R0": "",
+            "Morphology": "Not enough particles to measure; tiny agglomerates of chained particles with primary particles measuring ~<100nm.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "146,578",
+            "M1/M0 (m) AMD": "0.162",
+            "Diameter of Average Mass (m)": "0.324",
+            "Hatch Choate sigma-g": "2.298"
+          }
+        },
+        {
+          "sourceRow": 33,
+          "raw": {
+            "Precipitator": "3",
+            "Run": "#107",
+            "Sample": "Pyrell",
+            "Aged?": "",
+            "Date TEM": "2/6",
+            "Description": "Low flow run w/ aging",
+            "Rt/R0": "1.230",
+            "Morphology": "Deposition at y-3, -4; larger particles measure ~200-",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "206,019",
+            "M1/M0 (m) AMD": "0.259",
+            "Diameter of Average Mass (m)": "0.922",
+            "Hatch Choate sigma-g": "3.084"
+          }
+        },
+        {
+          "sourceRow": 34,
+          "raw": {
+            "Precipitator": "3",
+            "Run": "#107",
+            "Sample": "Pyrell",
+            "Aged?": "Aged",
+            "Date TEM": "2/22",
+            "Description": "No flow run w/ aging",
+            "Rt/R0": "",
+            "Morphology": "Very few large spherical particles (~0.2-3.3m)  present spread out over grid.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "192,866",
+            "M1/M0 (m) AMD": "0.282",
+            "Diameter of Average Mass (m)": "0.933",
+            "Hatch Choate sigma-g": "2.985"
+          }
+        },
+        {
+          "sourceRow": 35,
+          "raw": {
+            "Precipitator": "3",
+            "Run": "#108",
+            "Sample": "Kapton",
+            "Aged?": "Unaged",
+            "Date TEM": "3/29",
+            "Description": "Low flow run",
+            "Rt/R0": "1.480",
+            "Morphology": "Upstream ~y-7; couldn’t observe at lower magnifications; particles very small. Small chains more visible at 10KX with primary particles ~90nm. Many particles ~200-600nm in diameter.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "495,068",
+            "M1/M0 (m) AMD": "0.135",
+            "Diameter of Average Mass (m)": "0.343",
+            "Hatch Choate sigma-g": "2.632"
+          }
+        },
+        {
+          "sourceRow": 36,
+          "raw": {
+            "Precipitator": "3",
+            "Run": "#108",
+            "Sample": "Kapton",
+            "Aged?": "Aged",
+            "Date TEM": "3/29",
+            "Description": "No flow run w/ aging",
+            "Rt/R0": "",
+            "Morphology": "Deposited upstream at y-5; like preage sample.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "451,723",
+            "M1/M0 (m) AMD": "0.145",
+            "Diameter of Average Mass (m)": "0.351",
+            "Hatch Choate sigma-g": "2.561"
+          }
+        },
+        {
+          "sourceRow": 37,
+          "raw": {
+            "Precipitator": "4",
+            "Run": "#78",
+            "Sample": "Lampwick",
+            "Aged?": "Unaged",
+            "Date TEM": "12/9",
+            "Description": "Baseline aging",
+            "Rt/R0": "1.245",
+            "Morphology": "No particles present. Carbon film is clean exhibiting little to no deposited material.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "2,987,215",
+            "M1/M0 (m) AMD": "0.130",
+            "Diameter of Average Mass (m)": "0.265",
+            "Hatch Choate sigma-g": "2.324"
+          }
+        },
+        {
+          "sourceRow": 38,
+          "raw": {
+            "Precipitator": "4",
+            "Run": "#78",
+            "Sample": "Lampwick",
+            "Aged?": "Aged",
+            "Date TEM": "12/9",
+            "Description": "Baseline aging",
+            "Rt/R0": "",
+            "Morphology": "Some ‘junk’ present – no particles.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,158,632",
+            "M1/M0 (m) AMD": "0.224",
+            "Diameter of Average Mass (m)": "0.355",
+            "Hatch Choate sigma-g": "1.975"
+          }
+        },
+        {
+          "sourceRow": 39,
+          "raw": {
+            "Precipitator": "4",
+            "Run": "#79",
+            "Sample": "Teflon",
+            "Aged?": "Unaged",
+            "Date TEM": "10/5",
+            "Description": "Baseline aging",
+            "Rt/R0": "1.445",
+            "Morphology": "Torn films plus a lot of debris.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "2,596,154",
+            "M1/M0 (m) AMD": "0.163",
+            "Diameter of Average Mass (m)": "0.193",
+            "Hatch Choate sigma-g": "1.511"
+          }
+        },
+        {
+          "sourceRow": 40,
+          "raw": {
+            "Precipitator": "4",
+            "Run": "#79",
+            "Sample": "Teflon",
+            "Aged?": "Aged",
+            "Date TEM": "12/9",
+            "Description": "Baseline aging",
+            "Rt/R0": "",
+            "Morphology": "Some debris on film – no particles.\nNon-aerosol deposit.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "974,485",
+            "M1/M0 (m) AMD": "0.267",
+            "Diameter of Average Mass (m)": "0.263",
+            "Hatch Choate sigma-g": "#"
+          }
+        },
+        {
+          "sourceRow": 41,
+          "raw": {
+            "Precipitator": "4",
+            "Run": "#80",
+            "Sample": "Lampwick",
+            "Aged?": "Unaged",
+            "Date TEM": "12/9",
+            "Description": "High temp",
+            "Rt/R0": "1.280",
+            "Morphology": "No particles. Feathery or wispy deposit found in some areas along with other deposited material. Higher magnification of this material indicates a non-aerosol particle.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "4,995,553",
+            "M1/M0 (m) AMD": "0.124",
+            "Diameter of Average Mass (m)": "0.289",
+            "Hatch Choate sigma-g": "2.508"
+          }
+        },
+        {
+          "sourceRow": 42,
+          "raw": {
+            "Precipitator": "4",
+            "Run": "#80",
+            "Sample": "Lampwick",
+            "Aged?": "Aged",
+            "Date TEM": "12/9",
+            "Description": "High Temp aging",
+            "Rt/R0": "",
+            "Morphology": "No particles.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,482,906",
+            "M1/M0 (m) AMD": "0.254",
+            "Diameter of Average Mass (m)": "0.141",
+            "Hatch Choate sigma-g": "2.012"
+          }
+        },
+        {
+          "sourceRow": 43,
+          "raw": {
+            "Precipitator": "4",
+            "Run": "#81",
+            "Sample": "Teflon",
+            "Aged?": "Unaged",
+            "Date TEM": "10/5",
+            "Description": "High temp",
+            "Rt/R0": "1.450",
+            "Morphology": "No typical Teflon particles exhibited. Some alien-like junk present.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "2,654,994",
+            "M1/M0 (m) AMD": "0.208",
+            "Diameter of Average Mass (m)": "0.251",
+            "Hatch Choate sigma-g": "1.542"
+          }
+        },
+        {
+          "sourceRow": 44,
+          "raw": {
+            "Precipitator": "4",
+            "Run": "#81",
+            "Sample": "Teflon",
+            "Aged?": "Aged",
+            "Date TEM": "10/6",
+            "Description": "High Temp aging",
+            "Rt/R0": "",
+            "Morphology": "Torn carbon film plus deposits.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "920,600",
+            "M1/M0 (m) AMD": "0.385",
+            "Diameter of Average Mass (m)": "0.348",
+            "Hatch Choate sigma-g": "#"
+          }
+        },
+        {
+          "sourceRow": 45,
+          "raw": {
+            "Precipitator": "4",
+            "Run": "#82",
+            "Sample": "Lampwick",
+            "Aged?": "Unaged",
+            "Date TEM": "12/9",
+            "Description": "Mid temp",
+            "Rt/R0": "1.265",
+            "Morphology": "No particles.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "3,463,686",
+            "M1/M0 (m) AMD": "0.139",
+            "Diameter of Average Mass (m)": "0.290",
+            "Hatch Choate sigma-g": "2.357"
+          }
+        },
+        {
+          "sourceRow": 46,
+          "raw": {
+            "Precipitator": "4",
+            "Run": "#82",
+            "Sample": "Lampwick",
+            "Aged?": "Aged",
+            "Date TEM": "12/9 & 4/23",
+            "Description": "Mid temp aging",
+            "Rt/R0": "",
+            "Morphology": "No particles. Some ubiquitous tiny particles noted downstream at y+10.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,343,413",
+            "M1/M0 (m) AMD": "0.230",
+            "Diameter of Average Mass (m)": "0.385",
+            "Hatch Choate sigma-g": "2.051"
+          }
+        },
+        {
+          "sourceRow": 47,
+          "raw": {
+            "Precipitator": "4",
+            "Run": "#83",
+            "Sample": "Teflon",
+            "Aged?": "Unaged",
+            "Date TEM": "10/5",
+            "Description": "Mid temp aging",
+            "Rt/R0": "1.448",
+            "Morphology": "Very faint particles.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "3,535,854",
+            "M1/M0 (m) AMD": "0.140",
+            "Diameter of Average Mass (m)": "0.211",
+            "Hatch Choate sigma-g": "1.901"
+          }
+        },
+        {
+          "sourceRow": 48,
+          "raw": {
+            "Precipitator": "4",
+            "Run": "#83",
+            "Sample": "Teflon",
+            "Aged?": "Aged",
+            "Date TEM": "10/6",
+            "Description": "Mid temp aging",
+            "Rt/R0": "",
+            "Morphology": "No particles – faint deposits.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "909,243",
+            "M1/M0 (m) AMD": "0.337",
+            "Diameter of Average Mass (m)": "0.325",
+            "Hatch Choate sigma-g": "#"
+          }
+        },
+        {
+          "sourceRow": 49,
+          "raw": {
+            "Precipitator": "5",
+            "Run": "#73",
+            "Sample": "Kapton",
+            "Aged?": "Unaged",
+            "Date TEM": "10/28",
+            "Description": "Baseline aging",
+            "Rt/R0": "1.380",
+            "Morphology": "No particles – some debris and deposits.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "2,604,648",
+            "M1/M0 (m) AMD": "0.059",
+            "Diameter of Average Mass (m)": "0.089",
+            "Hatch Choate sigma-g": "1.900"
+          }
+        },
+        {
+          "sourceRow": 50,
+          "raw": {
+            "Precipitator": "5",
+            "Run": "#73",
+            "Sample": "Kapton",
+            "Aged?": "Aged",
+            "Date TEM": "11/9",
+            "Description": "Baseline aging",
+            "Rt/R0": "",
+            "Morphology": "Again, no particles – carbon film is extremely clean.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,053,906",
+            "M1/M0 (m) AMD": "0.096",
+            "Diameter of Average Mass (m)": "0.124",
+            "Hatch Choate sigma-g": "1.669"
+          }
+        },
+        {
+          "sourceRow": 51,
+          "raw": {
+            "Precipitator": "5",
+            "Run": "#74",
+            "Sample": "Pyrell",
+            "Aged?": "Unaged",
+            "Date TEM": "11/3",
+            "Description": "Baseline aging",
+            "Rt/R0": "1.220",
+            "Morphology": "No particles -",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "4,953,334",
+            "M1/M0 (m) AMD": "0.198",
+            "Diameter of Average Mass (m)": "0.355",
+            "Hatch Choate sigma-g": "2.149"
+          }
+        },
+        {
+          "sourceRow": 52,
+          "raw": {
+            "Precipitator": "5",
+            "Run": "#74",
+            "Sample": "Pyrell",
+            "Aged?": "Aged",
+            "Date TEM": "11/9",
+            "Description": "Baseline aging",
+            "Rt/R0": "",
+            "Morphology": "Many particles depositing upstream at -3y; particles ~100-400nm.  Similar morphology to previously examined Pyrell (63P, 84P).",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,662,805",
+            "M1/M0 (m) AMD": "0.379",
+            "Diameter of Average Mass (m)": "0.512",
+            "Hatch Choate sigma-g": "1.731"
+          }
+        },
+        {
+          "sourceRow": 53,
+          "raw": {
+            "Precipitator": "5",
+            "Run": "#75",
+            "Sample": "Kapton",
+            "Aged?": "Unaged",
+            "Date TEM": "10/28",
+            "Description": "Mid temp aging",
+            "Rt/R0": "1.430",
+            "Morphology": "No particles – some debris and deposits.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "",
+            "M1/M0 (m) AMD": "",
+            "Diameter of Average Mass (m)": "",
+            "Hatch Choate sigma-g": ""
+          }
+        },
+        {
+          "sourceRow": 54,
+          "raw": {
+            "Precipitator": "5",
+            "Run": "#75",
+            "Sample": "Kapton",
+            "Aged?": "Aged",
+            "Date TEM": "11/9",
+            "Description": "Mid temp aging",
+            "Rt/R0": "",
+            "Morphology": "Small population of extremely tiny particles, ~100-200nm; similar to #77K Kapton.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,041,692",
+            "M1/M0 (m) AMD": "0.118",
+            "Diameter of Average Mass (m)": "0.152",
+            "Hatch Choate sigma-g": "1.657"
+          }
+        },
+        {
+          "sourceRow": 55,
+          "raw": {
+            "Precipitator": "5",
+            "Run": "#76",
+            "Sample": "Pyrell",
+            "Aged?": "Unaged",
+            "Date TEM": "11/3",
+            "Description": "High temp aging",
+            "Rt/R0": "1.230",
+            "Morphology": "Lots of particles starting upstream at -7y. Size range of primary particles ~60-500nm with a few larger; exhibits small chained agglomerates. Morphology similar to #63 Pyrell.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "3,275,642",
+            "M1/M0 (m) AMD": "0.354",
+            "Diameter of Average Mass (m)": "0.515",
+            "Hatch Choate sigma-g": "1.843"
+          }
+        },
+        {
+          "sourceRow": 56,
+          "raw": {
+            "Precipitator": "5",
+            "Run": "#76",
+            "Sample": "Pyrell",
+            "Aged?": "Aged",
+            "Date TEM": "11/3",
+            "Description": "High Temp aging",
+            "Rt/R0": "",
+            "Morphology": "Particles start upstream at -2y; particles generally between 60nm and 600nm. Slightly larger than preage samples.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,632,140",
+            "M1/M0 (m) AMD": "0.445",
+            "Diameter of Average Mass (m)": "0.643",
+            "Hatch Choate sigma-g": "1.835"
+          }
+        },
+        {
+          "sourceRow": 57,
+          "raw": {
+            "Precipitator": "5",
+            "Run": "#77",
+            "Sample": "Kapton",
+            "Aged?": "Unaged",
+            "Date TEM": "11/3",
+            "Description": "High temp aging",
+            "Rt/R0": "1.480",
+            "Morphology": "Very tiny particles, with a scattering of faint background particles measuring ~100nm. Some chained agglomerates; primary particles ~100-800nm.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "3,460,328",
+            "M1/M0 (m) AMD": "0.088",
+            "Diameter of Average Mass (m)": "0.107",
+            "Hatch Choate sigma-g": "1.541"
+          }
+        },
+        {
+          "sourceRow": 58,
+          "raw": {
+            "Precipitator": "5",
+            "Run": "#77",
+            "Sample": "Kapton",
+            "Aged?": "Aged",
+            "Date TEM": "11/3",
+            "Description": "High Temp aging",
+            "Rt/R0": "",
+            "Morphology": "Higher population of extremely tiny (~100-200nm) particles with a few larger particles.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,237,768",
+            "M1/M0 (m) AMD": "0.138",
+            "Diameter of Average Mass (m)": "0.165",
+            "Hatch Choate sigma-g": "1.527"
+          }
+        },
+        {
+          "sourceRow": 59,
+          "raw": {
+            "Precipitator": "6",
+            "Run": "#93",
+            "Sample": "Kapton",
+            "Aged?": "Unaged",
+            "Date TEM": "3/19",
+            "Description": "Mid temp aging run 75 repeat",
+            "Rt/R0": "1.430",
+            "Morphology": "No particles except faint background particles ~90nm in diameter.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "2,951,666",
+            "M1/M0 (m) AMD": "0.064",
+            "Diameter of Average Mass (m)": "0.100",
+            "Hatch Choate sigma-g": "1.937"
+          }
+        },
+        {
+          "sourceRow": 60,
+          "raw": {
+            "Precipitator": "6",
+            "Run": "#93",
+            "Sample": "Kapton",
+            "Aged?": "Aged",
+            "Date TEM": "2/13",
+            "Description": "Mid temp aging 75 repeat",
+            "Rt/R0": "",
+            "Morphology": "No particles (2 images) like preage.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "990,234",
+            "M1/M0 (m) AMD": "0.105",
+            "Diameter of Average Mass (m)": "0.155",
+            "Hatch Choate sigma-g": "1.864"
+          }
+        },
+        {
+          "sourceRow": 61,
+          "raw": {
+            "Precipitator": "6",
+            "Run": "#94",
+            "Sample": "Kapton",
+            "Aged?": "Unaged",
+            "Date TEM": "3/8",
+            "Description": "Mid temp aging run mid high",
+            "Rt/R0": "1.450",
+            "Morphology": "Extremely tiny particles, both upstream and downstream; background particles measure <50-75nm; extremely limited number of larger particles ~400nm.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "3,018,896",
+            "M1/M0 (m) AMD": "0.092",
+            "Diameter of Average Mass (m)": "0.116",
+            "Hatch Choate sigma-g": "1.626"
+          }
+        },
+        {
+          "sourceRow": 62,
+          "raw": {
+            "Precipitator": "6",
+            "Run": "#94",
+            "Sample": "Kapton",
+            "Aged?": "Aged",
+            "Date TEM": "2/13",
+            "Description": "Mid temp aging mid high",
+            "Rt/R0": "",
+            "Morphology": "Small faint particles, most <200nm.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "1,151,405",
+            "M1/M0 (m) AMD": "0.136",
+            "Diameter of Average Mass (m)": "0.176",
+            "Hatch Choate sigma-g": "1.669"
+          }
+        },
+        {
+          "sourceRow": 63,
+          "raw": {
+            "Precipitator": "6",
+            "Run": "#95",
+            "Sample": "Pyrell",
+            "Aged?": "",
+            "Date TEM": "2/13",
+            "Description": "No flow run w/ aging",
+            "Rt/R0": "1.220",
+            "Morphology": "A very few dense particles, most <2000nm.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "71,388",
+            "M1/M0 (m) AMD": "0.140",
+            "Diameter of Average Mass (m)": "0.683",
+            "Hatch Choate sigma-g": "3.521"
+          }
+        },
+        {
+          "sourceRow": 64,
+          "raw": {
+            "Precipitator": "6",
+            "Run": "#96",
+            "Sample": "Lampwick",
+            "Aged?": "",
+            "Date TEM": "2/13",
+            "Description": "No flow run w/ aging",
+            "Rt/R0": "1.245",
+            "Morphology": "Exhibits particles both upstream and downstream; typical dark spheres (~400-1200nm); aerosol deposits as a film in areas. Tiny particles are <100nm; also faint outlines of crystalline materials visible at lower magnifications.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "",
+            "M1/M0 (m) AMD": "",
+            "Diameter of Average Mass (m)": "",
+            "Hatch Choate sigma-g": ""
+          }
+        },
+        {
+          "sourceRow": 65,
+          "raw": {
+            "Precipitator": "6",
+            "Run": "#97",
+            "Sample": "Pyrell",
+            "Aged?": "",
+            "Date TEM": "3/8",
+            "Description": "No flow run w/ aging",
+            "Rt/R0": "1.230",
+            "Morphology": "Particle deposition upstream at y-4,-5; dense spherical particles measure ~400nm – 2.7m; faint background particles ~50-100nm.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "",
+            "M1/M0 (m) AMD": "",
+            "Diameter of Average Mass (m)": "",
+            "Hatch Choate sigma-g": ""
+          }
+        },
+        {
+          "sourceRow": 66,
+          "raw": {
+            "Precipitator": "6",
+            "Run": "#100",
+            "Sample": "Teflon",
+            "Aged?": "",
+            "Date TEM": "2/13",
+            "Description": "No flow run w/ aging",
+            "Rt/R0": "1.450",
+            "Morphology": "Typical Teflon aggregates with primary particles measuring ~100-300nm;",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "",
+            "M1/M0 (m) AMD": "",
+            "Diameter of Average Mass (m)": "",
+            "Hatch Choate sigma-g": ""
+          }
+        },
+        {
+          "sourceRow": 67,
+          "raw": {
+            "Precipitator": "6",
+            "Run": "#98",
+            "Sample": "Lampwick",
+            "Aged?": "Unaged",
+            "Date TEM": "3/8",
+            "Description": "No flow run",
+            "Rt/R0": "1.280",
+            "Morphology": "Extremely large particles (up to ~7m) deposited upstream at y-2; very small (~25-50nm) background particles visible at higher magnifications.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "438,729",
+            "M1/M0 (m) AMD": "0.168",
+            "Diameter of Average Mass (m)": "0.403",
+            "Hatch Choate sigma-g": "2.546"
+          }
+        },
+        {
+          "sourceRow": 68,
+          "raw": {
+            "Precipitator": "6",
+            "Run": "#98",
+            "Sample": "Lampwick",
+            "Aged?": "Aged",
+            "Date TEM": "2/13",
+            "Description": "No flow run w/ aging",
+            "Rt/R0": "",
+            "Morphology": "Like preage with fewer large particles; exhibits significant amount of background material and very tiny particles.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "329,084",
+            "M1/M0 (m) AMD": "0.186",
+            "Diameter of Average Mass (m)": "0.431",
+            "Hatch Choate sigma-g": "2.503"
+          }
+        },
+        {
+          "sourceRow": 69,
+          "raw": {
+            "Precipitator": "6",
+            "Run": "#101",
+            "Sample": "Kapton",
+            "Aged?": "Unaged",
+            "Date TEM": "3/8",
+            "Description": "No flow run w/ aging",
+            "Rt/R0": "1.480",
+            "Morphology": "Particle deposition upstream at y-4, -5; typical small particles present (~200-1200nm) along with ‘junk’ or debris.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "277,646",
+            "M1/M0 (m) AMD": "0.223",
+            "Diameter of Average Mass (m)": "0.346",
+            "Hatch Choate sigma-g": "1.936"
+          }
+        },
+        {
+          "sourceRow": 70,
+          "raw": {
+            "Precipitator": "6",
+            "Run": "#101",
+            "Sample": "Kapton",
+            "Aged?": "Aged",
+            "Date TEM": "2/13",
+            "Description": "No flow run w/ aging",
+            "Rt/R0": "",
+            "Morphology": "Exhibits a small population of smaller particles usually less than 1000nm.",
+            "Image 1": "",
+            "Image 2": "",
+            "M0 Best Diameter": "253,110",
+            "M1/M0 (m) AMD": "0.234",
+            "Diameter of Average Mass (m)": "0.351",
+            "Hatch Choate sigma-g": "1.893"
+          }
+        }
+      ]
+    }
+  ]
+}

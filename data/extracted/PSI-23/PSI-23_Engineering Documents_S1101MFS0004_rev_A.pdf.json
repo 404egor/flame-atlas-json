@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-23",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-23_Engineering Documents_S1101MFS0004_rev_A.pdf",
+    "folder": "Engineering Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-23/Engineering Documents/PSI-23_Engineering Documents_S1101MFS0004_rev_A.pdf",
+    "version": 1,
+    "sizeBytes": 308670,
+    "sha256": "415f24ed91686fa32d96b164d17646be5a1fae1884c25fc2d0b75bb81618d14e",
+    "localPath": "data/raw/PSI-23/Engineering Documents/PSI-23_Engineering Documents_S1101MFS0004_rev_A.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:18:45+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 1,
+    "characters": 92,
+    "tables": 1,
+    "tableRows": 2,
+    "pages": 1
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "E 0SG68\nA\n1\n4000SFM1011S\nACMECIRINTEGRATED\nPNEUMATICSCHEMATIC\nS1101MFS0004 A\nNONE 092914 1 1",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "table",
+      "id": "b2",
+      "name": "Page 1 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "A"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "A": "1"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "A": "4000SFM1011S"
+          }
+        }
+      ]
+    }
+  ]
+}

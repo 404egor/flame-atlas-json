@@ -1,0 +1,349 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-101",
+  "format": "xlsx",
+  "source": {
+    "fileName": "PSI-101_Engineering Documents_SAME-R_ThermalPrecipitatorUsage.xlsx",
+    "folder": "Engineering Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_SAME-R_ThermalPrecipitatorUsage.xlsx",
+    "version": 1,
+    "sizeBytes": 11054,
+    "sha256": "2b94b57f4dcf1ea89f23073896f0cd4c5c6449e69a75dbd8b302fdee048c7440",
+    "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_SAME-R_ThermalPrecipitatorUsage.xlsx",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101"
+  },
+  "extractor": {
+    "name": "xlsx",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:26:30+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Sheet1: 3 line(s) above the header skipped",
+    "Sheet1: 4 empty header(s) named column_<n> (columns 1-2, 5-6)",
+    "Sheet1: 2 duplicate header(s) renamed: A (2), B (2)",
+    "sheet 'Sheet2' is empty",
+    "sheet 'Sheet3' is empty"
+  ],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 1,
+    "tableRows": 22,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "table",
+      "id": "b1",
+      "name": "Sheet1",
+      "confidence": "high",
+      "location": {
+        "sheet": "Sheet1"
+      },
+      "headerRow": 4,
+      "columns": [
+        "column_1",
+        "column_2",
+        "A",
+        "B",
+        "column_5",
+        "column_6",
+        "A (2)",
+        "B (2)"
+      ],
+      "rowCount": 22,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "column_2": "1",
+            "A": "48 (SAMERFLT 1S)",
+            "B": "67 (SAMERFLT 20S)",
+            "column_5": "",
+            "column_6": "1",
+            "A (2)": "78 preage (SAMERFLT 31L)",
+            "B (2)": "78 postage (SAMERFLT 31L)"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "column_2": "2",
+            "A": "49 (SAMERFLT 2L)",
+            "B": "68 (SAMERFLT 21L)",
+            "column_5": "",
+            "column_6": "2",
+            "A (2)": "79 preage (SAMERFLT 32T)",
+            "B (2)": "79 postage (SAMERFLT 32T)"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "column_2": "3",
+            "A": "50 (SAMERFLT 3T)",
+            "B": "69 (SAMERFLT 22T)",
+            "column_5": "",
+            "column_6": "3",
+            "A (2)": "80 preage (SAMERFLT 33L)",
+            "B (2)": "80 postage (SAMERFLT 33L)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "column_2": "4",
+            "A": "51 (SAMERFLT 4K)",
+            "B": "70 (SAMERFLT 23K)",
+            "column_5": "",
+            "column_6": "4",
+            "A (2)": "81 preage (SAMERFLT 34T)",
+            "B (2)": "81 postage (SAMERFLT 34T)"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "",
+            "column_2": "5",
+            "A": "52 (SAMERFLT 5P)",
+            "B": "71 (SAMERFLT 24P)",
+            "column_5": "",
+            "column_6": "5",
+            "A (2)": "82 preage (SAMERFLT 35L)",
+            "B (2)": "82 postage (SAMERFLT 35L)"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "",
+            "column_2": "6",
+            "A": "53 (SAMERFLT 6S)",
+            "B": "72 (SAMERFLT 25S)",
+            "column_5": "",
+            "column_6": "6",
+            "A (2)": "83 preage (SAMERFLT 36T)",
+            "B (2)": "83 postage (SAMERFLT 36T)"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "A": "Thermal Precipitator 2",
+            "B": "",
+            "column_5": "",
+            "column_6": "",
+            "A (2)": "Thermal Precipitator 3",
+            "B (2)": ""
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "A": "A",
+            "B": "B",
+            "column_5": "",
+            "column_6": "",
+            "A (2)": "A",
+            "B (2)": "B"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "column_1": "",
+            "column_2": "1",
+            "A": "54 (SAMERFLT 7L)",
+            "B": "62 preage (SAMERFLT 15K)",
+            "column_5": "",
+            "column_6": "1",
+            "A (2)": "84 preage (SAMERFLT 37P)",
+            "B (2)": "84 postage (SAMERFLT 37P)"
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "column_1": "",
+            "column_2": "2",
+            "A": "55 (SAMERFLT 8L)",
+            "B": "62 postage (SAMERFLT 15K)",
+            "column_5": "",
+            "column_6": "2",
+            "A (2)": "85 (SAMERFLT 38K)",
+            "B (2)": "87 (SAMERFLT 40P)"
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "column_1": "",
+            "column_2": "3",
+            "A": "56 (SAMERFLT 9T)",
+            "B": "63 preage (SAMERFLT 16P)",
+            "column_5": "",
+            "column_6": "3",
+            "A (2)": "106 (SAMERFLT 59L)",
+            "B (2)": "89 (SAMERFLT 42T)"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "column_1": "",
+            "column_2": "4",
+            "A": "#58 Preage (SAMERFLT 11T)",
+            "B": "63 postage (SAMERFLT 16P)",
+            "column_5": "",
+            "column_6": "4",
+            "A (2)": "105 preage (SAMERFLT 58T)",
+            "B (2)": "105 postage (SAMERFLT 58T)"
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "column_1": "",
+            "column_2": "5",
+            "A": "#58 Postage (SAMERFLT 11T)",
+            "B": "64 preage (SAMERFLT 17P)",
+            "column_5": "",
+            "column_6": "5",
+            "A (2)": "107 preage (SAMERFLT 60P)",
+            "B (2)": "107 postage (SAMERFLT 60P)"
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "column_1": "",
+            "column_2": "6",
+            "A": "60 (SAMERFLT 13S)",
+            "B": "64 postage (SAMERFLT 17P)",
+            "column_5": "",
+            "column_6": "6",
+            "A (2)": "108 preage (SAMERFLT 61K)",
+            "B (2)": "108 postage (SAMERFLT 61K)"
+          }
+        },
+        {
+          "sourceRow": 17,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "A": "Thermal Precipitator 5",
+            "B": "",
+            "column_5": "",
+            "column_6": "",
+            "A (2)": "Thermal Precipitator 6",
+            "B (2)": ""
+          }
+        },
+        {
+          "sourceRow": 18,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "A": "A",
+            "B": "B",
+            "column_5": "",
+            "column_6": "",
+            "A (2)": "A",
+            "B (2)": "B"
+          }
+        },
+        {
+          "sourceRow": 19,
+          "raw": {
+            "column_1": "",
+            "column_2": "1",
+            "A": "73 preage (SAMERFLT 26K)",
+            "B": "73 postage (SAMERFLT 26K)",
+            "column_5": "",
+            "column_6": "1",
+            "A (2)": "93 preage (SAMERFLT 46K)",
+            "B (2)": "93 postage (SAMERFLT 46K)"
+          }
+        },
+        {
+          "sourceRow": 20,
+          "raw": {
+            "column_1": "",
+            "column_2": "2",
+            "A": "74 preage (SAMERFLT 27P)",
+            "B": "74 postage (SAMERFLT 27P)",
+            "column_5": "",
+            "column_6": "2",
+            "A (2)": "94 preage (SAMERFLT 47K)",
+            "B (2)": "94 postage (SAMERFLT 47K)"
+          }
+        },
+        {
+          "sourceRow": 21,
+          "raw": {
+            "column_1": "",
+            "column_2": "3",
+            "A": "75 preage (SAMERFLT 28K)",
+            "B": "75 postage (SAMERFLT 28K)",
+            "column_5": "",
+            "column_6": "3",
+            "A (2)": "95 (SAMERFLT 48P)",
+            "B (2)": "96 (SAMERFLT 49L)"
+          }
+        },
+        {
+          "sourceRow": 22,
+          "raw": {
+            "column_1": "",
+            "column_2": "4",
+            "A": "76 preage (SAMERFLT 29P)",
+            "B": "76 postage (SAMERFLT 29P)",
+            "column_5": "",
+            "column_6": "4",
+            "A (2)": "97 (SAMERFLT 50P)",
+            "B (2)": "100 (SAMERFLT 53T)"
+          }
+        },
+        {
+          "sourceRow": 23,
+          "raw": {
+            "column_1": "",
+            "column_2": "5",
+            "A": "77 preage (SAMERFLT 30K)",
+            "B": "77 postage (SAMERFLT 30K)",
+            "column_5": "",
+            "column_6": "5",
+            "A (2)": "98 preage (SAMERFLT 51L)",
+            "B (2)": "98 postage (SAMERFLT 51L)"
+          }
+        },
+        {
+          "sourceRow": 24,
+          "raw": {
+            "column_1": "",
+            "column_2": "6",
+            "A": "empty",
+            "B": "empty",
+            "column_5": "",
+            "column_6": "6",
+            "A (2)": "101 preage (SAMERFLT 54K)",
+            "B (2)": "101 postage (SAMERFLT 54K)"
+          }
+        }
+      ]
+    }
+  ]
+}

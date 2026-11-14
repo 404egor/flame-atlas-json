@@ -1,0 +1,816 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-22",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-22_Presentations_Lopez-Camara et al 2017 Numerical Simulations of a Co-Flow Methane-Air Flame.pdf",
+    "folder": "Presentations",
+    "subfolder": null,
+    "key": "psi-data/PSI-22/Presentations/PSI-22_Presentations_Lopez-Camara et al 2017 Numerical Simulations of a Co-Flow Methane-Air Flame.pdf",
+    "version": 1,
+    "sizeBytes": 1631600,
+    "sha256": "f9b1cadb5b0ad77f2bf95e604aecbe4e433a5fb3b8398c5f8c38420b8ef7aefa",
+    "localPath": "data/raw/PSI-22/Presentations/PSI-22_Presentations_Lopez-Camara et al 2017 Numerical Simulations of a Co-Flow Methane-Air Flame.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:16:35+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 6 table 2: 2 duplicate header(s) renamed: Yes (2), Yes (3)",
+    "Page 9 table 2: 1 empty header(s) named column_<n> (columns 1)"
+  ],
+  "stats": {
+    "textBlocks": 21,
+    "characters": 5847,
+    "tables": 21,
+    "tableRows": 24,
+    "pages": 21
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Drop-Tower experiment at NASA Glenn Research Center (Cleveland, OH). March 5th 2010.\nμg\nMethane/air flame without external electric applied. Simulating zero-gravity\nPic by Sunny V. Karnani, LFA laboratory (UC Irvine, CA)\n2mm",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Drop-Tower experiment at NASA Glenn Research Center (Cleveland, OH). March 5th 2010.\nμg\nMethane/air flame with external electric field applied (-6kV/cm ). Simulating zero-gravity\nPic by Sunny V. Karnani, LFA laboratory (UC Irvine, CA)\n2mm\nMethane/air flame with no applied electric field in 1g\nPic by Sunny V.Karnani. LFA laboratory (UC Irvine, CA)",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Numerical Simulations of a Co-Flow\nMethane/Air Flame under Different\nGravity Conditions\nClaudia-F. Lopez-Camara Jesse Tinajero Derek Dunn-Rankin\nUniversity of California at Irvine (CA, USA)\n33rd Annual Meeting of the American Society for Gravitational and Space Research\nHyatt Regency, Seattle’s Southport on Lake Washington, WA, USA\nOctober 25-28 2017\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 3",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "table",
+      "id": "b4",
+      "name": "Page 3 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 3,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Numerical Simulations of a Co-Flow\nMethane/Air Flame under Different\nGravity Conditions\nClaudia-F. Lopez-Camara Jesse Tinajero Derek Dunn-Rankin\nUniversity of California at Irvine (CA, USA)\n33rd Annual Meeting of the American Society for Gravitational and Space Research\nHyatt Regency, Seattle’s Southport on Lake Washington, WA, USA\nOctober 25-28 2017"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Numerical Simulations of a Co-Flow\nMethane/Air Flame under Different\nGravity Conditions\nClaudia-F. Lopez-Camara Jesse Tinajero Derek Dunn-Rankin\nUniversity of California at Irvine (CA, USA)\n33rd Annual Meeting of the American Society for Gravitational and Space Research\nHyatt Regency, Seattle’s Southport on Lake Washington, WA, USA\nOctober 25-28 2017": "33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 3"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Goals\nSimulate a methane/air flame with the\napplication of an electric field\n1) Understand e-field force action in the flame\nby simplifying the study case (microgravity)\n2) Understand how buoyancy force contributes\nto flame behavior and see if there is any\ncorrelation with the e-field force contribution\n(partial gravity, gravity and hypergravity)\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 4",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "table",
+      "id": "b6",
+      "name": "Page 4 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 4,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Goals\nSimulate a methane/air flame with the\napplication of an electric field\n1) Understand e-field force action in the flame\nby simplifying the study case (microgravity)\n2) Understand how buoyancy force contributes\nto flame behavior and see if there is any\ncorrelation with the e-field force contribution\n(partial gravity, gravity and hypergravity)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Goals\nSimulate a methane/air flame with the\napplication of an electric field\n1) Understand e-field force action in the flame\nby simplifying the study case (microgravity)\n2) Understand how buoyancy force contributes\nto flame behavior and see if there is any\ncorrelation with the e-field force contribution\n(partial gravity, gravity and hypergravity)": "33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 4"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Burner Geometry\nFig.1. Co-Flow Extruded burner Fig.2. Axial-symmetric Mesh [mm].\nFinal mesh used after mesh independence test:\n144234 squared cells\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 5",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "table",
+      "id": "b8",
+      "name": "Page 5 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 5,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Burner Geometry\nFig.1. Co-Flow Extruded burner Fig.2. Axial-symmetric Mesh [mm].\nFinal mesh used after mesh independence test:\n144234 squared cells"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Burner Geometry\nFig.1. Co-Flow Extruded burner Fig.2. Axial-symmetric Mesh [mm].\nFinal mesh used after mesh independence test:\n144234 squared cells": "33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Chemical-Kinetic Model\nMain published chemical kinetic models for methane/air flames\nExcited\nChemi-ions Non-\nMechanism #R Neutrals Species\n(HCO+, H O+) Premixed\n3 (OH*, CH*)\nT. Pedersen\nand R.C.\n86 Yes Yes Yes No\nBrown\n(1993)\nPrager et al.\n208 Yes Yes No Yes\n(1997)\nGRI-Mech\n325 Yes No No Yes\n3.0 (2000)\nJ. Hu et al.\n31 Yes Yes No Yes\n(2000)\nK. T. Walsh\n19 No No Yes Yes\n(2000)\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 6",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "table",
+      "id": "b10",
+      "name": "Page 6 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 6,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Chemical-Kinetic Model\nMain published chemical kinetic models for methane/air flames\nExcited\nChemi-ions Non-\nMechanism #R Neutrals Species\n(HCO+, H O+) Premixed\n3 (OH*, CH*)\nT. Pedersen\nand R.C.\n86 Yes Yes Yes No\nBrown\n(1993)\nPrager et al.\n208 Yes Yes No Yes\n(1997)\nGRI-Mech\n325 Yes No No Yes\n3.0 (2000)\nJ. Hu et al.\n31 Yes Yes No Yes\n(2000)\nK. T. Walsh\n19 No No Yes Yes\n(2000)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Chemical-Kinetic Model\nMain published chemical kinetic models for methane/air flames\nExcited\nChemi-ions Non-\nMechanism #R Neutrals Species\n(HCO+, H O+) Premixed\n3 (OH*, CH*)\nT. Pedersen\nand R.C.\n86 Yes Yes Yes No\nBrown\n(1993)\nPrager et al.\n208 Yes Yes No Yes\n(1997)\nGRI-Mech\n325 Yes No No Yes\n3.0 (2000)\nJ. Hu et al.\n31 Yes Yes No Yes\n(2000)\nK. T. Walsh\n19 No No Yes Yes\n(2000)": "33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 6"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b11",
+      "name": "Page 6 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 6,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "T. Pedersen\nand R.C.\nBrown\n(1993)",
+        "86",
+        "Yes",
+        "Yes (2)",
+        "Yes (3)",
+        "No"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "T. Pedersen\nand R.C.\nBrown\n(1993)": "Prager et al.\n208 Yes Yes No Yes\n(1997)",
+            "86": "",
+            "Yes": "",
+            "Yes (2)": "",
+            "Yes (3)": "",
+            "No": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "T. Pedersen\nand R.C.\nBrown\n(1993)": "GRI-Mech\n3.0 (2000)",
+            "86": "325",
+            "Yes": "Yes",
+            "Yes (2)": "No",
+            "Yes (3)": "No",
+            "No": "Yes"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b12",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nTemperature profiles\n[K]\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 7",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "table",
+      "id": "b13",
+      "name": "Page 7 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 7,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nTemperature profiles\n[K]"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nTemperature profiles\n[K]": "33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 7"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b14",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nCH* profiles\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 8",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "table",
+      "id": "b15",
+      "name": "Page 8 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 8,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nCH* profiles"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nCH* profiles": "33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 8"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b16",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Distance travelled by the jet at the exit speed w during the\n0\nperiod of fuel diffusion t , from y =1 at the jet centre, to the\ndif F\nstoichiometric value y = y at the flame front\nF F,stq\nL =t w\nfl dif 0 L = w · (1−y ) ·(R)2 /D\nfl 0 F,stq i\nt =(1−y )(R)2 /D\ndif F,stq i\nct ct\nL =flame length\nfl 1G 2G 3G\nt =period fuel diffusion\ndif\nL [m] 0.051 0.051 0.051\nw = exit flame speed fl\n0\ny = stoich. value (fuel, flame front) R [m] 0.0025 0.0023 0.0020\nF,stq\nR = radius of the flame\nw 1.046 1.489 1.791\n0\n[m/s]\nD = diffusion coefficient\ni\n9\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 9",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "table",
+      "id": "b17",
+      "name": "Page 9 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 9,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Distance travelled by the jet at the exit speed w during the\n0\nperiod of fuel diffusion t , from y =1 at the jet centre, to the\ndif F\nstoichiometric value y = y at the flame front\nF F,stq\nL =t w\nfl dif 0 L = w · (1−y ) ·(R)2 /D\nfl 0 F,stq i\nt =(1−y )(R)2 /D\ndif F,stq i\nct ct\nL =flame length\nfl 1G 2G 3G\nt =period fuel diffusion\ndif\nL [m] 0.051 0.051 0.051\nw = exit flame speed fl\n0\ny = stoich. value (fuel, flame front) R [m] 0.0025 0.0023 0.0020\nF,stq\nR = radius of the flame\nw 1.046 1.489 1.791\n0\n[m/s]\nD = diffusion coefficient\ni"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Distance travelled by the jet at the exit speed w during the\n0\nperiod of fuel diffusion t , from y =1 at the jet centre, to the\ndif F\nstoichiometric value y = y at the flame front\nF F,stq\nL =t w\nfl dif 0 L = w · (1−y ) ·(R)2 /D\nfl 0 F,stq i\nt =(1−y )(R)2 /D\ndif F,stq i\nct ct\nL =flame length\nfl 1G 2G 3G\nt =period fuel diffusion\ndif\nL [m] 0.051 0.051 0.051\nw = exit flame speed fl\n0\ny = stoich. value (fuel, flame front) R [m] 0.0025 0.0023 0.0020\nF,stq\nR = radius of the flame\nw 1.046 1.489 1.791\n0\n[m/s]\nD = diffusion coefficient\ni": "9\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 9"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b18",
+      "name": "Page 9 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 9,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "1G",
+        "2G",
+        "3G"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "L [m]\nfl",
+            "1G": "0.051",
+            "2G": "0.051",
+            "3G": "0.051"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "R [m]",
+            "1G": "0.0025",
+            "2G": "0.0023",
+            "3G": "0.0020"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "w\n0\n[m/s]",
+            "1G": "1.046",
+            "2G": "1.489",
+            "3G": "1.791"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nH O+ profiles\n3\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 10",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "table",
+      "id": "b20",
+      "name": "Page 10 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 10,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nH O+ profiles\n3"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nH O+ profiles\n3": "33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 10"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b21",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nHCO+ profiles\n11\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 11",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "table",
+      "id": "b22",
+      "name": "Page 11 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 11,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nHCO+ profiles"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nHCO+ profiles": "11\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 11"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b23",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "OpenFOAM® Simulation\nBuoyancy and E-field forces\nEffect of body forces on CH* flame characteristics. [J. Tinajero, PhD dissertation, 2017]\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 12",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "table",
+      "id": "b24",
+      "name": "Page 12 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 12,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "OpenFOAM® Simulation\nBuoyancy and E-field forces\nEffect of body forces on CH* flame characteristics. [J. Tinajero, PhD dissertation, 2017]"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "OpenFOAM® Simulation\nBuoyancy and E-field forces\nEffect of body forces on CH* flame characteristics. [J. Tinajero, PhD dissertation, 2017]": "33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 12"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b25",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "OpenFOAM® Simulation\nBuoyancy and E-field forces\n50\n40\ne\ng 30\nn\na\nh\nc 20\n%\n10\n0\n1 1.2 1.4 1.6 1.8 2\nG\nLatest results\n(Sept 30th 2017, C-F. Lopez-Camara)\nEffect of body forces on CH* flame characteristics. [J. Tinajero, PhD dissertation, 2017]\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 13",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "table",
+      "id": "b26",
+      "name": "Page 13 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 13,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "OpenFOAM® Simulation\nBuoyancy and E-field forces\n50\n40\ne\ng 30\nn\na\nh\nc 20\n%\n10\n0\n1 1.2 1.4 1.6 1.8 2\nG\nLatest results\n(Sept 30th 2017, C-F. Lopez-Camara)\nEffect of body forces on CH* flame characteristics. [J. Tinajero, PhD dissertation, 2017]"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "OpenFOAM® Simulation\nBuoyancy and E-field forces\n50\n40\ne\ng 30\nn\na\nh\nc 20\n%\n10\n0\n1 1.2 1.4 1.6 1.8 2\nG\nLatest results\n(Sept 30th 2017, C-F. Lopez-Camara)\nEffect of body forces on CH* flame characteristics. [J. Tinajero, PhD dissertation, 2017]": "33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 13"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b27",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Summary\nMain Flame characteristics\n• Flame height was shown to not be affected by a change in gravity field.\n• Flame width was affected by producing a thinner plume as it was expected.\n• Detachment with the burner tip was observed numerically and it might be\nattributed to the numerical challenge of these boundary conditions.\n• The new combination of chemical kinetic model proposed containing excited\nspecies and ions has shown to predict important characteristics of the non-\npremixed methane laminar jet flame.\nCH* chemiluminescence\n• CH* profiles showed a brighter flame while going to higher gravity\nenvironments (hypergravity conditions).\nIons\n• High concentration of H O+ produced and transported far away from the\n3\nflame.\n• Higher concentration of naturally produced ions has been observed under\nhypergravity conditions. The electric field effect could be increased under\nstrong gravity environments.\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 14",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "table",
+      "id": "b28",
+      "name": "Page 14 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 14,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Summary\nMain Flame characteristics\n• Flame height was shown to not be affected by a change in gravity field.\n• Flame width was affected by producing a thinner plume as it was expected.\n• Detachment with the burner tip was observed numerically and it might be\nattributed to the numerical challenge of these boundary conditions.\n• The new combination of chemical kinetic model proposed containing excited\nspecies and ions has shown to predict important characteristics of the non-\npremixed methane laminar jet flame.\nCH* chemiluminescence\n• CH* profiles showed a brighter flame while going to higher gravity\nenvironments (hypergravity conditions).\nIons\n• High concentration of H O+ produced and transported far away from the\n3\nflame.\n• Higher concentration of naturally produced ions has been observed under\nhypergravity conditions. The electric field effect could be increased under\nstrong gravity environments."
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Summary\nMain Flame characteristics\n• Flame height was shown to not be affected by a change in gravity field.\n• Flame width was affected by producing a thinner plume as it was expected.\n• Detachment with the burner tip was observed numerically and it might be\nattributed to the numerical challenge of these boundary conditions.\n• The new combination of chemical kinetic model proposed containing excited\nspecies and ions has shown to predict important characteristics of the non-\npremixed methane laminar jet flame.\nCH* chemiluminescence\n• CH* profiles showed a brighter flame while going to higher gravity\nenvironments (hypergravity conditions).\nIons\n• High concentration of H O+ produced and transported far away from the\n3\nflame.\n• Higher concentration of naturally produced ions has been observed under\nhypergravity conditions. The electric field effect could be increased under\nstrong gravity environments.": "33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 14"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b29",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "OpenFOAM® Simulation\nE-field study\nPart in collaboration with KAUST\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 15",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "table",
+      "id": "b30",
+      "name": "Page 15 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 15,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "OpenFOAM® Simulation\nE-field study\nPart in collaboration with KAUST"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "OpenFOAM® Simulation\nE-field study\nPart in collaboration with KAUST": "33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b31",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Thank you\n16\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 16",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "table",
+      "id": "b32",
+      "name": "Page 16 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 16,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Thank you"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Thank you": "16\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 16"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b33",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Extra Slides\n17\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 17",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "table",
+      "id": "b34",
+      "name": "Page 17 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 17,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Extra Slides"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Extra Slides": "17\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 17"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b35",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Introduction\nFLAMES AND EXTERNAL E-FIELDS\nFlame behavior changes with an applied electric field\nFig.A1. Co-flow ethane flame with E-field applied.\nPic by Sunny Karnani, LFA group (UC Irvine, CA, US)\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 18",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "table",
+      "id": "b36",
+      "name": "Page 18 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 18,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Introduction\nFLAMES AND EXTERNAL E-FIELDS\nFlame behavior changes with an applied electric field\nFig.A1. Co-flow ethane flame with E-field applied.\nPic by Sunny Karnani, LFA group (UC Irvine, CA, US)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Introduction\nFLAMES AND EXTERNAL E-FIELDS\nFlame behavior changes with an applied electric field\nFig.A1. Co-flow ethane flame with E-field applied.\nPic by Sunny Karnani, LFA group (UC Irvine, CA, US)": "33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 18"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b37",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Mesh\n(Rough)\nw\no\nl\nl n -\nf\na o\ni\nn a C\nr m\ne\nt o Fuel\nn\nd\nI\nWall\nFig.A2. Mesh design (144234 squared cells)\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 19",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "table",
+      "id": "b38",
+      "name": "Page 19 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 19,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Mesh\n(Rough)\nw\no\nl\nf\nl n -\na o\ni\nn a C\nr m\ne\nt o Fuel\nn\nd\nI\nWall\nFig.A2. Mesh design (144234 squared cells)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Mesh\n(Rough)\nw\no\nl\nf\nl n -\na o\ni\nn a C\nr m\ne\nt o Fuel\nn\nd\nI\nWall\nFig.A2. Mesh design (144234 squared cells)": "33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 19"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b39",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "OpenFOAM® Simulation\nLe vs Sc\nLe=1 Sc=0.7\nLe = 1 vs Sc = 0.7\nApparently not big change\n0G\nin height. What it really\nmakes the difference is\nthe transport data\n(Sutherland model\npredicted for each specie)\nbut mostly the non-\nuniform velocity model.\n1G\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 20",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "table",
+      "id": "b40",
+      "name": "Page 20 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 20,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "OpenFOAM® Simulation\nLe vs Sc\nLe=1 Sc=0.7\nLe = 1 vs Sc = 0.7\nApparently not big change\n0G\nin height. What it really\nmakes the difference is\nthe transport data\n(Sutherland model\npredicted for each specie)\nbut mostly the non-\nuniform velocity model.\n1G"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "OpenFOAM® Simulation\nLe vs Sc\nLe=1 Sc=0.7\nLe = 1 vs Sc = 0.7\nApparently not big change\n0G\nin height. What it really\nmakes the difference is\nthe transport data\n(Sutherland model\npredicted for each specie)\nbut mostly the non-\nuniform velocity model.\n1G": "33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 20"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b41",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "OpenFOAM® Simulation\nLe vs Sc\nLe=1 Sc=0.7\nLe = 1 vs Sc = 0.7\nApparently not big change\n0G\nin height. What it really\nmakes the difference is\nthe transport data\n(Sutherland model\npredicted for each specie)\nbut mostly the non-\nuniform velocity model.\n1G\n33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 21",
+      "location": {
+        "page": 21
+      }
+    },
+    {
+      "type": "table",
+      "id": "b42",
+      "name": "Page 21 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 21,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "OpenFOAM® Simulation\nLe vs Sc\nLe=1 Sc=0.7\nLe = 1 vs Sc = 0.7\nApparently not big change\n0G\nin height. What it really\nmakes the difference is\nthe transport data\n(Sutherland model\npredicted for each specie)\nbut mostly the non-\nuniform velocity model.\n1G"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "OpenFOAM® Simulation\nLe vs Sc\nLe=1 Sc=0.7\nLe = 1 vs Sc = 0.7\nApparently not big change\n0G\nin height. What it really\nmakes the difference is\nthe transport data\n(Sutherland model\npredicted for each specie)\nbut mostly the non-\nuniform velocity model.\n1G": "33rd ASGSR Annual meeting. Oct. 25-28, 2017. clopezca@uci.edu 21"
+          }
+        }
+      ]
+    }
+  ]
+}

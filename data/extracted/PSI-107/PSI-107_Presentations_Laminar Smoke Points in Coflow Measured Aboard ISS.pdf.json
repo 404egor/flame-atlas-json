@@ -1,0 +1,1615 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-107",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-107_Presentations_Laminar Smoke Points in Coflow Measured Aboard ISS.pdf",
+    "folder": "Presentations",
+    "subfolder": null,
+    "key": "psi-data/PSI-107/Presentations/PSI-107_Presentations_Laminar Smoke Points in Coflow Measured Aboard ISS.pdf",
+    "version": 1,
+    "sizeBytes": 1306705,
+    "sha256": "bd980e9e1195e0225a31c070c279b06a131f7f66a387a35ab3e7e17a25cde256",
+    "localPath": "data/raw/PSI-107/Presentations/PSI-107_Presentations_Laminar Smoke Points in Coflow Measured Aboard ISS.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-107"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:29:05+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 3 table 2: 5 line(s) above the header skipped",
+    "Page 11 table 2: 5 empty header(s) named column_<n> (columns 2-6)",
+    "Page 13 table 2: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 15 table 2: 1 line(s) above the header skipped",
+    "Page 16 table 2: 8 line(s) above the header skipped",
+    "Page 16 table 2: 6 empty header(s) named column_<n> (columns 1, 4, 8, 11, 15-16)",
+    "Page 20 table 2: 1 line(s) above the header skipped",
+    "Page 21 table 1: 2 line(s) above the header skipped",
+    "Page 21 table 1: 6 empty header(s) named column_<n> (columns 1, 3-7)",
+    "Page 22 table 2: 4 empty header(s) named column_<n> (columns 1, 3-4, 6)",
+    "Page 24 table 2: 1 empty header(s) named column_<n> (columns 1)",
+    "2 page(s) without extractable text"
+  ],
+  "stats": {
+    "textBlocks": 23,
+    "characters": 8184,
+    "tables": 23,
+    "tableRows": 107,
+    "pages": 25
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "48th AIAA Aerospace Sciences Meeting\nOrlando, FL, January 6, 2010\nLLaammiinnaarr SSmmookkee PPooiinnttss iinn CCooffllooww\nMMeeaassuurreedd AAbbooaarrdd tthhee IInntteerrnnaattiioonnaall SSppaaccee\nSSttaattiioonn\nK. T. Dotson1, P.B. Sunderland1,\nZZ.-GG. YYuuaann2, DD.LL. UUrrbbaann2\n1University of Maryland,\nDepartment of Fire Protection Engineering\n2NASA Glenn Research Center\nAcknowledgments\nGerard M. Faeth\nSSPICCE Engineering Team\nISS Crew: M. Barratt, E.M. Fincke, S.H. Magnus, K. Wakata\nSupported by NASA cooperative agreement NNX07AO91A\n1",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "table",
+      "id": "b2",
+      "name": "Page 1 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "LLaammiinnaarr SSmmookkee PPooiinnttss iinn CCooffllooww\nMMeeaassuurreedd AAbbooaarrdd tthhee IInntteerrnnaattiioonnaall SSppaaccee"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "LLaammiinnaarr SSmmookkee PPooiinnttss iinn CCooffllooww\nMMeeaassuurreedd AAbbooaarrdd tthhee IInntteerrnnaattiioonnaall SSppaaccee": "SSttaattiioonn\nK. T. Dotson1, P.B. Sunderland1,\nZZ.-GG. YYuuaann2, DD.LL. UUrrbbaann2"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "LLaammiinnaarr SSmmookkee PPooiinnttss iinn CCooffllooww\nMMeeaassuurreedd AAbbooaarrdd tthhee IInntteerrnnaattiioonnaall SSppaaccee": "1University of Maryland,"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "LLaammiinnaarr SSmmookkee PPooiinnttss iinn CCooffllooww\nMMeeaassuurreedd AAbbooaarrdd tthhee IInntteerrnnaattiioonnaall SSppaaccee": "Department of Fire Protection Engineering\n2NASA Glenn Research Center"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "LLaammiinnaarr SSmmookkee PPooiinnttss iinn CCooffllooww\nMMeeaassuurreedd AAbbooaarrdd tthhee IInntteerrnnaattiioonnaall SSppaaccee": "Acknowledgments\nGerard M. Faeth"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "LLaammiinnaarr SSmmookkee PPooiinnttss iinn CCooffllooww\nMMeeaassuurreedd AAbbooaarrdd tthhee IInntteerrnnaattiioonnaall SSppaaccee": "SSPICCE Engineering Team\nISS Crew: M. Barratt, E.M. Fincke, S.H. Magnus, K. Wakata\nSupported by NASA cooperative agreement NNX07AO91A\n1"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MMoottiivvaattiioonn\n• Soot\n– Pollutant, carcinogen, contributes to glacial melting\n• Smoke point (SP) measures sooting propensity.\n– Luminous flame length before smoke emission.\n– Correlates w/ soot volume fraction and radiative loss fraction.\n• Prediction: Non-buoyant flames don’t have smoke points.\n– Residence time would not scale with flow rate.\n• Smoke ppoints found aboard pparabolic aircraft and sppace shuttle.\n• It is believed that residence time influences smoking behavior.\n(cid:1311) UUssee ccooffllooww ttoo ccoonnttrrooll rreessiiddeennccee ttiimmee.\n2",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "table",
+      "id": "b4",
+      "name": "Page 2 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 2,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "• Soot\n– Pollutant, carcinogen, contributes to glacial melting"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "• Soot\n– Pollutant, carcinogen, contributes to glacial melting": "• Smoke point (SP) measures sooting propensity.\n– Luminous flame length before smoke emission."
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "• Soot\n– Pollutant, carcinogen, contributes to glacial melting": "– Correlates w/ soot volume fraction and radiative loss fraction.\n• Prediction: Non-buoyant flames don’t have smoke points."
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "• Soot\n– Pollutant, carcinogen, contributes to glacial melting": "– Residence time would not scale with flow rate.\n• Smoke ppoints found aboard pparabolic aircraft and sppace shuttle."
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "• Soot\n– Pollutant, carcinogen, contributes to glacial melting": "• It is believed that residence time influences smoking behavior."
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "• Soot\n– Pollutant, carcinogen, contributes to glacial melting": "(cid:1311) UUssee ccooffllooww ttoo ccoonnttrrooll rreessiiddeennccee ttiimmee.\n2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "BBaacckkggrroouunndd\nTypical 1-g Smoke Point Behavior:\nEthylene 1 Atm, Nozzle I.D. 14 mm, co-flow ID 101 mm, co-flow 6.4 cm/s (Air)\n3",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "BBaacckkggrroouunndd\n• Non-buoyant smoke points were first observed on low-gravity aircraft.\n• Drop tower test results were ambiguous for ethylene smoke points\nowingg to short development times\n• The Laminar Soot Processes Experiment (1997) with quiescent\naammbbiieenntt ooffffeerreedd tthhee iinnaaddvveerrtteenntt ooppppoorrttuunniittyy ttoo ssttuuddyy ssmmookkee ppooiinnttss iinn aa\nquiescent ambient.\n•• TTwwoo ttyyppee ooff ssoooott eemmiissssiioonn wweerree oobbsseerrvveedd:: tteerrmmeedd cclloosseedd ttiipp aanndd\nopen tip.\n4",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "table",
+      "id": "b7",
+      "name": "Page 4 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 4,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "• Non-buoyant smoke points were first observed on low-gravity aircraft."
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "• Non-buoyant smoke points were first observed on low-gravity aircraft.": "• Drop tower test results were ambiguous for ethylene smoke points\nowingg to short development times"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "• Non-buoyant smoke points were first observed on low-gravity aircraft.": "• The Laminar Soot Processes Experiment (1997) with quiescent\naammbbiieenntt ooffffeerreedd tthhee iinnaaddvveerrtteenntt ooppppoorrttuunniittyy ttoo ssttuuddyy ssmmookkee ppooiinnttss iinn aa"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "• Non-buoyant smoke points were first observed on low-gravity aircraft.": "quiescent ambient.\n•• TTwwoo ttyyppee ooff ssoooott eemmiissssiioonn wweerree oobbsseerrvveedd:: tteerrmmeedd cclloosseedd ttiipp aanndd"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "• Non-buoyant smoke points were first observed on low-gravity aircraft.": "open tip."
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "• Non-buoyant smoke points were first observed on low-gravity aircraft.": "4"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "BBaacckkggrroouunndd\nOnset of open-tip laminar smoke-point condition\n100 kPa\n1.6 mm nozzle\nEthylene",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "table",
+      "id": "b9",
+      "name": "Page 5 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 5,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "BBaacckkggrroouunndd"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 5,
+          "raw": {
+            "BBaacckkggrroouunndd": "Onset of open-tip laminar smoke-point condition\n100 kPa"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "BBaacckkggrroouunndd": "1.6 mm nozzle\nEthylene"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b10",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Structure of open-tip flame\n100kPa ethylene flame soot\nconcentration and temperature\n5500 mm\nLuminous flame length 49 cm",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "table",
+      "id": "b11",
+      "name": "Page 6 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 6,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Structure of open-tip flame"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Structure of open-tip flame": "100kPa ethylene flame soot"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Structure of open-tip flame": "concentration and temperature"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Structure of open-tip flame": "5500 mm\nLuminous flame length 49 cm"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b12",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "BBaacckkggrroouunndd\nOnset of closed-tip laminar smoke-point condition\n5500 kkPPa\n1.6 mm Nozzle\nEthylene",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "table",
+      "id": "b13",
+      "name": "Page 7 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 7,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "BBaacckkggrroouunndd"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 5,
+          "raw": {
+            "BBaacckkggrroouunndd": "Onset of closed-tip laminar smoke-point condition"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "BBaacckkggrroouunndd": "5500 kkPPa\n1.6 mm Nozzle\nEthylene"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b14",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Structure of closed-tip flame\n50 kPa Ethylene flame soot\nccoonncceennttrraattiioonn aanndd tteemmppeerraattuurree\n50 mm\nLuminous flame length 63 mm",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "table",
+      "id": "b15",
+      "name": "Page 8 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 8,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Structure of closed-tip flame"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Structure of closed-tip flame": "50 kPa Ethylene flame soot\nccoonncceennttrraattiioonn aanndd tteemmppeerraattuurree"
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Structure of closed-tip flame": "50 mm\nLuminous flame length 63 mm"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b16",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "BBaacckkggrroouunndd\n• In buoyant flames, coflow increases smoke point.\n– SP increases up to a point, then effect ceases (Schalla 1954).\n– SSPP iinnccrreeaasseess ffoorr llooww pprreessssuurree ffllaammeess .\n– Hypothesis: Altered soot pathways, reduced soot formation time.\n• Non-buoyant smoke point flame lengths3,4.\n– Based on Mahalingam et. al (1990) and Spalding (1979).\n(L  L ) C Re Sc\nCoflow Case\nf 0 f d\n\nNeglects v dd 1166ZZ mm\n\nSSTT ff\nL  C\nf\nZ\n(L  L ) 3C Re Sc\nST\nf 0 f d\nStill Air Case \ndd 3322ZZ\nST\n11",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "table",
+      "id": "b17",
+      "name": "Page 11 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 11,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "• In buoyant flames, coflow increases smoke point.\n– SP increases up to a point, then effect ceases (Schalla 1954).",
+        "column_2",
+        "column_3",
+        "column_4",
+        "column_5",
+        "column_6"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "• In buoyant flames, coflow increases smoke point.\n– SP increases up to a point, then effect ceases (Schalla 1954).": "– SSPP iinnccrreeaasseess ffoorr llooww pprreessssuurree ffllaammeess .\n– Hypothesis: Altered soot pathways, reduced soot formation time.",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "• In buoyant flames, coflow increases smoke point.\n– SP increases up to a point, then effect ceases (Schalla 1954).": "• Non-buoyant smoke point flame lengths3,4.\n– Based on Mahalingam et. al (1990) and Spalding (1979).",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "• In buoyant flames, coflow increases smoke point.\n– SP increases up to a point, then effect ceases (Schalla 1954).": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "(L  L ) C Re Sc\nCoflow Case\nf 0 f d\n\nNeglects v dd 1166ZZ mm\n",
+            "column_5": "",
+            "column_6": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "• In buoyant flames, coflow increases smoke point.\n– SP increases up to a point, then effect ceases (Schalla 1954).": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "(L  L ) C Re Sc\nCoflow Case\nf 0 f d\n\nNeglects v dd 1166ZZ",
+            "column_6": "mm\n"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "• In buoyant flames, coflow increases smoke point.\n– SP increases up to a point, then effect ceases (Schalla 1954).": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "SSTT",
+            "column_6": "ff\nL  C\nf\nZ\nST"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "• In buoyant flames, coflow increases smoke point.\n– SP increases up to a point, then effect ceases (Schalla 1954).": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "(L  L ) 3C Re Sc\nf 0 f d\nStill Air Case ",
+            "column_6": ""
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "• In buoyant flames, coflow increases smoke point.\n– SP increases up to a point, then effect ceases (Schalla 1954).": "dd 3322ZZ\nST\n11",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "dd 3322ZZ\nST",
+            "column_6": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b18",
+      "name": "Page 11 table 3",
+      "confidence": "low",
+      "location": {
+        "page": 11,
+        "table": 3
+      },
+      "headerRow": 1,
+      "columns": [
+        "mm\n"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "mm\n": "ff\nL  C\nf\nZ\nST"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "OObbjjeeccttiivveess\n• Measure nonbuoyant smoke points of various fuels.\n• IIddeennttiiffyy tthhee eeffffeeccttss ooff ccooffllooww vveelloocciittyy, uu , aanndd bbuurrnneerr ddiiaammeetteerr, dd.\na\n– They control of the flame velocity field.\n•• CCoorrrreellaattee tthhee lluummiinnoouuss ffllaammee lleennggtthhss, LL .\nSP\nMicrogravity Science Glovebox (MSG) ISS Crewmember Micheal Barratt\n12",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "table",
+      "id": "b20",
+      "name": "Page 12 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 12,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "• Measure nonbuoyant smoke points of various fuels.\n• IIddeennttiiffyy tthhee eeffffeeccttss ooff ccooffllooww vveelloocciittyy, uu , aanndd bbuurrnneerr ddiiaammeetteerr, dd."
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "• Measure nonbuoyant smoke points of various fuels.\n• IIddeennttiiffyy tthhee eeffffeeccttss ooff ccooffllooww vveelloocciittyy, uu , aanndd bbuurrnneerr ddiiaammeetteerr, dd.": "a\n– They control of the flame velocity field."
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "• Measure nonbuoyant smoke points of various fuels.\n• IIddeennttiiffyy tthhee eeffffeeccttss ooff ccooffllooww vveelloocciittyy, uu , aanndd bbuurrnneerr ddiiaammeetteerr, dd.": "•• CCoorrrreellaattee tthhee lluummiinnoouuss ffllaammee lleennggtthhss, LL .\nSP"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "• Measure nonbuoyant smoke points of various fuels.\n• IIddeennttiiffyy tthhee eeffffeeccttss ooff ccooffllooww vveelloocciittyy, uu , aanndd bbuurrnneerr ddiiaammeetteerr, dd.": "Microgravity Science Glovebox (MSG) ISS Crewmember Micheal Barratt\n12"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b21",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "EExxppeerriimmeennttaall\nPerforated\n• Brought to ISS 2008 Copper Plate\n• Operated on ISS in 2009.\n• AAddjjuusstt aaiirr aanndd ffuueell vveelloocciittiieess.\n• Find smoke point.\n• Nikon D100 SLR color digital camera for stills.\n•• CCoolloorr vviiddeeoo ddoowwnn-lliinnkkeedd iinn rreeaall-ttiimmee.\nScreen\n• Smoke points from video.\n– FFllaammee ttiipp aatt mmaaxxiimmuumm rraattee ooff cchhaannggee iinn ggrraayyssccaallee\nHHoneycombb\nintensity.\nFan\n13",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "table",
+      "id": "b22",
+      "name": "Page 13 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 13,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Perforated\n• Brought to ISS 2008 Copper Plate",
+        "column_2"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Perforated\n• Brought to ISS 2008 Copper Plate": "",
+            "column_2": "Perforated\nCopper Plate"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Perforated\n• Brought to ISS 2008 Copper Plate": "• Operated on ISS in 2009.\n• AAddjjuusstt aaiirr aanndd ffuueell vveelloocciittiieess.",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Perforated\n• Brought to ISS 2008 Copper Plate": "• Find smoke point.",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Perforated\n• Brought to ISS 2008 Copper Plate": "• Nikon D100 SLR color digital camera for stills.\n•• CCoolloorr vviiddeeoo ddoowwnn-lliinnkkeedd iinn rreeaall-ttiimmee.",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Perforated\n• Brought to ISS 2008 Copper Plate": "• Smoke points from video.",
+            "column_2": "Screen"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Perforated\n• Brought to ISS 2008 Copper Plate": "– FFllaammee ttiipp aatt mmaaxxiimmuumm rraattee ooff cchhaannggee iinn ggrraayyssccaallee\nHHoneycombb\nintensity.\nFan\n13",
+            "column_2": "HHoneycombb"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Perforated\n• Brought to ISS 2008 Copper Plate": "",
+            "column_2": "Fan"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b23",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "TTeesstt MMaattrriixx\n• Fuels: C H , C H , C H , C H /N\n2 4 3 8 3 6 3 6 2\n– No smoke points for CH - flames too long\n4\n• 2 Mixtures: 75% and 50% C H w/ balance N\n3 6 2\n• Round burners ID : 0.41, 0.76, 1.60 mm\n• Duct (76 x 76 mm) x 170 mm long\n• CCooffllooww vveelloocciittyy:: 55 – 6655 ccmm//ss\n• Conditions limited by length of test volume and onset of flame\nlliiffttiinngg.\n• Re < 788 → laminar jets\nd\n14",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "table",
+      "id": "b24",
+      "name": "Page 14 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 14,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "• Fuels: C H , C H , C H , C H /N\n2 4 3 8 3 6 3 6 2"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "• Fuels: C H , C H , C H , C H /N\n2 4 3 8 3 6 3 6 2": "– No smoke points for CH - flames too long\n4\n• 2 Mixtures: 75% and 50% C H w/ balance N\n3 6 2"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "• Fuels: C H , C H , C H , C H /N\n2 4 3 8 3 6 3 6 2": "• Round burners ID : 0.41, 0.76, 1.60 mm"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "• Fuels: C H , C H , C H , C H /N\n2 4 3 8 3 6 3 6 2": "• Duct (76 x 76 mm) x 170 mm long\n• CCooffllooww vveelloocciittyy:: 55 – 6655 ccmm//ss"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "• Fuels: C H , C H , C H , C H /N\n2 4 3 8 3 6 3 6 2": "• Conditions limited by length of test volume and onset of flame"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "• Fuels: C H , C H , C H , C H /N\n2 4 3 8 3 6 3 6 2": "lliiffttiinngg.\n• Re < 788 → laminar jets\nd\n14"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b25",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "EEffffeeccttss ooff FFuueell aanndd CCooffllooww VVeelloocciittyy\nFFiixedd FFuell VVellociitty, u\nf\nDecreasing Coflow\nVVeelloocciittyy, uu\na\nFixed Coflow Velocity,\nu\na\nIncreasing Fuel\nVVeelloocciittyy, uu\nf\n15",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "table",
+      "id": "b26",
+      "name": "Page 15 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 15,
+        "table": 2
+      },
+      "headerRow": 2,
+      "columns": [
+        "FFiixedd FFuell VVellociitty, u\nf\nDecreasing Coflow"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "FFiixedd FFuell VVellociitty, u\nf\nDecreasing Coflow": "VVeelloocciittyy, uu\na"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "FFiixedd FFuell VVellociitty, u\nf\nDecreasing Coflow": "Fixed Coflow Velocity,"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "FFiixedd FFuell VVellociitty, u\nf\nDecreasing Coflow": "u\na\nIncreasing Fuel"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "FFiixedd FFuell VVellociitty, u\nf\nDecreasing Coflow": "VVeelloocciittyy, uu\nf\n15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b27",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SSmmookkee PPooiinntt IImmaaggeess\nPropylene C H\n3 6\n50mm\n25mm\nd (mm) 1.6 0.76 0.41\nu (cm/s) 12 21 29 61 96 126 484 595 716\nf\nu (cm/s) 9.1 34 51 7.2 27 41 5.4 15 27\na\n16",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "table",
+      "id": "b28",
+      "name": "Page 16 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 16,
+        "table": 2
+      },
+      "headerRow": 9,
+      "columns": [
+        "column_1",
+        "u (cm/s)\nf",
+        "12",
+        "column_4",
+        "21",
+        "29",
+        "61",
+        "column_8",
+        "96",
+        "126",
+        "column_11",
+        "484",
+        "595",
+        "716",
+        "column_15",
+        "column_16"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "u (cm/s)\nf": "u (cm/s)\na",
+            "12": "9.1",
+            "column_4": "",
+            "21": "34",
+            "29": "51",
+            "61": "7.2",
+            "column_8": "",
+            "96": "27",
+            "126": "41",
+            "column_11": "",
+            "484": "5.4",
+            "595": "15",
+            "716": "27",
+            "column_15": "",
+            "column_16": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "16",
+            "u (cm/s)\nf": "",
+            "12": "",
+            "column_4": "",
+            "21": "",
+            "29": "",
+            "61": "",
+            "column_8": "",
+            "96": "",
+            "126": "",
+            "column_11": "",
+            "484": "",
+            "595": "",
+            "716": "",
+            "column_15": "",
+            "column_16": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b29",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SSmmookkee PPooiinnttss iinn CCooffllooww\n• Increasing u\na\nincreases L .\nSP\n–– DDeeccrreeaasseess ssoooott\nformation time.\n• DDeeccrreeaassiinngg dd\nincreases L .\nSP\n•• FFoorr dd == 11.66 mmmm,\nfuel order is that of\nbuoyant SPs.\n• For d = 0.76 mm,\nC H L longer\n2 4 SP\ntthhaann CC HH LL .\n3 8 SP\n17",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "table",
+      "id": "b30",
+      "name": "Page 17 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 17,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "• Increasing u\na\nincreases L .\nSP\n–– DDeeccrreeaasseess ssoooott"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "• Increasing u\na\nincreases L .\nSP\n–– DDeeccrreeaasseess ssoooott": "formation time.\n• DDeeccrreeaassiinngg dd"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "• Increasing u\na\nincreases L .\nSP\n–– DDeeccrreeaasseess ssoooott": "increases L .\nSP"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "• Increasing u\na\nincreases L .\nSP\n–– DDeeccrreeaasseess ssoooott": "•• FFoorr dd == 11.66 mmmm,\nfuel order is that of\nbuoyant SPs."
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "• Increasing u\na\nincreases L .\nSP\n–– DDeeccrreeaasseess ssoooott": "• For d = 0.76 mm,\nC H L longer\n2 4 SP"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "• Increasing u\na\nincreases L .\nSP\n–– DDeeccrreeaasseess ssoooott": "tthhaann CC HH LL .\n3 8 SP\n17"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b31",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SSmmookkee PPooiinnttss iinn CCooffllooww && QQuuiieesscceenntt\n• C H and C H ,\n3 8 2 4\nSPICE and LSP.\n• Extrapolation to u = 0\na\n– MMaattcchheess ffoorr CC HH ..\n22 44\n– 0.76 mm C H hits\n3 8\nlower end of LSP\nrange.\nUrban\net. al.,\n(1995)\n• LSP observed weak\ndiameter\ndependence.\n18",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "table",
+      "id": "b32",
+      "name": "Page 18 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 18,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "• C H and C H ,\n3 8 2 4\nSPICE and LSP."
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "• C H and C H ,\n3 8 2 4\nSPICE and LSP.": "• Extrapolation to u = 0\na\n– MMaattcchheess ffoorr CC HH .."
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "• C H and C H ,\n3 8 2 4\nSPICE and LSP.": "22 44\n– 0.76 mm C H hits\n3 8\nlower end of LSP\nrange.\nUrban"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "• C H and C H ,\n3 8 2 4\nSPICE and LSP.": "et. al.,\n(1995)\n• LSP observed weak\ndiameter"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "• C H and C H ,\n3 8 2 4\nSPICE and LSP.": "dependence."
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "• C H and C H ,\n3 8 2 4\nSPICE and LSP.": "18"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b33",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SSmmookkee PPooiinntt LLuummiinnoouuss LLeennggtthhss\n• Reasonable\ncorrelation without\nvviirrttuuaall oorriiggiinn\ncorrection.\n• L depends\nSP\nprimarily on m and\nf\nZst.\n• Larger slope for\nlower u /u .\na f\n• Coflow flame shape\nForced to (0,0)\ntheory neglects radial\nvelocity.\n19",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "table",
+      "id": "b34",
+      "name": "Page 19 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 19,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "• Reasonable\ncorrelation without"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "• Reasonable\ncorrelation without": "vviirrttuuaall oorriiggiinn\ncorrection."
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "• Reasonable\ncorrelation without": "• L depends\nSP\nprimarily on m and\nf\nZst."
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "• Reasonable\ncorrelation without": "• Larger slope for\nlower u /u .\na f"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "• Reasonable\ncorrelation without": "• Coflow flame shape\nForced to (0,0)\ntheory neglects radial"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "• Reasonable\ncorrelation without": "velocity.\n19"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b35",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SSmmookkee PPooiinntt LLuummiinnoouuss LLeennggtthhss\nLSP points were\n• QQuuiieesscceenntt 3300 - 113300\nkPa\n• d = 1.6 and 2.7 mm.\n• Similar slopes despite\nchhange iin co-ffllow .\n20",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "table",
+      "id": "b36",
+      "name": "Page 20 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 20,
+        "table": 2
+      },
+      "headerRow": 2,
+      "columns": [
+        "LSP points were\n• QQuuiieesscceenntt 3300 - 113300"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "LSP points were\n• QQuuiieesscceenntt 3300 - 113300": "kPa\n• d = 1.6 and 2.7 mm."
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "LSP points were\n• QQuuiieesscceenntt 3300 - 113300": "• Similar slopes despite"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "LSP points were\n• QQuuiieesscceenntt 3300 - 113300": "chhange iin co-ffllow ."
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "LSP points were\n• QQuuiieesscceenntt 3300 - 113300": "20"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b37",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Simplified Treatment of Residence Time\n150\n• CCeenntteerrlliinnee vveelloocciittyy ooff\nnon-reacting jet\n(Spauling).\n120\n• SSiimmiillaarriittyy ooff jjeett-ccooffllooww\ndefect velocity.\n90\n• Shift solution to match\nboundary conditions.\n)sm(\nse\nboundary conditions.\n60\n• Residence time for\nsmoke points\nt\ner\nd(mm) 0.41 0.76 1.6\nC H\n2 4\nsmoke points\nCC HH\n3 8\n30\nC H decrease with L\n3 6\nSP\n75% C H\n3 6\n– Effect of coflow.\n+\n50% C H\n3 6\n•• SSiimmiillaarr ssccaatttteerr wwaass\n00\nseen with formation\n0 20 40 60 80 100 120\ntime/oxidation time\nL (mm)\nSP",
+      "location": {
+        "page": 21
+      }
+    },
+    {
+      "type": "table",
+      "id": "b38",
+      "name": "Page 21 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 21,
+        "table": 1
+      },
+      "headerRow": 3,
+      "columns": [
+        "column_1",
+        "150\n• CC",
+        "column_3",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "eenntteerrlliinnee vveelloocciittyy ooff"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "150\n• CC": "",
+            "column_3": "150",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "eenntteerrlliinnee vveelloocciittyy ooff": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "150\n• CC": "",
+            "column_3": "120",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "no\n(S\n• SSii",
+            "eenntteerrlliinnee vveelloocciittyy ooff": "n-reacting jet\npauling).\nmmiillaarriittyy ooff jjeett-ccooffllooww"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "150\n• CC": "",
+            "column_3": ")sm(\n90\nseer\nt",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "de\n• S\nbboo",
+            "eenntteerrlliinnee vveelloocciittyy ooff": "fect velocity.\nhift solution to match\nuunnddaarryy ccoonnddiittiioonnss.."
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "",
+            "150\n• CC": "",
+            "column_3": "60",
+            "column_4": "",
+            "column_5": "d(mm) 0.41 0.76 1.6\nC H\n2 4",
+            "column_6": "",
+            "column_7": "• R\nss",
+            "eenntteerrlliinnee vveelloocciittyy ooff": "esidence time for\nmmookkee ppooiinnttss"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "",
+            "150\n• CC": "",
+            "column_3": "30",
+            "column_4": "",
+            "column_5": "CC HH\n3 8\nC H\n3 6\n75% C H\n3 6\n+\n50% C H\n3 6",
+            "column_6": "",
+            "column_7": "de\n–",
+            "eenntteerrlliinnee vveelloocciittyy ooff": "crease with L\nSP\nEffect of coflow."
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "column_1": "•• SSiimmiillaarr ssccaatttteerr wwaass\n00\nseen with formation\n0 20 40 60 80 100 120\ntime/oxidation time\nL (mm)\nSP",
+            "150\n• CC": "•• SSii\n00\nse\n0 20 40 60 80 100 120\ntim\nL (mm)\nSP",
+            "column_3": "00\n0 20 40 60 80 100 120\nL (mm)\nSP",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "eenntteerrlliinnee vveelloocciittyy ooff": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b39",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Threshold Soot Indices\n120\ny = 5.99x\n0g TSI 1g TSI\nR² = 0.93\n110000\nCC HH 11.33 11.33\n2 4\nC H 1.39 0.6\n3 8\n80\nC H 4.51 4.8\n3 6\n75% C H 3.38 3.6\n3 6\n60 50% C H 2.26 2.4\n3 6\n)mm(\nPS\n1-g TSI’s from Calcote and 40\nManos\nL\nS\nd(mm) 0.41 0.76 1.6\nC H\n2 4\nC H\n3 8\nC H\n20 3 6\n75% C H\n3 6\n+\n50% C H\n3 6\n00\n0 5 10 15 20\nTSI-1 ( d / mm )-0.8 [ u / ( mm / s ) ]0.5\nair\n22",
+      "location": {
+        "page": 22
+      }
+    },
+    {
+      "type": "table",
+      "id": "b40",
+      "name": "Page 22 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 22,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "120\ny = 5.99x\nR² = 0.93\n110000",
+        "column_3",
+        "column_4",
+        "0g TSI 1g TSI",
+        "column_6"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "120\ny = 5.99x\nR² = 0.93\n110000": "",
+            "column_3": "y = 5.99x\nR² = 0.93",
+            "column_4": "",
+            "0g TSI 1g TSI": "",
+            "column_6": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "120\ny = 5.99x\nR² = 0.93\n110000": "",
+            "column_3": "",
+            "column_4": "",
+            "0g TSI 1g TSI": "",
+            "column_6": "0g TSI 1g TSI"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "120\ny = 5.99x\nR² = 0.93\n110000": "80",
+            "column_3": "",
+            "column_4": "",
+            "0g TSI 1g TSI": "",
+            "column_6": "CC HH 11.33 11.33\n2 4\nC H 1.39 0.6\n3 8\nC H 4.51 4.8\n3 6"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "120\ny = 5.99x\nR² = 0.93\n110000": ")mm(\n60\nP",
+            "column_3": "",
+            "column_4": "",
+            "0g TSI 1g TSI": "",
+            "column_6": "75% C H 3.38 3.6\n3 6\n50% C H 2.26 2.4\n3 6"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "",
+            "120\ny = 5.99x\nR² = 0.93\n110000": "S S\nL\n40",
+            "column_3": "d(mm) 0.41 0.76 1.6\nC H\n2 4\nC H\n3 8",
+            "column_4": "",
+            "0g TSI 1g TSI": "1-g TSI’s from Calcote and\nManos",
+            "column_6": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "",
+            "120\ny = 5.99x\nR² = 0.93\n110000": "20",
+            "column_3": "C H\n3 6\n75% C H\n3 6\n+\n50% C H\n3 6",
+            "column_4": "",
+            "0g TSI 1g TSI": "",
+            "column_6": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "column_1": "00\n0 5 10 15 20\nTSI-1 ( d / mm )-0.8 [ u / ( mm / s ) ]0.5\nair\n22",
+            "120\ny = 5.99x\nR² = 0.93\n110000": "00\n0 5 10 15 20\nTSI-1 ( d / mm )-0.8 [ u / ( mm / s ) ]0.5\nair",
+            "column_3": "",
+            "column_4": "",
+            "0g TSI 1g TSI": "",
+            "column_6": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b41",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "CCoonncclluussiioonnss\nOver the presently tested range of fuel, u , and d:\na\n• SSmmookkee ppooiinntt iinnccrreeaasseess wwiitthh iinnccrreeaassiinngg ccooffllooww vveelloocciittyy.\n• Smoke point decreases with increasing burner diameter.\n• Fuel sooting propensities agree with those of buoyant flames.\n– Propane < Ethylene < 50% Propylene < 75% Propylene < Propylene\n• Ethylene less sooty than propane for 0.76 mm burner. (appears\nas a different TSI for propane)\n• L scales with fuel mass flow rate.\nSP\n– Consistent with simplified theory.\n– Second order effect: Longer L for low u / u .\nSP a f\n– Coflow theory neglects radial velocity, v.\n23",
+      "location": {
+        "page": 23
+      }
+    },
+    {
+      "type": "table",
+      "id": "b42",
+      "name": "Page 23 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 23,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Over the presently tested range of fuel, u , and d:\na\n• SSmmookkee ppooiinntt iinnccrreeaasseess wwiitthh iinnccrreeaassiinngg ccooffllooww vveelloocciittyy."
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Over the presently tested range of fuel, u , and d:\na\n• SSmmookkee ppooiinntt iinnccrreeaasseess wwiitthh iinnccrreeaassiinngg ccooffllooww vveelloocciittyy.": "• Smoke point decreases with increasing burner diameter."
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Over the presently tested range of fuel, u , and d:\na\n• SSmmookkee ppooiinntt iinnccrreeaasseess wwiitthh iinnccrreeaassiinngg ccooffllooww vveelloocciittyy.": "• Fuel sooting propensities agree with those of buoyant flames.\n– Propane < Ethylene < 50% Propylene < 75% Propylene < Propylene"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Over the presently tested range of fuel, u , and d:\na\n• SSmmookkee ppooiinntt iinnccrreeaasseess wwiitthh iinnccrreeaassiinngg ccooffllooww vveelloocciittyy.": "• Ethylene less sooty than propane for 0.76 mm burner. (appears\nas a different TSI for propane)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Over the presently tested range of fuel, u , and d:\na\n• SSmmookkee ppooiinntt iinnccrreeaasseess wwiitthh iinnccrreeaassiinngg ccooffllooww vveelloocciittyy.": "• L scales with fuel mass flow rate.\nSP\n– Consistent with simplified theory."
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Over the presently tested range of fuel, u , and d:\na\n• SSmmookkee ppooiinntt iinnccrreeaasseess wwiitthh iinnccrreeaassiinngg ccooffllooww vveelloocciittyy.": "– Second order effect: Longer L for low u / u .\nSP a f\n– Coflow theory neglects radial velocity, v.\n23"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b43",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "TTeesstt PPooiinnttss\nParameter C H C H C H 75% C H 50% C H\n2 4 3 8 3 6 3 6 3 6\nZ 0.0637 0.0603 0.0637 0.0768 0.1018\nst\nTT , KK 22336677 22226644 22333322 22331177 22228888\nadd\nd, mm 0.76 – 1.6 0.76 – 1.6 0.41 – 1.6 0.76 – 1.6 0.76 – 1.6\nu , cm/s 18 – 58 16 – 45 5.4 – 57 13 – 65 11 – 49\na\nLL , mm 3377 – 110055 4466 – 110055 1133 – 5599 1155 – 4444 2222 – 5500\nSP\nu , cm/s 69.6 – 734 48.9 – 460 11.2 – 763 19.9 – 272 49.6 – 112\nf\nm , mg/s 1.62 – 3.89 1.80 – 3.84 0.39 – 1.73 0.64 – 1.98 1.45 – 3.29\nf\nRe 127 – 636 176 – 788 36.4 – 630 49.8 – 324 89.4 – 207\nd\n# SP 6 6 23 13 7\nAAllll ssmmookkee ppooiinntt ffllaammeess wweerree aattttaacchheedd ttoo tthhee bbuurrnneerr, ii.ee., nnoott lliifftteedd.\nFor mixtures the fuel mole fraction is shown and the inert is N2.\nParameters u , u, and Re assume conditions of 298 K, 101 kPa and 211% O2, and\na f d\nuunniiffoorrmm vveelloocciittyy pprrooffiilleess.\nViscosities used to calculate Re involve burner gas properties at 298 K and 101 kPa.\nd\n24",
+      "location": {
+        "page": 24
+      }
+    },
+    {
+      "type": "table",
+      "id": "b44",
+      "name": "Page 24 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 24,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "Parameter",
+        "C H\n2 4",
+        "C H\n3 8",
+        "C H\n3 6",
+        "75% C H\n3 6",
+        "50% C H\n3 6"
+      ],
+      "rowCount": 12,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "Parameter": "Z\nst",
+            "C H\n2 4": "0.0637",
+            "C H\n3 8": "0.0603",
+            "C H\n3 6": "0.0637",
+            "75% C H\n3 6": "0.0768",
+            "50% C H\n3 6": "0.1018"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "Parameter": "TT , KK",
+            "C H\n2 4": "22336677",
+            "C H\n3 8": "22226644",
+            "C H\n3 6": "22333322",
+            "75% C H\n3 6": "22331177",
+            "50% C H\n3 6": "22228888"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "Parameter": "add",
+            "C H\n2 4": "",
+            "C H\n3 8": "",
+            "C H\n3 6": "",
+            "75% C H\n3 6": "",
+            "50% C H\n3 6": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "Parameter": "d, mm",
+            "C H\n2 4": "0.76 – 1.6",
+            "C H\n3 8": "0.76 – 1.6",
+            "C H\n3 6": "0.41 – 1.6",
+            "75% C H\n3 6": "0.76 – 1.6",
+            "50% C H\n3 6": "0.76 – 1.6"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "",
+            "Parameter": "u , cm/s\na",
+            "C H\n2 4": "18 – 58",
+            "C H\n3 8": "16 – 45",
+            "C H\n3 6": "5.4 – 57",
+            "75% C H\n3 6": "13 – 65",
+            "50% C H\n3 6": "11 – 49"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "column_1": "",
+            "Parameter": "LL , mm\nSP",
+            "C H\n2 4": "3377 – 110055",
+            "C H\n3 8": "4466 – 110055",
+            "C H\n3 6": "1133 – 5599",
+            "75% C H\n3 6": "1155 – 4444",
+            "50% C H\n3 6": "2222 – 5500"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "column_1": "",
+            "Parameter": "u , cm/s\nf",
+            "C H\n2 4": "69.6 – 734",
+            "C H\n3 8": "48.9 – 460",
+            "C H\n3 6": "11.2 – 763",
+            "75% C H\n3 6": "19.9 – 272",
+            "50% C H\n3 6": "49.6 – 112"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "column_1": "",
+            "Parameter": "m , mg/s\nf",
+            "C H\n2 4": "1.62 – 3.89",
+            "C H\n3 8": "1.80 – 3.84",
+            "C H\n3 6": "0.39 – 1.73",
+            "75% C H\n3 6": "0.64 – 1.98",
+            "50% C H\n3 6": "1.45 – 3.29"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "column_1": "Re 127 – 636 176 – 788 36.4 – 630 49.8 – 324 89.4 – 207\nd\n# SP 6 6 23 13 7",
+            "Parameter": "Re\nd",
+            "C H\n2 4": "127 – 636",
+            "C H\n3 8": "176 – 788",
+            "C H\n3 6": "36.4 – 630",
+            "75% C H\n3 6": "49.8 – 324",
+            "50% C H\n3 6": "89.4 – 207"
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "column_1": "",
+            "Parameter": "# SP",
+            "C H\n2 4": "6",
+            "C H\n3 8": "6",
+            "C H\n3 6": "23",
+            "75% C H\n3 6": "13",
+            "50% C H\n3 6": "7"
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "column_1": "AAllll ssmmookkee ppooiinntt ffllaammeess wweerree aattttaacchheedd ttoo tthhee bbuurrnneerr, ii.ee., nnoott lliifftteedd.\nFor mixtures the fuel mole fraction is shown and the inert is N2.\nParameters u , u, and Re assume conditions of 298 K, 101 kPa and 211% O2, and\na f d",
+            "Parameter": "",
+            "C H\n2 4": "",
+            "C H\n3 8": "",
+            "C H\n3 6": "",
+            "75% C H\n3 6": "",
+            "50% C H\n3 6": ""
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "column_1": "uunniiffoorrmm vveelloocciittyy pprrooffiilleess.\nViscosities used to calculate Re involve burner gas properties at 298 K and 101 kPa.\nd\n24",
+            "Parameter": "",
+            "C H\n2 4": "",
+            "C H\n3 8": "",
+            "C H\n3 6": "",
+            "75% C H\n3 6": "",
+            "50% C H\n3 6": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b45",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "AAiirr –– FFuueell VVeelloocciittyy RRaattiioo\nSlopes\n((NNoonnzzeerroo yy –\nintercept)\nCC = 11.335577\n11\nC = 1.649\n2\nCC = 22.004466\n3\nu / u\na f\nC = 1.51 C\n1 3 1\n2\n3 LSP Propane data\nCC = 22..002266\nLLSSPP\n25",
+      "location": {
+        "page": 25
+      }
+    },
+    {
+      "type": "table",
+      "id": "b46",
+      "name": "Page 25 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 25,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Slopes"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Slopes": "((NNoonnzzeerroo yy –\nintercept)\nCC = 11.335577"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Slopes": "11\nC = 1.649\n2"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Slopes": "CC = 22.004466\n3\nu / u\na f\nC = 1.51 C\n1 3 1"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Slopes": "2\n3 LSP Propane data\nCC = 22..002266"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Slopes": "LLSSPP\n25"
+          }
+        }
+      ]
+    }
+  ]
+}

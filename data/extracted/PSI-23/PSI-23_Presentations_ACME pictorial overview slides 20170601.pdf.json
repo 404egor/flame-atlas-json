@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-23",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-23_Presentations_ACME pictorial overview slides 20170601.pdf",
+    "folder": "Presentations",
+    "subfolder": null,
+    "key": "psi-data/PSI-23/Presentations/PSI-23_Presentations_ACME pictorial overview slides 20170601.pdf",
+    "version": 1,
+    "sizeBytes": 1954184,
+    "sha256": "618813b751574793ed27006c4ffe64ca25bbbc4efb3ada770b12e2acb4c94cdf",
+    "localPath": "data/raw/PSI-23/Presentations/PSI-23_Presentations_ACME pictorial overview slides 20170601.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:20:31+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 12,
+    "characters": 1415,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": 12
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nWhat's a fire and why does it\n- what's the word? … burn?\nAriel, The Little Mermaid\nfrom the song ‘Part of Your World’\nwww.nasa.gov\n1",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nnormal gravity microgravity\nwww.nasa.gov\n2",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nACME\nAdvanced Combustion\nvia\nMicrogravity Experiments\nFive unique experiments studying\nsymmetric, laminar, non-premixed,\ngas-fueled flames that will be carried\nout on the space station using a\nsingle modular set of hardware.\nwww.nasa.gov\n3",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nwww.nasa.gov\n4",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nwww.nasa.gov\n5",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nCLD Flame\nwww.nasa.gov\n6",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nE-FIELD Flames\nwww.nasa.gov\n7",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nBRE\nwww.nasa.gov\n8",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\ns-Flame\nFlame\nDesign\nwww.nasa.gov\n9",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "text",
+      "id": "b10",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nWhy ACME?\nenergy & environment\nwww.nasa.gov\n10",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nWhy ACME?\nspacecraft fire safety\n“Apollo 13 ... Houston, We Have a Problem” painting by astronaut Alan Bean\nwww.nasa.gov\n11",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "text",
+      "id": "b12",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nTo follow ACME’s progress, like\nwww.facebook.com/space.flames/\nNumerical prediction of flame structure [CLD Flame, Yale University]\nwww.nasa.gov\n12",
+      "location": {
+        "page": 12
+      }
+    }
+  ]
+}

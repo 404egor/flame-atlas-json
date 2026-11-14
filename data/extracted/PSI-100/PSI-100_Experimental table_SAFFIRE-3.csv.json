@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-100",
+  "format": "csv",
+  "source": {
+    "fileName": "PSI-100_Experimental table_SAFFIRE-3.csv",
+    "folder": "Experimental table",
+    "subfolder": null,
+    "key": "psi-data/PSI-100/Experimental table/PSI-100_Experimental table_SAFFIRE-3.csv",
+    "version": 1,
+    "sizeBytes": 239,
+    "sha256": "4d3c717ec20dd0247db670b2784a9fd7d746788bc54a936f80693e48eb8cd117",
+    "localPath": "data/raw/PSI-100/Experimental table/PSI-100_Experimental table_SAFFIRE-3.csv",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-100"
+  },
+  "extractor": {
+    "name": "csv",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:25:40+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 1,
+    "tableRows": 2,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "table",
+      "id": "b1",
+      "name": "PSI-100_Experimental table_SAFFIRE-3",
+      "confidence": "high",
+      "location": {},
+      "headerRow": 1,
+      "columns": [
+        "Sample Number ",
+        "Material",
+        "Sample Thickness",
+        "Sample Length",
+        "Sample Width",
+        "Air Flow ",
+        "Direction",
+        "Camera 1",
+        "Camera 2"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Sample Number ": "S1",
+            "Material": "SIBAL Fabric",
+            "Sample Thickness": ".33 cm",
+            "Sample Length": "94 cm",
+            "Sample Width": "40.6 cm",
+            "Air Flow ": "30 cm/s",
+            "Direction": "Concurrent ",
+            "Camera 1": "S1C1",
+            "Camera 2": "S1C2"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Sample Number ": "S2",
+            "Material": "SIBAL Fabric",
+            "Sample Thickness": ".33 cm",
+            "Sample Length": "94 cm",
+            "Sample Width": "40.6 cm",
+            "Air Flow ": "30 cm/s",
+            "Direction": "Opposed",
+            "Camera 1": "S2C1",
+            "Camera 2": "S2C2"
+          }
+        }
+      ]
+    }
+  ]
+}

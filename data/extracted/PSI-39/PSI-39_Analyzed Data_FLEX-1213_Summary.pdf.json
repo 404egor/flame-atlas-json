@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-39",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-39_Analyzed Data_FLEX-1213_Summary.pdf",
+    "folder": "Analyzed Data",
+    "subfolder": "Reduced Gravity/CFI – DODECANE",
+    "key": "psi-data/PSI-39/Analyzed Data/PSI-39_Analyzed Data_FLEX-1213_Summary.pdf",
+    "version": 2,
+    "sizeBytes": 361255,
+    "sha256": "f719bf08c3d3f75ca5c97f43a73c4d91ab39e22a20bb2c752d94fafbc61d85eb",
+    "localPath": "data/raw/PSI-39/Analyzed Data/Reduced Gravity/CFI – DODECANE/PSI-39_Analyzed Data_FLEX-1213_Summary.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:23:44+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 1,
+    "characters": 605,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": 1
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "1.0\n0.8\n0.6\n0.4\n0.2\n0.0\n2 )\nD\n/\nD\n(\n0\n20\n15\n10\n5\n0\n0.0 0.5 1.0 1.5 2.0 2.5 3.0\n2 2\nt / D ( s / mm )\n0\nDf\n(\nmm\n)\n,\nDf\n/\nDd\n14\n12\n10\n8\n6\n4\n2\n0\n)\nmm\n(\nD\nlooc\n,f\n450\n400\n350\n300\n250\nPeak\nCool\nFlame\nGrayscale\n10\n8\n6\n4\n2\n1\n8\n6\n4\n2\n0.1\n8\nFlame\nRadiance\n(\nW\n)\nMon, Mar 27, 2017\nFLEX-1213\nF086A04\nP = 772.131 mmHg\nY = 0.210\nO2\nY = 0.790\nN2\nY = 0.000\nCO2\nY = 0.000\nHe\nDodecane\nD = 4.189 mm 0\nD = 4.113 mm\next\n2\nk = 0.189 mm /sec\navg\nDroplet History\nHot-Flame Diameter\nHot-Flame FSR\nCool Flame Diameter (FWHM)\nCool Flame Diameter (peak-peak)\nCool Flame Grayscale\nFlame Radiance (wideband)\nFlame Radiance (narrowband)",
+      "location": {
+        "page": 1
+      }
+    }
+  ]
+}
