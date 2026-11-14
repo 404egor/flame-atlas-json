@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+/* `dark:` follows the data-theme attribute on <html>, not the OS setting directly.
+   The attribute is set before first paint by the script in layout.tsx. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/*
+ * Colour tokens. Components use only these names (bg-surface, text-fg-muted, border-line ...),
+ * never palette classes such as bg-white or text-slate-600, so both themes stay in step.
+ * The one exception is the pillar badge map in src/lib/pillars.ts.
+ */
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --surface-muted: #f1f5f9;
+  --fg: #0f172a;
+  --fg-muted: #475569;
+  --fg-subtle: #64748b;
+  --line: #e2e8f0;
+  --line-strong: #94a3b8;
+  --accent: #0f172a;
+  --accent-fg: #ffffff;
+  --warn-bg: #fffbeb;
+  --warn-fg: #78350f;
+  --warn-line: #fde68a;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #020617;
+  --surface: #0f172a;
+  --surface-muted: #1e293b;
+  --fg: #f1f5f9;
+  --fg-muted: #cbd5e1;
+  --fg-subtle: #94a3b8;
+  --line: #1e293b;
+  --line-strong: #64748b;
+  --accent: #f1f5f9;
+  --accent-fg: #0f172a;
+  --warn-bg: #451a03;
+  --warn-fg: #fde68a;
+  --warn-line: #78350f;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-fg-subtle: var(--fg-subtle);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-accent: var(--accent);
+  --color-accent-fg: var(--accent-fg);
+  --color-warn-bg: var(--warn-bg);
+  --color-warn-fg: var(--warn-fg);
+  --color-warn-line: var(--warn-line);
+}
+
+body {
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
