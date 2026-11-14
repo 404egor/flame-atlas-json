@@ -10,6 +10,7 @@ import { countRows } from "@/domain/rows";
 import type { TestFilters } from "@/domain/types";
 import { getInvestigation, tests } from "@/lib/data";
 import { investigationHref } from "@/lib/paths";
+import { ExportButtons } from "./export-buttons";
 import { TestsFilters } from "./tests-filters";
 
 const PAGE_SIZE = 50;
@@ -54,6 +55,8 @@ export function TestsView({
               ? ""
               : " Rows that do not report a filtered value are left out."}
           </p>
+
+          <ExportButtons rows={matching} />
 
           {rows.length === 0 ? (
             <div className="rounded-lg border border-dashed border-line-strong bg-surface-muted p-6 text-sm text-fg-muted">
