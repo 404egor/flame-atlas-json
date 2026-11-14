@@ -1,32 +1,18 @@
 "use client";
 
 import { useMemo } from "react";
-import { NotBuiltYet, PageHeader, StatTile } from "@/components/page-parts";
-import { formatList, formatPressure, formatRange, formatValue } from "@/domain/format";
+import { PageHeader, StatTile } from "@/components/page-parts";
+import { findGaps } from "@/domain/gaps";
 import { rankInvestigations } from "@/domain/rank";
 import { countRows } from "@/domain/rows";
 import type { ScenarioInput } from "@/domain/types";
 import { investigations, meta, scenarios, tests } from "@/lib/data";
-import { PILLARS } from "@/lib/pillars";
+import { describeEnvironment } from "@/lib/scenario-text";
 import { matchingPreset } from "@/lib/url-state/scenario";
+import { Findings } from "./findings";
 import { RankList } from "./rank-list";
 import { ScenarioForm } from "./scenario-form";
 import { ScoreExplainer } from "./score-explainer";
-
-function describeEnvironment(scenario: ScenarioInput): string {
-  const airflow =
-    scenario.flowCmSMin === null || scenario.flowCmSMax === null
-      ? "no forced airflow"
-      : `airflow ${formatRange({ min: scenario.flowCmSMin, max: scenario.flowCmSMax }, { unit: "cm/s" })}`;
-  return [
-    `${formatValue(scenario.o2Pct, "%")} oxygen`,
-    formatPressure({ min: scenario.pressureKpa, max: scenario.pressureKpa }),
-    formatValue(scenario.gravityG, "g", 3),
-    airflow,
-    `fuel: ${formatList(scenario.fuelStates)}`,
-    `focus: ${scenario.focus === "all" ? "all pillars" : PILLARS[scenario.focus].label.toLowerCase()}`,
-  ].join(" · ");
-}
 
 /** The Scenario screen for one environment. Where the environment comes from is the caller's business. */
 export function ScenarioView({
@@ -37,6 +23,7 @@ export function ScenarioView({
   onChange: (next: ScenarioInput) => void;
 }) {
   const result = useMemo(() => rankInvestigations(scenario, investigations, tests), [scenario]);
+  const gaps = useMemo(() => findGaps(scenario, tests), [scenario]);
   const activePreset = matchingPreset(scenario, scenarios);
   const counts = countRows(tests);
 
@@ -51,6 +38,9 @@ export function ScenarioView({
         <div className="lg:sticky lg:top-4 lg:self-start">
           <ScenarioForm scenario={scenario} presets={scenarios} activePreset={activePreset} onChange={onChange} />
         </div>
+
+        <div className="min-w-0 space-y-8">
+        <Findings gaps={gaps} scenario={scenario} />
 
         <section aria-labelledby="ranked-heading" className="min-w-0 space-y-3">
           <div>
@@ -69,6 +59,7 @@ export function ScenarioView({
           <ScoreExplainer />
           <RankList result={result} />
         </section>
+        </div>
       </div>
 
       <section aria-label="What this build contains" className="grid grid-cols-2 gap-3 md:grid-cols-4">
@@ -82,10 +73,6 @@ export function ScenarioView({
         <StatTile label="Source tables" value={meta.counts.tables} />
       </section>
 
-      <NotBuiltYet
-        title="Not built yet on this screen"
-        items={["Headline finding and the main data gaps for the chosen environment"]}
-      />
     </div>
   );
 }

@@ -1,36 +1,32 @@
-import { NotBuiltYet, PageHeader, StatTile } from "@/components/page-parts";
-import { isKnown } from "@/domain/num";
-import { isTestRow } from "@/domain/rows";
-import { tests } from "@/lib/data";
+"use client";
 
+import { useCallback, useMemo } from "react";
+import { scenarios } from "@/lib/data";
+import { buildScenarioParams, parseScenario } from "@/lib/url-state/scenario";
+import { useQueryState } from "@/lib/url-state/use-query-state";
+import { CoverageView } from "./coverage-view";
+import { type CoverageView as View, addCoverageView, parseCoverageView } from "./url";
+
+/** The Coverage screen. The environment and the grid settings live in the address (architecture rule AD-7). */
 export function CoverageScreen() {
-  const testRows = tests.filter(isTestRow);
-  const withO2 = testRows.filter((row) => isKnown({ min: row.o2PctMin, max: row.o2PctMax })).length;
-  const withPressure = testRows.filter((row) => isKnown({ min: row.pressureKpaMin, max: row.pressureKpaMax })).length;
-  const withFlow = testRows.filter((row) => isKnown({ min: row.flowCmSMin, max: row.flowCmSMax })).length;
-  const of = `of ${testRows.length} tests`;
+  const [params, setParams] = useQueryState();
+  const scenario = useMemo(() => parseScenario(params, scenarios), [params]);
+  const view = useMemo(() => parseCoverageView(params), [params]);
+  const update = useCallback(
+    (next: View) => setParams(addCoverageView(buildScenarioParams(scenario, scenarios), next)),
+    [scenario, setParams],
+  );
+  return <CoverageView scenario={scenario} view={view} onChange={update} />;
+}
 
+const ignoreChange = () => {};
+const EMPTY = new URLSearchParams();
+
+/** Shown by the static page until the browser has read the address: the default environment, not yet clickable. */
+export function CoverageScreenFallback() {
   return (
-    <div className="space-y-6">
-      <PageHeader
-        title="Coverage"
-        lead="Where NASA has tested and where it has not: tests placed on a grid of oxygen against pressure or airflow."
-      />
-
-      <section aria-label="How many tests report each condition" className="grid grid-cols-1 gap-3 sm:grid-cols-3">
-        <StatTile label="Tests that report oxygen" value={withO2} hint={of} />
-        <StatTile label="Tests that report pressure" value={withPressure} hint={of} />
-        <StatTile label="Tests that report airflow" value={withFlow} hint={of} />
-      </section>
-
-      <NotBuiltYet
-        title="Not built yet on this screen"
-        items={[
-          "Grid of oxygen against pressure, with a switch to oxygen against airflow",
-          "Marker for the chosen environment and highlighted empty cells",
-          "List of data gaps with counts",
-        ]}
-      />
+    <div inert aria-busy="true">
+      <CoverageView scenario={parseScenario(EMPTY, scenarios)} view={parseCoverageView(EMPTY)} onChange={ignoreChange} />
     </div>
   );
 }
