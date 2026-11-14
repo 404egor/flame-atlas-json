@@ -1,0 +1,3629 @@
+{
+  "investigationId": "PSI-26",
+  "source": "psi",
+  "listedAt": "2026-11-14T16:56:45+00:00",
+  "selection": {
+    "allowedExtensions": [
+      "pdf",
+      "docx",
+      "csv",
+      "xlsx"
+    ],
+    "excludeFolders": [
+      "Raw Data"
+    ],
+    "includeFolders": [],
+    "maxFileSizeMb": 60
+  },
+  "stats": {
+    "listed": 212,
+    "selected": 36,
+    "downloaded": 34,
+    "cached": 0,
+    "failed": 2
+  },
+  "files": [
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_60054MAFH000_C.pdf",
+      "fileName": "PSI-26_Engineering Documents_60054MAFH000_C.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 562119,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_60054MAFH000_C.pdf",
+      "sha256": "f94951103d4468a91fb94e6fcc44ea12592daf493de6e8817bd116edd1fbc05c",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_BASS ERD.pptx",
+      "fileName": "PSI-26_Engineering Documents_BASS ERD.pptx",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 2856973,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:pptx",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_BASS_SysAcceptanceReview.1.pdf",
+      "fileName": "PSI-26_Engineering Documents_BASS_SysAcceptanceReview.1.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 2892502,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_BASS_SysAcceptanceReview.1.pdf",
+      "sha256": "c5736d5d8012670c970db137a3836ab959432caf2f9cab7ddfcfead079ab29fd",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_BASS_SysAcceptanceReview.2.pdf",
+      "fileName": "PSI-26_Engineering Documents_BASS_SysAcceptanceReview.2.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 1804490,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_BASS_SysAcceptanceReview.2.pdf",
+      "sha256": "27fc3bba3dd172b9c640f34d01cb897e6b19b0fbca4a7c6e5fd57d6aa887b5d5",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Blk.PMMA.Rod.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_Blk.PMMA.Rod.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 78284,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Blk.PMMA.Rod.pdf",
+      "sha256": "6ddbf913547a87a1036234206fd0e29015b7b6a1410f524606e6ac35da728e70",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Flat.Sample.Frame_1cm.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_Flat.Sample.Frame_1cm.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 586727,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Flat.Sample.Frame_1cm.pdf",
+      "sha256": "bae2ceac0f5b7e1617329884dfcfa4b027d4660e9f84fb8d15fa4d820b99b80b",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Flat.Sample.Frame_2cm.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_Flat.Sample.Frame_2cm.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 586059,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Flat.Sample.Frame_2cm.pdf",
+      "sha256": "4187e5187819b3cb8aec01748182147061aff89bd57f0c163719e0df9f0b5b2e",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Blk.Rod.Sample.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_PMMA.Blk.Rod.Sample.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 65282,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Blk.Rod.Sample.pdf",
+      "sha256": "0424a734b91e4366f7d32d54daadafcc9494fd769c1ffb6479d241bd7283e7c8",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Flat.Fuel.Sample2mm.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_PMMA.Flat.Fuel.Sample2mm.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 52408,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Flat.Fuel.Sample2mm.pdf",
+      "sha256": "926d916a0a97b7680ef53477ecb3a14324259c539c6f92fa4c71b05c20eb5199",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Flat.Fuel.Sample_2cm.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_PMMA.Flat.Fuel.Sample_2cm.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 129048,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Flat.Fuel.Sample_2cm.pdf",
+      "sha256": "70f78b48f86a00283bbb16909837ed8422a875a995c4428d10d71f22038184b6",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Flat.Samples_2cm.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_PMMA.Flat.Samples_2cm.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 58392,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Flat.Samples_2cm.pdf",
+      "sha256": "f223874ba5df45d3fa106ee7407c3c51889b30d8cf5654758f8853458f4b8130",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Flat_1cm.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_PMMA.Flat_1cm.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 1108850,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Flat_1cm.pdf",
+      "sha256": "f4eed17506314b89e7eda49ccc0adf3c6433011d586df615c3ac3e3bfc08b8c5",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.SampleAssembly.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_PMMA.SampleAssembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 65227,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.SampleAssembly.pdf",
+      "sha256": "d52d7a73fa75c323c5d0be4fb993d235b0e5822de2474ffa9763b95dc17e61ae",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Spherical.Section.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_PMMA.Spherical.Section.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 595300,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Spherical.Section.pdf",
+      "sha256": "56cc0ab64b2bb5a5b31a17cef2279396b5d7a600d25752deef67432d4efa76fd",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_SPICE Housing.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_SPICE Housing.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 192768,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_SPICE Housing.pdf",
+      "sha256": "9442d9e64ed1aa8a9b2890248cfd0ddf1bf3d7f1ffdef6dcea3146cdb3c6f95b",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_SPICE_FanHousing.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_SPICE_FanHousing.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 133889,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_SPICE_FanHousing.pdf",
+      "sha256": "6bde62edd1925e041e8643cc986b8063ca49de5bd58793a304f979b816f8bc11",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Sibal.Flat.Fuel.Sample_2cm.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_Sibal.Flat.Fuel.Sample_2cm.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 55267,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Sibal.Flat.Fuel.Sample_2cm.pdf",
+      "sha256": "0c459522164acf8a5fbec2cd9cd15a8c19ed33f15d78d80062f678e75883506e",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Sibal.Flat.Sample.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_Sibal.Flat.Sample.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 121535,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Sibal.Flat.Sample.pdf",
+      "sha256": "7e4ecd8702749e0603969644d3a75ed6f993368c9f26154c7e14ae60531a4994",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Solid.Fuel.Sample_2cmSphere.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_Solid.Fuel.Sample_2cmSphere.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 54006,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Solid.Fuel.Sample_2cmSphere.pdf",
+      "sha256": "51aaea3a2a31c4322f9ade9f4a2d3fcf29134324afec89c60789b5d364e1627d",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_SolidFuelFrame.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_SolidFuelFrame.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 97640,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_SolidFuelFrame.pdf",
+      "sha256": "a63461ee6896bb92b1651d046dff1fe39240d7b20afac7e5d3e393b6777b6878",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Spherical.Sample_2cm.pdf",
+      "fileName": "PSI-26_Engineering Documents_Drawing_Spherical.Sample_2cm.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 78407,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Spherical.Sample_2cm.pdf",
+      "sha256": "876191d080d93554926cad82d4cb664e1566d0338399eed0b889ab13947c1989",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_SLICE_SysReqDesignReview.pdf",
+      "fileName": "PSI-26_Engineering Documents_SLICE_SysReqDesignReview.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 1429180,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_SLICE_SysReqDesignReview.pdf",
+      "sha256": "ba09f8609dfd5fc057473c741c0663a2437dfc85b5e092ed6ee0f08605305753",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_SPICE-front-window.pdf",
+      "fileName": "PSI-26_Engineering Documents_SPICE-front-window.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 148197,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_SPICE-front-window.pdf",
+      "sha256": "0f5fc3df74b8da391f7414b63a519c1556caa6337495b1f470d42ac37d64a573",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Short Nozzle MFA10771.pdf",
+      "fileName": "PSI-26_Engineering Documents_Short Nozzle MFA10771.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 52766,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Short Nozzle MFA10771.pdf",
+      "sha256": "5b054952aabf58888382df409228196dde89dd3b81378076270d2f05a181f2a2",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Experimental table/PSI-26_Experimental table_BASS.csv",
+      "fileName": "PSI-26_Experimental table_BASS.csv",
+      "folder": "Experimental table",
+      "subfolder": null,
+      "sizeBytes": 4726,
+      "version": 1,
+      "origin": [
+        "tree",
+        "experimentalTable"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Experimental table/PSI-26_Experimental table_BASS.csv",
+      "sha256": "ccfc3c54d948b64a1c5d2596a63c7c8019e51df0c91a1d62f039f48fa28c300f",
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-26/Presentations/PSI-26_Presentations_BASS Overview.pptx",
+      "fileName": "PSI-26_Presentations_BASS Overview.pptx",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 1623251,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:pptx",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-26/Presentations/PSI-26_Presentations_BASS_Overview of Recent ISS Results.pdf",
+      "fileName": "PSI-26_Presentations_BASS_Overview of Recent ISS Results.pdf",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 4640227,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Presentations/PSI-26_Presentations_BASS_Overview of Recent ISS Results.pdf",
+      "sha256": "6e654a3468577dd9dce8a14b61a6d0460870d6c88475bbfb18d6c2d94fbad3ea",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Presentations/PSI-26_Presentations_Crew Training 2010.pdf",
+      "fileName": "PSI-26_Presentations_Crew Training 2010.pdf",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 1348519,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Presentations/PSI-26_Presentations_Crew Training 2010.pdf",
+      "sha256": "1ec77f2a2a2a9835e7e94b5ba1f10f7e855c1a4339e4ad1458a8d1fc8effe192",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Presentations/PSI-26_Presentations_Crew Training 2011.pdf",
+      "fileName": "PSI-26_Presentations_Crew Training 2011.pdf",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 1339967,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Presentations/PSI-26_Presentations_Crew Training 2011.pdf",
+      "sha256": "11ad76194acf095886b0baf33ac3cb960f266d55dce0ab5b15c69de0db7afb62",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Presentations/PSI-26_Presentations_Flammability Aspects of Fabric_USNationalCombustion2013.pdf",
+      "fileName": "PSI-26_Presentations_Flammability Aspects of Fabric_USNationalCombustion2013.pdf",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 2804257,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Presentations/PSI-26_Presentations_Flammability Aspects of Fabric_USNationalCombustion2013.pdf",
+      "sha256": "d87675b105c4e44e49b7d375b48bb97dbf3d2b681911f122934a913aa296303d",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Presentations/PSI-26_Presentations_FlammabilityAspectsofCottonFiberglassFabric_ASGSR2012.pdf",
+      "fileName": "PSI-26_Presentations_FlammabilityAspectsofCottonFiberglassFabric_ASGSR2012.pdf",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 3212109,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Presentations/PSI-26_Presentations_FlammabilityAspectsofCottonFiberglassFabric_ASGSR2012.pdf",
+      "sha256": "28a684280119f6814812a9c62fbec77013c80d9c0688e4c859fd6cd964277240",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_05_02_xmp.zip",
+      "fileName": "PSI-26_Raw Data_2012_05_02_xmp.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_02",
+      "sizeBytes": 175180,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_05_03_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_05_03_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_03",
+      "sizeBytes": 2476089935,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_05_03_xmp.zip",
+      "fileName": "PSI-26_Raw Data_2012_05_03_xmp.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_03",
+      "sizeBytes": 350221,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_05_10_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_05_10_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_10",
+      "sizeBytes": 792439018,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_05_11_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_05_11_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_11",
+      "sizeBytes": 2844697506,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_05_12_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_05_12_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2012_05_12",
+      "sizeBytes": 8997566948,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_06_05_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_06_05_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_06_05",
+      "sizeBytes": 1262617898,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_06_06_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_06_06_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_06_06",
+      "sizeBytes": 4214439670,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_06_11_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_06_11_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_06_11",
+      "sizeBytes": 1634491491,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_06_12_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_06_12_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_06_12",
+      "sizeBytes": 5890620977,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_06_15_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_06_15_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2012_06_15",
+      "sizeBytes": 3061508921,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_06_19_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_06_19_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_06_19",
+      "sizeBytes": 7983112981,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_06_28_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_06_28_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_06_28",
+      "sizeBytes": 965204351,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_06_29_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_06_29_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_06_29",
+      "sizeBytes": 4675941416,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_06_30_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_06_30_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_06_30",
+      "sizeBytes": 3268891217,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_07_04_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_07_04_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_07_04",
+      "sizeBytes": 5894963457,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_07_12.zip",
+      "fileName": "PSI-26_Raw Data_2012_07_12.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_07_12",
+      "sizeBytes": 8583694205,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_07_20_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_07_20_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2012_07_20",
+      "sizeBytes": 3509456036,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_07_23_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_07_23_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_07_23",
+      "sizeBytes": 2605874658,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_08_09_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_08_09_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2012_08_09",
+      "sizeBytes": 2865725168,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_08_17_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_08_17_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2012_08_17",
+      "sizeBytes": 5677312134,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2012_08_22_orig.zip",
+      "fileName": "PSI-26_Raw Data_2012_08_22_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2012_08_22",
+      "sizeBytes": 7913217716,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130405 18.17.49 iss035m020941810.mp4",
+      "fileName": "PSI-26_Raw Data_20130405 18.17.49 iss035m020941810.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_05",
+      "sizeBytes": 198360008,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130406 09.07.31 iss035m020950857.mp4",
+      "fileName": "PSI-26_Raw Data_20130406 09.07.31 iss035m020950857.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_06",
+      "sizeBytes": 283903792,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130406 10.24.05 iss035m020950943.mp4",
+      "fileName": "PSI-26_Raw Data_20130406 10.24.05 iss035m020950943.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_06",
+      "sizeBytes": 228771602,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130406 10.41.11 iss035m020951036.mp4",
+      "fileName": "PSI-26_Raw Data_20130406 10.41.11 iss035m020951036.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_06",
+      "sizeBytes": 280116626,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130406 11.28.00 iss035m.mp4",
+      "fileName": "PSI-26_Raw Data_20130406 11.28.00 iss035m.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_06",
+      "sizeBytes": 209019676,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130406 12.34.43 iss035m020951219.mp4",
+      "fileName": "PSI-26_Raw Data_20130406 12.34.43 iss035m020951219.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_06",
+      "sizeBytes": 278027102,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130406 13.07.56 iss035m020951302.mp4",
+      "fileName": "PSI-26_Raw Data_20130406 13.07.56 iss035m020951302.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_06",
+      "sizeBytes": 208082076,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130406 14.06.03 iss035m020951400.mp4",
+      "fileName": "PSI-26_Raw Data_20130406 14.06.03 iss035m020951400.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_06",
+      "sizeBytes": 312481700,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130406 14.59.51 iss035m020951454.mp4",
+      "fileName": "PSI-26_Raw Data_20130406 14.59.51 iss035m020951454.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_06",
+      "sizeBytes": 141500631,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130406 15.45.35 iss035m020951540.mp4",
+      "fileName": "PSI-26_Raw Data_20130406 15.45.35 iss035m020951540.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_06",
+      "sizeBytes": 115752334,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130410 08.28.56 iss035m010990823.mp4",
+      "fileName": "PSI-26_Raw Data_20130410 08.28.56 iss035m010990823.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_10",
+      "sizeBytes": 111419172,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130410 08.56.46 iss035m010990851.mp4",
+      "fileName": "PSI-26_Raw Data_20130410 08.56.46 iss035m010990851.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_10",
+      "sizeBytes": 185670095,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130410 09.18.37 iss035m210991415.mp4",
+      "fileName": "PSI-26_Raw Data_20130410 09.18.37 iss035m210991415.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_10",
+      "sizeBytes": 226339657,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130410 09.44.27 iss035m010990939.mp4",
+      "fileName": "PSI-26_Raw Data_20130410 09.44.27 iss035m010990939.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_10",
+      "sizeBytes": 245385815,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130410 10.37.59 iss035m010991032.mp4",
+      "fileName": "PSI-26_Raw Data_20130410 10.37.59 iss035m010991032.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_10",
+      "sizeBytes": 387138355,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130410 12.19.33 iss035m010991214.mp4",
+      "fileName": "PSI-26_Raw Data_20130410 12.19.33 iss035m010991214.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_10",
+      "sizeBytes": 246590084,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130410 13.13.10 iss035m010991307.mp4",
+      "fileName": "PSI-26_Raw Data_20130410 13.13.10 iss035m010991307.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_10",
+      "sizeBytes": 18775683,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130413 12.16.41 iss035m021021209.mp4",
+      "fileName": "PSI-26_Raw Data_20130413 12.16.41 iss035m021021209.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_13",
+      "sizeBytes": 207136681,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130413 13.08.21 iss035m021021301.mp4",
+      "fileName": "PSI-26_Raw Data_20130413 13.08.21 iss035m021021301.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_13",
+      "sizeBytes": 148666716,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130413 13.46.04 iss035m021021340.mp4",
+      "fileName": "PSI-26_Raw Data_20130413 13.46.04 iss035m021021340.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_13",
+      "sizeBytes": 158582492,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130413 14.44.35 iss035m021021439.mp4",
+      "fileName": "PSI-26_Raw Data_20130413 14.44.35 iss035m021021439.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_13",
+      "sizeBytes": 57476072,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130413 14.54.06 iss035m211021753.mp4",
+      "fileName": "PSI-26_Raw Data_20130413 14.54.06 iss035m211021753.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_13",
+      "sizeBytes": 80533407,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130413 14.58.59 iss035m211021841.mp4",
+      "fileName": "PSI-26_Raw Data_20130413 14.58.59 iss035m211021841.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_13",
+      "sizeBytes": 69246996,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130413 15.22.17 iss035m021021451.mp4",
+      "fileName": "PSI-26_Raw Data_20130413 15.22.17 iss035m021021451.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_13",
+      "sizeBytes": 140679284,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130413 15.25.03 iss035m021021519.mp4",
+      "fileName": "PSI-26_Raw Data_20130413 15.25.03 iss035m021021519.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_13",
+      "sizeBytes": 175809888,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130413 16.38.10 iss035m021021615.mp4",
+      "fileName": "PSI-26_Raw Data_20130413 16.38.10 iss035m021021615.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_13",
+      "sizeBytes": 168522931,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130413 17.07.13 iss035m021021701.mp4",
+      "fileName": "PSI-26_Raw Data_20130413 17.07.13 iss035m021021701.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_13",
+      "sizeBytes": 171177300,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130413 17.59.52 iss035m021021754.mp4",
+      "fileName": "PSI-26_Raw Data_20130413 17.59.52 iss035m021021754.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_13",
+      "sizeBytes": 216390580,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130417 10.04.54 iss035m021060956.mp4",
+      "fileName": "PSI-26_Raw Data_20130417 10.04.54 iss035m021060956.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_17",
+      "sizeBytes": 178818011,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130417 10.25.14 iss035m021061020.mp4",
+      "fileName": "PSI-26_Raw Data_20130417 10.25.14 iss035m021061020.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_17",
+      "sizeBytes": 27449239,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130417 11.19.32 iss035m021061114.mp4",
+      "fileName": "PSI-26_Raw Data_20130417 11.19.32 iss035m021061114.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_17",
+      "sizeBytes": 163840928,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130417 12.01.04 iss035m021061155.mp4",
+      "fileName": "PSI-26_Raw Data_20130417 12.01.04 iss035m021061155.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_17",
+      "sizeBytes": 193871923,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130417 12.28.05 iss035m211061958.mp4",
+      "fileName": "PSI-26_Raw Data_20130417 12.28.05 iss035m211061958.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_17",
+      "sizeBytes": 219615784,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130417 12.33.11 iss035m211061905.mp4",
+      "fileName": "PSI-26_Raw Data_20130417 12.33.11 iss035m211061905.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_17",
+      "sizeBytes": 128064146,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130417 12.58.19 iss035m021061253.mp4",
+      "fileName": "PSI-26_Raw Data_20130417 12.58.19 iss035m021061253.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_17",
+      "sizeBytes": 221328752,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130417 13.45.08 iss035m021061339.mp4",
+      "fileName": "PSI-26_Raw Data_20130417 13.45.08 iss035m021061339.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_17",
+      "sizeBytes": 145417578,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130417 14.34.15 iss035m021061428.mp4",
+      "fileName": "PSI-26_Raw Data_20130417 14.34.15 iss035m021061428.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_17",
+      "sizeBytes": 191582975,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130417 15.14.15 iss035m021061509.mp4",
+      "fileName": "PSI-26_Raw Data_20130417 15.14.15 iss035m021061509.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_17",
+      "sizeBytes": 324600358,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130424 12.50.34 iss035m041131244.mp4",
+      "fileName": "PSI-26_Raw Data_20130424 12.50.34 iss035m041131244.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_24",
+      "sizeBytes": 223107910,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130424 13.42.19 iss035m041131335.mp4",
+      "fileName": "PSI-26_Raw Data_20130424 13.42.19 iss035m041131335.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_24",
+      "sizeBytes": 232357658,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130424 14.12.03 iss035m041131406.mp4",
+      "fileName": "PSI-26_Raw Data_20130424 14.12.03 iss035m041131406.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_24",
+      "sizeBytes": 305498687,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130424 14.51.40 iss035m041131446.mp4",
+      "fileName": "PSI-26_Raw Data_20130424 14.51.40 iss035m041131446.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_24",
+      "sizeBytes": 34154771,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130424 15.10.18 iss035m041131505.mp4",
+      "fileName": "PSI-26_Raw Data_20130424 15.10.18 iss035m041131505.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_24",
+      "sizeBytes": 228512089,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130424 15.26.17 iss035m211131403.mp4",
+      "fileName": "PSI-26_Raw Data_20130424 15.26.17 iss035m211131403.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_24",
+      "sizeBytes": 220985819,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130424 15.48.58 iss035m041131543.mp4",
+      "fileName": "PSI-26_Raw Data_20130424 15.48.58 iss035m041131543.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_24",
+      "sizeBytes": 323097841,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130424 17.23.57 iss035m041131718.mp4",
+      "fileName": "PSI-26_Raw Data_20130424 17.23.57 iss035m041131718.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_24",
+      "sizeBytes": 289426700,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130424 18.11.56 iss035m041131806.mp4",
+      "fileName": "PSI-26_Raw Data_20130424 18.11.56 iss035m041131806.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_24",
+      "sizeBytes": 16680286,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130424 18.32.11 iss035m041131826.mp4",
+      "fileName": "PSI-26_Raw Data_20130424 18.32.11 iss035m041131826.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_24",
+      "sizeBytes": 117094059,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130424 19.00.20.iss035m041131855.mp4",
+      "fileName": "PSI-26_Raw Data_20130424 19.00.20.iss035m041131855.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_24",
+      "sizeBytes": 45146896,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130424 19.07.56 iss035m041131902.mp4",
+      "fileName": "PSI-26_Raw Data_20130424 19.07.56 iss035m041131902.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_24",
+      "sizeBytes": 235481561,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130427 09.35.33 iss035m041160926.mp4",
+      "fileName": "PSI-26_Raw Data_20130427 09.35.33 iss035m041160926.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_27",
+      "sizeBytes": 232873906,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130427 10.03.10 iss035m041160957.mp4",
+      "fileName": "PSI-26_Raw Data_20130427 10.03.10 iss035m041160957.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_27",
+      "sizeBytes": 317617060,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130427 10.59.00 iss035m041161053.mp4",
+      "fileName": "PSI-26_Raw Data_20130427 10.59.00 iss035m041161053.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_27",
+      "sizeBytes": 318831074,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130427 11.41.09 iss035m041161135.mp4",
+      "fileName": "PSI-26_Raw Data_20130427 11.41.09 iss035m041161135.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_27",
+      "sizeBytes": 293988147,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130427 11.45 32 iss035m211161447.mp4",
+      "fileName": "PSI-26_Raw Data_20130427 11.45 32 iss035m211161447.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_27",
+      "sizeBytes": 229283023,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130427 12.36.50 iss035m041161231.mp4",
+      "fileName": "PSI-26_Raw Data_20130427 12.36.50 iss035m041161231.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_27",
+      "sizeBytes": 204610302,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130427 13.04.25 iss035m041161259.mp4",
+      "fileName": "PSI-26_Raw Data_20130427 13.04.25 iss035m041161259.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_27",
+      "sizeBytes": 44291618,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130427 13.12.10 iss035m041161306.mp4",
+      "fileName": "PSI-26_Raw Data_20130427 13.12.10 iss035m041161306.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_27",
+      "sizeBytes": 338156701,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130427 14.15.22 iss035m041161410.mp4",
+      "fileName": "PSI-26_Raw Data_20130427 14.15.22 iss035m041161410.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_27",
+      "sizeBytes": 88329322,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130427 14.33.12 iss035m041161427.mp4",
+      "fileName": "PSI-26_Raw Data_20130427 14.33.12 iss035m041161427.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_27",
+      "sizeBytes": 81641309,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130427 14.44.48 iss035m041161439.mp4",
+      "fileName": "PSI-26_Raw Data_20130427 14.44.48 iss035m041161439.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_27",
+      "sizeBytes": 33703884,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130427 14.50.58 iss035m041161445.mp4",
+      "fileName": "PSI-26_Raw Data_20130427 14.50.58 iss035m041161445.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_27",
+      "sizeBytes": 349805189,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130430 12.25.36 iss035m061191220.mp4",
+      "fileName": "PSI-26_Raw Data_20130430 12.25.36 iss035m061191220.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_30",
+      "sizeBytes": 213700558,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130430 13.02.54 iss035m061191257.mp4",
+      "fileName": "PSI-26_Raw Data_20130430 13.02.54 iss035m061191257.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_30",
+      "sizeBytes": 2922031,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130430 13.20.41 iss035m061191315.mp4",
+      "fileName": "PSI-26_Raw Data_20130430 13.20.41 iss035m061191315.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_30",
+      "sizeBytes": 226102240,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130430 13.57.59 iss035m061191352.mp4",
+      "fileName": "PSI-26_Raw Data_20130430 13.57.59 iss035m061191352.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_30",
+      "sizeBytes": 306729166,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130430 14.23.37 iss035m211191506.mp4",
+      "fileName": "PSI-26_Raw Data_20130430 14.23.37 iss035m211191506.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_30",
+      "sizeBytes": 100485157,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130430 16.43.47 iss035m061191638.mp4",
+      "fileName": "PSI-26_Raw Data_20130430 16.43.47 iss035m061191638.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_30",
+      "sizeBytes": 250066489,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130430 17.27.04 iss035m061191721.mp4",
+      "fileName": "PSI-26_Raw Data_20130430 17.27.04 iss035m061191721.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_30",
+      "sizeBytes": 216891280,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130503 11.39.18 iss035m051221133.mp4",
+      "fileName": "PSI-26_Raw Data_20130503 11.39.18 iss035m051221133.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 94778752,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130503 11.52.25 iss035m051221147.mp4",
+      "fileName": "PSI-26_Raw Data_20130503 11.52.25 iss035m051221147.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 118467438,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130503 12.08.31 iss035m051221203.mp4",
+      "fileName": "PSI-26_Raw Data_20130503 12.08.31 iss035m051221203.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 45127773,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130503 12.28.06 iss035m051221222.mp4",
+      "fileName": "PSI-26_Raw Data_20130503 12.28.06 iss035m051221222.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 389515765,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130503 13.33.45 iss035m051221328.mp4",
+      "fileName": "PSI-26_Raw Data_20130503 13.33.45 iss035m051221328.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 145405244,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130503 14.10.04 iss035m051221404.mp4",
+      "fileName": "PSI-26_Raw Data_20130503 14.10.04 iss035m051221404.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 282540753,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130503 14.16.10 iss035m211231427.mp4",
+      "fileName": "PSI-26_Raw Data_20130503 14.16.10 iss035m211231427.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 173233198,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130503 14.55.00 iss035m051221449.mp4",
+      "fileName": "PSI-26_Raw Data_20130503 14.55.00 iss035m051221449.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 261390097,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130503 16.24.12 iss035m051221618.mp4",
+      "fileName": "PSI-26_Raw Data_20130503 16.24.12 iss035m051221618.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 394502728,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130503 17.28.23 iss035m051221723.mp4",
+      "fileName": "PSI-26_Raw Data_20130503 17.28.23 iss035m051221723.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 99632795,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130503 18.08.35 iss035m051221803.mp4",
+      "fileName": "PSI-26_Raw Data_20130503 18.08.35 iss035m051221803.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 40103842,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130503 18.16.34 iss035m051221811.mp4",
+      "fileName": "PSI-26_Raw Data_20130503 18.16.34 iss035m051221811.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 40253994,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130503 18.32.24 iss035m051221823.mp4",
+      "fileName": "PSI-26_Raw Data_20130503 18.32.24 iss035m051221823.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 121638992,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130516 08.27.09 iss036m021350821.mp4",
+      "fileName": "PSI-26_Raw Data_20130516 08.27.09 iss036m021350821.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_16",
+      "sizeBytes": 159103964,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130516 08.49.07 iss036m021350843.mp4",
+      "fileName": "PSI-26_Raw Data_20130516 08.49.07 iss036m021350843.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_16",
+      "sizeBytes": 338923422,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130516 09.54.32 iss036m021350949.mp4",
+      "fileName": "PSI-26_Raw Data_20130516 09.54.32 iss036m021350949.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_16",
+      "sizeBytes": 368365655,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130516 10.43.19 iss036m021351038.mp4",
+      "fileName": "PSI-26_Raw Data_20130516 10.43.19 iss036m021351038.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_16",
+      "sizeBytes": 226915137,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130516 11.34.08 iss036m021351128.mp4",
+      "fileName": "PSI-26_Raw Data_20130516 11.34.08 iss036m021351128.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_16",
+      "sizeBytes": 269310139,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130516 11.43.19 iss036m211361831.mp4",
+      "fileName": "PSI-26_Raw Data_20130516 11.43.19 iss036m211361831.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_16",
+      "sizeBytes": 150902663,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130516 12.17.12 iss036m021351211.mp4",
+      "fileName": "PSI-26_Raw Data_20130516 12.17.12 iss036m021351211.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_16",
+      "sizeBytes": 270429296,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130516 13.10.24 iss036m021351305.mp4",
+      "fileName": "PSI-26_Raw Data_20130516 13.10.24 iss036m021351305.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_16",
+      "sizeBytes": 27586907,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130516 13.15.31 iss036m021351310.mp4",
+      "fileName": "PSI-26_Raw Data_20130516 13.15.31 iss036m021351310.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_16",
+      "sizeBytes": 262364529,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130516 13.52.21 iss036m021351347.mp4",
+      "fileName": "PSI-26_Raw Data_20130516 13.52.21 iss036m021351347.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_16",
+      "sizeBytes": 375562206,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130516 14.45.11 iss036m021351439.mp4",
+      "fileName": "PSI-26_Raw Data_20130516 14.45.11 iss036m021351439.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_16",
+      "sizeBytes": 270274338,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130518 10.08.55 iss036m061371003.mp4",
+      "fileName": "PSI-26_Raw Data_20130518 10.08.55 iss036m061371003.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_18",
+      "sizeBytes": 186236260,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130518 10.37.04 iss036m061371031.mp4",
+      "fileName": "PSI-26_Raw Data_20130518 10.37.04 iss036m061371031.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_18",
+      "sizeBytes": 57495703,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130518 11.32.45 iss036m061371127.mp4",
+      "fileName": "PSI-26_Raw Data_20130518 11.32.45 iss036m061371127.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_18",
+      "sizeBytes": 247003184,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130518 12.17.21 iss036m061371211.mp4",
+      "fileName": "PSI-26_Raw Data_20130518 12.17.21 iss036m061371211.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_18",
+      "sizeBytes": 218914661,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130518 12.24.23 iss036m211371933.mp4",
+      "fileName": "PSI-26_Raw Data_20130518 12.24.23 iss036m211371933.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_18",
+      "sizeBytes": 172824230,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130518 13.12.32 iss036m061371301.mp4",
+      "fileName": "PSI-26_Raw Data_20130518 13.12.32 iss036m061371301.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_18",
+      "sizeBytes": 233217557,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130518 13.52.35 iss036m061371347.mp4",
+      "fileName": "PSI-26_Raw Data_20130518 13.52.35 iss036m061371347.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_18",
+      "sizeBytes": 238941928,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130518 14.43.04 iss036m061371437.mp4",
+      "fileName": "PSI-26_Raw Data_20130518 14.43.04 iss036m061371437.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_18",
+      "sizeBytes": 205774649,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130518 15.27.19 iss036m061371521.mp4",
+      "fileName": "PSI-26_Raw Data_20130518 15.27.19 iss036m061371521.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_18",
+      "sizeBytes": 189392427,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130531 08.34.18 iss036m041500829.mp4",
+      "fileName": "PSI-26_Raw Data_20130531 08.34.18 iss036m041500829.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_02",
+      "sizeBytes": 154140481,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130531 09.03.03 iss036m041500857.mp4",
+      "fileName": "PSI-26_Raw Data_20130531 09.03.03 iss036m041500857.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_02",
+      "sizeBytes": 326903885,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130531 09.47.43 iss036m041500942.mp4",
+      "fileName": "PSI-26_Raw Data_20130531 09.47.43 iss036m041500942.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_02",
+      "sizeBytes": 277901853,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130531 10.38.29 iss036m041501033.mp4",
+      "fileName": "PSI-26_Raw Data_20130531 10.38.29 iss036m041501033.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_02",
+      "sizeBytes": 267275066,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130531 10.43.19 iss036m211501445.mp4",
+      "fileName": "PSI-26_Raw Data_20130531 10.43.19 iss036m211501445.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_02",
+      "sizeBytes": 188057292,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130531 11.20.18 iss036m041501115.mp4",
+      "fileName": "PSI-26_Raw Data_20130531 11.20.18 iss036m041501115.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_02",
+      "sizeBytes": 368718107,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130531 12.18.18 iss036m041501213.mp4",
+      "fileName": "PSI-26_Raw Data_20130531 12.18.18 iss036m041501213.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_02",
+      "sizeBytes": 72713576,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130531 12.41.52 iss036m041501236.mp4",
+      "fileName": "PSI-26_Raw Data_20130531 12.41.52 iss036m041501236.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_02",
+      "sizeBytes": 112925428,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130531 12.58.13 iss036m041501253.mp4",
+      "fileName": "PSI-26_Raw Data_20130531 12.58.13 iss036m041501253.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_02",
+      "sizeBytes": 364424651,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130531 14.32.48 iss036m041501427.mp4",
+      "fileName": "PSI-26_Raw Data_20130531 14.32.48 iss036m041501427.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_02",
+      "sizeBytes": 369583347,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130531 15.48.53 iss036m041501543.mp4",
+      "fileName": "PSI-26_Raw Data_20130531 15.48.53 iss036m041501543.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_02",
+      "sizeBytes": 278616521,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_20130531 16.27.05 iss036m041501621.mp4",
+      "fileName": "PSI-26_Raw Data_20130531 16.27.05 iss036m041501621.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_02",
+      "sizeBytes": 144368477,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_04_orig.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_04_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_04",
+      "sizeBytes": 124217721,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_06_orig.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_06_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_06",
+      "sizeBytes": 2712698675,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_06_xmp.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_06_xmp.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_06",
+      "sizeBytes": 401539,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_09_orig.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_09_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_09",
+      "sizeBytes": 69413002,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_09_txt.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_09_txt.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_09",
+      "sizeBytes": 34009,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_10_orig.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_10_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_10",
+      "sizeBytes": 6959908041,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_10_txt.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_10_txt.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_10",
+      "sizeBytes": 207098,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_10_xmp.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_10_xmp.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_10",
+      "sizeBytes": 1103214,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_13_orig.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_13_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_13",
+      "sizeBytes": 6394821601,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_13_txt.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_13_txt.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_13",
+      "sizeBytes": 396253,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_13_xmp.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_13_xmp.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_13",
+      "sizeBytes": 954521,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_16_orig.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_16_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_16",
+      "sizeBytes": 56580735,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_16_txt.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_16_txt.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_16",
+      "sizeBytes": 2784,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_16_xmp.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_16_xmp.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_16",
+      "sizeBytes": 6384,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_17_orig.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_17_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_17",
+      "sizeBytes": 4680468623,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_17_txt.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_17_txt.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_17",
+      "sizeBytes": 208623,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_17_xmp.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_17_xmp.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_17",
+      "sizeBytes": 390443,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_24_orig.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_24_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_24",
+      "sizeBytes": 8245752246,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_24_txt.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_24_txt.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_24",
+      "sizeBytes": 497564,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_24_xmp.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_24_xmp.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/ 2013_04_24",
+      "sizeBytes": 1177965,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_27_orig.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_27_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_27",
+      "sizeBytes": 6091837768,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_27_txt.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_27_txt.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_27",
+      "sizeBytes": 391685,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_27_xmp.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_27_xmp.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_27",
+      "sizeBytes": 965924,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_30_orig.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_30_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_30",
+      "sizeBytes": 3166332669,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_30_txt.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_30_txt.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_30",
+      "sizeBytes": 211488,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_04_30_xmp.zip",
+      "fileName": "PSI-26_Raw Data_2013_04_30_xmp.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_04_30",
+      "sizeBytes": 512654,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_05_03_orig.zip",
+      "fileName": "PSI-26_Raw Data_2013_05_03_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 5071226041,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_05_03_txt.zip",
+      "fileName": "PSI-26_Raw Data_2013_05_03_txt.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 293287,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_05_03_xmp.zip",
+      "fileName": "PSI-26_Raw Data_2013_05_03_xmp.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_03",
+      "sizeBytes": 718748,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_05_16_orig.zip",
+      "fileName": "PSI-26_Raw Data_2013_05_16_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_16",
+      "sizeBytes": 2639609434,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_05_16_xmp.zip",
+      "fileName": "PSI-26_Raw Data_2013_05_16_xmp.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_16",
+      "sizeBytes": 412392,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_05_18_orig.zip",
+      "fileName": "PSI-26_Raw Data_2013_05_18_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_18",
+      "sizeBytes": 7733749134,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_05_18_xmp.zip",
+      "fileName": "PSI-26_Raw Data_2013_05_18_xmp.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_05_18",
+      "sizeBytes": 1223139,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_05_31_orig.zip",
+      "fileName": "PSI-26_Raw Data_2013_05_31_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_02",
+      "sizeBytes": 1646572114,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_05_31_xmp.zip",
+      "fileName": "PSI-26_Raw Data_2013_05_31_xmp.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2012_05_02",
+      "sizeBytes": 231631,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_07_09_orig.zip",
+      "fileName": "PSI-26_Raw Data_2013_07_09_orig.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_07_09",
+      "sizeBytes": 151894,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Raw Data/PSI-26_Raw Data_2013_07_09_txt.zip",
+      "fileName": "PSI-26_Raw Data_2013_07_09_txt.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/2013_07_09",
+      "sizeBytes": 970,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-26/Reports/PSI-26_Reports_BASS_FinalReport.pdf",
+      "fileName": "PSI-26_Reports_BASS_FinalReport.pdf",
+      "folder": "Reports",
+      "subfolder": null,
+      "sizeBytes": 553693,
+      "version": 2,
+      "origin": [
+        "added"
+      ],
+      "selected": true,
+      "reason": "download-failed:HTTPError",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Reports/PSI-26_Reports_SPICE_FinalReport.pdf",
+      "fileName": "PSI-26_Reports_SPICE_FinalReport.pdf",
+      "folder": "Reports",
+      "subfolder": null,
+      "sizeBytes": 553693,
+      "version": 2,
+      "origin": [
+        "added"
+      ],
+      "selected": true,
+      "reason": "download-failed:HTTPError",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Science Documents/PSI-26_Science Documents_As Run_Test Matrix.xlsx",
+      "fileName": "PSI-26_Science Documents_As Run_Test Matrix.xlsx",
+      "folder": "Science Documents",
+      "subfolder": null,
+      "sizeBytes": 111886,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Science Documents/PSI-26_Science Documents_As Run_Test Matrix.xlsx",
+      "sha256": "850910541fc9c802d00aa9de14758205103642184249b419c09868df2fbea6e8",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-26/Science Documents/PSI-26_Science Documents_DLD_BASS.pdf",
+      "fileName": "PSI-26_Science Documents_DLD_BASS.pdf",
+      "folder": "Science Documents",
+      "subfolder": null,
+      "sizeBytes": 69653,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Science Documents/PSI-26_Science Documents_DLD_BASS.pdf",
+      "sha256": "e38622cce587897c8fe5f8f5af404ee9bb682fea687f4038a67167c03b218505",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/Science Documents/PSI-26_Science Documents_FlammabilityAspectsofFabric_USNationalCombustion.2013.docx",
+      "fileName": "PSI-26_Science Documents_FlammabilityAspectsofFabric_USNationalCombustion.2013.docx",
+      "folder": "Science Documents",
+      "subfolder": null,
+      "sizeBytes": 8837026,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Science Documents/PSI-26_Science Documents_FlammabilityAspectsofFabric_USNationalCombustion.2013.docx",
+      "sha256": "434e9b2cade638d63dcb738d3355533db702649eca356c63e9277b1ef8eecac7",
+      "extension": "docx"
+    },
+    {
+      "key": "psi-data/PSI-26/Science Documents/PSI-26_Science Documents_Planned_Test Matrix.xlsx",
+      "fileName": "PSI-26_Science Documents_Planned_Test Matrix.xlsx",
+      "folder": "Science Documents",
+      "subfolder": null,
+      "sizeBytes": 20976,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Science Documents/PSI-26_Science Documents_Planned_Test Matrix.xlsx",
+      "sha256": "e0a06f81c110efc83cb23841342734c2d0a7187e9d9cbf2c0100c78d66bab9f9",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-26/Science Documents/PSI-26_Science Documents_SRD_BASS.pdf",
+      "fileName": "PSI-26_Science Documents_SRD_BASS.pdf",
+      "folder": "Science Documents",
+      "subfolder": null,
+      "sizeBytes": 884257,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-26/Science Documents/PSI-26_Science Documents_SRD_BASS.pdf",
+      "sha256": "768a7c289af30d47a2d519db9ba67ef1d944b6053760da3b79efa99df9c04707",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-26/metadata/PSI-26_metadata_PSI-102_BASS.zip",
+      "fileName": "PSI-26_metadata_PSI-102_BASS.zip",
+      "folder": "metadata",
+      "subfolder": null,
+      "sizeBytes": 11647,
+      "version": 5,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:zip",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    }
+  ]
+}

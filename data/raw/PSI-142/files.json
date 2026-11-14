@@ -1,0 +1,78 @@
+{
+  "investigationId": "PSI-142",
+  "source": "psi",
+  "listedAt": "2026-11-14T17:07:02+00:00",
+  "selection": {
+    "allowedExtensions": [
+      "pdf",
+      "docx",
+      "csv",
+      "xlsx"
+    ],
+    "excludeFolders": [
+      "Raw Data"
+    ],
+    "includeFolders": [],
+    "maxFileSizeMb": 60
+  },
+  "stats": {
+    "listed": 3,
+    "selected": 2,
+    "downloaded": 2,
+    "cached": 0,
+    "failed": 0
+  },
+  "files": [
+    {
+      "key": "psi-data/PSI-142/Analyzed Data/PSI-142_Analyzed Data_PSI data summary Princeton with links.xlsx",
+      "fileName": "PSI-142_Analyzed Data_PSI data summary Princeton with links.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data",
+      "sizeBytes": 735232,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-142/Analyzed Data/Modeling Data/PSI-142_Analyzed Data_PSI data summary Princeton with links.xlsx",
+      "sha256": "b6324538ff12cc07061bd0931dfc3e1cd458cd2eee4747c477c728791aca2ee0",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-142/Experimental table/PSI-142_Experimental table_Data Summary Table.csv",
+      "fileName": "PSI-142_Experimental table_Data Summary Table.csv",
+      "folder": "Experimental table",
+      "subfolder": null,
+      "sizeBytes": 727,
+      "version": 1,
+      "origin": [
+        "tree",
+        "experimentalTable",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-142/Experimental table/PSI-142_Experimental table_Data Summary Table.csv",
+      "sha256": "c66d135b0053590d239f06b9e8627d826e3d726b8443fd2cbccc37484b6a8e7f",
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-142/metadata/PSI-142_metadata_PSI-164_Quantitative Studies.zip",
+      "fileName": "PSI-142_metadata_PSI-164_Quantitative Studies.zip",
+      "folder": "metadata",
+      "subfolder": null,
+      "sizeBytes": 12158,
+      "version": 2,
+      "origin": [
+        "tree"
+      ],
+      "selected": false,
+      "reason": "extension:zip",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    }
+  ]
+}

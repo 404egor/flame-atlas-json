@@ -34,3 +34,12 @@ data/raw/**/*.xlsx
 # BMAD: personal install answers stay local; team config is committed
 _bmad/config.user.toml
 _bmad/custom/*.user.toml
+
+# python
+.venv/
+__pycache__/
+*.pyc
+*.part
+
+# generated document text/tables (122 MB, rebuilt by `python3 -m pipeline`)
+data/extracted/

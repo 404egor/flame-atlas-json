@@ -1,0 +1,38 @@
+{
+  "tableFile": "PSI-26_Experimental table_BASS.csv",
+  "investigationId": "PSI-26",
+  "tableId": "BASS",
+  "mappingVersion": "1.0.0",
+  "granularity": "test",
+  "comment": "Only date, sample and material are in the table; all conditions stay null.",
+  "label": {
+    "column": "Test #"
+  },
+  "date": {
+    "column": "Date",
+    "format": "m/d/y"
+  },
+  "fuel": {
+    "column": "Fuel Sample Material",
+    "parser": "solid"
+  },
+  "skipRows": [
+    {
+      "column": "Fuel Sample Material",
+      "regex": "(?i)soot cleaning",
+      "reason": "soot cleaning run, not a burn"
+    }
+  ],
+  "notes": {
+    "templates": [
+      "As-run test {As Run Test #}, sample {Sample #}."
+    ],
+    "static": [
+      "Atmosphere and flow conditions are not in the source table (see the BASS test matrices and ReadMe)."
+    ]
+  },
+  "gravity": {
+    "value": "micro",
+    "source": "ISS flight experiment"
+  }
+}

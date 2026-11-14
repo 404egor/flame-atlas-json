@@ -1,0 +1,826 @@
+{
+  "investigationId": "PSI-115",
+  "source": "psi",
+  "listedAt": "2026-11-14T17:06:03+00:00",
+  "selection": {
+    "allowedExtensions": [
+      "pdf",
+      "docx",
+      "csv",
+      "xlsx"
+    ],
+    "excludeFolders": [
+      "Raw Data"
+    ],
+    "includeFolders": [],
+    "maxFileSizeMb": 60
+  },
+  "stats": {
+    "listed": 47,
+    "selected": 2,
+    "downloaded": 2,
+    "cached": 0,
+    "failed": 0
+  },
+  "files": [
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmGravityNumDen.dat",
+      "fileName": "PSI-115_Analyzed Data_10cmGravityNumDen.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case2/Earth Gravity",
+      "sizeBytes": 6220849,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmGravityPSD.dat",
+      "fileName": "PSI-115_Analyzed Data_10cmGravityPSD.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case2/Earth Gravity",
+      "sizeBytes": 1716,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmGravitySmoke.dat",
+      "fileName": "PSI-115_Analyzed Data_10cmGravitySmoke.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case2/Earth Gravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmGravityU.dat",
+      "fileName": "PSI-115_Analyzed Data_10cmGravityU.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case2/Earth Gravity",
+      "sizeBytes": 6220849,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmGravityV.dat",
+      "fileName": "PSI-115_Analyzed Data_10cmGravityV.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case2/Earth Gravity",
+      "sizeBytes": 6220849,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmNoGravityNumDen.dat",
+      "fileName": "PSI-115_Analyzed Data_10cmNoGravityNumDen.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case2/Microgravity",
+      "sizeBytes": 6220866,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmNoGravityPSD.dat",
+      "fileName": "PSI-115_Analyzed Data_10cmNoGravityPSD.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case2/Microgravity",
+      "sizeBytes": 1716,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmNoGravitySmoke.dat",
+      "fileName": "PSI-115_Analyzed Data_10cmNoGravitySmoke.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case2/Microgravity",
+      "sizeBytes": 6220866,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmNoGravityU.dat",
+      "fileName": "PSI-115_Analyzed Data_10cmNoGravityU.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case2/Microgravity",
+      "sizeBytes": 6220866,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cmNoGravityV.dat",
+      "fileName": "PSI-115_Analyzed Data_10cmNoGravityV.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case2/Microgravity",
+      "sizeBytes": 6220866,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_10cm_sGrid_grid3d.dat",
+      "fileName": "PSI-115_Analyzed Data_10cm_sGrid_grid3d.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case2/Microgravity",
+      "sizeBytes": 17971238,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityDAM.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmGravityDAM.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Earth Gravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityNS_PSD.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmGravityNS_PSD.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Earth Gravity; no settling",
+      "sizeBytes": 1755,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityNucRate.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmGravityNucRate.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Earth Gravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityNumDen.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmGravityNumDen.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Earth Gravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityNumdenR.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmGravityNumdenR.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Earth Gravity; rotated",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityPSD.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmGravityPSD.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Earth Gravity",
+      "sizeBytes": 1716,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravitySmoke.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmGravitySmoke.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Earth Gravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravitySpeciesMF.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmGravitySpeciesMF.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Earth Gravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityTemperature.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmGravityTemperature.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Earth Gravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityU.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmGravityU.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Earth Gravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityV.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmGravityV.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Earth Gravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityVort.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmGravityVort.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Earth Gravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityuR.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmGravityuR.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Earth Gravity; rotated",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmGravityvR.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmGravityvR.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Earth Gravity; rotated",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityDAM.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityDAM.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityNoTF_NumDen.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityNoTF_NumDen.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity; no thermophoresis",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityNoTF_PSD.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityNoTF_PSD.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity; no thermophoresis",
+      "sizeBytes": 1755,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityNoTF_u.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityNoTF_u.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity; no thermophoresis",
+      "sizeBytes": 6220839,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityNoTF_v.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityNoTF_v.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity; no thermophoresis",
+      "sizeBytes": 6220839,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityNucRate.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityNucRate.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityNumDen.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityNumDen.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityNumDenR.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityNumDenR.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity; rotated",
+      "sizeBytes": 6220865,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityPSD.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityPSD.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity",
+      "sizeBytes": 1716,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravitySmoke.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravitySmoke.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityTemperature.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityTemperature.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityU.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityU.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityV.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityV.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityVaporMF.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityVaporMF.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityVort.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityVort.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity",
+      "sizeBytes": 6220838,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityuR.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityuR.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity; rotated",
+      "sizeBytes": 6220865,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cmNoGravityvR.dat",
+      "fileName": "PSI-115_Analyzed Data_8cmNoGravityvR.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity; rotated",
+      "sizeBytes": 6220865,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_8cm_sGrid_grid3d.dat",
+      "fileName": "PSI-115_Analyzed Data_8cm_sGrid_grid3d.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case1/Microgravity",
+      "sizeBytes": 17971238,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Analyzed Data/PSI-115_Analyzed Data_nodeDiameters.dat",
+      "fileName": "PSI-115_Analyzed Data_nodeDiameters.dat",
+      "folder": "Analyzed Data",
+      "subfolder": "Modeling Data/Case2/Microgravity",
+      "sizeBytes": 1059,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:dat",
+      "localPath": null,
+      "sha256": null,
+      "extension": "dat"
+    },
+    {
+      "key": "psi-data/PSI-115/Reports/PSI-115_Reports_NNX17AF08A_FinalReport.pdf",
+      "fileName": "PSI-115_Reports_NNX17AF08A_FinalReport.pdf",
+      "folder": "Reports",
+      "subfolder": null,
+      "sizeBytes": 10617514,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-115/Reports/PSI-115_Reports_NNX17AF08A_FinalReport.pdf",
+      "sha256": "487108f951ba8ec9042464ae7c70a8190fa63c4b1141f8b1dfe19d697bd9752c",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-115/Science Documents/PSI-115_Science Documents_DataOrganizationDocument.pdf",
+      "fileName": "PSI-115_Science Documents_DataOrganizationDocument.pdf",
+      "folder": "Science Documents",
+      "subfolder": null,
+      "sizeBytes": 96899,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-115/Science Documents/PSI-115_Science Documents_DataOrganizationDocument.pdf",
+      "sha256": "754cd3b7e1f1334f7de75abbdc0fac2687bc451c76d36245b66a5315c01d7253",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-115/metadata/PSI-115_metadata_PSI-185_Utilization of the S.zip",
+      "fileName": "PSI-115_metadata_PSI-185_Utilization of the S.zip",
+      "folder": "metadata",
+      "subfolder": null,
+      "sizeBytes": 7021,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:zip",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    }
+  ]
+}
