@@ -66,6 +66,8 @@ To add a colour, add a token with both values in `globals.css` and expose it in 
 
 ## Deployment
 
+Live site: <https://vlo0d.github.io/flame-atlas/>
+
 `.github/workflows/site.yml` builds the site and publishes `out/` to GitHub Pages on every push to
 `main`. The base path comes from `NEXT_PUBLIC_BASE_PATH`, which CI sets to `/<repository name>`.
 Local development serves from the root.

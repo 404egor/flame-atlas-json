@@ -54,7 +54,7 @@
 - `lib/data.ts`: єдине місце, звідки екрани беруть чотири файли. Типи імпортуються з `contracts/types.ts`.
 - Статичний експорт: `output: 'export'`, `basePath: '/flame-atlas'`, `images.unoptimized: true`, `trailingSlash: true`.
 - Деплой на GitHub Pages через GitHub Actions на кожен пуш у `main`.
-  У налаштуваннях репозиторію ввімкнути Pages з джерелом «GitHub Actions». Посилання в чат.
+  Pages увімкнено (джерело «GitHub Actions»). Адреса: <https://vlo0d.github.io/flame-atlas/>.
 
 **Готово, коли:** публічне посилання відкриває каркас із навігацією й показує лічильники з `meta.json`.
 
