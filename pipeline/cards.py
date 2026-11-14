@@ -111,8 +111,24 @@ def fuels(tests: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     return [{"name": n, "state": s, "geometry": g} for (n, s, g), _ in counts.most_common()]
 
 
+def fuel_analog(inv_id: str, details: Dict[str, Any], spec: Optional[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    """Contract 1.1.0 `fuelAnalogOf`: only from pipeline/config/contract.json, with a verbatim quote."""
+    if not spec:
+        return None
+    source = details.get(spec["field"]) or ""
+    if spec["quote"] not in source:  # programmatic quote check: no quote, no claim
+        raise ValueError(f"{inv_id}: fuelAnalogOf quote not found verbatim in PSI metadata field {spec['field']!r}")
+    return {
+        "states": list(spec["states"]),
+        "claim": {"text": spec["text"],
+                  "citations": [{"label": f"{inv_id} metadata: {spec['field']}", "url": spec["url"],
+                                 "quote": spec["quote"]}]},
+    }
+
+
 def build_card(details: Dict[str, Any], psi_url: str, tests: List[Dict[str, Any]],
-               curated: Dict[str, Any], curated_source: str) -> Tuple[Dict[str, Any], int]:
+               curated: Dict[str, Any], curated_source: str,
+               analogs: Optional[Dict[str, Any]] = None) -> Tuple[Dict[str, Any], int]:
     rec = investigation.to_record(details, psi_url)
     claims, dropped = build_claims(rec)
     cur = curated.get(rec["id"])
@@ -135,6 +151,7 @@ def build_card(details: Dict[str, Any], psi_url: str, tests: List[Dict[str, Any]
         "pillarsSecondary": list(cur.get("pillarsSecondary") or []),
         "fuelStates": sorted({t["fuelState"] for t in tests if t["fuelState"]}),
         "fuels": fuels(tests),
+        "fuelAnalogOf": fuel_analog(rec["id"], details, (analogs or {}).get(rec["id"])),
         "conditions": conditions(tests),
         "summary": claims["summary"],
         "objectives": claims["objectives"],

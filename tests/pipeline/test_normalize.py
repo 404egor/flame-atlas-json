@@ -81,13 +81,21 @@ class EngineVsFixturesTest(unittest.TestCase):
                 self.assertEqual(len(records), 1)
                 rec = records[0]
                 self.assertEqual(list(rec), CONTRACT_FIELDS)
+                # Fields the mapping fills from a document on purpose (e.g. BASS-II pressure from the
+                # Summary Report) may go beyond the fixture, but only where the fixture had null.
+                from_documents = set(rec["inferred"]) - set(fx["inferred"])
                 for key in CONTRACT_FIELDS:
-                    if key in ("notes", "mappingVersion"):
+                    if key in ("notes", "mappingVersion", "confidence"):
                         continue
                     if key == "inferred":
-                        self.assertEqual(sorted(rec[key]), sorted(fx[key]))
+                        self.assertEqual(sorted(set(rec[key]) - from_documents), sorted(fx[key]))
+                    elif key in from_documents:
+                        self.assertIsNone(fx[key], key)
+                        self.assertIsNotNone(rec[key], key)
                     else:
                         self.assertEqual(rec[key], fx[key], key)
+                if not from_documents:
+                    self.assertEqual(rec["confidence"], fx["confidence"])
 
     def test_skip_footnotes_and_continuations(self):
         m = MAPPINGS["PSI-22_Experimental table_ACME E-FIELD Flames.csv"]
@@ -118,6 +126,13 @@ class BuildContractTest(unittest.TestCase):
                 for claim in [c["summary"], *c["objectives"], *c["measurements"], *c["fireSafetyRelevance"]]:
                     self.assertTrue(claim["citations"][0]["quote"])
             self.assertGreater(len(tests), 1900)
+            analogs = {c["id"]: c["fuelAnalogOf"] for c in cards if c.get("fuelAnalogOf")}
+            self.assertEqual(set(analogs), {"PSI-20"})
+            self.assertEqual(analogs["PSI-20"]["states"], ["solid", "liquid"])
+            quote = analogs["PSI-20"]["claim"]["citations"][0]["quote"]
+            meta = json.loads((REPO_ROOT / "data" / "raw" / "PSI-20" / "metadata.json").read_text())
+            self.assertIn(quote, meta["objective"])
+            self.assertEqual(json.loads((Path(d) / "meta.json").read_text())["contractVersion"], "1.1.0")
 
 
 if __name__ == "__main__":

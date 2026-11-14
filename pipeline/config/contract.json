@@ -191,5 +191,18 @@
       "facility": "CIR",
       "insert": "ACME"
     }
+  },
+  "fuelAnalogOf": {
+    "_comment": "Investigations that burn one fuel to stand in for fuels of another state (contract 1.1.0). The quote must be found verbatim in the named PSI metadata field, or the build fails. Not found elsewhere: PSI-62 and PSI-117 'simulate'/'mimic' refer to numerical models, PSI-68 surrogates are liquids standing in for liquids.",
+    "PSI-20": {
+      "states": [
+        "solid",
+        "liquid"
+      ],
+      "text": "Burns gas on a porous burner to emulate solid and liquid (condensed) fuels.",
+      "field": "objective",
+      "quote": "Emphasize fuel conditions that can be related to a diverse range of condensed fuels.",
+      "url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-20"
+    }
   }
 }

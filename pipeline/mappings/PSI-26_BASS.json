@@ -2,7 +2,7 @@
   "tableFile": "PSI-26_Experimental table_BASS.csv",
   "investigationId": "PSI-26",
   "tableId": "BASS",
-  "mappingVersion": "1.0.0",
+  "mappingVersion": "1.1.0",
   "granularity": "test",
   "comment": "Only date, sample and material are in the table; all conditions stay null.",
   "label": {
@@ -34,5 +34,20 @@
   "gravity": {
     "value": "micro",
     "source": "ISS flight experiment"
-  }
+  },
+  "overrides": [
+    {
+      "column": "Fuel Sample Material",
+      "regex": "(?i)^\\s*\\d\\s*cm\\s+(wake\\s+)?sphere",
+      "set": {
+        "fuelName": "PMMA",
+        "fuelState": "solid"
+      },
+      "inferred": [
+        "fuelName"
+      ],
+      "confidence": "medium",
+      "note": "Material PMMA taken from the BASS System Acceptance Review (p. 33): \"SPHERE & HEMISPHERE SAMPLE ASSEMBLY (1 CM & 2 CM DIAMETER PMMA)\"."
+    }
+  ]
 }

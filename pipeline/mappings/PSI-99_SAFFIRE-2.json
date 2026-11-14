@@ -2,7 +2,7 @@
   "tableFile": "PSI-99_Experimental table_SAFFIRE-2.csv",
   "investigationId": "PSI-99",
   "tableId": "SAFFIRE-2",
-  "mappingVersion": "1.0.0",
+  "mappingVersion": "1.1.0",
   "granularity": "test",
   "comment": "Spread rate comes from '?-g Spread Length', whose cells are rates in mm/s. Footnote rows become notes; flow-visualization rows are skipped.",
   "label": {
@@ -77,5 +77,39 @@
   "gravity": {
     "value": "micro",
     "source": "ISS flight experiment"
-  }
+  },
+  "overrides": [
+    {
+      "column": "Sample Number",
+      "regex": "^\\s*2-6\\s*$",
+      "set": {
+        "fuelName": "SIBAL fabric",
+        "fuelState": "solid",
+        "fuelGeometry": "fabric"
+      },
+      "inferred": [
+        "fuelName",
+        "fuelState",
+        "fuelGeometry"
+      ],
+      "confidence": "medium",
+      "note": "Material cell is empty in the source table; SIBAL fabric taken from the pre-flight sample table of \"SAFFIRE Objectives, Development and Status\" (Table 2, p. 3): \"S6 SIBAL fabric\"."
+    },
+    {
+      "column": "Sample Number",
+      "regex": "^\\s*2-9\\s*$",
+      "set": {
+        "fuelName": "PMMA",
+        "fuelState": "solid",
+        "fuelGeometry": "slab"
+      },
+      "inferred": [
+        "fuelName",
+        "fuelState",
+        "fuelGeometry"
+      ],
+      "confidence": "medium",
+      "note": "Material cell is empty in the source table; PMMA taken from the pre-flight sample table of \"SAFFIRE Objectives, Development and Status\" (Table 2, p. 3): \"S9 Flat PMMA\"."
+    }
+  ]
 }

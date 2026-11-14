@@ -368,6 +368,9 @@ def _normalize_row(mapping: Dict[str, Any], src: TableRow, footnotes: Dict[str, 
     for ov in mapping.get("overrides") or []:
         if re.search(ov["regex"], row.src.raw.get(ov["column"], "") or ""):
             row.rec.update(ov["set"])
+            row.infer(*ov.get("inferred", []))  # values taken from a document, not from this cell
+            if ov.get("confidence"):
+                row.lower(ov["confidence"])
             row.note(ov.get("note"))
     gravity = mapping["gravity"]
     row.rec["gravity"] = gravity["value"]

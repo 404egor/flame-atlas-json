@@ -96,7 +96,8 @@ def build_investigations(raw_dir: Path, tests: List[Dict[str, Any]], cfg: Dict[s
         details = json.loads(meta_path.read_text(encoding="utf-8"))
         inv_id = details.get("accession") or meta_path.parent.name
         card, d = cards.build_card(details, settings.investigation_url(inv_id), by_inv.get(inv_id, []),
-                                   cfg["investigations"], cfg["investigationsSource"])
+                                   cfg["investigations"], cfg["investigationsSource"],
+                                   {k: v for k, v in (cfg.get("fuelAnalogOf") or {}).items() if not k.startswith("_")})
         dropped += d
         out.append(card)
     missing = sorted(set(by_inv) - {c["id"] for c in out}, key=inv_sort_key)

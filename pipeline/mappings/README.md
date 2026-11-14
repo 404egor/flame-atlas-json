@@ -23,7 +23,7 @@ The engine must keep reproducing `data/fixtures/tests.json` (`tests/pipeline/tes
 | `diluent` | `{"value"}`, `{"fractions": {"N2": "col", ...}}`, or `{"column", "regex"}` (+ `findall`, `fixAutoIncrement`, `inferred`) |
 | `ignited` | `{"rule": "countPositive" \| "burnTime" \| "map" \| "value", ...}`; `ignitedIfCoolFlame` |
 | `outcome`, `coolFlame` | `{"column", "map"}` or `{"column", "prefixMap"}` |
-| `overrides` | `[{"column", "regex", "set": {...}, "note"}]` applied after the fields |
+| `overrides` | `[{"column", "regex", "set": {...}, "note", "inferred", "confidence"}]` applied after the fields; for values taken from a document, list the fields in `inferred`, lower `confidence` and quote the source verbatim in `note` |
 | `gravity` | `{"value": "micro" \| "normal" \| "partial-simulated", "source"}`; always listed in `inferred` |
 | `notes` | `{"templates": ["{Column} text"], "static": ["text"]}`; a template is dropped when a cell it uses is empty |
 | `skipRows` | `[{"column", "regex", "reason"}]` for rows that are not tests (counted in the build log and `meta.dataNotes`) |
