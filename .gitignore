@@ -3,7 +3,9 @@ node_modules/
 .next/
 dist/
 out/
-coverage/
+# test coverage reports; anchored, because the site has source folders named "coverage"
+/coverage/
+/apps/web/coverage/
 
 # secrets: keys live only in .env.local and in the hosting provider's env
 .env
@@ -28,3 +30,7 @@ data/raw/**/*.doc
 data/raw/**/*.pptx
 data/raw/**/*.ppt
 data/raw/**/*.xlsx
+
+# BMAD: personal install answers stay local; team config is committed
+_bmad/config.user.toml
+_bmad/custom/*.user.toml
