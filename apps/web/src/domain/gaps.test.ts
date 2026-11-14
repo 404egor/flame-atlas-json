@@ -52,6 +52,14 @@ describe("findGaps", () => {
     expect(gap.statement).toContain("2 more tests are that close in oxygen but do not report pressure.");
   });
 
+  it("does not call a test closest when no test reports both oxygen and pressure", () => {
+    const gap = byKind("near-scenario", [solid("a", 33, null), solid("b", 21, null)]);
+    expect(gap).toMatchObject({ count: 0, total: 2, rowIds: [] });
+    expect(gap.statement).toBe(
+      "None of the 2 tests with solid fuel reports both oxygen and pressure, so none can be placed near this environment. 1 more test is that close in oxygen but does not report pressure.",
+    );
+  });
+
   it("counts solid-fuel tests inside the exploration atmosphere and those that might be", () => {
     const gap = byKind("exploration-solids");
     expect(gap).toMatchObject({ count: 1, total: 3, rowIds: ["near"] });

@@ -95,6 +95,8 @@ export interface GapFacts {
   scenario: ScenarioInput;
   /** near-scenario: the closest test when none is near. */
   nearest?: TestRecord | null;
+  /** near-scenario: tests with the fuel that report both oxygen and pressure, so they can be placed at all. */
+  comparable?: number;
   /**
    * near-scenario and exploration-solids: tests that match on fuel and oxygen
    * but do not report pressure, so they could not be counted either way.
@@ -121,6 +123,9 @@ export function describeGap(facts: GapFacts): string {
           : "";
       if (count > 0) {
         return `${plural(count, "test")} of ${total} with ${fuel} fuel ${count === 1 ? "was" : "were"} run ${window}.${extra}`;
+      }
+      if (facts.comparable === 0) {
+        return `None of the ${plural(total ?? 0, "test")} with ${fuel} fuel reports both oxygen and pressure, so none can be placed near this environment.${extra}`;
       }
       const closest = facts.nearest
         ? ` The closest is ${describeRow(facts.nearest)}.`
@@ -170,10 +175,15 @@ export const findGaps: FindGaps = (scenario, tests) => {
     fuelStates: scenario.fuelStates,
   });
   const near = filterTests(tests, gapFilters("near-scenario", scenario)!);
+  // Only a test that reports both values can be called near or closest.
+  const comparable = withFuel.filter((row) => {
+    const ranges = rowRanges(row);
+    return isKnown(ranges.o2Pct) && isKnown(ranges.pressureKpa);
+  });
   let nearest: TestRecord | null = null;
   if (near.length === 0) {
     let best = Infinity;
-    for (const row of withFuel) {
+    for (const row of comparable) {
       const distance = conditionDistance(scenario, row);
       if (distance !== null && distance < best) {
         best = distance;
@@ -221,6 +231,7 @@ export const findGaps: FindGaps = (scenario, tests) => {
         total: withFuel.length,
         scenario,
         nearest,
+        comparable: comparable.length,
         unknownPressure: nearUnknownPressure,
       },
       near.length > 0 ? near : nearest ? [nearest] : [],
