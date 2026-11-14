@@ -10,7 +10,7 @@
 |---|---|
 | [PSI: Combustion Science](https://psi.nasa.gov/physci/repo/search?q=combustion) | основні дані |
 | [NASA Combustion Science (Glenn)](https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/) | короткі описи більшості досліджень; джерело для карток і глосарія |
-| [A Researcher's Guide to ISS Combustion Science](https://www.nasa.gov/missions/station/a-researchers-guide-to-combustion-science/) | огляд 2015 року на 50+ сторінок; читає роль E, додаємо в пошук як загальне джерело |
+| [A Researcher's Guide to ISS Combustion Science](https://www.nasa.gov/missions/station/a-researchers-guide-to-combustion-science/) | огляд 2015 року на 50+ сторінок; читає предметник, додаємо в пошук як загальне джерело |
 | [ScienceCasts: відео про горіння на МКС](https://www.youtube.com/watch?v=W1oXykoz9zg) | 3.6 хвилини, вступ для всієї команди |
 | [Apollo 1](https://sma.nasa.gov/sma-disciplines/accllp/apollo-1), [Apollo 13](https://sma.nasa.gov/sma-disciplines/accllp/apollo-13), [пожежа на «Мирі»](https://www.nasa.gov/history/25-years-ago-fire-aboard-space-station-mir/) | мотивація для демо |
 | Spinoff: [балони пожежників](https://spinoff.nasa.gov/node/9582), [детектор диму](https://spinoff.nasa.gov/node/9407), [одяг пожежників](https://spinoff.nasa.gov/node/9918) | розділ «застосування на Землі» |
@@ -39,8 +39,8 @@
 
 1. **`added[]` буває порожнім.** У PSI-99 (SAFFIRE-II), PSI-69 (FLEX), PSI-68 (FLEX-2), PSI-22 (E-FIELD)
    список порожній, у PSI-106, PSI-20, PSI-21, PSI-62, PSI-60 в ньому один файл, хоча документи на сайті є.
-   Роль B у першу годину відкриває сторінку такого дослідження в браузері, дивиться у DevTools → Network,
-   яким запитом сайт отримує дерево файлів, і додає цей запит в ingest. Запасний шлях: вручну завантажити
+   На кроці 1 відкриваємо сторінку такого дослідження в браузері, дивимось у DevTools → Network,
+   яким запитом сайт отримує дерево файлів, і додаємо цей запит в ingest. Запасний шлях: вручну завантажити
    1–2 ключові документи на кожне таке дослідження.
 2. **Документи бувають великі й старих форматів.** BASS-II Summary Report — PDF на 46.7 МБ.
    У DAFT звіти в `.doc` і `.ppt`. Ставимо ліміт 60 МБ на файл, старі формати конвертуємо через
@@ -56,7 +56,7 @@
 ## 3. 24 дослідження з горіння
 
 Кількість рядків — це рядки даних у таблиці експериментів. Напрям безпеки — робоча гіпотеза,
-яку роль E підтверджує за документами.
+яку предметник підтверджує за документами.
 
 | ID | Назва | Обладнання | Рядків | Статей | Напрям (гіпотеза) |
 |---|---|---|---|---|---|
@@ -85,7 +85,8 @@
 | PSI-117 | Cool Flame Dynamics, CFD (наземне) | — | — | 10 | fundamentals |
 | PSI-115 | SAME Data for Smoke Modeling (наземне) | — | — | 0 | detection |
 
-Разом близько 2 840 рядків у 22 таблицях.
+Разом 2 870 рядків у 22 таблицях. Не кожен рядок є окремим тестом: частина таблиць містить
+підсумки днів тестів або рядки матриці умов.
 
 ## 4. Колонки 22 таблиць експериментів
 

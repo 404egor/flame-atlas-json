@@ -6,12 +6,21 @@
     "o2Pct": 21,
     "pressureKpa": 101.3,
     "gravityG": 0,
-    "flowCmS": { "min": 5, "max": 20 },
-    "fuelStates": ["solid"],
+    "flowCmSMin": 5,
+    "flowCmSMax": 20,
+    "fuelStates": [
+      "solid"
+    ],
     "focus": "all",
-    "sources": [{ "sourceId": "challenge/flame-in-freefall", "locator": "Potential Considerations" }],
+    "sources": [
+      {
+        "label": "Flame in Freefall challenge page, Potential Considerations",
+        "url": "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/",
+        "quote": null
+      }
+    ],
     "assumptions": [
-      "Ventilation flow range 5-20 cm/s is a placeholder: role E confirms it against a NASA source."
+      "Ventilation flow range 5-20 cm/s is a placeholder until confirmed against a NASA source."
     ]
   },
   {
@@ -21,13 +30,22 @@
     "o2Pct": 34,
     "pressureKpa": 56.5,
     "gravityG": 0.165,
-    "flowCmS": { "min": 5, "max": 20 },
-    "fuelStates": ["solid"],
+    "flowCmSMin": 5,
+    "flowCmSMax": 20,
+    "fuelStates": [
+      "solid"
+    ],
     "focus": "prevention",
-    "sources": [{ "sourceId": "challenge/flame-in-freefall", "locator": "Potential Considerations" }],
+    "sources": [
+      {
+        "label": "Flame in Freefall challenge page, Potential Considerations",
+        "url": "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/",
+        "quote": null
+      }
+    ],
     "assumptions": [
-      "The challenge page gives bounds (at least 30% O2, at most 10.2 psi). 34% O2 at 8.2 psi (56.5 kPa) is a point inside those bounds: role E confirms it against a NASA exploration-atmosphere reference.",
-      "Ventilation flow range is a placeholder."
+      "The challenge page gives bounds (at least 30% O2, at most 10.2 psi). 34% O2 at 8.2 psi (56.5 kPa) is a point inside those bounds, to be confirmed against a NASA exploration-atmosphere reference.",
+      "Ventilation flow range 5-20 cm/s is a placeholder until confirmed against a NASA source."
     ]
   },
   {
@@ -37,13 +55,22 @@
     "o2Pct": 34,
     "pressureKpa": 56.5,
     "gravityG": 0.38,
-    "flowCmS": { "min": 5, "max": 20 },
-    "fuelStates": ["solid"],
+    "flowCmSMin": 5,
+    "flowCmSMax": 20,
+    "fuelStates": [
+      "solid"
+    ],
     "focus": "prevention",
-    "sources": [{ "sourceId": "challenge/flame-in-freefall", "locator": "Potential Considerations" }],
+    "sources": [
+      {
+        "label": "Flame in Freefall challenge page, Potential Considerations",
+        "url": "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/",
+        "quote": null
+      }
+    ],
     "assumptions": [
       "Assumes the same atmosphere as the lunar habitat preset.",
-      "Ventilation flow range is a placeholder."
+      "Ventilation flow range 5-20 cm/s is a placeholder until confirmed against a NASA source."
     ]
   },
   {
@@ -53,13 +80,23 @@
     "o2Pct": 34,
     "pressureKpa": 56.5,
     "gravityG": 0.165,
-    "flowCmS": { "min": 5, "max": 20 },
-    "fuelStates": ["solid", "liquid"],
+    "flowCmSMin": 5,
+    "flowCmSMax": 20,
+    "fuelStates": [
+      "solid",
+      "liquid"
+    ],
     "focus": "suppression",
-    "sources": [{ "sourceId": "challenge/flame-in-freefall", "locator": "Potential Considerations" }],
+    "sources": [
+      {
+        "label": "Flame in Freefall challenge page, Potential Considerations",
+        "url": "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/",
+        "quote": null
+      }
+    ],
     "assumptions": [
       "Assumes the same atmosphere as the lunar habitat preset.",
-      "Ventilation flow range is a placeholder."
+      "Ventilation flow range 5-20 cm/s is a placeholder until confirmed against a NASA source."
     ]
   },
   {
@@ -69,10 +106,21 @@
     "o2Pct": 100,
     "pressureKpa": 29.6,
     "gravityG": 0.165,
-    "flowCmS": null,
-    "fuelStates": ["solid"],
+    "flowCmSMin": null,
+    "flowCmSMax": null,
+    "fuelStates": [
+      "solid"
+    ],
     "focus": "prevention",
-    "sources": [{ "sourceId": "challenge/flame-in-freefall", "locator": "Potential Considerations" }],
-    "assumptions": ["Gravity set to lunar surface; use 0 for an orbital spacewalk."]
+    "sources": [
+      {
+        "label": "Flame in Freefall challenge page, Potential Considerations",
+        "url": "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/",
+        "quote": null
+      }
+    ],
+    "assumptions": [
+      "Gravity set to lunar surface; use 0 for an orbital spacewalk."
+    ]
   }
 ]

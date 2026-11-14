@@ -1,0 +1,605 @@
+[
+  {
+    "id": "PSI-25",
+    "acronym": "BASS-II",
+    "title": "Burning and Suppression of Solids - II",
+    "doi": "10.60555/4qc4-de67",
+    "url": "https://doi.org/10.60555/4qc4-de67",
+    "kind": "flight",
+    "platform": "ISS",
+    "facility": "MSG",
+    "insert": "SPICE flow duct",
+    "yearStart": 2010,
+    "yearEnd": 2022,
+    "pillarPrimary": "prevention",
+    "pillarsSecondary": [
+      "suppression"
+    ],
+    "fuelStates": [
+      "solid"
+    ],
+    "fuels": [
+      {
+        "name": "PMMA",
+        "state": "solid",
+        "geometry": "film"
+      }
+    ],
+    "conditions": {
+      "o2PctMin": 22.2,
+      "o2PctMax": 22.2,
+      "pressureKpaMin": null,
+      "pressureKpaMax": null,
+      "flowCmSMin": null,
+      "flowCmSMax": null,
+      "diluents": [
+        "N2"
+      ],
+      "gravity": [
+        "micro"
+      ]
+    },
+    "summary": {
+      "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+      "citations": [
+        {
+          "label": "PSI-25 metadata: objective",
+          "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+          "quote": null
+        }
+      ]
+    },
+    "objectives": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-25 metadata: objective",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "measurements": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-25 metadata: approach",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "fireSafetyRelevance": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-25 metadata: researchImpacts",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "testStats": {
+      "tableFiles": [
+        "PSI-25_Experimental table_BASS-II.csv"
+      ],
+      "rowCount": 129,
+      "granularities": [
+        "test"
+      ]
+    },
+    "publications": [],
+    "review": {
+      "status": "unreviewed",
+      "by": null,
+      "notes": "FIXTURE record. Texts are placeholders, not facts."
+    }
+  },
+  {
+    "id": "PSI-69",
+    "acronym": "FLEX",
+    "title": "Flame Extinguishment Experiment",
+    "doi": null,
+    "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+    "kind": "flight",
+    "platform": "ISS",
+    "facility": "CIR",
+    "insert": "MDCA",
+    "yearStart": null,
+    "yearEnd": null,
+    "pillarPrimary": "suppression",
+    "pillarsSecondary": [
+      "fundamentals"
+    ],
+    "fuelStates": [
+      "liquid"
+    ],
+    "fuels": [
+      {
+        "name": "Methanol",
+        "state": "liquid",
+        "geometry": "droplet"
+      }
+    ],
+    "conditions": {
+      "o2PctMin": 21,
+      "o2PctMax": 21,
+      "pressureKpaMin": 101.02,
+      "pressureKpaMax": 101.02,
+      "flowCmSMin": null,
+      "flowCmSMax": null,
+      "diluents": [
+        "N2",
+        "CO2",
+        "He"
+      ],
+      "gravity": [
+        "micro"
+      ]
+    },
+    "summary": {
+      "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+      "citations": [
+        {
+          "label": "PSI-69 metadata: objective",
+          "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+          "quote": null
+        }
+      ]
+    },
+    "objectives": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-69 metadata: objective",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "measurements": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-69 metadata: approach",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "fireSafetyRelevance": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-69 metadata: researchImpacts",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "testStats": {
+      "tableFiles": [
+        "PSI-69_Experimental table_FLEX.csv"
+      ],
+      "rowCount": 274,
+      "granularities": [
+        "test"
+      ]
+    },
+    "publications": [],
+    "review": {
+      "status": "unreviewed",
+      "by": null,
+      "notes": "FIXTURE record. Texts are placeholders, not facts."
+    }
+  },
+  {
+    "id": "PSI-99",
+    "acronym": "SAFFIRE-II",
+    "title": "Spacecraft Fire Experiment - II",
+    "doi": null,
+    "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+    "kind": "flight",
+    "platform": "Cygnus",
+    "facility": "Saffire enclosure",
+    "insert": null,
+    "yearStart": null,
+    "yearEnd": null,
+    "pillarPrimary": "prevention",
+    "pillarsSecondary": [],
+    "fuelStates": [
+      "solid"
+    ],
+    "fuels": [
+      {
+        "name": "Silicone",
+        "state": "solid",
+        "geometry": "sheet"
+      }
+    ],
+    "conditions": {
+      "o2PctMin": 22.1,
+      "o2PctMax": 22.1,
+      "pressureKpaMin": null,
+      "pressureKpaMax": null,
+      "flowCmSMin": 20,
+      "flowCmSMax": 20,
+      "diluents": [],
+      "gravity": [
+        "micro"
+      ]
+    },
+    "summary": {
+      "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+      "citations": [
+        {
+          "label": "PSI-99 metadata: objective",
+          "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+          "quote": null
+        }
+      ]
+    },
+    "objectives": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-99 metadata: objective",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "measurements": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-99 metadata: approach",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "fireSafetyRelevance": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-99 metadata: researchImpacts",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "testStats": {
+      "tableFiles": [
+        "PSI-99_Experimental table_SAFFIRE-2.csv"
+      ],
+      "rowCount": 15,
+      "granularities": [
+        "test"
+      ]
+    },
+    "publications": [],
+    "review": {
+      "status": "unreviewed",
+      "by": null,
+      "notes": "FIXTURE record. Texts are placeholders, not facts."
+    }
+  },
+  {
+    "id": "PSI-98",
+    "acronym": "SAFFIRE-I",
+    "title": "Spacecraft Fire Experiment - I",
+    "doi": null,
+    "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+    "kind": "flight",
+    "platform": "Cygnus",
+    "facility": "Saffire enclosure",
+    "insert": null,
+    "yearStart": null,
+    "yearEnd": null,
+    "pillarPrimary": "prevention",
+    "pillarsSecondary": [],
+    "fuelStates": [
+      "solid"
+    ],
+    "fuels": [
+      {
+        "name": "SIBAL fabric",
+        "state": "solid",
+        "geometry": "fabric"
+      }
+    ],
+    "conditions": {
+      "o2PctMin": 21.5,
+      "o2PctMax": 21.7,
+      "pressureKpaMin": null,
+      "pressureKpaMax": null,
+      "flowCmSMin": 20,
+      "flowCmSMax": 20,
+      "diluents": [],
+      "gravity": [
+        "micro"
+      ]
+    },
+    "summary": {
+      "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+      "citations": [
+        {
+          "label": "PSI-98 metadata: objective",
+          "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+          "quote": null
+        }
+      ]
+    },
+    "objectives": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-98 metadata: objective",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "measurements": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-98 metadata: approach",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "fireSafetyRelevance": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-98 metadata: researchImpacts",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "testStats": {
+      "tableFiles": [
+        "PSI-98_Experimental table_SAFFIRE-1.csv"
+      ],
+      "rowCount": 4,
+      "granularities": [
+        "test"
+      ]
+    },
+    "publications": [],
+    "review": {
+      "status": "unreviewed",
+      "by": null,
+      "notes": "FIXTURE record. Texts are placeholders, not facts."
+    }
+  },
+  {
+    "id": "PSI-20",
+    "acronym": "ACME BRE",
+    "title": "Burning Rate Emulator",
+    "doi": null,
+    "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+    "kind": "flight",
+    "platform": "ISS",
+    "facility": "CIR",
+    "insert": "ACME",
+    "yearStart": null,
+    "yearEnd": null,
+    "pillarPrimary": "prevention",
+    "pillarsSecondary": [
+      "fundamentals"
+    ],
+    "fuelStates": [
+      "gas"
+    ],
+    "fuels": [
+      {
+        "name": "C2H4",
+        "state": "gas",
+        "geometry": "burner"
+      }
+    ],
+    "conditions": {
+      "o2PctMin": 21,
+      "o2PctMax": 40,
+      "pressureKpaMin": null,
+      "pressureKpaMax": null,
+      "flowCmSMin": null,
+      "flowCmSMax": null,
+      "diluents": [
+        "N2"
+      ],
+      "gravity": [
+        "micro"
+      ]
+    },
+    "summary": {
+      "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+      "citations": [
+        {
+          "label": "PSI-20 metadata: objective",
+          "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+          "quote": null
+        }
+      ]
+    },
+    "objectives": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-20 metadata: objective",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "measurements": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-20 metadata: approach",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "fireSafetyRelevance": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-20 metadata: researchImpacts",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "testStats": {
+      "tableFiles": [
+        "PSI-20_Experimental table_ACME BRE.csv"
+      ],
+      "rowCount": 18,
+      "granularities": [
+        "test-day"
+      ]
+    },
+    "publications": [],
+    "review": {
+      "status": "unreviewed",
+      "by": null,
+      "notes": "FIXTURE record. Texts are placeholders, not facts."
+    }
+  },
+  {
+    "id": "PSI-159",
+    "acronym": "ACME CFI-G",
+    "title": "Cool Flames Investigation with Gases",
+    "doi": null,
+    "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+    "kind": "flight",
+    "platform": "ISS",
+    "facility": "CIR",
+    "insert": "ACME",
+    "yearStart": null,
+    "yearEnd": null,
+    "pillarPrimary": "fundamentals",
+    "pillarsSecondary": [],
+    "fuelStates": [
+      "gas"
+    ],
+    "fuels": [
+      {
+        "name": "ethane",
+        "state": "gas",
+        "geometry": "burner"
+      }
+    ],
+    "conditions": {
+      "o2PctMin": 39.39,
+      "o2PctMax": 39.39,
+      "pressureKpaMin": 94.44,
+      "pressureKpaMax": 94.44,
+      "flowCmSMin": null,
+      "flowCmSMax": null,
+      "diluents": [],
+      "gravity": [
+        "micro"
+      ]
+    },
+    "summary": {
+      "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+      "citations": [
+        {
+          "label": "PSI-159 metadata: objective",
+          "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+          "quote": null
+        }
+      ]
+    },
+    "objectives": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-159 metadata: objective",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "measurements": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-159 metadata: approach",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "fireSafetyRelevance": [
+      {
+        "text": "FIXTURE PLACEHOLDER. Replaced by pipeline output.",
+        "citations": [
+          {
+            "label": "PSI-159 metadata: researchImpacts",
+            "url": "https://psi.nasa.gov/physci/repo/search?q=combustion",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "testStats": {
+      "tableFiles": [
+        "PSI-159_Experimental table_CFI-G_Normal Flames.csv",
+        "PSI-159_Experimental table_CFI-G_Inverse Flames.csv"
+      ],
+      "rowCount": 1194,
+      "granularities": [
+        "test"
+      ]
+    },
+    "publications": [],
+    "review": {
+      "status": "unreviewed",
+      "by": null,
+      "notes": "FIXTURE record. Texts are placeholders, not facts."
+    }
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "meta.schema.json",
+  "title": "meta.json: what this data build contains",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contractVersion", "generatedAt", "source", "counts", "tables", "quality", "dataNotes"],
+  "properties": {
+    "contractVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "generatedAt": { "type": "string", "description": "ISO date-time of the pipeline run" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "url", "license"],
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "type": "string", "pattern": "^https?://" },
+        "license": { "type": "string" }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["investigations", "rows", "tables"],
+      "properties": {
+        "investigations": { "type": "integer", "minimum": 0 },
+        "rows": { "type": "integer", "minimum": 0, "description": "records in tests.json" },
+        "tables": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "tables": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["tableFile", "investigationId", "rows", "granularity", "mappingVersion"],
+        "properties": {
+          "tableFile": { "type": "string" },
+          "investigationId": { "type": "string", "pattern": "^PSI-[0-9]+$" },
+          "rows": { "type": "integer", "minimum": 0 },
+          "granularity": { "enum": ["test", "test-day", "matrix-row", "reference"] },
+          "mappingVersion": { "type": "string" }
+        }
+      }
+    },
+    "quality": {
+      "type": "object",
+      "description": "manual check of normalized values against the source tables; null until done",
+      "additionalProperties": false,
+      "required": ["checkedValues", "correctValues", "notes"],
+      "properties": {
+        "checkedValues": { "type": ["integer", "null"], "minimum": 0 },
+        "correctValues": { "type": ["integer", "null"], "minimum": 0 },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "dataNotes": { "type": "array", "items": { "type": "string" }, "description": "known limits of the data, shown in the UI" }
+  }
+}

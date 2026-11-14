@@ -1,7 +1,7 @@
 # Project page draft (English only)
 
 Owner: role E. Field names match the Space Apps project form. Fill in as the product takes shape;
-final numbers come from `data/processed/eval.json` and role C.
+final numbers come from `data/processed/meta.json` and `data/review/findings.md`.
 
 ## Project Name
 
@@ -22,10 +22,10 @@ Flame Atlas  <!-- working name -->
 ## Detailed Project Description
 
 ### What it does
-<!-- Scenario ranking, unified test table with export, coverage and gap map, investigation cards, comparison, Q&A with citations. -->
+<!-- Scenario ranking, unified test table with export, coverage and gap map, investigation cards, the headline finding for the lunar-habitat atmosphere. -->
 
 ### How it works
-<!-- PSI API -> ingest -> table normalization (LLM proposes a mapping, code applies it) -> cards with verified quotes -> deterministic ranking -> web app. -->
+<!-- PSI tables -> Python pipeline: normalization (LLM proposes a mapping, code applies it, humans spot-check) -> cards with verified quotes -> four JSON files -> static web app with deterministic ranking and coverage. -->
 
 ### Benefits
 <!-- Who uses it and what they get in minutes instead of days. -->
@@ -37,7 +37,7 @@ Flame Atlas  <!-- working name -->
 <!-- TypeScript, Next.js, ... -->
 
 ### Data quality
-<!-- N test records from M tables; X of 40 hand-checked values correct; Y of 48 card claims verified. -->
+<!-- N rows from M tables (how many are individual tests); X of 40 hand-checked values correct; Y of 48 card claims verified. -->
 
 ### Limitations
 <!-- No partial-gravity data in PSI; some conditions not reported in tables; summaries restate the authors' conclusions. -->

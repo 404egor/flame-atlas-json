@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scenarios.schema.json",
+  "title": "scenarios.json: environment presets",
+  "type": "array",
+  "items": { "$ref": "#/$defs/Scenario" },
+  "$defs": {
+    "Citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "url", "quote"],
+      "properties": {
+        "label": { "type": "string" },
+        "url": { "type": "string", "pattern": "^https?://" },
+        "quote": { "type": ["string", "null"] }
+      }
+    },
+    "Scenario": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "name", "description", "o2Pct", "pressureKpa", "gravityG",
+        "flowCmSMin", "flowCmSMax", "fuelStates", "focus", "sources", "assumptions"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "o2Pct": { "type": "number", "minimum": 0, "maximum": 100 },
+        "pressureKpa": { "type": "number", "exclusiveMinimum": 0 },
+        "gravityG": { "type": "number", "minimum": 0, "description": "0 microgravity, 0.165 Moon, 0.38 Mars, 1 Earth" },
+        "flowCmSMin": { "type": ["number", "null"], "minimum": 0 },
+        "flowCmSMax": { "type": ["number", "null"], "minimum": 0 },
+        "fuelStates": { "type": "array", "items": { "enum": ["solid", "liquid", "gas", "aerosol"] } },
+        "focus": { "enum": ["prevention", "detection", "suppression", "fundamentals", "all"] },
+        "sources": { "type": "array", "items": { "$ref": "#/$defs/Citation" } },
+        "assumptions": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

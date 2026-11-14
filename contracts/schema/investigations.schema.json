@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "investigations.schema.json",
+  "title": "investigations.json: one card per PSI combustion investigation",
+  "type": "array",
+  "items": { "$ref": "#/$defs/Investigation" },
+  "$defs": {
+    "numOrNull": { "type": ["number", "null"] },
+    "strOrNull": { "type": ["string", "null"] },
+    "intOrNull": { "type": ["integer", "null"] },
+    "pillar": { "enum": ["prevention", "detection", "suppression", "fundamentals"] },
+    "fuelState": { "enum": ["solid", "liquid", "gas", "aerosol"] },
+    "Citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "url", "quote"],
+      "properties": {
+        "label": { "type": "string", "description": "human-readable source, e.g. 'PSI-25 metadata: objective'" },
+        "url": { "type": "string", "pattern": "^https?://" },
+        "quote": { "$ref": "#/$defs/strOrNull", "description": "verbatim quote from the source, checked by code; null for table references" }
+      }
+    },
+    "Claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "citations"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "citations": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/Citation" } }
+      }
+    },
+    "Investigation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "acronym", "title", "doi", "url", "kind", "platform", "facility", "insert",
+        "yearStart", "yearEnd", "pillarPrimary", "pillarsSecondary", "fuelStates", "fuels",
+        "conditions", "summary", "objectives", "measurements", "fireSafetyRelevance",
+        "testStats", "publications", "review"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^PSI-[0-9]+$" },
+        "acronym": { "$ref": "#/$defs/strOrNull" },
+        "title": { "type": "string", "minLength": 1 },
+        "doi": { "$ref": "#/$defs/strOrNull" },
+        "url": { "type": "string", "pattern": "^https?://", "description": "public page of the investigation (DOI link or PSI page)" },
+        "kind": { "enum": ["flight", "ground"] },
+        "platform": { "$ref": "#/$defs/strOrNull", "description": "ISS, Cygnus ..." },
+        "facility": { "$ref": "#/$defs/strOrNull", "description": "MSG, CIR ..." },
+        "insert": { "$ref": "#/$defs/strOrNull", "description": "ACME, MDCA, SPICE flow duct ..." },
+        "yearStart": { "$ref": "#/$defs/intOrNull" },
+        "yearEnd": { "$ref": "#/$defs/intOrNull" },
+
+        "pillarPrimary": { "$ref": "#/$defs/pillar" },
+        "pillarsSecondary": { "type": "array", "items": { "$ref": "#/$defs/pillar" } },
+        "fuelStates": { "type": "array", "items": { "$ref": "#/$defs/fuelState" } },
+        "fuels": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "state", "geometry"],
+            "properties": {
+              "name": { "type": "string" },
+              "state": { "$ref": "#/$defs/fuelState" },
+              "geometry": { "$ref": "#/$defs/strOrNull" }
+            }
+          }
+        },
+
+        "conditions": {
+          "type": "object",
+          "description": "ranges computed by the pipeline from tests.json; null = not reported",
+          "additionalProperties": false,
+          "required": ["o2PctMin", "o2PctMax", "pressureKpaMin", "pressureKpaMax", "flowCmSMin", "flowCmSMax", "diluents", "gravity"],
+          "properties": {
+            "o2PctMin": { "$ref": "#/$defs/numOrNull" },
+            "o2PctMax": { "$ref": "#/$defs/numOrNull" },
+            "pressureKpaMin": { "$ref": "#/$defs/numOrNull" },
+            "pressureKpaMax": { "$ref": "#/$defs/numOrNull" },
+            "flowCmSMin": { "$ref": "#/$defs/numOrNull" },
+            "flowCmSMax": { "$ref": "#/$defs/numOrNull" },
+            "diluents": { "type": "array", "items": { "type": "string" } },
+            "gravity": { "type": "array", "items": { "enum": ["micro", "normal", "partial-simulated"] } }
+          }
+        },
+
+        "summary": { "$ref": "#/$defs/Claim" },
+        "objectives": { "type": "array", "items": { "$ref": "#/$defs/Claim" } },
+        "measurements": { "type": "array", "items": { "$ref": "#/$defs/Claim" } },
+        "fireSafetyRelevance": { "type": "array", "items": { "$ref": "#/$defs/Claim" } },
+
+        "testStats": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["tableFiles", "rowCount", "granularities"],
+          "properties": {
+            "tableFiles": { "type": "array", "items": { "type": "string" } },
+            "rowCount": { "type": "integer", "minimum": 0 },
+            "granularities": { "type": "array", "items": { "enum": ["test", "test-day", "matrix-row", "reference"] } }
+          }
+        },
+
+        "publications": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["title", "year", "doi"],
+            "properties": {
+              "title": { "type": "string" },
+              "year": { "$ref": "#/$defs/intOrNull" },
+              "doi": { "$ref": "#/$defs/strOrNull" }
+            }
+          }
+        },
+
+        "review": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "by", "notes"],
+          "properties": {
+            "status": { "enum": ["unreviewed", "spot-checked", "reviewed"] },
+            "by": { "$ref": "#/$defs/strOrNull" },
+            "notes": { "$ref": "#/$defs/strOrNull" }
+          }
+        }
+      }
+    }
+  }
+}
