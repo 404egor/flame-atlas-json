@@ -31,7 +31,8 @@ export function Findings({ gaps, scenario }: { gaps: readonly Gap[]; scenario: S
               {near.total !== null ? `, out of ${near.total} with the same fuel state` : ""}
             </span>
           </p>
-          <p className="mt-2 text-sm text-fg-muted">{near.statement}</p>
+          {/* Two lines kept free so a shorter statement does not pull the content below upward. */}
+          <p className="mt-2 min-h-[2lh] text-sm text-fg-muted">{near.statement}</p>
           <p className="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-sm">
             {filters && near.count > 0 ? (
               <Link href={testsHref(filters)} className="text-fg-muted underline underline-offset-2 hover:text-fg">
