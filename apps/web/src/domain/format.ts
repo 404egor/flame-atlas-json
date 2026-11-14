@@ -5,7 +5,7 @@
 
 import type { Granularity, Gravity } from "@/generated/contract";
 import { KPA_PER_PSI } from "./config";
-import type { Range } from "./num";
+import type { Interval, Range } from "./num";
 
 export const NOT_REPORTED = "not reported";
 
@@ -106,4 +106,21 @@ export function formatList(values: readonly string[]): string {
 /** "PSI-25_Experimental table_BASS-II.csv" becomes "BASS-II". The full file name stays available next to it. */
 export function formatTableName(tableFile: string): string {
   return tableFile.replace(/^PSI-\d+_Experimental table_/, "").replace(/\.csv$/i, "");
+}
+
+/**
+ * A filter range in words: "30 to under 35 %", "over 50 to 70.33 kPa",
+ * "at least 30 %", "at most 70.33 kPa". An open side is written as infinity in the interval.
+ */
+export function formatInterval(interval: Interval, unit?: string): string {
+  const { lo, hi, closed } = interval;
+  const tail = unit ? ` ${unit}` : "";
+  const hasLo = Number.isFinite(lo);
+  const hasHi = Number.isFinite(hi);
+  if (!hasLo && !hasHi) return "any";
+  if (!hasHi) return `${closed === "right" ? "over" : "at least"} ${formatNumber(lo)}${tail}`;
+  if (!hasLo) return `${closed === "left" ? "under" : "at most"} ${formatNumber(hi)}${tail}`;
+  const from = closed === "right" ? `over ${formatNumber(lo)}` : formatNumber(lo);
+  const to = closed === "left" ? `under ${formatNumber(hi)}` : formatNumber(hi);
+  return `${from} to ${to}${tail}`;
 }

@@ -4,6 +4,7 @@ import {
   formatBoolean,
   formatGranularity,
   formatGravityLevels,
+  formatInterval,
   formatList,
   formatNumber,
   formatPressure,
@@ -99,5 +100,18 @@ describe("formatTableName", () => {
 
   it("leaves an unexpected name as it is", () => {
     expect(formatTableName("notes.txt")).toBe("notes.txt");
+  });
+});
+
+describe("formatInterval", () => {
+  it("says which ends are included", () => {
+    expect(formatInterval({ lo: 30, hi: 35, closed: "left" }, "%")).toBe("30 to under 35 %");
+    expect(formatInterval({ lo: 50, hi: 70.33, closed: "right" }, "kPa")).toBe("over 50 to 70.33 kPa");
+    expect(formatInterval({ lo: 30, hi: 100, closed: "both" }, "%")).toBe("30 to 100 %");
+  });
+
+  it("reads an open side as at least or at most", () => {
+    expect(formatInterval({ lo: 30, hi: Infinity, closed: "both" }, "%")).toBe("at least 30 %");
+    expect(formatInterval({ lo: -Infinity, hi: 70.33, closed: "both" }, "kPa")).toBe("at most 70.33 kPa");
   });
 });

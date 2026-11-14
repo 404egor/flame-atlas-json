@@ -26,6 +26,7 @@ import {
   scorePillar,
   scorePressure,
 } from "./rank";
+import { testRow } from "./test-helpers";
 import type { ScenarioInput } from "./types";
 
 const lunarHabitat: ScenarioInput = {
@@ -83,48 +84,7 @@ function investigation(overrides: Partial<Omit<Investigation, "conditions">> & {
   };
 }
 
-function row(overrides: Partial<TestRecord> = {}): TestRecord {
-  return {
-    id: "PSI-1:t:1",
-    investigationId: "PSI-1",
-    tableFile: "table.csv",
-    sourceRow: 1,
-    granularity: "test",
-    label: null,
-    date: null,
-    fuelName: null,
-    fuelState: null,
-    fuelGeometry: null,
-    fuelRaw: null,
-    thicknessMm: null,
-    widthMm: null,
-    diameterMm: null,
-    o2PctMin: null,
-    o2PctMax: null,
-    o2PctValues: null,
-    o2PctApprox: false,
-    o2PctFinal: null,
-    diluent: null,
-    pressureKpaMin: null,
-    pressureKpaMax: null,
-    co2Pct: null,
-    flowCmSMin: null,
-    flowCmSMax: null,
-    flowDirection: "unknown",
-    gravity: "micro",
-    ignited: null,
-    outcome: null,
-    burnTimeS: null,
-    spreadRateMmS: null,
-    coolFlame: null,
-    notes: null,
-    raw: {},
-    inferred: [],
-    confidence: "high",
-    mappingVersion: "test",
-    ...overrides,
-  };
-}
+const row = testRow;
 
 describe("config", () => {
   it("has weights that sum to 1, so a perfect match scores 100", () => {
