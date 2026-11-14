@@ -1,0 +1,1808 @@
+{
+  "investigationId": "PSI-102",
+  "source": "psi",
+  "listedAt": "2026-11-14T17:04:35+00:00",
+  "selection": {
+    "allowedExtensions": [
+      "pdf",
+      "docx",
+      "csv",
+      "xlsx"
+    ],
+    "excludeFolders": [
+      "Raw Data"
+    ],
+    "includeFolders": [],
+    "maxFileSizeMb": 60
+  },
+  "stats": {
+    "listed": 105,
+    "selected": 34,
+    "downloaded": 34,
+    "cached": 0,
+    "failed": 0
+  },
+  "files": [
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_16904___9.xml",
+      "fileName": "PSI-102_Analyzed Data_16904___9.xml",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 05",
+      "sizeBytes": 0,
+      "version": 2,
+      "origin": [
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xml",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xml"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_16912___9.xml",
+      "fileName": "PSI-102_Analyzed Data_16912___9.xml",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 14",
+      "sizeBytes": 0,
+      "version": 2,
+      "origin": [
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xml",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xml"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_16937___9.xml",
+      "fileName": "PSI-102_Analyzed Data_16937___9.xml",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 26",
+      "sizeBytes": 0,
+      "version": 2,
+      "origin": [
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xml",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xml"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_16942___9.xml",
+      "fileName": "PSI-102_Analyzed Data_16942___9.xml",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 31",
+      "sizeBytes": 0,
+      "version": 2,
+      "origin": [
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xml",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xml"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_DBP  GMT257hkp.xls",
+      "fileName": "PSI-102_Analyzed Data_DBP  GMT257hkp.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 09",
+      "sizeBytes": 1202176,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_DBP run 4 GMT255hkp with zgy average.xls",
+      "fileName": "PSI-102_Analyzed Data_DBP run 4 GMT255hkp with zgy average.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 04",
+      "sizeBytes": 5205504,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT252run1testhkp with plots.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT252run1testhkp with plots.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 01",
+      "sizeBytes": 3121152,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT252run1testhkp with plotszgy average.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT252run1testhkp with plotszgy average.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 01",
+      "sizeBytes": 3315200,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT254HKPandLOGmultiple runs.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT254HKPandLOGmultiple runs.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 02",
+      "sizeBytes": 10293248,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT254run2btesthkp with zgy average.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT254run2btesthkp with zgy average.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 03",
+      "sizeBytes": 1851904,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT255 log.xlsx",
+      "fileName": "PSI-102_Analyzed Data_GMT255 log.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 04",
+      "sizeBytes": 18763,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Analyzed Data/Reduced Gravity/Dibutyl Phthalate/Run 04/PSI-102_Analyzed Data_GMT255 log.xlsx",
+      "sha256": "0f93839a15584804d5293e957b0a12dc686d2ffc5051df32d9b140c0bfa82aee",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT255hkp.xlsx",
+      "fileName": "PSI-102_Analyzed Data_GMT255hkp.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 04",
+      "sizeBytes": 1563904,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Analyzed Data/Reduced Gravity/Dibutyl Phthalate/Run 04/PSI-102_Analyzed Data_GMT255hkp.xlsx",
+      "sha256": "4eb5041dd773c817954d3c1067ba3afddb6b958951cb300664d37f85ef941287",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT256HKP zgy average.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT256HKP zgy average.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 06, 07",
+      "sizeBytes": 4487680,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT256HKP.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT256HKP.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 06, 07",
+      "sizeBytes": 4460544,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT256LOG.xlsx",
+      "fileName": "PSI-102_Analyzed Data_GMT256LOG.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 06, 07",
+      "sizeBytes": 28778,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Analyzed Data/Reduced Gravity/Cotton Lamp wick/Run 06, 07/PSI-102_Analyzed Data_GMT256LOG.xlsx",
+      "sha256": "2615c15684d2b66116f959e3b7ddea6bcc3093c12d20d073d8a98ac07543d165",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT262 RUN 13 teflon.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT262 RUN 13 teflon.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 13",
+      "sizeBytes": 897536,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT262 Run 11 DBP hkp.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT262 Run 11 DBP hkp.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 11",
+      "sizeBytes": 1875456,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT262 Run 12 dbp.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT262 Run 12 dbp.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 12",
+      "sizeBytes": 1707520,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT263 Run 15 DBP.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT263 Run 15 DBP.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 15",
+      "sizeBytes": 645120,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT263 Run 16 DBP.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT263 Run 16 DBP.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 16",
+      "sizeBytes": 713728,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT263 run 14 kapton avg.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT263 run 14 kapton avg.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 14",
+      "sizeBytes": 1066496,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT264 Run 17 lampwick.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT264 Run 17 lampwick.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 17",
+      "sizeBytes": 1867776,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT264 Run 18 DBP.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT264 Run 18 DBP.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 18",
+      "sizeBytes": 4993024,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT264 Run 21 DBP.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT264 Run 21 DBP.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 21, 22",
+      "sizeBytes": 5327872,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT264 Run 22 DBP.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT264 Run 22 DBP.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 21, 22",
+      "sizeBytes": 5331968,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT264dbptest19and20hkp.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT264dbptest19and20hkp.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 19, 20",
+      "sizeBytes": 4012032,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT267silicon test 23 and 24 log.xlsx",
+      "fileName": "PSI-102_Analyzed Data_GMT267silicon test 23 and 24 log.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 23",
+      "sizeBytes": 32397,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Analyzed Data/Reduced Gravity/Silicone/Run 23/PSI-102_Analyzed Data_GMT267silicon test 23 and 24 log.xlsx",
+      "sha256": "fad0fc69001efd1c2af31ac9fda77df6b6a69bfda3608c3489bd9e9e16aa5bda",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT267silicon23hkp.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT267silicon23hkp.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 23",
+      "sizeBytes": 11317248,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT267silicon24hkp.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT267silicon24hkp.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 24",
+      "sizeBytes": 9249792,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT268teflon25.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT268teflon25.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 25",
+      "sizeBytes": 5562880,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT268teflon26.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT268teflon26.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 26",
+      "sizeBytes": 3776512,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT269silicon27.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT269silicon27.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 27",
+      "sizeBytes": 2311168,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT269teflon28hkp.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT269teflon28hkp.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 28",
+      "sizeBytes": 3369472,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT271kapton29.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT271kapton29.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 29",
+      "sizeBytes": 5160960,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT272kapton30.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT272kapton30.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 30",
+      "sizeBytes": 2646528,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT272lampwick31.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT272lampwick31.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 31",
+      "sizeBytes": 1492480,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT272lampwick32.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT272lampwick32.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 32",
+      "sizeBytes": 5031936,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT273kapton33.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT273kapton33.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 33",
+      "sizeBytes": 5982720,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT273lampwick34.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT273lampwick34.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 34",
+      "sizeBytes": 3213312,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT276dbp36hkp.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT276dbp36hkp.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 36",
+      "sizeBytes": 5863936,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT276dbp37.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT276dbp37.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 37",
+      "sizeBytes": 1187328,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT276dbp38.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT276dbp38.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 38",
+      "sizeBytes": 6122496,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT276dbp39hkp.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT276dbp39hkp.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 39",
+      "sizeBytes": 2551296,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT276dbp40hkp.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT276dbp40hkp.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 40",
+      "sizeBytes": 4268544,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT276silicone35.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT276silicone35.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 35",
+      "sizeBytes": 3540992,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT277DBP43hkp.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT277DBP43hkp.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 43",
+      "sizeBytes": 3217408,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT277DBPTest44.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT277DBPTest44.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 44",
+      "sizeBytes": 11580928,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT277dbp42hkp peak 1.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT277dbp42hkp peak 1.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 42",
+      "sizeBytes": 4574720,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT277dbp42hkp peak 2.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT277dbp42hkp peak 2.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 42",
+      "sizeBytes": 6299136,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT277dbp43hkpa.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT277dbp43hkpa.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 43",
+      "sizeBytes": 6428672,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT278DBP45.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT278DBP45.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 45",
+      "sizeBytes": 6271488,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_GMT278Lampwick46.xls",
+      "fileName": "PSI-102_Analyzed Data_GMT278Lampwick46.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 46",
+      "sizeBytes": 4929024,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_Run 1 GMT252 testlog.xls",
+      "fileName": "PSI-102_Analyzed Data_Run 1 GMT252 testlog.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 01",
+      "sizeBytes": 26112,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_Run 2 DBP GMT 254 with averages.xls",
+      "fileName": "PSI-102_Analyzed Data_Run 2 DBP GMT 254 with averages.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 02",
+      "sizeBytes": 2917376,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_Run 2 GMT254 testlog b.xlsx",
+      "fileName": "PSI-102_Analyzed Data_Run 2 GMT254 testlog b.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 03",
+      "sizeBytes": 20866,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Analyzed Data/Reduced Gravity/Dibutyl Phthalate/Run 03/PSI-102_Analyzed Data_Run 2 GMT254 testlog b.xlsx",
+      "sha256": "74e16a53bb425e5c21bd61cb4c135580a5d4ad96446049599fffc503f6fdf8dd",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_Run 2 GMT254 testlog.xlsx",
+      "fileName": "PSI-102_Analyzed Data_Run 2 GMT254 testlog.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 02",
+      "sizeBytes": 20970,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Analyzed Data/Reduced Gravity/Dibutyl Phthalate/Run 02/PSI-102_Analyzed Data_Run 2 GMT254 testlog.xlsx",
+      "sha256": "f476a603bdce8e04608fb5d459fa4286e3d4cf8f2ada5b980ea5d3fc00789eee",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_Silicone GMT255hkp run 5s zgy average.xls",
+      "fileName": "PSI-102_Analyzed Data_Silicone GMT255hkp run 5s zgy average.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 05",
+      "sizeBytes": 12931072,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_Silicone GMT255hkp run 5s.xls",
+      "fileName": "PSI-102_Analyzed Data_Silicone GMT255hkp run 5s.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 05",
+      "sizeBytes": 11481088,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_TeflonGMT257hkp zgy average.xls",
+      "fileName": "PSI-102_Analyzed Data_TeflonGMT257hkp zgy average.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 10",
+      "sizeBytes": 2576896,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_TeflonGMT257hkp.xls",
+      "fileName": "PSI-102_Analyzed Data_TeflonGMT257hkp.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 10",
+      "sizeBytes": 2551808,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_dbpGMT257hkp zgy average.xls",
+      "fileName": "PSI-102_Analyzed Data_dbpGMT257hkp zgy average.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Dibutyl Phthalate/Run 09",
+      "sizeBytes": 1257984,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_kaptonGMT257 zgy average.xls",
+      "fileName": "PSI-102_Analyzed Data_kaptonGMT257 zgy average.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 08",
+      "sizeBytes": 2234368,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Analyzed Data/PSI-102_Analyzed Data_kaptonGMT257.xls",
+      "fileName": "PSI-102_Analyzed Data_kaptonGMT257.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 08",
+      "sizeBytes": 2120704,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA150-B Aging Chamber Assembly.pdf",
+      "fileName": "PSI-102_Engineering Documents_60089MFHA150-B Aging Chamber Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 335105,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA150-B Aging Chamber Assembly.pdf",
+      "sha256": "384a1db06b7deed48e6f65f4b4dd30b0e926a6ad82a15faece3223726e4843b8",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA151-B Same Aging Chamber.pdf",
+      "fileName": "PSI-102_Engineering Documents_60089MFHA151-B Same Aging Chamber.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 212992,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA151-B Same Aging Chamber.pdf",
+      "sha256": "04177ecfaedeb18208d27b45f6f96ac4f2c16496fa5bee906ccd1b970b7694c8",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA410-A Teflon Sample Assembly.pdf",
+      "fileName": "PSI-102_Engineering Documents_60089MFHA410-A Teflon Sample Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 156530,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA410-A Teflon Sample Assembly.pdf",
+      "sha256": "3b124d774955a3ecdaed694619ec8ad05293875f3f1145aae9819badf4c3e73d",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA411 Teflon Ignitor Wire Coil Assembly.pdf",
+      "fileName": "PSI-102_Engineering Documents_60089MFHA411 Teflon Ignitor Wire Coil Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 175861,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA411 Teflon Ignitor Wire Coil Assembly.pdf",
+      "sha256": "24a25119a5732adca9f02d3f437867be1a6250297311504720eea0cab6dcd9d7",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA414-A Lampwick Sample Assembly.pdf",
+      "fileName": "PSI-102_Engineering Documents_60089MFHA414-A Lampwick Sample Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 151181,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA414-A Lampwick Sample Assembly.pdf",
+      "sha256": "4a084ba74650efd7c31282905711c35adaf3de634d00a525514799e57a1d108d",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA415 Ignitor Wire Coil Assembly (for 0 .250 OD samples).pdf",
+      "fileName": "PSI-102_Engineering Documents_60089MFHA415 Ignitor Wire Coil Assembly (for 0 .250 OD samples).pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 98186,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA415 Ignitor Wire Coil Assembly (for 0 .250 OD samples).pdf",
+      "sha256": "3bee2dea59501f5022769e0aa9e44275ea3bce8f6fdfd3c1f1051f260054ef51",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA416-A Silicone Sample Assembly.pdf",
+      "fileName": "PSI-102_Engineering Documents_60089MFHA416-A Silicone Sample Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 152496,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA416-A Silicone Sample Assembly.pdf",
+      "sha256": "ca416106d98294bb1a63f81acd12578cb2b4ca632da57cf08ec8791c993240c0",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA417-B Kapton Sample Assembly.pdf",
+      "fileName": "PSI-102_Engineering Documents_60089MFHA417-B Kapton Sample Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 149738,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA417-B Kapton Sample Assembly.pdf",
+      "sha256": "02604f468029563e4f43213129302af8e01a239caf1c98a616962d7af29cf6cb",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA419 Silicone Ignitor Wire Coil Assembly.pdf",
+      "fileName": "PSI-102_Engineering Documents_60089MFHA419 Silicone Ignitor Wire Coil Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 161925,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA419 Silicone Ignitor Wire Coil Assembly.pdf",
+      "sha256": "729bbf0a1b81d41536394ba1f77110bbc35ee8baa238b6af6180a19bdb942bbb",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA432-A Kapton Ignitor Wire Coil Assembly.pdf",
+      "fileName": "PSI-102_Engineering Documents_60089MFHA432-A Kapton Ignitor Wire Coil Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 169403,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA432-A Kapton Ignitor Wire Coil Assembly.pdf",
+      "sha256": "a53dbcd2f46d350ab99b2cc46f4316c29ddf4f139534ac1673d88a0f18609cd3",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHD126-B Smoke Generation Tube.pdf",
+      "fileName": "PSI-102_Engineering Documents_60089MFHD126-B Smoke Generation Tube.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 243826,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHD126-B Smoke Generation Tube.pdf",
+      "sha256": "30420506799102afea0f2459a7fb0661ffdc39d1c0ba3f340a7d7f4a5b0849cc",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHD413 Teflon Sample Part.pdf",
+      "fileName": "PSI-102_Engineering Documents_60089MFHD413 Teflon Sample Part.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 150152,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHD413 Teflon Sample Part.pdf",
+      "sha256": "96434adcc6dd848de318711db5a1396ae11c51d0b686a3a799b31c366ccef0de",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHD509 P-Trak Condenser Tube Modification.pdf",
+      "fileName": "PSI-102_Engineering Documents_60089MFHD509 P-Trak Condenser Tube Modification.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 162848,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHD509 P-Trak Condenser Tube Modification.pdf",
+      "sha256": "7a24b235b4b373d3f3dfa9f0ed570ce72c32c5799f6f0a69f4a216881fb42173",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHP000-E SAME Fluids System Schematic, right side.pdf",
+      "fileName": "PSI-102_Engineering Documents_60089MFHP000-E SAME Fluids System Schematic, right side.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 1611751,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHP000-E SAME Fluids System Schematic, right side.pdf",
+      "sha256": "6e4063f4bd05a7b6531f662aa46f96a4769fcfea84d1333e62911528a408be19",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHP0001-C Same Fluids System Schematic.pdf",
+      "fileName": "PSI-102_Engineering Documents_60089MFHP0001-C Same Fluids System Schematic.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 258855,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHP0001-C Same Fluids System Schematic.pdf",
+      "sha256": "bfa59509eeb0b2e3494ee195d01e251844caafc3417ccdfec7b239f1b5680e6f",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_80089MFHP000-E SAME Fluids System Schematic.pdf",
+      "fileName": "PSI-102_Engineering Documents_80089MFHP000-E SAME Fluids System Schematic.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 333331,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_80089MFHP000-E SAME Fluids System Schematic.pdf",
+      "sha256": "e786572cee7f4b049a932ff0057385619882bd0c3e3f670e3bf1da39148aa822",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_Fluids Control Unit, Schematic, left side.pdf",
+      "fileName": "PSI-102_Engineering Documents_Fluids Control Unit, Schematic, left side.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 1163952,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_Fluids Control Unit, Schematic, left side.pdf",
+      "sha256": "eaa26a8b724d924535c6a95e4498c451fa060dd694271c56c1737bee49459e70",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_Resistive Heater Coil-TN001.mp4",
+      "fileName": "PSI-102_Engineering Documents_Resistive Heater Coil-TN001.mp4",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 7339333,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:mp4",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_Resistive Heater Coil-TN001.zip",
+      "fileName": "PSI-102_Engineering Documents_Resistive Heater Coil-TN001.zip",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 168520317,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:zip",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_Resistive Heater Coil-TN002.mp4",
+      "fileName": "PSI-102_Engineering Documents_Resistive Heater Coil-TN002.mp4",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 6866548,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:mp4",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_Resistive Heater Coil-TN002.zip",
+      "fileName": "PSI-102_Engineering Documents_Resistive Heater Coil-TN002.zip",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 139833351,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:zip",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_S1171MFHA401 Pyrell Sample Assembly.pdf",
+      "fileName": "PSI-102_Engineering Documents_S1171MFHA401 Pyrell Sample Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 154568,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_S1171MFHA401 Pyrell Sample Assembly.pdf",
+      "sha256": "5b3673b64b2c8f5affcf72e749e56077a7d86c1e743ff6d5ac5e9a07640fc0c7",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_SAME OPS images.zip",
+      "fileName": "PSI-102_Engineering Documents_SAME OPS images.zip",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 25024013,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:zip",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_SAME VPRED Matrix PLN-005 Baseline.xls",
+      "fileName": "PSI-102_Engineering Documents_SAME VPRED Matrix PLN-005 Baseline.xls",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 537600,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_SAME Verification Plan and Engineering Requirements Document (VPRED)_January 2007.pdf",
+      "fileName": "PSI-102_Engineering Documents_SAME Verification Plan and Engineering Requirements Document (VPRED)_January 2007.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 514208,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_SAME Verification Plan and Engineering Requirements Document (VPRED)_January 2007.pdf",
+      "sha256": "126c16614431d5a298a49721c855d14e3e4418167e2955ebf051d88b15b6c014",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_SAME_EIRD.pdf",
+      "fileName": "PSI-102_Engineering Documents_SAME_EIRD.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 5378409,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_SAME_EIRD.pdf",
+      "sha256": "941dca3ccf7132913bfd73e8a408f3ea558eaa822486dd53ffcdfa26127461cb",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_SAME_IgnitorWireCharacterizationReport.pdf",
+      "fileName": "PSI-102_Engineering Documents_SAME_IgnitorWireCharacterizationReport.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 1852991,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_SAME_IgnitorWireCharacterizationReport.pdf",
+      "sha256": "78784625aaffb7420474a29b873454beaf5b38377edc11f6378cb087ca942cfa",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_SAME_Wire_Test.xls",
+      "fileName": "PSI-102_Engineering Documents_SAME_Wire_Test.xls",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 297984,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-102/Experimental table/PSI-102_Experimental table_SAME.csv",
+      "fileName": "PSI-102_Experimental table_SAME.csv",
+      "folder": "Experimental table",
+      "subfolder": null,
+      "sizeBytes": 331,
+      "version": 1,
+      "origin": [
+        "tree",
+        "experimentalTable"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Experimental table/PSI-102_Experimental table_SAME.csv",
+      "sha256": "268d1e121d2f211b124407dd32b9475617bd269ede2c2d1749441da3e949a2af",
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-102/Presentations/PSI-102_Presentations_Detection of Smoke from Microgravity Fires.2005.ppt",
+      "fileName": "PSI-102_Presentations_Detection of Smoke from Microgravity Fires.2005.ppt",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 8259584,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:ppt",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-102/Presentations/PSI-102_Presentations_Detection of Smoke from Microgravity Fires_paper.2005.doc",
+      "fileName": "PSI-102_Presentations_Detection of Smoke from Microgravity Fires_paper.2005.doc",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 1608192,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:doc",
+      "localPath": null,
+      "sha256": null,
+      "extension": "doc"
+    },
+    {
+      "key": "psi-data/PSI-102/Presentations/PSI-102_Presentations_MeasurementofSmokeParticleSizeUnderLowGravityConditions.ppt",
+      "fileName": "PSI-102_Presentations_MeasurementofSmokeParticleSizeUnderLowGravityConditions.ppt",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 7918592,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:ppt",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-102/Presentations/PSI-102_Presentations_SAME-2_ParticleMorphology and Size Results.pptx",
+      "fileName": "PSI-102_Presentations_SAME-2_ParticleMorphology and Size Results.pptx",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 11483943,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:pptx",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-102/Presentations/PSI-102_Presentations_SAME2_FlightVSGroundTestResults.pptx",
+      "fileName": "PSI-102_Presentations_SAME2_FlightVSGroundTestResults.pptx",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 5634955,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:pptx",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-102/Presentations/PSI-102_Presentations_SAME_EarlyResults.ppt",
+      "fileName": "PSI-102_Presentations_SAME_EarlyResults.ppt",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 26546176,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:ppt",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-102/Reference Data/PSI-102_Reference Data_SAME_Crew Interface Description.pdf",
+      "fileName": "PSI-102_Reference Data_SAME_Crew Interface Description.pdf",
+      "folder": "Reference Data",
+      "subfolder": null,
+      "sizeBytes": 694482,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Reference Data/PSI-102_Reference Data_SAME_Crew Interface Description.pdf",
+      "sha256": "6d67f5e435a94a639f45d7781d998045ab9555dad422d67f8c93a7006995b8f6",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Reference Data/PSI-102_Reference Data_SAME_Software Description Document.pdf",
+      "fileName": "PSI-102_Reference Data_SAME_Software Description Document.pdf",
+      "folder": "Reference Data",
+      "subfolder": null,
+      "sizeBytes": 270540,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Reference Data/PSI-102_Reference Data_SAME_Software Description Document.pdf",
+      "sha256": "e6b4b119f7adeb6df52529d47d856967c40ff325bba3c923b72785e7fa133ddf",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Reference Data/PSI-102_Reference Data_SAME_Software Req Document.pdf",
+      "fileName": "PSI-102_Reference Data_SAME_Software Req Document.pdf",
+      "folder": "Reference Data",
+      "subfolder": null,
+      "sizeBytes": 400833,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Reference Data/PSI-102_Reference Data_SAME_Software Req Document.pdf",
+      "sha256": "ea41d0a9db34f756f433b6954f1a0a9d6060e05ab45b6ef534ab60a8ff23d300",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Reports/PSI-102_Reports_SAME_Final Science Report.pdf",
+      "fileName": "PSI-102_Reports_SAME_Final Science Report.pdf",
+      "folder": "Reports",
+      "subfolder": null,
+      "sizeBytes": 3712845,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Reports/PSI-102_Reports_SAME_Final Science Report.pdf",
+      "sha256": "af91c96d22d93bbefbc0f2c5e1cc06e24813f532e5379b3fec9f121cccb22193",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Science Documents/PSI-102_Science Documents_SAME_Baseline Concept Description Doc.pdf",
+      "fileName": "PSI-102_Science Documents_SAME_Baseline Concept Description Doc.pdf",
+      "folder": "Science Documents",
+      "subfolder": null,
+      "sizeBytes": 247315,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Science Documents/PSI-102_Science Documents_SAME_Baseline Concept Description Doc.pdf",
+      "sha256": "3eed4b7ecd71f9e37a3f7a78d7e7a011ff636bb24ec8bcc72ff97a8ac41b598a",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/Science Documents/PSI-102_Science Documents_SAME_Operations Manual_007.pdf",
+      "fileName": "PSI-102_Science Documents_SAME_Operations Manual_007.pdf",
+      "folder": "Science Documents",
+      "subfolder": null,
+      "sizeBytes": 699811,
+      "version": 2,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-102/Science Documents/PSI-102_Science Documents_SAME_Operations Manual_007.pdf",
+      "sha256": "ac00e24b0f9a0388c3ac5097cca67591112c9992c0c9d40a6810ca5ba7289f36",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-102/metadata/PSI-102_metadata_PSI-170_SAME.zip",
+      "fileName": "PSI-102_metadata_PSI-170_SAME.zip",
+      "folder": "metadata",
+      "subfolder": null,
+      "sizeBytes": 13127,
+      "version": 5,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:zip",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    }
+  ]
+}

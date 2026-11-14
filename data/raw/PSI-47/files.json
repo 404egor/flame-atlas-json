@@ -1,0 +1,588 @@
+{
+  "investigationId": "PSI-47",
+  "source": "psi",
+  "listedAt": "2026-11-14T16:59:06+00:00",
+  "selection": {
+    "allowedExtensions": [
+      "pdf",
+      "docx",
+      "csv",
+      "xlsx"
+    ],
+    "excludeFolders": [
+      "Raw Data"
+    ],
+    "includeFolders": [],
+    "maxFileSizeMb": 60
+  },
+  "stats": {
+    "listed": 33,
+    "selected": 8,
+    "downloaded": 8,
+    "cached": 0,
+    "failed": 0
+  },
+  "files": [
+    {
+      "key": "psi-data/PSI-47/Analyzed Data/PSI-47_Analyzed Data_DAFT Flight Data GMT053.xls",
+      "fileName": "PSI-47_Analyzed Data_DAFT Flight Data GMT053.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity",
+      "sizeBytes": 129024,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-47/Analyzed Data/PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls",
+      "fileName": "PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity",
+      "sizeBytes": 1004032,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-47/Analyzed Data/PSI-47_Analyzed Data_ISS_Daft_Aug21_06 urban.xls",
+      "fileName": "PSI-47_Analyzed Data_ISS_Daft_Aug21_06 urban.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity",
+      "sizeBytes": 29696,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-47/Analyzed Data/PSI-47_Analyzed Data_ISS_Daft_Aug21_0611zgy time hist.xls",
+      "fileName": "PSI-47_Analyzed Data_ISS_Daft_Aug21_0611zgy time hist.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity",
+      "sizeBytes": 38400,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-47/Analyzed Data/PSI-47_Analyzed Data_flight data 063.xls",
+      "fileName": "PSI-47_Analyzed Data_flight data 063.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity",
+      "sizeBytes": 268288,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-47/Analyzed Data/PSI-47_Analyzed Data_flight data 063_DTrk0002.xls",
+      "fileName": "PSI-47_Analyzed Data_flight data 063_DTrk0002.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/DustTrak",
+      "sizeBytes": 283648,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-47/Analyzed Data/PSI-47_Analyzed Data_flight data 063_DTrk0003.xls",
+      "fileName": "PSI-47_Analyzed Data_flight data 063_DTrk0003.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/DustTrak",
+      "sizeBytes": 283648,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-47/Analyzed Data/PSI-47_Analyzed Data_flight data 063_DTrk0004.xls",
+      "fileName": "PSI-47_Analyzed Data_flight data 063_DTrk0004.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/DustTrak",
+      "sizeBytes": 283648,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-47/Analyzed Data/PSI-47_Analyzed Data_flight data 063_PTrk0002.xls",
+      "fileName": "PSI-47_Analyzed Data_flight data 063_PTrk0002.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/P-TRAK",
+      "sizeBytes": 283648,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-47/Analyzed Data/PSI-47_Analyzed Data_flight data 063_PTrk0003.xls",
+      "fileName": "PSI-47_Analyzed Data_flight data 063_PTrk0003.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/P-TRAK",
+      "sizeBytes": 283648,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-47/Analyzed Data/PSI-47_Analyzed Data_flight data 063_PTrk0004.xls",
+      "fileName": "PSI-47_Analyzed Data_flight data 063_PTrk0004.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/P-TRAK",
+      "sizeBytes": 283648,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-47/Analyzed Data/PSI-47_Analyzed Data_flight data 063_TIMING.xls",
+      "fileName": "PSI-47_Analyzed Data_flight data 063_TIMING.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity",
+      "sizeBytes": 283648,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-47/Engineering Documents/PSI-47_Engineering Documents_60089MFHD509 P-Trak Condenser Tube Modification.pdf",
+      "fileName": "PSI-47_Engineering Documents_60089MFHD509 P-Trak Condenser Tube Modification.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 162862,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-47/Engineering Documents/PSI-47_Engineering Documents_60089MFHD509 P-Trak Condenser Tube Modification.pdf",
+      "sha256": "46f200037d75a4b3e5a06de424344c895f114cf9a697c221f0f08a6a042699cc",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-47/Engineering Documents/PSI-47_Engineering Documents_DAFT Images.ppt",
+      "fileName": "PSI-47_Engineering Documents_DAFT Images.ppt",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 7632384,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:ppt",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-47/Engineering Documents/PSI-47_Engineering Documents_Procedure.DataTransfer.pdf",
+      "fileName": "PSI-47_Engineering Documents_Procedure.DataTransfer.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 46025,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-47/Engineering Documents/PSI-47_Engineering Documents_Procedure.DataTransfer.pdf",
+      "sha256": "9e92dbea619a407f52247c250b82b31223b2eac32a18debe319c5de9026c547b",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-47/Engineering Documents/PSI-47_Engineering Documents_Procedure.Restow.pdf",
+      "fileName": "PSI-47_Engineering Documents_Procedure.Restow.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 34552,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-47/Engineering Documents/PSI-47_Engineering Documents_Procedure.Restow.pdf",
+      "sha256": "d0ae24e216ee91662e38b0dc2f4cada3ed226f20ce01bf8df08e727879d28b27",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-47/Engineering Documents/PSI-47_Engineering Documents_Procedure.Sampling.pdf",
+      "fileName": "PSI-47_Engineering Documents_Procedure.Sampling.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 45776,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-47/Engineering Documents/PSI-47_Engineering Documents_Procedure.Sampling.pdf",
+      "sha256": "55f200dd6d1e4d7536b68788e046d5f578846f013fb111390f0b6fd87aa9a652",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-47/Engineering Documents/PSI-47_Engineering Documents_Procedure.SetUp.pdf",
+      "fileName": "PSI-47_Engineering Documents_Procedure.SetUp.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 33915,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-47/Engineering Documents/PSI-47_Engineering Documents_Procedure.SetUp.pdf",
+      "sha256": "47d331dc5fd2f5b5e1f240e361d1c0d02cfec358bf227f8b721100bb67f73e0b",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-47/Experimental table/PSI-47_Experimental table_DAFT.csv",
+      "fileName": "PSI-47_Experimental table_DAFT.csv",
+      "folder": "Experimental table",
+      "subfolder": null,
+      "sizeBytes": 518,
+      "version": 2,
+      "origin": [
+        "tree",
+        "experimentalTable"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-47/Experimental table/PSI-47_Experimental table_DAFT.csv",
+      "sha256": "d9d1a436c6e7bbc410b433e04575fe7dedaff763b5237d688089929b7393b5c0",
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-47/Presentations/PSI-47_Presentations_DAFT_Increment13SciSymposium_2006.ppt",
+      "fileName": "PSI-47_Presentations_DAFT_Increment13SciSymposium_2006.ppt",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 6043136,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:ppt",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-47/Presentations/PSI-47_Presentations_Daft_FactSheet.pdf",
+      "fileName": "PSI-47_Presentations_Daft_FactSheet.pdf",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 762700,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-47/Presentations/PSI-47_Presentations_Daft_FactSheet.pdf",
+      "sha256": "3e50d1d643ba0511a70986e26798dbcac1a9b4b0528d3c47db22615e9d7b4e6e",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-47/Presentations/PSI-47_Presentations_SmokeDetectionfromMicrogravityFires.ppt",
+      "fileName": "PSI-47_Presentations_SmokeDetectionfromMicrogravityFires.ppt",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 8259584,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:ppt",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-47/Raw Data/PSI-47_Raw Data_DTrk0002.txt",
+      "fileName": "PSI-47_Raw Data_DTrk0002.txt",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/DustTrak",
+      "sizeBytes": 3752,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "txt"
+    },
+    {
+      "key": "psi-data/PSI-47/Raw Data/PSI-47_Raw Data_DTrk0003.txt",
+      "fileName": "PSI-47_Raw Data_DTrk0003.txt",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/DustTrak",
+      "sizeBytes": 3305,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "txt"
+    },
+    {
+      "key": "psi-data/PSI-47/Raw Data/PSI-47_Raw Data_DTrk0004.txt",
+      "fileName": "PSI-47_Raw Data_DTrk0004.txt",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/DustTrak",
+      "sizeBytes": 2479,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "txt"
+    },
+    {
+      "key": "psi-data/PSI-47/Raw Data/PSI-47_Raw Data_PTrk0002.txt",
+      "fileName": "PSI-47_Raw Data_PTrk0002.txt",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/P-TRAK",
+      "sizeBytes": 4030,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "txt"
+    },
+    {
+      "key": "psi-data/PSI-47/Raw Data/PSI-47_Raw Data_PTrk0003.txt",
+      "fileName": "PSI-47_Raw Data_PTrk0003.txt",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/P-TRAK",
+      "sizeBytes": 3002,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "txt"
+    },
+    {
+      "key": "psi-data/PSI-47/Raw Data/PSI-47_Raw Data_PTrk0004.txt",
+      "fileName": "PSI-47_Raw Data_PTrk0004.txt",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/P-TRAK",
+      "sizeBytes": 2005,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "txt"
+    },
+    {
+      "key": "psi-data/PSI-47/Reports/PSI-47_Reports_DAFT_1YearReport.doc",
+      "fileName": "PSI-47_Reports_DAFT_1YearReport.doc",
+      "folder": "Reports",
+      "subfolder": null,
+      "sizeBytes": 4919296,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:doc",
+      "localPath": null,
+      "sha256": null,
+      "extension": "doc"
+    },
+    {
+      "key": "psi-data/PSI-47/Reports/PSI-47_Reports_DAFT_30Day.PostFlightReport.pdf",
+      "fileName": "PSI-47_Reports_DAFT_30Day.PostFlightReport.pdf",
+      "folder": "Reports",
+      "subfolder": null,
+      "sizeBytes": 185648,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-47/Reports/PSI-47_Reports_DAFT_30Day.PostFlightReport.pdf",
+      "sha256": "6e6008f2d7f0216432f7df5579579264a34c3a29601a9f0688461019d59be1e4",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-47/Reports/PSI-47_Reports_DAFT_FinalReport.doc",
+      "fileName": "PSI-47_Reports_DAFT_FinalReport.doc",
+      "folder": "Reports",
+      "subfolder": null,
+      "sizeBytes": 8844800,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:doc",
+      "localPath": null,
+      "sha256": null,
+      "extension": "doc"
+    },
+    {
+      "key": "psi-data/PSI-47/Representative Image(s)/PSI-47_Representative Image(s)_DAFT on ISS.jpg",
+      "fileName": "PSI-47_Representative Image(s)_DAFT on ISS.jpg",
+      "folder": "Representative Image(s)",
+      "subfolder": null,
+      "sizeBytes": 1312134,
+      "version": 4,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:jpg",
+      "localPath": null,
+      "sha256": null,
+      "extension": "jpg"
+    },
+    {
+      "key": "psi-data/PSI-47/metadata/PSI-47_metadata_PSI-126_DAFT_DAFT-2.zip",
+      "fileName": "PSI-47_metadata_PSI-126_DAFT_DAFT-2.zip",
+      "folder": "metadata",
+      "subfolder": null,
+      "sizeBytes": 8454,
+      "version": 8,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:zip",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    }
+  ]
+}

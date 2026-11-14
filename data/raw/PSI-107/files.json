@@ -1,0 +1,3222 @@
+{
+  "investigationId": "PSI-107",
+  "source": "psi",
+  "listedAt": "2026-11-14T17:05:55+00:00",
+  "selection": {
+    "allowedExtensions": [
+      "pdf",
+      "docx",
+      "csv",
+      "xlsx"
+    ],
+    "excludeFolders": [
+      "Raw Data"
+    ],
+    "includeFolders": [],
+    "maxFileSizeMb": 60
+  },
+  "stats": {
+    "listed": 188,
+    "selected": 12,
+    "downloaded": 12,
+    "cached": 0,
+    "failed": 0
+  },
+  "files": [
+    {
+      "key": "psi-data/PSI-107/Engineering Documents/PSI-107_Engineering Documents_60054MAFH000-C SPICE Experiment Assembly.pdf",
+      "fileName": "PSI-107_Engineering Documents_60054MAFH000-C SPICE Experiment Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 591060,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-107/Engineering Documents/PSI-107_Engineering Documents_60054MAFH000-C SPICE Experiment Assembly.pdf",
+      "sha256": "f80578410c1a3cdf5a84264e5d883df40ceb29a6a270e18a7a0b2f70b09bb202",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Engineering Documents/PSI-107_Engineering Documents_SPICE-MEM-010.pdf",
+      "fileName": "PSI-107_Engineering Documents_SPICE-MEM-010.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 113106,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-107/Engineering Documents/PSI-107_Engineering Documents_SPICE-MEM-010.pdf",
+      "sha256": "46babf9aaa8c26e8cbce989b6e63b9f59a670d36ef03339993291bb0fceb30ac",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Engineering Documents/PSI-107_Engineering Documents_SPICE_Phase III Flight Safety Data Package.pdf",
+      "fileName": "PSI-107_Engineering Documents_SPICE_Phase III Flight Safety Data Package.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 4490750,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-107/Engineering Documents/PSI-107_Engineering Documents_SPICE_Phase III Flight Safety Data Package.pdf",
+      "sha256": "f4af29131ce44e4124c105a1ea4c85623a98ef28f852f7fbe9f94b5652c2bf27",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Engineering Documents/PSI-107_Engineering Documents_SPICE_ScienceVerificationReport.pdf",
+      "fileName": "PSI-107_Engineering Documents_SPICE_ScienceVerificationReport.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 237000,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-107/Engineering Documents/PSI-107_Engineering Documents_SPICE_ScienceVerificationReport.pdf",
+      "sha256": "786175bc7fbb41785ad2642d15b8eb510983d7e217d7bb9f496955d00950775c",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Experimental table/PSI-107_Experimental table_Spice.csv",
+      "fileName": "PSI-107_Experimental table_Spice.csv",
+      "folder": "Experimental table",
+      "subfolder": null,
+      "sizeBytes": 31205,
+      "version": 1,
+      "origin": [
+        "tree",
+        "experimentalTable"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-107/Experimental table/PSI-107_Experimental table_Spice.csv",
+      "sha256": "fb0d7e60cf5367afb429089e9901d27288f78038efd26c8de1db4fbe04117136",
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-107/Presentations/PSI-107_Presentations_IP-C Crew training 2010.pdf",
+      "fileName": "PSI-107_Presentations_IP-C Crew training 2010.pdf",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 1348519,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-107/Presentations/PSI-107_Presentations_IP-C Crew training 2010.pdf",
+      "sha256": "1ec77f2a2a2a9835e7e94b5ba1f10f7e855c1a4339e4ad1458a8d1fc8effe192",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Presentations/PSI-107_Presentations_IP-D Crew training 2011.pdf",
+      "fileName": "PSI-107_Presentations_IP-D Crew training 2011.pdf",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 1339967,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-107/Presentations/PSI-107_Presentations_IP-D Crew training 2011.pdf",
+      "sha256": "11ad76194acf095886b0baf33ac3cb960f266d55dce0ab5b15c69de0db7afb62",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Presentations/PSI-107_Presentations_Laminar Smoke Points in Coflow Measured Aboard ISS.pdf",
+      "fileName": "PSI-107_Presentations_Laminar Smoke Points in Coflow Measured Aboard ISS.pdf",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 1306705,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-107/Presentations/PSI-107_Presentations_Laminar Smoke Points in Coflow Measured Aboard ISS.pdf",
+      "sha256": "bd980e9e1195e0225a31c070c279b06a131f7f66a387a35ab3e7e17a25cde256",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Presentations/PSI-107_Presentations_SPICE Overview.ppt",
+      "fileName": "PSI-107_Presentations_SPICE Overview.ppt",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 28868608,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:ppt",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-107/Presentations/PSI-107_Presentations_SPICE-1 Ops Overview and Smoke Point Cue Card.ppt",
+      "fileName": "PSI-107_Presentations_SPICE-1 Ops Overview and Smoke Point Cue Card.ppt",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 4048384,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:ppt",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_045_SPICE_DSC_num.txt",
+      "fileName": "PSI-107_Raw Data_045_SPICE_DSC_num.txt",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 045",
+      "sizeBytes": 1475,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "txt"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_048_SPICE_num.txt",
+      "fileName": "PSI-107_Raw Data_048_SPICE_num.txt",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 048",
+      "sizeBytes": 1577,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "txt"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_062 TP 103 vlcsnap-4272441.zip",
+      "fileName": "PSI-107_Raw Data_062 TP 103 vlcsnap-4272441.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 422650,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grab TP 33a.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grab TP 33a.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 2006337,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs - Ruler.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs - Ruler.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 048",
+      "sizeBytes": 1028100,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs - TP 13.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs - TP 13.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 048",
+      "sizeBytes": 1291833,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs - TP 14.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs - TP 14.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 048",
+      "sizeBytes": 2116454,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs - TP 15.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs - TP 15.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 048",
+      "sizeBytes": 1317589,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs - TP 16.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs - TP 16.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 048",
+      "sizeBytes": 15486800,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs - TP 25.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs - TP 25.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 9962438,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs - TP 26.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs - TP 26.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 2571678,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs - TP 27.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs - TP 27.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 4768314,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs - TP 28.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs - TP 28.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 1401819,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs - TP 29.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs - TP 29.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 4116722,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs - TP 30.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs - TP 30.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 2695192,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs - TP 31_Liftoff.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs - TP 31_Liftoff.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 16130682,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs 36f.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs 36f.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 045",
+      "sizeBytes": 7380242,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs Playback Images.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs Playback Images.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 36986942,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0091.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0091.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 471593,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0091_2_1.6Nzl.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0091_2_1.6Nzl.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 5941456,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0093.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0093.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 497308,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0093_4.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0093_4.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 5021587,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0095.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0095.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 482684,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0096.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0096.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 699983,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0096B_C.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0096B_C.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 2514382,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0096D_E.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0096D_E.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 3493414,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0097.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0097.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 583538,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0097_8_0.8Nzl.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0097_8_0.8Nzl.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 3443882,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0099.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0099.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 482926,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0099_100.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0099_100.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 2910586,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0101.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0101.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 258787,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0101_102_end_of 1st bottle.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0101_102_end_of 1st bottle.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 1789047,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0102.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0102.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 1228372,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0102_b_NewBottle_Fumi.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0102_b_NewBottle_Fumi.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 9278310,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0103a_e_104_0.4Nzl.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0103a_e_104_0.4Nzl.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 4144346,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0103f_blowoff.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0103f_blowoff.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 2122778,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0104.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0104.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 1492110,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0104_1.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0104_1.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 855618,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 0104b.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 0104b.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 9100966,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 32a.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 32a.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 3797305,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 32b.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 32b.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 5187002,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 33b.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 33b.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 2197497,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 33c.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 33c.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 4781942,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 35_36.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 35_36.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 12274813,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 36b.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 36b.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 9253993,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 36c.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 36c.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 3585884,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 36e.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 36e.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 9201580,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 36g_i.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 36g_i.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 5850017,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 36j_last_propane.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 36j_last_propane.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 1975000,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 37.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 37.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 2270519,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 38.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 38.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 2079704,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 39_40.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 39_40.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 8464802,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 41_42.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 41_42.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 7295379,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 43_44.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 43_44.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 1567786,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 43a_44a.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 43a_44a.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 12361194,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 45.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 45.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 12648978,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 46.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 46.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 7904508,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 49_50.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 49_50.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 8551760,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 51_52.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 51_52.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 12471156,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 53.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 53.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 10647838,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 55.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 55.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 055",
+      "sizeBytes": 9856113,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 57.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 57.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 055",
+      "sizeBytes": 8529955,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 59.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 59.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 055",
+      "sizeBytes": 15806483,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 61.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 61.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 055",
+      "sizeBytes": 15345342,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 63.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 63.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 055",
+      "sizeBytes": 7125231,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 65.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 65.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 055",
+      "sizeBytes": 24931159,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 67.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 67.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 055",
+      "sizeBytes": 5983015,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 67A.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 67A.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 055",
+      "sizeBytes": 6958490,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 73.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 73.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 13888709,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 75.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 75.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 8506451,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 77.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 77.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 6871867,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 79.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 79.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 8760961,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 81.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 81.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 7225091,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 83.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 83.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 3020070,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 85.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 85.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 8570510,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 87.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 87.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 7088473,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 89.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 89.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 7480137,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 90B.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 90B.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 12452901,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 90C.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 90C.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 11533246,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 90E Manual Camera 0.8mm.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 90E Manual Camera 0.8mm.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 6583973,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP 95_6.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP 95_6.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 3347611,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP34.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP34.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 1193949,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame Grabs TP36d.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame Grabs TP36d.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 4269717,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Downlink Frame GrabsTP 90D Manual Camera 0.4mm.zip",
+      "fileName": "PSI-107_Raw Data_Downlink Frame GrabsTP 90D Manual Camera 0.4mm.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 7928483,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Ethylene assembled smoke hieght slide.  GMT 045 1503      11 26 2011.pptx",
+      "fileName": "PSI-107_Raw Data_Ethylene assembled smoke hieght slide.  GMT 045 1503      11 26 2011.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 045",
+      "sizeBytes": 1447201,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Focus Check - Flight Hdwr.nef",
+      "fileName": "PSI-107_Raw Data_Focus Check - Flight Hdwr.nef",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 11226428,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "nef"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_GMT052nikon_propy.xls",
+      "fileName": "PSI-107_Raw Data_GMT052nikon_propy.xls",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 5451264,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_GMT055nikon.xls",
+      "fileName": "PSI-107_Raw Data_GMT055nikon.xls",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 055",
+      "sizeBytes": 4804096,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_GMT058nikon.xls",
+      "fileName": "PSI-107_Raw Data_GMT058nikon.xls",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 11449344,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_GMT62_11.16.mp4",
+      "fileName": "PSI-107_Raw Data_GMT62_11.16.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 16674759,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_GMT62_11.20.mp4",
+      "fileName": "PSI-107_Raw Data_GMT62_11.20.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 13961465,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_GMT62_11.25.mp4",
+      "fileName": "PSI-107_Raw Data_GMT62_11.25.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 9916669,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_GMT62_11.27.mp4",
+      "fileName": "PSI-107_Raw Data_GMT62_11.27.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 8305779,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_GMT62_11.32.mp4",
+      "fileName": "PSI-107_Raw Data_GMT62_11.32.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 8503851,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_GMT62_11.39.mp4",
+      "fileName": "PSI-107_Raw Data_GMT62_11.39.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 7136093,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_GMT62_11.41.mp4",
+      "fileName": "PSI-107_Raw Data_GMT62_11.41.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 6824167,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_GMT62_11.45.mp4",
+      "fileName": "PSI-107_Raw Data_GMT62_11.45.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 4818935,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_GMT62_11.55.mp4",
+      "fileName": "PSI-107_Raw Data_GMT62_11.55.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 19250645,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_GMT62_12.03.mp4",
+      "fileName": "PSI-107_Raw Data_GMT62_12.03.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 12452117,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_GMT62_12.06.mp4",
+      "fileName": "PSI-107_Raw Data_GMT62_12.06.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 3786122,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_GMT62_12.12.mp4",
+      "fileName": "PSI-107_Raw Data_GMT62_12.12.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 15552259,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_MASS_FLOW_CALIBRATION.xls",
+      "fileName": "PSI-107_Raw Data_MASS_FLOW_CALIBRATION.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Fuel Flow",
+      "sizeBytes": 20480,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Day 045 Test Point Images.zip",
+      "fileName": "PSI-107_Raw Data_SPICE Day 045 Test Point Images.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 045",
+      "sizeBytes": 3006740,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 19 mm Height, CENTER.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 19 mm Height, CENTER.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 19 mm Height, INSIDE.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 19 mm Height, INSIDE.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 19 mm Height, OUTSIDE.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 19 mm Height, OUTSIDE.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87040,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 36 mm Height, CENTER.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 36 mm Height, CENTER.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 36 mm Height, INSIDE.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 36 mm Height, INSIDE.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 36 mm Height, OUTSIDE.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 36 mm Height, OUTSIDE.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 57 mm Height, CENTER.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 57 mm Height, CENTER.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 57 mm Height, INSIDE.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 57 mm Height, INSIDE.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 57 mm Height, OUTSIDE.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 13 mm Station x 57 mm Height, OUTSIDE.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 19 mm Height, CENTER.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 19 mm Height, CENTER.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 19 mm Height, INSIDE.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 19 mm Height, INSIDE.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87040,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 19 mm Height, OUTSIDE.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 19 mm Height, OUTSIDE.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87040,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 36 mm Height, CENTER.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 36 mm Height, CENTER.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 36 mm Height, INSIDE.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 36 mm Height, INSIDE.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87040,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 36 mm Height, OUTSIDE.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 36 mm Height, OUTSIDE.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87040,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 57 mm Height, CENTER.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 57 mm Height, CENTER.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 57 mm Height, INSIDE.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 57 mm Height, INSIDE.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 57 mm Height, OUTSIDE.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow Duct Cal - 56 mm Station x 57 mm Height, OUTSIDE.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 87552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Flow settings_w chart.xls",
+      "fileName": "PSI-107_Raw Data_SPICE Flow settings_w chart.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Fuel Flow",
+      "sizeBytes": 27648,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE GMT045 2009 Contact Sheets.zip",
+      "fileName": "PSI-107_Raw Data_SPICE GMT045 2009 Contact Sheets.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 045",
+      "sizeBytes": 86668356,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE GMT045 2009 jpegs.zip",
+      "fileName": "PSI-107_Raw Data_SPICE GMT045 2009 jpegs.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 045",
+      "sizeBytes": 6793541,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE GMT048 2009 Contact Sheets.zip",
+      "fileName": "PSI-107_Raw Data_SPICE GMT048 2009 Contact Sheets.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 048",
+      "sizeBytes": 81007511,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE GMT048 2009 jpegs.zip",
+      "fileName": "PSI-107_Raw Data_SPICE GMT048 2009 jpegs.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 048",
+      "sizeBytes": 9011150,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE Image Organization Guide.docx",
+      "fileName": "PSI-107_Raw Data_SPICE Image Organization Guide.docx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 045",
+      "sizeBytes": 139512,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "docx"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_AIRFLOW_TEST.ppt",
+      "fileName": "PSI-107_Raw Data_SPICE_AIRFLOW_TEST.ppt",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 1302528,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_Airflow_Test_Duct Velocity Profiles.xls",
+      "fileName": "PSI-107_Raw Data_SPICE_Airflow_Test_Duct Velocity Profiles.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 74752,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_Airflow_Test_VelocityComparison.xlsx",
+      "fileName": "PSI-107_Raw Data_SPICE_Airflow_Test_VelocityComparison.xlsx",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 93488,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_Airflow_Test_VelocityData.xlsx",
+      "fileName": "PSI-107_Raw Data_SPICE_Airflow_Test_VelocityData.xlsx",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Airflow Test",
+      "sizeBytes": 258387,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_FuelFlow_411259meter.xls",
+      "fileName": "PSI-107_Raw Data_SPICE_FuelFlow_411259meter.xls",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Fuel Flow",
+      "sizeBytes": 17408,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_FuelFlow_EngineeringUnitControl.pdf",
+      "fileName": "PSI-107_Raw Data_SPICE_FuelFlow_EngineeringUnitControl.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Fuel Flow",
+      "sizeBytes": 909218,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_FuelFlow_EngineeringUnitControl.pptx",
+      "fileName": "PSI-107_Raw Data_SPICE_FuelFlow_EngineeringUnitControl.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Fuel Flow",
+      "sizeBytes": 888772,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_FuelFlow_EngineeringUnitControl.xlsx",
+      "fileName": "PSI-107_Raw Data_SPICE_FuelFlow_EngineeringUnitControl.xlsx",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Fuel Flow",
+      "sizeBytes": 650473,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_FuelFlow_MFC_settings.xlsx",
+      "fileName": "PSI-107_Raw Data_SPICE_FuelFlow_MFC_settings.xlsx",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Fuel Flow",
+      "sizeBytes": 60355,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_FuelFlow__Voltage.xlsx",
+      "fileName": "PSI-107_Raw Data_SPICE_FuelFlow__Voltage.xlsx",
+      "folder": "Raw Data",
+      "subfolder": "Earth Gravity/Calibration Data, Fuel Flow",
+      "sizeBytes": 41334,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT045_2009_NEF.zip",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT045_2009_NEF.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 045",
+      "sizeBytes": 249350792,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT045_2009_NikonD100_PictureBook.ppt",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT045_2009_NikonD100_PictureBook.ppt",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 045",
+      "sizeBytes": 93862400,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT048_2009_NEF.zip",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT048_2009_NEF.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 048",
+      "sizeBytes": 252817183,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT048_2009_NikonD100_PictureBook.ppt",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT048_2009_NikonD100_PictureBook.ppt",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 048",
+      "sizeBytes": 88787968,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT052_2009_ContactSheet.zip",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT052_2009_ContactSheet.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 208600503,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT052_2009_NEF.zip",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT052_2009_NEF.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 660834359,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT052_2009_NikonD100_PictureBook.ppt",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT052_2009_NikonD100_PictureBook.ppt",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 229785600,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT052_2009_jpegs.zip",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT052_2009_jpegs.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 131468585,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT136_Contact_Sheet.pdf",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT136_Contact_Sheet.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 136",
+      "sizeBytes": 83835,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT136_Ign6.mp4",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT136_Ign6.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 136",
+      "sizeBytes": 332386414,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT136_Ign7.mp4",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT136_Ign7.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 136",
+      "sizeBytes": 306843442,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT136_Ign8.mp4",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT136_Ign8.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 136",
+      "sizeBytes": 80001109,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT136_Ign8a.mp4",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT136_Ign8a.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 136",
+      "sizeBytes": 37797434,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT136_Ign8b.mp4",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT136_Ign8b.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 136",
+      "sizeBytes": 197793111,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_055_Contact Sheet.zip",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_055_Contact Sheet.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 055",
+      "sizeBytes": 128123447,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_055_NEF.zip",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_055_NEF.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 055",
+      "sizeBytes": 462755461,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_055_NikonD100_PictureBook.ppt",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_055_NikonD100_PictureBook.ppt",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 055",
+      "sizeBytes": 144185344,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_055_jpeg.zip",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_055_jpeg.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 055",
+      "sizeBytes": 77523642,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_058_NikonD100_PictureBook.ppt",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_058_NikonD100_PictureBook.ppt",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 058",
+      "sizeBytes": 195301888,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_062_Movie Files.zip",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_062_Movie Files.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 71809994,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_062_NEF.zip",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_062_NEF.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 419536901,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_062_NikonD100_PictureBook.ppt",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_062_NikonD100_PictureBook.ppt",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 161559040,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_062_jpegs.zip",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_062_jpegs.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 062",
+      "sizeBytes": 94753456,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_119_ContactSheet.pdf",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_119_ContactSheet.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 119",
+      "sizeBytes": 68775,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_119_video.avi",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_119_video.avi",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 119",
+      "sizeBytes": 1228746628,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "avi"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_119_video.mp4",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_119_video.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 119",
+      "sizeBytes": 82939533,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_166_SootClean_ContactSheet.pdf",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_166_SootClean_ContactSheet.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 166",
+      "sizeBytes": 214153,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_167_ContactSheet.pdf",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_167_ContactSheet.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 167",
+      "sizeBytes": 149256,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_173_ContactSheet.pdf",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_173_ContactSheet.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 173",
+      "sizeBytes": 347642,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SPICE_GMT2009_174_ContactSheet.pdf",
+      "fileName": "PSI-107_Raw Data_SPICE_GMT2009_174_ContactSheet.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 174",
+      "sizeBytes": 405360,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SmokePointReview-0g-3.xlsx",
+      "fileName": "PSI-107_Raw Data_SmokePointReview-0g-3.xlsx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 045",
+      "sizeBytes": 295735,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Spice Flight Test Data II modified.xls",
+      "fileName": "PSI-107_Raw Data_Spice Flight Test Data II modified.xls",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 045",
+      "sizeBytes": 429568,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Spice_Flight_Flamelength.xls",
+      "fileName": "PSI-107_Raw Data_Spice_Flight_Flamelength.xls",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 045",
+      "sizeBytes": 16896,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Still Images.zip",
+      "fileName": "PSI-107_Raw Data_Still Images.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 052",
+      "sizeBytes": 32841324,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Raw Data/PSI-107_Raw Data_vlcsnap downlink frame grabs.zip",
+      "fileName": "PSI-107_Raw Data_vlcsnap downlink frame grabs.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/SPICE Day 045",
+      "sizeBytes": 48667244,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-107/Reference Data/PSI-107_Reference Data_SPICE_VIDEO OVERLAY RESET.pdf",
+      "fileName": "PSI-107_Reference Data_SPICE_VIDEO OVERLAY RESET.pdf",
+      "folder": "Reference Data",
+      "subfolder": null,
+      "sizeBytes": 1060135,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-107/Reference Data/PSI-107_Reference Data_SPICE_VIDEO OVERLAY RESET.pdf",
+      "sha256": "c97875f8c1029d805f8206bd85b1b50990f4ea775f48f071065bacd860ef884a",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Reports/PSI-107_Reports_SMOKE POINTS OF MICROGRAVITY AND  NORMAL GRAVITY COFLOW DIFFUSION  FLAMES_DotsonThesis.pdf",
+      "fileName": "PSI-107_Reports_SMOKE POINTS OF MICROGRAVITY AND  NORMAL GRAVITY COFLOW DIFFUSION  FLAMES_DotsonThesis.pdf",
+      "folder": "Reports",
+      "subfolder": null,
+      "sizeBytes": 2227738,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-107/Reports/PSI-107_Reports_SMOKE POINTS OF MICROGRAVITY AND  NORMAL GRAVITY COFLOW DIFFUSION  FLAMES_DotsonThesis.pdf",
+      "sha256": "1bb111e67a9101ca957265d08a193e55cc6e4cc800f84766f6bfbf2c6f3df9cf",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Reports/PSI-107_Reports_SPICE_30-DayPostFlightReport.pdf",
+      "fileName": "PSI-107_Reports_SPICE_30-DayPostFlightReport.pdf",
+      "folder": "Reports",
+      "subfolder": null,
+      "sizeBytes": 160909,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-107/Reports/PSI-107_Reports_SPICE_30-DayPostFlightReport.pdf",
+      "sha256": "0ba8a154fc17c560874c2ef23b508b9f078fa849650472f5819efc54eface32d",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Reports/PSI-107_Reports_SPICE_FinalReport.pdf",
+      "fileName": "PSI-107_Reports_SPICE_FinalReport.pdf",
+      "folder": "Reports",
+      "subfolder": null,
+      "sizeBytes": 601754,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-107/Reports/PSI-107_Reports_SPICE_FinalReport.pdf",
+      "sha256": "95e76859017d201dcd6a9fb12f1df568aed77e0edf7a1b609975db37f32fa680",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-107/Science Documents/PSI-107_Science Documents_SPICE_SRD.doc",
+      "fileName": "PSI-107_Science Documents_SPICE_SRD.doc",
+      "folder": "Science Documents",
+      "subfolder": null,
+      "sizeBytes": 1112064,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:doc",
+      "localPath": null,
+      "sha256": null,
+      "extension": "doc"
+    },
+    {
+      "key": "psi-data/PSI-107/metadata/PSI-107_metadata_PSI-176_SPICE.zip",
+      "fileName": "PSI-107_metadata_PSI-176_SPICE.zip",
+      "folder": "metadata",
+      "subfolder": null,
+      "sizeBytes": 9313,
+      "version": 4,
+      "origin": [
+        "tree"
+      ],
+      "selected": false,
+      "reason": "extension:zip",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    }
+  ]
+}

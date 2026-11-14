@@ -1,0 +1,44 @@
+{
+  "investigationId": "PSI-62",
+  "source": "psi",
+  "listedAt": "2026-11-14T16:59:08+00:00",
+  "selection": {
+    "allowedExtensions": [
+      "pdf",
+      "docx",
+      "csv",
+      "xlsx"
+    ],
+    "excludeFolders": [
+      "Raw Data"
+    ],
+    "includeFolders": [],
+    "maxFileSizeMb": 60
+  },
+  "stats": {
+    "listed": 1,
+    "selected": 0,
+    "downloaded": 0,
+    "cached": 0,
+    "failed": 0
+  },
+  "files": [
+    {
+      "key": "psi-data/PSI-62/metadata/PSI-62_metadata_NEWID-7_Concurrent Flame Spr.zip",
+      "fileName": "PSI-62_metadata_NEWID-7_Concurrent Flame Spr.zip",
+      "folder": "metadata",
+      "subfolder": null,
+      "sizeBytes": 9694,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:zip",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    }
+  ]
+}

@@ -1,0 +1,5874 @@
+{
+  "investigationId": "PSI-101",
+  "source": "psi",
+  "listedAt": "2026-11-14T17:03:16+00:00",
+  "selection": {
+    "allowedExtensions": [
+      "pdf",
+      "docx",
+      "csv",
+      "xlsx"
+    ],
+    "excludeFolders": [
+      "Raw Data"
+    ],
+    "includeFolders": [],
+    "maxFileSizeMb": 60
+  },
+  "stats": {
+    "listed": 344,
+    "selected": 41,
+    "downloaded": 41,
+    "cached": 0,
+    "failed": 0
+  },
+  "files": [
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_197_13_silicon_run48.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_197_13_silicon_run48.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 048",
+      "sizeBytes": 5797888,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_200_12_lampwick_run49.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_200_12_lampwick_run49.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 049",
+      "sizeBytes": 4892160,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_201_12_teflon_run50.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_201_12_teflon_run50.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 050",
+      "sizeBytes": 6471168,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_202_13_pyrell_run52.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_202_13_pyrell_run52.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 052",
+      "sizeBytes": 5827072,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_202_14_silcon_run53.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_202_14_silcon_run53.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 053",
+      "sizeBytes": 5819904,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_210_10_lampwick_run54.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_210_10_lampwick_run54.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 054",
+      "sizeBytes": 7128576,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_210_10_lampwick_run55.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_210_10_lampwick_run55.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 055",
+      "sizeBytes": 2990080,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_210_10_lampwick_run57.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_210_10_lampwick_run57.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 057",
+      "sizeBytes": 5050880,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_210_10_lampwick_run57_a.xlsx",
+      "fileName": "PSI-101_Analyzed Data_2010_210_10_lampwick_run57_a.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 057",
+      "sizeBytes": 539444,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/Cotton Lamp wick/Run 057/PSI-101_Analyzed Data_2010_210_10_lampwick_run57_a.xlsx",
+      "sha256": "48cb0a40951855c7d369cba2874a567b0dfe3f5e835a5fdf41a11aeb51bb04d9",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_210_10_teflon_run56.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_210_10_teflon_run56.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 056",
+      "sizeBytes": 4087296,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_211_12_teflon_run58.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_211_12_teflon_run58.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 058",
+      "sizeBytes": 6683648,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_211_13_silcon_run59.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_211_13_silcon_run59.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 059",
+      "sizeBytes": 6681600,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_211_14_silicon_run60 a.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_211_14_silicon_run60 a.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 060",
+      "sizeBytes": 6913024,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_211_14_silicon_run60.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_211_14_silicon_run60.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 060",
+      "sizeBytes": 5135360,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_214_10_kapton_run61.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_214_10_kapton_run61.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 061",
+      "sizeBytes": 6652416,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_214_10_kapton_run62.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_214_10_kapton_run62.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 062",
+      "sizeBytes": 6525440,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_2342_11_pyrell_run84.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_2342_11_pyrell_run84.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 084",
+      "sizeBytes": 6522368,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_235_10_silicone_run65.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_235_10_silicone_run65.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 065",
+      "sizeBytes": 7300096,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_235_10_silicone_run65a.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_235_10_silicone_run65a.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 065",
+      "sizeBytes": 7281664,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_235_10_silicone_run66.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_235_10_silicone_run66.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 066",
+      "sizeBytes": 6486016,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_235_11_pyrell_run64.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_235_11_pyrell_run64.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 064",
+      "sizeBytes": 6659072,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_235_11_pyrell_run64a.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_235_11_pyrell_run64a.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 064",
+      "sizeBytes": 6657536,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_235_9_pyrell_run63.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_235_9_pyrell_run63.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 063",
+      "sizeBytes": 6210560,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_235_9_pyrell_run63a.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_235_9_pyrell_run63a.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 063",
+      "sizeBytes": 6212608,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_236_10_lampwick_run68.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_236_10_lampwick_run68.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 068",
+      "sizeBytes": 6075904,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_236_10_teflon_run69.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_236_10_teflon_run69.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 069",
+      "sizeBytes": 6508032,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_236_9_silicone_run67.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_236_9_silicone_run67.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 067",
+      "sizeBytes": 6136320,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_237_12_kapton_run70.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_237_12_kapton_run70.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 070",
+      "sizeBytes": 6429184,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_237_13_pyrell_run71.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_237_13_pyrell_run71.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 071",
+      "sizeBytes": 7195648,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_237_14_silcone_run72.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_237_14_silcone_run72.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 072",
+      "sizeBytes": 5757440,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_238_17_kapton_run73.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_238_17_kapton_run73.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 073",
+      "sizeBytes": 6193152,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_238_17_pyrell_run74.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_238_17_pyrell_run74.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 074",
+      "sizeBytes": 6240256,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_238_18_kapton_run75.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_238_18_kapton_run75.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 075",
+      "sizeBytes": 6082048,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_238_18_pyrell_run76.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_238_18_pyrell_run76.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 076",
+      "sizeBytes": 6396416,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_238_19_kapton_run77.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_238_19_kapton_run77.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 077",
+      "sizeBytes": 6254080,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_239_13_lampwick_run78.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_239_13_lampwick_run78.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 078",
+      "sizeBytes": 6881280,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_239_14_teflon_run79.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_239_14_teflon_run79.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 079",
+      "sizeBytes": 6196224,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_239_15_lampwick_run80.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_239_15_lampwick_run80.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 080",
+      "sizeBytes": 6142464,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_239_16_lampwick_run82.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_239_16_lampwick_run82.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 082",
+      "sizeBytes": 6536192,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_239_16_teflon_run81.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_239_16_teflon_run81.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 081",
+      "sizeBytes": 6152704,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_239_17_teflon_run83.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_239_17_teflon_run83.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 083",
+      "sizeBytes": 6318592,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_242_12_kapton_run85.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_242_12_kapton_run85.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 085",
+      "sizeBytes": 6240768,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_242_13_pyrell_run87.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_242_13_pyrell_run87.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 087",
+      "sizeBytes": 5726720,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_242_14_lampwick_run88.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_242_14_lampwick_run88.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 088",
+      "sizeBytes": 8515584,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_242_14_silicone_run86.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_242_14_silicone_run86.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 086",
+      "sizeBytes": 6390784,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_242_15_kapton_run90.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_242_15_kapton_run90.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 090",
+      "sizeBytes": 6123008,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_242_15_teflon_run89.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_242_15_teflon_run89.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 089",
+      "sizeBytes": 5803008,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_250_12_silicone_run91.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_250_12_silicone_run91.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 091",
+      "sizeBytes": 5535744,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_250_13_kapton_run93.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_250_13_kapton_run93.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 093",
+      "sizeBytes": 6305792,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_250_13_kapton_run94.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_250_13_kapton_run94.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 094",
+      "sizeBytes": 6554112,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_250_14_pyrell_run95.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_250_14_pyrell_run95.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 095",
+      "sizeBytes": 6855680,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_250_15_lampwick_run96.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_250_15_lampwick_run96.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 096",
+      "sizeBytes": 6966784,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_250_16_kapton_run92.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_250_16_kapton_run92.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 092",
+      "sizeBytes": 5737472,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_251_10_pyrell_run97.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_251_10_pyrell_run97.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 097",
+      "sizeBytes": 6767616,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_251_11_lampwick_run98.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_251_11_lampwick_run98.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 098",
+      "sizeBytes": 6456320,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_251_11_teflon_run100.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_251_11_teflon_run100.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 100",
+      "sizeBytes": 6501888,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_251_12_silicone_run99.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_251_12_silicone_run99.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 099",
+      "sizeBytes": 6533632,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_251_13_kapton_run101.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_251_13_kapton_run101.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 101",
+      "sizeBytes": 6484480,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_251_14_kapton_run102.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_251_14_kapton_run102.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 102",
+      "sizeBytes": 6569472,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_252_12_silicone_run104.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_252_12_silicone_run104.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 104",
+      "sizeBytes": 8724992,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_252_13_pyrell_run107.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_252_13_pyrell_run107.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 107",
+      "sizeBytes": 8727552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_252_14_lampwick_run106.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_252_14_lampwick_run106.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 106",
+      "sizeBytes": 8719872,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_252_14_teflon_run105.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_252_14_teflon_run105.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 105",
+      "sizeBytes": 8713216,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_252_15_silicone_run103.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_252_15_silicone_run103.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 103",
+      "sizeBytes": 8713216,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_252_16_kapton_run108.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_252_16_kapton_run108.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 108",
+      "sizeBytes": 6617600,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_253_13_lampwick_run110.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_253_13_lampwick_run110.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 110",
+      "sizeBytes": 6128128,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_253_13_silicone_run109.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_253_13_silicone_run109.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 109",
+      "sizeBytes": 6092800,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_253_13_teflon_run111.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_253_13_teflon_run111.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 111",
+      "sizeBytes": 6220800,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_253_14_kapton_run112.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_253_14_kapton_run112.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 112",
+      "sizeBytes": 5930496,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_253_14_pyrell_run113.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_253_14_pyrell_run113.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 113",
+      "sizeBytes": 6268928,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_2010_253_15_kapton_run114.xls",
+      "fileName": "PSI-101_Analyzed Data_2010_253_15_kapton_run114.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 114",
+      "sizeBytes": 5825024,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_54 lampwick binneddatacorr from GWM.xlsx",
+      "fileName": "PSI-101_Analyzed Data_54 lampwick binneddatacorr from GWM.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 054",
+      "sizeBytes": 241661,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/Cotton Lamp wick/Run 054/PSI-101_Analyzed Data_54 lampwick binneddatacorr from GWM.xlsx",
+      "sha256": "3a264eda40cb49eb37f6817425eec11594a1ae0c24bad29aac2f3c784613deca",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_55 Lampwick.xlsx",
+      "fileName": "PSI-101_Analyzed Data_55 Lampwick.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 055",
+      "sizeBytes": 690112,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/Cotton Lamp wick/Run 055/PSI-101_Analyzed Data_55 Lampwick.xlsx",
+      "sha256": "0805f421d5d29d031afeb317451486f296cd86cb4aeee53c69359f0ff1335085",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_60 silicone.xlsx",
+      "fileName": "PSI-101_Analyzed Data_60 silicone.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 060",
+      "sizeBytes": 423378,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/Silicone/Run 060/PSI-101_Analyzed Data_60 silicone.xlsx",
+      "sha256": "6987ebfe9e209cb1b35a68c3dcba6ea4e689a07a3eed755065e8e5f4c4b10b5f",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_62 Kapton aged issue with bins.xlsx",
+      "fileName": "PSI-101_Analyzed Data_62 Kapton aged issue with bins.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 062",
+      "sizeBytes": 426012,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/Kapton/Run 062/PSI-101_Analyzed Data_62 Kapton aged issue with bins.xlsx",
+      "sha256": "76fb4542d784d39c4ea03849d4d3d913b940ed209611e9fc6a0d0249eeee3355",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_62 Kapton unaged.xlsx",
+      "fileName": "PSI-101_Analyzed Data_62 Kapton unaged.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 062",
+      "sizeBytes": 425564,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/Kapton/Run 062/PSI-101_Analyzed Data_62 Kapton unaged.xlsx",
+      "sha256": "e621db68f06276e0600147181c065e5f18f750f761f5014b0d0db49f2e8e470d",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_63 Pyrell aged.xlsx",
+      "fileName": "PSI-101_Analyzed Data_63 Pyrell aged.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 063",
+      "sizeBytes": 711060,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/Pyrell/Run 063/PSI-101_Analyzed Data_63 Pyrell aged.xlsx",
+      "sha256": "0625706124d537a039f52456cc2dd69f4231171e541ce8accdfe8c1b347b85ff",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_63 Pyrell unaged.xlsx",
+      "fileName": "PSI-101_Analyzed Data_63 Pyrell unaged.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 063",
+      "sizeBytes": 853799,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/Pyrell/Run 063/PSI-101_Analyzed Data_63 Pyrell unaged.xlsx",
+      "sha256": "3daf14343b343ab7bc0aa6ff6e4900529ed82156862fdfd81de58afdf2cbcb14",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_64 Pyrell aged.xlsx",
+      "fileName": "PSI-101_Analyzed Data_64 Pyrell aged.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 064",
+      "sizeBytes": 475108,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/Pyrell/Run 064/PSI-101_Analyzed Data_64 Pyrell aged.xlsx",
+      "sha256": "968216e6e7eced2e9cdf46510ef199d2ee6dcc203827397747d4c5a5db3c95f3",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_64 Pyrell unaged.xlsx",
+      "fileName": "PSI-101_Analyzed Data_64 Pyrell unaged.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 064",
+      "sizeBytes": 516572,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/Pyrell/Run 064/PSI-101_Analyzed Data_64 Pyrell unaged.xlsx",
+      "sha256": "91af5e0b0d2481e1b970436bb72bfa8ea048753792e01cd666eb1b5a175277ee",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_94 Kapton aged- results.xlsx",
+      "fileName": "PSI-101_Analyzed Data_94 Kapton aged- results.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 094",
+      "sizeBytes": 415552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/Kapton/Run 094/PSI-101_Analyzed Data_94 Kapton aged- results.xlsx",
+      "sha256": "8950c69bd71977e37e069288a16e4c94b63bb5ea64f22d0ebed38de81d5afba4",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_Copy of 2010_235_10_silicone_run66 test.xls",
+      "fileName": "PSI-101_Analyzed Data_Copy of 2010_235_10_silicone_run66 test.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 066",
+      "sizeBytes": 6486016,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_SAME, SAME-R_Results.xlsx",
+      "fileName": "PSI-101_Analyzed Data_SAME, SAME-R_Results.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity",
+      "sizeBytes": 4061669,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/PSI-101_Analyzed Data_SAME, SAME-R_Results.xlsx",
+      "sha256": "6d3a539ccf425b1fa8edc19cc75d828f57d650c7ce734d4e7aa686fea9593218",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_Sample descriptions tables.docx",
+      "fileName": "PSI-101_Analyzed Data_Sample descriptions tables.docx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 054",
+      "sizeBytes": 28571083,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/Cotton Lamp wick/Run 054/PSI-101_Analyzed Data_Sample descriptions tables.docx",
+      "sha256": "715cd2c4560799a0fcb9d9c824d1f56761414e3264da191c4e379021235b24bd",
+      "extension": "docx"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_TEMflowvsnoflow.xls",
+      "fileName": "PSI-101_Analyzed Data_TEMflowvsnoflow.xls",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 054",
+      "sizeBytes": 39936,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Analyzed Data/PSI-101_Analyzed Data_thermal precipitator map updated.xlsx",
+      "fileName": "PSI-101_Analyzed Data_thermal precipitator map updated.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 054",
+      "sizeBytes": 17138,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Analyzed Data/Reduced Gravity/Cotton Lamp wick/Run 054/PSI-101_Analyzed Data_thermal precipitator map updated.xlsx",
+      "sha256": "fe3765a3980ef9c6c53f48c99abdaecdc205e727386c78cae2bb79c0ea1ff849",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA150-B Aging Chamber Assembly.pdf",
+      "fileName": "PSI-101_Engineering Documents_60089MFHA150-B Aging Chamber Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 335105,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA150-B Aging Chamber Assembly.pdf",
+      "sha256": "fe2d380bd4324cd89a46c3ddf380dc20da75737d9b2a9c288df8cdf84cfcb423",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA410-A Teflon Sample Assembly.pdf",
+      "fileName": "PSI-101_Engineering Documents_60089MFHA410-A Teflon Sample Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 156530,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA410-A Teflon Sample Assembly.pdf",
+      "sha256": "db190ce586554bc2fb39bae2722af1aae3b6a55451ca28943cee0a69e410b489",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA411 Teflon Ignitor Wire Coil Assembly.pdf",
+      "fileName": "PSI-101_Engineering Documents_60089MFHA411 Teflon Ignitor Wire Coil Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 175857,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA411 Teflon Ignitor Wire Coil Assembly.pdf",
+      "sha256": "edfa693a5e489053a6b6e096ad12ea2b6e7483a1eb3ce84898a036b3f05499d8",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA414-A Lampwick Sample Assembly.pdf",
+      "fileName": "PSI-101_Engineering Documents_60089MFHA414-A Lampwick Sample Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 151181,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA414-A Lampwick Sample Assembly.pdf",
+      "sha256": "996b31e7126ae8523627851aae9ea3b8f69440ab1258ad2054089ba36bed906a",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA415 Ignitor Wire Coil Assembly (for 0 .250 OD samples).pdf",
+      "fileName": "PSI-101_Engineering Documents_60089MFHA415 Ignitor Wire Coil Assembly (for 0 .250 OD samples).pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 98185,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA415 Ignitor Wire Coil Assembly (for 0 .250 OD samples).pdf",
+      "sha256": "3a00d49f4c76c2f14930b100964fad81738abb390bf7e4b068070770bba968f7",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA416-A Silicone Sample Assembly.pdf",
+      "fileName": "PSI-101_Engineering Documents_60089MFHA416-A Silicone Sample Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 152496,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA416-A Silicone Sample Assembly.pdf",
+      "sha256": "b7361a83d3ac4c279c9425819f86e636ca7eb15fee8dcd82f3bd3494923a5bd2",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA417-B Kapton Sample Assembly.pdf",
+      "fileName": "PSI-101_Engineering Documents_60089MFHA417-B Kapton Sample Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 149738,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA417-B Kapton Sample Assembly.pdf",
+      "sha256": "c2623fa3831d32c22b8e1eb8c370b4c4fc0be4220c850d464d3a90fb35c6394f",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA419 Silicone Ignitor Wire Coil Assembly.pdf",
+      "fileName": "PSI-101_Engineering Documents_60089MFHA419 Silicone Ignitor Wire Coil Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 161926,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA419 Silicone Ignitor Wire Coil Assembly.pdf",
+      "sha256": "3245d0e4917e437ab621d7226665594c39969818ef4ca5b2254844b3f1304083",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA432-A Kapton Ignitor Wire Coil Assembly.pdf",
+      "fileName": "PSI-101_Engineering Documents_60089MFHA432-A Kapton Ignitor Wire Coil Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 169403,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHA432-A Kapton Ignitor Wire Coil Assembly.pdf",
+      "sha256": "5a079a55014da47001a400c5f76da21ded2beb9d37d8e5175880a912cff5c056",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHD126-B Smoke Generation Tube.pdf",
+      "fileName": "PSI-101_Engineering Documents_60089MFHD126-B Smoke Generation Tube.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 243826,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHD126-B Smoke Generation Tube.pdf",
+      "sha256": "63aefebcfec2d48bca726822f5fd343833a9a6f8ca55022cbd3c8e80aece4934",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHD413 Teflon Sample Part.pdf",
+      "fileName": "PSI-101_Engineering Documents_60089MFHD413 Teflon Sample Part.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 150152,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHD413 Teflon Sample Part.pdf",
+      "sha256": "aabcd516772d9e83d209228b899cf09cf53b0273e66df46463e2c29754835223",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHD509 P-Trak Condenser Tube Modification.pdf",
+      "fileName": "PSI-101_Engineering Documents_60089MFHD509 P-Trak Condenser Tube Modification.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 162861,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHD509 P-Trak Condenser Tube Modification.pdf",
+      "sha256": "ff80b858803f12138a9196e100d9c48db5dfdd287385c300f6a06aaa43f59cf0",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHP000-C SAME Fluids System Schematic.pdf",
+      "fileName": "PSI-101_Engineering Documents_60089MFHP000-C SAME Fluids System Schematic.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 258861,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_60089MFHP000-C SAME Fluids System Schematic.pdf",
+      "sha256": "bf9cb13668218b415a3f9def9714c3891e4675405e2797ebdf30dccab286920c",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_80089MFHP000-E SAME Fluids System Schematic, right side-1.pdf",
+      "fileName": "PSI-101_Engineering Documents_80089MFHP000-E SAME Fluids System Schematic, right side-1.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 1611750,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_80089MFHP000-E SAME Fluids System Schematic, right side-1.pdf",
+      "sha256": "f0bcddc0e7331df9dae64b7d0905f2ca07b408f2add48267300b3e83b8e4d001",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_80089MFHP000-E SAME Fluids System Schematic.pdf",
+      "fileName": "PSI-101_Engineering Documents_80089MFHP000-E SAME Fluids System Schematic.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 333332,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_80089MFHP000-E SAME Fluids System Schematic.pdf",
+      "sha256": "4db42228ca36e5e287afcf05a4a4ed3dfb3258893f9d0d28c5581bc08cd58e67",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_Drawing_SAME Aging Chamber.PDF",
+      "fileName": "PSI-101_Engineering Documents_Drawing_SAME Aging Chamber.PDF",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 212840,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_Drawing_SAME Aging Chamber.PDF",
+      "sha256": "3968aeb41d3ac690ea7500b6db620ab3a44ce5e66048e6766db5635fd45cde7c",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_Fluids Control Unit, Schematic, left side-1.pdf",
+      "fileName": "PSI-101_Engineering Documents_Fluids Control Unit, Schematic, left side-1.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 1163957,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_Fluids Control Unit, Schematic, left side-1.pdf",
+      "sha256": "71fc3a90db8c2d866e8e18628da5189510a4d9f80c93f63bacd127b3070ef147",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_S1171MFHA401 Pyrell Sample Assembly.pdf",
+      "fileName": "PSI-101_Engineering Documents_S1171MFHA401 Pyrell Sample Assembly.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 154569,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_S1171MFHA401 Pyrell Sample Assembly.pdf",
+      "sha256": "bdf16837754f39d6b7a5e6c0942d1dedcca4795aa515b7399d3ba8860183c1a9",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_SAME EIRD Rev 2.00 02-25-05 HIgh Q.pdf",
+      "fileName": "PSI-101_Engineering Documents_SAME EIRD Rev 2.00 02-25-05 HIgh Q.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 5378409,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_SAME EIRD Rev 2.00 02-25-05 HIgh Q.pdf",
+      "sha256": "941dca3ccf7132913bfd73e8a408f3ea558eaa822486dd53ffcdfa26127461cb",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_SAME VPRED Matrix PLN-005 Baseline.xls",
+      "fileName": "PSI-101_Engineering Documents_SAME VPRED Matrix PLN-005 Baseline.xls",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 537600,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_SAME-R Flight Ops photos.zip",
+      "fileName": "PSI-101_Engineering Documents_SAME-R Flight Ops photos.zip",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 41201731,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:zip",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_SAME-R_ThermalPrecipitatorUsage.xlsx",
+      "fileName": "PSI-101_Engineering Documents_SAME-R_ThermalPrecipitatorUsage.xlsx",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 11054,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_SAME-R_ThermalPrecipitatorUsage.xlsx",
+      "sha256": "2b94b57f4dcf1ea89f23073896f0cd4c5c6449e69a75dbd8b302fdee048c7440",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_SAME_Wire_Report.pdf",
+      "fileName": "PSI-101_Engineering Documents_SAME_Wire_Report.pdf",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 1852991,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Engineering Documents/PSI-101_Engineering Documents_SAME_Wire_Report.pdf",
+      "sha256": "78784625aaffb7420474a29b873454beaf5b38377edc11f6378cb087ca942cfa",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Engineering Documents/PSI-101_Engineering Documents_SAME_Wire_Test.xls",
+      "fileName": "PSI-101_Engineering Documents_SAME_Wire_Test.xls",
+      "folder": "Engineering Documents",
+      "subfolder": null,
+      "sizeBytes": 297984,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:xls",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+      "fileName": "PSI-101_Experimental table_SAME-R.csv",
+      "folder": "Experimental table",
+      "subfolder": null,
+      "sizeBytes": 5674,
+      "version": 1,
+      "origin": [
+        "tree",
+        "experimentalTable"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Experimental table/PSI-101_Experimental table_SAME-R.csv",
+      "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Presentations/PSI-101_Presentations_Detection of Smoke from Microgravity Fires.ppt",
+      "fileName": "PSI-101_Presentations_Detection of Smoke from Microgravity Fires.ppt",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 8259584,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:ppt",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-101/Presentations/PSI-101_Presentations_SAME-2_Comparison of Flight and Ground Test Results.pptx",
+      "fileName": "PSI-101_Presentations_SAME-2_Comparison of Flight and Ground Test Results.pptx",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 5634955,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:pptx",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Presentations/PSI-101_Presentations_SAME-R_Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2.pptx",
+      "fileName": "PSI-101_Presentations_SAME-R_Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2.pptx",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 11483943,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:pptx",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Presentations/PSI-101_Presentations_SAME_Measurement of Smoke Particle Size under Low-Gravity Conditions.ppt",
+      "fileName": "PSI-101_Presentations_SAME_Measurement of Smoke Particle Size under Low-Gravity Conditions.ppt",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 7918592,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "extension:ppt",
+      "localPath": null,
+      "sha256": null,
+      "extension": "ppt"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_# 52 - 5P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_# 52 - 5P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 2363763,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_# 53 - 65 Silicone.zip",
+      "fileName": "PSI-101_Raw Data_# 53 - 65 Silicone.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Videos, Images",
+      "sizeBytes": 23031718,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#100 - 53T Teflon.zip",
+      "fileName": "PSI-101_Raw Data_#100 - 53T Teflon.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Videos, Images",
+      "sizeBytes": 8155276,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#101 Postage 54K Kapton.zip",
+      "fileName": "PSI-101_Raw Data_#101 Postage 54K Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 9248880,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#101 Preage 54K Kapton.zip",
+      "fileName": "PSI-101_Raw Data_#101 Preage 54K Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 22975604,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#105 postage 58T Teflon.zip",
+      "fileName": "PSI-101_Raw Data_#105 postage 58T Teflon.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Videos, Images",
+      "sizeBytes": 3032821,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#106 - 59L Lampwick.zip",
+      "fileName": "PSI-101_Raw Data_#106 - 59L Lampwick.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 26147859,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#107 Postage 60P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#107 Postage 60P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 20550719,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#107 Preage 60P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#107 Preage 60P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 22615239,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#108 Preage 61K Kapton.zip",
+      "fileName": "PSI-101_Raw Data_#108 Preage 61K Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 26765624,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#49 - 2L - Lampwick.zip",
+      "fileName": "PSI-101_Raw Data_#49 - 2L - Lampwick.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 13505560,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#50 - 3T - Teflon.zip",
+      "fileName": "PSI-101_Raw Data_#50 - 3T - Teflon.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Videos, Images",
+      "sizeBytes": 2885115,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#54 - 7L - Lampwick.zip",
+      "fileName": "PSI-101_Raw Data_#54 - 7L - Lampwick.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 52423002,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#54 7L Lampwick - new.zip",
+      "fileName": "PSI-101_Raw Data_#54 7L Lampwick - new.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 6778846,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#54 Lampwick linear 5-2-12.zip",
+      "fileName": "PSI-101_Raw Data_#54 Lampwick linear 5-2-12.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 12689807,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#55 - 8L Lampwick High RT_RO.zip",
+      "fileName": "PSI-101_Raw Data_#55 - 8L Lampwick High RT_RO.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 62839623,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#55 Lampwick linear 5-2-12.zip",
+      "fileName": "PSI-101_Raw Data_#55 Lampwick linear 5-2-12.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 16395536,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#56 - 9T - Teflon.zip",
+      "fileName": "PSI-101_Raw Data_#56 - 9T - Teflon.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Videos, Images",
+      "sizeBytes": 47644631,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#58 Postage 11T Teflon.zip",
+      "fileName": "PSI-101_Raw Data_#58 Postage 11T Teflon.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Videos, Images",
+      "sizeBytes": 23968084,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#60 13S Silicone.zip",
+      "fileName": "PSI-101_Raw Data_#60 13S Silicone.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Videos, Images",
+      "sizeBytes": 7420141,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#63 Postage 16P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#63 Postage 16P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 17438901,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#63 Preage 16P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#63 Preage 16P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 18016199,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#64 Postage 17P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#64 Postage 17P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 28890260,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#64 preage - 16P - Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#64 preage - 16P - Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 47180218,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#67 - 20S Silicone.zip",
+      "fileName": "PSI-101_Raw Data_#67 - 20S Silicone.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Videos, Images",
+      "sizeBytes": 23163931,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#68 21L Lampwick.zip",
+      "fileName": "PSI-101_Raw Data_#68 21L Lampwick.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 421460,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#69 - 22T Teflon.zip",
+      "fileName": "PSI-101_Raw Data_#69 - 22T Teflon.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Videos, Images",
+      "sizeBytes": 22813158,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#71 - 24P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#71 - 24P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 19490799,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#72 - 25S Silicone.zip",
+      "fileName": "PSI-101_Raw Data_#72 - 25S Silicone.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Videos, Images",
+      "sizeBytes": 17862299,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#73 mis labeled pyrellpreage 26K Kapton.zip",
+      "fileName": "PSI-101_Raw Data_#73 mis labeled pyrellpreage 26K Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 66969710,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#73 mislabeled pyrell postage 26K Kapton.zip",
+      "fileName": "PSI-101_Raw Data_#73 mislabeled pyrell postage 26K Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 64003333,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#74 Postage 27P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#74 Postage 27P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 11461931,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#74 Preage 27P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#74 Preage 27P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 651421,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#76 postage 29P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#76 postage 29P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 7913530,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#76 preage 29P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#76 preage 29P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 1497112,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#78 Postage 31L Lampwick.zip",
+      "fileName": "PSI-101_Raw Data_#78 Postage 31L Lampwick.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 1613620,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#78 Preage 31L Lampwick.zip",
+      "fileName": "PSI-101_Raw Data_#78 Preage 31L Lampwick.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 1199289,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#79 Postage 32T Teflon.zip",
+      "fileName": "PSI-101_Raw Data_#79 Postage 32T Teflon.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Videos, Images",
+      "sizeBytes": 1266188,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#79 Preage 32T Teflon.zip",
+      "fileName": "PSI-101_Raw Data_#79 Preage 32T Teflon.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Videos, Images",
+      "sizeBytes": 1275395,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#80 Postage 33L Lampwick.zip",
+      "fileName": "PSI-101_Raw Data_#80 Postage 33L Lampwick.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 539968,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#81 post age Teflon (34T).zip",
+      "fileName": "PSI-101_Raw Data_#81 post age Teflon (34T).zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Videos, Images",
+      "sizeBytes": 8735441,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#81 preage Teflon (34T).zip",
+      "fileName": "PSI-101_Raw Data_#81 preage Teflon (34T).zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Videos, Images",
+      "sizeBytes": 21770770,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#82 Postage 35L Lampwick.zip",
+      "fileName": "PSI-101_Raw Data_#82 Postage 35L Lampwick.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 3032217,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#82 Preage 35L Lampwick.zip",
+      "fileName": "PSI-101_Raw Data_#82 Preage 35L Lampwick.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 480179,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#83 post age Teflon (36T).zip",
+      "fileName": "PSI-101_Raw Data_#83 post age Teflon (36T).zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Videos, Images",
+      "sizeBytes": 15145945,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#84 post-age 37P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#84 post-age 37P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 64003129,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#84 pre-age 37P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#84 pre-age 37P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 66969662,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#87 - 40P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#87 - 40P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 24626532,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#93 Postage 46K Kapton.zip",
+      "fileName": "PSI-101_Raw Data_#93 Postage 46K Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 1906334,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#93 Preage 46K Kapton.zip",
+      "fileName": "PSI-101_Raw Data_#93 Preage 46K Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 8132002,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#95 - 48P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#95 - 48P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 7108991,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#96 - 49L Lampwick.zip",
+      "fileName": "PSI-101_Raw Data_#96 - 49L Lampwick.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 20510970,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#97 - 50P Pyrell.zip",
+      "fileName": "PSI-101_Raw Data_#97 - 50P Pyrell.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 22559031,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#98 Postage 51L Lampwick.zip",
+      "fileName": "PSI-101_Raw Data_#98 Postage 51L Lampwick.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 16112726,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_#98 Preage 51L Lampwick.zip",
+      "fileName": "PSI-101_Raw Data_#98 Preage 51L Lampwick.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 32561516,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_1 Lampwick vlc-record-2010-09-07-16h18m22s-udp___233.1.14.11 _50300-.mp4",
+      "fileName": "PSI-101_Raw Data_1 Lampwick vlc-record-2010-09-07-16h18m22s-udp___233.1.14.11 _50300-.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 303548579,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_1 Lampwick vlc-record-2010-09-07-16h18m22s-udp___233.1.14.11 _50300-.zip",
+      "fileName": "PSI-101_Raw Data_1 Lampwick vlc-record-2010-09-07-16h18m22s-udp___233.1.14.11 _50300-.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 44787440,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_100 - 53T Teflon.pptx",
+      "fileName": "PSI-101_Raw Data_100 - 53T Teflon.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 100",
+      "sizeBytes": 688572,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_101 Preage 54K Kapton.pptx",
+      "fileName": "PSI-101_Raw Data_101 Preage 54K Kapton.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 101",
+      "sizeBytes": 1956308,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_101 postage 54k Kapton.pptx",
+      "fileName": "PSI-101_Raw Data_101 postage 54k Kapton.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 101",
+      "sizeBytes": 815606,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_105 postage 58T Teflon.pptx",
+      "fileName": "PSI-101_Raw Data_105 postage 58T Teflon.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 105",
+      "sizeBytes": 1612238,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_106 - 59L Lampwick.pptx",
+      "fileName": "PSI-101_Raw Data_106 - 59L Lampwick.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 106",
+      "sizeBytes": 2091716,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_107 Postage 60P Pyrell.pptx",
+      "fileName": "PSI-101_Raw Data_107 Postage 60P Pyrell.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 107",
+      "sizeBytes": 1613570,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_107 Preage 60P Pyrell.pptx",
+      "fileName": "PSI-101_Raw Data_107 Preage 60P Pyrell.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 107",
+      "sizeBytes": 1642654,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_108 Postage 61K Kapton.pptx",
+      "fileName": "PSI-101_Raw Data_108 Postage 61K Kapton.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 108",
+      "sizeBytes": 2079091,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_108 Preage 61K Kapton.pptx",
+      "fileName": "PSI-101_Raw Data_108 Preage 61K Kapton.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 108",
+      "sizeBytes": 2241480,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_108 post 61K.zip",
+      "fileName": "PSI-101_Raw Data_108 post 61K.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 23004474,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_2 Kapton vlc-record-2010-09-07-17h19m24s-udp___233.1.14.11 _50300-.mp4",
+      "fileName": "PSI-101_Raw Data_2 Kapton vlc-record-2010-09-07-17h19m24s-udp___233.1.14.11 _50300-.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 164650898,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_2 Kapton vlc-record-2010-09-07-17h19m24s-udp___233.1.14.11 _50300-.zip",
+      "fileName": "PSI-101_Raw Data_2 Kapton vlc-record-2010-09-07-17h19m24s-udp___233.1.14.11 _50300-.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 28541664,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_2010_210_10_lampwick_run55 wrong.xls",
+      "fileName": "PSI-101_Raw Data_2010_210_10_lampwick_run55 wrong.xls",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 055",
+      "sizeBytes": 4406784,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_2010_211_13_silcon_run60.xls",
+      "fileName": "PSI-101_Raw Data_2010_211_13_silcon_run60.xls",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 060",
+      "sizeBytes": 6920704,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_2010_211_14_lampwick run 55 corrected.xls",
+      "fileName": "PSI-101_Raw Data_2010_211_14_lampwick run 55 corrected.xls",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 055",
+      "sizeBytes": 6368768,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xls"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_3 pyrell vlc-record-2010-09-08-11h37m29s-udp___233.1.14.5 _50000-.mp4",
+      "fileName": "PSI-101_Raw Data_3 pyrell vlc-record-2010-09-08-11h37m29s-udp___233.1.14.5 _50000-.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 463842635,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_3 pyrell vlc-record-2010-09-08-11h37m29s-udp___233.1.14.5 _50000-.zip",
+      "fileName": "PSI-101_Raw Data_3 pyrell vlc-record-2010-09-08-11h37m29s-udp___233.1.14.5 _50000-.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Videos, Images",
+      "sizeBytes": 76888678,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_4 lampwick vlc-record-2010-09-08-12h10m02s-udp___233.1.14.5 _50000-.mp4",
+      "fileName": "PSI-101_Raw Data_4 lampwick vlc-record-2010-09-08-12h10m02s-udp___233.1.14.5 _50000-.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 279582511,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_4 lampwick vlc-record-2010-09-08-12h10m02s-udp___233.1.14.5 _50000-.zip",
+      "fileName": "PSI-101_Raw Data_4 lampwick vlc-record-2010-09-08-12h10m02s-udp___233.1.14.5 _50000-.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 41582320,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_49 - 2L Lampwick.pptx",
+      "fileName": "PSI-101_Raw Data_49 - 2L Lampwick.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 049, Unaged",
+      "sizeBytes": 901205,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_4K-K01-10 -6x-1y 10k.tif",
+      "fileName": "PSI-101_Raw Data_4K-K01-10 -6x-1y 10k.tif",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 051",
+      "sizeBytes": 606532,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "tif"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_4K-K01-15 -1x-1y 10k.tif",
+      "fileName": "PSI-101_Raw Data_4K-K01-15 -1x-1y 10k.tif",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 051",
+      "sizeBytes": 634338,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "tif"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_4K-K01-4 -6x-1y 1350.tif",
+      "fileName": "PSI-101_Raw Data_4K-K01-4 -6x-1y 1350.tif",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 051",
+      "sizeBytes": 547155,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "tif"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_50 - 3T Teflon.pptx",
+      "fileName": "PSI-101_Raw Data_50 - 3T Teflon.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 050, Unaged",
+      "sizeBytes": 448844,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_51 - 4K Kapton.pptx",
+      "fileName": "PSI-101_Raw Data_51 - 4K Kapton.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 051",
+      "sizeBytes": 1261921,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_52-5P Pyrell.pdf",
+      "fileName": "PSI-101_Raw Data_52-5P Pyrell.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 052",
+      "sizeBytes": 1824143,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_52-5P Pyrell.pptx",
+      "fileName": "PSI-101_Raw Data_52-5P Pyrell.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 052",
+      "sizeBytes": 5649952,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_53 - 6S Silicone.pptx",
+      "fileName": "PSI-101_Raw Data_53 - 6S Silicone.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 053, Unaged",
+      "sizeBytes": 1911407,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_54 7L Lampwick new names 4-23-12.pptx",
+      "fileName": "PSI-101_Raw Data_54 7L Lampwick new names 4-23-12.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 054, Unaged",
+      "sizeBytes": 4253960,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_54 7L Lampwick.pdf",
+      "fileName": "PSI-101_Raw Data_54 7L Lampwick.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 054, Unaged",
+      "sizeBytes": 1608893,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_54 7L Lampwick.pptx",
+      "fileName": "PSI-101_Raw Data_54 7L Lampwick.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 054, Unaged",
+      "sizeBytes": 1649841,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_54 Lampwick linear for image analysis.pptx",
+      "fileName": "PSI-101_Raw Data_54 Lampwick linear for image analysis.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 054, Unaged",
+      "sizeBytes": 5417172,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_54 l quarters.pptx",
+      "fileName": "PSI-101_Raw Data_54 l quarters.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 054, Unaged",
+      "sizeBytes": 615007,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_55 8L Lampwick.pdf",
+      "fileName": "PSI-101_Raw Data_55 8L Lampwick.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 055",
+      "sizeBytes": 1487063,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_55 8L Lampwick.pptx",
+      "fileName": "PSI-101_Raw Data_55 8L Lampwick.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 055",
+      "sizeBytes": 4458515,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_56 - 9T teflon.pdf",
+      "fileName": "PSI-101_Raw Data_56 - 9T teflon.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 056, Unaged",
+      "sizeBytes": 2313158,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_56 - 9T teflon.pptx",
+      "fileName": "PSI-101_Raw Data_56 - 9T teflon.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 056, Unaged",
+      "sizeBytes": 2185887,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_58 postage 11T Teflon.pptx",
+      "fileName": "PSI-101_Raw Data_58 postage 11T Teflon.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 058",
+      "sizeBytes": 2024203,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_60 13S Silicone.pptx",
+      "fileName": "PSI-101_Raw Data_60 13S Silicone.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 060",
+      "sizeBytes": 4717609,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_62 Post Kapton - linear for image analysis.pptx",
+      "fileName": "PSI-101_Raw Data_62 Post Kapton - linear for image analysis.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 062",
+      "sizeBytes": 5487298,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_62 Postage 15K Kapton.pptx",
+      "fileName": "PSI-101_Raw Data_62 Postage 15K Kapton.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 062",
+      "sizeBytes": 1568467,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_62 Postage Kapton linear.zip",
+      "fileName": "PSI-101_Raw Data_62 Postage Kapton linear.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 11188395,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_62 pre 15K Kapton.pdf",
+      "fileName": "PSI-101_Raw Data_62 pre 15K Kapton.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 062",
+      "sizeBytes": 1023848,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_62 pre 15K Kapton.pptx",
+      "fileName": "PSI-101_Raw Data_62 pre 15K Kapton.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 062",
+      "sizeBytes": 1076136,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_62-preage 15K Kapton.zip",
+      "fileName": "PSI-101_Raw Data_62-preage 15K Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 41931737,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_62_Preage Kapton linear.zip",
+      "fileName": "PSI-101_Raw Data_62_Preage Kapton linear.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 13377910,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_63 Postage 16P Pyrell.pptx",
+      "fileName": "PSI-101_Raw Data_63 Postage 16P Pyrell.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 063",
+      "sizeBytes": 1635817,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_63 Postage Pyrell for image analysis.pptx",
+      "fileName": "PSI-101_Raw Data_63 Postage Pyrell for image analysis.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 063",
+      "sizeBytes": 5689372,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_63 Preage 16P Pyrell.pptx",
+      "fileName": "PSI-101_Raw Data_63 Preage 16P Pyrell.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 063",
+      "sizeBytes": 1737419,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_63 Preage Pyrell for image analysis.pptx",
+      "fileName": "PSI-101_Raw Data_63 Preage Pyrell for image analysis.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 063",
+      "sizeBytes": 6897849,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_64 Postage 17P Pyrell.pptx",
+      "fileName": "PSI-101_Raw Data_64 Postage 17P Pyrell.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 064",
+      "sizeBytes": 2508070,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_64 Postage Pyrell for image analysis.pptx",
+      "fileName": "PSI-101_Raw Data_64 Postage Pyrell for image analysis.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 064",
+      "sizeBytes": 5350396,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_64 Preage Pyrell for image analysis.pptx",
+      "fileName": "PSI-101_Raw Data_64 Preage Pyrell for image analysis.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 064",
+      "sizeBytes": 5239509,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_64 preage - 17P Pyrell.pptx",
+      "fileName": "PSI-101_Raw Data_64 preage - 17P Pyrell.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 064",
+      "sizeBytes": 1749626,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_67 - 20S Silicone.pptx",
+      "fileName": "PSI-101_Raw Data_67 - 20S Silicone.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 067, Aged",
+      "sizeBytes": 2057323,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_68 21L Lampwick.pdf",
+      "fileName": "PSI-101_Raw Data_68 21L Lampwick.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 068",
+      "sizeBytes": 4235607,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_68 21L Lampwick.pptx",
+      "fileName": "PSI-101_Raw Data_68 21L Lampwick.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 068",
+      "sizeBytes": 8981135,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_69 - 22T Teflon.pptx",
+      "fileName": "PSI-101_Raw Data_69 - 22T Teflon.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 069, Aged",
+      "sizeBytes": 1813728,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_7 kapton vlc-record-2010-09-08-14h26m11s-udp___233.1.14.5 _50000-.mp4",
+      "fileName": "PSI-101_Raw Data_7 kapton vlc-record-2010-09-08-14h26m11s-udp___233.1.14.5 _50000-.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 251700257,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_7 kapton vlc-record-2010-09-08-14h26m11s-udp___233.1.14.5 _50000-.zip",
+      "fileName": "PSI-101_Raw Data_7 kapton vlc-record-2010-09-08-14h26m11s-udp___233.1.14.5 _50000-.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 41711655,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_70-23K Kapton.pdf",
+      "fileName": "PSI-101_Raw Data_70-23K Kapton.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 070",
+      "sizeBytes": 5292539,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_70-23K Kapton.pptx",
+      "fileName": "PSI-101_Raw Data_70-23K Kapton.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 070",
+      "sizeBytes": 11210574,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_70-23K Kapton.zip",
+      "fileName": "PSI-101_Raw Data_70-23K Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 530577,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_71 - 24P Pyrell.pptx",
+      "fileName": "PSI-101_Raw Data_71 - 24P Pyrell.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 071",
+      "sizeBytes": 1580310,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_72 25S Silicone.pptx",
+      "fileName": "PSI-101_Raw Data_72 25S Silicone.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 072, Unaged",
+      "sizeBytes": 1497290,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_73 post 26K Kapton.zip",
+      "fileName": "PSI-101_Raw Data_73 post 26K Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 787886,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_73 postage Kapton 26K.pptx",
+      "fileName": "PSI-101_Raw Data_73 postage Kapton 26K.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 073",
+      "sizeBytes": 426321,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_73 preage Kapton (26K).pptx",
+      "fileName": "PSI-101_Raw Data_73 preage Kapton (26K).pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 073",
+      "sizeBytes": 4841969,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_73 preage Kapton 26K.pptx",
+      "fileName": "PSI-101_Raw Data_73 preage Kapton 26K.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 073",
+      "sizeBytes": 940782,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_73 preage Kapton.zip",
+      "fileName": "PSI-101_Raw Data_73 preage Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 1907387,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_74 postage Pyrell 27P.pptx",
+      "fileName": "PSI-101_Raw Data_74 postage Pyrell 27P.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 074",
+      "sizeBytes": 5154529,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_74 preage Pyrell 27P.pptx",
+      "fileName": "PSI-101_Raw Data_74 preage Pyrell 27P.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 074",
+      "sizeBytes": 412976,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_75 postage Kapton 28K.pptx",
+      "fileName": "PSI-101_Raw Data_75 postage Kapton 28K.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 075",
+      "sizeBytes": 3076542,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_75 postage Kapton.zip",
+      "fileName": "PSI-101_Raw Data_75 postage Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 7341213,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_75 preage Kapton 28K.pptx",
+      "fileName": "PSI-101_Raw Data_75 preage Kapton 28K.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 075",
+      "sizeBytes": 750884,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_75 preage-28K.zip",
+      "fileName": "PSI-101_Raw Data_75 preage-28K.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 1497816,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_76 postage Pyrell 29P.pptx",
+      "fileName": "PSI-101_Raw Data_76 postage Pyrell 29P.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 076",
+      "sizeBytes": 4086823,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_76 preage Pyrell 29P.pptx",
+      "fileName": "PSI-101_Raw Data_76 preage Pyrell 29P.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 076",
+      "sizeBytes": 3091163,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_77 post-30K_Kapton.zip",
+      "fileName": "PSI-101_Raw Data_77 post-30K_Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 10880180,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_77 postage Kapton 30K.pptx",
+      "fileName": "PSI-101_Raw Data_77 postage Kapton 30K.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 077",
+      "sizeBytes": 4690013,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_77 preage Kapton 30K.pptx",
+      "fileName": "PSI-101_Raw Data_77 preage Kapton 30K.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 077",
+      "sizeBytes": 4724742,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_77preage Kapton.zip",
+      "fileName": "PSI-101_Raw Data_77preage Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 9968698,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_78 Postage 31L Lampwick.pptx",
+      "fileName": "PSI-101_Raw Data_78 Postage 31L Lampwick.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 078",
+      "sizeBytes": 836925,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_78 Preage 31l Lampwick.pptx",
+      "fileName": "PSI-101_Raw Data_78 Preage 31l Lampwick.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 078",
+      "sizeBytes": 845658,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_79 Postage 32T Teflon.pptx",
+      "fileName": "PSI-101_Raw Data_79 Postage 32T Teflon.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 079",
+      "sizeBytes": 681410,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_79 preage Teflon 32T.pptx",
+      "fileName": "PSI-101_Raw Data_79 preage Teflon 32T.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 079",
+      "sizeBytes": 331634,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_80 Preage 33L Lampwick.pptx",
+      "fileName": "PSI-101_Raw Data_80 Preage 33L Lampwick.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 080",
+      "sizeBytes": 1752731,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_82 Postage 35L Lampwick.pptx",
+      "fileName": "PSI-101_Raw Data_82 Postage 35L Lampwick.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 082",
+      "sizeBytes": 1821941,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_82 Preage 35 L Lampwick.pptx",
+      "fileName": "PSI-101_Raw Data_82 Preage 35 L Lampwick.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 082",
+      "sizeBytes": 297490,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_83 postage Teflon 36T.pptx",
+      "fileName": "PSI-101_Raw Data_83 postage Teflon 36T.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 083",
+      "sizeBytes": 1343676,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_84 post 37P Pyrell (26K).pptx",
+      "fileName": "PSI-101_Raw Data_84 post 37P Pyrell (26K).pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 084",
+      "sizeBytes": 4500394,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_84 preage Pyrell (37P).pptx",
+      "fileName": "PSI-101_Raw Data_84 preage Pyrell (37P).pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 084",
+      "sizeBytes": 4843320,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_85 38K Kapton.pptx",
+      "fileName": "PSI-101_Raw Data_85 38K Kapton.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 085",
+      "sizeBytes": 1576135,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_85-38K Kapton.zip",
+      "fileName": "PSI-101_Raw Data_85-38K Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 3083737,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_87 - 40P Pyrell.pptx",
+      "fileName": "PSI-101_Raw Data_87 - 40P Pyrell.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 087",
+      "sizeBytes": 2109315,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_93 Preage 46K Kapton.pptx",
+      "fileName": "PSI-101_Raw Data_93 Preage 46K Kapton.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 093",
+      "sizeBytes": 756899,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_93 postage 46K Kapton.pptx",
+      "fileName": "PSI-101_Raw Data_93 postage 46K Kapton.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 093",
+      "sizeBytes": 367139,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_94 post 47K.zip",
+      "fileName": "PSI-101_Raw Data_94 post 47K.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 16286287,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_94 postage 47k Kapton.pptx",
+      "fileName": "PSI-101_Raw Data_94 postage 47k Kapton.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 094",
+      "sizeBytes": 1442904,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_95 48P Pyrell.pptx",
+      "fileName": "PSI-101_Raw Data_95 48P Pyrell.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 095",
+      "sizeBytes": 668920,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_96 48L Lampwick.pptx",
+      "fileName": "PSI-101_Raw Data_96 48L Lampwick.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 096",
+      "sizeBytes": 1728964,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_97 - 50P Pyrell.pptx",
+      "fileName": "PSI-101_Raw Data_97 - 50P Pyrell.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 097",
+      "sizeBytes": 1922135,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_98 Preage 51L Lampwick.pptx",
+      "fileName": "PSI-101_Raw Data_98 Preage 51L Lampwick.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 098",
+      "sizeBytes": 3012371,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_98 postage 51l Lampwick.pptx",
+      "fileName": "PSI-101_Raw Data_98 postage 51l Lampwick.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 098",
+      "sizeBytes": 1477691,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt211_2.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt211_2.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 058",
+      "sizeBytes": 694283,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt211_3.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt211_3.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 059",
+      "sizeBytes": 693361,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt211_4.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt211_4.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 060",
+      "sizeBytes": 784824,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt214_1.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt214_1.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 061",
+      "sizeBytes": 680383,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt214_2.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt214_2.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 062",
+      "sizeBytes": 625909,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt235_1.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt235_1.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 063",
+      "sizeBytes": 496614,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt235_2.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt235_2.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 065",
+      "sizeBytes": 934806,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt235_3.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt235_3.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 064",
+      "sizeBytes": 678028,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt235_4.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt235_4.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 066",
+      "sizeBytes": 606228,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt236_1.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt236_1.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 067, Aged",
+      "sizeBytes": 521399,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt236_2.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt236_2.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 068",
+      "sizeBytes": 492364,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt236_3.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt236_3.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 069, Aged",
+      "sizeBytes": 652132,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt237_1.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt237_1.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 070",
+      "sizeBytes": 576815,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt238_1.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt238_1.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 073",
+      "sizeBytes": 499714,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt238_3.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt238_3.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 075",
+      "sizeBytes": 511400,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt238_4.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt238_4.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 076",
+      "sizeBytes": 578952,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt238_5.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt238_5.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 077",
+      "sizeBytes": 524152,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt239_1.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt239_1.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 078",
+      "sizeBytes": 779694,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt239_2.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt239_2.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 079",
+      "sizeBytes": 537510,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt239_3.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt239_3.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 080",
+      "sizeBytes": 475594,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt239_4.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt239_4.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 081",
+      "sizeBytes": 519128,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt239_5.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt239_5.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 082",
+      "sizeBytes": 659660,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt242_1.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt242_1.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 084",
+      "sizeBytes": 625086,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt242_2.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt242_2.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 085",
+      "sizeBytes": 509413,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt242_3.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt242_3.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 087",
+      "sizeBytes": 300609,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt242_4.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt242_4.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 086",
+      "sizeBytes": 570590,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt242_6_run89.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt242_6_run89.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 089, Unaged",
+      "sizeBytes": 328895,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt242_7.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt242_7.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 090",
+      "sizeBytes": 464302,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt250_1.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt250_1.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 091",
+      "sizeBytes": 222568,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt250_2.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt250_2.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 093",
+      "sizeBytes": 537394,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt250_3.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt250_3.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 094",
+      "sizeBytes": 639211,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt250_4.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt250_4.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 095",
+      "sizeBytes": 761534,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt250_5.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt250_5.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 096",
+      "sizeBytes": 809057,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt250_6.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt250_6.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 092",
+      "sizeBytes": 303771,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt251_1.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt251_1.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 097",
+      "sizeBytes": 723359,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt251_2.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt251_2.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 098",
+      "sizeBytes": 597910,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt251_3.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt251_3.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 100",
+      "sizeBytes": 620322,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt251_4.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt251_4.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 099",
+      "sizeBytes": 629275,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt251_5.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt251_5.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 101",
+      "sizeBytes": 614400,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt251_6.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt251_6.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 102",
+      "sizeBytes": 654648,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt252_3.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt252_3.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Pyrell/Run 107",
+      "sizeBytes": 1533648,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt252_4.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt252_4.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 106",
+      "sizeBytes": 508552,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt252_5.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt252_5.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Run 103",
+      "sizeBytes": 1528232,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_HKPData_gmt252_6.csv",
+      "fileName": "PSI-101_Raw Data_HKPData_gmt252_6.csv",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 108",
+      "sizeBytes": 676593,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_ISS Coagulation.doc",
+      "fileName": "PSI-101_Raw Data_ISS Coagulation.doc",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 054, Unaged",
+      "sizeBytes": 141312,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "doc"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_K01-4K images.pdf",
+      "fileName": "PSI-101_Raw Data_K01-4K images.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 051",
+      "sizeBytes": 8945561,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_K01-4K images.pptx",
+      "fileName": "PSI-101_Raw Data_K01-4K images.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Run 051",
+      "sizeBytes": 19032908,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_L13 images.pdf",
+      "fileName": "PSI-101_Raw Data_L13 images.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 049, Unaged",
+      "sizeBytes": 3203423,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_L13 images.pptx",
+      "fileName": "PSI-101_Raw Data_L13 images.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 049, Unaged",
+      "sizeBytes": 31178308,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_New Microsoft Office PowerPoint Presentation.pptx",
+      "fileName": "PSI-101_Raw Data_New Microsoft Office PowerPoint Presentation.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 054, Unaged",
+      "sizeBytes": 27581,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_Run 051 4K Kapton.zip",
+      "fileName": "PSI-101_Raw Data_Run 051 4K Kapton.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Kapton/Videos, Images",
+      "sizeBytes": 10060674,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_SPV of 54-7L_21 all quarters (3).xlsx",
+      "fileName": "PSI-101_Raw Data_SPV of 54-7L_21 all quarters (3).xlsx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Run 054, Unaged",
+      "sizeBytes": 47188,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_T01-3T images.pdf",
+      "fileName": "PSI-101_Raw Data_T01-3T images.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 050, Unaged",
+      "sizeBytes": 3342789,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_T01-3T images.pptx",
+      "fileName": "PSI-101_Raw Data_T01-3T images.pptx",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Teflon/Run 050, Unaged",
+      "sizeBytes": 6753467,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pptx"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_more 54.zip",
+      "fileName": "PSI-101_Raw Data_more 54.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Cotton Lamp wick/Videos, Images",
+      "sizeBytes": 960620,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_vlc-record-2010-07-30-13h25m07s-udp___233.1.14.7 _50100-.mp4",
+      "fileName": "PSI-101_Raw Data_vlc-record-2010-07-30-13h25m07s-udp___233.1.14.7 _50100-.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Videos, Images",
+      "sizeBytes": 970563377,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_vlc-record-2010-07-30-13h25m07s-udp___233.1.14.7 _50100-.zip",
+      "fileName": "PSI-101_Raw Data_vlc-record-2010-07-30-13h25m07s-udp___233.1.14.7 _50100-.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Videos, Images",
+      "sizeBytes": 164070472,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_vlc-record-2010-07-30-14h12m08s-udp___233.1.14.7 _50100-.mp4",
+      "fileName": "PSI-101_Raw Data_vlc-record-2010-07-30-14h12m08s-udp___233.1.14.7 _50100-.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Videos, Images",
+      "sizeBytes": 970563377,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_vlc-record-2010-07-30-14h12m08s-udp___233.1.14.7 _50100-.zip",
+      "fileName": "PSI-101_Raw Data_vlc-record-2010-07-30-14h12m08s-udp___233.1.14.7 _50100-.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Videos, Images",
+      "sizeBytes": 36068567,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_vlc-record-2010-07-30-15h06m31s-udp___233.1.14.7 _50100-.mp4",
+      "fileName": "PSI-101_Raw Data_vlc-record-2010-07-30-15h06m31s-udp___233.1.14.7 _50100-.mp4",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Videos, Images",
+      "sizeBytes": 282455755,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "mp4"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/PSI-101_Raw Data_vlc-record-2010-07-30-15h06m31s-udp___233.1.14.7 _50100-.zip",
+      "fileName": "PSI-101_Raw Data_vlc-record-2010-07-30-15h06m31s-udp___233.1.14.7 _50100-.zip",
+      "folder": "Raw Data",
+      "subfolder": "Reduced Gravity/Silicone/Videos, Images",
+      "sizeBytes": 47265860,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    },
+    {
+      "key": "psi-data/PSI-101/Raw Data/SAME_VPRED.pdf",
+      "fileName": "SAME_VPRED.pdf",
+      "folder": "Raw Data",
+      "subfolder": "Legacy/",
+      "sizeBytes": 514219,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": false,
+      "reason": "folder-excluded:Raw Data",
+      "localPath": null,
+      "sha256": null,
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Reference Data/PSI-101_Reference Data_SAME_Software Description Document_003 Rev A.pdf",
+      "fileName": "PSI-101_Reference Data_SAME_Software Description Document_003 Rev A.pdf",
+      "folder": "Reference Data",
+      "subfolder": null,
+      "sizeBytes": 270540,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Reference Data/PSI-101_Reference Data_SAME_Software Description Document_003 Rev A.pdf",
+      "sha256": "e6b4b119f7adeb6df52529d47d856967c40ff325bba3c923b72785e7fa133ddf",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Reference Data/PSI-101_Reference Data_SAME_Software Requirement Document_004 Rev D.pdf",
+      "fileName": "PSI-101_Reference Data_SAME_Software Requirement Document_004 Rev D.pdf",
+      "folder": "Reference Data",
+      "subfolder": null,
+      "sizeBytes": 400833,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Reference Data/PSI-101_Reference Data_SAME_Software Requirement Document_004 Rev D.pdf",
+      "sha256": "ea41d0a9db34f756f433b6954f1a0a9d6060e05ab45b6ef534ab60a8ff23d300",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+      "fileName": "PSI-101_Reports_SAME-R_Final Report.pdf",
+      "folder": "Reports",
+      "subfolder": null,
+      "sizeBytes": 4578437,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Reports/PSI-101_Reports_SAME-R_Final Report.pdf",
+      "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Science Documents/PSI-101_Science Documents_SAME_Baseline Concept Description Document_001 Rev A.pdf",
+      "fileName": "PSI-101_Science Documents_SAME_Baseline Concept Description Document_001 Rev A.pdf",
+      "folder": "Science Documents",
+      "subfolder": null,
+      "sizeBytes": 247315,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Science Documents/PSI-101_Science Documents_SAME_Baseline Concept Description Document_001 Rev A.pdf",
+      "sha256": "3eed4b7ecd71f9e37a3f7a78d7e7a011ff636bb24ec8bcc72ff97a8ac41b598a",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/Science Documents/PSI-101_Science Documents_SAME_Operations Manual_007.pdf",
+      "fileName": "PSI-101_Science Documents_SAME_Operations Manual_007.pdf",
+      "folder": "Science Documents",
+      "subfolder": null,
+      "sizeBytes": 699811,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-101/Science Documents/PSI-101_Science Documents_SAME_Operations Manual_007.pdf",
+      "sha256": "ac00e24b0f9a0388c3ac5097cca67591112c9992c0c9d40a6810ca5ba7289f36",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-101/metadata/PSI-101_metadata_PSI-169_SAME-R.zip",
+      "fileName": "PSI-101_metadata_PSI-169_SAME-R.zip",
+      "folder": "metadata",
+      "subfolder": null,
+      "sizeBytes": 11037,
+      "version": 3,
+      "origin": [
+        "tree"
+      ],
+      "selected": false,
+      "reason": "extension:zip",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    }
+  ]
+}

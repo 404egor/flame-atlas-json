@@ -1,0 +1,298 @@
+{
+  "investigationId": "PSI-117",
+  "source": "psi",
+  "listedAt": "2026-11-14T17:06:53+00:00",
+  "selection": {
+    "allowedExtensions": [
+      "pdf",
+      "docx",
+      "csv",
+      "xlsx"
+    ],
+    "excludeFolders": [
+      "Raw Data"
+    ],
+    "includeFolders": [],
+    "maxFileSizeMb": 60
+  },
+  "stats": {
+    "listed": 16,
+    "selected": 15,
+    "downloaded": 15,
+    "cached": 0,
+    "failed": 0
+  },
+  "files": [
+    {
+      "key": "psi-data/PSI-117/Analyzed Data/PSI-117_Analyzed Data_MST_2024_Burning_history_Flame_diameter.csv",
+      "fileName": "PSI-117_Analyzed Data_MST_2024_Burning_history_Flame_diameter.csv",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Simulation/MST",
+      "sizeBytes": 44107,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-117/Analyzed Data/Reduced Gravity/Simulation/MST/PSI-117_Analyzed Data_MST_2024_Burning_history_Flame_diameter.csv",
+      "sha256": "81e6b16c355bc64a226cf638f51156758c6a259ed10bc372c1612a0984cc7bc9",
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-117/Analyzed Data/PSI-117_Analyzed Data_MST_2024_Dext.csv",
+      "fileName": "PSI-117_Analyzed Data_MST_2024_Dext.csv",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Simulation/MST",
+      "sizeBytes": 372,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-117/Analyzed Data/Reduced Gravity/Simulation/MST/PSI-117_Analyzed Data_MST_2024_Dext.csv",
+      "sha256": "2ed485fec6fad15c1409cd9b5c558ecf7bee262df29c832e9a54f3befc9c2e46",
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-117/Analyzed Data/PSI-117_Analyzed Data_MST_2024_Kavg.csv",
+      "fileName": "PSI-117_Analyzed Data_MST_2024_Kavg.csv",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Simulation/MST",
+      "sizeBytes": 518,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-117/Analyzed Data/Reduced Gravity/Simulation/MST/PSI-117_Analyzed Data_MST_2024_Kavg.csv",
+      "sha256": "a89e0639567f05f19a6d0dffa9b2f659048358dee1c603b6c65bfcebd1101796",
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-117/Analyzed Data/PSI-117_Analyzed Data_MST_2024_Radiance_Flame_Diameter.csv",
+      "fileName": "PSI-117_Analyzed Data_MST_2024_Radiance_Flame_Diameter.csv",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Simulation/MST",
+      "sizeBytes": 82277,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-117/Analyzed Data/Reduced Gravity/Simulation/MST/PSI-117_Analyzed Data_MST_2024_Radiance_Flame_Diameter.csv",
+      "sha256": "277998f5c80c08907f2c05e362e7a13a507ce4ebc967418ca883db2811a84d0d",
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-117/Analyzed Data/PSI-117_Analyzed Data_PROCI_2019_Oscillatory_Cool_Flame.csv",
+      "fileName": "PSI-117_Analyzed Data_PROCI_2019_Oscillatory_Cool_Flame.csv",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Simulation/PROC1",
+      "sizeBytes": 37138,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-117/Analyzed Data/Reduced Gravity/Simulation/PROC1/PSI-117_Analyzed Data_PROCI_2019_Oscillatory_Cool_Flame.csv",
+      "sha256": "5d329362ea8b6ff78cded953b289b95c83c45956ae36d136bfd33750a80a5a11",
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-117/Analyzed Data/PSI-117_Analyzed Data_PROCI_2019_Stable_Cool.csv",
+      "fileName": "PSI-117_Analyzed Data_PROCI_2019_Stable_Cool.csv",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Simulation/PROC1",
+      "sizeBytes": 15477,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-117/Analyzed Data/Reduced Gravity/Simulation/PROC1/PSI-117_Analyzed Data_PROCI_2019_Stable_Cool.csv",
+      "sha256": "c0713c4ad79d1d20832d5ab9582d1bef6d184cff1a86bc3565d059f44998ed6f",
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-117/Analyzed Data/PSI-117_Analyzed Data_PROCI_2023_Alkane_Extinction_Diameter_1atm.csv",
+      "fileName": "PSI-117_Analyzed Data_PROCI_2023_Alkane_Extinction_Diameter_1atm.csv",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Simulation/PROC1",
+      "sizeBytes": 745,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-117/Analyzed Data/Reduced Gravity/Simulation/PROC1/PSI-117_Analyzed Data_PROCI_2023_Alkane_Extinction_Diameter_1atm.csv",
+      "sha256": "2b3c8edcfbba8916da95d1e13200310b5a30fa2e62dc8d77145a6ac3c206deb3",
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-117/Analyzed Data/PSI-117_Analyzed Data_PROCI_2023_C12_Extinction_Diameter_vs_pressure.csv",
+      "fileName": "PSI-117_Analyzed Data_PROCI_2023_C12_Extinction_Diameter_vs_pressure.csv",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Simulation/PROC1",
+      "sizeBytes": 449,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-117/Analyzed Data/Reduced Gravity/Simulation/PROC1/PSI-117_Analyzed Data_PROCI_2023_C12_Extinction_Diameter_vs_pressure.csv",
+      "sha256": "4ab6f8c19f40a3349096eab8bdceb0a62611020af15e63f816922b149cfa7001",
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-117/Analyzed Data/PSI-117_Analyzed Data_PROCI_C12_2019_Three_Stage.csv",
+      "fileName": "PSI-117_Analyzed Data_PROCI_C12_2019_Three_Stage.csv",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Simulation/PROC1",
+      "sizeBytes": 89130,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-117/Analyzed Data/Reduced Gravity/Simulation/PROC1/PSI-117_Analyzed Data_PROCI_C12_2019_Three_Stage.csv",
+      "sha256": "0e7c8c7e9ea35bd139ba52c9f2118724b8cc9f251d82b9222adf03cb67317809",
+      "extension": "csv"
+    },
+    {
+      "key": "psi-data/PSI-117/Analyzed Data/PSI-117_Analyzed Data_ReadMe_List_of_Data.xlsx",
+      "fileName": "PSI-117_Analyzed Data_ReadMe_List_of_Data.xlsx",
+      "folder": "Analyzed Data",
+      "subfolder": "Reduced Gravity/Simulation",
+      "sizeBytes": 11059,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-117/Analyzed Data/Reduced Gravity/Simulation/PSI-117_Analyzed Data_ReadMe_List_of_Data.xlsx",
+      "sha256": "a84c138d22545ba9f59c4aa336710741dd48cf3c27823124ed04ac8f91a5f4a0",
+      "extension": "xlsx"
+    },
+    {
+      "key": "psi-data/PSI-117/Presentations/PSI-117_Presentations_Extinction_Characteristics_TFarouk.pdf",
+      "fileName": "PSI-117_Presentations_Extinction_Characteristics_TFarouk.pdf",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 11802360,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-117/Presentations/PSI-117_Presentations_Extinction_Characteristics_TFarouk.pdf",
+      "sha256": "2fe2fc85aa8ee3ac99a07495d31c49704f32d42bb83ae2ba2481d47c14407c43",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-117/Presentations/PSI-117_Presentations_Oscillatory_Cool Flame_TFarouk.pdf",
+      "fileName": "PSI-117_Presentations_Oscillatory_Cool Flame_TFarouk.pdf",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 8994674,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-117/Presentations/PSI-117_Presentations_Oscillatory_Cool Flame_TFarouk.pdf",
+      "sha256": "8e4625bb2b2a8b17bd19854765815a3dd877e5192a9b94bd001aea2e8cccb4b2",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-117/Presentations/PSI-117_Presentations_PSI_Users_Group_Cool_Flames_in_Space_03302026.pdf",
+      "fileName": "PSI-117_Presentations_PSI_Users_Group_Cool_Flames_in_Space_03302026.pdf",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 10786102,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-117/Presentations/PSI-117_Presentations_PSI_Users_Group_Cool_Flames_in_Space_03302026.pdf",
+      "sha256": "9b69c81ba20b7a9af49ca899fb7520ae8e2034f9ceadf94fc6ef22910fc417aa",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-117/Presentations/PSI-117_Presentations_Three_Stage_Cool_Flame_TFarouk.pdf",
+      "fileName": "PSI-117_Presentations_Three_Stage_Cool_Flame_TFarouk.pdf",
+      "folder": "Presentations",
+      "subfolder": null,
+      "sizeBytes": 30873451,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-117/Presentations/PSI-117_Presentations_Three_Stage_Cool_Flame_TFarouk.pdf",
+      "sha256": "99b341840ed423878c622478b3b7817729d0ccf4d772f407f860a91d66972917",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-117/Reports/PSI-117_Reports_Dissertation_Combustion Behavior Of Sub-Millimeter Sized Oxygenated And N-Alka.pdf",
+      "fileName": "PSI-117_Reports_Dissertation_Combustion Behavior Of Sub-Millimeter Sized Oxygenated And N-Alka.pdf",
+      "folder": "Reports",
+      "subfolder": null,
+      "sizeBytes": 8072629,
+      "version": 1,
+      "origin": [
+        "tree",
+        "added"
+      ],
+      "selected": true,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-117/Reports/PSI-117_Reports_Dissertation_Combustion Behavior Of Sub-Millimeter Sized Oxygenated And N-Alka.pdf",
+      "sha256": "9ca74dd4eb2e76b1f39c2754363c55eed827444e335ef9956922a6a8f2b4199d",
+      "extension": "pdf"
+    },
+    {
+      "key": "psi-data/PSI-117/metadata/PSI-117_metadata_NEWID-13_Effect of External T.zip",
+      "fileName": "PSI-117_metadata_NEWID-13_Effect of External T.zip",
+      "folder": "metadata",
+      "subfolder": null,
+      "sizeBytes": 10382,
+      "version": 2,
+      "origin": [
+        "tree"
+      ],
+      "selected": false,
+      "reason": "extension:zip",
+      "localPath": null,
+      "sha256": null,
+      "extension": "zip"
+    }
+  ]
+}
