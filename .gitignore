@@ -24,12 +24,9 @@ out/
 
 # archives and large downloads (role B extends this for data/raw documents)
 *.zip
-data/raw/**/*.pdf
-data/raw/**/*.docx
 data/raw/**/*.doc
 data/raw/**/*.pptx
 data/raw/**/*.ppt
-data/raw/**/*.xlsx
 
 # BMAD: personal install answers stay local; team config is committed
 _bmad/config.user.toml

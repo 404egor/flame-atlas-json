@@ -54,6 +54,7 @@
 | 14.11 | На екрані Scenario можна задати власні значення, а не лише готові сценарії; усе зберігається в адресі сторінки | користувач має перевірити своє середовище й поділитись посиланням | Продукт |
 | 14.11 | Завантаження PSI: два етапи `pipeline.ingest` → `pipeline.extract`; формати pdf, docx, csv, xlsx; `Raw Data` виключено; перелік файлів із `POST /geode-py/ws/files/v2` (повний навіть там, де `added[]` порожній) | одна команда `python3 -m pipeline` дає метадані, документи й готові JSON | |
 | 14.11 | `python3 -m pipeline` пише чотири файли контракту в `data/processed` і перевіряє їх `contracts/validate.py`; `tests.json` — JSON-маппінг на таблицю + рушій (`pipeline/mappings`, `pipeline/normalize`); напрями безпеки й обладнання карток — з `pipeline/config/contract.json` (гіпотеза з `docs/03-data-sources.md`) | контракт — єдина межа з сайтом; маппінги читає й править людина | |
+| 14.11 | Вихідні документи PSI (pdf, docx, xlsx у `data/raw`, ~790 МБ, кожен < 50 МБ) і `data/extracted` комітяться в репозиторій | щоб усі мали ті самі джерела без повторного завантаження | |
 | 14.11 | Для цієї фічі Spec Kit використано як структуру документів (`.specify/memory/constitution.md`, `specs/001-psi-ingest/`), без CLI `specify` | так попросили; `06-working-agreement.md` радить брати ідеї, а не інструмент | |
 | | | | |
 
