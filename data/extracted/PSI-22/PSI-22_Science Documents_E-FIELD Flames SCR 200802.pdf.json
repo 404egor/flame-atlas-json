@@ -1,0 +1,1083 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-22",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-22_Science Documents_E-FIELD Flames SCR 200802.pdf",
+    "folder": "Science Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-22/Science Documents/PSI-22_Science Documents_E-FIELD Flames SCR 200802.pdf",
+    "version": 1,
+    "sizeBytes": 2965401,
+    "sha256": "ffdb51438f8e427adc7c4d9076554852e1689c5160332c0a308bf74bf98200e7",
+    "localPath": "data/raw/PSI-22/Science Documents/PSI-22_Science Documents_E-FIELD Flames SCR 200802.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:17:44+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 6 table 1: 2 line(s) above the header skipped",
+    "Page 10 table 3: 1 line(s) above the header skipped",
+    "Page 31 table 1: 6 empty header(s) named column_<n> (columns 1, 6, 8-10, 12)"
+  ],
+  "stats": {
+    "textBlocks": 59,
+    "characters": 20990,
+    "tables": 8,
+    "tableRows": 25,
+    "pages": 59
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "E-FIELD Flames\nElectric Field Effects on Laminar Diffusion\nFlames\nDerek Dunn-Rankin\nMechanical and Aerospace Engineering\nUniversity of California, Irvine\nCo-Investigators:\nFelix Weinberg; Imperial College, London\nZeng-Guang Yuan, NCSER\nProject Scientist: Dennis Stocker, NASA GRC\nNASA Glenn - SCR; February 20-21, 2008",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Outline\n• Background\n– Ion Driven Wind in Flames\n– Examples of laboratory experiments\n• Scientific Opportunity\n• Experimental Objectives\n• Approach\n• Justification for Microgravity\n• Scientific Data End Products\n• Operational Sequence\n• Test Matrix\n• Success Criteria\n• Post-Flight Data Analysis\n• Summary",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Ion Transport\n  = E\n \nIon mobility\n\n\nj\n2\n=\n\n\nj\nq\n=\n=\n( K\n−\n0\nE\n\nq\n+ V\n\n) − D  q\n(a) Poisson equation governs\nelectric field (Gauss’ Law); q is the\nelectric potential\ncharge density [e.g.,\nCoulombs/m3]\n(b) Charge conservation\nelectric field\n(c) Charge drifts through the\nambient gas by electric field\nforces, convection, and diffusion\nIon diffusivity\nCurrent surface density\n \nFor our conditions, ion diffusion\nj = KqE\nand convection are negligible\nrelative to electrokinetic drift",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Electric Body Force on Neutral Fluid\nFj\n\n\n=\n=\nK\nE\n\n\nq\n( q\n\n\nE\n\n)\nF\n\n\n=\n\nj / K\n\nElectric body force binds ion transport\nand neutral fluid transport; depends on\nmobility and current density\n  \nNeutral fluid\n  (VV ) = −P +   + F momentum\nequation\nTotal body force = electric and\ngravitational",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Electric Fields act on\nCombustion Generated Ions\n• Fundamental Interaction\nNo Field\n–Radical ions are generated at the flame\n–Majority of ions are short lived (flame zone) + + + + + + + ++ + + + +\n–H O+ is predominant outside the flame zone reaction zone\n3\n–Momentum transfer via collision between\nions and neutrals\nApplied E-Field\n–Electric body force applied to the fluid\n• Electric Field Influences Anode\n–Ion driven wind\n–Chemical effect (removal of ions from the\nflame zone)\n• Observed Effects\n+ + + + + + + + + + + + + + + V\n–Reshaping of the reaction zone\n–Enhanced flammability limits + + + + + +\n+\n+ + + +\n–Controlled heat transfer +\n+\n+ + + + +\n–Reduced and enhanced soot formation\n–Forced extinguishment\nCathode\n–NO and SO pollutant reduction\nX 2",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Hydrocarbon Flame Ion Chemistry\nStarik and Titova\nPederson and Brown\nIncrease in O atom\nincreases ion\nproduction\nH O+ is the\n3\ndominant ion that\nsurvives the flame\nzone\nElectrons and\nneutrals they attach\nto are the negative\ncharge carriers",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Ion Wind Force and Velocity Estimate\nAssume zero gravity and constant pressure so that only the\nelectric body force drives the flow\nd (\nd\nV\nx\nx\n2\n)\n=\nK\nj\n\nFlame: order of 1 m/s\nover 1 cm distance\n• K is mobility of the charge carrier ~ 1\ncm2/s/V\n• g is gravitational acceleration;  is the\nneutral gas density\n• x is the distance over which the field acts\n• j is current density – flame: 1 mA/cm2;\ncorona: 100 mA/cm2\nFlame: order of 1-2",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Laboratory 1-g Experiments\n• Basic configuration\n• Typical voltage-current curve or\ncharacteristic (VI curve or VCC)\n• Ion flux from flames\n• Modeling ion driven wind",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Varying Force on a Capillary Flame\nCombustible fuel\nElectrically conductive capillary\nIons travel from\n+ +\n+ +\n+ +\nthe flame + +\nIon production in\n+ +\ntowards ground + e- e- the reaction zone\n+ +\n+ +\n+ +\n+ +\nElectrons conduct + +\n+ ++ +\nthrough the\nV\nflame to the\nF\nF\ncapillary b e\n \n T \nF =  g1− o  + qE\nnet o\nT\n \nNeutralization by\nelectrons at the cathode",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "text",
+      "id": "b10",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Effect on\nApplied Potential (Volts)\n0 1000 2000 2500 3000 4000 5000 Small\nDiffusion\nFlame\nCH Chemiluminescence\nMethane fuel flowrate: 9 cc/min\nCapillary diameter: 1.7 mm\nElectrode Spacing: 7 cm\nConditions\n1. Naturally Buoyant – 0 Volts\n2. Microbuoyant – 2880 Volts\n3. Negatively buoyant – 4300\nVolts",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Key Aspects of the VCC\n• Subsaturation regime\n– Steeper increase in\ncurrent with voltage in\nhorizontal orientation\n• Saturation\nFlame shape changes,\n– Saturation current\nincreasing ionization\nincreases linearly with\nflowrate\n– Higher saturation current Ion wind\ncreates\nin horizontal configuration Saturation current\ninstability\n• Increased ionization\n– Reaction rate increases\nQuadratic\ncreating additional ions\nincrease in\n– Flame more unstable in\nsubsaturation\nhorizontal configuration\nregion",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "text",
+      "id": "b12",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Ion Current Profiles\n• Point-to-plane\n1\ndistribution, Warburg\nMethane 14.1 mg/min\nLaw = cos5Q\n• Integrated current\nprovides ion density 0.8\n]\nboundary conditon o\nj/\nj[\nt\n• Current distribution n\ne\nr\nfor model validation r u\nC 0.6\nn\no\nI\nd\ne\nz\ni\nla\nm\n0.4\nr\no\nN\nH = 35 mm 2850V\n0.2\nH =60 mm\nWarburg 35 mm\nWarburg 60 mm\n0\n-50 -30 -10 10 30 50\nRadius [mm]",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Chemiluminescence & Schlieren",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "text",
+      "id": "b14",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Numerical Simulation\nV e\no\nc e\no\n\n \n 2 = =\nu  T \n( ) ( )\n +u  u = −P + g1− o  +  mu + ceE\no\nt  T \n\n t\n+  \n(\nu\n)\n= 0\n\n\n( )\n c T\n( ) p ( )\n +u  c T = u P +  kT\np\nt\n\n\nc\nt\n+\n(\nu  \n)\nc =  \n(\nD  c + c e K\n+\n V\n)\nGauss’s Law\nMomentum\nMass\nEnergy\nIon concentration",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "text",
+      "id": "b15",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Computational Model\nAAnnooddee bboouunnddaarryy\nNN\nOO\nII\nTT\nCC\nRR ((00..55 mmmm))\nEE ccaapp\nRR\nyy\nII\nDD rr\naa\nLL dd\nnn II\nAA uu GGrraavviittyy nn\nRR ((33..00 mmmm)) ff\nII oo ii\nXX bb ffllaammee ddiirreeccttiioonn nn\n• FEMLAB simulation AA yy\nii\ntt ee\nrr\ntt cc\n• Finite element method ee oo\nmm\nnn\nmm dd\n• General equation solver\nii\nyy tt\nii\n• Staged solution SS 6633..55 mmmm oo\nnn\nhh\n1. Electrokinetic (V, c) ccaapp\n2. Electrodynamic (V, c)\n3. Hot flow (V, u, v, P, T, c)\n• 2-D axisymmetric\nCCaatthhooddee bboouunnddaarryy\n• Assumptions\n– Balance condition RRAADDIIAALL DDIIRREECCTTIIOONN\n– Isotropic Fickian diffusion\n– Single ion species (positive ions)\n– Temperature is constant within the flame (hot flow)\n– Uniform ion concentration at the flame\n– Ion properties are of H O+\n3",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "text",
+      "id": "b16",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experimental Results",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "text",
+      "id": "b17",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Calculation Results\nVelocity Vectors and Temperature Contours\n)\nm\n(\nn\no\ni\nt\ni\ns\no\nP\n475 K\n410 K Internal\ntemperature\ncontours at 100 K\nincrements to\n350 K\n1300 K at ion\n315 K source boundary\nMaximum Velocity = 0.4 m/s",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "text",
+      "id": "b18",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Physical Description\nRe-circulation driven by\nneutralized buoyant gas\nredirection\nIons travel from the\n+ + • Source of unstable T and O2\n+ +\nflame towards ground + +\n• Observed in shadowgraphs\n+ +\n+ +\nElectrons conduct + e- e- +\n+ +\nthrough the flame to the\n+ +\ncapillary + +\n+ +\n+ +\n+ ++ +\nHigh ion concentration at\nthe center decreasing\nV +\nradially outward + +\n+ +\n+ +\n+ +\n+ +\n+ + +\n+ + + +\nInduced electric field + +\n++ + + ++\n(causes horiz. migration) + +\n+ +\n+ +\n+ +\n+ +\n++ + + + + + ++\n+ +\n+ +\n+ +\n+ +\n+ +\n+ +\n+ + + + + +\nNeutralization by\nelectrons at the cathode",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Scientific Opportunities in Microgravity\n• Ion current behavior for diffusion flames\nunaffected by buoyancy\n• Role of ion driven wind in secondary ion increase\n• Time scales of electrically manipulated diffusion\nflames (ion drift, ion chemistry, ion driven\nconvection, diffusion)\n• Electrical effects and the role of ions on soot\nproduction and transport in diffusion flames\n• Role of ions and their driven wind in manipulating\nlifted flames",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "text",
+      "id": "b20",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "• Flame ion current time response ~15\nTime Response\nms\n• Convective time response ~100 ms\n• Same response without flame\nindicates electronics time response\n50 ms\nInitial flame\nion current\nLeakage current or small corona",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "text",
+      "id": "b21",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Soot and Electric Fields\n➢ Soot particle charge\n▪ Soot particles may be originally charged, especially if they are formed\nthrough an ionic route\n▪ Soot particles gain a net charge through ion-attachment\n▪ Measurements indicate that in the hottest zone, soot particles may be\ncharged to equilibrium, but this is not always the case and the initial\nparticle charge seems to depend upon the material burnt\n▪ Net charge of soot particles in flames is generally positive even in the\nflame region where a large excess of electrons exist\n▪ Soot particle primary size is found to be ~20 nm in non-electric flames;\nsize can be reduced in electric fields\n➢ Electric field effects on soot in laminar diffusion flames\n▪ Ion wind can induce partial premixing (changes reaction zone)\n▪ Ion precursors can be removed or reduced in number\n▪ Soot residence time can be changed (increased or decreased)",
+      "location": {
+        "page": 21
+      }
+    },
+    {
+      "type": "text",
+      "id": "b22",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Ethylene Flame in Electric Field\n• Soot can be a source of ions\n• Soot is charged and its\ntransport is affected by the\nelectric field\n• Soot production and growth\ncan be influenced by ion\nEthylene 50 mg/min\nprecursors",
+      "location": {
+        "page": 22
+      }
+    },
+    {
+      "type": "text",
+      "id": "b23",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "VCC for a Co-Flow Burner\nPositive mesh\nNegative mesh",
+      "location": {
+        "page": 23
+      }
+    },
+    {
+      "type": "text",
+      "id": "b24",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Liftoff and Blowout\n• Co-flow burner with methane fuel in 1-g\n0 Volts\n~5000 Volts",
+      "location": {
+        "page": 24
+      }
+    },
+    {
+      "type": "text",
+      "id": "b25",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Microgravity Justification\n• High Quality Microgravity -- confounding effects of\nbuoyancy\n– Ion driven wind velocity approximately equal to buoyant wind\nvelocity so convection and mixing effects are difficult to separate\n– Complex flow patterns created in 1-g\n– Stability of weak flames (liftoff and blowout) – as in CLD Flame\n• Extended Duration -- time scales to reproducible state\n– Electrical response (RC time constant)\n– Ion transport time\n– Ion wind convection\n– Soot formation and transport\n– Flow field establishment\n– Thermal inertia effects",
+      "location": {
+        "page": 25
+      }
+    },
+    {
+      "type": "text",
+      "id": "b26",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Effects of Orientation",
+      "location": {
+        "page": 26
+      }
+    },
+    {
+      "type": "text",
+      "id": "b27",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Horizontal Configuration\ncapillary\nground\nplane",
+      "location": {
+        "page": 27
+      }
+    },
+    {
+      "type": "text",
+      "id": "b28",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "VCC -- Effects of Orientation\n2\nMethane 14.1 mg/min\n1.8\nVertical d=35mm\n1.6 Horizontal d=35mm\n]\ns 1.4\np\nm\na\no 1.2\nr\nc\ni\nm\n14.1 mg/min fuel\n[ 1\nt\nn\ne\nr\nr 0.8\nu\nC\nn\no 0.6\nI\n0.4 35 mm electrode spacing\n0.2\n0\n0 1 2 3 4 5 6\nApplied Voltage [kV]",
+      "location": {
+        "page": 28
+      }
+    },
+    {
+      "type": "text",
+      "id": "b29",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Net Body Force\nBuoyancy dominates\nIon driven wind\ndominates\nNet vertical body\nforce scaled with\ngravity; less than\nzero is down\nforce.",
+      "location": {
+        "page": 29
+      }
+    },
+    {
+      "type": "text",
+      "id": "b30",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Burner Thermal Inertia in 1-g\n2 0\ne\nc\nn\ne\nc\ns 1 -1\ne\nn\ni\nm\nu (a) (b)\nl\ni 0 -2\nm\n0 5 0 0.1 0.2\ne\nh Time (sec) Time (sec)\nC 2850 V\n2\nH\nC\nCH* response\n1\n0 V\nafter step voltage\n~ 3 sec\nchange in 1-g\n(c)\n0\n0 1 2 3 4 5\nTime (sec)",
+      "location": {
+        "page": 30
+      }
+    },
+    {
+      "type": "text",
+      "id": "b31",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Relevant Time Scales\nParameters – Time scales –\nV ~ 1 m/s Ion drift time – 1-10 ms\nion_wind\nL ~ 1 cm Acoustic time ~ 0.1 ms\nflame\nD ~ 0.1 cm2/s Electronic RC time – 50 ms\nV ~ 100 m/s Convective transport time (ion wind or\nion\nbuoyancy) – L/V ~ 0.1-1 sec\nV ~ 1 m/s\nbuoyancy\nDiffusion transport time – L 2/D ~ 10 sec\nL ~ 10 cm\nflame\nsystem\nFlowfield time – L /V ~ 10 sec\nC ~ 300 m/s\nsystem convection\nBurner thermal response time ~ 10 sec\ntimescales (seconds)\n10-6 10-5 10-4 10-3 10-2 10-1 100 101 102\nion drift diffusion\nacoustic\nRC\nburner\ntime\nconvection flowfield\n31\nmicroseconds milliseconds seconds",
+      "location": {
+        "page": 31
+      }
+    },
+    {
+      "type": "table",
+      "id": "b32",
+      "name": "Page 31 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 31,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "aco\ntim",
+        "i\nustic\ne",
+        "on drift",
+        "RC",
+        "column_6",
+        "diffus",
+        "column_8",
+        "column_9",
+        "column_10",
+        "ion",
+        "column_12"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "aco\ntim": "",
+            "i\nustic\ne": "",
+            "on drift": "",
+            "RC": "",
+            "column_6": "",
+            "diffus": "",
+            "column_8": "diffus",
+            "column_9": "",
+            "column_10": "",
+            "ion": "ion",
+            "column_12": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "aco\ntim": "",
+            "i\nustic\ne": "",
+            "on drift": "",
+            "RC": "",
+            "column_6": "",
+            "diffus": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "ion": "",
+            "column_12": "burner"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "aco\ntim": "",
+            "i\nustic\ne": "",
+            "on drift": "",
+            "RC": "",
+            "column_6": "convecti",
+            "diffus": "on",
+            "column_8": "",
+            "column_9": "f",
+            "column_10": "lowf",
+            "ion": "ield",
+            "column_12": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b33",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Extended Microgravity –\nExperience of other investigators\n• CLD Flame discussion showed the necessity for high quality microgravity for\nnear limit lifted co-flow flames (i.e., buoyant mixing has substantial effect)\n• Co-flow flame experiments showed problems with g-jitter on parabolic flights\n• Z.-G. Yuan et. al showed difficulties in achieving steady flames in a 2.2 sec.\ndrop tower.\nNote: if not carried out\nsequentially, a single EFIELD\nFlame measurement requires\nboth time to reach a stable\ninitial condition and time to\nreach the final condition\nfollowing the electric field\nimpulse.\nGraph reproduced from: 1100 AIAA-\n2003-0812, Z. Yuan and U. Hegde",
+      "location": {
+        "page": 32
+      }
+    },
+    {
+      "type": "text",
+      "id": "b34",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experimental Objectives\nUnderstand flame ion production and use ions to control\ndiffusion flames by modifying local convection (via the ion\nwind) and local species transport (via direct ion drift)\nA) Determine the relationship between electric field voltage and\nchemi-ion current as functions of total fuel flow rate and the\namount of inert in the fuel.\nB) Obtain the time response of flame chemiluminescence, luminosity,\nand ion current to large step changes in voltage, as functions of\ntotal fuel flow rate and amount of inert added to the fuel stream.\nC) Evaluate and control sooting behavior (i.e., soot volume fraction\nand location of luminous soot) in relation to the electric field\nvoltage and chemi-ion current as functions of total fuel flow rate\nand amount of inert added to the fuel stream.\nD) Use the variation of the chemi-ion current as a function of applied\nvoltage to characterize and control the combustion behavior of\nnear-limit lifted flames in a coflow burner.",
+      "location": {
+        "page": 33
+      }
+    },
+    {
+      "type": "text",
+      "id": "b35",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experimental Approach",
+      "location": {
+        "page": 34
+      }
+    },
+    {
+      "type": "text",
+      "id": "b36",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Ion Current Measurement",
+      "location": {
+        "page": 35
+      }
+    },
+    {
+      "type": "text",
+      "id": "b37",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experiments\n• Controlled Variables\n– Voltage (small step, large step,)\n– Data sampling rate\n– Fuel/air flow rates\n– Ignition\n• Measurements\n– Current\n– Flame shape (reaction zone) – chemiluminescence\n– Luminosity – spatially integrated\n– Chemiluminescence – spatially integrated\n– Soot volume fraction\n– Burner temperature\n– Soot temperature",
+      "location": {
+        "page": 36
+      }
+    },
+    {
+      "type": "text",
+      "id": "b38",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Science Data End Products\nFour Primary Objectives:\nObjective A.) Steady state chemi-ionizaton in flames\nObjective B.) Time response of flames to electric forcing\nObjective C.) The influence of chemi-ions in soot production\nObjective D.) Control of near-limit flames using electric fields",
+      "location": {
+        "page": 37
+      }
+    },
+    {
+      "type": "text",
+      "id": "b39",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Steady state chemi-ionization in flames\nObjective A -- Characterize the dependence of electric field\nstrength on flame behavior at steady state as a function of fuel\nand dilution and burner type.\ncolor\nimage\n1.5\n)\ns\np\nm 1\nA\nfiltered\n(\n1 2 3\nt n n e n e n e\ne 0.5 o o o\nr r Z Z imZ age\nu\nC\n0\nn 0 500 1000 1500 2000 2500 3000 3500 4000 4500\no\nschlieren i 1\ns\nimage\ns i\nm E Z o n e\n1\nZ o n e\n2\nZ o n e\n3\nm 0.9\nn\n0\n(desired) 3\n4\nH\n0.8\nC\ne\nv\ni\nt a 0.7\nl\ne\nR 0 500 1000 1500 2000 2500 3000 3500 4000 4500\nApplied Potential (Volts)\nVCC\nspatially integrated luminosity",
+      "location": {
+        "page": 38
+      }
+    },
+    {
+      "type": "text",
+      "id": "b40",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Measured Data End Products\nObjective A\nA.1) Plots of voltage versus ion current for gas-jet\nand co-flow flames, using CH and C H\n4 2 4\nA.2) Flame images (color and OH*) at transition\npoints in the VI curves\nA.7) Flame luminosity (CH* and broadband visible)\nas a function of voltage and current for both\nburners\nA.9) Thermal imaging of the plume as a function of\nelectric field (desired)",
+      "location": {
+        "page": 39
+      }
+    },
+    {
+      "type": "text",
+      "id": "b41",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Extracted Data End Products\nObjective A\nA.4) Voltage and current at the onset of\nenhanced ion production (secondary\nsaturation) as a function of fuel and diluent for\nboth burners\nA.5) Voltage and current at flame blowoff as a\nfunction of fuel and diluent for both burners",
+      "location": {
+        "page": 40
+      }
+    },
+    {
+      "type": "text",
+      "id": "b42",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Derived Data End Products\nObjective A\nA.3) Model saturation current as a function of inert\nconcentration for both fuels and burners\nA.6) Saturation ion current per carbon influx as a\nfunction of fuels and diluent for both burners\nA.8) Saturation current as a function of flame area",
+      "location": {
+        "page": 41
+      }
+    },
+    {
+      "type": "text",
+      "id": "b43",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Time response of flames\nObjective B -- Obtain the time response of flame\nchemiluminescence, luminosity, and ion current to large\nstep changes in voltage, as functions of total fuel flow rate\nand amount of inert added to the fuel stream.\n2\n1\n0\n2\n1\n0\n0\n0\nT i m e\n1\n( s e c )\n2T\n5\ni m e (\n0\n- 1\n- 2\ns e\n0\nc\n3)\nT i m\n0e .\n4\n1(\ns e c )\n0 .\n5\n2\ne\nc\nn\ne\nc\ns\ne\nn\ni\nm\nu\nl\ni\nm\ne\nh\nC\nH\nC\n( a ) (\n(\nb\nc\n)\n)\nTime resolved\nTime resolved ion current chemiluminescence",
+      "location": {
+        "page": 42
+      }
+    },
+    {
+      "type": "text",
+      "id": "b44",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Measured Data End Products\nObjective B\nB.1)\nTime resolved ion current after step\nchanges in voltage\nB.2)\nTime resolved luminosity after step\nchanges in voltage\nMeasurement requires relatively high data\nrate (100 Hz, minimum; 1 kHz desired)\nfrom current measurement and PMTs",
+      "location": {
+        "page": 43
+      }
+    },
+    {
+      "type": "text",
+      "id": "b45",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Derived Data End Products\nObjective B\nB.3) Electrical time constant of the flame as a\nfunction of fuel, flow rate, diluent, and burner type\nB.4) Luminosity time constant (broadband and CH*)\nof the flame as a function of inert concentration in\nfuel, flow rate, and burner type\nB.5) Equivalent\n\nk\nT\nRC circuit for gas-\njet and coflowing\nTime constant extracted\nflames for from time response data\npossible use in\nT\ncontrol algorithms",
+      "location": {
+        "page": 44
+      }
+    },
+    {
+      "type": "text",
+      "id": "b46",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Effects of Electric Fields on Soot\nObjective C -- Evaluate\nand control sooting\nbehavior in relation to the\nelectric field voltage and\nEthylene 50 mg/min\nchemi-ion current as\nfunctions of fuel flow rate\nand amount of inert\nadded to the fuel.",
+      "location": {
+        "page": 45
+      }
+    },
+    {
+      "type": "text",
+      "id": "b47",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Measured Data End Products\nObjective C\nC.1) Average soot volume fraction as a function\nof ion wind for various inert concentration\nC.2) Images showing location and temperature\nof soot for different ion wind conditions\nSoot volume fraction measurement and color\nimaging measurements already described in\nother proposed ACME experiments (issues of\nyoung soot versus old soot).",
+      "location": {
+        "page": 46
+      }
+    },
+    {
+      "type": "text",
+      "id": "b48",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Extracted Data End Products\nObjective C\nC.5) Voltage at which soot is suppressed\nfor different inert levels\nProvides electric field strength to\nevaluating mobility of ions and soot",
+      "location": {
+        "page": 47
+      }
+    },
+    {
+      "type": "text",
+      "id": "b49",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Derived Data End Products\nObjective A\nC.3) Soot mean size based on soot volume\nfraction, temperature, and total ion current\nC.4) Spatially resolved soot volume fraction\nat transition conditions\nUsing classical Dushman equation can relate\ntemperature, and soot surface area to ion current;\nidentifies the role of soot size versus soot number in\nvolume fraction.\n2 −e/ kT\nj = BT e",
+      "location": {
+        "page": 48
+      }
+    },
+    {
+      "type": "text",
+      "id": "b50",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Open Loop Control of Coflow Flame\nObjective D -- Use the variation of the chemi-ion current as a\nfunction of applied voltage to characterize the combustion\nbehavior of near-limit lifted flames in a coflow burner and use the\nion-driven wind to stabilize or reattach these flames.",
+      "location": {
+        "page": 49
+      }
+    },
+    {
+      "type": "text",
+      "id": "b51",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Measured Data End Products\nObjective D\nD.1) Time resolved ion current and luminosity of near\nlimit flames\nD.2) Images from the flame at near limit conditions\nwith an active field\nMeasurement D.1 uses the same sensors as those for the\nstep-response objective (B); measurement D.2 uses\nimaging sensors (e.g., color camera)",
+      "location": {
+        "page": 50
+      }
+    },
+    {
+      "type": "text",
+      "id": "b52",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Extracted Data End Products\nObjective D\nD.3) Mean and RMS ion current and luminosity of\nnear limit flames with varying electric field\nD.4) Liftoff height as a function of voltage and\ninert concentration in the fuel and flow rate\n(coflowing flame)\nThe data D.3 use the same sensors as in D.1\nand will indicate whether the electrical\nproperties of the flame can act as a stability\nsensor; the data of D.4 show the steady state\ninfluence of the electric field on liftoff height.",
+      "location": {
+        "page": 51
+      }
+    },
+    {
+      "type": "text",
+      "id": "b53",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Derived Data End Products\nObjective D\nD.5) Ion driven wind velocity near the lifted\nflame base\nUsing the ion current it will be possible to assess the\nrelative importance of the steady ion wind versus a\nmixing process near the flame edge as the source of\nchanges to the liftoff height.",
+      "location": {
+        "page": 52
+      }
+    },
+    {
+      "type": "text",
+      "id": "b54",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Req’d Measurements and Operational Constraints\nObjectives\nSensor Measurement\nServed\nShunt resistor Ion current A, B, C, D\nColor camera Flame shape and size A, B, C, D Operational Constraints\nSpatially integrated\nPMT (unfiltered) A, B, C, D Cannot be operated\nluminosity\nsimultaneously with laser-\nFiltered CH*\nilluminated sensors\nPMT (filtered) integrated light from A, B, C, D\n(measurement interference)\nflame\nFilter swaps limited by\nLLL-UV Camera + Filtered CH* and\nA, B, C, D\nfilters OH* video of flame astronaut availability\nSpatially resolved\nC only\nsoot volume fraction Cannot be measured\nHiBMS imaging +\nlaser illumination simultaneously; both\nDensity Imaging\nA, B, C, D\n(desired) require same instrument\nThermocouple Burner temperature D only\nFound an issue with\nTFP array Temperature field\nA, B, C, D\n(or substitute sensor) above flame fibers in field space",
+      "location": {
+        "page": 53
+      }
+    },
+    {
+      "type": "table",
+      "id": "b55",
+      "name": "Page 53 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 53,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Sensor",
+        "Measurement",
+        "Objectives\nServed"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Sensor": "Shunt resistor",
+            "Measurement": "Ion current",
+            "Objectives\nServed": "A, B, C, D"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Sensor": "Color camera",
+            "Measurement": "Flame shape and size",
+            "Objectives\nServed": "A, B, C, D"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Sensor": "PMT (unfiltered)",
+            "Measurement": "Spatially integrated\nluminosity",
+            "Objectives\nServed": "A, B, C, D"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Sensor": "PMT (filtered)",
+            "Measurement": "Filtered CH*\nintegrated light from\nflame",
+            "Objectives\nServed": "A, B, C, D"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Sensor": "LLL-UV Camera +\nfilters",
+            "Measurement": "Filtered CH* and\nOH* video of flame",
+            "Objectives\nServed": "A, B, C, D"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Sensor": "HiBMS imaging +\nlaser illumination",
+            "Measurement": "Spatially resolved\nsoot volume fraction",
+            "Objectives\nServed": "C only"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Sensor": "",
+            "Measurement": "Density Imaging\n(desired)",
+            "Objectives\nServed": "A, B, C, D"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Sensor": "Thermocouple",
+            "Measurement": "Burner temperature",
+            "Objectives\nServed": "D only"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Sensor": "TFP array\n(or substitute sensor)",
+            "Measurement": "Temperature field\nabove flame",
+            "Objectives\nServed": "A, B, C, D"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b56",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Additional Requirements\n• Gas phase temperature\n• Soot accumulation",
+      "location": {
+        "page": 54
+      }
+    },
+    {
+      "type": "text",
+      "id": "b57",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Operation Sequence\nVoltage Sweep Time\n-Prepare Chamber 0 sec.\n-Initiate experiment 15 sec.\n-Measurements 160 sec.\n-Check for system errors\n-Proceed to next test condition\nTotal*: 175 sec.\nVoltage Step\n-Prepare Chamber 0 sec.\n-Initiate experiment 15 sec.\n-Measurements 48 sec.\n-Check for system errors\n-Proceed to next test condition\nTotal*: 63 sec.\nSoot and liftoff control\n-Prepare Chamber 0 sec.\n-Initiate experiment 15 sec.\n-Measurements 38 sec.\n-Check for system errors\n-Proceed to next test condition\nTotal*: 53 sec.\n* Time and total reflect correspond to fuel usage, actual runtime will be longer",
+      "location": {
+        "page": 55
+      }
+    },
+    {
+      "type": "text",
+      "id": "b58",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Test Matrix\nFuel Burner Test type Tests (req/des)\nCH4 50/108\nJet Sweep 12/28\nStep 12/20\nControl 2/2\nTotal 26/68\nCo-flow Sweep 12/20\nStep 8/20\nControl 4/0\nTotal 24/40\nC2H4 46/86\nJet Sweep 12/28\nStep 12/12\nControl 2/2\nTotal 26/42\nCo-flow Sweep 8/24\nStep 8/20\nControl 4/0\nTotal (CH4+C2H4): 96/194\nTotal 20/44",
+      "location": {
+        "page": 56
+      }
+    },
+    {
+      "type": "table",
+      "id": "b59",
+      "name": "Page 56 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 56,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Test Matrix\nFuel Burner Test type Tests (req/des)\nCH4 50/108\nJet Sweep 12/28\nStep 12/20\nControl 2/2\nTotal 26/68\nCo-flow Sweep 12/20\nStep 8/20\nControl 4/0\nTotal 24/40\nC2H4 46/86\nJet Sweep 12/28\nStep 12/12\nControl 2/2\nTotal 26/42\nCo-flow Sweep 8/24\nStep 8/20\nControl 4/0\nTotal (CH4+C2H4): 96/194\nTotal 20/44"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Test Matrix\nFuel Burner Test type Tests (req/des)\nCH4 50/108\nJet Sweep 12/28\nStep 12/20\nControl 2/2\nTotal 26/68\nCo-flow Sweep 12/20\nStep 8/20\nControl 4/0\nTotal 24/40\nC2H4 46/86\nJet Sweep 12/28\nStep 12/12\nControl 2/2\nTotal 26/42\nCo-flow Sweep 8/24\nStep 8/20\nControl 4/0\nTotal (CH4+C2H4): 96/194\nTotal 20/44": "Total (CH4+C2H4): 96/194"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b60",
+      "name": "Page 56 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 56,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Jet",
+        "Sweep",
+        "12/28"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Jet": "",
+            "Sweep": "Step",
+            "12/28": "12/20"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Jet": "",
+            "Sweep": "Control",
+            "12/28": "2/2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b61",
+      "name": "Page 56 table 3",
+      "confidence": "low",
+      "location": {
+        "page": 56,
+        "table": 3
+      },
+      "headerRow": 1,
+      "columns": [
+        "Co-flow",
+        "Sweep",
+        "12/20"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Co-flow": "",
+            "Sweep": "Step",
+            "12/20": "8/20"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Co-flow": "",
+            "Sweep": "Control",
+            "12/20": "4/0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b62",
+      "name": "Page 56 table 4",
+      "confidence": "low",
+      "location": {
+        "page": 56,
+        "table": 4
+      },
+      "headerRow": 1,
+      "columns": [
+        "Jet",
+        "Sweep",
+        "12/28"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Jet": "",
+            "Sweep": "Step",
+            "12/28": "12/12"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Jet": "",
+            "Sweep": "Control",
+            "12/28": "2/2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b63",
+      "name": "Page 56 table 5",
+      "confidence": "low",
+      "location": {
+        "page": 56,
+        "table": 5
+      },
+      "headerRow": 1,
+      "columns": [
+        "Co-flow",
+        "Sweep",
+        "8/24"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Co-flow": "",
+            "Sweep": "Step",
+            "8/24": "8/20"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Co-flow": "",
+            "Sweep": "Control",
+            "8/24": "4/0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b64",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Success Criteria\nComplete Criteria (additional to Superior Criteria\nOBJECTIVE Minimum Criteria\nMinimum) (additional to Complete)\nVI curve for Obtain thermal field\nundiluted CH4 on a Obtain VI curve for both fuels with information for the gas jet\nA single burner. varying dilution for one jet diffusion or coflow flame to visualize\nCapture color and the coflow flame.\nimages ion driven wind\nObtain step-response VI\ncurves for both fuels with\nObtain step-response VI curve for\nvarying dilution for one jet\nB undiluted CH4 on a single burner.\ndiffusion and the coflow\nCapture transient color images\nflame.\nMeasure soot luminosity\nObtain spatially resolved\n(radiometer measurement) as a\nC soot volume fraction for\nfunction of applied voltage during\nrelevant conditions.\nVI sweeps and step changes\nDemonstrate control of\nCapture flame images from co-flow flame near sooting and\nburner during voltage sweep to stability limits. Evaluate the\nD\nallow measurement of liftoff height extent to which stability\nin relation to electric field strength limits can be extended\nusing an electric field",
+      "location": {
+        "page": 57
+      }
+    },
+    {
+      "type": "table",
+      "id": "b65",
+      "name": "Page 57 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 57,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "OBJECTIVE",
+        "Minimum Criteria",
+        "Complete Criteria (additional to\nMinimum)",
+        "Superior Criteria\n(additional to Complete)"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "OBJECTIVE": "A",
+            "Minimum Criteria": "VI curve for\nundiluted CH4 on a\nsingle burner.\nCapture color\nimages",
+            "Complete Criteria (additional to\nMinimum)": "Obtain VI curve for both fuels with\nvarying dilution for one jet diffusion\nand the coflow flame.",
+            "Superior Criteria\n(additional to Complete)": "Obtain thermal field\ninformation for the gas jet\nor coflow flame to visualize\nion driven wind"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "OBJECTIVE": "B",
+            "Minimum Criteria": "",
+            "Complete Criteria (additional to\nMinimum)": "Obtain step-response VI curve for\nundiluted CH4 on a single burner.\nCapture transient color images",
+            "Superior Criteria\n(additional to Complete)": "Obtain step-response VI\ncurves for both fuels with\nvarying dilution for one jet\ndiffusion and the coflow\nflame."
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "OBJECTIVE": "C",
+            "Minimum Criteria": "",
+            "Complete Criteria (additional to\nMinimum)": "Measure soot luminosity\n(radiometer measurement) as a\nfunction of applied voltage during\nVI sweeps and step changes",
+            "Superior Criteria\n(additional to Complete)": "Obtain spatially resolved\nsoot volume fraction for\nrelevant conditions."
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "OBJECTIVE": "D",
+            "Minimum Criteria": "",
+            "Complete Criteria (additional to\nMinimum)": "Capture flame images from co-flow\nburner during voltage sweep to\nallow measurement of liftoff height\nin relation to electric field strength",
+            "Superior Criteria\n(additional to Complete)": "Demonstrate control of\nflame near sooting and\nstability limits. Evaluate the\nextent to which stability\nlimits can be extended\nusing an electric field"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b66",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Post Flight Data Analysis\n• Evaluate conditions in real-time; select\nappropriate repeat tests\n• COMSOL model with idealized\nassumptions\n• Simple algebraic expressions\n)\nm\n(\nn\no\ni\nt\ni\ns\no\nP\n475 K\n410 K\n350 K\n315 K",
+      "location": {
+        "page": 58
+      }
+    },
+    {
+      "type": "text",
+      "id": "b67",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Summary – Potential Interaction\n• Chemistry of chemi-ionization added to\nmechanisms\n• Burner overlap (jet and co-flow)\n• Soot control\n• Combustion control\n• Flame analysis (alternative fuels)",
+      "location": {
+        "page": 59
+      }
+    }
+  ]
+}

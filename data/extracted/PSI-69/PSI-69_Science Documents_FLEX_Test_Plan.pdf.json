@@ -1,0 +1,551 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-69",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+    "folder": "Science Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+    "version": 1,
+    "sizeBytes": 185799,
+    "sha256": "0af43477a04b05e3c44558b22c16a69cfda837a6a17fa94178ce1f9fce361dc5",
+    "localPath": "data/raw/PSI-69/Science Documents/PSI-69_Science Documents_FLEX_Test_Plan.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:25:30+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 6 table 1: 1 line(s) above the header skipped",
+    "Page 7 table 1: 1 line(s) above the header skipped",
+    "Page 8 table 1: 1 line(s) above the header skipped",
+    "Page 10 table 1: 1 line(s) above the header skipped",
+    "Page 12 table 1: 1 line(s) above the header skipped",
+    "Page 14 table 1: 1 line(s) above the header skipped",
+    "Page 15 table 1: 1 line(s) above the header skipped"
+  ],
+  "stats": {
+    "textBlocks": 15,
+    "characters": 18038,
+    "tables": 8,
+    "tableRows": 21,
+    "pages": 15
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "The details of this Test Plan have been extracted from the Research Requirements\nDocument for Droplet Flame Extinguishment in Microgravity (FLEX) by FA Williams,\nM Hicks, V Nayagam, MY Choi, FL Dryer and BD Shaw and dated November 4, 2005.",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.2 Agent Efficacy\nThe expressions for the Damk¨ohler number provide a convenient theoretical basis for flame ex-\ntinction. Unfortunately, they are not easily used by engineers designing suppression systems or\nevaluating material flammability issues. For a given material and ambient condition (pressure,\ndiluent type), there exists an oxygen mole fraction below which a steady flame cannot exist. This\noxygen concentration is called the Limiting Oxygen Index (LOI ). Using the droplet as a model\ngeometry, Figure 2 shows a hypothetical quasi-steady flammability map. The graph shows oxygen\nconcentration on the ordinate and droplet diameter on the abscissa. The curve is essentially the\ncritical Damk¨ohler number and the region inside the curve is flammable and outside the region is\nnon-flammable. The red branch of the curve is the extinction branch defined by Law (1975) and\nthe blue branch is the radiative quench branch defined by Chao et al. (1990). A typical droplet\ncombustion experiment starts by igniting a droplet at a point inside the curve (denoted by the\ngreen circle). The droplet then burns until it reaches the red curve where the flame will extinguish.\nThe limiting oxygen index (LOI ) is the point where the two curves meet, or the minimum oxygen\nconcentration that will support a quasi-steady flame.\nLOI\nNon-Flammable\nnoitcarF\neloM\nnegyxO\nFlammable\nDroplet Diameter\nFigure 2: A conceptual flammability map for a single droplet burning in an infinite ambient. The\nred curve represents the extinction caused by ‘blowoff’ of the flame (Law, 1975), while the blue\ncurve represents the radiative extinction branch (Chao et al., 1990). The LOI is the lowest oxygen\nconcentration which will support combustion.\nThe LOI is a critical concept in fire safety, and also important in developing, refining and\nultimately validating detailed chemical kinetic mechanisms. For fire safety, the goal of the agent in\na total flooding application is to reduce the oxygen concentration below the LOI .\nTheconceptsofextinctionandLOI reviewedabovedefinetheframeworkfromwhichtodevelop\na quantitative measure of suppressant agent efficacy. The LOI is often recast in terms of the\nMinimum Extinction Concentration (the minimum concentration of a suppressant agent above\nwhich a quasi-steady flame cannot exist, MEC ). The MEC is related to the LOI by the following\nrelationship.\n11",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Table 2: Gaseous fire suppression agent efficacy, as measured by the MEC , for cup burner flames\n(Takahashi et al., 2004).\nAgent/Env. MEC , 1−g MEC , µg\nCO 0.16 0.19\n2\nHe 0.27 0.31\nN 0.26 0.38\n2\nLOI = 0.209(1−MEC) (2)\nThe MEC is a function of the fuel, agent and experimental geometry. Clearly, a more effective\nagent will have a lower MEC for a given fuel and fuel geometry.\nTakahashi et al. (2004) conducted normal gravity tests and microgravity simulations of the\nsuppression of methane cup-burner flames using mixtures of various suppressants in standard air.\nThe table below summarizes the findings for MEC in the two environments.\n2.3 CO Suppression Studies\n2\nTheUnitedStatesmoduleoftheISSusesCO asthesuppressant. TheeffectivenessofCO asafire\n2 2\nsuppressant in a microgravity environment has been studied in the past by several authors (Honda\nandRonney,1998;Kattaetal.,2004). HondaandRonney(1998)studiedopposed-flowflamespread\nrates over thin solid fuels in microgravity by adding different inert diluents (He , N , Ar, CO and\n2 2\nSF ) to the standard air atmosphere. Their experimental results seem to suggest that CO is less\n6 2\neffective as a fire suppressant in microgravity than He in terms of the minimum O concentration\n2\nthat supports combustion. Katta et al. (2004) investigated the mechanism through which CO\n2\ncauses fire suppression using detailed numerical simulation and experiments in microgravity for a\nmethane-air diffusion flame stabilized on a cup burner. Their results showed that a CO volume\n2\nfraction greater than 19.1% is needed to destabilize the flame-base in microgravity compared to\n16.4% for a normal gravity flame. They also pointed out the importance of gas-phase radiation in\ndetermining extinguishment limits in microgravity.\nRadiative thermal losses from the flame zone in reduced gravity environments may be signif-\nicantly altered when the surrounding gas phase is thermally participating. In most small scale\nterrestrial fires, when compared with the quenching effects associated with strong buoyantly driven\nconvective flows, radiative quenching plays a relatively minor role in the extinguishment of fires. In\nthese situations the heated gases are quickly lifted from the reaction zone and, as a consequence,\nquickly cool and provide little radiative feedback to the fuel source.\nIntheabsenceofbuoyantly-drivenconvectiveflows,however,radiativelossesfromtheflamecan\nbecomeasignificantfractionofthetotalheatlossfromthereactionzone. Whenradiativeexchanges\nbetween the flame and the ambient are limited by the presence of a thermally participating gas,\nsuch as CO , temperatures in the proximity of the fuel source will increase. Chernovsky et al.\n2\n(2005) demonstrated this in a recent set of experiments where fuel side temperature increases were\nreported in an ethylene (C H ) diffusion flame, using a porous spherical burner, in atmospheres of\n2 2\nvarying concentrations of CO (20% to 40%).\n2\nThis radiative feedback effect from the gas phase has been of increasing concern because of the\nimplications in the selection and evaluation of appropriate fire suppressants. The use of CO , an\n2\n12",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "table",
+      "id": "b4",
+      "name": "Page 3 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 3,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Agent/Env.",
+        "MEC , 1−g",
+        "MEC , µg"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Agent/Env.": "CO\n2",
+            "MEC , 1−g": "0.16",
+            "MEC , µg": "0.19"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Agent/Env.": "He",
+            "MEC , 1−g": "0.27",
+            "MEC , µg": "0.31"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Agent/Env.": "N\n2",
+            "MEC , 1−g": "0.26",
+            "MEC , µg": "0.38"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.2.8 Ambient Temperature and Pressure Measurement\nDuring each test the chamber gas temperature and pressure measurements shall be required. The\nfollowing are the specifications for this data.\nSample rate: minimum sample rate shall be at 10 Hz\nTemperature: accuracy shall be at least ±0.5C.\nPressure: accuracy shall be at least ±0.01atm.\n5.2.9 Synchronization\nExperiment objectives require all data to be time-synchronized to a reference time. This will allow\naccurate interpretation of the data and evaluate droplet regression rate, flame structure, and flame\nextinction as a function of time.\nTime synchronization: all measurements shall be referenced to GMT with a minimum accuracy\nof ±0.03sec.\n5.3 Flight Experiment Test Procedures\nThe FLEX experiments involve igniting and observing the burning behavior of relatively large\ndroplets. One of the primary objectives of the experiments is to determine the LOI as a function\nof ambient pressure and determine how the presence of a suppressant influences the LOI . The\ndetermination of the LOI involves conducting a series of tests and constructing a diagram similar\nto that in Fig. 2. The basic outline of the procedure to construct this diagram is as follows:\n1. Select the test pressure (0.5 − 1.5atm) for the LOI tests.\n2. Select a smaller droplet size (≈ 3mm)\n3. Select an ambient oxygen mole fraction that, based on ground-based testing, will support\ndroplets burning to completion (as opposed to extinguishing at a finite droplet size).\n4. Perform a droplet combustion test.\n5. Increase the droplet size or repeat the test (if finite extinction diameter at flame extinction\nobserved).\n6. Continue steps 4 and 5 until flame exists for only a short time after ignition (radiative ex-\ntinction).\n7. Continue steps 4 thru 6 at a decreased ambient oxygen mole fraction.\n8. Continue step 7 to an ambient oxygen mole fraction where the droplet does not ignite.\nThere will likely be ambient conditions where the extinction droplet sizes at all ambient oxygen\nmole fractions are too small to either be observed or measured with the available diagnostics. In\nthis case, the determination of the LOI is similar, but more iterative. Instead of observing flame\nextinction, however, the procedure will involve an iterative sequence of tests (burn to completion\nfollowedbyanoignitiontest)withprogressivelysmallerincrementsinambientoxygenmolefraction\nto determine the LOI .\nFortheslowflowtests(intheflightexperiment),thecurrentconfigurationoftheflighthardware\ndoes not allow for adequate diagnostics over the entire test for a droplet in a uniform, steady\n44",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "convective flow7. In these tests, the procedure will be to duplicate tests above which yield finite-\nsized extinction droplet diameters. Near the end of the tests, prior to flame extinction, the droplet\nwill by subjected to a small, sub-buoyant, convective flow (imparted by translating the droplet at\na slow, uniform speed). The goal of the experiment is then to see how the presence of this flow\ninfluences the extinction process. We also note that a large number of the tests will involve free\ndroplets (as opposed to fiber-supported droplets). A number of these tests will have droplets with\na slow drift velocity. We can also use the data gathered from these tests to examine the influences\nof a small, sub-buoyant flow on both the burning and extinction process.\nThe procedure to examine the suppressant efficacy will be essentially the to that used to de-\ntermine the LOI . The major difference will be that in addition to the diluent (N ), the ambient\n2\nwill contain a suppressant. The test procedure will be identical to that above; the steps described\nabove will be performed at a fixed suppressant level. Subsequent series of tests will then be at\ndifferent suppressant concentrations and types of suppressants.\n5.4 FLEX Test Matrix\nThe proposed test matrix is fashioned so as to meet the stated science objectives and at the same\ntime meet the constraints imposed by the hardware as well as the safety requirements of space\nexperiments. The previous section described the test procedures. The exact test matrix will\nchange during the conduct of the FLEX experiment. The initial conditions for the first series of\nFLEX tests will be determined by extensive ground testing in the drop towers at the NASA Glenn\nResearch Center. It is important, however, for the engineering team to have a test matrix on paper\nso that it can determine consumable resource requirements and prepare for the necessary safety\nreviews. Thefollowingtestmatrices, thenaredesignedtoallowtheengineeringteamtoadequately\nplan for the experiment and do not represent the final test matrix. These test matrices provide for\nan envelope in which all of the actual tests will be conducted.\nThe test matrix is broken up into a series of sub-matrices each of which is designed to highlight\nan objective of the experiment. The first series of tests, described in Tables 6 and 7, will determine\nthe LOI as a function of pressure for heptane and methanol in quiescent and flowing environments,\nrespectively. The second series of tests, described in Tables 8, 9 and 10, examines the efficacy of\nCO , He and SF . The tests use the two test fuels, are over a range of pressures, oxygen mole\n2 6\nfractions and suppressant mole fractions. The tests described in Table 11 examine how a slow,\nsub-buoyant flow influences the efficacy of a single suppressant, CO . Finally, the tests in Table\n2\n12 examine the influence of a stronger radiative environment (achieved by increasing the pressure)\non the efficacy of a single suppressant.\n7This will, however, be extensively studied in the complimentary ground-based program\n45",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Table 6: Quiescent environment LOI test matrix.\nFuel: C H , Diluent: N , No fiber\n7 16 2\nsupport, Flow: 0.0cm/s, D = 3, 5mm,\n0\nX = 1.0−X .\nN2 O2\nTest No. P (atm) X\nO2\n1 0.50 0.20\n2 0.50 0.30\n3 0.50 0.35\n4 0.75 0.13\n5 0.75 0.20\n6 0.75 0.28\n7 0.75 0.40\n8 1.00 0.10\n9 1.00 0.15\n10 1.00 0.21\n11 1.00 0.30\n12 1.50 0.10\n13 1.50 0.15\n14 1.50 0.21\nFuel: CH OH\n3\n15 0.50 0.20\n16 0.50 0.30\n17 0.50 0.35\n18 0.75 0.13\n19 0.75 0.20\n20 0.75 0.28\n21 0.75 0.40\n22 1.00 0.10\n23 1.00 0.15\n24 1.00 0.21\n25 1.00 0.30\n26 1.50 0.10\n27 1.50 0.15\n28 1.50 0.21\n46",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "table",
+      "id": "b8",
+      "name": "Page 6 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 6,
+        "table": 1
+      },
+      "headerRow": 2,
+      "columns": [
+        "Test No.",
+        "P (atm)",
+        "X\nO2"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Test No.": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14",
+            "P (atm)": "0.50\n0.50\n0.50\n0.75\n0.75\n0.75\n0.75\n1.00\n1.00\n1.00\n1.00\n1.50\n1.50\n1.50",
+            "X\nO2": "0.20\n0.30\n0.35\n0.13\n0.20\n0.28\n0.40\n0.10\n0.15\n0.21\n0.30\n0.10\n0.15\n0.21"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Test No.": "Fuel: CH OH\n3",
+            "P (atm)": "",
+            "X\nO2": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Test No.": "15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28",
+            "P (atm)": "0.50\n0.50\n0.50\n0.75\n0.75\n0.75\n0.75\n1.00\n1.00\n1.00\n1.00\n1.50\n1.50\n1.50",
+            "X\nO2": "0.20\n0.30\n0.35\n0.13\n0.20\n0.28\n0.40\n0.10\n0.15\n0.21\n0.30\n0.10\n0.15\n0.21"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Table 7: Slow flow LOI test matrix\nFuel: C H , Diluent: N , SiC fiber\n7 16 2\nsupport, Flow: 1.5cm/s, D = 3, 5mm,\n0\nX = 1.0−X .\nN2 O2\nTest No. P (atm) X\nO2\n29 0.50 0.20\n30 0.50 0.30\n31 0.50 0.35\n32 0.75 0.13\n33 0.75 0.20\n34 0.75 0.28\n35 0.75 0.40\n36 1.00 0.10\n37 1.00 0.15\n38 1.00 0.21\n39 1.00 0.30\nFuel: CH OH\n3\n40 0.50 0.20\n41 0.50 0.30\n42 0.50 0.35\n43 0.75 0.13\n44 0.75 0.20\n45 0.75 0.28\n46 0.75 0.40\n47 1.00 0.10\n48 1.00 0.15\n49 1.00 0.21\n50 1.00 0.30\n47",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "table",
+      "id": "b10",
+      "name": "Page 7 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 7,
+        "table": 1
+      },
+      "headerRow": 2,
+      "columns": [
+        "Test No.",
+        "P (atm)",
+        "X\nO2"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Test No.": "29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39",
+            "P (atm)": "0.50\n0.50\n0.50\n0.75\n0.75\n0.75\n0.75\n1.00\n1.00\n1.00\n1.00",
+            "X\nO2": "0.20\n0.30\n0.35\n0.13\n0.20\n0.28\n0.40\n0.10\n0.15\n0.21\n0.30"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Test No.": "Fuel: CH OH\n3",
+            "P (atm)": "",
+            "X\nO2": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Test No.": "40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50",
+            "P (atm)": "0.50\n0.50\n0.50\n0.75\n0.75\n0.75\n0.75\n1.00\n1.00\n1.00\n1.00",
+            "X\nO2": "0.20\n0.30\n0.35\n0.13\n0.20\n0.28\n0.40\n0.10\n0.15\n0.21\n0.30"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Table 8: CO suppressant efficacy test matrix.\n2\nFuel: C H , Diluent: N , Suppressant: CO , No fiber\n7 16 2 2\nsupport, Flow: 0.0cm/s, D = 3, 5mm,\n0\nX = 1.0−X −X .\nN2 O2 CO2\nTest No. P (atm) X X\nO2 CO2\n51 0.70 0.25 0.15\n52 0.70 0.25 0.25\n53 0.70 0.25 0.50\n54 0.70 0.25 0.70\n55 0.70 0.30 0.15\n56 0.70 0.30 0.25\n57 0.70 0.30 0.50\n58 0.70 0.30 0.70\n59 0.85 0.25 0.15\n60 0.85 0.25 0.25\n61 0.85 0.25 0.50\n62 0.85 0.25 0.70\n63 0.85 0.30 0.15\n64 0.85 0.30 0.25\n65 0.85 0.30 0.50\n66 0.85 0.30 0.70\n67 1.00 0.10 0.15\n68 1.00 0.10 0.25\n69 1.00 0.10 0.50\n70 1.00 0.10 0.70\n71 1.00 0.15 0.15\n72 1.00 0.15 0.25\n73 1.00 0.15 0.50\n74 1.00 0.15 0.70\n75 1.00 0.21 0.15\n76 1.00 0.21 0.25\n77 1.00 0.21 0.50\n78 1.00 0.21 0.70\nFuel: CH OH .\n3\n79 0.70 0.25 0.15\n80 0.70 0.25 0.25\n81 0.70 0.25 0.50\n82 0.70 0.25 0.70\n83 0.70 0.30 0.15\n84 0.70 0.30 0.25\n85 0.70 0.30 0.50\n86 0.70 0.30 0.70\n87 0.85 0.25 0.15\n88 0.85 0.25 0.25\n89 0.85 0.25 0.50\n90 0.85 0.25 0.70\n48",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "table",
+      "id": "b12",
+      "name": "Page 8 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 8,
+        "table": 1
+      },
+      "headerRow": 2,
+      "columns": [
+        "Test No.",
+        "P (atm)",
+        "X\nO2",
+        "X\nCO2"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Test No.": "51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\n76\n77\n78",
+            "P (atm)": "0.70\n0.70\n0.70\n0.70\n0.70\n0.70\n0.70\n0.70\n0.85\n0.85\n0.85\n0.85\n0.85\n0.85\n0.85\n0.85\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00",
+            "X\nO2": "0.25\n0.25\n0.25\n0.25\n0.30\n0.30\n0.30\n0.30\n0.25\n0.25\n0.25\n0.25\n0.30\n0.30\n0.30\n0.30\n0.10\n0.10\n0.10\n0.10\n0.15\n0.15\n0.15\n0.15\n0.21\n0.21\n0.21\n0.21",
+            "X\nCO2": "0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Test No.": "Fuel: CH OH .\n3",
+            "P (atm)": "",
+            "X\nO2": "",
+            "X\nCO2": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "91 0.85 0.30 0.15\n92 0.85 0.30 0.25\n93 0.85 0.30 0.50\n94 0.85 0.30 0.70\n95 1.00 0.10 0.15\n96 1.00 0.10 0.25\n97 1.00 0.10 0.50\n98 1.00 0.10 0.70\n99 1.00 0.15 0.15\n100 1.00 0.15 0.25\n101 1.00 0.15 0.50\n102 1.00 0.15 0.70\n103 1.00 0.21 0.15\n104 1.00 0.21 0.25\n105 1.00 0.21 0.50\n106 1.00 0.21 0.70\n49",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "text",
+      "id": "b14",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Table 9: He suppressant efficacy test matrix.\nFuel: C H , Diluent: N , Suppressant: He , No fiber\n7 16 2\nsupport, Flow: 0.0cm/s, D = 3, 5mm,\n0\nX = 1.0−X −X .\nN2 O2 He\nTest No. P (atm) X X\nO2 He\n107 0.70 0.25 0.15\n108 0.70 0.25 0.25\n109 0.70 0.25 0.50\n110 0.70 0.25 0.70\n111 0.70 0.30 0.15\n112 0.70 0.30 0.25\n113 0.70 0.30 0.50\n114 0.70 0.30 0.70\n115 0.85 0.25 0.15\n116 0.85 0.25 0.25\n117 0.85 0.25 0.50\n118 0.85 0.25 0.70\n119 0.85 0.30 0.15\n120 0.85 0.30 0.25\n121 0.85 0.30 0.50\n122 0.85 0.30 0.70\n123 1.00 0.10 0.15\n124 1.00 0.10 0.25\n125 1.00 0.10 0.50\n126 1.00 0.10 0.70\n127 1.00 0.15 0.15\n128 1.00 0.15 0.25\n129 1.00 0.15 0.50\n130 1.00 0.15 0.70\n131 1.00 0.21 0.15\n132 1.00 0.21 0.25\n133 1.00 0.21 0.50\n134 1.00 0.21 0.70\nFuel: CH OH\n3\n135 0.70 0.25 0.15\n136 0.70 0.25 0.25\n137 0.70 0.25 0.50\n138 0.70 0.25 0.70\n139 0.70 0.30 0.15\n140 0.70 0.30 0.25\n141 0.70 0.30 0.50\n142 0.70 0.30 0.70\n143 0.85 0.25 0.15\n144 0.85 0.25 0.25\n145 0.85 0.25 0.50\n146 0.85 0.25 0.70\n50",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "table",
+      "id": "b15",
+      "name": "Page 10 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 10,
+        "table": 1
+      },
+      "headerRow": 2,
+      "columns": [
+        "Test No.",
+        "P (atm)",
+        "X\nO2",
+        "X\nHe"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Test No.": "107\n108\n109\n110\n111\n112\n113\n114\n115\n116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\n127\n128\n129\n130\n131\n132\n133\n134",
+            "P (atm)": "0.70\n0.70\n0.70\n0.70\n0.70\n0.70\n0.70\n0.70\n0.85\n0.85\n0.85\n0.85\n0.85\n0.85\n0.85\n0.85\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00",
+            "X\nO2": "0.25\n0.25\n0.25\n0.25\n0.30\n0.30\n0.30\n0.30\n0.25\n0.25\n0.25\n0.25\n0.30\n0.30\n0.30\n0.30\n0.10\n0.10\n0.10\n0.10\n0.15\n0.15\n0.15\n0.15\n0.21\n0.21\n0.21\n0.21",
+            "X\nHe": "0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Test No.": "Fuel: CH OH\n3",
+            "P (atm)": "",
+            "X\nO2": "",
+            "X\nHe": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b16",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "147 0.85 0.30 0.15\n148 0.85 0.30 0.25\n149 0.85 0.30 0.50\n150 0.85 0.30 0.70\n151 1.00 0.10 0.15\n152 1.00 0.10 0.25\n153 1.00 0.10 0.50\n154 1.00 0.10 0.70\n155 1.00 0.15 0.15\n156 1.00 0.15 0.25\n157 1.00 0.15 0.50\n158 1.00 0.15 0.70\n159 1.00 0.21 0.15\n160 1.00 0.21 0.25\n161 1.00 0.21 0.50\n162 1.00 0.21 0.70\n51",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "text",
+      "id": "b17",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Table 10: SF suppressant efficacy test matrix.\n6\nFuel: C H , Diluent: N , Suppressant: SF , No fiber\n7 16 2 6\nsupport, Flow: 0.0cm/s, D = 3, 5mm,\n0\nX = 1.0−X −X .\nN2 O2 SF6\nTest No. P (atm) X X\nO2 SF6\n163 0.70 0.25 0.15\n164 0.70 0.25 0.25\n165 0.70 0.25 0.50\n166 0.70 0.25 0.70\n167 0.70 0.30 0.15\n168 0.70 0.30 0.25\n169 0.70 0.30 0.50\n170 0.70 0.30 0.70\n171 0.85 0.25 0.15\n172 0.85 0.25 0.25\n173 0.85 0.25 0.50\n174 0.85 0.25 0.70\n175 0.85 0.30 0.15\n176 0.85 0.30 0.25\n177 0.85 0.30 0.50\n178 0.85 0.30 0.70\n179 1.00 0.10 0.15\n180 1.00 0.10 0.25\n181 1.00 0.10 0.50\n182 1.00 0.10 0.70\n183 1.00 0.15 0.15\n184 1.00 0.15 0.25\n185 1.00 0.15 0.50\n186 1.00 0.15 0.70\n187 1.00 0.21 0.15\n188 1.00 0.21 0.25\n189 1.00 0.21 0.50\n190 1.00 0.21 0.70\nFuel: CH OH\n3\n191 0.70 0.25 0.15\n192 0.70 0.25 0.25\n193 0.70 0.25 0.50\n194 0.70 0.25 0.70\n195 0.70 0.30 0.15\n196 0.70 0.30 0.25\n197 0.70 0.30 0.50\n198 0.70 0.30 0.70\n199 0.85 0.25 0.15\n200 0.85 0.25 0.25\n201 0.85 0.25 0.50\n202 0.85 0.25 0.70\n52",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "table",
+      "id": "b18",
+      "name": "Page 12 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 12,
+        "table": 1
+      },
+      "headerRow": 2,
+      "columns": [
+        "Test No.",
+        "P (atm)",
+        "X\nO2",
+        "X\nSF6"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Test No.": "163\n164\n165\n166\n167\n168\n169\n170\n171\n172\n173\n174\n175\n176\n177\n178\n179\n180\n181\n182\n183\n184\n185\n186\n187\n188\n189\n190",
+            "P (atm)": "0.70\n0.70\n0.70\n0.70\n0.70\n0.70\n0.70\n0.70\n0.85\n0.85\n0.85\n0.85\n0.85\n0.85\n0.85\n0.85\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00",
+            "X\nO2": "0.25\n0.25\n0.25\n0.25\n0.30\n0.30\n0.30\n0.30\n0.25\n0.25\n0.25\n0.25\n0.30\n0.30\n0.30\n0.30\n0.10\n0.10\n0.10\n0.10\n0.15\n0.15\n0.15\n0.15\n0.21\n0.21\n0.21\n0.21",
+            "X\nSF6": "0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Test No.": "Fuel: CH OH\n3",
+            "P (atm)": "",
+            "X\nO2": "",
+            "X\nSF6": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "203 0.85 0.30 0.15\n204 0.85 0.30 0.25\n205 0.85 0.30 0.50\n206 0.85 0.30 0.70\n207 1.00 0.10 0.15\n208 1.00 0.10 0.25\n209 1.00 0.10 0.50\n210 1.00 0.10 0.70\n211 1.00 0.15 0.15\n212 1.00 0.15 0.25\n213 1.00 0.15 0.50\n214 1.00 0.15 0.70\n215 1.00 0.21 0.15\n216 1.00 0.21 0.25\n217 1.00 0.21 0.50\n218 1.00 0.21 0.70\n53",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "text",
+      "id": "b20",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Table 11: Suppressant efficacy in a slow flow test matrix.\nFuel: C H , Diluent: N , Suppressant: CO , No fiber,\n7 16 2 2\nFlow: 1.5cm/s, D = 3, 5mm, X = 1.0−X −X .\n0 N2 O2 CO2\nTest No. P (atm) X X\nO2 CO2\n219 0.70 0.10 0.15\n220 0.70 0.10 0.25\n221 0.70 0.10 0.50\n222 0.70 0.10 0.70\n223 0.70 0.21 0.15\n224 0.70 0.21 0.25\n225 0.70 0.21 0.50\n226 0.70 0.21 0.70\n227 1.00 0.10 0.15\n228 1.00 0.10 0.25\n229 1.00 0.10 0.50\n230 1.00 0.10 0.70\n231 1.00 0.15 0.15\n232 1.00 0.15 0.25\n233 1.00 0.15 0.50\n234 1.00 0.15 0.70\n235 1.00 0.21 0.15\n236 1.00 0.21 0.25\n237 1.00 0.21 0.50\n238 1.00 0.21 0.70\nFuel: CH OH\n3\n239 0.70 0.10 0.15\n240 0.70 0.10 0.25\n241 0.70 0.10 0.50\n242 0.70 0.10 0.70\n243 0.70 0.21 0.15\n244 0.70 0.21 0.25\n245 0.70 0.21 0.50\n246 0.70 0.21 0.70\n247 1.00 0.10 0.15\n248 1.00 0.10 0.25\n249 1.00 0.10 0.50\n250 1.00 0.10 0.70\n251 1.00 0.15 0.15\n252 1.00 0.15 0.25\n253 1.00 0.15 0.50\n254 1.00 0.15 0.70\n255 1.00 0.21 0.15\n256 1.00 0.21 0.25\n257 1.00 0.21 0.50\n258 1.00 0.21 0.70\n54",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "table",
+      "id": "b21",
+      "name": "Page 14 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 14,
+        "table": 1
+      },
+      "headerRow": 2,
+      "columns": [
+        "Test No.",
+        "P (atm)",
+        "X\nO2",
+        "X\nCO2"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Test No.": "219\n220\n221\n222\n223\n224\n225\n226\n227\n228\n229\n230\n231\n232\n233\n234\n235\n236\n237\n238",
+            "P (atm)": "0.70\n0.70\n0.70\n0.70\n0.70\n0.70\n0.70\n0.70\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00",
+            "X\nO2": "0.10\n0.10\n0.10\n0.10\n0.21\n0.21\n0.21\n0.21\n0.10\n0.10\n0.10\n0.10\n0.15\n0.15\n0.15\n0.15\n0.21\n0.21\n0.21\n0.21",
+            "X\nCO2": "0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Test No.": "Fuel: CH OH\n3",
+            "P (atm)": "",
+            "X\nO2": "",
+            "X\nCO2": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Test No.": "239\n240\n241\n242\n243\n244\n245\n246\n247\n248\n249\n250\n251\n252\n253\n254\n255\n256\n257\n258",
+            "P (atm)": "0.70\n0.70\n0.70\n0.70\n0.70\n0.70\n0.70\n0.70\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00",
+            "X\nO2": "0.10\n0.10\n0.10\n0.10\n0.21\n0.21\n0.21\n0.21\n0.10\n0.10\n0.10\n0.10\n0.15\n0.15\n0.15\n0.15\n0.21\n0.21\n0.21\n0.21",
+            "X\nCO2": "0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b22",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Table12: Suppressantinaradiativeenvironmenttestmatrix.\nFuel: C H , Diluent: N , Suppressant: CO , No fiber\n7 16 2 2\nsupport, Flow: 0.0cm/s, D = 3, 5mm,\n0\nX = 1.0−X −X .\nN2 O2 CO2\nTest No. P (atm) X X\nO2 CO2\n259 2.00 0.10 0.15\n260 2.00 0.10 0.25\n261 2.00 0.10 0.50\n262 2.00 0.10 0.70\n263 2.00 0.21 0.15\n264 2.00 0.21 0.25\n265 2.00 0.21 0.50\n266 2.00 0.21 0.70\n267 3.00 0.10 0.15\n268 3.00 0.10 0.25\n269 3.00 0.10 0.50\n270 3.00 0.10 0.70\n271 3.00 0.21 0.15\n272 3.00 0.21 0.25\n273 3.00 0.21 0.50\n274 3.00 0.21 0.70\nFuel: CH OH\n3\n275 2.00 0.10 0.15\n276 2.00 0.10 0.25\n277 2.00 0.10 0.50\n278 2.00 0.10 0.70\n279 2.00 0.21 0.15\n280 2.00 0.21 0.25\n281 2.00 0.21 0.50\n282 2.00 0.21 0.70\n283 3.00 0.10 0.15\n284 3.00 0.10 0.25\n285 3.00 0.10 0.50\n286 3.00 0.10 0.70\n287 3.00 0.21 0.15\n288 3.00 0.21 0.25\n289 3.00 0.21 0.50\n290 3.00 0.21 0.70\n55",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "table",
+      "id": "b23",
+      "name": "Page 15 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 15,
+        "table": 1
+      },
+      "headerRow": 2,
+      "columns": [
+        "Test No.",
+        "P (atm)",
+        "X\nO2",
+        "X\nCO2"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Test No.": "259\n260\n261\n262\n263\n264\n265\n266\n267\n268\n269\n270\n271\n272\n273\n274",
+            "P (atm)": "2.00\n2.00\n2.00\n2.00\n2.00\n2.00\n2.00\n2.00\n3.00\n3.00\n3.00\n3.00\n3.00\n3.00\n3.00\n3.00",
+            "X\nO2": "0.10\n0.10\n0.10\n0.10\n0.21\n0.21\n0.21\n0.21\n0.10\n0.10\n0.10\n0.10\n0.21\n0.21\n0.21\n0.21",
+            "X\nCO2": "0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Test No.": "Fuel: CH OH\n3",
+            "P (atm)": "",
+            "X\nO2": "",
+            "X\nCO2": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Test No.": "275\n276\n277\n278\n279\n280\n281\n282\n283\n284\n285\n286\n287\n288\n289\n290",
+            "P (atm)": "2.00\n2.00\n2.00\n2.00\n2.00\n2.00\n2.00\n2.00\n3.00\n3.00\n3.00\n3.00\n3.00\n3.00\n3.00\n3.00",
+            "X\nO2": "0.10\n0.10\n0.10\n0.10\n0.21\n0.21\n0.21\n0.21\n0.10\n0.10\n0.10\n0.10\n0.21\n0.21\n0.21\n0.21",
+            "X\nCO2": "0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70\n0.15\n0.25\n0.50\n0.70"
+          }
+        }
+      ]
+    }
+  ]
+}

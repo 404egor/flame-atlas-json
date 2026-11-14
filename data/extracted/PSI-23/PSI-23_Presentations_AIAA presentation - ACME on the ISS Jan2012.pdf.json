@@ -1,0 +1,2137 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-23",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-23_Presentations_AIAA presentation - ACME on the ISS Jan2012.pdf",
+    "folder": "Presentations",
+    "subfolder": null,
+    "key": "psi-data/PSI-23/Presentations/PSI-23_Presentations_AIAA presentation - ACME on the ISS Jan2012.pdf",
+    "version": 1,
+    "sizeBytes": 4459532,
+    "sha256": "0e855df50394f18143e468a01ba99520eaf69ad7d2ec333400b20e2ccb9f975e",
+    "localPath": "data/raw/PSI-23/Presentations/PSI-23_Presentations_AIAA presentation - ACME on the ISS Jan2012.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:20:37+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 5 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 13 table 3: 1 line(s) above the header skipped",
+    "Page 19 table 1: 8 empty header(s) named column_<n> (columns 2-9)",
+    "Page 20 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 24 table 1: 2 empty header(s) named column_<n> (columns 2-3)",
+    "Page 25 table 1: 4 empty header(s) named column_<n> (columns 2-5)",
+    "Page 32 table 1: 1 empty header(s) named column_<n> (columns 2)"
+  ],
+  "stats": {
+    "textBlocks": 32,
+    "characters": 18267,
+    "tables": 35,
+    "tableRows": 169,
+    "pages": 32
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nAAddvvaanncceedd CCoommbbuussttiioonn\nvia Microgravity Experiments\non tthhe IIntternattiionall SSpace SSttattiion\n50th AIAA Aerospace Sciences Meeting\n2266tthh SSymposiium on GGraviitty-RRellattedd\nPhenomena in Space Exploration (GPSE)\nDennis P. Stocker,, ACME Projject Scientist\nNASA Glenn Research Center, Cleveland, Ohio\nwww.nasa.gov\n1",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "table",
+      "id": "b2",
+      "name": "Page 1 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nAAddvvaanncceedd CCoommbbuussttiioonn"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nAAddvvaanncceedd CCoommbbuussttiioonn": "via Microgravity Experiments"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nAAddvvaanncceedd CCoommbbuussttiioonn": "on tthhe IIntternattiionall SSpace SSttattiion\n50th AIAA Aerospace Sciences Meeting"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nAAddvvaanncceedd CCoommbbuussttiioonn": "2266tthh SSymposiium on GGraviitty-RRellattedd\nPhenomena in Space Exploration (GPSE)"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nAAddvvaanncceedd CCoommbbuussttiioonn": "Dennis P. Stocker,, ACME Projject Scientist"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "National Aeronautics and Space Administration\nAAddvvaanncceedd CCoommbbuussttiioonn": "NASA Glenn Research Center, Cleveland, Ohio\nwww.nasa.gov\n1"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nOutline\n• Background\n– Why combustion?\n– ISS research\n• ACME\n– SScciieennccee\n– Hardware\n– Status\n• SSLLIICCEE\n• Questions\nwww.nasa.gov\n2",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "table",
+      "id": "b4",
+      "name": "Page 2 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 2,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nOutline"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nOutline": "• Background\n– Why combustion?"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nOutline": "– ISS research\n• ACME\n– SScciieennccee"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nOutline": "– Hardware\n– Status\n• SSLLIICCEE"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nOutline": "• Questions"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nOutline": "www.nasa.gov\n2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nWhyy Studyy Combustion?\n• Energy\n– While we might associate fire with the Stone Age, we still make\neexxtteennssiivvee uussee ooff ccoommbbuussttiioonn iinn oouurr ddaaiillyy lliivveess.\n• Electricity – about 70% in the U.S. from combustion\n• Heating of buildings, water, food, and in manufacturing processes\n• Transportation\n– Our reliance on imported fuel contributes to our national trade\ndeficit and affects our national security.\n• Environment\n– CCoommbbuussttiioonn iiss aa mmaajjoorr ssoouurrccee ooff ggrreeeennhhoouussee ggaasseess.\n– Soot contributes to global warming and is a health problem.\n• Fire Safety\nGiven its pervasive use with annual U.S. fuel costs on the order\nof a trillion dollars even small improvements in combustion\ntechnology can significantly reduce fuel needs and\npollllutiion prodductiion!!\nwww.nasa.gov\n3",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "table",
+      "id": "b6",
+      "name": "Page 3 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 3,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nWhyy Studyy Combustion?"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nWhyy Studyy Combustion?": "• Energy\n– While we might associate fire with the Stone Age, we still make"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nWhyy Studyy Combustion?": "eexxtteennssiivvee uussee ooff ccoommbbuussttiioonn iinn oouurr ddaaiillyy lliivveess.\n• Electricity – about 70% in the U.S. from combustion\n• Heating of buildings, water, food, and in manufacturing processes\n• Transportation"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nWhyy Studyy Combustion?": "– Our reliance on imported fuel contributes to our national trade\ndeficit and affects our national security.\n• Environment"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nWhyy Studyy Combustion?": "– CCoommbbuussttiioonn iiss aa mmaajjoorr ssoouurrccee ooff ggrreeeennhhoouussee ggaasseess.\n– Soot contributes to global warming and is a health problem.\n• Fire Safety"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nWhyy Studyy Combustion?": "Given its pervasive use with annual U.S. fuel costs on the order\nof a trillion dollars even small improvements in combustion\ntechnology can significantly reduce fuel needs and"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "National Aeronautics and Space Administration\nWhyy Studyy Combustion?": "pollllutiion prodductiion!!\nwww.nasa.gov\n3"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nISS Combustion Expperiments\n• Flame Extinguishment (FLEX)\n– Combustion of a singgle liqquid dropplet\n• Idealized spherically symmetric combustion greatly\nfacilitates computational and theoretical analysis\n– Initial tests on efficacyy of fire suppppressants in\nmicrogravity, followed by fundamental science\n– Operating since early 2009 in the Combustion\nInteggrated Rack ((CIR))\n• Smoke Point In Coflow Experiment (SPICE)\n– Laminar gas-jet diffusion flame in coflow of air\n– SSttuddyiing soott generattiion, soott oxiiddattiion, andd hheatt\ntransfer in microgravity flames\n– Conducted in spring 2009 in the Microgravity Science\nGGllovebbox ((MMSSGG))\nwww.nasa.gov\n4",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "table",
+      "id": "b8",
+      "name": "Page 4 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 4,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nISS Combustion Expperiments"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nISS Combustion Expperiments": "• Flame Extinguishment (FLEX)\n– Combustion of a singgle liqquid dropplet"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nISS Combustion Expperiments": "• Idealized spherically symmetric combustion greatly\nfacilitates computational and theoretical analysis\n– Initial tests on efficacyy of fire suppppressants in"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nISS Combustion Expperiments": "microgravity, followed by fundamental science\n– Operating since early 2009 in the Combustion\nInteggrated Rack ((CIR))"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nISS Combustion Expperiments": "• Smoke Point In Coflow Experiment (SPICE)\n– Laminar gas-jet diffusion flame in coflow of air"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nISS Combustion Expperiments": "– SSttuddyiing soott generattiion, soott oxiiddattiion, andd hheatt\ntransfer in microgravity flames\n– Conducted in spring 2009 in the Microgravity Science"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nISS Combustion Expperiments": "GGllovebbox ((MMSSGG))\nwww.nasa.gov\n4"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nCombustion byy Facilityy\n• Combustion Integrated Rack (CIR)\n– Droplets FLEX Flame Extinguishment\n– GGases AACCMMEE AAddvancedd CCombbusttiion viia MMiicrograviitty EExperiimentts\n– Solids FLAME Flammability Assessment of Materials for Exploration\n• Microgravity Science Glovebox (MSG)\n–– GGaasseess SSPPIICCEE SSmmookkee PPooiinntt IInn CCooffllooww EExxppeerriimmeenntt\n– Gases SLICE Structure & Liftoff In Combustion Experiment\n– Solids BASS Burning And Suppression of Solids\nCIR, Ron Garan w/MDCA in CIR, Nicole Stott w/MDCA, Michael Barratt w/SPICE in MSG www.nasa.gov 5",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "table",
+      "id": "b10",
+      "name": "Page 5 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 5,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nCombustion byy Facilityy",
+        "column_2"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nCombustion byy Facilityy": "• Combustion Integrated Rack (CIR)\n– Droplets FLEX Flame Extinguishment",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nCombustion byy Facilityy": "",
+            "column_2": "– GGases AACCMMEE AAddvancedd CCombbusttiion viia MMiicrograviitty EExperiimentts\n– Solids FLAME Flammability Assessment of Materials for Exploration\n• Microgravity Science Glovebox (MSG)\n–– GGaasseess SSPPIICCEE SSmmookkee PPooiinntt IInn CCooffllooww EExxppeerriimmeenntt"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nCombustion byy Facilityy": "– Gases SLICE Structure & Liftoff In Combustion Experiment\n– Solids BASS Burning And Suppression of Solids",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nCombustion byy Facilityy": "CIR, Ron Garan w/MDCA in CIR, Nicole Stott w/MDCA, Michael Barratt w/SPICE in MSG www.nasa.gov 5",
+            "column_2": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nCombustion Integgrated Rack\nFuel/Oxidizer Management Environmental Control (ECS)\nAssembly (FOMA) • Air Thermal Control\n• Gas Distribution • Fire Detection & Suppppression\nIInntteerrnnaattiioonnaall SSttaannddaarrdd\n• Exhaust Vent • Water Thermal Control\nPayload Rack (ISPR)\n• Gas Interfaces (GN2, VES, VRS)\nImage\nCCoommbbuussttiioonn\nProcessing\nChamber\nand Storage\n(IPSU)\nOOppttiiccss\nBench Slides\nPassive Rack\nOptics Isolation Subsystem\nBench (PaRIS)\nPI Avionics\nScience Diagnostics\n• Illumination Package\n• LLow LLiighhtt LLevell ((22 UUniitts))\n• High Bit Depth Multi-Spectral\nExperiment-specific insert\nwww.nasa.gov\n6",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "table",
+      "id": "b12",
+      "name": "Page 6 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 6,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nCombustion Integgrated Rack"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nCombustion Integgrated Rack": "Fuel/Oxidizer Management Environmental Control (ECS)\nAssembly (FOMA) • Air Thermal Control\n• Gas Distribution • Fire Detection & Suppppression"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nCombustion Integgrated Rack": "IInntteerrnnaattiioonnaall SSttaannddaarrdd\n• Exhaust Vent • Water Thermal Control\nPayload Rack (ISPR)\n• Gas Interfaces (GN2, VES, VRS)\nImage\nCCoommbbuussttiioonn"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nCombustion Integgrated Rack": "Processing\nChamber\nand Storage\n(IPSU)\nOOppttiiccss"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nCombustion Integgrated Rack": "Bench Slides\nPassive Rack\nOptics Isolation Subsystem\nBench (PaRIS)"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nCombustion Integgrated Rack": "PI Avionics\nScience Diagnostics\n• Illumination Package"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nCombustion Integgrated Rack": "• LLow LLiighhtt LLevell ((22 UUniitts))\n• High Bit Depth Multi-Spectral\nExperiment-specific insert\nwww.nasa.gov\n6"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\n5 ACME Experiments\n8 Universities (+NASA Glenn) and 13 Investigators\n• BRE\n– Burning Rate Emulator\n– PPIIss:: JJaammeess GG. QQuuiinnttiieerree, PPeetteerr BB. SSuunnddeerrllaanndd ((bbootthh UU. MMaarryyllaanndd))\n• CLD Flame\n– Coflow Laminar Diffusion Flame\n– PIs: Marshall Longg,, Mitchell Smooke ((both Yale U.))\n• E-FIELD Flames\n– Electric-Field Effects on Laminar Diffusion Flames\n– PIs: Derek Dunn-Rankin (UC Irvine), Felix Weinberg (Imperial\nCCollllege)) , ZZeng-GGuang YYuan ((NNCCSSEERR att NNAASSAA GGllenn))\n• Flame Design\n- a novel approach to clean, efficient diffusion flames\n– PIs: Richard L. Axelbaum (Washington U. in St. Louis), Beei-Huan\nChao ((U. Hawaii)),, Peter B. Sunderland ((U. Maryyland)),, David L.\nUrban (NASA Glenn)\n• s-Flame\n– Structure and Response of Spherical Diffusion Flames\n– PIs: C.K. Law (Princeton U.), Stephen D. Tse (Rutgers U.), Kurt R.\nSacksteder (NASA Glenn)\nwww.nasa.gov\n7",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "table",
+      "id": "b14",
+      "name": "Page 7 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 7,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\n5 ACME Experiments"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\n5 ACME Experiments": "8 Universities (+NASA Glenn) and 13 Investigators\n• BRE\n– Burning Rate Emulator\n– PPIIss:: JJaammeess GG. QQuuiinnttiieerree, PPeetteerr BB. SSuunnddeerrllaanndd ((bbootthh UU. MMaarryyllaanndd))"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\n5 ACME Experiments": "• CLD Flame\n– Coflow Laminar Diffusion Flame\n– PIs: Marshall Longg,, Mitchell Smooke ((both Yale U.))"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\n5 ACME Experiments": "• E-FIELD Flames\n– Electric-Field Effects on Laminar Diffusion Flames\n– PIs: Derek Dunn-Rankin (UC Irvine), Felix Weinberg (Imperial"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\n5 ACME Experiments": "CCollllege)) , ZZeng-GGuang YYuan ((NNCCSSEERR att NNAASSAA GGllenn))\n• Flame Design\n- a novel approach to clean, efficient diffusion flames\n– PIs: Richard L. Axelbaum (Washington U. in St. Louis), Beei-Huan\nChao ((U. Hawaii)),, Peter B. Sunderland ((U. Maryyland)),, David L."
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\n5 ACME Experiments": "Urban (NASA Glenn)\n• s-Flame\n– Structure and Response of Spherical Diffusion Flames"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\n5 ACME Experiments": "– PIs: C.K. Law (Princeton U.), Stephen D. Tse (Rutgers U.), Kurt R.\nSacksteder (NASA Glenn)\nwww.nasa.gov\n7"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b15",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nBRE\n• Burning Rate Emulator\n– Jim Quintiere & Peter Sunderland (both U. Maryland)\n• Concept\n– Flat-plate burner with closed-loop regulation of\ngaseous fuel flow based on heat flux to the burner\nsiimullattiing tthhe combbusttiion off conddensedd ffuells\n– Fuels to be simulated include paper, plastic, alcohols\n• Goals\n– QQuantiiffy thhe iigniitiion andd extiinctiion bbehhaviior off\ncondensed fuels in microgravity.\n– Qunatify the effects of burning at enhanced oxygen\nccoonnddiittiioonnss iinn mmiiccrrooggrraavviittyy.\n• Why?\n– Spacecraft fire prevention through improved\naasssseessssmmeenntt ffoorr mmaatteerriiaallss sseelleeccttiioonn\nwww.nasa.gov\n8",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "table",
+      "id": "b16",
+      "name": "Page 8 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 8,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nBRE"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nBRE": "• Burning Rate Emulator\n– Jim Quintiere & Peter Sunderland (both U. Maryland)"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nBRE": "• Concept\n– Flat-plate burner with closed-loop regulation of\ngaseous fuel flow based on heat flux to the burner"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nBRE": "siimullattiing tthhe combbusttiion off conddensedd ffuells\n– Fuels to be simulated include paper, plastic, alcohols\n• Goals"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nBRE": "– QQuantiiffy thhe iigniitiion andd extiinctiion bbehhaviior off\ncondensed fuels in microgravity.\n– Qunatify the effects of burning at enhanced oxygen\nccoonnddiittiioonnss iinn mmiiccrrooggrraavviittyy."
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nBRE": "• Why?\n– Spacecraft fire prevention through improved\naasssseessssmmeenntt ffoorr mmaatteerriiaallss sseelleeccttiioonn"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nBRE": "www.nasa.gov\n8"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b17",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nCCLD Flaamee\n• Coflow Laminar Diffusion Flame\n– Marshall Long & Mitchell Smooke (both Yale U.)\n• Concept\n– Lifted coflow (2D) flame, so little/no heat loss to burner\n• enabling improved modeling of the flame\n• Goals\n– Generation of modified kinetic mechanisms for\nhydrocarbon fuels that are able to model effectively\nddiiffffusiion ffllame structure undder a llarger parameter\nrange than existing mechanisms.\n– Development of submodels for soot formation that are\nccaappaabbllee ooff pprreeddiiccttiinngg bbootthh hhiigghh aanndd llooww ssoooott llooaaddiinngg\nlevels in hydrocarbon flames of various fuels.\n• Why?\n– IImmpprroovveedd ddeessiiggnn ccaappaabbiilliittyy tthhrroouugghh vvaalliiddaattiioonn ooff\ncombustion models over wider parameter range\nwww.nasa.gov\n9",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "table",
+      "id": "b18",
+      "name": "Page 9 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 9,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nCCLD Flaamee"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nCCLD Flaamee": "• Coflow Laminar Diffusion Flame\n– Marshall Long & Mitchell Smooke (both Yale U.)"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nCCLD Flaamee": "• Concept\n– Lifted coflow (2D) flame, so little/no heat loss to burner\n• enabling improved modeling of the flame"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nCCLD Flaamee": "• Goals\n– Generation of modified kinetic mechanisms for\nhydrocarbon fuels that are able to model effectively"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nCCLD Flaamee": "ddiiffffusiion ffllame structure undder a llarger parameter\nrange than existing mechanisms.\n– Development of submodels for soot formation that are\nccaappaabbllee ooff pprreeddiiccttiinngg bbootthh hhiigghh aanndd llooww ssoooott llooaaddiinngg"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nCCLD Flaamee": "levels in hydrocarbon flames of various fuels.\n• Why?\n– IImmpprroovveedd ddeessiiggnn ccaappaabbiilliittyy tthhrroouugghh vvaalliiddaattiioonn ooff"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nCCLD Flaamee": "combustion models over wider parameter range\nwww.nasa.gov\n9"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nE-FIELD Flames\n• Electric-Field Effects on Laminar Diffusion Flames\n– Derek Dunn-Rankin (UC Irvine), Felix Weinberg\n((IImmppeerriiaall CCoolllleeggee, LLoonnddoonn)), ZZeenngg-GGuuaanngg YYuuaann ((NNCCSSEERR\nat NASA Glenn)\n• Concept\n1g, 0 kV, gas-jet\n– GGaass-jjeett oorr ccooffllooww ((22DD)) ffllaammee wwiitthh hhiigghh-vvoollttaaggee mmeesshh ((uupp\nto ±10 kV) electrode downstream of (above) burner\n• Goal\n–– UUnnddeerrssttaanndd cchheemmii--iioonniizzaattiioonn bbeehhaavviioorr aanndd tthhee rreessuullttiinngg\nion driven winds sufficiently well so that electrical\nproperties of flames can be used to characterize (by 0g, -0.6 kV, gas-jet\nmonitoring ion current) and control them (via direct\nchemical or local convective influences).\n• Why?\n– Advanced control capability enabling improved\ncombustion performance\n0g, 0kv, 24 cm/s coflow\nwww.nasa.gov\n10",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "table",
+      "id": "b20",
+      "name": "Page 10 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 10,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nE-FIELD Flames"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nE-FIELD Flames": "• Electric-Field Effects on Laminar Diffusion Flames\n– Derek Dunn-Rankin (UC Irvine), Felix Weinberg"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nE-FIELD Flames": "((IImmppeerriiaall CCoolllleeggee, LLoonnddoonn)), ZZeenngg-GGuuaanngg YYuuaann ((NNCCSSEERR\nat NASA Glenn)\n• Concept\n1g, 0 kV, gas-jet"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nE-FIELD Flames": "– GGaass-jjeett oorr ccooffllooww ((22DD)) ffllaammee wwiitthh hhiigghh-vvoollttaaggee mmeesshh ((uupp\nto ±10 kV) electrode downstream of (above) burner\n• Goal\n–– UUnnddeerrssttaanndd cchheemmii--iioonniizzaattiioonn bbeehhaavviioorr aanndd tthhee rreessuullttiinngg"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nE-FIELD Flames": "ion driven winds sufficiently well so that electrical\nproperties of flames can be used to characterize (by 0g, -0.6 kV, gas-jet\nmonitoring ion current) and control them (via direct"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nE-FIELD Flames": "chemical or local convective influences).\n• Why?\n– Advanced control capability enabling improved"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nE-FIELD Flames": "combustion performance\n0g, 0kv, 24 cm/s coflow\nwww.nasa.gov\n10"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b21",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nFlaamee Deessiggn\n18%\nC2H4\n• A novel approach to clean, efficient diffusion flames\ninto\n– Rich Axelbaum (Washington U., St. Louis), Beei- 27%\nO2\nHHuuaann CChhaaoo ((UU. HHaawwaaiiii)), PPeetteerr SSuunnddeerrllaanndd ((UU.\nMaryland), David L. Urban (NASA Glenn)\n• Concept\n18%\n– Sppherical ((1D)) flame with nitroggen exchangge C2H4\nIInnttoo\n• Goals 28%\nO2\n– Evaluate the effects of flame structure on soot\ninception and flame extinction\n– OObbttaaiinn aa ccoorrrreellaattiioonn ooff ssoooottiinngg lliimmiittss wwiitthh\n100%\nstoichiometric mixture fraction, Zst, and adiabatic\nO2\ntemperature, Tad into\n12%\n– Determine the importance of gas-phase oxidation on\nC2H4\nssoooott iinncceeppttiioonn ffoorr hhiigghh ZZsstt ffllaammeess\n– Demonstrate the existence of steady spherical flames\n– Identify pseudo-flammability limits for diffusion flames\n100%\nin terms of Zst and Tad\nO2\niinnttoo\n• Why?\n13%\n– To reduce soot and NOx through nitrogen exchange C2H4\nwww.nasa.gov\n11",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "table",
+      "id": "b22",
+      "name": "Page 11 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 11,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nFlaamee Deessiggn"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nFlaamee Deessiggn": "18%\nC2H4\n• A novel approach to clean, efficient diffusion flames\ninto\n– Rich Axelbaum (Washington U., St. Louis), Beei- 27%\nO2"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nFlaamee Deessiggn": "HHuuaann CChhaaoo ((UU. HHaawwaaiiii)), PPeetteerr SSuunnddeerrllaanndd ((UU.\nMaryland), David L. Urban (NASA Glenn)\n• Concept\n18%\n– Sppherical ((1D)) flame with nitroggen exchangge C2H4"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nFlaamee Deessiggn": "IInnttoo\n• Goals 28%\nO2\n– Evaluate the effects of flame structure on soot\ninception and flame extinction"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nFlaamee Deessiggn": "– OObbttaaiinn aa ccoorrrreellaattiioonn ooff ssoooottiinngg lliimmiittss wwiitthh\n100%\nstoichiometric mixture fraction, Zst, and adiabatic\nO2\ntemperature, Tad into\n12%\n– Determine the importance of gas-phase oxidation on\nC2H4"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nFlaamee Deessiggn": "ssoooott iinncceeppttiioonn ffoorr hhiigghh ZZsstt ffllaammeess\n– Demonstrate the existence of steady spherical flames\n– Identify pseudo-flammability limits for diffusion flames\n100%\nin terms of Zst and Tad\nO2"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nFlaamee Deessiggn": "iinnttoo\n• Why?\n13%\n– To reduce soot and NOx through nitrogen exchange C2H4\nwww.nasa.gov\n11"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b23",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\ns-Flame\n• Structure and Response of Spherical Diffusion Flames\n– C.K. Law (Princeton U.), Stephen D. Tse (Rutgers U.), Kurt R.\nSSaacckksstteeddeerr ((NNAASSAA GGlleennnn))\n• Concept\n– Spherical (1D) flame stabilized on a porous burner\n• GGoals\n– Use spherical diffusion flames in long-duration ISS environment\nto:\n• obbttaiin experiimenttall ddatta iin siimplle, wellll-ddeffiinedd ffllow ffiielldds\n• understand various key elemental diffusion flame processes\n– Compare data with those obtained through independent\nccoommppuuttaattiioonnaall ssiimmuullaattiioonn wwiitthh ddeettaaiilleedd cchheemmiissttrryy aanndd ttrraannssppoorrtt\nto improve the accuracy and comprehensiveness of these\ndescriptions\n• Why?\nflame\n– Improvements in the design of practical, high-efficiency, low- evolluttiion\nwith time\nemission combustion systems on Earth\nwww.nasa.gov\n12",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "table",
+      "id": "b24",
+      "name": "Page 12 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 12,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\ns-Flame"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\ns-Flame": "• Structure and Response of Spherical Diffusion Flames\n– C.K. Law (Princeton U.), Stephen D. Tse (Rutgers U.), Kurt R."
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\ns-Flame": "SSaacckksstteeddeerr ((NNAASSAA GGlleennnn))\n• Concept\n– Spherical (1D) flame stabilized on a porous burner"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\ns-Flame": "• GGoals\n– Use spherical diffusion flames in long-duration ISS environment\nto:"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\ns-Flame": "• obbttaiin experiimenttall ddatta iin siimplle, wellll-ddeffiinedd ffllow ffiielldds\n• understand various key elemental diffusion flame processes\n– Compare data with those obtained through independent\nccoommppuuttaattiioonnaall ssiimmuullaattiioonn wwiitthh ddeettaaiilleedd cchheemmiissttrryy aanndd ttrraannssppoorrtt"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\ns-Flame": "to improve the accuracy and comprehensiveness of these\ndescriptions\n• Why?\nflame"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\ns-Flame": "– Improvements in the design of practical, high-efficiency, low- evolluttiion\nwith time\nemission combustion systems on Earth\nwww.nasa.gov\n12"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b25",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nACME Apppproach\n• In general, ACME is not a technology\ndemonstration,, but is seekingg to impprove\nlife on Earth via the path below.\nIImmpprroovveedd uunnddeerrssttaannddiinngg ooff\ncombustion fundamentals\nACME\nIImmpprroovveedd nnuummeerriiccaall mmooddeellss\nof combustion processes\nImproved design tools\nfrom\nAACCMMEE\nIImmpprroovveedd pprraaccttiiccaall\ncombustion devices\nwww.nasa.gov\n13",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "table",
+      "id": "b26",
+      "name": "Page 13 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 13,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nACME Apppproach"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Apppproach": "• In general, ACME is not a technology\ndemonstration,, but is seekingg to impprove"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Apppproach": "life on Earth via the path below.\nIImmpprroovveedd uunnddeerrssttaannddiinngg ooff"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Apppproach": "combustion fundamentals\nACME"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Apppproach": "IImmpprroovveedd nnuummeerriiccaall mmooddeellss\nof combustion processes"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Apppproach": "Improved design tools\nfrom\nAACCMMEE\nIImmpprroovveedd pprraaccttiiccaall"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Apppproach": "combustion devices\nwww.nasa.gov\n13"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b27",
+      "name": "Page 13 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 13,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "IImmpprroovveedd uunnddeerrssttaannddiinngg ooff"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "IImmpprroovveedd uunnddeerrssttaannddiinngg ooff": "combustion fundamentals"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b28",
+      "name": "Page 13 table 4",
+      "confidence": "low",
+      "location": {
+        "page": 13,
+        "table": 4
+      },
+      "headerRow": 1,
+      "columns": [
+        "IImmpprroovveedd pprraaccttiiccaall"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "IImmpprroovveedd pprraaccttiiccaall": "combustion devices"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b29",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nACME Commonalityy\n• All experiments are microgravity studies of\nflames that are:\n– Gas-fueled\n+1.75 kV\n– Laminar\n• flow is smooth and not turbulent (i.e., it does\nnnoott hhaavvee sswwiirrlliinngg vvoorrttiicceess))\n– Non-premixed (aka diffusion) +2.00 kV\n• where the fuel and oxidizer (e.g., air) are on\nopppposite sides of the reaction sheet where\nthey come together, react, and emit products\nof combustion (including heat and light)\n+2.25 kV\n• Most are 1D (spherical) or 2D (jet)\nwww.nasa.gov\n14",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "table",
+      "id": "b30",
+      "name": "Page 14 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 14,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nACME Commonalityy"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Commonalityy": "• All experiments are microgravity studies of\nflames that are:"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Commonalityy": "– Gas-fueled\n+1.75 kV\n– Laminar\n• flow is smooth and not turbulent (i.e., it does"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Commonalityy": "nnoott hhaavvee sswwiirrlliinngg vvoorrttiicceess))\n– Non-premixed (aka diffusion) +2.00 kV\n• where the fuel and oxidizer (e.g., air) are on\nopppposite sides of the reaction sheet where"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Commonalityy": "they come together, react, and emit products\nof combustion (including heat and light)\n+2.25 kV\n• Most are 1D (spherical) or 2D (jet)"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Commonalityy": "www.nasa.gov\n14"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b31",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames\n• 4 previous space experiments\n– LSP: Laminar Soot Processes\n• PPII:: GG.MM. FFaaeetthh ((UU. MMiicchhiiggaann))\n• Combustion Module\n• STS-83 and STS-94 (1997), STS-107 (2003)\n– TGDF: Turbulent Gas-jjet Diffusion Flames\n• PI: M.Y. Bahadori (SAIC)\n• Get Away Special Canister (GAS can)\n• STS-87 (1997)\n– EELLFF:: EEnncclloosseedd LLaammiinnaarr FFllaammeess\n• PI: L.-D. Chen (U. Iowa)\n• Middeck Glovebox (MGBX)\n• STS-87 (1997)\n– SPICE: Smoke Point In Coflow Experiment\n• PI: D.L. Urban (NASA Glenn) - initially G.M. Faeth\n• Microgravity Science Glovebox (MSG)\n• IISSSS EExxppeeddiittiioonnss 1188-1199 ((22000099))\nRoger Crouch with CM-1 (top), Steve Lindsey and Takao Doi with ELF in MGBX (bottom) www.nasa.gov 15",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "table",
+      "id": "b32",
+      "name": "Page 15 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 15,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames": "• 4 previous space experiments\n– LSP: Laminar Soot Processes"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames": "• PPII:: GG.MM. FFaaeetthh ((UU. MMiicchhiiggaann))\n• Combustion Module\n• STS-83 and STS-94 (1997), STS-107 (2003)\n– TGDF: Turbulent Gas-jjet Diffusion Flames"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames": "• PI: M.Y. Bahadori (SAIC)\n• Get Away Special Canister (GAS can)\n• STS-87 (1997)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames": "– EELLFF:: EEnncclloosseedd LLaammiinnaarr FFllaammeess\n• PI: L.-D. Chen (U. Iowa)\n• Middeck Glovebox (MGBX)\n• STS-87 (1997)"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames": "– SPICE: Smoke Point In Coflow Experiment\n• PI: D.L. Urban (NASA Glenn) - initially G.M. Faeth\n• Microgravity Science Glovebox (MSG)\n• IISSSS EExxppeeddiittiioonnss 1188-1199 ((22000099))"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nLaminar Gaseous Diffusion Flames": "Roger Crouch with CM-1 (top), Steve Lindsey and Takao Doi with ELF in MGBX (bottom) www.nasa.gov 15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b33",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nACME Conceppt\n• Conduct 5 ACME experiments using a single modular insert for\nthe Combustion Integrated Rack (CIR) on the ISS\n– The only existing insert (MDCA) is for the FLEX droplet combustion experiments\nKoichi Wakata with MDCA in CIR (left), ISS (right) www.nasa.gov 16",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "table",
+      "id": "b34",
+      "name": "Page 16 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 16,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nACME Conceppt"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Conceppt": "• Conduct 5 ACME experiments using a single modular insert for\nthe Combustion Integrated Rack (CIR) on the ISS"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Conceppt": "– The only existing insert (MDCA) is for the FLEX droplet combustion experiments"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Conceppt": "Koichi Wakata with MDCA in CIR (left), ISS (right) www.nasa.gov 16"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b35",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nACME Hardware\ndigital\nmodular color\ninsert camera\nggaass bboottttlleess aanndd ffiilltteerrss\nburners avionics package\nwww.nasa.gov\n17",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "table",
+      "id": "b36",
+      "name": "Page 17 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 17,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nACME Hardware"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware": "digital\nmodular color\ninsert camera"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware": "ggaass bboottttlleess aanndd ffiilltteerrss"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Hardware": "burners avionics package\nwww.nasa.gov\n17"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b37",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nACME Insert\n3 Photomultiplier Tubes (PMTs)\nThin-Filament Pyrometry (TFP) array\nThermocouples\n3 Mass Flow\nControllers\n(MFCs)\nCamera, color, analog\nRadiometer array (6 thermopiles)\nElectrode, mesh\nBurner\nIgniter, hot-wire, retracting\nwww.nasa.gov",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "table",
+      "id": "b38",
+      "name": "Page 18 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 18,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nACME Insert"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Insert": "3 Photomultiplier Tubes (PMTs)\nThin-Filament Pyrometry (TFP) array\nThermocouples"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Insert": "3 Mass Flow\nControllers\n(MFCs)"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Insert": "Camera, color, analog\nRadiometer array (6 thermopiles)"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nACME Insert": "Electrode, mesh\nBurner\nIgniter, hot-wire, retracting\nwww.nasa.gov"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b39",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nGas Flow System\n• Delivers 3 gases from CIR to\nthe chamber or burner\n• fuel (2 slpm max in N2 basis)\n• oxygen/inert mix or diluent\n(e.g., He or CO2)\n• nitrogen (from ISS)\n• Mass flow controllers (crew\nswappable to vary flow ranges)\nwww.nasa.gov",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "table",
+      "id": "b40",
+      "name": "Page 19 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 19,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nGas Flow System",
+        "column_2",
+        "column_3",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8",
+        "column_9"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas Flow System": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "• Delivers 3 gases from CIR to\nthe chamber or burner\n• fuel (2 slpm max in N2 basis)"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas Flow System": "• oxygen/inert mix or diluent\n(e.g., He or CO2)\n• nitrogen (from ISS)",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas Flow System": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "• Mass flow controllers (crew\nswappable to vary flow ranges)"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nGas Flow System": "www.nasa.gov",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b41",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nBurners & Iggniter\n• Four types of burners are planned:\n• gas-jet burners 0.4, 0.8, 1.3, 1.6, 2.1, 2.7 and 3.2 mm ID\n• spherical burners 0.25, 0.375, 0.5 inch, porous\n• flat-plate burner 4-cm diameter, porous\n• coflow burner 2.1-mm ID inner tube, 25-mm ID outer tube\n• Thermocouple for surface temperature on most burners\n• Burners will be electrically isolated\n• Hot-wire igniter, retracting, similar to that already in use for MDCA\n• Igniter tips are replaceable, e.g., to match the burner type/size\nHoneycomb Igniter, hot-wire, retracting\nspherical\nburner\ngas-jet burner coflow burner\nwww.nasa.gov",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "table",
+      "id": "b42",
+      "name": "Page 20 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 20,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nBurners & Iggniter",
+        "column_2"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurners & Iggniter": "• Four types of burners are planned:\n• gas-jet burners 0.4, 0.8, 1.3, 1.6, 2.1, 2.7 and 3.2 mm ID",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurners & Iggniter": "• spherical burners 0.25, 0.375, 0.5 inch, porous\n• flat-plate burner 4-cm diameter, porous\n• coflow burner 2.1-mm ID inner tube, 25-mm ID outer tube",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurners & Iggniter": "• Thermocouple for surface temperature on most burners\n• Burners will be electrically isolated\n• Hot-wire igniter, retracting, similar to that already in use for MDCA",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurners & Iggniter": "• Igniter tips are replaceable, e.g., to match the burner type/size\nHoneycomb Igniter, hot-wire, retracting",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurners & Iggniter": "",
+            "column_2": "Honeycomb"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "National Aeronautics and Space Administration\nBurners & Iggniter": "spherical\nburner\ngas-jet burner coflow burner\nwww.nasa.gov",
+            "column_2": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b43",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nElectric Field\n• ±10kV at copper mesh downstream\nof (i.e., above) isolated burner\nNozzle Insulator\n• Ion current through flame is\nMesh\nGas supply\ndetermined from Ohm’s law (I=V/R) electrode\ntubes\nShunt for current\nand a measurement of the voltage\nH.V measurement, Rs\n.\ndifference across a shunt resistor\nCChhaammbbeerr LLooww vvoollttaaggee iinnppuutt, ee.gg., 00-2244VVDDCC\n(in series with the flame)\n• copper mesh screen (removable)\n• 2 high-voltage sources (removable)\n• ppaassssiivvee eelleeccttrroonniiccss ((ffiixxeedd))\nElectrode mesh\nCoflow flame\nwww.nasa.gov",
+      "location": {
+        "page": 21
+      }
+    },
+    {
+      "type": "table",
+      "id": "b44",
+      "name": "Page 21 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 21,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nElectric Field"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectric Field": "• ±10kV at copper mesh downstream\nof (i.e., above) isolated burner\nNozzle Insulator"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectric Field": "• Ion current through flame is\nMesh\nGas supply\ndetermined from Ohm’s law (I=V/R) electrode\ntubes\nShunt for current\nand a measurement of the voltage\nH.V measurement, Rs\n.\ndifference across a shunt resistor\nCChhaammbbeerr"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectric Field": "LLooww vvoollttaaggee iinnppuutt, ee.gg., 00-2244VVDDCC\n(in series with the flame)\n• copper mesh screen (removable)\n• 2 high-voltage sources (removable)\n• ppaassssiivvee eelleeccttrroonniiccss ((ffiixxeedd))"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectric Field": "Electrode mesh"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "National Aeronautics and Space Administration\nElectric Field": "Coflow flame\nwww.nasa.gov"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b45",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nBasic Imaggingg\n• Color Imaging for Ops\n– Analog color camera\n(removable) with a 45-degree\nturning mirror\n– LEDs for optional illumination\n• Color Imaging for Data\n– GGiigg-EE ccoolloorr ccaammeerraa,, 11..44\nmegapixel, 12 bit, 30 fps with\nmotorized control of both\nzoom & iris\n– 3 optional filters including a\nblue-green BG-7 filter for\npyrometry (to avoid saturation\nin the red)\n• Ultraviolet (UV) Imaging\n– Existing LLL-UV camera\nequipped with a 310-nm\nnarrow band filter for imaging\nOH*\n– FFiieelldd ooff vviieeww ((FFOOVV)) ooppttiioonnss::\n50-mm and 80-mm diameter\nwww.nasa.gov\n22",
+      "location": {
+        "page": 22
+      }
+    },
+    {
+      "type": "table",
+      "id": "b46",
+      "name": "Page 22 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 22,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nBasic Imaggingg"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nBasic Imaggingg": "• Color Imaging for Ops\n– Analog color camera\n(removable) with a 45-degree"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nBasic Imaggingg": "turning mirror\n– LEDs for optional illumination\n• Color Imaging for Data\n– GGiigg-EE ccoolloorr ccaammeerraa,, 11..44"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nBasic Imaggingg": "megapixel, 12 bit, 30 fps with\nmotorized control of both\nzoom & iris\n– 3 optional filters including a"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nBasic Imaggingg": "blue-green BG-7 filter for\npyrometry (to avoid saturation\nin the red)\n• Ultraviolet (UV) Imaging"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nBasic Imaggingg": "– Existing LLL-UV camera\nequipped with a 310-nm\nnarrow band filter for imaging\nOH*"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "National Aeronautics and Space Administration\nBasic Imaggingg": "– FFiieelldd ooff vviieeww ((FFOOVV)) ooppttiioonnss::\n50-mm and 80-mm diameter\nwww.nasa.gov\n22"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b47",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nAdvanced Imaggingg\n• Pyrometry for Hot Soot-\nContaining & Soot-Free Regions\n– Determine tempperature distribution from\nbroadband thermal radiation using an\nexisting HiBMs camera with liquid-\ncrystal tunable filter\n– Thin-Filament Pyrometry (TFP) to\nddetermiine temperature proffiilles ffrom thhe\nSoot pyrometry\nbroadband thermal radiation, where the\nspectrum is indicative of the fiber\nTFP Soot vol. fraction HiBMs camera\ntemperature. Array of 15-micron\nooxiddizeedd SSiCC fibbeerss ssttreettccheedd aaccroossss tthee\nflame with motor to allow for scanning or\nremoval of the fibers from the flame.\n– Field of view (FOV) options: 30-mm and\n50-mm diameter\n• Soot Volume Fraction\n– Existing CIR illumination package\n(based on 653-nm laser diode) and a\nsecond HiBMs camera\n– Field of view (FOV) options: 30-mm, 50-\nmm, and 90-mm diameter\nwww.nasa.gov\n23",
+      "location": {
+        "page": 23
+      }
+    },
+    {
+      "type": "table",
+      "id": "b48",
+      "name": "Page 23 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 23,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nAdvanced Imaggingg"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nAdvanced Imaggingg": "• Pyrometry for Hot Soot-\nContaining & Soot-Free Regions\n– Determine tempperature distribution from"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nAdvanced Imaggingg": "broadband thermal radiation using an\nexisting HiBMs camera with liquid-\ncrystal tunable filter\n– Thin-Filament Pyrometry (TFP) to"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nAdvanced Imaggingg": "ddetermiine temperature proffiilles ffrom thhe\nSoot pyrometry\nbroadband thermal radiation, where the\nspectrum is indicative of the fiber\nTFP Soot vol. fraction HiBMs camera\ntemperature. Array of 15-micron\nooxiddizeedd SSiCC fibbeerss ssttreettccheedd aaccroossss tthee"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nAdvanced Imaggingg": "flame with motor to allow for scanning or\nremoval of the fibers from the flame.\n– Field of view (FOV) options: 30-mm and\n50-mm diameter"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nAdvanced Imaggingg": "• Soot Volume Fraction\n– Existing CIR illumination package\n(based on 653-nm laser diode) and a\nsecond HiBMs camera"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "National Aeronautics and Space Administration\nAdvanced Imaggingg": "– Field of view (FOV) options: 30-mm, 50-\nmm, and 90-mm diameter\nwww.nasa.gov\n23"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b49",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nEmission Measurements\n• 3 Photomultiplier Tubes (PMTs) 1\n• Broadband, OH*, CH*\nPMT\nBroadband, OH , CH\n• Array of 6 thermopile detectors\n• Broadband thermal radiation\nColor\n• Wide and narrow angle\nCamera\n3 7\n60°\nRadiometers\n60\n5\n30\n0\n-30\n-60\nwww.nasa.gov",
+      "location": {
+        "page": 24
+      }
+    },
+    {
+      "type": "table",
+      "id": "b50",
+      "name": "Page 24 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 24,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nEmission Measurements",
+        "column_2",
+        "column_3"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nEmission Measurements": "• 3 Photomultiplier Tubes (PMTs) 1\nPMT\n• Broadband, OH*, CH* Broadband, OH , CH",
+            "column_2": "",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nEmission Measurements": "• Array of 6 thermopile detectors\n• Broadband thermal radiation\nColor\n• Wide and narrow angle\nCamera",
+            "column_2": "",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nEmission Measurements": "",
+            "column_2": "60°\n60\n30\n0",
+            "column_3": "3 7\nRadiometers\n5"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nEmission Measurements": "-30\n-60",
+            "column_2": "",
+            "column_3": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nEmission Measurements": "www.nasa.gov",
+            "column_2": "",
+            "column_3": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b51",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nOpptical\n1\nLayout\nPMT\nColor\nCamera\n3 7\nelgniS USPI\nRadiometers\nS\nLLL-UV\nAnalog\n5\nSSttaacckkeedd\n2 IPSUs HiBMs (1 & 2)\nIllumination\nwww.nasa.gov",
+      "location": {
+        "page": 25
+      }
+    },
+    {
+      "type": "table",
+      "id": "b52",
+      "name": "Page 25 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 25,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nOpptical",
+        "column_2",
+        "column_3",
+        "column_4",
+        "column_5"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nOpptical": "1\nLayout\nPMT",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nOpptical": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "elgniSS\nUSPI",
+            "column_5": "Color\nCamera\n3 7"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nOpptical": "",
+            "column_2": "",
+            "column_3": "Radiometers\nLLL-UV",
+            "column_4": "",
+            "column_5": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nOpptical": "Analog\n5\nSSttaacckkeedd",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nOpptical": "2 IPSUs HiBMs (1 & 2)\nIllumination",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "National Aeronautics and Space Administration\nOpptical": "www.nasa.gov",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b53",
+      "name": "Page 25 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 25,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "SSttaacckkeedd"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "SSttaacckkeedd": "2 IPSUs"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b54",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nNon-Opptical Diaggnostics\n• Temperature\n– Burner\n– Far-Field\n• Thermocouple rake (with 4 TCs) is\ncrew removable or swappable for\ndifferent TC positions.\n• Ion Current\n– for tests with the electric field\n• Post-Test Gas Composition\nThermocoupple\nrake and 2 fixed\nthermocouples\nMDCA and CIR www.nasa.gov 26",
+      "location": {
+        "page": 26
+      }
+    },
+    {
+      "type": "table",
+      "id": "b55",
+      "name": "Page 26 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 26,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nNon-Opptical Diaggnostics"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nNon-Opptical Diaggnostics": "• Temperature\n– Burner"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nNon-Opptical Diaggnostics": "– Far-Field\n• Thermocouple rake (with 4 TCs) is\ncrew removable or swappable for\ndifferent TC positions."
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nNon-Opptical Diaggnostics": "• Ion Current\n– for tests with the electric field\n• Post-Test Gas Composition"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nNon-Opptical Diaggnostics": "Thermocoupple"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nNon-Opptical Diaggnostics": "rake and 2 fixed\nthermocouples\nMDCA and CIR www.nasa.gov 26"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b56",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nMonitoringg Measurements\n• Chamber Pressure\n• Oxygen Concentration\n• Gas Flow Rates\n• Burner Pressure Differential\n• EElleeccttrriiccaall PPootteennttiiaall\n– for tests with the electric field\n• Acceleration\nThese measurements are reqquired to\nverify boundary & initial conditions and\nthus enable modeling and analysis.\nMichael Barratt with MDCA in CIR www.nasa.gov 27",
+      "location": {
+        "page": 27
+      }
+    },
+    {
+      "type": "table",
+      "id": "b57",
+      "name": "Page 27 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 27,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nMonitoringg Measurements"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nMonitoringg Measurements": "• Chamber Pressure\n• Oxygen Concentration"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nMonitoringg Measurements": "• Gas Flow Rates\n• Burner Pressure Differential\n• EElleeccttrriiccaall PPootteennttiiaall"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nMonitoringg Measurements": "– for tests with the electric field\n• Acceleration"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nMonitoringg Measurements": "These measurements are reqquired to"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nMonitoringg Measurements": "verify boundary & initial conditions and\nthus enable modeling and analysis.\nMichael Barratt with MDCA in CIR www.nasa.gov 27"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b58",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nNominal Opperational Seqquence\n• Flow > Ignite > Measure > Extinguish\n– Initiate burner flows at iggnition condition\n– Ignite flame\n• Wait for flame to stabilize\n–– IIff nneeeeddeedd, aaddjjuusstt fflloowwss ttoo iinniittiiaall tteesstt ccoonnddiittiioonn\n• Wait for flame to stabilize\n– If desired:\n• rraammpp bbuurrnneerr ffllooww((ss))\n• activate and adjust electric field\n• translate TFP array\n– SSttop bburner ffllows\n• per extinction detection, test duration, etc.\n• Control can be automated or “manual”\nNicole Stott with CIR www.nasa.gov 28",
+      "location": {
+        "page": 28
+      }
+    },
+    {
+      "type": "table",
+      "id": "b59",
+      "name": "Page 28 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 28,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nNominal Opperational Seqquence"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nNominal Opperational Seqquence": "• Flow > Ignite > Measure > Extinguish\n– Initiate burner flows at iggnition condition"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nNominal Opperational Seqquence": "– Ignite flame\n• Wait for flame to stabilize\n–– IIff nneeeeddeedd, aaddjjuusstt fflloowwss ttoo iinniittiiaall tteesstt ccoonnddiittiioonn"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nNominal Opperational Seqquence": "• Wait for flame to stabilize\n– If desired:"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nNominal Opperational Seqquence": "• rraammpp bbuurrnneerr ffllooww((ss))\n• activate and adjust electric field\n• translate TFP array"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nNominal Opperational Seqquence": "– SSttop bburner ffllows\n• per extinction detection, test duration, etc."
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nNominal Opperational Seqquence": "• Control can be automated or “manual”\nNicole Stott with CIR www.nasa.gov 28"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b60",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nACCME SSttaattuuss\n• Current activity is detailed design\n• Schedule Summary\n• 2012 ISS ops for precursor, SLICE\n• 2013 Critical Design Review (CDR)\n• 2016-2017 ISS ops for ACME\nMike Fossum with CIR (left), Satoshi Furukawa with CIR (right) www.nasa.gov 29",
+      "location": {
+        "page": 29
+      }
+    },
+    {
+      "type": "table",
+      "id": "b61",
+      "name": "Page 29 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 29,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nACCME SSttaattuuss"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nACCME SSttaattuuss": "• Current activity is detailed design\n• Schedule Summary"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nACCME SSttaattuuss": "• 2012 ISS ops for precursor, SLICE\n• 2013 Critical Design Review (CDR)\n• 2016-2017 ISS ops for ACME"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nACCME SSttaattuuss": "Mike Fossum with CIR (left), Satoshi Furukawa with CIR (right) www.nasa.gov 29"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b62",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nSSLLIICCEE\nStructure & Liftoff In Combustion Expperiment\n• Precursor to ACME’s CLD Flame\n• PIs: Marshall B. Long and Mitchell D. Smooke\n((both of Yale U.)),, Fumiaki Takahashi ((NCSER at\nNASA Glenn), Dennis P. Stocker (NASA Glenn)\n• Goal: To investigate the structure of lifting\nand lifted flames. To improve understanding of the\nphhysiicall andd chhemiicall processes conttrolllliing ddiiffffusiion\nflame structure and lifting phenomena and to provide\nfor rigorous testing of numerical models, including\nthermal radiation, soot formation, & detailed chemical\nkkiinettiics.\n• Laminar gas-jet diffusion flames studied in\nfan-driven flow duct (SPICE) within the\nMMiiccrrooggrraavviittyy SScciieennccee GGlloovveebbooxx ((MMSSGG))..\nFlame images above from preliminary tests in 2009 (w/SPICE ops)\nwww.nasa.gov\n30",
+      "location": {
+        "page": 30
+      }
+    },
+    {
+      "type": "table",
+      "id": "b63",
+      "name": "Page 30 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 30,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration": "SSLLIICCEE\nStructure & Liftoff In Combustion Expperiment"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration": "• Precursor to ACME’s CLD Flame\n• PIs: Marshall B. Long and Mitchell D. Smooke\n((both of Yale U.)),, Fumiaki Takahashi ((NCSER at"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration": "NASA Glenn), Dennis P. Stocker (NASA Glenn)\n• Goal: To investigate the structure of lifting\nand lifted flames. To improve understanding of the"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration": "phhysiicall andd chhemiicall processes conttrolllliing ddiiffffusiion\nflame structure and lifting phenomena and to provide\nfor rigorous testing of numerical models, including\nthermal radiation, soot formation, & detailed chemical"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration": "kkiinettiics.\n• Laminar gas-jet diffusion flames studied in\nfan-driven flow duct (SPICE) within the\nMMiiccrrooggrraavviittyy SScciieennccee GGlloovveebbooxx ((MMSSGG)).."
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration": "Flame images above from preliminary tests in 2009 (w/SPICE ops)\nwww.nasa.gov\n30"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b64",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nQQuestions?\nMike Fossum with MDCA in CIR www.nasa.gov 31",
+      "location": {
+        "page": 31
+      }
+    },
+    {
+      "type": "table",
+      "id": "b65",
+      "name": "Page 31 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 31,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nQQuestions?"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 7,
+          "raw": {
+            "National Aeronautics and Space Administration\nQQuestions?": "Mike Fossum with MDCA in CIR www.nasa.gov 31"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b66",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nAcknowledggements\n• NASA Glenn\n(Cleveland, OH)\n• ISS Research Program Manager Fred Kohl\n•• IISSSS RReesseeaarrcchh PPrroojjeecctt MMaannaaggeerr TToomm SStt. OOnnggee\n• Space Experiments: Combustion David Urban\n• ACME Project Manager J. Mark Hickman\n• SLICE Projject Managger Bob Hawersaat\n• NCSER\n(at NASA Glenn)\n• ACME Deputy Project Scientists Paul Ferkul\nFumiaki Takahashi\n•• IImmaaggiinngg ((AACCMMEE aanndd SSLLIICCEE)) JJaayy OOwweennss\n• ZIN Technologies, Inc.\n(Cleveland, OH)\n• ACME Project Manager Brian Borowski\n• Diaggnostics Steve Lawn\n• Electrical/Electronics Tim Gobeli\n• Mechanical Adrian Drake\n• Software Mike Medved\n•• SSLLIICCEE PPrroojjeecctt MMaannaaggeerr TTiibboorr LLoorriikk\n• Operations Chuck Bunnell\nwww.nasa.gov\n32",
+      "location": {
+        "page": 32
+      }
+    },
+    {
+      "type": "table",
+      "id": "b67",
+      "name": "Page 32 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 32,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "National Aeronautics and Space Administration\nAcknowledggements",
+        "column_2"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "National Aeronautics and Space Administration\nAcknowledggements": "• NASA Glenn\n(Cleveland, OH)\n• ISS Research Program Manager Fred Kohl",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "National Aeronautics and Space Administration\nAcknowledggements": "",
+            "column_2": "• NASA Glenn\n(Cleveland, OH)\n• ISS Research Program Manager Fred Kohl"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "National Aeronautics and Space Administration\nAcknowledggements": "",
+            "column_2": "•• IISSSS RReesseeaarrcchh PPrroojjeecctt MMaannaaggeerr TToomm SStt. OOnnggee\n• Space Experiments: Combustion David Urban\n• ACME Project Manager J. Mark Hickman\n• SLICE Projject Managger Bob Hawersaat"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "National Aeronautics and Space Administration\nAcknowledggements": "",
+            "column_2": "• NCSER\n(at NASA Glenn)\n• ACME Deputy Project Scientists Paul Ferkul\nFumiaki Takahashi"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "National Aeronautics and Space Administration\nAcknowledggements": "",
+            "column_2": "•• IImmaaggiinngg ((AACCMMEE aanndd SSLLIICCEE)) JJaayy OOwweennss\n• ZIN Technologies, Inc.\n(Cleveland, OH)\n• ACME Project Manager Brian Borowski\n• Diaggnostics Steve Lawn"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "National Aeronautics and Space Administration\nAcknowledggements": "",
+            "column_2": "• Electrical/Electronics Tim Gobeli\n• Mechanical Adrian Drake\n• Software Mike Medved"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "National Aeronautics and Space Administration\nAcknowledggements": "•• SSLLIICCEE PPrroojjeecctt MMaannaaggeerr TTiibboorr LLoorriikk\n• Operations Chuck Bunnell\nwww.nasa.gov\n32",
+            "column_2": "•• SSLLIICCEE PPrroojjeecctt MMaannaaggeerr TTiibboorr LLoorriikk"
+          }
+        }
+      ]
+    }
+  ]
+}

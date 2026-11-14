@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-23",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-23_Presentations_PS-01548 ACME info sheet.pdf",
+    "folder": "Presentations",
+    "subfolder": null,
+    "key": "psi-data/PSI-23/Presentations/PSI-23_Presentations_PS-01548 ACME info sheet.pdf",
+    "version": 1,
+    "sizeBytes": 874049,
+    "sha256": "7df6102b20372bde6515408c6f71268432d1d6e8737df8cca890d3427752513d",
+    "localPath": "data/raw/PSI-23/Presentations/PSI-23_Presentations_PS-01548 ACME info sheet.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:20:43+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 2,
+    "characters": 7907,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": 2
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "National Aeronautics and Space Administration\nAdvanced Combustion via Microgravity Experiments (ACME)\nwww.nasa.gov\nstnemirepxe\nytivargorcim\naiv\nnoitsubmoc\ndecnavda\nPURPOSE: ACME is focused on advanced combustion technology via fundamental microgravity research. The primary goal is to\nimprove efficiency and reduce pollutant emission in practical terrestrial combustion. A secondary objective is fire prevention,\nespecially for spacecraft.\nRESEARCH: ACME includes five independent experiments investigating laminar, gaseous, nonpremixed flames. They will be\nconducted with a single set of modular hardware in the Combustion Integrated Rack (CIR) on the International Space Station\n(ISS). An ACME precursor, the Structure and Liftoff In Combustion Experiment (SLICE), was conducted on ISS in 2012.\nSTATUS: ZIN Technologies, under the direction of the NASA Glenn Research Center, has completed the design and is now\nfabricating the space flight hardware. On-orbit testing is expected to begin in 2017 and continue for a few years.\nWEB SITE: http://spaceflightsystems.grc.nasa.gov/acme/\nBurning Rate Emulator (BRE)\n• Objective: Fire Safety—To improve our fundamental understanding of materials flammability, such\nas extinction behavior and the conditions needed for sustained combustion, and to assess the\nrelevance of existing flammability test methods for low- and partial-gravity environments.\n• Flame/Burner: Flat perforated disk fed with gaseous fuel to simulate the burning of solid and\nliquid fuels, where measurements are made of the thermal feedback upon which the vaporization\nof such fuels depend.\n• Investigators: Profs. James G. Quintiere and Peter B. Sunderland, University of Maryland; and\nDr. John L. deRis, FM Global (retired)\nCoflow Laminar Diffusion Flame (CLD Flame)\n• Objective: Energy and Environment—To extend the range of flame conditions that can be\naccurately predicted by computational models, especially for highly dilute and heavily\nsooting conditions.\n• Flame/Burner: Coflow flame where the gaseous fuel issues from an inner tube, which is centered\nwithin a much larger outer tube, where an oxygen/nitrogen mixture issues from the annulus.\n• Investigators: Profs. Marshall B. Long and Mitchell D. Smooke, Yale University\nElectric-Field Effects on Laminar Diffusion Flames (E-FIELD Flames)\n• Objective: Energy and Environment—To gain an improved understanding of ion production in flames\nand investigate how an electric field can be used to control flames through the ion-driven wind.\n• Flame/Burner: Gas-jet flame, where (1) the gaseous fuel issues from a small circular tube into a\nstill atmosphere and (2) a high-voltage electric field is established between the burner and a\ndisk-shaped copper mesh located a few centimeters downstream of the burner.\n• Investigator: Prof. Derek Dunn-Rankin, University of California, Irvine\nFlame Design\n• Objective: Energy and Environment—To improve our understanding of soot inception and control in\norder to enable (1) the “design” of nonpremixed flames that are both robust and soot free and (2) the\noptimization of oxygen-enriched combustion.\n• Flame/Burner: Spherical flame where the burner gas issues from a porous spherical burner. Tests\nare planned for both (1) normal flames, where the fuel flows into an oxygen/inert atmosphere and\n(2) inverse flames, where an oxygen/inert mixture flows into a fuel atmosphere.\n• Investigators: Prof. Richard L. Axelbaum, Washington University in St. Louis; Prof. Beei-Huan Chao,\nUniversity of Hawaii; Prof. Peter B. Sunderland, University of Maryland; and Dr. David L. Urban,\nNASA Glenn Research Center\nStructure and Response of Spherical Diffusion Flames (s-Flame)\n• Objective: Energy and Environment—To advance our ability to predict the structure and dynamics,\nincluding extinction, of both soot-free and sooty flames.\n• Flame/Burner: Spherical flame—which is only possible in microgravity—where the gaseous fuel (fed\nthrough a small tube) issues from a porous spherical burner into a still oxygen/inert atmosphere.\n• Investigators: Prof. C.K. Law, Princeton University; Prof. Stephen D. Tse, Rutgers University; and\nDr. Kurt R. Sacksteder, NASA Glenn Research Center",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Advanced Combustion via Microgravity Experiments\nACME Hardware\nMass Flow Controllers (MFCs)\n• Three MFCs for the delivery of fuel, oxidizer, and/or nitrogen to the burner (and\nchamber for filling)\n• Capable of on-orbit dilution of fuel or oxidizer (but not both at once), coflow flames,\ninverse flames, and premixed flames\nIgniter\n• Resistively heated, retracting with stepper-motor drive for precise positioning, with an\nexchangeable tip and arm\nHigh-Voltage Supply and Electrode Mesh—for E-FIELD Flames\n• –10 to +10 kV to crew-removable mesh downstream of burner where the ion current\nbetween mesh and burner is determined from the voltage drop across a known resistor\nThermocouples (TCs)\n• Six far-field TCs to measure the thermal field spread, where two versions of a\nfour-TC rake allow varied proximity to the burner\nRadiometers (specifically thermopile detectors)\n• One fixed wide-view sensor plus a crew-exchangeable array with up to five additional\nradiometers, where all sensors are sensitive from 0.2 to 11 microns\nPhotomultiplier Tube (PMT) Modules\n•Three wide-view PMTs: (1) broadband, 230 to 700 nm, (2) OH* emission, 310-nm filter,\nand (3) CH* emission, 430-nm filter\nAnalog Color Camera (hidden from view)\n• Downlinked in near real time to support operations, with an array of light-emitting diodes\n(LEDs) to illuminate the burner position, etc.\nOH* Camera (not shown)\n• Intensified monochrome camera, 310-nm filter, 30 frames per second binned at 512(cid:2)512\nDigital Color Camera (not shown)\n• 12-bit, up to 30 frames per second at 1360(cid:2)1024\n• Motorized lens with independent control of zoom, iris, and focus\n• Four filters: (1) clear for color imaging, (2) blue-green filter to balance color planes for\nACME chamber insert\npyrometry and soot volume fraction measurements, and (3-4) 430- and 450-nm filters\nfor CH* imaging, where the combination enables subtraction of interfering soot emission\nColor-Ratio Soot and Thin Filament Pyrometry\n• (1) Compare color planes of digital color camera (see above) and/or (2) compare frames from a second monochrome camera (not shown)\nequipped with a liquid-crystal tunable filter, 30 frames per second binned at 512(cid:2)512\n• Translating array of five silicon carbide fibers (5 mm apart) with alternate arrays for absolute light calibration\nSoot Volume Fraction\n• Determined from (1) digital color camera (see above) using pyrometry results and absolute light calibration and/or (2) light extinction using a third\nmonochrome camera (not shown), 30 frames per second at 1024(cid:2)1024, and a light source with two fiber-coupled laser diodes\nGas Chromatograph (GC)\n• Pre- and post-test analysis of chamber atmosphere for oxygen, nitrogen, carbon dioxide, carbon monoxide, and fuel gases\nACME Operations\n• ACME experiments are constant volume, with ~85 liters free, where tests are ACME Contacts\ntypically 0.5 to 2 minutes long to limit the pressure rise Project Manager: J. Mark Hickman, 216–977–7105\n• Tests manually set up by ISS crew and then remotely commanded from the john.m.hickman@nasa.gov\nNASA Glenn Research Center (Cleveland, OH)\nDeputy Project Manager: Andrew C. Suttles, 216–433–8328\n• Tests conducted in (1) a nominally automated mode using preprogrammed\nandrew.c.suttles@nasa.gov\nscripts and/or (2) a “manual” mode where changes can be made, for example,\nProject Scientist: Dennis P. Stocker, 216–433–2166\nto flow(s) in response to video downlink and telemetry (e.g., to approach a\ndennis.p.stocker@nasa.gov\nsoot or stability limit)\nDeputy Project Scientist: Dr. Fumiaki Takahashi, 216–433–3778\nfumiaki.takahashi-1@nasa.gov\nNational Aeronautics and Space Administration\nGlenn Research Center\n21000 Brookpark Road\nCleveland, Ohio 44135 PS–01548–0515",
+      "location": {
+        "page": 2
+      }
+    }
+  ]
+}

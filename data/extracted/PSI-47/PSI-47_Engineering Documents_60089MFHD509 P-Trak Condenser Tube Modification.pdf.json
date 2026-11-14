@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-47",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-47_Engineering Documents_60089MFHD509 P-Trak Condenser Tube Modification.pdf",
+    "folder": "Engineering Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-47/Engineering Documents/PSI-47_Engineering Documents_60089MFHD509 P-Trak Condenser Tube Modification.pdf",
+    "version": 4,
+    "sizeBytes": 162862,
+    "sha256": "46f200037d75a4b3e5a06de424344c895f114cf9a697c221f0f08a6a042699cc",
+    "localPath": "data/raw/PSI-47/Engineering Documents/PSI-47_Engineering Documents_60089MFHD509 P-Trak Condenser Tube Modification.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-47"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:24:48+00:00",
+  "status": "partial",
+  "error": null,
+  "warnings": [
+    "no-text-layer: no page has extractable text (scanned PDF?)"
+  ],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": 1
+  },
+  "blocks": []
+}

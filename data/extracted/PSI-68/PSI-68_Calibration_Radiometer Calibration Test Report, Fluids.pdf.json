@@ -1,0 +1,3966 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-68",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-68_Calibration_Radiometer Calibration Test Report, Fluids.pdf",
+    "folder": "Calibration",
+    "subfolder": null,
+    "key": "psi-data/PSI-68/Calibration/PSI-68_Calibration_Radiometer Calibration Test Report, Fluids.pdf",
+    "version": 1,
+    "sizeBytes": 2310456,
+    "sha256": "9efacb56629b413dc47fa3165b55543309682aaebb8299fe6bd8df624cb2f2fa",
+    "localPath": "data/raw/PSI-68/Calibration/PSI-68_Calibration_Radiometer Calibration Test Report, Fluids.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-68"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:24:59+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 1 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 11 table 1: 7 empty header(s) named column_<n> (columns 1, 3-4, 6-7, 9-10)",
+    "Page 15 table 1: 7 empty header(s) named column_<n> (columns 1, 3-4, 6-7, 9-10)",
+    "Page 21 table 1: 11 empty header(s) named column_<n> (columns 3-4, 6-7, 9-10, 12-13, 15-16, 18)",
+    "Page 24 table 1: 17 empty header(s) named column_<n> (columns 1, 3-10, 12-19)",
+    "Page 24 table 2: 2 line(s) above the header skipped",
+    "Page 24 table 2: 13 empty header(s) named column_<n> (columns 2-4, 6-7, 9-10, 12-13, 15-16, 18-19)",
+    "Page 24 table 2: 2 duplicate header(s) renamed: 99.9 (2), 0.00000 (2)",
+    "Page 24 table 3: 1 empty header(s) named column_<n> (columns 1)",
+    "Page 26 table 1: 4 line(s) above the header skipped",
+    "Page 26 table 1: 20 empty header(s) named column_<n> (columns 1, 3-4, 6-7, 9-10, 12-13, 15-16, 18-26)",
+    "Page 26 table 1: 1 duplicate header(s) renamed: 500 (2)",
+    "Page 26 table 2: 2 line(s) above the header skipped",
+    "Page 26 table 2: 17 empty header(s) named column_<n> (columns 1, 3-4, 6-7, 9-10, 12-13, 15-16, 18-19, 21-22, 24-25)",
+    "Page 26 table 2: 2 duplicate header(s) renamed: 99.9 (2), 0.00000 (2)",
+    "Page 26 table 3: 1 empty header(s) named column_<n> (columns 1)",
+    "Page 35 table 1: 1 line(s) above the header skipped",
+    "Page 35 table 1: 8 empty header(s) named column_<n> (columns 1, 3-5, 7-8, 10-11)",
+    "Page 35 table 2: 1 line(s) above the header skipped",
+    "Page 35 table 2: 10 empty header(s) named column_<n> (columns 1, 3-7, 9-10, 12-13)",
+    "Page 36 table 1: 2 empty header(s) named column_<n> (columns 4-5)",
+    "Page 37 table 1: 1 empty header(s) named column_<n> (columns 4)",
+    "Page 42 table 1: 4 empty header(s) named column_<n> (columns 1, 3-5)",
+    "Page 50 table 1: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 51 table 1: 1 empty header(s) named column_<n> (columns 2)"
+  ],
+  "stats": {
+    "textBlocks": 56,
+    "characters": 60891,
+    "tables": 30,
+    "tableRows": 194,
+    "pages": 56
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nRadiometer Calibration Test Report\nFluids and Combustion Facility (FCF)\nFlame Extinguishment Experiment 2\n(FLEX-2)\nRevision A\nAugust 29, 2011\nAUTHORIZED by CM when under FORMAL\nConfiguration Control\nDate Signature\n08/31/11 /s/ Lori Yost\nNational Aeronautics and Space Administration\nJohn H. Glenn Research Center\nExploration Systems Division\nCleveland, Ohio 44135",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "table",
+      "id": "b2",
+      "name": "Page 1 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "AUTHORIZED by CM when under FORMAL\nConfiguration Control",
+        "column_2"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "AUTHORIZED by CM when under FORMAL\nConfiguration Control": "Date",
+            "column_2": "Signature"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "AUTHORIZED by CM when under FORMAL\nConfiguration Control": "08/31/11",
+            "column_2": "/s/ Lori Yost"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nPREFACE\nThe National Aeronautics and Space Administration (NASA) has developed a modular, multi-\nuser experimentation mini-facility for conducting droplet combustion science experiments in the\nmicrogravity environment of the International Space Station (ISS). This facility, called the\nMulti-user Droplet Combustion Apparatus (MDCA), resides in Combustion Integrated Rack\n(CIR), a component of the Fluids and Combustion Facility (FCF) on-board the ISS. The\nexperiment FLEX-2 uses the FLEX platform to conduct droplet combustion tests, and requires\nan on-orbit replacement radiometer that is sensitive at lower irradiance levels than the original\nradiometer. This document describes the FLEX-2 calibration and characterization activities\nnecessary to satisfy science engineering requirements (sometimes also referred to as payload\nperformance requirements) contained in the FLEX-2 Engineering Requirements Document\n(ERD), FLX-REQ-0001.",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nSIGNATURE PAGE\nRADIOMETER CALIBRATION TEST REPORT\nFOR THE\nFLUIDS AND COMBUSTION FACILITY (FCF)\nFLAME EXTINGUISHMENT EXPERIMENT 2 (FLEX-2)\nPrepared By: /s/ Christian T. Lant Date: 08/08/2011\nChristian T. Lant\nDiagnostics Engineer\nZIN Technologies, Inc.\nReviewed By: /s/ Stephen Lawn Date: 08/08/2011\nStephen Lawn\nFLEX-2 Diagnostics Lead Engineer\nZIN Technologies, Inc.\nReviewed By: /s/ Jesse Robbins Date: 08/08/2011\nJesse Robbins\nFLEX-2 Systems Engineer\nZIN Technologies, Inc.\nApproved By: /s/ M. O’Toole Date: 08/08/2011\nMartin O’Toole\nFLEX-2 Project Lead\nZIN Technologies, Inc.\nApproved By: /s/ Darryl Seeley Date: 08/08/2011\nDarryl Seeley\nProduct Assurance\nZIN Technologies, Inc.\niii Radiometer Calibration Test Report",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nREVISION PAGE\nRADIOMETER CALIBRATION TEST REPORT\nFOR THE\nFLUIDS AND COMBUSTION FACILITY (FCF)\nFLAME EXTINGUISHMENT EXPERIMENT 2 (FLEX-2)\nRevision Date Description of Change or ECOs Incorporated Contractor NASA\nVerification Verification\nand Date and Date\nFinal 08/08/11 Initial release 08/08/11 N/A\nA 08/29/11 See MDC-ECO-0456 08/31/11 N/A\n*Enter “N/A” if NASA approval is not required by contract.\niv Radiometer Calibration Test Report",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "table",
+      "id": "b6",
+      "name": "Page 4 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 4,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Revision",
+        "Date",
+        "Description of Change or ECOs Incorporated",
+        "Contractor\nVerification\nand Date",
+        "NASA\nVerification\nand Date"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Revision": "Final\nA",
+            "Date": "08/08/11\n08/29/11",
+            "Description of Change or ECOs Incorporated": "Initial release\nSee MDC-ECO-0456",
+            "Contractor\nVerification\nand Date": "08/08/11\n08/31/11",
+            "NASA\nVerification\nand Date": "N/A\nN/A"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nTABLE OF CONTENTS\n1.0 INTRODUCTION ....................................................................................... 1\n1.1 Purpose ..................................................................................................... 1\n1.2 Scope ........................................................................................................ 1\n1.3 Classification .............................................................................................. 1\n1.4 Order of Precedence for Verification Requirements .................................. 1\n2.0 DOCUMENTS ............................................................................................ 2\n2.1 Order of Precedence for Documents ......................................................... 2\n2.2 Applicable Documents ............................................................................... 2\n2.3 Reference Documents ............................................................................... 3\n3.0 FACILITIES, EQUIPMENT, AND INSTRUMENTATION ........................... 4\n3.1 Test Facilities ............................................................................................. 4\n3.2 Equipment and Instrumentation ................................................................. 4\n3.2.1 Blackbody Infrared Source and Temperature Controller ............................ 5\n3.2.2 DC Power Supply ...................................................................................... 5\n3.2.3 Digital Voltmeter ........................................................................................ 5\n4.0 DESCRIPTION OF TEST ARTICLE & CONFIGURATION ....................... 6\n4.1 Test Article ................................................................................................. 6\n4.1.1 Radiometer Sub-Assembly ........................................................................ 6\n4.1.1.1 Broadband Detector ................................................................................... 6\n4.1.1.2 Narrowband Detector ................................................................................. 6\n4.2 Test Configuration ................................................................................... 10\n5.0 TEST PROCEDURE ................................................................................ 14\n5.1.1 Radiometer Calibration (performed separately on BB & NB) ................... 14\n5.1.2 FOV Roll-off Characterization .................................................................. 15\n5.1.3 Signal to Noise Ratio Characterization .................................................... 15\n5.1.4 Response Time Characterization ............................................................. 15\n5.1.5 Thermal Stability ...................................................................................... 15\n5.2 Data Collection and Reporting ................................................................. 15\n6.0 DATA ANALYSIS .................................................................................... 16\n6.1 Radiometric Calibration............................................................................ 16\n6.1.1 Broadband Radiometer Calibration Data ................................................. 16\n6.1.2 Narrowband Radiometer Calibration Data ............................................... 18\n6.2 Field of View (FOV) Roll-Off Measurement or Instrument Function ......... 22\n6.2.1 Broadband ............................................................................................... 23\n6.2.2 Narrowband ............................................................................................. 25\n6.3 Signal to Noise Ratios of the Radiometer Subsystems. ........................... 27\n6.4 Response time ......................................................................................... 29\n6.4.1 Narrowband ............................................................................................. 29\n6.4.2 Broadband ............................................................................................... 30\nv Radiometer Calibration Test Report",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n6.5 Ambient Temperature Dependence ......................................................... 31\n6.6 Error Analysis .......................................................................................... 33\nLIST OF APPENDICES\nAPPENDIX A SETUP DATA SHEET FOR RADIOMETER CALIBRATION ...... 37\nAPPENDIX B RADIOMETER CALIBRATION PROCEDURE DATASHEET ...... 39\nAPPENDIX C RADIOMETER CALIBRATION DATA COLLECTION SHEET .... 41\nAPPENDIX D FIELD OF VIEW CHARACTERIZATION PROCEDURE .............. 42\nAPPENDIX E FOV CHARACTERIZATION DATA COLLECTION SHEET ......... 43\nAPPENDIX F SNR DATA COLLECTION SHEET .............................................. 46\nAPPENDIX G ACRONYMS AND ABBREVIATIONS .......................................... 48\nAPPENDIX H FLEX/FLEX-2 RADIOMETER CALIBRATION PARAMETERS ... 49\nLIST OF TABLES\nTABLE I. Equipment and Instrumentation Information .............................................. 4\nTABLE II. Test Article ................................................................................................. 8\nTABLE III. Radiometric Calibration Test Matrix. ........................................................ 14\nTABLE IV. Broadband Radiometer Calibration Data ................................................. 17\nTABLE V. Narrowband Radiometer Calibration Data ............................................... 19\nTABLE VI. Measured Data for Broadband Radiometer Roll-Off Characterization. .... 24\nTABLE VII. Measured Data for Broadband Radiometer Roll-Off Characterization. .... 26\nTABLE VIII. Signal to Noise Ratios.............................................................................. 28\nTABLE IX. Step Response Summary for Narrowband Radiometer. .......................... 29\nTABLE X. Step Response Summary for Broadband Radiometer. ............................ 30\nTABLE XI. Numerical Values in Error Analysis. ......................................................... 35\nTABLE XII. Summary Table for Error Analysis. .......................................................... 35\nvi Radiometer Calibration Test Report",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nLIST OF FIGURES\nFIGURE 1. Spectral Transmission for Broadband Filter (µm) ...................................... 7\nFIGURE 2. Spectral Transmission for Broadband Filter (nm) ...................................... 7\nFIGURE 3. Spectral Transmission for Narrowband Filter ............................................. 8\nFIGURE 4. Radiometer Sub-Assembly. ....................................................................... 9\nFIGURE 5. FLEX-2 Radiometer & Blackbody Source Alignment. .............................. 10\nFIGURE 6. Room Temperature Radiation Shield Installed for Calibration\nMeasurements. ........................................................................................ 12\nFIGURE 7. Cabling Schematic for Calibration Setup. ................................................ 13\nFIGURE 8. FLEX-2 Radiometer Field of View Test Configuration. ............................ 13\nFIGURE 9. Graph of Broadband Radiometer Calibration Data with Linear Fit. .......... 18\nFIGURE 10. Graph of Narrowband Radiometer Calibration Data with Linear Fit. ........ 20\nFIGURE 11. Narrowband Radiometer’s Fractional Transmission. ............................... 21\nFIGURE 12. Corrected Narrowband Radiometer’s Calibration Data. ........................... 22\nFIGURE 13. Broadband Radiometer Roll-Off Characterization. ................................... 23\nFIGURE 14. Narrowband Radiometer Roll-Off Characterization. ................................. 25\nFIGURE 15. Broadband Radiometer Noise Measurements Show a Consistent Noise\nLevel of +/- 0.02 V. ................................................................................... 27\nFIGURE 16. Narrowband Radiometer Noise Measurements Show a Consistent Noise\nLevel of +/-0.03 V. .................................................................................... 27\nFIGURE 17. Narrowband Radiometer Response to a Step Input. ............................... 29\nFIGURE 18. Broadband Radiometer Response to a Step Input. ................................. 30\nFIGURE 19. Test Setup in Thermal Chamber. ............................................................. 31\nFIGURE 20. Radiometer Output for Constant Input at Three Ambient Temperatures.. 32\nFIGURE 21. Random Noise and Drift Data for Narrowband Radiometer. .................... 32\nFIGURE 22. Overlay of Random Noise and Drift with Ambient Temperature Data. ..... 33\nvii Radiometer Calibration Test Report",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "text",
+      "id": "b10",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n1.0 INTRODUCTION\n1.1 Purpose\nThe purpose of this document is to report on the test results for calibration of the FLEX-2 Flight\nBroadband and Narrowband Radiometers. Each Radiometer is calibrated independently in a\nlaboratory environment to provide accurate energy detection in a flight environment.\n1.2 Scope\nThe scope of this report covers the test results from implementing the test plan MDC-TST-1866 from\nJune to August, 2011. Said tests calibrate and characterize the FLEX-2 Radiometers for flight.\nBased on the results and observations from these tests, any procedural changes, deviations from the\nplan, and results will be recorded in this final test report. This document does not cover all\nverification test results.\n1.3 Classification\nThe classification for the FLEX-2 Radiometer Package is Flight Model Development.\n1.4 Order of Precedence for Verification Requirements\nThe verification requirements contained in this document shall take precedence over any conflicting\nverification requirements.\n1 Radiometer Calibration Test Report",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n2.0 DOCUMENTS\nThis section lists specifications, models, standards, guidelines, handbooks, and other special\npublications. These documents have been grouped into two categories: applicable documents and\nreference documents.\n2.1 Order of Precedence for Documents\nIn the event of a conflict between this document and other documents referenced herein, the\nrequirements of this document shall apply. In the event of a conflict between this document and the\ncontract, the contractual requirements shall take precedence over this document. In the event of a\nconflict between this document and higher-lever documents, the higher-level documents shall take\nprecedence over this document.\nAll documents used, applicable or reference are to be the issues defined in the current version of the\nSpaceDOC contract. Nothing in this document supersedes applicable laws and regulations unless a\nspecific exemption has been obtained.\n2.2 Applicable Documents\nThe documents in the following table are applicable to the FLEX-2 project to the extent specified\nherein.\n67235EGAC13966 GSE Cable Assembly Drawing\n67235MFA13950 MDCA Radiometer 2 Assembly Drawing\nFLX-PLN-0002 Science Engineering Verification Plan\nFLX-REQ-0001 FLEX-2 Engineering Requirements Document\nMDC-TST-1866 Radiometer Calibration Test Plan\nN/A Determining Source Irradiance\nN/A Radiometer Calibration Parameters Memo (APPENDIX H)\n2 Radiometer Calibration Test Report",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "table",
+      "id": "b12",
+      "name": "Page 9 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 9,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "67235EGAC13966",
+        "GSE Cable Assembly Drawing"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "67235EGAC13966": "67235MFA13950",
+            "GSE Cable Assembly Drawing": "MDCA Radiometer 2 Assembly Drawing"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "67235EGAC13966": "FLX-PLN-0002",
+            "GSE Cable Assembly Drawing": "Science Engineering Verification Plan"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "67235EGAC13966": "FLX-REQ-0001",
+            "GSE Cable Assembly Drawing": "FLEX-2 Engineering Requirements Document"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "67235EGAC13966": "MDC-TST-1866",
+            "GSE Cable Assembly Drawing": "Radiometer Calibration Test Plan"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "67235EGAC13966": "N/A",
+            "GSE Cable Assembly Drawing": "Determining Source Irradiance"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "67235EGAC13966": "N/A",
+            "GSE Cable Assembly Drawing": "Radiometer Calibration Parameters Memo (APPENDIX H)"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n2.3 Reference Documents\nThe documents in the following table are provided only as reference material for background\ninformation and are not imposed as requirements.\nFCF-ICD-CIR-MDCA MDCA Interface Control Document\nMDC-PLN-0001 FLEX-2 Product Assurance Plan\n3 Radiometer Calibration Test Report",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "table",
+      "id": "b14",
+      "name": "Page 10 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 10,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "FCF-ICD-CIR-MDCA",
+        "MDCA Interface Control Document"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "FCF-ICD-CIR-MDCA": "MDC-PLN-0001",
+            "MDCA Interface Control Document": "FLEX-2 Product Assurance Plan"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b15",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n3.0 FACILITIES, EQUIPMENT, AND INSTRUMENTATION\n3.1 Test Facilities\nThe FLEX-2 flight Radiometer Calibration took place from June 28, 2011 through August 4, 2011 in\nthe ZIN facility located at 6749 Engle Road.\n3.2 Equipment and Instrumentation\nTable II lists the name and type of the equipment and instrumentation required for the Radiometer\nCalibration. The calibration status of all instrumentation will be verified as appropriate before testing\nbegins. Any changes to or additional support equipment will be added to this table at the time of the\ncalibration procedure.\nTABLE I. Equipment and Instrumentation Information\nEquipment Manufacturer Model Number Cal Date\nInfrared Systems\nBlackbody Infrared Source IR-564 6/2011\nDevelopment\nInfrared Systems\nBlackbody Temp. Controller IR-301 6/2011\nDevelopment\nGSE Radiometer Test Cable In-House 67235EGAC13966 N/A\nTR320, ZIN tag\nTemperature/Humidity Monitor Dickson 12 July, 2011\nZ000170\nTDS 5054, NASA\nOscilloscope Tektronix 2 May, 2012\ntag 13008\n2001 Multimeter,\nVoltmeter Keithley 5 May, 2012\nNASA tag 29794\nDC Triple Power Supply Agilent E3631A\n4 Radiometer Calibration Test Report",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "table",
+      "id": "b16",
+      "name": "Page 11 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 11,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "Equipment",
+        "column_3",
+        "column_4",
+        "Manufacturer",
+        "column_6",
+        "column_7",
+        "Model Number",
+        "column_9",
+        "column_10",
+        "Cal Date"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "Blackbody Infrared Source",
+            "Equipment": "",
+            "column_3": "",
+            "column_4": "Infrared Systems\nDevelopment",
+            "Manufacturer": "",
+            "column_6": "",
+            "column_7": "IR-564",
+            "Model Number": "",
+            "column_9": "",
+            "column_10": "6/2011",
+            "Cal Date": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "Blackbody Temp. Controller",
+            "Equipment": "",
+            "column_3": "",
+            "column_4": "Infrared Systems\nDevelopment",
+            "Manufacturer": "",
+            "column_6": "",
+            "column_7": "IR-301",
+            "Model Number": "",
+            "column_9": "",
+            "column_10": "6/2011",
+            "Cal Date": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "GSE Radiometer Test Cable",
+            "Equipment": "",
+            "column_3": "",
+            "column_4": "In-House",
+            "Manufacturer": "",
+            "column_6": "",
+            "column_7": "67235EGAC13966",
+            "Model Number": "",
+            "column_9": "",
+            "column_10": "N/A",
+            "Cal Date": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "Temperature/Humidity Monitor",
+            "Equipment": "",
+            "column_3": "",
+            "column_4": "Dickson",
+            "Manufacturer": "",
+            "column_6": "",
+            "column_7": "TR320, ZIN tag\nZ000170",
+            "Model Number": "",
+            "column_9": "",
+            "column_10": "12 July, 2011",
+            "Cal Date": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "Oscilloscope",
+            "Equipment": "",
+            "column_3": "",
+            "column_4": "Tektronix",
+            "Manufacturer": "",
+            "column_6": "",
+            "column_7": "TDS 5054, NASA\ntag 13008",
+            "Model Number": "",
+            "column_9": "",
+            "column_10": "2 May, 2012",
+            "Cal Date": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "Voltmeter",
+            "Equipment": "",
+            "column_3": "",
+            "column_4": "Keithley",
+            "Manufacturer": "",
+            "column_6": "",
+            "column_7": "2001 Multimeter,\nNASA tag 29794",
+            "Model Number": "",
+            "column_9": "",
+            "column_10": "5 May, 2012",
+            "Cal Date": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "column_1": "DC Triple Power Supply",
+            "Equipment": "",
+            "column_3": "",
+            "column_4": "Agilent",
+            "Manufacturer": "",
+            "column_6": "",
+            "column_7": "E3631A",
+            "Model Number": "",
+            "column_9": "",
+            "column_10": "",
+            "Cal Date": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b17",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n3.2.1 Blackbody Infrared Source and Temperature Controller\nThe Blackbody IR Source from Infrared Systems Corporation consists of the Blackbody source and\ntemperature controller. Source temperature can be varied from 50 ºC to 1200 ºC, and source flux can\nbe varied by known amounts using the integrated Aperture Wheel.\n3.2.2 DC Power Supply\nThe Power Supply used will provide ± 12 VDC power to the Radiometers. The specific\nmanufacturer, model, serial number, and calibration date are recorded and listed in Table I of this test\nreport.\n3.2.3 Digital Voltmeter\nThe Digital Voltmeter will be used to measure the DC voltage output from each Radiometer for each\ntemperature data point. The specific manufacturer, model, serial number, and calibration date are\nrecorded and listed in Table I of this test report.\n5 Radiometer Calibration Test Report",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "text",
+      "id": "b18",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n4.0 DESCRIPTION OF TEST ARTICLE & CONFIGURATION\nThe FLEX-2 Radiometer 2 (67235MFAC13950) consists of two independent Radiometers:\nBroadband (BB) and Narrowband (NB). Each radiometer will be calibrated separately using the\nsame hardware setup and methods. By varying the blackbody source temperature and aperture size,\nthe irradiance values incident on the radiometer sensor head can be varied over a large range. By\nrecording the associated voltage output from each detector over the full range of blackbody\ntemperatures and aperture values, a family of calibration curves for each device can be constructed.\nSee APPENDIX H for further analysis to obtain irradiance values from the calibration. The ambient\ntemperature will be monitored via a calibrated laboratory temperature and humidity monitor. The\ncalibration process will be repeated for each radiometer in its preferred orientation.\n4.1 Test Article\n4.1.1 Radiometer Sub-Assembly\nThe Radiometer 2 (67235MFAC13950) consists of the broadband detector and the narrowband\ndetector (see FIGURE 4). The Radiometer 2 flight unit was assembled in-house at 6749 Engle Road.\n4.1.1.1 Broadband Detector\nThe Broadband Detector is a COTS silicon-based thermopile detector from Dexter Research, Model\nS60M with a KRS-5 (Thallium Bromo-Iodide) window (Dexter custom P/N DX-0916) providing\nbroadband transmission from 0.58 to 50 µm (see FIGURE 1 and 2). The range of flat spectral\nresponse for the detector element is 100 nm to 100 µm, with an active area of 0.36 mm2. The back-\nfill gas is Argon, and the aperture size is 0.125 inches. All other detector performance specifications\nare satisfied in accordance to FLX-REQ-0001.\n4.1.1.2 Narrowband Detector\nThe Narrowband Detector is a COTS thin film-based thermopile from Dexter Research; Model 2M\n(Dexter custom P/N DX-0918). A combination of a Silicon Long Wave Pass (LWP) filter with a cut-\non wavelength of 5.0 µm and a Sapphire window that cuts off at ~ 7.0 µm is used to isolate the\ndesired spectral region of interest (~ 6.0 µm). The spectral scan of this combination is shown below\n(FIGURE 3). The back-fill gas used is Xenon. The aperture size is 0.180 inches. All other detector\nperformance specifications are satisfied in accordance to FLX-REQ-0001.\n6 Radiometer Calibration Test Report",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nFIGURE 1. Spectral Transmission for Broadband Filter (µm)\nFIGURE 2. Spectral Transmission for Broadband Filter (nm)\n7 Radiometer Calibration Test Report",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "text",
+      "id": "b20",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nFIGURE 3. Spectral Transmission for Narrowband Filter\nTABLE II. Test Article\nDescription Manufacturer Drawing Number S/N\nRadiometer Sub-Assembly N/A 67235MFAC13950 2001\n8 Radiometer Calibration Test Report",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "table",
+      "id": "b21",
+      "name": "Page 15 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 15,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "Description",
+        "column_3",
+        "column_4",
+        "Manufacturer",
+        "column_6",
+        "column_7",
+        "Drawing Number",
+        "column_9",
+        "column_10",
+        "S/N"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "Radiometer Sub-Assembly",
+            "Description": "",
+            "column_3": "",
+            "column_4": "N/A",
+            "Manufacturer": "",
+            "column_6": "",
+            "column_7": "67235MFAC13950",
+            "Drawing Number": "",
+            "column_9": "",
+            "column_10": "2001",
+            "S/N": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b22",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nFIGURE 4. Radiometer Sub-Assembly.\n9 Radiometer Calibration Test Report",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "text",
+      "id": "b23",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n4.2 Test Configuration\nThe Radiometer Sub-Assembly and the Blackbody Source is arranged on an optical bench. The\nBlackbody Source output is aligned, via optical mounting hardware, with the opening of the\nRadiometer Package (BB or NB) being tested. See FIGURE 5, FIGURE 6, and FIGURE 8. The\noptical mounting hardware aligns and sets the horizontal distance from the detector input of the\nRadiometer to the Blackbody aperture wheel, equal to the appropriate Flight distance of 110 mm.\nFIGURE 5. FLEX-2 Radiometer & Blackbody Source Alignment.\n10 Radiometer Calibration Test Report",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "text",
+      "id": "b24",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nThe field of view measurements and response time measurements were made with the setup\nconfigured as in FIGURE 5. However, during testing it was observed that the aperture wheel on the\nblackbody source actually emitted radiation at significant levels compared to radiation from the\nblackbody cavity. This extra radiation increasingly contributed to the total signal inversely\nproportional to the aperture size, and had the systematic error of increasing the effective aperture size.\nTo reduce this error the blackbody calibration tests (only) were run with the setup shown in FIGURE\n6. This modification added a low emissivity radiation shield between the radiometer and the\nblackbody aperture wheel. The radiation shield has a few useful features:\n1. Mounts on a slide, allowing the shield to be retracted away from the hot blackbody source\nbetween measurements. By limiting the time resident near the hot blackbody source, the\ntemperature can be held at room temperature to within a few tenths of a degree Celsius.\n2. The temperature of the radiation shield is monitored using a calibrated type K thermocouple,\naccurate to one-tenth of a degree Fahrenheit.\n3. The shield has a changeable aperture plate with highly repeatable positioning. A feature for\nquick change-out of a selection of aperture plates allows measurements at different apertures\nto be done quickly.\n4. Low emissivity and high thermal mass keeps the shield’s temperature stable over longer\nperiods of time. Note: The narrowband radiometer is still sensitive to emissions at room\ntemperature.\n5. The shield is mounted within 1 cm of the aperture wheel, and the shield apertures are the same\ndiameter as those in the aperture wheel; the aperture plates are also effectively thin (1.5 mm).\nThis arrangement allows the aperture wheel holes to still be the defining emitters in the\nsystem, to first order.\n11 Radiometer Calibration Test Report",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "text",
+      "id": "b25",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nFIGURE 6. Room Temperature Radiation Shield Installed for Calibration\nMeasurements.\nThe Radiometer is connected via the Radiometer Test Cable (67235EGAC13966) to the ±12 VDC\nPower Supply (for power in) and to the Voltmeter (for output signal V ). Refer to FIGURE 7 for the\nout\nconnection schematic. The DC Power Supply, Voltmeter, and Blackbody Temperature Controller are\nlocated on the table with the Radiometer and Black Body optical bench. FIGURE 8 shows a photo of\nthe general test configuration in the laboratory setting.\n12 Radiometer Calibration Test Report",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "text",
+      "id": "b26",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nFIGURE 7. Cabling Schematic for Calibration Setup.\nThe Radiometer Calibration Setup will be performed using the Setup Datasheet for Radiometer\nCalibration in APPENDIX A.\nFIGURE 8. FLEX-2 Radiometer Field of View Test Configuration.\n13 Radiometer Calibration Test Report",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "text",
+      "id": "b27",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n5.0 TEST PROCEDURE\nThese procedures cover three characterizations of the FLEX-2 Radiometers:\ni) Radiometric calibration,\nii) Field of View (FOV) roll-off measurement or instrument function, and\niii) Signal to Noise Ratios (SNR) of the radiometer subsystems.\n5.1.1 Radiometer Calibration (performed separately on BB & NB)\nThe Radiometer Calibration Procedure is performed separately for each of the Broadband and\nNarrowband Radiometers using the “Radiometer Calibration Procedure Datasheet” in APPENDIX B.\nWithin each of the Radiometer Calibration Procedures, specific data must be recorded for radiometer\nvoltage output over a range of apertures using a separate APPENDIX C, “Radiometer Calibration\nData Collection Sheet” for each blackbody temperature. This simulates various source Irradiance\nlevels covering the operating range. To best align with the test procedures, a unique “Radiometer\nCalibration Data Collection Sheet” is used for each temperature and radiometer.\nTable III shows the test matrix for the calibration of the two radiometers. Each radiometer is tested\nseparately, and aligned normal to the blackbody source. The output voltage is recorded at each\ntemperature and aperture value in the table. To gain some redundancy in the calibration data, the test\nmatrix spans the envelope of the minimum and maximum required irradiance values, as documented\nin FLX-REQ-0001, and indicated in TABLE III.\nTABLE III. Radiometric Calibration Test Matrix.\n°C \\ d\" 0.6 0.4 0.2 0.1 0.05 0.025\n25\nMin Irradiance\n100 at 129.1 ° C\n200\nMin Irradiance\n300 at 295.6° C\n400\nMin Irradiance\n500 at 531.1° C\n600\n700\nMax Irradiance Min Irradiance\n800 at 776.4º C at 864.2° C\n900\nMax Irradiance\n1000 at 1012.3° C\n1100\n1200\n14 Radiometer Calibration Test Report",
+      "location": {
+        "page": 21
+      }
+    },
+    {
+      "type": "table",
+      "id": "b28",
+      "name": "Page 21 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 21,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "°C \\ d\"",
+        "0.6",
+        "column_3",
+        "column_4",
+        "0.4",
+        "column_6",
+        "column_7",
+        "0.2",
+        "column_9",
+        "column_10",
+        "0.1",
+        "column_12",
+        "column_13",
+        "0.05",
+        "column_15",
+        "column_16",
+        "0.025",
+        "column_18"
+      ],
+      "rowCount": 18,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "°C \\ d\"": "25",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "°C \\ d\"": "100",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "Min Irradiance",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "°C \\ d\"": "",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "at 129.1 ° C",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "°C \\ d\"": "200",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "°C \\ d\"": "300",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "Min Irradiance",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "°C \\ d\"": "",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "at 295.6° C",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "°C \\ d\"": "400",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "°C \\ d\"": "500",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "Min Irradiance",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "°C \\ d\"": "",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "at 531.1° C",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "°C \\ d\"": "600",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "°C \\ d\"": "700",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "°C \\ d\"": "800",
+            "0.6": "",
+            "column_3": "Max Irradiance",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": "Min Irradiance"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "°C \\ d\"": "",
+            "0.6": "",
+            "column_3": "at 776.4º C",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": "at 864.2° C"
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "°C \\ d\"": "900",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "°C \\ d\"": "1000",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "Max Irradiance",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        },
+        {
+          "sourceRow": 16,
+          "raw": {
+            "°C \\ d\"": "",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "at 1012.3° C",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        },
+        {
+          "sourceRow": 17,
+          "raw": {
+            "°C \\ d\"": "1100",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        },
+        {
+          "sourceRow": 18,
+          "raw": {
+            "°C \\ d\"": "1200",
+            "0.6": "",
+            "column_3": "",
+            "column_4": "",
+            "0.4": "",
+            "column_6": "",
+            "column_7": "",
+            "0.2": "",
+            "column_9": "",
+            "column_10": "",
+            "0.1": "",
+            "column_12": "",
+            "column_13": "",
+            "0.05": "",
+            "column_15": "",
+            "column_16": "",
+            "0.025": "",
+            "column_18": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b29",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n5.1.2 FOV Roll-off Characterization\nThe instrument function of the radiometer package is measured over a range of off-axis alignment for\neach radiometer. As the neutral mid-point, each radiometer is centered and aligned normal to the\nblackbody source, at a distance of 11.0 cm from the blackbody aperture to the radiometer TO-5 can\nface. The radiometer is translated in the horizontal (X) direction over a range of +/- 70 mm about this\ncenter, at 10 mm increments, while recording the output signal level. The transverse off-axis\ncharacterization is measured by translating the blackbody source on a lab jack from +/- 65 mm to\nmeasure the Y roll-off characteristics, while the X axis is at the center point. The Field of View\nCharacterization Procedure (APPENDIX D) and FOV Characterization Data Collection Sheet\n(APPENDIX E) are used to implement this characterization.\n5.1.3 Signal to Noise Ratio Characterization\nThe signal-to-noise characteristics of the radiometers are measured at minimum signal level, medium\nsignal level, and high signal level. The time sequence of samples is measured by an oscilloscope\nsampling AC and DC at 25 kHz. The DC input is the signal, and the AC input is the noise in the\nsampling bandwidth. The AC sampling is smoothed over 10 milliseconds to represent the flight\nacquisition sample time. Data are logged on the SNR Data Collection Sheet (APPENDIX F).\n5.1.4 Response Time Characterization\nThe response time of the narrowband and broadband detectors are measured using the calibrated\nblackbody source with a chopper wheel to provide a step function illumination input at a frequency of\n2Hz. The output voltage is analyzed to calculate the rise time from 0 to 62.5% of the maximum\nsignal response.\n5.1.5 Thermal Stability\nThe stability of the radiometer over the working range of ambient temperatures is observed by\nsoaking the radiometers and blackbody source in a thermal chamber set from 20 to 30 degrees\nCelsius.\n5.2 Data Collection and Reporting\nAll data are collected and recorded on the attached data sheets. Data sheets will be maintained to\ndocument the history of the FLEX-2 Radiometer Calibration. The data sheets include, but are not\nlimited to, the following information:\n1. Date and time\n2. Identity of individual making the entry\n3. Environmental conditions\n4. Performance parameter measurements\n5. Power ”On” Time\n6. Failure observations\n7. Configuration identification\n8. Record of non-conformances, repair / maintenance actions, etc\n15 Radiometer Calibration Test Report",
+      "location": {
+        "page": 22
+      }
+    },
+    {
+      "type": "text",
+      "id": "b30",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n6.0 DATA ANALYSIS\n6.1 Radiometric Calibration\nThe sections below show the results of the calibrations using the shielded breadboard configuration\nshown in FIGURE 6.\nThe accuracy requirement per FLX-REQ-0001 4.1.79 is 5% from minimum to maximum irradiance.\n6.1.1 Broadband Radiometer Calibration Data\nThe calibration data for the broadband radiometer is shown in TABLE IV. The gray boxes indicate\ndata excluded from the statistical measurements and plots for reasons given herein. The remaining\n(non-gray) data are graphed in FIGURE 9 with an overlay of a data fit by the method of least squares.\nThe equation of the fit with slope, intercept, and correlation coefficient are shown.\nThe figure shows the data independent of the aperture/temperature combination used to achieve the\nirradiance values, so some as-yet uncorrected systematic error(s) presumably tend to spread the data.\n16 Radiometer Calibration Test Report",
+      "location": {
+        "page": 23
+      }
+    },
+    {
+      "type": "text",
+      "id": "b31",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nTABLE IV. Broadband Radiometer Calibration Data\nAp erture = 0.6\" Ap erture = 0.4 \" Ap erture = 0 .2\"\nT (°C) Volts G (W/cm2) T (°C) Volts G (W/cm2) T (°C) Volts G (W/cm2)\n99.9 -9.757 0.00053 99.9 -9.884 0.000234 99.9 -9.907 0.0000585\n200 -9.331 0.00136 200 -9.641 0.000605 200 -9.859 0.000151\n300 -8.505 0.00293 300 -9.247 0.00130 300 -9.76 0.000326\n400.5 -7.249 0.00560 400.4 -8.649 0.00249 400.4 -9.628 0.000622\n500.1 -5.15 0.00972 500.3 -7.678 0.00432 500.3 -9.454 0.00108\n600.9 -2.098 0.0159 600.9 -6.2 0.00705 600.9 -9.126 0.00176\n699.7 2.17 0.0244 699.5 -4.144 0.0108 699.5 -8.636 0.00270\n800.1 8.05 0.0361 800.1 -1.275 0.0160 800.2 -8.046 0.00401\n899.8 11.116 0.0515 899.8 2.525 0.0229 899.7 -7.173 0.00572\n1000.3 11.118 0.0715 1000.3 7.19 0.0318 1000.3 -6.104 0.00795\n1100.2 11.118 0.0967 1100.2 11.118 0.0430 1100.3 -4.548 0.0108\n1200 11.116 0.128 1200 11.116 0.0569 1200 -1.877 0.0142\nAp erture = 0.1\" Ape rture = 0. 05\" Ap erture = 0.0 25\"\nG\nT (°C) Volts G (W/cm2) T (°C) Volts (W/cm2) T (°C) Volts G (W/cm2)\n99.9 -9.921 0.00001 99.9 -9.93 0.00000 99.9 -9.95 0.00000\n200 -9.914 0.00004 200 -9.937 0.00001 200 -9.937 0.00000\n300 -9.88 0.00008 300 -9.909 0.00002 300 -9.92 0.00001\n400.1 -9.876 0.00016 399.7 -9.95 0.00004 399.4 -9.963 0.00001\n500.4 -9.849 0.00027 500.5 -9.938 0.00007 500.6 -9.938 0.00002\n600.7 -9.793 0.0004 600.4 -9.937 0.0001 600 -9.943 0.0000\n699.5 -9.704 0.0007 699.6 -9.942 0.0002 699.6 -9.945 0.0000\n800.2 -9.597 0.0010 800.2 -9.939 0.0003 800.2 -9.94 0.0001\n899.7 -9.446 0.0014 899.8 -9.928 0.0004 899.8 -9.93 0.0001\n1000 -9.258 0.0020 1000 -9.939 0.0005 999.9 -9.95 0.0001\n1100.4 -8.945 0.0027 1100.4 -9.92 0.0007 1100.4 -9.97 0.0002\n1199.9 -8.126 0.004 1200 -9.628 0.001 1200 -9.941 0.000\nAperture = Closed\nT (°C) Volts\n99.9 -9.95\n200 -9.937\n300 -9.922\n399.4 -9.96\n500 -9.95\n600 -9.95\n699.9 -9.95\n800.2 -9.94\n899.9 -9.93\n999.9 -9.93\n1100 -9.97\n1200 -9.935\nAve. = -9.94\n17 Radiometer Calibration Test Report",
+      "location": {
+        "page": 24
+      }
+    },
+    {
+      "type": "table",
+      "id": "b32",
+      "name": "Page 24 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 24,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "Ap erture = 0.6\"",
+        "column_3",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8",
+        "column_9",
+        "column_10",
+        "Ap erture = 0.4 \"",
+        "column_12",
+        "column_13",
+        "column_14",
+        "column_15",
+        "column_16",
+        "column_17",
+        "column_18",
+        "column_19",
+        "Ap erture = 0 .2\""
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "T (°C) Volts G (W/cm2)",
+            "Ap erture = 0.6\"": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "T (°C) Volts G (W/cm2)",
+            "Ap erture = 0.4 \"": "",
+            "column_12": "",
+            "column_13": "",
+            "column_14": "",
+            "column_15": "",
+            "column_16": "",
+            "column_17": "",
+            "column_18": "",
+            "column_19": "T (°C) Volts G (W/cm2)",
+            "Ap erture = 0 .2\"": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "99.9 -9.757 0.00053\n200 -9.331 0.00136\n300 -8.505 0.00293\n400.5 -7.249 0.00560\n500.1 -5.15 0.00972\n600.9 -2.098 0.0159\n699.7 2.17 0.0244\n800.1 8.05 0.0361",
+            "Ap erture = 0.6\"": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "99.9 -9.884 0.000234\n200 -9.641 0.000605\n300 -9.247 0.00130\n400.4 -8.649 0.00249\n500.3 -7.678 0.00432\n600.9 -6.2 0.00705\n699.5 -4.144 0.0108\n800.1 -1.275 0.0160\n899.8 2.525 0.0229\n1000.3 7.19 0.0318",
+            "Ap erture = 0.4 \"": "",
+            "column_12": "",
+            "column_13": "",
+            "column_14": "",
+            "column_15": "",
+            "column_16": "",
+            "column_17": "",
+            "column_18": "",
+            "column_19": "99.9 -9.907 0.0000585\n200 -9.859 0.000151\n300 -9.76 0.000326\n400.4 -9.628 0.000622\n500.3 -9.454 0.00108\n600.9 -9.126 0.00176\n699.5 -8.636 0.00270\n800.2 -8.046 0.00401\n899.7 -7.173 0.00572\n1000.3 -6.104 0.00795\n1100.3 -4.548 0.0108\n1200 -1.877 0.0142",
+            "Ap erture = 0 .2\"": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "Ap erture = 0.6\"": "899.8",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "11.116",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "0.0515",
+            "column_9": "",
+            "column_10": "",
+            "Ap erture = 0.4 \"": "",
+            "column_12": "",
+            "column_13": "",
+            "column_14": "",
+            "column_15": "",
+            "column_16": "",
+            "column_17": "",
+            "column_18": "",
+            "column_19": "",
+            "Ap erture = 0 .2\"": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "Ap erture = 0.6\"": "1000.3",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "11.118",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "0.0715",
+            "column_9": "",
+            "column_10": "",
+            "Ap erture = 0.4 \"": "",
+            "column_12": "",
+            "column_13": "",
+            "column_14": "",
+            "column_15": "",
+            "column_16": "",
+            "column_17": "",
+            "column_18": "",
+            "column_19": "",
+            "Ap erture = 0 .2\"": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "",
+            "Ap erture = 0.6\"": "1100.2",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "11.118",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "0.0967",
+            "column_9": "",
+            "column_10": "",
+            "Ap erture = 0.4 \"": "1100.2",
+            "column_12": "",
+            "column_13": "",
+            "column_14": "11.118",
+            "column_15": "",
+            "column_16": "",
+            "column_17": "0.0430",
+            "column_18": "",
+            "column_19": "",
+            "Ap erture = 0 .2\"": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "",
+            "Ap erture = 0.6\"": "1200",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "11.116",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "0.128",
+            "column_9": "",
+            "column_10": "",
+            "Ap erture = 0.4 \"": "1200",
+            "column_12": "",
+            "column_13": "",
+            "column_14": "11.116",
+            "column_15": "",
+            "column_16": "",
+            "column_17": "0.0569",
+            "column_18": "",
+            "column_19": "",
+            "Ap erture = 0 .2\"": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b33",
+      "name": "Page 24 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 24,
+        "table": 2
+      },
+      "headerRow": 3,
+      "columns": [
+        "99.9 -9.921 0.00001\n200 -9.914 0.00004\n300 -9.88 0.00008\n400.1 -9.876 0.00016\n500.4 -9.849 0.00027\n600.7 -9.793 0.0004\n699.5 -9.704 0.0007\n800.2 -9.597 0.0010\n899.7 -9.446 0.0014\n1000 -9.258 0.0020\n1100.4 -8.945 0.0027\n1199.9 -8.126 0.004",
+        "column_2",
+        "column_3",
+        "column_4",
+        "99.9",
+        "column_6",
+        "column_7",
+        "-9.93",
+        "column_9",
+        "column_10",
+        "0.00000",
+        "column_12",
+        "column_13",
+        "99.9 (2)",
+        "column_15",
+        "column_16",
+        "-9.95",
+        "column_18",
+        "column_19",
+        "0.00000 (2)"
+      ],
+      "rowCount": 11,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "99.9 -9.921 0.00001\n200 -9.914 0.00004\n300 -9.88 0.00008\n400.1 -9.876 0.00016\n500.4 -9.849 0.00027\n600.7 -9.793 0.0004\n699.5 -9.704 0.0007\n800.2 -9.597 0.0010\n899.7 -9.446 0.0014\n1000 -9.258 0.0020\n1100.4 -8.945 0.0027\n1199.9 -8.126 0.004": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "99.9": "200",
+            "column_6": "",
+            "column_7": "",
+            "-9.93": "-9.937",
+            "column_9": "",
+            "column_10": "",
+            "0.00000": "0.00001",
+            "column_12": "",
+            "column_13": "",
+            "99.9 (2)": "200",
+            "column_15": "",
+            "column_16": "",
+            "-9.95": "-9.937",
+            "column_18": "",
+            "column_19": "",
+            "0.00000 (2)": "0.00000"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "99.9 -9.921 0.00001\n200 -9.914 0.00004\n300 -9.88 0.00008\n400.1 -9.876 0.00016\n500.4 -9.849 0.00027\n600.7 -9.793 0.0004\n699.5 -9.704 0.0007\n800.2 -9.597 0.0010\n899.7 -9.446 0.0014\n1000 -9.258 0.0020\n1100.4 -8.945 0.0027\n1199.9 -8.126 0.004": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "99.9": "300",
+            "column_6": "",
+            "column_7": "",
+            "-9.93": "-9.909",
+            "column_9": "",
+            "column_10": "",
+            "0.00000": "0.00002",
+            "column_12": "",
+            "column_13": "",
+            "99.9 (2)": "300",
+            "column_15": "",
+            "column_16": "",
+            "-9.95": "-9.92",
+            "column_18": "",
+            "column_19": "",
+            "0.00000 (2)": "0.00001"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "99.9 -9.921 0.00001\n200 -9.914 0.00004\n300 -9.88 0.00008\n400.1 -9.876 0.00016\n500.4 -9.849 0.00027\n600.7 -9.793 0.0004\n699.5 -9.704 0.0007\n800.2 -9.597 0.0010\n899.7 -9.446 0.0014\n1000 -9.258 0.0020\n1100.4 -8.945 0.0027\n1199.9 -8.126 0.004": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "99.9": "399.7",
+            "column_6": "",
+            "column_7": "",
+            "-9.93": "-9.95",
+            "column_9": "",
+            "column_10": "",
+            "0.00000": "0.00004",
+            "column_12": "",
+            "column_13": "",
+            "99.9 (2)": "399.4",
+            "column_15": "",
+            "column_16": "",
+            "-9.95": "-9.963",
+            "column_18": "",
+            "column_19": "",
+            "0.00000 (2)": "0.00001"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "99.9 -9.921 0.00001\n200 -9.914 0.00004\n300 -9.88 0.00008\n400.1 -9.876 0.00016\n500.4 -9.849 0.00027\n600.7 -9.793 0.0004\n699.5 -9.704 0.0007\n800.2 -9.597 0.0010\n899.7 -9.446 0.0014\n1000 -9.258 0.0020\n1100.4 -8.945 0.0027\n1199.9 -8.126 0.004": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "99.9": "500.5",
+            "column_6": "",
+            "column_7": "",
+            "-9.93": "-9.938",
+            "column_9": "",
+            "column_10": "",
+            "0.00000": "0.00007",
+            "column_12": "",
+            "column_13": "",
+            "99.9 (2)": "500.6",
+            "column_15": "",
+            "column_16": "",
+            "-9.95": "-9.938",
+            "column_18": "",
+            "column_19": "",
+            "0.00000 (2)": "0.00002"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "99.9 -9.921 0.00001\n200 -9.914 0.00004\n300 -9.88 0.00008\n400.1 -9.876 0.00016\n500.4 -9.849 0.00027\n600.7 -9.793 0.0004\n699.5 -9.704 0.0007\n800.2 -9.597 0.0010\n899.7 -9.446 0.0014\n1000 -9.258 0.0020\n1100.4 -8.945 0.0027\n1199.9 -8.126 0.004": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "99.9": "600.4",
+            "column_6": "",
+            "column_7": "",
+            "-9.93": "-9.937",
+            "column_9": "",
+            "column_10": "",
+            "0.00000": "0.0001",
+            "column_12": "",
+            "column_13": "",
+            "99.9 (2)": "600",
+            "column_15": "",
+            "column_16": "",
+            "-9.95": "-9.943",
+            "column_18": "",
+            "column_19": "",
+            "0.00000 (2)": "0.0000"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "99.9 -9.921 0.00001\n200 -9.914 0.00004\n300 -9.88 0.00008\n400.1 -9.876 0.00016\n500.4 -9.849 0.00027\n600.7 -9.793 0.0004\n699.5 -9.704 0.0007\n800.2 -9.597 0.0010\n899.7 -9.446 0.0014\n1000 -9.258 0.0020\n1100.4 -8.945 0.0027\n1199.9 -8.126 0.004": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "99.9": "699.6",
+            "column_6": "",
+            "column_7": "",
+            "-9.93": "-9.942",
+            "column_9": "",
+            "column_10": "",
+            "0.00000": "0.0002",
+            "column_12": "",
+            "column_13": "",
+            "99.9 (2)": "699.6",
+            "column_15": "",
+            "column_16": "",
+            "-9.95": "-9.945",
+            "column_18": "",
+            "column_19": "",
+            "0.00000 (2)": "0.0000"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "99.9 -9.921 0.00001\n200 -9.914 0.00004\n300 -9.88 0.00008\n400.1 -9.876 0.00016\n500.4 -9.849 0.00027\n600.7 -9.793 0.0004\n699.5 -9.704 0.0007\n800.2 -9.597 0.0010\n899.7 -9.446 0.0014\n1000 -9.258 0.0020\n1100.4 -8.945 0.0027\n1199.9 -8.126 0.004": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "99.9": "800.2",
+            "column_6": "",
+            "column_7": "",
+            "-9.93": "-9.939",
+            "column_9": "",
+            "column_10": "",
+            "0.00000": "0.0003",
+            "column_12": "",
+            "column_13": "",
+            "99.9 (2)": "800.2",
+            "column_15": "",
+            "column_16": "",
+            "-9.95": "-9.94",
+            "column_18": "",
+            "column_19": "",
+            "0.00000 (2)": "0.0001"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "99.9 -9.921 0.00001\n200 -9.914 0.00004\n300 -9.88 0.00008\n400.1 -9.876 0.00016\n500.4 -9.849 0.00027\n600.7 -9.793 0.0004\n699.5 -9.704 0.0007\n800.2 -9.597 0.0010\n899.7 -9.446 0.0014\n1000 -9.258 0.0020\n1100.4 -8.945 0.0027\n1199.9 -8.126 0.004": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "99.9": "899.8",
+            "column_6": "",
+            "column_7": "",
+            "-9.93": "-9.928",
+            "column_9": "",
+            "column_10": "",
+            "0.00000": "0.0004",
+            "column_12": "",
+            "column_13": "",
+            "99.9 (2)": "899.8",
+            "column_15": "",
+            "column_16": "",
+            "-9.95": "-9.93",
+            "column_18": "",
+            "column_19": "",
+            "0.00000 (2)": "0.0001"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "99.9 -9.921 0.00001\n200 -9.914 0.00004\n300 -9.88 0.00008\n400.1 -9.876 0.00016\n500.4 -9.849 0.00027\n600.7 -9.793 0.0004\n699.5 -9.704 0.0007\n800.2 -9.597 0.0010\n899.7 -9.446 0.0014\n1000 -9.258 0.0020\n1100.4 -8.945 0.0027\n1199.9 -8.126 0.004": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "99.9": "1000",
+            "column_6": "",
+            "column_7": "",
+            "-9.93": "-9.939",
+            "column_9": "",
+            "column_10": "",
+            "0.00000": "0.0005",
+            "column_12": "",
+            "column_13": "",
+            "99.9 (2)": "999.9",
+            "column_15": "",
+            "column_16": "",
+            "-9.95": "-9.95",
+            "column_18": "",
+            "column_19": "",
+            "0.00000 (2)": "0.0001"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "99.9 -9.921 0.00001\n200 -9.914 0.00004\n300 -9.88 0.00008\n400.1 -9.876 0.00016\n500.4 -9.849 0.00027\n600.7 -9.793 0.0004\n699.5 -9.704 0.0007\n800.2 -9.597 0.0010\n899.7 -9.446 0.0014\n1000 -9.258 0.0020\n1100.4 -8.945 0.0027\n1199.9 -8.126 0.004": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "99.9": "1100.4",
+            "column_6": "",
+            "column_7": "",
+            "-9.93": "-9.92",
+            "column_9": "",
+            "column_10": "",
+            "0.00000": "0.0007",
+            "column_12": "",
+            "column_13": "",
+            "99.9 (2)": "1100.4",
+            "column_15": "",
+            "column_16": "",
+            "-9.95": "-9.97",
+            "column_18": "",
+            "column_19": "",
+            "0.00000 (2)": "0.0002"
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "99.9 -9.921 0.00001\n200 -9.914 0.00004\n300 -9.88 0.00008\n400.1 -9.876 0.00016\n500.4 -9.849 0.00027\n600.7 -9.793 0.0004\n699.5 -9.704 0.0007\n800.2 -9.597 0.0010\n899.7 -9.446 0.0014\n1000 -9.258 0.0020\n1100.4 -8.945 0.0027\n1199.9 -8.126 0.004": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "99.9": "1200",
+            "column_6": "",
+            "column_7": "",
+            "-9.93": "-9.628",
+            "column_9": "",
+            "column_10": "",
+            "0.00000": "0.001",
+            "column_12": "",
+            "column_13": "",
+            "99.9 (2)": "1200",
+            "column_15": "",
+            "column_16": "",
+            "-9.95": "-9.941",
+            "column_18": "",
+            "column_19": "",
+            "0.00000 (2)": "0.000"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b34",
+      "name": "Page 24 table 3",
+      "confidence": "low",
+      "location": {
+        "page": 24,
+        "table": 3
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "Aperture = Closed"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "T (°C) Volts",
+            "Aperture = Closed": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "99.9 -9.95\n200 -9.937\n300 -9.922\n399.4 -9.96\n500 -9.95\n600 -9.95\n699.9 -9.95\n800.2 -9.94\n899.9 -9.93\n999.9 -9.93\n1100 -9.97\n1200 -9.935",
+            "Aperture = Closed": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "Ave. = -9.94",
+            "Aperture = Closed": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b35",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nFIGURE 9. Graph of Broadband Radiometer Calibration Data with Linear Fit.\n6.1.2 Narrowband Radiometer Calibration Data\nThe calibration data for the narrowband radiometer is shown in TABLE V. The calculated irradiance\nvalues, G, are for the unfiltered irradiances introduced at the entrance port of the radiometer [a late-\nhour correction to these values is introduced at the end of this section, but the late time-frame\nprevents it from being completely integrated into the results].\nFIGURE 10 shows the unfiltered calibration plots of the data in TABLE V.\n18 Radiometer Calibration Test Report",
+      "location": {
+        "page": 25
+      }
+    },
+    {
+      "type": "text",
+      "id": "b36",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nTABLE V. Narrowband Radiometer Calibration Data\nAperture = 0.6\" Aperture = 0.4\" Aperture = 0.2\"\nT (°C) Volts G (W/cm2) T (°C) Volts G (W/cm2) T (°C) Volts G (W/cm2)\n99.8 -8.8 0.00053 100 -9.555 0.00023 100.2 -10.11 0.00006\n199.9 -2.999 0.00136 199.6 -6.89 0.00060 199.4 -9.59 0.00015\n300.4 8.82 0.00294 300.3 -1.12 0.00131 300 -8.09 0.00033\n400 10.863 0.00558 400 7.64 0.00248 400 -5.98 0.00062\n500 10.853 0.00971 500 10.851 0.00432 500.1 -2.585 0.00108\n600.1 11.033 0.0158 600.1 10.885 0.0070 600.1 0.54 0.0018\n699.9 11.028 0.0244 699.9 10.88 0.0108 700 4.88 0.0027\n799.7 11.028 0.0360 799.7 11.026 0.0160 799.7 9.45 0.0040\n899.8 10.876 0.0515 899.8 10.874 0.0229 899.8 10.871 0.0057\n999.8 11 0.0714 999.8 11.025 0.0317 999.8 10.875 0.0079\n1100 11 0.0967 1099.9 11.046 0.0430 1099.9 10.897 0.0107\n1200 11 0.128 1200 11 0.057 1199.9 10.88 0.014\nA perture = 0.1\" Ap erture = 0.05\" Ap erture = 0 .025\"\nT (°C) Volts G (W/cm2) T (°C) Volts G (W/cm2) T (°C) Volts G (W/cm2)\n100 -10.26 0.00001 99.9 -10.29 0.00000 99.9 -10.27 0.00000\n199.3 -10.3 0.00004 199.1 -10.48 0.00001 199 -10.51 0.00000\n300 -9.86 0.00008 299.5 -10.26 0.00002 299.3 -10.37 0.00001\n400 -9.47 0.00016 400 -10.33 0.00004 400 -10.52 0.00001\n500 -8.37 0.00027 500 -9.81 0.00007 500 -10.04 0.00002\n600.1 -7.875 0.0004 600 -9.96 0.0001 599.9 -10.44 0.0000\n700 -6.76 0.0007 700 -9.64 0.0002 700 -10.31 0.0000\n799.7 -5.75 0.0010 799.8 -9.65 0.0003 799.8 -10.42 0.0001\n899.8 -4.52 0.0014 899.8 -9.32 0.0004 899.9 -10.3 0.0001\n999.8 -3.11 0.0020 999.8 -9.04 0.0005 999.9 -10.21 0.0001\n1099.9 -2.2 0.0027 1099.9 -9.21 0.0007 1099.9 -10.62 0.0002\n1200.1 -0.62 0.004 1200.1 -8.71 0.001 1200.1 -10.38 0.000\nApertu re =\nClosed\nT (°C) Volts\n199 -10.5\n300 -10.4\n399.8 -10.3\n500 -10.1\n600 -10.66\n699.9 -10.5\n799.9 -10.25\n899.9 -10.52\n999.9 -10.15\n1100 -10.65\n1200 -11.1\nAve. = -10.47\n19 Radiometer Calibration Test Report",
+      "location": {
+        "page": 26
+      }
+    },
+    {
+      "type": "table",
+      "id": "b37",
+      "name": "Page 26 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 26,
+        "table": 1
+      },
+      "headerRow": 5,
+      "columns": [
+        "column_1",
+        "500",
+        "column_3",
+        "column_4",
+        "10.853",
+        "column_6",
+        "column_7",
+        "0.00971",
+        "column_9",
+        "column_10",
+        "500 (2)",
+        "column_12",
+        "column_13",
+        "10.851",
+        "column_15",
+        "column_16",
+        "0.00432",
+        "column_18",
+        "column_19",
+        "column_20",
+        "column_21",
+        "column_22",
+        "column_23",
+        "column_24",
+        "column_25",
+        "column_26"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "500": "600.1",
+            "column_3": "",
+            "column_4": "",
+            "10.853": "11.033",
+            "column_6": "",
+            "column_7": "",
+            "0.00971": "0.0158",
+            "column_9": "",
+            "column_10": "",
+            "500 (2)": "600.1",
+            "column_12": "",
+            "column_13": "",
+            "10.851": "10.885",
+            "column_15": "",
+            "column_16": "",
+            "0.00432": "0.0070",
+            "column_18": "",
+            "column_19": "",
+            "column_20": "",
+            "column_21": "",
+            "column_22": "",
+            "column_23": "",
+            "column_24": "",
+            "column_25": "",
+            "column_26": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "500": "699.9",
+            "column_3": "",
+            "column_4": "",
+            "10.853": "11.028",
+            "column_6": "",
+            "column_7": "",
+            "0.00971": "0.0244",
+            "column_9": "",
+            "column_10": "",
+            "500 (2)": "699.9",
+            "column_12": "",
+            "column_13": "",
+            "10.851": "10.88",
+            "column_15": "",
+            "column_16": "",
+            "0.00432": "0.0108",
+            "column_18": "",
+            "column_19": "",
+            "column_20": "",
+            "column_21": "",
+            "column_22": "",
+            "column_23": "",
+            "column_24": "",
+            "column_25": "",
+            "column_26": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "500": "799.7",
+            "column_3": "",
+            "column_4": "",
+            "10.853": "11.028",
+            "column_6": "",
+            "column_7": "",
+            "0.00971": "0.0360",
+            "column_9": "",
+            "column_10": "",
+            "500 (2)": "799.7",
+            "column_12": "",
+            "column_13": "",
+            "10.851": "11.026",
+            "column_15": "",
+            "column_16": "",
+            "0.00432": "0.0160",
+            "column_18": "",
+            "column_19": "",
+            "column_20": "",
+            "column_21": "",
+            "column_22": "",
+            "column_23": "",
+            "column_24": "",
+            "column_25": "",
+            "column_26": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "500": "899.8",
+            "column_3": "",
+            "column_4": "",
+            "10.853": "10.876",
+            "column_6": "",
+            "column_7": "",
+            "0.00971": "0.0515",
+            "column_9": "",
+            "column_10": "",
+            "500 (2)": "899.8",
+            "column_12": "",
+            "column_13": "",
+            "10.851": "10.874",
+            "column_15": "",
+            "column_16": "",
+            "0.00432": "0.0229",
+            "column_18": "",
+            "column_19": "",
+            "column_20": "899.8",
+            "column_21": "",
+            "column_22": "",
+            "column_23": "10.871",
+            "column_24": "",
+            "column_25": "",
+            "column_26": "0.0057"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "",
+            "500": "999.8",
+            "column_3": "",
+            "column_4": "",
+            "10.853": "11",
+            "column_6": "",
+            "column_7": "",
+            "0.00971": "0.0714",
+            "column_9": "",
+            "column_10": "",
+            "500 (2)": "999.8",
+            "column_12": "",
+            "column_13": "",
+            "10.851": "11.025",
+            "column_15": "",
+            "column_16": "",
+            "0.00432": "0.0317",
+            "column_18": "",
+            "column_19": "",
+            "column_20": "999.8",
+            "column_21": "",
+            "column_22": "",
+            "column_23": "10.875",
+            "column_24": "",
+            "column_25": "",
+            "column_26": "0.0079"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "",
+            "500": "1100",
+            "column_3": "",
+            "column_4": "",
+            "10.853": "11",
+            "column_6": "",
+            "column_7": "",
+            "0.00971": "0.0967",
+            "column_9": "",
+            "column_10": "",
+            "500 (2)": "1099.9",
+            "column_12": "",
+            "column_13": "",
+            "10.851": "11.046",
+            "column_15": "",
+            "column_16": "",
+            "0.00432": "0.0430",
+            "column_18": "",
+            "column_19": "",
+            "column_20": "1099.9",
+            "column_21": "",
+            "column_22": "",
+            "column_23": "10.897",
+            "column_24": "",
+            "column_25": "",
+            "column_26": "0.0107"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "column_1": "",
+            "500": "1200",
+            "column_3": "",
+            "column_4": "",
+            "10.853": "11",
+            "column_6": "",
+            "column_7": "",
+            "0.00971": "0.128",
+            "column_9": "",
+            "column_10": "",
+            "500 (2)": "1200",
+            "column_12": "",
+            "column_13": "",
+            "10.851": "11",
+            "column_15": "",
+            "column_16": "",
+            "0.00432": "0.057",
+            "column_18": "",
+            "column_19": "",
+            "column_20": "1199.9",
+            "column_21": "",
+            "column_22": "",
+            "column_23": "10.88",
+            "column_24": "",
+            "column_25": "",
+            "column_26": "0.014"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b38",
+      "name": "Page 26 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 26,
+        "table": 2
+      },
+      "headerRow": 3,
+      "columns": [
+        "column_1",
+        "100",
+        "column_3",
+        "column_4",
+        "-10.26",
+        "column_6",
+        "column_7",
+        "0.00001",
+        "column_9",
+        "column_10",
+        "99.9",
+        "column_12",
+        "column_13",
+        "-10.29",
+        "column_15",
+        "column_16",
+        "0.00000",
+        "column_18",
+        "column_19",
+        "99.9 (2)",
+        "column_21",
+        "column_22",
+        "-10.27",
+        "column_24",
+        "column_25",
+        "0.00000 (2)"
+      ],
+      "rowCount": 11,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "100": "199.3",
+            "column_3": "",
+            "column_4": "",
+            "-10.26": "-10.3",
+            "column_6": "",
+            "column_7": "",
+            "0.00001": "0.00004",
+            "column_9": "",
+            "column_10": "",
+            "99.9": "199.1",
+            "column_12": "",
+            "column_13": "",
+            "-10.29": "-10.48",
+            "column_15": "",
+            "column_16": "",
+            "0.00000": "0.00001",
+            "column_18": "",
+            "column_19": "",
+            "99.9 (2)": "199",
+            "column_21": "",
+            "column_22": "",
+            "-10.27": "-10.51",
+            "column_24": "",
+            "column_25": "",
+            "0.00000 (2)": "0.00000"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "100": "300",
+            "column_3": "",
+            "column_4": "",
+            "-10.26": "-9.86",
+            "column_6": "",
+            "column_7": "",
+            "0.00001": "0.00008",
+            "column_9": "",
+            "column_10": "",
+            "99.9": "299.5",
+            "column_12": "",
+            "column_13": "",
+            "-10.29": "-10.26",
+            "column_15": "",
+            "column_16": "",
+            "0.00000": "0.00002",
+            "column_18": "",
+            "column_19": "",
+            "99.9 (2)": "299.3",
+            "column_21": "",
+            "column_22": "",
+            "-10.27": "-10.37",
+            "column_24": "",
+            "column_25": "",
+            "0.00000 (2)": "0.00001"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "100": "400",
+            "column_3": "",
+            "column_4": "",
+            "-10.26": "-9.47",
+            "column_6": "",
+            "column_7": "",
+            "0.00001": "0.00016",
+            "column_9": "",
+            "column_10": "",
+            "99.9": "400",
+            "column_12": "",
+            "column_13": "",
+            "-10.29": "-10.33",
+            "column_15": "",
+            "column_16": "",
+            "0.00000": "0.00004",
+            "column_18": "",
+            "column_19": "",
+            "99.9 (2)": "400",
+            "column_21": "",
+            "column_22": "",
+            "-10.27": "-10.52",
+            "column_24": "",
+            "column_25": "",
+            "0.00000 (2)": "0.00001"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "100": "500",
+            "column_3": "",
+            "column_4": "",
+            "-10.26": "-8.37",
+            "column_6": "",
+            "column_7": "",
+            "0.00001": "0.00027",
+            "column_9": "",
+            "column_10": "",
+            "99.9": "500",
+            "column_12": "",
+            "column_13": "",
+            "-10.29": "-9.81",
+            "column_15": "",
+            "column_16": "",
+            "0.00000": "0.00007",
+            "column_18": "",
+            "column_19": "",
+            "99.9 (2)": "500",
+            "column_21": "",
+            "column_22": "",
+            "-10.27": "-10.04",
+            "column_24": "",
+            "column_25": "",
+            "0.00000 (2)": "0.00002"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "",
+            "100": "600.1",
+            "column_3": "",
+            "column_4": "",
+            "-10.26": "-7.875",
+            "column_6": "",
+            "column_7": "",
+            "0.00001": "0.0004",
+            "column_9": "",
+            "column_10": "",
+            "99.9": "600",
+            "column_12": "",
+            "column_13": "",
+            "-10.29": "-9.96",
+            "column_15": "",
+            "column_16": "",
+            "0.00000": "0.0001",
+            "column_18": "",
+            "column_19": "",
+            "99.9 (2)": "599.9",
+            "column_21": "",
+            "column_22": "",
+            "-10.27": "-10.44",
+            "column_24": "",
+            "column_25": "",
+            "0.00000 (2)": "0.0000"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "",
+            "100": "700",
+            "column_3": "",
+            "column_4": "",
+            "-10.26": "-6.76",
+            "column_6": "",
+            "column_7": "",
+            "0.00001": "0.0007",
+            "column_9": "",
+            "column_10": "",
+            "99.9": "700",
+            "column_12": "",
+            "column_13": "",
+            "-10.29": "-9.64",
+            "column_15": "",
+            "column_16": "",
+            "0.00000": "0.0002",
+            "column_18": "",
+            "column_19": "",
+            "99.9 (2)": "700",
+            "column_21": "",
+            "column_22": "",
+            "-10.27": "-10.31",
+            "column_24": "",
+            "column_25": "",
+            "0.00000 (2)": "0.0000"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "column_1": "",
+            "100": "799.7",
+            "column_3": "",
+            "column_4": "",
+            "-10.26": "-5.75",
+            "column_6": "",
+            "column_7": "",
+            "0.00001": "0.0010",
+            "column_9": "",
+            "column_10": "",
+            "99.9": "799.8",
+            "column_12": "",
+            "column_13": "",
+            "-10.29": "-9.65",
+            "column_15": "",
+            "column_16": "",
+            "0.00000": "0.0003",
+            "column_18": "",
+            "column_19": "",
+            "99.9 (2)": "799.8",
+            "column_21": "",
+            "column_22": "",
+            "-10.27": "-10.42",
+            "column_24": "",
+            "column_25": "",
+            "0.00000 (2)": "0.0001"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "column_1": "",
+            "100": "899.8",
+            "column_3": "",
+            "column_4": "",
+            "-10.26": "-4.52",
+            "column_6": "",
+            "column_7": "",
+            "0.00001": "0.0014",
+            "column_9": "",
+            "column_10": "",
+            "99.9": "899.8",
+            "column_12": "",
+            "column_13": "",
+            "-10.29": "-9.32",
+            "column_15": "",
+            "column_16": "",
+            "0.00000": "0.0004",
+            "column_18": "",
+            "column_19": "",
+            "99.9 (2)": "899.9",
+            "column_21": "",
+            "column_22": "",
+            "-10.27": "-10.3",
+            "column_24": "",
+            "column_25": "",
+            "0.00000 (2)": "0.0001"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "column_1": "",
+            "100": "999.8",
+            "column_3": "",
+            "column_4": "",
+            "-10.26": "-3.11",
+            "column_6": "",
+            "column_7": "",
+            "0.00001": "0.0020",
+            "column_9": "",
+            "column_10": "",
+            "99.9": "999.8",
+            "column_12": "",
+            "column_13": "",
+            "-10.29": "-9.04",
+            "column_15": "",
+            "column_16": "",
+            "0.00000": "0.0005",
+            "column_18": "",
+            "column_19": "",
+            "99.9 (2)": "999.9",
+            "column_21": "",
+            "column_22": "",
+            "-10.27": "-10.21",
+            "column_24": "",
+            "column_25": "",
+            "0.00000 (2)": "0.0001"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "column_1": "",
+            "100": "1099.9",
+            "column_3": "",
+            "column_4": "",
+            "-10.26": "-2.2",
+            "column_6": "",
+            "column_7": "",
+            "0.00001": "0.0027",
+            "column_9": "",
+            "column_10": "",
+            "99.9": "1099.9",
+            "column_12": "",
+            "column_13": "",
+            "-10.29": "-9.21",
+            "column_15": "",
+            "column_16": "",
+            "0.00000": "0.0007",
+            "column_18": "",
+            "column_19": "",
+            "99.9 (2)": "1099.9",
+            "column_21": "",
+            "column_22": "",
+            "-10.27": "-10.62",
+            "column_24": "",
+            "column_25": "",
+            "0.00000 (2)": "0.0002"
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "column_1": "",
+            "100": "1200.1",
+            "column_3": "",
+            "column_4": "",
+            "-10.26": "-0.62",
+            "column_6": "",
+            "column_7": "",
+            "0.00001": "0.004",
+            "column_9": "",
+            "column_10": "",
+            "99.9": "1200.1",
+            "column_12": "",
+            "column_13": "",
+            "-10.29": "-8.71",
+            "column_15": "",
+            "column_16": "",
+            "0.00000": "0.001",
+            "column_18": "",
+            "column_19": "",
+            "99.9 (2)": "1200.1",
+            "column_21": "",
+            "column_22": "",
+            "-10.27": "-10.38",
+            "column_24": "",
+            "column_25": "",
+            "0.00000 (2)": "0.000"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b39",
+      "name": "Page 26 table 3",
+      "confidence": "low",
+      "location": {
+        "page": 26,
+        "table": 3
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "Apertu re ="
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "Apertu re =": "Closed"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "T (°C) Volts",
+            "Apertu re =": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "199 -10.5\n300 -10.4\n399.8 -10.3\n500 -10.1\n600 -10.66\n699.9 -10.5\n799.9 -10.25\n899.9 -10.52\n999.9 -10.15\n1100 -10.65\n1200 -11.1",
+            "Apertu re =": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "Ave. = -10.47",
+            "Apertu re =": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b40",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nFIGURE 10. Graph of Narrowband Radiometer Calibration Data with Linear Fit.\nThese data can be corrected by the fractional irradiance as a function of temperature provided by the\nProject Scientist and shown in FIGURE 11.\n20 Radiometer Calibration Test Report",
+      "location": {
+        "page": 27
+      }
+    },
+    {
+      "type": "text",
+      "id": "b41",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nFIGURE 11. Narrowband Radiometer’s Fractional Transmission.\nApplying this to the narrowband radiometer’s calibration data for the appropriate temperatures gives\nthe corrected calibration shown in FIGURE 12. The corrected calibration data show a marked\nimprovement in slope agreement at different apertures, which were taken at different temperatures.\n21 Radiometer Calibration Test Report",
+      "location": {
+        "page": 28
+      }
+    },
+    {
+      "type": "text",
+      "id": "b42",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nFIGURE 12. Corrected Narrowband Radiometer’s Calibration Data.\n6.2 Field of View (FOV) Roll-Off Measurement or Instrument Function\nThe roll-off in response was measured to simulate off-axis readings of droplets. The off-axis position\nof a droplet on orbit is assumed to be determined using the imaging cameras. Given said position, the\nradiometric response can be scaled to the full on-axis calibration curves.\nThe procedures outlined in MDC-TST-1866 were followed and data documented on the data sheets.\nThe results are summarized below. The experimental setup is shown in FIGURE 5 and FIGURE 8,\nconfigured without a radiation shield.\n22 Radiometer Calibration Test Report",
+      "location": {
+        "page": 29
+      }
+    },
+    {
+      "type": "text",
+      "id": "b43",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n6.2.1 Broadband\nThe broadband radiometer response to off-axis translations is given in FIGURE 13. It shows the X\n(horizontal in the figures, along the axis parallel to the line bisecting the radiometer apertures) and Y\n(vertical in the figures, along the axis perpendicular to the line bisecting the radiometer apertures)\nroll-off. Prior to the measurements the radiometer was aligned to the blackbody source, so as to peak\nthe signal output.\nDuring the scan, the center of symmetry does not completely agree with the peaked position, as\nindicated by the X and Y fits of -0.6 mm and 1.2 mm, respectively. These centers were\ncenter center\ncalculated by determining the full width half maximum (FWHM) points on each curve and\ninterpolating to get the position of each FWHM point. TABLE VI shows the data for the centers and\nfield of view (FOV) calculations. The 10% roll-off point was used to verify the alignment of the\nradiometer to the measurement location, and the 90% roll-off point was used to determine the overall\nFOV.\nFIGURE 13. Broadband Radiometer Roll-Off Characterization.\n23 Radiometer Calibration Test Report",
+      "location": {
+        "page": 30
+      }
+    },
+    {
+      "type": "text",
+      "id": "b44",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nTABLE VI. Measured Data for Broadband Radiometer Roll-Off Characterization.\nBROADBAND\nX: Y:\nP-P 6.09 V P-P 5.966 V\nV 3.274 V V 3.365 V\nFWHM FWHM\nX1 -28.0 mm Y1 -26.1 mm\nX2 26.7 mm Y2 28.5 mm\nFWHM 54.7 mm FWHM 54.6 mm\nCenter -0.6 mm Center 1.2 mm\nFWHM FWHM\nV 0.838 V V 0.979 V\n10% 10%\nX1 -49.3 mm Y1 -45.3 mm\n10% 10%\nX2 47.5 mm Y2 49.2 mm\n10% 10%\nFW 96.8 mm FW 94.6 mm\n10% 10%\nV 5.71 V V 5.751 V\n90% 90%\nX1 -13.2 mm Y1 -11.5 mm\n90% 90%\nX2 12.5 mm Y2 14.0 mm\n90% 90%\nFW 25.7 mm FW 25.5 mm\n90% 90%\nCenter FW -0.4 mm Center FW 1.3 mm\n90% 90%\n24 Radiometer Calibration Test Report",
+      "location": {
+        "page": 31
+      }
+    },
+    {
+      "type": "text",
+      "id": "b45",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n6.2.2 Narrowband\nThe narrowband radiometer response to off-axis translations is given in FIGURE 14. It shows the X\n(horizontal in the figures, along the axis parallel to the line bisecting the radiometer apertures) and Y\n(vertical in the figures, along the axis perpendicular to the line bisecting the radiometer apertures)\nroll-off. Prior to the measurements the radiometer was aligned to the blackbody source, so as to peak\nthe signal output.\nDuring the scan, the center of symmetry does not completely agree with the peaked position, as\nindicated by the X and Y fits of -2.2 mm and 2.4 mm, respectively. These centers were\ncenter center\ncalculated by determining the full width half maximum (FWHM) points on each curve and\ninterpolating to get the position of each FWHM point. TABLE VII shows the data for the centers and\nfield of view (FOV) calculations. The 10% roll-off point was used to verify the alignment of the\nradiometer to the measurement location, and the 90% roll-off point was used to determine the overall\nFOV.\nFIGURE 14. Narrowband Radiometer Roll-Off Characterization.\n25 Radiometer Calibration Test Report",
+      "location": {
+        "page": 32
+      }
+    },
+    {
+      "type": "text",
+      "id": "b46",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nTABLE VII. Measured Data for Broadband Radiometer Roll-Off Characterization.\nNARROWBAND\nX: Y:\nP-P 16.25 V P-P 16.61 V\nV 10.405 V V 10.135 V\nFWHM FWHM\nX1 -31.4 mm Y1 -27.4 mm\nX2 27.1 mm Y2 32.2 mm\nFWHM 58.5 mm FWHM 59.6 mm\nCenter -2.2 mm Center 2.4 mm\nFWHM FWHM\nV 3.905 V V 3.491 V\n10% 10%\nX1 -48.8 mm Y1 -43.7 mm\n10% 10%\nX2 46.2 mm Y2 57.2 mm\n10% 10%\nFW 94.9 mm FW 100.8 mm\n10% 10%\nV 16.905 V V 16.779 V\n90% 90%\nX1 -16.9 mm Y1 -14.0 mm\n90% 90%\nX2 14.3 mm Y2 17.1 mm\n90% 90%\nFW 31.2 mm FW 31.1 mm\n90% 90%\nCenter FW -1.3 mm Center FW 1.6 mm\n90% 90%\n26 Radiometer Calibration Test Report",
+      "location": {
+        "page": 33
+      }
+    },
+    {
+      "type": "text",
+      "id": "b47",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n6.3 Signal to Noise Ratios of the Radiometer Subsystems.\nThe signal to noise ratios of the radiometers at different signal levels were measured using the\noscilloscope set to an a/c-coupled high impedance input. FIGURES 15 and 16 show the broadband\nand narrowband radiometer noise levels, respectively. The system shows the following noise levels\nat low, medium, and high signal levels, corresponding to relative voltages of 1.55 V, 5.85 V, and\n19.05 V above the dark output for the broadband radiometer and 2.9 V, 13.4V, and 19.7 V above the\ndark output for the narrowband radiometer.\nBroadband Noise Measurements\n0.03\n0.02\n)V\n(\ne\n0.01\nd\nu\ntilp\n0\nm\na\ne\ns -0.01\nio Low signal noise\nN\nMid signal noise\n-0.02\nHigh signal noise\n-0.03\n0 5000 10000 15000 20000 25000 30000 35000\nSample count -100 Hz x 250\nFIGURE 15. Broadband Radiometer Noise Measurements Show a Consistent\nNoise Level of +/- 0.02 V.\nNarrowband Noise Measurements\n0.05\n0.04\n)V 0.03\n(\ne d 0.02\nu\ntilp\n0.01\nm\na\ne 0\nsio\nN -0.01\nLow signal noise\n-0.02 Mid signal noise\n-0.03 High signal noise\n0 5000 10000 15000 20000 25000 30000 35000\nSample count -100 Hz x 250\nFIGURE 16. Narrowband Radiometer Noise Measurements Show a Consistent\nNoise Level of +/-0.03 V.\n27 Radiometer Calibration Test Report",
+      "location": {
+        "page": 34
+      }
+    },
+    {
+      "type": "text",
+      "id": "b48",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nTABLE VIII summarizes the measured Signal to Noise Ratios (SNR) over a range of irradiances.\nThe a/c-coupled output at the lowest measured irradiances yields SNRs of 77 for the broadband\nradiometer and 140 for the narrowband radiometer. These are at signal levels of 1.55 V and 2.94 V,\nrespectively, which are at low signal levels but not at the minimum required irradiance of 0.000079\nW/cm2. Calculating the SNRs at the calibrated voltages at this minimum irradiance then yields a\nSNR of 3.5 for the broadband radiometer and 19 for the narrowband radiometer. As these are below\nthe required SNR of 40 over the range of FLEX-2 irradiances, the irradiance was calculated for the\nsignal level at which the SNR falls below 40 – from the table, this occurs at irradiances of 0.0015\nW/cm2 for the broadband radiometer and 0.0002 W/cm2 for the narrowband radiometer; above these\nirradiances the SNR ranges from 40 to nearly 900. Note: The narrowband radiometer saturates\nbefore reaching the maximum irradiance, so that SNR is Not Applicable.\nTABLE VIII. Signal to Noise Ratios\nG\nSNR (W/cm2) V (V) V (V) V (V)\noutput rel noise\nBROADBAND Baseline -9.95 0 0.02\nmeasured 77 0.004 -8.4 1.55 0.02\nmeasured 293 0.011 -4.1 5.85 0.02\nmeasured 953 0.037 9.1 19.05 0.02\ncalculated 3.5 0.000079 -9.88 0.07 0.02\ncalculated 873 0.033 7.5 17.45 0.02\nmin G at req. SNR 40 0.0015 -9.15 0.8 0.02\nG\nSNR (W/cm2) V (V) V (V) V (V)\noutput rel noise\nNARROWBAND Baseline -10.5 0 0.03\nmeasured 97 0.0006 -7.6 2.9 0.03\nmeasured 447 0.002 2.9 13.4 0.03\nmeasured 657 0.003 9.2 19.7 0.03\ncalculated 19 0.000079 -9.94 0.56 0.03\ncalculated N/A 0.033 N/A 0.03\nmin G at req. SNR 40 0.0002 -9.3 1.2 0.03\nTABLE VIII above shows the following Signal to Noise Ratios: a) at low, medium, and high signal\nlevels, b) calculated at irradiance range endpoints, and c) irradiance at minimum required SNR.\n28 Radiometer Calibration Test Report",
+      "location": {
+        "page": 35
+      }
+    },
+    {
+      "type": "text",
+      "id": "b49",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n6.4 Response time\nThe response time of the narrowband and broadband detectors are measured using an optical chopper\nwheel to provide a step function as the illumination input. The radiometer voltage output is analyzed\nto calculate the time to rise from 0 – 62.5% of the signal range.\nThe optical chopper and controller are ThorLabs Model MC1000. The wheel is configured for two\ncycles (two open regions and two blocking regions); hence, a 1 Hz drive gives a 2 Hz response.\n6.4.1 Narrowband\nFigure 17 and Table IX show the results of the time response testing of the narrowband radiometer.\nA time constant of 68 ms was measured.\nFIGURE 17. Narrowband Radiometer Response to a Step Input.\nTABLE IX. Step Response Summary for Narrowband Radiometer.\nNB Step Response Signal (V) Time (s)\nMin -1.6 -0.0159\n62.5% Max 0.4125 0.0517\n0% to 62.5% Max 2.013 0.0676\n29 Radiometer Calibration Test Report",
+      "location": {
+        "page": 36
+      }
+    },
+    {
+      "type": "table",
+      "id": "b50",
+      "name": "Page 36 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 36,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "NB Step Response",
+        "Signal (V)",
+        "Time (s)",
+        "column_4",
+        "column_5"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "NB Step Response": "Min",
+            "Signal (V)": "-1.6",
+            "Time (s)": "-0.0159",
+            "column_4": "",
+            "column_5": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "NB Step Response": "62.5% Max",
+            "Signal (V)": "0.4125",
+            "Time (s)": "0.0517",
+            "column_4": "",
+            "column_5": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "NB Step Response": "0% to 62.5% Max",
+            "Signal (V)": "2.013",
+            "Time (s)": "",
+            "column_4": "",
+            "column_5": "0.0676"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b51",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n6.4.2 Broadband\nFigure 18 and Table X show the results of the time response testing of the broadband radiometer. A\ntime constant of 138 ms was measured.\nFIGURE 18. Broadband Radiometer Response to a Step Input.\nTABLE X. Step Response Summary for Broadband Radiometer.\nBB Step Response Signal (V) Time (s)\nMin -5.76 -0.026\n62.5% max -3.135 0.1121\n0% to 62.5% max 2.625 0.1381\n30 Radiometer Calibration Test Report",
+      "location": {
+        "page": 37
+      }
+    },
+    {
+      "type": "table",
+      "id": "b52",
+      "name": "Page 37 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 37,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "BB Step Response",
+        "Signal (V)",
+        "Time (s)",
+        "column_4"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "BB Step Response": "Min",
+            "Signal (V)": "-5.76",
+            "Time (s)": "-0.026",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "BB Step Response": "62.5% max",
+            "Signal (V)": "-3.135",
+            "Time (s)": "0.1121",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "BB Step Response": "0% to 62.5% max",
+            "Signal (V)": "2.625",
+            "Time (s)": "",
+            "column_4": "0.1381"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b53",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n6.5 Ambient Temperature Dependence\nThe thermopile detectors used in the FLEX-2 radiometers are relatively insensitive to signal change\nas a function of ambient temperature. The radiometer output was tested over the ambient temperature\nrange expected on-orbit, from 20 to 30 °C, with the setup in the thermal chamber as shown in\nFIGURE 19. The results are shown in the figures below.\nFIGURE 19. Test Setup in Thermal Chamber.\nFIGURE 20 shows voltage readings of the narrowband radiometer in blue and of the broadband\nradiometer in red at ambient temperatures of 30, 25, and 20 °C. There are no trends in voltage\nproportional to ambient temperature, but it is hard to judge if the variation in output is significant\nrelative to the system noise. To this end, the random noise and drift are shown in FIGURE 21, and\nthe two data sets are superposed with the same voltage scale (but offset) in FIGURE 22. FIGURE 22\nthen makes it clear that both the broadband and narrowband radiometer variations in the thermal\nchamber are of the same magnitude as the noise and drift.\n31 Radiometer Calibration Test Report",
+      "location": {
+        "page": 38
+      }
+    },
+    {
+      "type": "text",
+      "id": "b54",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nFIGURE 20. Radiometer Output for Constant Input at Three Ambient\nTemperatures.\nFIGURE 21. Random Noise and Drift Data for Narrowband Radiometer.\n32 Radiometer Calibration Test Report",
+      "location": {
+        "page": 39
+      }
+    },
+    {
+      "type": "text",
+      "id": "b55",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nFIGURE 22. Overlay of Random Noise and Drift with Ambient Temperature\nData.\nFIGURE 22 above shows the voltages are on the same scale, but with different offsets.\n6.6 Error Analysis\nThe accuracy is determined by a combination of random and systematic errors that are described in\nthe following paragraphs. This analysis represents the graphical data from an analytic perspective –\nthe calculated irradiances in the plots are all subject to the uncertainties in the parameters below, and\nthe calibration voltages also have measurement uncertainties. The analytic and graphical approaches\ndo have practical differences; the analytic approach does not inherently account for unknown\nsystematic errors (e.g. detector filter band effects) and the voltage measurements have, at times, more\ndrift and noise than accounted for in the resolution limit term.\nThe sensitivity of the irradiance calibration to error in various measured parameters can be described\nusing the linear approximation to the total differential equation of the irradiance based on\nAT4\nG  T   W cm2\nD2\nEquation 1\nThe total differential of Equation 1 is approximated by Equation 2:\nG G G\ndG  T  A D\nT A D\nEquation 2\nwhere\n33 Radiometer Calibration Test Report",
+      "location": {
+        "page": 40
+      }
+    },
+    {
+      "type": "text",
+      "id": "b56",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nG 4AT3\n\nT D2\nEquation 3\nG T4\n\nA D2\nEquation 4\nand\nG 2AT4\n\nD D3\nEquation 5\nSo\n4AT3 AT4 2AT4\ndG  T  A D\nD2 D2 D3\nEquation 6\nAn additional term can be introduced based on the voltage resolution limit in the system of 0.005 V.\nRange of G\nG    V Equation 7\nRange of V\nThe RMS error can be calculated from Equations 6 and 7 as\n2 2 2\n4AT3  AT4  2AT4  Range of G \ndG     D2 T        D2 A        D3 D         Range of V   V    Equation 8\nTABLE XI below summarizes the numerical values in the equations above and TABLE XII shows\nthe final total error at minimum irradiance, maximum irradiance, and at the threshold irradiance\nwhere the requirement is met.\n34 Radiometer Calibration Test Report",
+      "location": {
+        "page": 41
+      }
+    },
+    {
+      "type": "text",
+      "id": "b57",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nTABLE XI. Numerical Values in Error Analysis.\nError: dG = 4σT3*(A/πD2)*ΔT + σT4/(πD2)*ΔA + -2σT4*(A/πD3)*ΔD dG/G RMS\nMin G 0.00000427 5.4%\nMax G 0.001006 3.0%\nRMS\nwhere\n∂G/∂T = 4σT3*(A/πD2)\nMin G 0.00000157 0.2%\nMax G 0.000231 0.1%\n∂G/∂A = σT4/(πD2)\nMin G 0.00623 3.9%\nMax G 0.0408 2.2%\n∂G/∂D = -2σT4*(A/πD3)\nMin G -0.0000574 -3.6%\nMax G -0.0135 -2.0%\nBroadband resolution\nVoltage: G uncertainty = (G range / V range)* V uncertainty 9.244E-06 W/cm2\nMin G 11.7%\nMax G 0.028%\nG at 5% uncertainty 0.00018\nOR\nNarrowband resolution\nVoltage: G uncertainty = (G range / V range)* V uncertainty 1.189E-06\nMin G 16.5% W/cm2\nMax G 0.024%\nG at 5% uncertainty 0.000023\nTABLE XII. Summary Table for Error Analysis.\nTotal Broadband RMS error:\nError at Min G 12.9%\nError at Max G 3.0%\nG at 5% error: 0.0002 W/cm2\nTotal Narrowband RMS error:\nError at Min G 17.4%\nError at Max G 3.0%\nG at 5% error: 0.00009 W/cm2\n35 Radiometer Calibration Test Report",
+      "location": {
+        "page": 42
+      }
+    },
+    {
+      "type": "table",
+      "id": "b58",
+      "name": "Page 42 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 42,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "Total Broadband RMS error:",
+        "column_3",
+        "column_4",
+        "column_5"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "Total Broadband RMS error:": "Error at Min G",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "12.9%"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "Total Broadband RMS error:": "Error at Max G",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "3.0%"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "Total Broadband RMS error:": "G at 5% error:",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "0.0002 W/cm2"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "Total Broadband RMS error:": "Total Narrowband RMS error:",
+            "column_3": "",
+            "column_4": "",
+            "column_5": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "",
+            "Total Broadband RMS error:": "Error at Min G",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "17.4%"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "",
+            "Total Broadband RMS error:": "Error at Max G",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "3.0%"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "column_1": "",
+            "Total Broadband RMS error:": "G at 5% error:",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "0.00009 W/cm2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b59",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nThe broadband values agree somewhat with the graphical fit of the data by the method of least\nsquares. The graphical fit of the broadband data are within 5% at the limit of maximum irradiance,\nand the low irradiance error is within 17.4% down to around 0.0002 W/cm2. The narrowband data\ngraph has error scatter of 5% to 15% at the high irradiances and 6% to 50% at the low irradiances\n(6% at the minimum irradiance value).\nOne systematic error, discussed in Section 6.1.2, that can be corrected in the narrowband data is the\nfiltered irradiance values that better represent the voltage outputs. The filtered irradiance is different\nfor each blackbody temperature irradiating the detector, and is given by the calculated fractional\nirradiance plot provided by the Project Scientist in FIGURE 11. The corrected narrowband\nradiometer’s calibration curve, shown in FIGURE 12, improves the slope error to agree well with the\nanalytic result.\n36 Radiometer Calibration Test Report",
+      "location": {
+        "page": 43
+      }
+    },
+    {
+      "type": "text",
+      "id": "b60",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nAPPENDIX A SETUP DATA SHEET FOR RADIOMETER CALIBRATION\nDate & Time (Start / Complete)\nTest Engineer\nDetector (BB or NB)\nStep Action Init\n1 Obtain all hardware and equipment required for testing. Record model numbers, serial\nnumbers, and calibration dates as necessary in Table 1. Use caution when handling ESD\nsensitive materials and optical components.\n2 Record ambient temperature : __________\n3 Set up the Blackbody Source and the Radiometer Package, using the optical mounting\nhardware configuration (for either BB or NB Radiometer mode). Roughly align the\nBlackbody Aperture with the lens at the Radiometer output (in either BB or NB mode) as\nshown in Figure 4. (More precise alignment will be performed in Steps 9 and 10.)\n4 Set up the support hardware (Blackbody Controller, ±12 VDC Power Supply, Voltmeter.\nMake the following connections with cables fed through the chamber feed-through port\nand connected at their respective locations:\n- Connect the Blackbody to its Controller via vendor supplied cable.\n- Connect Blackbody Controller to a non-GFI 120 VAC outlet.\n- Connect Radiometer Package to the ±12 VDC Power Supply via the +12 V, -12\nV, and Common Leads on the Radiometer Test Cable.\n- Connect Radiometer Package to the Voltmeter via the V and Common Leads on\nout\nthe Radiometer Test Cable.\n- Connect the DC Power Supply to a 120 VAC outlet.\nFigure 6 shows a photo of the test configuration in a laboratory setting.\n5 Power up the Blackbody via the Controller. Set the initial blackbody temperature to 700\nºC and aperture = 0.4” for BB / 0.1” for NB. Allow one (1) hour for the Blackbody to\nreach temperature and stabilize.\nRecord Time On: __________\n6 Set up the ±12 VDC Power Supply to match the Flight Avionics Package ±12 V settings.\nConnect the Voltmeter to the Power Supply outputs to verify voltages.\nRecord precise +12 V Setting: __________\nRecord precise -12 V Setting: __________\n7 Power up Radiometer Package via the ±12 VDC Power Supply.\nRecord Time On: __________\n37 Radiometer Calibration Test Report",
+      "location": {
+        "page": 44
+      }
+    },
+    {
+      "type": "table",
+      "id": "b61",
+      "name": "Page 44 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 44,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Date & Time (Start / Complete)"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Date & Time (Start / Complete)": "Test Engineer"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Date & Time (Start / Complete)": "Detector (BB or NB)"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b62",
+      "name": "Page 44 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 44,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Step",
+        "Action",
+        "Init"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Step": "1",
+            "Action": "Obtain all hardware and equipment required for testing. Record model numbers, serial\nnumbers, and calibration dates as necessary in Table 1. Use caution when handling ESD\nsensitive materials and optical components.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Step": "2",
+            "Action": "Record ambient temperature : __________",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Step": "3",
+            "Action": "Set up the Blackbody Source and the Radiometer Package, using the optical mounting\nhardware configuration (for either BB or NB Radiometer mode). Roughly align the\nBlackbody Aperture with the lens at the Radiometer output (in either BB or NB mode) as\nshown in Figure 4. (More precise alignment will be performed in Steps 9 and 10.)",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Step": "4",
+            "Action": "Set up the support hardware (Blackbody Controller, ±12 VDC Power Supply, Voltmeter.\nMake the following connections with cables fed through the chamber feed-through port\nand connected at their respective locations:\n- Connect the Blackbody to its Controller via vendor supplied cable.\n- Connect Blackbody Controller to a non-GFI 120 VAC outlet.\n- Connect Radiometer Package to the ±12 VDC Power Supply via the +12 V, -12\nV, and Common Leads on the Radiometer Test Cable.\n- Connect Radiometer Package to the Voltmeter via the V and Common Leads on\nout\nthe Radiometer Test Cable.\n- Connect the DC Power Supply to a 120 VAC outlet.\nFigure 6 shows a photo of the test configuration in a laboratory setting.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Step": "5",
+            "Action": "Power up the Blackbody via the Controller. Set the initial blackbody temperature to 700\nºC and aperture = 0.4” for BB / 0.1” for NB. Allow one (1) hour for the Blackbody to\nreach temperature and stabilize.\nRecord Time On: __________",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Step": "6",
+            "Action": "Set up the ±12 VDC Power Supply to match the Flight Avionics Package ±12 V settings.\nConnect the Voltmeter to the Power Supply outputs to verify voltages.\nRecord precise +12 V Setting: __________\nRecord precise -12 V Setting: __________",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Step": "7",
+            "Action": "Power up Radiometer Package via the ±12 VDC Power Supply.\nRecord Time On: __________",
+            "Init": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b63",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n8 Set the horizontal distance from the Radiometer face to the Blackbody Aperture Wheel\nequal to the appropriate Flight distance (WD = 110 – 9 mm). See Figures 3 and 4.\n9 Log geometric center locations from rail scale (X) and ruler (Y). X: ______ Y: ______\n10 Scan the Radiometer horizontally and the Blackbody Aperture vertically to locate the\npeak output voltage on the voltmeter. This ensures correct alignment of the devices.\nSecure Blackbody and Radiometer housing to prevent movement. Log the signal peak\nlocation from rail scale (X) and ruler (Y). X: ________ Y: ________\n11 Set-up Complete. If proceeding with other Calibration Steps, leave the hardware\npowered up. If not, power down all hardware.\n____________________\nPass / Fail\n___________________________________ __________\nSignature – FLEX-2 Test Operator Date\n___________________________________ __________\nSignature – Product Assurance Date\nComments:\n_________________________________________________________________________________\n_________________________________________________________________________________\n_________________________________________________________________________________\n_________________________________________________________________________________\n_________________________________________________________________________________\n_______________________________________________________________\n38 Radiometer Calibration Test Report",
+      "location": {
+        "page": 45
+      }
+    },
+    {
+      "type": "table",
+      "id": "b64",
+      "name": "Page 45 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 45,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "8",
+        "Set the horizontal distance from the Radiometer face to the Blackbody Aperture Wheel\nequal to the appropriate Flight distance (WD = 110 – 9 mm). See Figures 3 and 4."
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "8": "9",
+            "Set the horizontal distance from the Radiometer face to the Blackbody Aperture Wheel\nequal to the appropriate Flight distance (WD = 110 – 9 mm). See Figures 3 and 4.": "Log geometric center locations from rail scale (X) and ruler (Y). X: ______ Y: ______"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "8": "10",
+            "Set the horizontal distance from the Radiometer face to the Blackbody Aperture Wheel\nequal to the appropriate Flight distance (WD = 110 – 9 mm). See Figures 3 and 4.": "Scan the Radiometer horizontally and the Blackbody Aperture vertically to locate the\npeak output voltage on the voltmeter. This ensures correct alignment of the devices.\nSecure Blackbody and Radiometer housing to prevent movement. Log the signal peak\nlocation from rail scale (X) and ruler (Y). X: ________ Y: ________"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "8": "11",
+            "Set the horizontal distance from the Radiometer face to the Blackbody Aperture Wheel\nequal to the appropriate Flight distance (WD = 110 – 9 mm). See Figures 3 and 4.": "Set-up Complete. If proceeding with other Calibration Steps, leave the hardware\npowered up. If not, power down all hardware."
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b65",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nAPPENDIX B RADIOMETER CALIBRATION PROCEDURE DATASHEET\nDate & Time (Start / Complete)\nTest Engineer\nDetector (BB or NB)\nStep Action Init\n1 If not already, Power the Blackbody via the Controller. Set the initial blackbody\ntemperature to 1200 ºC. Allow one (1) hour for the Blackbody to reach temperature and\nstabilize. Record Time On: __________\n2 If not already, Power Radiometer Package via the ±12 VDC Power Supply.\n3 Connect the Voltmeter to the correct V and power up Voltmeter.\nout\n4 Verify correct Radiometer Set-up\n Blackbody normal to detector\n Working Distance = 110 - 9 mm\n Aligned to peak signal\n5 Prepare a “Radiometer Calibration Data Collection Sheet” (APPENDIX C).\nNote: Separate “Radiometer Calibration Data Collection Sheet” (APPENDIX C) are\nused for each of the blackbody temperatures and for each of the radiometers.\n6 Cover the Blackbody output.\n7 Record the Radiometer V from the Voltmeter and record it in the “Closed” row of the\nout\n“Radiometer Calibration Data Collection Sheet” (APPENDIX C).\n8 Open the Blackbody aperture to the 0.025” setting.\n9 Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).\n10 Change the Blackbody aperture to the 0.05” setting.\n11 Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).\n12 Change the Blackbody aperture to the 0.1” setting.\n13 Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).\n14 Change the Blackbody aperture to the 0.2” setting.\n15 Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).\n16 Change the Blackbody aperture to the 0.4” setting.\n39 Radiometer Calibration Test Report",
+      "location": {
+        "page": 46
+      }
+    },
+    {
+      "type": "table",
+      "id": "b66",
+      "name": "Page 46 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 46,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Date & Time (Start / Complete)"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Date & Time (Start / Complete)": "Test Engineer"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Date & Time (Start / Complete)": "Detector (BB or NB)"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b67",
+      "name": "Page 46 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 46,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Step",
+        "Action",
+        "Init"
+      ],
+      "rowCount": 16,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Step": "1",
+            "Action": "If not already, Power the Blackbody via the Controller. Set the initial blackbody\ntemperature to 1200 ºC. Allow one (1) hour for the Blackbody to reach temperature and\nstabilize. Record Time On: __________",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Step": "2",
+            "Action": "If not already, Power Radiometer Package via the ±12 VDC Power Supply.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Step": "3",
+            "Action": "Connect the Voltmeter to the correct V and power up Voltmeter.\nout",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Step": "4",
+            "Action": "Verify correct Radiometer Set-up\n Blackbody normal to detector\n Working Distance = 110 - 9 mm\n Aligned to peak signal",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Step": "5",
+            "Action": "Prepare a “Radiometer Calibration Data Collection Sheet” (APPENDIX C).\nNote: Separate “Radiometer Calibration Data Collection Sheet” (APPENDIX C) are\nused for each of the blackbody temperatures and for each of the radiometers.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Step": "6",
+            "Action": "Cover the Blackbody output.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Step": "7",
+            "Action": "Record the Radiometer V from the Voltmeter and record it in the “Closed” row of the\nout\n“Radiometer Calibration Data Collection Sheet” (APPENDIX C).",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Step": "8",
+            "Action": "Open the Blackbody aperture to the 0.025” setting.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Step": "9",
+            "Action": "Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Step": "10",
+            "Action": "Change the Blackbody aperture to the 0.05” setting.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Step": "11",
+            "Action": "Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "Step": "12",
+            "Action": "Change the Blackbody aperture to the 0.1” setting.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Step": "13",
+            "Action": "Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "Step": "14",
+            "Action": "Change the Blackbody aperture to the 0.2” setting.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "Step": "15",
+            "Action": "Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 16,
+          "raw": {
+            "Step": "16",
+            "Action": "Change the Blackbody aperture to the 0.4” setting.",
+            "Init": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b68",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n17 Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).\n18 Change the Blackbody aperture to the 0.6” setting.\n19 Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).\n20 Decrement the Blackbody Temperature by 100 ºC and allow at least 30 minutes for the\nBlackbody to reach temperature and stabilize.\n21 Repeat Steps 5 through 20 and record data in the appropriate Detector Voltage Rows on a\nnew “Radiometer Calibration Data Collection Sheet” (APPENDIX C) for each temp.\n22 Continue to decrement the Blackbody Temperature by 100 ºC, allow at least 30 minutes\nfor the Blackbody to reach temperature and stabilize each time and Repeating Steps 6 –\n15 until the V values are equal to the “Closed” values (this typically has occurred\nout\naround the 300 ºC Blackbody temperature).\n23 Data Collection for Radiometer Calibration has been completed. If continuing with FOV\ncharacterization, leave hardware in aligned configuration and proceed to APPENDIX D.\n24 If testing complete, power off all hardware.\n___________________________________ __________\nSignature – FLEX-2 Test Operator Date\n___________________________________ __________\nSignature – Product Assurance Date\nComments:\n_________________________________________________________________________\n_________________________________________________________________________\n_________________________________________________________________________\n_________________________________________________________________________\n_________________________________________________________________________\n_________________________________________________________________________\n_________________________________________________________________________\n_________________________________________________________________________\n______________________________________________\n40 Radiometer Calibration Test Report",
+      "location": {
+        "page": 47
+      }
+    },
+    {
+      "type": "table",
+      "id": "b69",
+      "name": "Page 47 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 47,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "17",
+        "Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C)."
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "17": "18",
+            "Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).": "Change the Blackbody aperture to the 0.6” setting."
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "17": "19",
+            "Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).": "Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C)."
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "17": "20",
+            "Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).": "Decrement the Blackbody Temperature by 100 ºC and allow at least 30 minutes for the\nBlackbody to reach temperature and stabilize."
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "17": "21",
+            "Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).": "Repeat Steps 5 through 20 and record data in the appropriate Detector Voltage Rows on a\nnew “Radiometer Calibration Data Collection Sheet” (APPENDIX C) for each temp."
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "17": "22",
+            "Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).": "Continue to decrement the Blackbody Temperature by 100 ºC, allow at least 30 minutes\nfor the Blackbody to reach temperature and stabilize each time and Repeating Steps 6 –\n15 until the V values are equal to the “Closed” values (this typically has occurred\nout\naround the 300 ºC Blackbody temperature)."
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "17": "23",
+            "Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).": "Data Collection for Radiometer Calibration has been completed. If continuing with FOV\ncharacterization, leave hardware in aligned configuration and proceed to APPENDIX D."
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "17": "24",
+            "Record the Radiometer V from the Voltmeter and record in the “Detector Voltage”\nout\ncolumn of the “Radiometer Calibration Data Collection Sheet” (APPENDIX C).": "If testing complete, power off all hardware."
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b70",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nAPPENDIX C RADIOMETER CALIBRATION DATA COLLECTION SHEET\nDate & Time (Start / Complete)\nTest Engineer\nDetector (BB or NB)\nAmbient Temperature (°C)\nBlackbody Temperature (°C)\nAperture Detector\nNotes\n(Diameter) Voltage (V)\n0.6”\n0.4”\n0.2”\n0.1”\n0.05”\n0.025”\nClosed\n___________________________________ __________\nSignature – FLEX-2 Test Operator Date\n___________________________________ __________\nSignature – Product Assurance Date\nComments:\n_________________________________________________________________________\n_________________________________________________________________________\n_________________________________________________________________________\n_________________________________________________________________________\n_________________________________________________________________________\n_________________________________________________________________________\n______________________________________________________________________\n41 Radiometer Calibration Test Report",
+      "location": {
+        "page": 48
+      }
+    },
+    {
+      "type": "table",
+      "id": "b71",
+      "name": "Page 48 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 48,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Date & Time (Start / Complete)"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Date & Time (Start / Complete)": "Test Engineer"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Date & Time (Start / Complete)": "Detector (BB or NB)"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Date & Time (Start / Complete)": "Ambient Temperature (°C)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Date & Time (Start / Complete)": "Blackbody Temperature (°C)"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b72",
+      "name": "Page 48 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 48,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Aperture\n(Diameter)",
+        "Detector\nVoltage (V)",
+        "Notes"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Aperture\n(Diameter)": "0.6”",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Aperture\n(Diameter)": "0.4”",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Aperture\n(Diameter)": "0.2”",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Aperture\n(Diameter)": "0.1”",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Aperture\n(Diameter)": "0.05”",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Aperture\n(Diameter)": "0.025”",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Aperture\n(Diameter)": "Closed",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b73",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nAPPENDIX D FIELD OF VIEW CHARACTERIZATION PROCEDURE\nDate & Time (Start / Complete)\nTest Engineer\nDetector (BB or NB)\nStep Action Init\n1 If not already, Power the Blackbody via the Controller. Set the initial blackbody\ntemperature to 700 ºC and aperture = 0.4” for BB / 0.1 for NB. Allow one (1) hour for\nthe Blackbody to reach temperature and stabilize. Record Time On: __________\n2 If not already, Power Radiometer Package via the ±12 VDC Power Supply.\n3 Connect the Voltmeter to the correct V and power up Voltmeter.\nout\n4 Verify correct Radiometer Set-up\n Blackbody normal to detector\n Working Distance = 110 - 9 mm\n Aligned to peak signal\n5 Prepare a “FOV Characterization Data Collection Sheet” (APPENDIX E).\nNote: Separate “FOV Characterization Data Collection Sheet” (APPENDIX E) are used\nfor each of the radiometers.\n6 Translate the radiometer on the horizontal rail to the -70 mm position.\n7 Record the “Scale Reading” and Radiometer V from the Voltmeter on the “FOV\nout\nCharacterization Data Collection Sheet” (APPENDIX E).\n8 Increment the radiometer on the horizontal rail by 10 mm to scan across the FOV.\n9 Record the “Scale Reading” and Radiometer V from the Voltmeter on the “FOV\nout\nCharacterization Data Collection Sheet” (APPENDIX E).\n10 Repeat Steps 8 and 9 until data are acquired through the +70 mm radiometer position.\n11 Return the radiometer to the center (peak signal) position.\n12 Continue characterization with a scan in the Y direction; lower lab jack(s) to -60 mm.\n13 Record the “Scale Reading” and Radiometer V from the Voltmeter on the “FOV\nout\nCharacterization Data Collection Sheet” (APPENDIX E).\n14 Increment the blackbody position by 10 mm using the lab jack to scan across the FOV.\n15 Record the “Scale Reading” and Radiometer V from the Voltmeter on the “FOV\nout\nCharacterization Data Collection Sheet” (APPENDIX E).\n16 Repeat Steps 14 and 15 until data are acquired through the +60 mm blackbody position.\n17 Return the blackbody source to the center (peak signal) position and power down.\n42 Radiometer Calibration Test Report",
+      "location": {
+        "page": 49
+      }
+    },
+    {
+      "type": "table",
+      "id": "b74",
+      "name": "Page 49 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 49,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Date & Time (Start / Complete)"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Date & Time (Start / Complete)": "Test Engineer"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Date & Time (Start / Complete)": "Detector (BB or NB)"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b75",
+      "name": "Page 49 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 49,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Step",
+        "Action",
+        "Init"
+      ],
+      "rowCount": 17,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Step": "1",
+            "Action": "If not already, Power the Blackbody via the Controller. Set the initial blackbody\ntemperature to 700 ºC and aperture = 0.4” for BB / 0.1 for NB. Allow one (1) hour for\nthe Blackbody to reach temperature and stabilize. Record Time On: __________",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Step": "2",
+            "Action": "If not already, Power Radiometer Package via the ±12 VDC Power Supply.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Step": "3",
+            "Action": "Connect the Voltmeter to the correct V and power up Voltmeter.\nout",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Step": "4",
+            "Action": "Verify correct Radiometer Set-up\n Blackbody normal to detector\n Working Distance = 110 - 9 mm\n Aligned to peak signal",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Step": "5",
+            "Action": "Prepare a “FOV Characterization Data Collection Sheet” (APPENDIX E).\nNote: Separate “FOV Characterization Data Collection Sheet” (APPENDIX E) are used\nfor each of the radiometers.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Step": "6",
+            "Action": "Translate the radiometer on the horizontal rail to the -70 mm position.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Step": "7",
+            "Action": "Record the “Scale Reading” and Radiometer V from the Voltmeter on the “FOV\nout\nCharacterization Data Collection Sheet” (APPENDIX E).",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Step": "8",
+            "Action": "Increment the radiometer on the horizontal rail by 10 mm to scan across the FOV.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Step": "9",
+            "Action": "Record the “Scale Reading” and Radiometer V from the Voltmeter on the “FOV\nout\nCharacterization Data Collection Sheet” (APPENDIX E).",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Step": "10",
+            "Action": "Repeat Steps 8 and 9 until data are acquired through the +70 mm radiometer position.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Step": "11",
+            "Action": "Return the radiometer to the center (peak signal) position.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "Step": "12",
+            "Action": "Continue characterization with a scan in the Y direction; lower lab jack(s) to -60 mm.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Step": "13",
+            "Action": "Record the “Scale Reading” and Radiometer V from the Voltmeter on the “FOV\nout\nCharacterization Data Collection Sheet” (APPENDIX E).",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "Step": "14",
+            "Action": "Increment the blackbody position by 10 mm using the lab jack to scan across the FOV.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "Step": "15",
+            "Action": "Record the “Scale Reading” and Radiometer V from the Voltmeter on the “FOV\nout\nCharacterization Data Collection Sheet” (APPENDIX E).",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 16,
+          "raw": {
+            "Step": "16",
+            "Action": "Repeat Steps 14 and 15 until data are acquired through the +60 mm blackbody position.",
+            "Init": ""
+          }
+        },
+        {
+          "sourceRow": 17,
+          "raw": {
+            "Step": "17",
+            "Action": "Return the blackbody source to the center (peak signal) position and power down.",
+            "Init": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b76",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nAPPENDIX E FOV CHARACTERIZATION DATA COLLECTION SHEET\nDate & Time (Start / Complete)\nTest Engineer\nDetector (BB or NB)\nAmbient Temperature (°C)\nBlackbody Settings T: ________ °C Aperture: ________ ”\nX Radiometer Scale Reading Detector\nNotes\nPosition (mm) (mm) Voltage (V)\n-70\n-60\n-50\n-40\n-30\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\n70\n___________________________________ __________\nSignature – FLEX-2 Test Operator Date\n___________________________________ __________\nSignature – Product Assurance Date\n43 Radiometer Calibration Test Report",
+      "location": {
+        "page": 50
+      }
+    },
+    {
+      "type": "table",
+      "id": "b77",
+      "name": "Page 50 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 50,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Date & Time (Start / Complete)",
+        "column_2"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Date & Time (Start / Complete)": "Test Engineer",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Date & Time (Start / Complete)": "Detector (BB or NB)",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Date & Time (Start / Complete)": "Ambient Temperature (°C)",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Date & Time (Start / Complete)": "Blackbody Settings",
+            "column_2": "T: ________ °C Aperture: ________ ”"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b78",
+      "name": "Page 50 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 50,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "X Radiometer\nPosition (mm)",
+        "Scale Reading\n(mm)",
+        "Detector\nVoltage (V)",
+        "Notes"
+      ],
+      "rowCount": 15,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "X Radiometer\nPosition (mm)": "-70",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "X Radiometer\nPosition (mm)": "-60",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "X Radiometer\nPosition (mm)": "-50",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "X Radiometer\nPosition (mm)": "-40",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "X Radiometer\nPosition (mm)": "-30",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "X Radiometer\nPosition (mm)": "-20",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "X Radiometer\nPosition (mm)": "-10",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "X Radiometer\nPosition (mm)": "0",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "X Radiometer\nPosition (mm)": "10",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "X Radiometer\nPosition (mm)": "20",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "X Radiometer\nPosition (mm)": "30",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "X Radiometer\nPosition (mm)": "40",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "X Radiometer\nPosition (mm)": "50",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "X Radiometer\nPosition (mm)": "60",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "X Radiometer\nPosition (mm)": "70",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b79",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nDate & Time (Start / Complete)\nTest Engineer\nDetector (BB or NB)\nAmbient Temperature (°C)\nBlackbody Settings T: ________ °C Aperture: ________ ”\nY Blackbody Scale Reading Detector\nNotes\nPosition (mm) (mm) Voltage (V)\n-60\n-50\n-40\n-30\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\n___________________________________ __________\nSignature – FLEX-2 Test Operator Date\n___________________________________ __________\nSignature – Product Assurance Date\n44 Radiometer Calibration Test Report",
+      "location": {
+        "page": 51
+      }
+    },
+    {
+      "type": "table",
+      "id": "b80",
+      "name": "Page 51 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 51,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Date & Time (Start / Complete)",
+        "column_2"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Date & Time (Start / Complete)": "Test Engineer",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Date & Time (Start / Complete)": "Detector (BB or NB)",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Date & Time (Start / Complete)": "Ambient Temperature (°C)",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Date & Time (Start / Complete)": "Blackbody Settings",
+            "column_2": "T: ________ °C Aperture: ________ ”"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b81",
+      "name": "Page 51 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 51,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Y Blackbody\nPosition (mm)",
+        "Scale Reading\n(mm)",
+        "Detector\nVoltage (V)",
+        "Notes"
+      ],
+      "rowCount": 13,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Y Blackbody\nPosition (mm)": "-60",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Y Blackbody\nPosition (mm)": "-50",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Y Blackbody\nPosition (mm)": "-40",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Y Blackbody\nPosition (mm)": "-30",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Y Blackbody\nPosition (mm)": "-20",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Y Blackbody\nPosition (mm)": "-10",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Y Blackbody\nPosition (mm)": "0",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Y Blackbody\nPosition (mm)": "10",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Y Blackbody\nPosition (mm)": "20",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Y Blackbody\nPosition (mm)": "30",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Y Blackbody\nPosition (mm)": "40",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "Y Blackbody\nPosition (mm)": "50",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Y Blackbody\nPosition (mm)": "60",
+            "Scale Reading\n(mm)": "",
+            "Detector\nVoltage (V)": "",
+            "Notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b82",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nComments:\n_________________________________________________________________________\n_________________________________________________________________________\n_________________________________________________________________________\n_________________________________________________________________________\n_________________________________________________________________________\n_________________________________________________________________________\n____________________________________________________\n45 Radiometer Calibration Test Report",
+      "location": {
+        "page": 52
+      }
+    },
+    {
+      "type": "text",
+      "id": "b83",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nAPPENDIX F SNR DATA COLLECTION SHEET\nTemp Aperture G(T) DC AC\nDetector Filename Date/Time\n(°C) (in. dia.) (W/cm2) Volts Volts\n46 Radiometer Calibration Test Report",
+      "location": {
+        "page": 53
+      }
+    },
+    {
+      "type": "text",
+      "id": "b84",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\n___________________________________ __________\nSignature – FLEX-2 Test Operator Date\n___________________________________ __________\nSignature – Product Assurance Date\n47 Radiometer Calibration Test Report",
+      "location": {
+        "page": 54
+      }
+    },
+    {
+      "type": "text",
+      "id": "b85",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nAPPENDIX G ACRONYMS AND ABBREVIATIONS\nBB Broadband\nCIR Combustion Integrated Rack\nCOTS Commercial Off The Shelf\nDC Direct Current\nECO Engineering Change Order\nERD Engineering Requirements Document\nESD Electrostatic Discharge\nFCF Fluids and Combustion Facility\nFLEX Flame Extinguishment Experiment\nFLEX-2 Flame Extinguishment Experiment 2\nFOV Field of View\nIR infrared\nISS International Space Station\nMDCA Multi-user Droplet Combustion Apparatus\nN/A Not Applicable\nNASA National Aeronautics and Space Administration\nNB Narrowband\nSNR Signal to Noise Ratios\nSpaceDOC Space Flight Systems Development and Operations Contract\nVAC Volts (alternating current)\nVDC Volts (direct current)\n48 Radiometer Calibration Test Report",
+      "location": {
+        "page": 55
+      }
+    },
+    {
+      "type": "text",
+      "id": "b86",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "MDC-RPT-1881A\nAugust 29, 2011\nAPPENDIX H FLEX/FLEX-2 RADIOMETER CALIBRATION PARAMETERS\nThe following document by Mr. Michael Hicks describes the irradiance parameters governing the\ncalibration. This document is available in the configuration management folder for MDC-TST-1866-\nR1\n49 Radiometer Calibration Test Report",
+      "location": {
+        "page": 56
+      }
+    }
+  ]
+}

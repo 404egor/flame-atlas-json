@@ -1,0 +1,285 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-117",
+  "format": "csv",
+  "source": {
+    "fileName": "PSI-117_Analyzed Data_MST_2024_Kavg.csv",
+    "folder": "Analyzed Data",
+    "subfolder": "Reduced Gravity/Simulation/MST",
+    "key": "psi-data/PSI-117/Analyzed Data/PSI-117_Analyzed Data_MST_2024_Kavg.csv",
+    "version": 1,
+    "sizeBytes": 518,
+    "sha256": "a89e0639567f05f19a6d0dffa9b2f659048358dee1c603b6c65bfcebd1101796",
+    "localPath": "data/raw/PSI-117/Analyzed Data/Reduced Gravity/Simulation/MST/PSI-117_Analyzed Data_MST_2024_Kavg.csv",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-117"
+  },
+  "extractor": {
+    "name": "csv",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:29:16+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "PSI-117_Analyzed Data_MST_2024_Kavg: 1 empty header(s) named column_<n> (columns 4)",
+    "PSI-117_Analyzed Data_MST_2024_Kavg: 1 duplicate header(s) renamed: Pressure (2)"
+  ],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 1,
+    "tableRows": 19,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "table",
+      "id": "b1",
+      "name": "PSI-117_Analyzed Data_MST_2024_Kavg",
+      "confidence": "high",
+      "location": {},
+      "headerRow": 1,
+      "columns": [
+        "Experiment",
+        "Pressure",
+        "Kavg_CF",
+        "column_4",
+        "Model",
+        "Pressure (2)",
+        "kb (mm2/s)"
+      ],
+      "rowCount": 19,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "0.5",
+            "Kavg_CF": "0.315175121",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "5",
+            "kb (mm2/s)": "0.5012"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "0.5",
+            "Kavg_CF": "0.315175121",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "3",
+            "kb (mm2/s)": "0.48689"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "0.5",
+            "Kavg_CF": "0.329710005",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "1.25",
+            "kb (mm2/s)": "0.471387695"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "0.5",
+            "Kavg_CF": "0.332616982",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "1",
+            "kb (mm2/s)": "0.447921"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "0.75",
+            "Kavg_CF": "0.369273871",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "0.75",
+            "kb (mm2/s)": "0.4078"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "1",
+            "Kavg_CF": "0.365233085",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "0.5",
+            "kb (mm2/s)": "0.37396"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "1",
+            "Kavg_CF": "0.383838614",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "",
+            "kb (mm2/s)": ""
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "1",
+            "Kavg_CF": "0.390233085",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "",
+            "kb (mm2/s)": ""
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "1",
+            "Kavg_CF": "0.401281353",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "",
+            "kb (mm2/s)": ""
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "1",
+            "Kavg_CF": "0.407675824",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "",
+            "kb (mm2/s)": ""
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "1.25",
+            "Kavg_CF": "0.404795194",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "",
+            "kb (mm2/s)": ""
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "1.25",
+            "Kavg_CF": "0.407121654",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "",
+            "kb (mm2/s)": ""
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "1.25",
+            "Kavg_CF": "0.431540259",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "",
+            "kb (mm2/s)": ""
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "1.25",
+            "Kavg_CF": "0.431540259",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "",
+            "kb (mm2/s)": ""
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "2",
+            "Kavg_CF": "0.457207721",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "",
+            "kb (mm2/s)": ""
+          }
+        },
+        {
+          "sourceRow": 16,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "3",
+            "Kavg_CF": "0.445111712",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "",
+            "kb (mm2/s)": ""
+          }
+        },
+        {
+          "sourceRow": 17,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "3",
+            "Kavg_CF": "0.493367526",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "",
+            "kb (mm2/s)": ""
+          }
+        },
+        {
+          "sourceRow": 18,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "5",
+            "Kavg_CF": "0.501739795",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "",
+            "kb (mm2/s)": ""
+          }
+        },
+        {
+          "sourceRow": 19,
+          "raw": {
+            "Experiment": "",
+            "Pressure": "5",
+            "Kavg_CF": "0.527320312",
+            "column_4": "",
+            "Model": "",
+            "Pressure (2)": "",
+            "kb (mm2/s)": ""
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2195 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-20",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-20_Science Documents_BRE_science_concept_RDR_201306.pdf",
+    "folder": "Science Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-20/Science Documents/PSI-20_Science Documents_BRE_science_concept_RDR_201306.pdf",
+    "version": 1,
+    "sizeBytes": 6096986,
+    "sha256": "8257079bedf989c4d16318a3013ad10c1ca7bd6b127a7c1abe80f66255e406be",
+    "localPath": "data/raw/PSI-20/Science Documents/PSI-20_Science Documents_BRE_science_concept_RDR_201306.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:13:18+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 14 table 1: 1 line(s) above the header skipped",
+    "Page 14 table 1: 2 empty header(s) named column_<n> (columns 1, 5)",
+    "Page 19 table 1: 1 empty header(s) named column_<n> (columns 1)",
+    "Page 23 table 1: 2 empty header(s) named column_<n> (columns 1-2)",
+    "Page 24 table 1: 2 empty header(s) named column_<n> (columns 1-2)",
+    "Page 25 table 1: 2 empty header(s) named column_<n> (columns 1-2)",
+    "Page 28 table 1: 1 empty header(s) named column_<n> (columns 1)",
+    "Page 28 table 1: 1 duplicate header(s) renamed: Heater Off (2)",
+    "Page 49 table 1: 3 empty header(s) named column_<n> (columns 2-4)",
+    "Page 49 table 2: 1 line(s) above the header skipped",
+    "Page 49 table 2: 7 empty header(s) named column_<n> (columns 2-8)",
+    "Page 49 table 3: 2 empty header(s) named column_<n> (columns 1-2)",
+    "Page 49 table 7: 7 line(s) above the header skipped",
+    "Page 49 table 7: 2 empty header(s) named column_<n> (columns 1-2)",
+    "Page 50 table 1: 3 empty header(s) named column_<n> (columns 2-4)",
+    "Page 50 table 2: 8 empty header(s) named column_<n> (columns 2-9)",
+    "Page 50 table 3: 5 empty header(s) named column_<n> (columns 1, 3-6)",
+    "Page 71 table 1: 2 empty header(s) named column_<n> (columns 4, 6)"
+  ],
+  "stats": {
+    "textBlocks": 80,
+    "characters": 24877,
+    "tables": 17,
+    "tableRows": 82,
+    "pages": 80
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Science Requirements Review\nJun. 19-20, 2013\nBurning Rate Emulator (BRE):\nMaterial Burning and Extinction in\nMicrogravity\nan ACME experiment\nPI: James G. Quintiere, Univ. of Maryland\nCo-I: Peter B. Sunderland, Univ. of Maryland\nBRE Technical Contact: Paul Ferkul\nACME Project Scientist: Dennis P. Stocker\nAcknowledgments: Michael Bustamante, Keenan Dotson, Yi Zhang\n1",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "1. Goal\nDetermine burning conditions on flat\nsurfaces in quiescent microgravity\n2",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "In general\n• The goal of this study is to establish the burning\nconditions for materials in a quiescent environment.\n• We seek to define the burning in terms of the heat of\ngasification L by using a burning rate emulator (BRE),\nwhich is a burner with controlled fuel supply.\n3",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Operational Objectives\nBuild and operate a gas-fueled\nExamples to be discussed\nburner for studying steady burning\n• Burning Rate Emulator\n(BRE)\n• Demonstrate\n– Wall fires in 1 g\n– Pool fires in 1 g\n• Explore flat surface burning\nin microgravity\n• Establish fuel properties\nable to support burning in\nmicrogravity\n4",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Hypothesis\nMatching requirements:\n• Same fuel stream (diluent\nincluded) flow rate\n• Same condensed phase\nproperties\n Heat of combustion\n Heat of gasification\n Vaporization temperature\n Smoke point\n5",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Output of the Study\n• BRE has the advantage of efficiency to range\nthrough a spectrum of fuels, and ease of operation.\n, kJ/g\nExtinction\n30\nFlammable\n20\nq , kW/m2\nrr\n10\nBlow out\n0\n, kJ/g\n6",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Framework: Steady Burning Theory\nFlame\nq q\nrr f\nmL  q  q\nf rr\nCondensed Fuel\n7",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "BRE: Burning Rate Emulator\nFlame\nPerforated Brass Screen (T )\ns\nq\nq f\nrr\nq  q\nf rr\nL \nm\nGlass Beads\nHeat Flux Sensors\nm\n8",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Relationship to NASA Flammability\nTests 1 and 2\n• The Upward Flame Propagation (Test 1) is the dominant\ntest for material flammability by NASA.\n– It tests the flame propagation of a vertical sample 30 × 6.4 –\n7.5 cm wide, under a small electric source heat flux of 75\nkW/m2.\n– The atmospheric conditions are controlled.\n– Burn length and time are recorded.\n– It is considered a pass-fail type test.\n• The NASA Test 2: Cone Calorimeter with external heat\nfluxes of 25 – 75 kW/m2 to supplement information gained\nfrom Test 1.\n9",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "text",
+      "id": "b10",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2. Background Microgravity\nStudies\n10",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Background of Combustion in\nMicrogravity\n• Experiments in Skylab (Ross, 2001; Kimzey, 1974) indicated sustained\nburning of thin paper and plastics.\n• More recent experiments indicate flame spread on thin paper and plastic\nthin cylinders in microgravity (Ross, 2001).\n• Opposed flow spread in a quiescent atmosphere has been shown to\ndepend on material, thickness, and oxygen concentration (Ross, 2001).\n• The burning of candle flames on the MIR (Ross, 2001) last for periods\nranging from about 100 s to more than 45 minutes. A spherical flame\nformed around the wick.\n• Droplet experiments by Kumagai and others (Ross, 2001).\n• Small diameter jet flames of 0.4 – 2.7 mm yielded spherical flames of\ndurations from 150 – 300 s (Ross, 2001).\n• Sunderland et al. (1999) recorded flames for port diameters up to 3.3 mm,\nand Re from about 10 – 1700 in microgravity.\n• Brahmi et al. (2005) used a gaseous burner to simulate burning in g. They\nburned ethane over a 60  60 mm sintered bronze plate in O -N flowing\n2 2\nat velocities of 10 – 150 mm/s.\n• Bustamante (2012) aircraft and drop data on flat liquid-fueled wicks.\n11",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "text",
+      "id": "b12",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Background of Combustion in\nMicrogravity\nRegions of steady burner flames in microgravity in terms of fuel V and oxidizer U velocities from\nf ∞\nBrahmi et al. (2005).\n12",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "13",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "text",
+      "id": "b14",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "3. Proof of Concept in Normal\nGravity\n14",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "table",
+      "id": "b15",
+      "name": "Page 14 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 14,
+        "table": 1
+      },
+      "headerRow": 2,
+      "columns": [
+        "column_1",
+        "3. Proo",
+        "f of Concept in\nGravity",
+        "Normal",
+        "column_5"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "3. Proo",
+            "3. Proo": "3. Proo",
+            "f of Concept in\nGravity": "",
+            "Normal": "",
+            "column_5": "Normal"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b16",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Early BRE Studies\n• Orloff and deRis (1971), deRis et al. (1975) and Kim et\nal. (1971)\n• They successfully simulated burning conditions for a\nwide range of B numbers.\nY h / r  c (T  T )\nDimensionless burning rate vs B\nox c p v \nB \nL\nCeiling Fires\n15",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "text",
+      "id": "b17",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Inclined Plate\nMethanol flames in top galley at angles +90, 60, 30, 0, -30, -60, and -90. Methane flames in bottom\ngalley at corresponding angles and burning rates. 16",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "text",
+      "id": "b18",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Trace renditions of the flame standoff position for the burner and methanol.\n17",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Pool Fire Simulation\nBurning rate\nm   11 g/m2  s\nSmoke Point\nMethanol Pool Fire h\nc\n18",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "text",
+      "id": "b20",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Pool Fire Simulation\nPool (methanol) BRE (X =52%, X =48%)\nCH4 N2\nh (kJ/g) 19 19\nc\nSmoke point (mm) / /\nh  Y h  Y h\nc,mixture 1 c,1 2 c,2\n19 kJ/g  38%  49.6 kJ/g\nMethanol CH 4\nX =52%, X =48%\nCH4 N2\n19",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "table",
+      "id": "b21",
+      "name": "Page 19 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 19,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "Pool (methanol)",
+        "BRE (X =52%, X =48%)\nCH4 N2"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "h (kJ/g)\nc",
+            "Pool (methanol)": "19",
+            "BRE (X =52%, X =48%)\nCH4 N2": "19"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "Smoke point (mm)",
+            "Pool (methanol)": "/",
+            "BRE (X =52%, X =48%)\nCH4 N2": "/"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b22",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Pool Fire Simulation\nMethanol Pool Fire BRE\n20",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "text",
+      "id": "b23",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "21",
+      "location": {
+        "page": 21
+      }
+    },
+    {
+      "type": "text",
+      "id": "b24",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\n2\nHF  5.5 kW/m\ncenter\n2\nHF  21.3 kW/m\nedge\nT  160 C\nq  HF  15.6 kW/m 2\naverage\nf average\nq (T 4  T 4 )\nrr average \n2\n 1.5 kW/m\nq  q\nf rr\nL   1.28 kJ/g\nm\n22",
+      "location": {
+        "page": 22
+      }
+    },
+    {
+      "type": "text",
+      "id": "b25",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nPool (methanol) BRE (X =52%, X =48%)\nCH4 N2\nh (kJ/g) 19 19\nc\nPre-Match\nL (mm) / /\ns\nMeasurement & Ts (°C) 65 160\nCalculation L (kJ/g) 1.2 1.28\nMethanol Pool Fire BRE\n23",
+      "location": {
+        "page": 23
+      }
+    },
+    {
+      "type": "table",
+      "id": "b26",
+      "name": "Page 23 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 23,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "column_2",
+        "Pool (methanol)",
+        "BRE (X =52%, X =48%)\nCH4 N2"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "Pre-Match",
+            "column_2": "h (kJ/g)\nc",
+            "Pool (methanol)": "19",
+            "BRE (X =52%, X =48%)\nCH4 N2": "19"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "column_2": "L (mm)\ns",
+            "Pool (methanol)": "/",
+            "BRE (X =52%, X =48%)\nCH4 N2": "/"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "Measurement &\nCalculation",
+            "column_2": "Ts (°C)",
+            "Pool (methanol)": "65",
+            "BRE (X =52%, X =48%)\nCH4 N2": "160"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "column_2": "L (kJ/g)",
+            "Pool (methanol)": "1.2",
+            "BRE (X =52%, X =48%)\nCH4 N2": "1.28"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b27",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nPool (heptane) BRE (C H )\n2 4\nh (kJ/g) 41.2 41.5\nc\nPre-Match\nL (mm) 139 120\ns\nMeasurement & Ts (°C) 98 211\nCalculation L (kJ/g) 0.48 0.51\n24\nHeptane Pool Fire BRE",
+      "location": {
+        "page": 24
+      }
+    },
+    {
+      "type": "table",
+      "id": "b28",
+      "name": "Page 24 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 24,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "column_2",
+        "Pool (heptane)",
+        "BRE (C H )\n2 4"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "Pre-Match",
+            "column_2": "h (kJ/g)\nc",
+            "Pool (heptane)": "41.2",
+            "BRE (C H )\n2 4": "41.5"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "column_2": "L (mm)\ns",
+            "Pool (heptane)": "139",
+            "BRE (C H )\n2 4": "120"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "Measurement &\nCalculation",
+            "column_2": "Ts (°C)",
+            "Pool (heptane)": "98",
+            "BRE (C H )\n2 4": "211"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "column_2": "L (kJ/g)",
+            "Pool (heptane)": "0.48",
+            "BRE (C H )\n2 4": "0.51"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b29",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nPool (PMMA) BRE (X =50%, X =50%)\nC3H6 N2\nh (kJ/g) 24.2 24.3\nc\nPre-Match\nL (mm) 105 116.6\ns\nMeasurement & Ts (°C) 270 312\nCalculation L (kJ/g) 1.6 1.8\nPMMA Pool Fire BRE\n25",
+      "location": {
+        "page": 25
+      }
+    },
+    {
+      "type": "table",
+      "id": "b30",
+      "name": "Page 25 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 25,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "column_2",
+        "Pool (PMMA)",
+        "BRE (X =50%, X =50%)\nC3H6 N2"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "Pre-Match",
+            "column_2": "h (kJ/g)\nc",
+            "Pool (PMMA)": "24.2",
+            "BRE (X =50%, X =50%)\nC3H6 N2": "24.3"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "column_2": "L (mm)\ns",
+            "Pool (PMMA)": "105",
+            "BRE (X =50%, X =50%)\nC3H6 N2": "116.6"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "Measurement &\nCalculation",
+            "column_2": "Ts (°C)",
+            "Pool (PMMA)": "270",
+            "BRE (X =50%, X =50%)\nC3H6 N2": "312"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "column_2": "L (kJ/g)",
+            "Pool (PMMA)": "1.6",
+            "BRE (X =50%, X =50%)\nC3H6 N2": "1.8"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b31",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flammability Map\nPS PE\nWood\nFilter Paper\n∆𝒉 , kJ/g\nPMMA\n𝒄\n60\nBRE with\nqq ,, kkWW//mm22\nEthylene rrrr\n40\n20\nHeptane\n20\nBRE with 15\n00\nMethane\n10\n2\nLiquid\nMethanol\n5 Extinction\n4\nBRE with\n52% 0\n6\nMethane, 𝑳𝑳,, kkJJ//gg\n48%\nNitrogen\n26",
+      "location": {
+        "page": 26
+      }
+    },
+    {
+      "type": "text",
+      "id": "b32",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "4. Recent Drop Tests of Burner\n27",
+      "location": {
+        "page": 27
+      }
+    },
+    {
+      "type": "text",
+      "id": "b33",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Takahashi Tests\nMethane μg Ethylene μg\nHeater Off Heater Off 75C 200C\n50 ccm\nat 21.1C\nRadiometer=1.5V Radiometer = 1.4V Radiometer = 1.6V\nFlame lifts from\nFlame lifts from burner Flame lifts from burner\nburner approximately\napproximately 5mm approximately 5 mm\n5mm\n100\nccm at\n21.1C\nRadiometer=3.1V Radiometer = 2.4V Radiometer = 3.3V Radiometer = 3.4V\nt=1.233s, Radiometer\nFlame lifts from Flame is stable at Flame is stable at\nsignal based on\nburner, then base and increases in base and increases in\naverage from t=1.00\nquenches at the top height until impact height until impact\nto t=1.40s\n120\nccm at\n21.1C\nRadiometer=3.8V Radiometer = 4.4V Radiometer =4.1V Radiometer = 4.2V\nt=1.100s, Radiometer\nFlame lifts from Flame is stable at Flame is stable at\nsignal based on 28\nburner, then base and increases in base and increases in\naverage from t=0.933\nquenches at the top height until impact height until impact\nto t=1.200s\nNote: Radiometer signal adjusted for ignitor and flame (i.e. to not include heater)\nImage brightness and contrast have been altered\nFor images, t=1.9s (unless noted). Radiometer signal based on average from t=1.8667 to t=1.9333",
+      "location": {
+        "page": 28
+      }
+    },
+    {
+      "type": "table",
+      "id": "b34",
+      "name": "Page 28 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 28,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "Heater Off",
+        "Heater Off (2)",
+        "75C",
+        "200C"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "50 ccm\nat 21.1C",
+            "Heater Off": "",
+            "Heater Off (2)": "",
+            "75C": "",
+            "200C": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "Heater Off": "",
+            "Heater Off (2)": "Radiometer=1.5V",
+            "75C": "Radiometer = 1.4V",
+            "200C": "Radiometer = 1.6V"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "Heater Off": "",
+            "Heater Off (2)": "Flame lifts from burner\napproximately 5mm",
+            "75C": "Flame lifts from\nburner approximately\n5mm",
+            "200C": "Flame lifts from burner\napproximately 5 mm"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "100\nccm at\n21.1C",
+            "Heater Off": "",
+            "Heater Off (2)": "",
+            "75C": "",
+            "200C": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "",
+            "Heater Off": "Radiometer=3.1V",
+            "Heater Off (2)": "Radiometer = 2.4V",
+            "75C": "Radiometer = 3.3V",
+            "200C": "Radiometer = 3.4V"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "column_1": "",
+            "Heater Off": "t=1.233s, Radiometer\nsignal based on\naverage from t=1.00\nto t=1.40s",
+            "Heater Off (2)": "Flame lifts from\nburner, then\nquenches at the top",
+            "75C": "Flame is stable at\nbase and increases in\nheight until impact",
+            "200C": "Flame is stable at\nbase and increases in\nheight until impact"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "column_1": "120\nccm at\n21.1C",
+            "Heater Off": "",
+            "Heater Off (2)": "",
+            "75C": "",
+            "200C": ""
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "column_1": "",
+            "Heater Off": "Radiometer=3.8V",
+            "Heater Off (2)": "Radiometer = 4.4V",
+            "75C": "Radiometer =4.1V",
+            "200C": "Radiometer = 4.2V"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "column_1": "",
+            "Heater Off": "t=1.100s, Radiometer\nsignal based on\naverage from t=0.933\nto t=1.200s",
+            "Heater Off (2)": "Flame lifts from\nburner, then\nquenches at the top",
+            "75C": "Flame is stable at\nbase and increases in\nheight until impact",
+            "200C": "Flame is stable at\nbase and increases in\nheight until impact"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b35",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "BRE Drop Tests\n• 5 second drop facility at NASA Glenn Research Center\n• Fuel: Ethylene in 1 atm air\nMethane in 1 atm air, 2 atm air and 30% X\nO2\n• Flame is ignited by the hot wire in microgravity after\nthe drop is started.\n• Measurements: Heat Flux, Surface Temperature, Mass\nFlow Rate\n29",
+      "location": {
+        "page": 29
+      }
+    },
+    {
+      "type": "text",
+      "id": "b36",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Drop Result\n60\n50\nHF edge\nHF center\n40\n2\nm\n/\nW 30\nk\nF\nH\n20\nEnd of 5s Drop\n10\n0\n0 2 4 6 8\nTime, s\nThermocouple\nHot Wire Igniter\nHeat Flux Sensors\n30",
+      "location": {
+        "page": 30
+      }
+    },
+    {
+      "type": "text",
+      "id": "b37",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Drop Test: Ethylene\n135 ccm 300 ccm 400 ccm\n31",
+      "location": {
+        "page": 31
+      }
+    },
+    {
+      "type": "text",
+      "id": "b38",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "32",
+      "location": {
+        "page": 32
+      }
+    },
+    {
+      "type": "text",
+      "id": "b39",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Drop Test: Methane\n360 ccm 540 ccm 360 ccm\n(+40% Brightness) (30% O )\n2\n33",
+      "location": {
+        "page": 33
+      }
+    },
+    {
+      "type": "text",
+      "id": "b40",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "34",
+      "location": {
+        "page": 34
+      }
+    },
+    {
+      "type": "text",
+      "id": "b41",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Drop Test Results\nTest No. D9023 D9024 D9027 D9028 D9029 D9030 D9031\n(extinguished)\nFuel C H C H C H C H C H C H C H\n2 4 2 4 2 4 2 4 2 4 2 4 2 4\nIgnition 1g 1g μg μg μg μg μg\nFuel Rate (ccm) 180 90 180 135 240 300 400\nΔh (kJ/g) 41.5 41.5 41.5 41.5 41.5 41.5 41.5\nc\nBurning Rate\n1.76 1.76 1.3 2.32 2.9 3.87\n(g/m2-s)\nHF_Center\n5.68 5.68 6.6 4.27 3.6 3.63\n(kW/m2)\nHF_Edge (kW/m2) 7.08 10 9.19 6.8 5.65 4.2\nAverage HF\n6.849 9.29 8.76 6.38 5.31 4.11\n(kW/m2)\nCenter T (°C) 133 60 66 52 48 48\ns\nOutter T (°C) 150 55 60 56 54 51\ns\nAveraged T (°C) 147.20 55.825 60.99 55.34 53.01 50.5\ns\nL (kJ/g) 3.15 5.16 6.55 2.67 1.77 1.02\nreRadiation\n1.31 0.20 0.25 0.20 0.18 0.16\n(kW/m2)\n35",
+      "location": {
+        "page": 35
+      }
+    },
+    {
+      "type": "table",
+      "id": "b42",
+      "name": "Page 35 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 35,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Test No.",
+        "D9023",
+        "D9024\n(extinguished)",
+        "D9027",
+        "D9028",
+        "D9029",
+        "D9030",
+        "D9031"
+      ],
+      "rowCount": 13,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Test No.": "Fuel",
+            "D9023": "C H\n2 4",
+            "D9024\n(extinguished)": "C H\n2 4",
+            "D9027": "C H\n2 4",
+            "D9028": "C H\n2 4",
+            "D9029": "C H\n2 4",
+            "D9030": "C H\n2 4",
+            "D9031": "C H\n2 4"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Test No.": "Ignition",
+            "D9023": "1g",
+            "D9024\n(extinguished)": "1g",
+            "D9027": "μg",
+            "D9028": "μg",
+            "D9029": "μg",
+            "D9030": "μg",
+            "D9031": "μg"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Test No.": "Fuel Rate (ccm)",
+            "D9023": "180",
+            "D9024\n(extinguished)": "90",
+            "D9027": "180",
+            "D9028": "135",
+            "D9029": "240",
+            "D9030": "300",
+            "D9031": "400"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Test No.": "Δh (kJ/g)\nc",
+            "D9023": "41.5",
+            "D9024\n(extinguished)": "41.5",
+            "D9027": "41.5",
+            "D9028": "41.5",
+            "D9029": "41.5",
+            "D9030": "41.5",
+            "D9031": "41.5"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Test No.": "Burning Rate\n(g/m2-s)",
+            "D9023": "1.76",
+            "D9024\n(extinguished)": "",
+            "D9027": "1.76",
+            "D9028": "1.3",
+            "D9029": "2.32",
+            "D9030": "2.9",
+            "D9031": "3.87"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Test No.": "HF_Center\n(kW/m2)",
+            "D9023": "5.68",
+            "D9024\n(extinguished)": "",
+            "D9027": "5.68",
+            "D9028": "6.6",
+            "D9029": "4.27",
+            "D9030": "3.6",
+            "D9031": "3.63"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Test No.": "HF_Edge (kW/m2)",
+            "D9023": "7.08",
+            "D9024\n(extinguished)": "",
+            "D9027": "10",
+            "D9028": "9.19",
+            "D9029": "6.8",
+            "D9030": "5.65",
+            "D9031": "4.2"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Test No.": "Average HF\n(kW/m2)",
+            "D9023": "6.849",
+            "D9024\n(extinguished)": "",
+            "D9027": "9.29",
+            "D9028": "8.76",
+            "D9029": "6.38",
+            "D9030": "5.31",
+            "D9031": "4.11"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Test No.": "Center T (°C)\ns",
+            "D9023": "133",
+            "D9024\n(extinguished)": "",
+            "D9027": "60",
+            "D9028": "66",
+            "D9029": "52",
+            "D9030": "48",
+            "D9031": "48"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Test No.": "Outter T (°C)\ns",
+            "D9023": "150",
+            "D9024\n(extinguished)": "",
+            "D9027": "55",
+            "D9028": "60",
+            "D9029": "56",
+            "D9030": "54",
+            "D9031": "51"
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Test No.": "Averaged T (°C)\ns",
+            "D9023": "147.20",
+            "D9024\n(extinguished)": "",
+            "D9027": "55.825",
+            "D9028": "60.99",
+            "D9029": "55.34",
+            "D9030": "53.01",
+            "D9031": "50.5"
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "Test No.": "L (kJ/g)",
+            "D9023": "3.15",
+            "D9024\n(extinguished)": "",
+            "D9027": "5.16",
+            "D9028": "6.55",
+            "D9029": "2.67",
+            "D9030": "1.77",
+            "D9031": "1.02"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Test No.": "reRadiation\n(kW/m2)",
+            "D9023": "1.31",
+            "D9024\n(extinguished)": "",
+            "D9027": "0.20",
+            "D9028": "0.25",
+            "D9029": "0.20",
+            "D9030": "0.18",
+            "D9031": "0.16"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b43",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Drop Test Result\n8\n7 Δh =47 kJ/g\nc\ng\n/\nJ 6\nk\nL\n,\nn 5\no\ni\nt\na\nc 4\ni\nf\ni\ns\na\n3\ng\nf\no Polyethylene\nt 2\na\ne\nH\nHeptane\n1\n0\n0 1 2 3 4 5\nburning flux, g/m2s\n36",
+      "location": {
+        "page": 36
+      }
+    },
+    {
+      "type": "text",
+      "id": "b44",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Knowledge Lacking and Knowledge\nto be Gained by Flight Tests\n• The proposed tests aboard the ISS will establish the\nrange of steady burning conditions for condensed fuels\nin microgravity. We will identify the associated material\nproperties and the real materials that are represented.\n• Once established based on fuel properties, NASA Test 2\ncould be used as a basis for establishing comparable\nproperties for real materials. This could elevate the role\nof NASA Test 2 over Test 1. This would close the loop of\nusing a ground-based test to assess the true\nflammability of materials in microgravity.\n37",
+      "location": {
+        "page": 37
+      }
+    },
+    {
+      "type": "text",
+      "id": "b45",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Science Data End Products\nObjective\n1. Observe burning behavior in long-duration microgravity\nfor CH /N and C H /N mixtures on porous circular\n4 2 2 4 2\nburners of 25 and 50 mm diameter. Consider O /N\n2 2\nambients with various pressures and ambient O\n2\nconcentrations and pressures. Emphasize conditions that\ncan be related to diverse condensed fuels.\n2. Consider the conditions of Objective 1 for ambients of\nO /CO (desired).\n2 2\n3. Consider the conditions of Objectives 1 – 2 for extinction\nlimits.\n38",
+      "location": {
+        "page": 38
+      }
+    },
+    {
+      "type": "text",
+      "id": "b46",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Science Data End Products\nScience Data End Products\n1. • Color flame images and shapes.\n• UV images.\n• Surface temperatures and incident flame heat flux measurements.\n• Radiation from the flame to the surroundings to estimate radiative\nflux.\n• Flammability mapping of quasi-steady burning as a function of heat\nof combustion, heat of gasification, and surface temperature.\n• Quasi-steady burning flux (burning rate per unit area) as a function\nof significant properties, e.g., heat of gasification, heat of\ncombustion, and smoke point.\n• Contour plots of soot temperature and filament temperature.\n• Contour plots of soot volume fraction.\n• Plots of radiant emissions versus time.\n• Plots of chemiluminescent emissions versus time.\n2. Same as for Objective 1.\n3. Extinction limit map. 39",
+      "location": {
+        "page": 39
+      }
+    },
+    {
+      "type": "text",
+      "id": "b47",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Justification for Extended-\nDuration Microgravity\n• The proposed tests cannot be performed in parabolic aircraft\nowing to considerable g-jitter disturbances.\n• Testing in NASA 5.2-s drop facility indicated possible approach to\nsteady burning.\n• The longer duration testing in the ISS will facilitate the efficient\noperation of the BRE to exploit a relatively quick record of results\nover a range of flow rates. This will insure a complete\nflammability map in microgravity.\n40",
+      "location": {
+        "page": 40
+      }
+    },
+    {
+      "type": "table",
+      "id": "b48",
+      "name": "Page 40 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 40,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Justification for Extended-\nDuration Microgravity"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Justification for Extended-\nDuration Microgravity": "• The proposed tests cannot be performed in parabolic aircraft\nowing to considerable g-jitter disturbances.\n• Testing in NASA 5.2-s drop facility indicated possible approach to\nsteady burning.\n• The longer duration testing in the ISS will facilitate the efficient\noperation of the BRE to exploit a relatively quick record of results\nover a range of flow rates. This will insure a complete\nflammability map in microgravity."
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b49",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Work conducted since last Aug\n• Drop test\n• 25 mm emulation\n• Extinction limit data\n• Refine the burners\n• Heat flux gages without water cooling\n• Two conference presentations\n• Inclined paper published in Journal of Fire\nSciences\n41",
+      "location": {
+        "page": 41
+      }
+    },
+    {
+      "type": "text",
+      "id": "b50",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Response to panelist recommendation\n• Recommend proposed ignition tests have a lower\npriority. Ignition eliminated\n• Prioritize the experimental diagnostics, to minimize\ncomplications in running the experiment and\ndownloading data. Done\n• Focus on small burner designs for multiple reasons. In\naddition, a burner design with narrow external walls is\nstrongly encouraged. Test matrix emphasizes 25 mm\nand we have reduced the edge effect.\n42",
+      "location": {
+        "page": 42
+      }
+    },
+    {
+      "type": "text",
+      "id": "b51",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Response to panelist recommendation\n• Some repeated tests are recommended to establish\nuncertainty bounds and increase scientific credibility.\nExpect wide range of data points in flight.\n• The temperature range for the burner is not defined in the\ncurrent science requirement documents. Take what we get.\nIn document, the burner surface, temperatures at 2\nlocations with a range of 30 – 500 °C.\n• The priority on O and pressure conditions ought to be on\n2\nwhatever the preferred conditions are for future space\nflight. Drop experiments should also help prioritize the test\nsequence. Included current NASA human flight atmosphere\nin test matrix\n43",
+      "location": {
+        "page": 43
+      }
+    },
+    {
+      "type": "text",
+      "id": "b52",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Response to panelist recommendation\n• Heat flux gauges need to be installed into the burner.\nEngineering plans need to be developed to ensure that the\nburner/heat flux gauge can be preheated to a minimum of\n65 °C to avoid condensation. Expect the temperature to be\nhigh enough without water cooling and we are recording it.\n• Consider a wide angle radiometer for one of the lower\nradiometers (inconsistent for present ACME plans) and\narrange the burner so that the radiometer cannot see the\nburner surface. Yes we have\n• It is strongly encouraged to reconsider the inclusion of this\ndiagnostic (O2 sensor). No but have GC to confirm\n44",
+      "location": {
+        "page": 44
+      }
+    },
+    {
+      "type": "text",
+      "id": "b53",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Response to panelist recommendation\n• The proposed radiation measurements need to provide\na measure of the flame radiation alone. Yes trying to\ndo\n• Improve justification for the selected fuel flow rates\n(use simple calculations of flame surface areas, flame\ncurvature and flame burning rates and confirm in drop\nexperiments). ?? Confirmed by drop test\n• Clarity is needed for the test matrix. Some of the ‘tests’\nmay actually be multiple tests. Revised the test matrix\n45",
+      "location": {
+        "page": 45
+      }
+    },
+    {
+      "type": "text",
+      "id": "b54",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Response to panelist recommendation\n• Experiments should be performed at nearly the same oxygen\nlevel. If tests at constant O are not possible, a method to\n2\nconvert experimental results obtained at one\nO concentration to another O level needs to be developed.\n2 2\nHope to have a theory for that.\n• As discussed above, a careful design of the burner, with a thin,\nlow conducting, outside wall should allow the flame to sit\ncloser to the burner and add stability to the flame tests.\nReduce the edge\n• Fundamentally, there is no guarantee of achieving quasi-\nsteady flames. The PIs should consider how to collect and\ninterpret data sets for which flames are sustained, but\nunsteady. Hope to have a theory to guide us\n46",
+      "location": {
+        "page": 46
+      }
+    },
+    {
+      "type": "text",
+      "id": "b55",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5. Experimental Requirements\n47",
+      "location": {
+        "page": 47
+      }
+    },
+    {
+      "type": "text",
+      "id": "b56",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Current Burners: Two Sizes\n• 25 and 50 mm\n• Reduce the lip effect\n• No water cooling\n• Glass beads\n• Side fuel port\n• Two heat flux sensors\n• Two surface temperature TC\n48",
+      "location": {
+        "page": 48
+      }
+    },
+    {
+      "type": "text",
+      "id": "b57",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "88.9\n41.28\n69.85\n23.02 15.88 60.33\n10.41\n8.64 54.77\n9 2x 3.3 THRU\n5\n4x 5.59 5. A\nx\n4\n2x 1\n5 0 0\n1\n.\nB 6 3\n5\n.\n8 8 9 .\n7 4\nx\n7\n3\n.\nx 4x 0.76\n4\n4x 25.4\nA screen\nSECTION A-A\nlip\ncollar\n0.79\n9.63\nairhousing\nbaseplate_counterbore\nheatfluxgage\n8\n1\n3 . A\n2\nx N F unit mm\n2\n2\n7\n.\n1\nname 50 mm Burner\nx\n2\ndate 02/13/2013\nDETAIL B material brass\nSCALE 1 : 1 designer Philipp Klaess\n49",
+      "location": {
+        "page": 49
+      }
+    },
+    {
+      "type": "table",
+      "id": "b58",
+      "name": "Page 49 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 49,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "88.9\n41.28\n69.85\n23.02 15.88 60.33\n10.41\n8.64 54.77\n9 2x 3.3 THRU\n5\n4x 5.59 5. A\nx\n4\n2x 1\n1\n5 0 0 . 8 8 9 .\n5\nB 6 3 .\nx\n7 4\n3\n7 .\nx 4x 0.76\n4\n4x 25.4\nA screen\nSECTION A-A\nlip\ncollar\n0.79\n9.63\nairhousing\nbaseplate_counterbore\nheatfluxgage\n8\n1\n3 . A\n2\nx N F unit mm\n2 7\n2 .\n1\nname 50 mm Burner\nx\n2\ndate 02/13/2013\nDETAIL B material brass\nSCALE 1 : 1 designer Philipp Klaess",
+        "column_2",
+        "column_3",
+        "column_4"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "88.9\n41.28\n69.85\n23.02 15.88 60.33\n10.41\n8.64 54.77\n9 2x 3.3 THRU\n5\n4x 5.59 5. A\nx\n4\n2x 1\n1\n5 0 0 . 8 8 9 .\n5\nB 6 3 .\nx\n7 4\n3\n7 .\nx 4x 0.76\n4\n4x 25.4\nA screen\nSECTION A-A\nlip\ncollar\n0.79\n9.63\nairhousing\nbaseplate_counterbore\nheatfluxgage\n8\n1\n3 . A\n2\nx N F unit mm\n2 7\n2 .\n1\nname 50 mm Burner\nx\n2\ndate 02/13/2013\nDETAIL B material brass\nSCALE 1 : 1 designer Philipp Klaess": "",
+            "column_2": "69.85\n60.33\n54.77\n9 2x 3.3 THRU\n5\n5. A\nx\n4\n9\n8.\n8\n5\n3\n6.\nx\n4\nA screen\nA\nlip\ncollar\n9.63\nairhousing\nbaseplate_counterbore\nheatfluxgage\nA\n2\nN F unit mm\n7\n2.\n1\nname 50 mm Burner\nx\n2\ndate 02/13/2013\nmaterial brass\ndesigner Philipp Klaess",
+            "column_3": "",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "88.9\n41.28\n69.85\n23.02 15.88 60.33\n10.41\n8.64 54.77\n9 2x 3.3 THRU\n5\n4x 5.59 5. A\nx\n4\n2x 1\n1\n5 0 0 . 8 8 9 .\n5\nB 6 3 .\nx\n7 4\n3\n7 .\nx 4x 0.76\n4\n4x 25.4\nA screen\nSECTION A-A\nlip\ncollar\n0.79\n9.63\nairhousing\nbaseplate_counterbore\nheatfluxgage\n8\n1\n3 . A\n2\nx N F unit mm\n2 7\n2 .\n1\nname 50 mm Burner\nx\n2\ndate 02/13/2013\nDETAIL B material brass\nSCALE 1 : 1 designer Philipp Klaess": "",
+            "column_2": "",
+            "column_3": "unit",
+            "column_4": "mm"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "88.9\n41.28\n69.85\n23.02 15.88 60.33\n10.41\n8.64 54.77\n9 2x 3.3 THRU\n5\n4x 5.59 5. A\nx\n4\n2x 1\n1\n5 0 0 . 8 8 9 .\n5\nB 6 3 .\nx\n7 4\n3\n7 .\nx 4x 0.76\n4\n4x 25.4\nA screen\nSECTION A-A\nlip\ncollar\n0.79\n9.63\nairhousing\nbaseplate_counterbore\nheatfluxgage\n8\n1\n3 . A\n2\nx N F unit mm\n2 7\n2 .\n1\nname 50 mm Burner\nx\n2\ndate 02/13/2013\nDETAIL B material brass\nSCALE 1 : 1 designer Philipp Klaess": "",
+            "column_2": "",
+            "column_3": "name",
+            "column_4": "50 mm Burner"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "88.9\n41.28\n69.85\n23.02 15.88 60.33\n10.41\n8.64 54.77\n9 2x 3.3 THRU\n5\n4x 5.59 5. A\nx\n4\n2x 1\n1\n5 0 0 . 8 8 9 .\n5\nB 6 3 .\nx\n7 4\n3\n7 .\nx 4x 0.76\n4\n4x 25.4\nA screen\nSECTION A-A\nlip\ncollar\n0.79\n9.63\nairhousing\nbaseplate_counterbore\nheatfluxgage\n8\n1\n3 . A\n2\nx N F unit mm\n2 7\n2 .\n1\nname 50 mm Burner\nx\n2\ndate 02/13/2013\nDETAIL B material brass\nSCALE 1 : 1 designer Philipp Klaess": "",
+            "column_2": "",
+            "column_3": "date",
+            "column_4": "02/13/2013"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "88.9\n41.28\n69.85\n23.02 15.88 60.33\n10.41\n8.64 54.77\n9 2x 3.3 THRU\n5\n4x 5.59 5. A\nx\n4\n2x 1\n1\n5 0 0 . 8 8 9 .\n5\nB 6 3 .\nx\n7 4\n3\n7 .\nx 4x 0.76\n4\n4x 25.4\nA screen\nSECTION A-A\nlip\ncollar\n0.79\n9.63\nairhousing\nbaseplate_counterbore\nheatfluxgage\n8\n1\n3 . A\n2\nx N F unit mm\n2 7\n2 .\n1\nname 50 mm Burner\nx\n2\ndate 02/13/2013\nDETAIL B material brass\nSCALE 1 : 1 designer Philipp Klaess": "",
+            "column_2": "",
+            "column_3": "material",
+            "column_4": "brass"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "88.9\n41.28\n69.85\n23.02 15.88 60.33\n10.41\n8.64 54.77\n9 2x 3.3 THRU\n5\n4x 5.59 5. A\nx\n4\n2x 1\n1\n5 0 0 . 8 8 9 .\n5\nB 6 3 .\nx\n7 4\n3\n7 .\nx 4x 0.76\n4\n4x 25.4\nA screen\nSECTION A-A\nlip\ncollar\n0.79\n9.63\nairhousing\nbaseplate_counterbore\nheatfluxgage\n8\n1\n3 . A\n2\nx N F unit mm\n2 7\n2 .\n1\nname 50 mm Burner\nx\n2\ndate 02/13/2013\nDETAIL B material brass\nSCALE 1 : 1 designer Philipp Klaess": "",
+            "column_2": "",
+            "column_3": "designer",
+            "column_4": "Philipp Klaess"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b59",
+      "name": "Page 49 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 49,
+        "table": 2
+      },
+      "headerRow": 2,
+      "columns": [
+        "69.85\n60.33\n54.77\n2x 3.3 THRU",
+        "column_2",
+        "column_3",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "69.85\n60.33\n54.77\n2x 3.3 THRU": "",
+            "column_2": "60.33\n54.77\n2x 3.3 THRU",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "69.85\n60.33\n54.77\n2x 3.3 THRU": "",
+            "column_2": "",
+            "column_3": "54.77\n2x 3.3 THRU",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "69.85\n60.33\n54.77\n2x 3.3 THRU": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "2x 3.3 THRU",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "69.85\n60.33\n54.77\n2x 3.3 THRU": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "A",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "9\n8.\n8\n5\n3\n6.\nx\n4"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b60",
+      "name": "Page 49 table 3",
+      "confidence": "low",
+      "location": {
+        "page": 49,
+        "table": 3
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "column_2",
+        "23.02 15.88"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "23.02 15.88": "8.64"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "column_2": "2x 1",
+            "23.02 15.88": ""
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "column_1": "",
+            "column_2": "",
+            "23.02 15.88": "4x 25"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b61",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "60.8\n36.4\n30\n33.78\n10.41 27.5\n19.24\n12.7\n9\n2x 1.57 THRU\n8.38 5\n5.\n4x 5.59 A\nx\nB 4\n0\n8\n.\n6\n2x 1\n5\n3\n4 4 9\nx\n. 4\n6\nx\n.\n4\n4x 0.76\n4x 17.02\nscreen_small_holes\nA\nSECTION A-A\nlip\n2.79 7.62\n7\ncollar_without_lips\n5\n1 . airhousing\nx\n2\nbaseplate_counterbore\nA\n2\nF\nN\n5\n-\n3\n6.\nunit mm\nx\n2\nname 25 mm Burner\ndate 02/12/2013\nDETAIL B\nmaterial brass\nSCALE 2 : 1\ndesigner Philipp Klaess\n50",
+      "location": {
+        "page": 50
+      }
+    },
+    {
+      "type": "table",
+      "id": "b62",
+      "name": "Page 50 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 50,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "60.8\n36.4\n30\n33.78\n10.41 27.5\n19.24\n12.7 2x 1.57 THRU\n9\n8.38 5\n5.\n4x 5.59 A\nx\nB 4\n8\n0 .\n6\n2x 1\n5\n3\n6 .\n4 4 9 . 4 x\nx\n4\n4x 0.76\n4x 17.02\nscreen_small_holes\nA\nSECTION A-A\nlip\n2.79 7.62\ncollar_without_lips\n7\n5\n1 . airhousing\nx\n2\nbaseplate_counterbore\nA\n2\nF\nN\n-\n5\n3\n6.\nunit mm\nx\n2\nname 25 mm Burner\ndate 02/12/2013\nDETAIL B\nmaterial brass\nSCALE 2 : 1\ndesigner Philipp Klaess",
+        "column_2",
+        "column_3",
+        "column_4"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "60.8\n36.4\n30\n33.78\n10.41 27.5\n19.24\n12.7 2x 1.57 THRU\n9\n8.38 5\n5.\n4x 5.59 A\nx\nB 4\n8\n0 .\n6\n2x 1\n5\n3\n6 .\n4 4 9 . 4 x\nx\n4\n4x 0.76\n4x 17.02\nscreen_small_holes\nA\nSECTION A-A\nlip\n2.79 7.62\ncollar_without_lips\n7\n5\n1 . airhousing\nx\n2\nbaseplate_counterbore\nA\n2\nF\nN\n-\n5\n3\n6.\nunit mm\nx\n2\nname 25 mm Burner\ndate 02/12/2013\nDETAIL B\nmaterial brass\nSCALE 2 : 1\ndesigner Philipp Klaess": "",
+            "column_2": "27.5\n2x 1.57 THRU\n9\n5\n5.\nA\nx\n4\n8\n0 .\n6\n5\n3\n6.\nx\n4\nscreen_small_holes\nA\nlip\ncollar_without_lips\nairhousing\nbaseplate_counterbore\nunit mm\nname 25 mm Burner\ndate 02/12/2013\nmaterial brass\ndesigner Philipp Klaess",
+            "column_3": "",
+            "column_4": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "60.8\n36.4\n30\n33.78\n10.41 27.5\n19.24\n12.7 2x 1.57 THRU\n9\n8.38 5\n5.\n4x 5.59 A\nx\nB 4\n8\n0 .\n6\n2x 1\n5\n3\n6 .\n4 4 9 . 4 x\nx\n4\n4x 0.76\n4x 17.02\nscreen_small_holes\nA\nSECTION A-A\nlip\n2.79 7.62\ncollar_without_lips\n7\n5\n1 . airhousing\nx\n2\nbaseplate_counterbore\nA\n2\nF\nN\n-\n5\n3\n6.\nunit mm\nx\n2\nname 25 mm Burner\ndate 02/12/2013\nDETAIL B\nmaterial brass\nSCALE 2 : 1\ndesigner Philipp Klaess": "",
+            "column_2": "",
+            "column_3": "unit",
+            "column_4": "mm"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "60.8\n36.4\n30\n33.78\n10.41 27.5\n19.24\n12.7 2x 1.57 THRU\n9\n8.38 5\n5.\n4x 5.59 A\nx\nB 4\n8\n0 .\n6\n2x 1\n5\n3\n6 .\n4 4 9 . 4 x\nx\n4\n4x 0.76\n4x 17.02\nscreen_small_holes\nA\nSECTION A-A\nlip\n2.79 7.62\ncollar_without_lips\n7\n5\n1 . airhousing\nx\n2\nbaseplate_counterbore\nA\n2\nF\nN\n-\n5\n3\n6.\nunit mm\nx\n2\nname 25 mm Burner\ndate 02/12/2013\nDETAIL B\nmaterial brass\nSCALE 2 : 1\ndesigner Philipp Klaess": "",
+            "column_2": "",
+            "column_3": "name",
+            "column_4": "25 mm Burner"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "60.8\n36.4\n30\n33.78\n10.41 27.5\n19.24\n12.7 2x 1.57 THRU\n9\n8.38 5\n5.\n4x 5.59 A\nx\nB 4\n8\n0 .\n6\n2x 1\n5\n3\n6 .\n4 4 9 . 4 x\nx\n4\n4x 0.76\n4x 17.02\nscreen_small_holes\nA\nSECTION A-A\nlip\n2.79 7.62\ncollar_without_lips\n7\n5\n1 . airhousing\nx\n2\nbaseplate_counterbore\nA\n2\nF\nN\n-\n5\n3\n6.\nunit mm\nx\n2\nname 25 mm Burner\ndate 02/12/2013\nDETAIL B\nmaterial brass\nSCALE 2 : 1\ndesigner Philipp Klaess": "",
+            "column_2": "",
+            "column_3": "date",
+            "column_4": "02/12/2013"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "60.8\n36.4\n30\n33.78\n10.41 27.5\n19.24\n12.7 2x 1.57 THRU\n9\n8.38 5\n5.\n4x 5.59 A\nx\nB 4\n8\n0 .\n6\n2x 1\n5\n3\n6 .\n4 4 9 . 4 x\nx\n4\n4x 0.76\n4x 17.02\nscreen_small_holes\nA\nSECTION A-A\nlip\n2.79 7.62\ncollar_without_lips\n7\n5\n1 . airhousing\nx\n2\nbaseplate_counterbore\nA\n2\nF\nN\n-\n5\n3\n6.\nunit mm\nx\n2\nname 25 mm Burner\ndate 02/12/2013\nDETAIL B\nmaterial brass\nSCALE 2 : 1\ndesigner Philipp Klaess": "",
+            "column_2": "",
+            "column_3": "material",
+            "column_4": "brass"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "60.8\n36.4\n30\n33.78\n10.41 27.5\n19.24\n12.7 2x 1.57 THRU\n9\n8.38 5\n5.\n4x 5.59 A\nx\nB 4\n8\n0 .\n6\n2x 1\n5\n3\n6 .\n4 4 9 . 4 x\nx\n4\n4x 0.76\n4x 17.02\nscreen_small_holes\nA\nSECTION A-A\nlip\n2.79 7.62\ncollar_without_lips\n7\n5\n1 . airhousing\nx\n2\nbaseplate_counterbore\nA\n2\nF\nN\n-\n5\n3\n6.\nunit mm\nx\n2\nname 25 mm Burner\ndate 02/12/2013\nDETAIL B\nmaterial brass\nSCALE 2 : 1\ndesigner Philipp Klaess": "",
+            "column_2": "",
+            "column_3": "designer",
+            "column_4": "Philipp Klaess"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b63",
+      "name": "Page 50 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 50,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "36.4\n30",
+        "column_2",
+        "column_3",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8",
+        "column_9"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "36.4\n30": "",
+            "column_2": "30",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "36.4\n30": "",
+            "column_2": "27.5\n2x 1.57 THRU",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "36.4\n30": "",
+            "column_2": "",
+            "column_3": "2x 1.57 THRU",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "36.4\n30": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "8\n0.\n6\n5\n3\n6.\nx\n4"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b64",
+      "name": "Page 50 table 3",
+      "confidence": "low",
+      "location": {
+        "page": 50,
+        "table": 3
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "19.24\n12.7\n8.38",
+        "column_3",
+        "column_4",
+        "column_5",
+        "column_6"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "19.24\n12.7\n8.38": "8.38",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "19.24\n12.7\n8.38": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "B"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "column_1": "",
+            "19.24\n12.7\n8.38": "4x 17.02",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b65",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Measurement of incident flame heat\nflux by sensors\n• Medtherm sensors\n• No water cooling\n• Surface Temperature T type TC\n• Measurement yields the incident heat flux to\nthe burner\n• Some analysis is needed\n51",
+      "location": {
+        "page": 51
+      }
+    },
+    {
+      "type": "text",
+      "id": "b66",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "1/8th inch heat flux sensor\n52",
+      "location": {
+        "page": 52
+      }
+    },
+    {
+      "type": "text",
+      "id": "b67",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "1/16th inch heat flux sensor\n53",
+      "location": {
+        "page": 53
+      }
+    },
+    {
+      "type": "text",
+      "id": "b68",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame heat flux from sensor\nmL  q  q\nf rr\nq is measured by Medtherm heat flux transducer\nf\n-Heat flux transducer is calibrated using 20 C cooling water\n-Measurements conducted without cooling water\nq ?= q\nf measured\n54",
+      "location": {
+        "page": 54
+      }
+    },
+    {
+      "type": "text",
+      "id": "b69",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame heat flux from sensor\nFlame\nq  q  h(T  T )\nf r f s\nq  q  h(T qT ) h(T  T ) (T 4  T 4)\nr f f r s g f g \nBrass Screen Heat Flux Gage Surface\nq\nSurface Temperature T measured Surface Temperature T\ns g\nq  [q  h(T T )] h(T T ) (T 4 T 4)\nmeasured g f f s g f g g  55",
+      "location": {
+        "page": 55
+      }
+    },
+    {
+      "type": "text",
+      "id": "b70",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame heat flux from sensor\nq  [q  h(T T )] h(T T ) (T 4 T 4)\nmeasured g f f s g f g g \nAssume  \ng g\nq  1 T \nq  measured (T 4 T 4)  h T ( 1)  (T  g )\n \nf g  f s\n  \n \n 1 T \nCorrection Term: (T 4  T 4)  h T ( 1)  (T  g )\n \ng  f s\n \n \n56",
+      "location": {
+        "page": 56
+      }
+    },
+    {
+      "type": "text",
+      "id": "b71",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame heat flux from sensor\nConstant heat flux on a horizontal plate facing upward\nh D\nNu  c,top  0.43 0.6Ra1/4 In microgravity, Nu  0.43\ntop top\nk\nAssume k  0.081 W/m-K, h  1.62 W/m 2 -K\nAssume T  330 K, T  340 K, T  2300 K and  0.98\ng s s\n2\nkW/m\nq  1 T \nq  measured (T 4  T 4)  h T ( 1)  (T  g )\n \nf g  f s\n  \n \nq\nq  measured  0.21 kW/m2  0.08 kW/m2\nf\n0.98\nMedtherm painted the sensor with  0.94 paint\nWe painted the sensor with NEXEL velvet-coating:  0.98\n57",
+      "location": {
+        "page": 57
+      }
+    },
+    {
+      "type": "text",
+      "id": "b72",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Burner gas delivery\n• Fuel: 0-1 slpm\n• Inert: 0-1 slpm\n• Based on 5 second drop facility experience\n• Theoretical basis required\n– CHEMKIN®\n– Rough estimate currently\n58",
+      "location": {
+        "page": 58
+      }
+    },
+    {
+      "type": "text",
+      "id": "b73",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Issues for determining flammability in\nmicrogravity\nEstimate of critical mass flux for burning based on T\nf, crit\nq  q\nm  rr e\ncrit\n(h / 2)  L\nc\nEstimate the burning flux for a planar material of diameter 50 mm burning in\nmicrogravity based on μg jet flame correlation.\nmL  qm  h  0\nrr \nm?  m\nCompare fuels:\ncritical\n59",
+      "location": {
+        "page": 59
+      }
+    },
+    {
+      "type": "text",
+      "id": "b74",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Estimated Burning conditions in microgravity for\na planar material of 50 mm diameter.\nHigh-temperature Halogenated\nParameter Liquids Thermoplastics\nPolymer Polymer\nHeat of Combustion, 30 30 15 8\nkJ/g\nHeat of Gasification, 0.5 3 5 3\nkJ/g\nReradiation Heat Flux, 0.5 10 20 30\nkW/m2\nBurning Flux, g/m2s 2 0.5 0.1 0.2\nCritical burn flux, g/m2s 0.03 0.8 8 29\n60",
+      "location": {
+        "page": 60
+      }
+    },
+    {
+      "type": "text",
+      "id": "b75",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Igniter\n• 3 mm from the rim (outer edge)\n61",
+      "location": {
+        "page": 61
+      }
+    },
+    {
+      "type": "text",
+      "id": "b76",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Ambient atmospheres: O + N (CO )\n2 2 2\n• 14.7 psi 21% O\n2\n• 10.2 psi 26% O\n2\n• Spacewalking suits EVA: 8.2 psi 34% O\n2\n62",
+      "location": {
+        "page": 62
+      }
+    },
+    {
+      "type": "text",
+      "id": "b77",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Burner Temperature\n• Type-K Bare Wire TC\n• 0.01” or less in diameter\n1cm\n1.5 cm\n0.5 cm\n0.5 cm\n5 cm burner surface 2.5 cm burner surface\n63",
+      "location": {
+        "page": 63
+      }
+    },
+    {
+      "type": "text",
+      "id": "b78",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Flame Radiation\n• Look just at the flame\nBurner\n64",
+      "location": {
+        "page": 64
+      }
+    },
+    {
+      "type": "text",
+      "id": "b79",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Others\n• Color imaging\n• Gas Temperature\n• Chemiluminescent emission\n65",
+      "location": {
+        "page": 65
+      }
+    },
+    {
+      "type": "text",
+      "id": "b80",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "BRE Flight Diagnostics Summary\nCritical diagnostics:\nColor imaging123\nBurner heat flux123\nBurner temperature123\nRadiant emissions123\nThin filament pyrometry123\nSoot temperature12\nNon-critical diagnostics:\nOH* imaging123\nChemiluminescent imaging123\nSoot volume fraction12\nPost-test gas composition123\n1Objective 1: Burning behavior\n2Objective 2: CO ambients (desired)\n2\n3Objective 3: Extinction limits\n66",
+      "location": {
+        "page": 66
+      }
+    },
+    {
+      "type": "text",
+      "id": "b81",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "6. Operational Sequence\n67",
+      "location": {
+        "page": 67
+      }
+    },
+    {
+      "type": "text",
+      "id": "b82",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "BRE Operational Sequence\nAction Approx.\nTime\n1. Ensure that the appropriate burner is installed. Preflow the\nburner fluent gas at the composition of the upcoming test point\nto flush the plumbing system.\n2. Establish chamber conditions. These consist of a set point\npressure and species compositions, as specified in the test\nmatrix. Conditions are obtained in four ways: from cabin air\n(desired); from the preceding test; from scrubbing and\nreplenishing; or from a complete evacuation and recharge.\n3. Allow chamber contents to reach equilibrium. A hold time of\n5 minutes is required for quiescent, isothermal, and well-mixed\nconditions.\n4. Take reference images (if applicable). Establish framing rates for\nvideo cameras. Begin color imaging. Begin monitoring\nmeasurements and wait 15 s.\n68",
+      "location": {
+        "page": 68
+      }
+    },
+    {
+      "type": "table",
+      "id": "b83",
+      "name": "Page 68 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 68,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Action",
+        "Approx.\nTime"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Action": "1. Ensure that the appropriate burner is installed. Preflow the\nburner fluent gas at the composition of the upcoming test point\nto flush the plumbing system.\n2. Establish chamber conditions. These consist of a set point\npressure and species compositions, as specified in the test\nmatrix. Conditions are obtained in four ways: from cabin air\n(desired); from the preceding test; from scrubbing and\nreplenishing; or from a complete evacuation and recharge.\n3. Allow chamber contents to reach equilibrium. A hold time of\n5 minutes is required for quiescent, isothermal, and well-mixed\nconditions.\n4. Take reference images (if applicable). Establish framing rates for\nvideo cameras. Begin color imaging. Begin monitoring\nmeasurements and wait 15 s.",
+            "Approx.\nTime": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b84",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "BRE Operational Sequence\nAction Approx.\nTime\n5. Commence fluent flow at a value to be uplinked. The initial 0 s\nvalue should correspond to about 1 g/m2-s of hydrocarbon fuel.\nEnergize igniter to ignite the flame and then retract the igniter. 5 s\nIf ignition does not occur within 5 seconds, shut off the flow. A\nnew value of flow rate will be specified by uplink. If the flame\nignites, proceed to Step 6. Otherwise proceed to Step 7.\n6. Set the flow rate to the test flow rate. Anytime during this step,\nif the flame extinguishes, or either heat flux sensor exceeds a\ncritical temperature, stop the fuel flow. Continue until the\nsurface burner temperatures become quasi-steady. Then 60 s\nreduce the flow rate in 10% increments of the test flow rate,\nhold for 15 s, and continue such reductions until extinction.\n7. Stop fluent flow. Record reference images (if applicable). After\n60 s terminate color imaging and monitoring measurements.\nSelect data for downlink and downlink data.\n69",
+      "location": {
+        "page": 69
+      }
+    },
+    {
+      "type": "table",
+      "id": "b85",
+      "name": "Page 69 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 69,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Action",
+        "Approx.\nTime"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Action": "5. Commence fluent flow at a value to be uplinked. The initial\nvalue should correspond to about 1 g/m2-s of hydrocarbon fuel.\nEnergize igniter to ignite the flame and then retract the igniter.\nIf ignition does not occur within 5 seconds, shut off the flow. A\nnew value of flow rate will be specified by uplink. If the flame\nignites, proceed to Step 6. Otherwise proceed to Step 7.\n6. Set the flow rate to the test flow rate. Anytime during this step,\nif the flame extinguishes, or either heat flux sensor exceeds a\ncritical temperature, stop the fuel flow. Continue until the\nsurface burner temperatures become quasi-steady. Then\nreduce the flow rate in 10% increments of the test flow rate,\nhold for 15 s, and continue such reductions until extinction.\n7. Stop fluent flow. Record reference images (if applicable). After\n60 s terminate color imaging and monitoring measurements.\nSelect data for downlink and downlink data.",
+            "Approx.\nTime": "0 s\n5 s\n60 s"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b86",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "7. Test Matrix\n70",
+      "location": {
+        "page": 70
+      }
+    },
+    {
+      "type": "text",
+      "id": "b87",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Test Matrix\nPressure, Fuel flow\nTest Ambient Fluent bar rate, sccm Notes\nN\n2\n1 21% O2 in N C2H4 1.01 200 Test of system operation, diagnostics, and burning\n2\nand extinction test. Use cabin air if possible. Use 25\nmm burner.\nEvacuate and recharge chamber.\n2 40% O in N 200 Burning and extinction test.\n2 2\n3 400\n4 C H 100\n2 4\n5 75% C2H4 in N 200\n2\n6 400\n7 40% O in N 75% C2H4 in N 1.01 100 Burning and extinction test.\n2 2 2\n8–13 34% O in N C H in N 0.565 Repeat Tests 2–7 for different ambient.\n2 2 2 4 2\n14–19 26.5% O in N 0.703 Repeat Tests 2–7 for different ambient.\n2 2\n20–25 21% O in N C H in N 1.01 Repeat Tests 2–7 for different ambient.\n2 2 2 4 2\n26–49 CH4 in N Repeat Tests 2–25 for CH at the same mole\n2 4\n.\nfractions as C H\n2 4\n50–73 C H4 in N Repeat Tests 2–25 for 50 mm burner.\n2 2\n74–97 CH4 in N Repeat Tests 2–25 for CH at the same mole\n2 4\nfractions as C H and for 50 mm burner (desired).\n2 4\n98–103 2.02 Repeat Tests 20–25 at 2.02 bar (desired).\n104–115 O in CO 1.01 Repeat Tests 2–7 and 20–25 for CO ambient at the\n2 2 2\nsame mole fractions as N (desired). 71\n2",
+      "location": {
+        "page": 71
+      }
+    },
+    {
+      "type": "table",
+      "id": "b88",
+      "name": "Page 71 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 71,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Test",
+        "Ambient",
+        "Fluent",
+        "column_4",
+        "Pressure,\nbar",
+        "column_6",
+        "Fuel flow\nrate, sccm\nN\n2",
+        "Notes"
+      ],
+      "rowCount": 16,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Test": "1",
+            "Ambient": "21% O2 in N\n2",
+            "Fluent": "C2H4",
+            "column_4": "",
+            "Pressure,\nbar": "1.01",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "200",
+            "Notes": "Test of system operation, diagnostics, and burning\nand extinction test. Use cabin air if possible. Use 25\nmm burner."
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Test": "",
+            "Ambient": "",
+            "Fluent": "",
+            "column_4": "",
+            "Pressure,\nbar": "",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "",
+            "Notes": "Evacuate and recharge chamber."
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Test": "2",
+            "Ambient": "40% O in N\n2 2",
+            "Fluent": "",
+            "column_4": "",
+            "Pressure,\nbar": "",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "200",
+            "Notes": "Burning and extinction test."
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Test": "3",
+            "Ambient": "",
+            "Fluent": "",
+            "column_4": "",
+            "Pressure,\nbar": "",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "400",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Test": "4",
+            "Ambient": "",
+            "Fluent": "C H\n2 4",
+            "column_4": "",
+            "Pressure,\nbar": "",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "100",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Test": "5",
+            "Ambient": "",
+            "Fluent": "75% C2H4 in N\n2",
+            "column_4": "",
+            "Pressure,\nbar": "",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "200",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Test": "6",
+            "Ambient": "",
+            "Fluent": "",
+            "column_4": "",
+            "Pressure,\nbar": "",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "400",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Test": "7",
+            "Ambient": "40% O in N\n2 2",
+            "Fluent": "75% C2H4 in N\n2",
+            "column_4": "",
+            "Pressure,\nbar": "1.01",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "100",
+            "Notes": "Burning and extinction test."
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Test": "8–13",
+            "Ambient": "34% O in N\n2 2",
+            "Fluent": "C H in N\n2 4 2",
+            "column_4": "",
+            "Pressure,\nbar": "0.565",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "",
+            "Notes": "Repeat Tests 2–7 for different ambient."
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Test": "14–19",
+            "Ambient": "26.5% O in N\n2 2",
+            "Fluent": "",
+            "column_4": "",
+            "Pressure,\nbar": "0.703",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "",
+            "Notes": "Repeat Tests 2–7 for different ambient."
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Test": "20–25",
+            "Ambient": "21% O in N\n2 2",
+            "Fluent": "C H in N\n2 4 2",
+            "column_4": "",
+            "Pressure,\nbar": "1.01",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "",
+            "Notes": "Repeat Tests 2–7 for different ambient."
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "Test": "26–49",
+            "Ambient": "",
+            "Fluent": "CH4 in N\n2",
+            "column_4": "",
+            "Pressure,\nbar": "",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "",
+            "Notes": "Repeat Tests 2–25 for CH at the same mole\n4\n.\nfractions as C H\n2 4"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Test": "50–73",
+            "Ambient": "",
+            "Fluent": "C H4 in N\n2 2",
+            "column_4": "",
+            "Pressure,\nbar": "",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "",
+            "Notes": "Repeat Tests 2–25 for 50 mm burner."
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "Test": "74–97",
+            "Ambient": "",
+            "Fluent": "CH4 in N\n2",
+            "column_4": "",
+            "Pressure,\nbar": "",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "",
+            "Notes": "Repeat Tests 2–25 for CH at the same mole\n4\nfractions as C H and for 50 mm burner (desired).\n2 4"
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "Test": "98–103",
+            "Ambient": "",
+            "Fluent": "",
+            "column_4": "",
+            "Pressure,\nbar": "2.02",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "",
+            "Notes": "Repeat Tests 20–25 at 2.02 bar (desired)."
+          }
+        },
+        {
+          "sourceRow": 16,
+          "raw": {
+            "Test": "104–115",
+            "Ambient": "O in CO\n2 2",
+            "Fluent": "",
+            "column_4": "",
+            "Pressure,\nbar": "1.01",
+            "column_6": "",
+            "Fuel flow\nrate, sccm\nN\n2": "",
+            "Notes": "Repeat Tests 2–7 and 20–25 for CO ambient at the\n2\nsame mole fractions as N (desired). 71\n2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b89",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Test Matrix\nNotes\n1Different fuel and oxidizer mole fractions may be specified\nduring uplink.\n2It may be necessary to ignite at different flow rates and/or gas\ncompositions than those specified above.\n3Assuming scrubbing capability is available, the CO and H O will\n2 2\nbe scrubbed after some tests, and reactants replenished as\nneeded.\n4All tests use the 25 mm burner except tests 50 – 97.\n72",
+      "location": {
+        "page": 72
+      }
+    },
+    {
+      "type": "text",
+      "id": "b90",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "8. Science Success Criteria\n73",
+      "location": {
+        "page": 73
+      }
+    },
+    {
+      "type": "text",
+      "id": "b91",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Science Success Criteria\nMinimum Success\n• Obtain color video, burner surface temperature,\nand burner heat flux for two C H flames that\n2 4\nburn for at least 20 s and then extinguish.\nHigh Success\nAll of the above (BRE flight test matrix) plus:\n• Obtain a flammability map for C H .\n2 4\n74",
+      "location": {
+        "page": 74
+      }
+    },
+    {
+      "type": "text",
+      "id": "b92",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Science Success Criteria\nComplete Success (i.e., completion of required test matrix)\nAll of the above (BRE flight test matrix) plus:\n• Obtain a flammability map for CH .\n4\n• Measure peak temperatures (using filament and/or soot\npyrometry) as a function of time for at least 5 flames.\n• Measure temperature distributions (using filament and/or\nsoot pyrometry) at or near quasi-steady conditions for at\nleast 5 flames.\n• Measure temperature distributions (using filament\npyrometry) near the extinction limit for at least 5 flames.\n• Measure soot volume fraction profiles at (or near) quasi-\nsteady conditions and near the extinction limit for at least 5\nflames.\n75",
+      "location": {
+        "page": 75
+      }
+    },
+    {
+      "type": "text",
+      "id": "b93",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Science Success Criteria\nSuperior Success (desired)\nAll of the above plus:\n• Complete the desired parts of the test matrix.\n76",
+      "location": {
+        "page": 76
+      }
+    },
+    {
+      "type": "text",
+      "id": "b94",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Companion Ground Work\n• Extinction data\n• Flammability map\n• Drop tests\n• Low pressure testing\n• Modeling\n• Paper for\nCombustion Symposium\n77",
+      "location": {
+        "page": 77
+      }
+    },
+    {
+      "type": "text",
+      "id": "b95",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Publications\nK.T. Dotson, M.J. Bustamante, P.B. Sunderland, J.G. Quintiere, Laminar Burning on Flat\nWicks at Various Orientations, 7th U.S. National Combustion Meeting, Atlanta (2011) 5 pp.\nK.T. Dotson, M.J. Bustamante, P.B. Sunderland, J.G. Quintiere, Laminar Burning on Flat\nWicks at Various Orientations, 7th U.S. National Combustion Meeting, Atlanta (2011) 5 pp.\nM.J. Bustamante, K.T. Dotson, Y. Zhang, P.B. Sunderland, J.G. Quintiere. Laminar Burning\non Flat Wicks at Various Orientations Dayton Spring Technical Meeting of the Central\nStates Section of the Combustion Institute April 22–24, 2012.\nM.J. Bustamante, K.T. Dotson, P.B. Sunderland, J.G. Quintiere, A Tale of Seven Flames, Art\nPoster, Central States Section of the Combustion Institute, Dayton (2012).\nM.J. Bustamante, K.T. Dotson, Y. Zhang, P.B. Sunderland, J.G. Quintiere, Laminar Burning of\nFlat Diffusion Flames at Various Orientations, Central States Section of the Combustion\nInstitute, Dayton (2012) 15 pp.\nM.J. Bustamante, Experimental Investigation of Liquid and Gas Fueled Flames Towards the\nDevelopment of a Burning Rate Emulator (BRE) for Microgravity Applications, M.S. Thesis,\nDept. of Fire Protection Engineering, 91 pp.\nM.J. Bustamante, Y. Zhang, K.T. Dotson, P.B. Sunderland, J.G. Quintiere, Burning on Flat\nWicks at Various Orientations, Proceedings of the Seventh International Seminar on Fire\nand Explosion Hazards, D. Bradley, G. Makhviladze, V. Molkov, P. Sunderland, F. Tamanini,\nEds., Providence (2013), 10 pp.\n78",
+      "location": {
+        "page": 78
+      }
+    },
+    {
+      "type": "text",
+      "id": "b96",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Publications\nY. Zhang, M.J. Bustamante, K.T. Dotson, P.B. Sunderland, J.G. Quintiere, A Gas Burner to\nEmulate Condensed-Phase Burning, Proceedings of the Seventh International Seminar on\nFire and Explosion Hazards, D. Bradley, G. Makhviladze, V. Molkov, P. Sunderland, F.\nTamanini, Eds., Providence (2013), 9 pp.\nY. Zhang, M.J. Bustamante, P.B. Sunderland, J.G. Quintiere, P. Ferkul, A Burning Rate\nEmulator for Microgravity Fire Safety, Poster, Seventh International Seminar on Fire and\nExplosion Hazards, Providence (2013).\nY. Zhang, M.J. Bustamante, P.B. Sunderland, J.G. Quintiere, P. Ferkul, A Burning Rate\nEmulator for Study in Microgravity, Eighth U.S. National Combustion Meeting, Salt Lake\nCity (2013) 14 pp.\nY. Zhang, M.J. Bustamante, M.J. Gollner, P.B. Sunderland, J.G. Quintiere, Burning on Flat\nWicks at Various Orientations, Journal of Fire Sciences (accepted).\n79",
+      "location": {
+        "page": 79
+      }
+    },
+    {
+      "type": "text",
+      "id": "b97",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "BRE Team\nInvestigators\nGraduate Students\nJ.G. Quintiere\nMichael Bustamante\nP.B. Sunderland\nTom Dotson\nYi Zhang\nBRE Technical Contact\nNew Student Matt Kim\nP. Ferkul\nstarting 8/13\nACME Project Scientist\nUndergraduate Students\nD.P. Stocker\nPhilip Klaess\nEric Muller\nProgram Manager\nBenedict Mutsch\nM.K. King\n80",
+      "location": {
+        "page": 80
+      }
+    }
+  ]
+}

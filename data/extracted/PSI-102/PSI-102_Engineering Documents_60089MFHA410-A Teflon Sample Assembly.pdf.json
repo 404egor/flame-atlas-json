@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-102",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-102_Engineering Documents_60089MFHA410-A Teflon Sample Assembly.pdf",
+    "folder": "Engineering Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA410-A Teflon Sample Assembly.pdf",
+    "version": 2,
+    "sizeBytes": 156530,
+    "sha256": "3b124d774955a3ecdaed694619ec8ad05293875f3f1145aae9819badf4c3e73d",
+    "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA410-A Teflon Sample Assembly.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-102"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:27:07+00:00",
+  "status": "partial",
+  "error": null,
+  "warnings": [
+    "no-text-layer: no page has extractable text (scanned PDF?)"
+  ],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": 1
+  },
+  "blocks": []
+}

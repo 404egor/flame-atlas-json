@@ -1,0 +1,785 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-47",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-47_Reports_DAFT_30Day.PostFlightReport.pdf",
+    "folder": "Reports",
+    "subfolder": null,
+    "key": "psi-data/PSI-47/Reports/PSI-47_Reports_DAFT_30Day.PostFlightReport.pdf",
+    "version": 4,
+    "sizeBytes": 185648,
+    "sha256": "6e6008f2d7f0216432f7df5579579264a34c3a29601a9f0688461019d59be1e4",
+    "localPath": "data/raw/PSI-47/Reports/PSI-47_Reports_DAFT_30Day.PostFlightReport.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-47"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:24:54+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 10 table 1: 18 empty header(s) named column_<n> (columns 2-19)",
+    "Page 11 table 1: 1 line(s) above the header skipped",
+    "Page 11 table 1: 2 empty header(s) named column_<n> (columns 4, 7)",
+    "Page 11 table 1: 3 duplicate header(s) renamed: P-Trak\nn/cm3 (2), P-Trak\nn/cm3 (3), DustTra\nk\nmg/m3 (2)"
+  ],
+  "stats": {
+    "textBlocks": 14,
+    "characters": 31245,
+    "tables": 3,
+    "tableRows": 40,
+    "pages": 14
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Dust and Aerosol measurement Feasibility Test\n(DAFT)\n30 Day Report\nPrincipal Investigator:\nDavid Urban, NASA Glenn Research Center\nCo-Investigators:\nGeorge Mulholland, University of Maryland\nZeng-guang Yuan, National Center for Space Exploration Research\nJiann Yang, National Institute for Standards and Technology\nThomas Cleary, National Institute for Standards and Technology\n1",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Final Research Report Template and Guidelines\nI. Introduction\nA. Abstract\nIn the wake of the Columbia disaster, NASA Headquarters put out a call for small, low upmass\nexperiments that could be launched aboard the Russian Progress vehicle and which could be made\navailable for launch within a six month period from the date of the request (March, 2003).\nThe Smoke Aerosol Measurement Experiment (SAME, formerly known as “Smoke”), which was\nbeing developed at the time and which is designed for operation aboard the ISS, required the\nutilization of a commercially available particulate counter, the TSI P-Trak, that is designed to use\ngravity to facilitate its operation. The microgravity performance of this instrument was in question\nand added significant technical risk to the future success of SAME.\nThe Dust and Aerosol measurement Feasibility Test (DAFT) was designed as a risk mitigation\nexperiment to test the performance of the P-Trak in a microgravity environment.\nB. Hypothesis\nTwo potential failure modes were identified for the device: 1) that the particulate counting system,\ncontaining a nozzle, a laser diode and sensitive optics would clog or become obscured and 2) that\nthe internal flow dynamics of the optics chamber of the device would cause an over counting of the\nparticulates and give unreliable (high) readings. Therefore, an experiment was designed that would\nuse a functionally flight like design and test it against an aerosol standard and another device (the\nTSI DustTrak), that was analyzed to be unaffected by the lack of gravity.\nThe choice of the aerosol and the method used to create it were key items. Ideally, a mono dispersed\naerosol would be used (0.7 – 1.3 microns), which would allow an easy comparison of the readings\nfrom the devices. However, due to the lack of development time, it was proposed to use Arizona\nRoad Dust (ARD, Fine) instead, in combination with ISS GN2 to create an aerosol for measurement\npurposes.\nTherefore, there are two basic hypotheses in DAFT: 1) that the TSI P-Trak, as modified for use in\nSAME, would function normally in microgravity, and 2) that the aerosol created and filtered per\nthe experiment design would be within the measurement capabilities of the test devices\nC. Objectives of Investigation\nThe objective of DAFT was to minimize the risks of its parent experiment, SAME, by\ndemonstrating that the modified TSI P-Trak functioned effectively and predictably in a\nmicrogravity environment.\nII. Methods/Research Operations\nA. Discussion of Method/Protocol\nIn order to prepare the P-Trak for operation in microgravity, an analysis of its operation was\nperformed. The P-Trak uses a small pump to draw the sample aerosol through a chamber saturated\n2",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "with alcohol vapor by means of a wick. That vapor/aerosol mix then passes through a cooling tube\nthat allows the alcohol to condense on the particles in the aerosol, making droplets that are large\nenough to count with a focused laser/photo cell combination. The condenser in the COTS device\nslopes down, enabling the alcohol from the droplets that adhere to the tube wall to be recycled back\nto the evaporator.\nIn conjunction with fluid physics researchers at GRC, a modification to the cooling tube was\ndeveloped that effectively moves liquid alcohol from the tip of the tube back upstream to the\nevaporator due to capillary action. This was the major modification that was made to the device.\nOther alterations to the device involved the removal of the mercury switch (for gravitationally\nsensitive tilt sensor), flight hardening and covering with foil tape for flammability concerns.\nThe TSI DustTrak, a laser scattering device based on Mie scattering and included as a measurement\nstandard, was hardened in a similar fashion, but did not include a mercury switch.\nAfter some consideration, it was decided to use a 15 liter Mylar bag for the containment of the\naerosol. Issues, including safety and the atomizing of the particulates (and the fluid that contained\nthem) precluded the use of commercially available mono-dispersed particles. Therefore, Arizona\nRoad Dust (fine), a NIST standard, was selected due to its known constitution and ease of\ndispersion into a pressurized gas stream.\nA flight design was created, the parameters tested and determined, and flight like hardware was\ncreated and tested with the measurement instruments to develop the correlation curves discussed in\nthe results section.\nOne problem exists with this sample material, however. It contains a given number of particles in\nsizes above 2.5 microns, which is above the measurement limit of the P-Trak. To mitigate this\nfactor, a device, the DAFT Impactor was developed based on design criteria supplied by one of the\nexperiment’s Co-I’s (George Mulholland). The DAFT Impactor is a particle filter for large particles\n(only) that was designed specifically for the combined flow rate of the test devices.\nThe P-Trak gives a number count of the particles in an aerosol, in readings of pt/cc. Dustrak gives\nmeasurements of the total mass, in mg/m3. Since the distribution of the particulates in the aerosol is\nknown to a certain confidence level, and the units had been correlated in testing on the ground, the\nexperiment was conceived to disburse a similar aerosol on orbit and determine the device\ncorrelation in a microgravity environment to quantify the P-Trak’s measurement effectiveness.\nB. List & Description of All Functional Objectives\nAs stated in previous sections, the functional objective of DAFT was to demonstrate the effective\noperation of the TSI P-Trak in a microgravity environment. This was intended to be accomplished\nutilizing no more than 15 test points of aerosolized ARD in conjunction with a TSI DustTrak to\nprovide a correlation to the readings obtained from the P-Trak.\nDue to the limitations imposed to the allowable upmass for US based experiments, the DAFT\nhardware was divided into the following four sections:\nDAFT-1 Contained the modified P-Trak, an Alcohol Wick and batteries\nDAFT-2 Contained a DustTrak and batteries\nDAFT-3 Contained the sample generating and filtering equipment\nDAFT-4 Contained an unmodified (but flight hardened) P-Trak, another alcohol wick and\nmore batteries\nSince all of the hardware was not launched simultaneously, the objectives were modified\naccordingly. DAFT-1 and -2 were launched aboard Progress mission 16P, and an opportunity to\n3",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "operate that hardware became available in February of 2005. Since the sample materials were not\nincluded, the team determined to operate the devices sampling ISS cabin air at various locations. It\nwas also suggested that particulates could be created by mating and de-mating Velcro in front of the\nshared sample port, which was done as described in the Sessions section.\nOnce DAFT-3 and -4 were brought on orbit, the original experiment objectives were utilized.\nC. List of All Hardware Items Used; Descriptions of PI-provided hardware\nHW Name Part Number Comments\nP-Trak-01 DAFT-0101 A modified COTS CNC unit\nmanufactured by TSI;\nlaunched on 16P.\nP-Trak Alcohol Wick-01 DAFT-0601-1 An custom made aluminum\nenclosure that contains the P-\nTrak alcohol wick. Launched\non 16P\nDAFT Accessory Kit DAFT-0700 Contained Impactors for\nDustTrak, cleaning tools,\nspare filters and misc. parts.\nP-Track Batteries DAFT-0701 6 - AA\nDAFT Fill Assembly DAFT-0301 A custom made device,\nconsisting of tubing fittings,\nfilters, a regulator and\npressure relief valves used to\ncontrol and direct ISS GN2 for\nuse in filling the Sample Bags\nwith aerosol.\nDAFT Impactor DAFT-0401 Another custom made device\ncomposed of fittings and\nfilters, this device was used to\nextract the sample aerosol\nfrom the Sample Bags and\neliminate most of the larger\nparticles.\nDAFT Sample Bag DAFT-0501-01 thru -15 15 liter COTS Mylar bags with\ntubing fittings.\nDAFT Dust Holder DAFT-0516-01 thru -15 Each consists of two self\nsealing QD’s that encapsulate\nthe ARD\nP-Track Alcohol Wick -02 DAFT-0601-2 Same as -01\nP-Track -02 DAFT-0102 An unmodified COTS unit.\nLaunched on ULF1.1\nDust Trak DAFT-0201 Another COTS TSI device,\ngiving readings based on Mie\nscattering. Launched on 16P,\nDust Trak Batteries DAFT-0709 4 - C\nD. Sessions Table\nD.1 DAFT 1 & 2, Session 1, GMT 54, 2005\nThe first test point for DAFT was performed on February 22, 2005 during Increment 10. The\nhardware was set up per the procedure (nominal) in front of EXPRESS Rack 4. Leroy Chiao inserted\nthe batteries to each device, activated them, and performed the zero check. No anomalies were noted\n4",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "table",
+      "id": "b5",
+      "name": "Page 4 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 4,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "HW Name",
+        "Part Number",
+        "Comments"
+      ],
+      "rowCount": 12,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "HW Name": "P-Trak-01",
+            "Part Number": "DAFT-0101",
+            "Comments": "A modified COTS CNC unit\nmanufactured by TSI;\nlaunched on 16P."
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "HW Name": "P-Trak Alcohol Wick-01",
+            "Part Number": "DAFT-0601-1",
+            "Comments": "An custom made aluminum\nenclosure that contains the P-\nTrak alcohol wick. Launched\non 16P"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "HW Name": "DAFT Accessory Kit",
+            "Part Number": "DAFT-0700",
+            "Comments": "Contained Impactors for\nDustTrak, cleaning tools,\nspare filters and misc. parts."
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "HW Name": "P-Track Batteries",
+            "Part Number": "DAFT-0701",
+            "Comments": "6 - AA"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "HW Name": "DAFT Fill Assembly",
+            "Part Number": "DAFT-0301",
+            "Comments": "A custom made device,\nconsisting of tubing fittings,\nfilters, a regulator and\npressure relief valves used to\ncontrol and direct ISS GN2 for\nuse in filling the Sample Bags\nwith aerosol."
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "HW Name": "DAFT Impactor",
+            "Part Number": "DAFT-0401",
+            "Comments": "Another custom made device\ncomposed of fittings and\nfilters, this device was used to\nextract the sample aerosol\nfrom the Sample Bags and\neliminate most of the larger\nparticles."
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "HW Name": "DAFT Sample Bag",
+            "Part Number": "DAFT-0501-01 thru -15",
+            "Comments": "15 liter COTS Mylar bags with\ntubing fittings."
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "HW Name": "DAFT Dust Holder",
+            "Part Number": "DAFT-0516-01 thru -15",
+            "Comments": "Each consists of two self\nsealing QD’s that encapsulate\nthe ARD"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "HW Name": "P-Track Alcohol Wick -02",
+            "Part Number": "DAFT-0601-2",
+            "Comments": "Same as -01"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "HW Name": "P-Track -02",
+            "Part Number": "DAFT-0102",
+            "Comments": "An unmodified COTS unit.\nLaunched on ULF1.1"
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "HW Name": "Dust Trak",
+            "Part Number": "DAFT-0201",
+            "Comments": "Another COTS TSI device,\ngiving readings based on Mie\nscattering. Launched on 16P,"
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "HW Name": "Dust Trak Batteries",
+            "Part Number": "DAFT-0709",
+            "Comments": "4 - C"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "(i.e.; warnings, beeping, unreasonable readings, blocked tubing, etc.). The P-Trak was operated for\napproximately 12 minutes, and continued taking readings for the entire time. Near Real Time (NRT)\nvideo was available for most of the test, including set up, and the run time could be approximately\nsynchronized with GMT through its use.\nThe Payload Operations Director (POD) allowed the call up of a request, and Leroy was asked to\nrelay readings from the P-Trak verbally, which he did. Those readings were low (2 – 5 pt/cc).\nThe data for that test point can be seen in Section III C. Figures 1 and 2. A review of that data shows\nthat the readings on both devices were very low for the entire test time, but that upon initial startup,\nthe addition and removal of the HEPA filter (zero check) is clearly indicated in the P-Trak data, and\nthere appears to be some residual dust in the sampling tube that is drawn out during the test point. For\nthe remainder of the point, some small variations can be seen, the DustTrak especially gave low\nreadings. Overall, these readings are almost an order of magnitude below those that would normally\nbe seen in a typical laboratory environment ( ~ 4,000 – 6,000 pt/cc for P-Trak), but were not totally\nunexpected, due to the presence of a HEPA filter on the ISS air handling system.\nD.2 DAFT 1 & 2, Session 2, GMT 63, 2005\nOn March 4, 2005, DAFT was given its second opportunity, which involved the performance of\nthree additional test points. The DAFT ground team had made prior arrangements to revise the test\nprocedure to include alternate techniques and locations in an attempt to realize higher readings on\nboth of the devices. Leroy was also asked to signal the ground team when he turned on the devices to\nallow more precise time synchronization between the devices’ internal clocks and GMT. (Note:\nalthough the units both have internal clocks powered by a coin battery, these clocks drift over time).\nNear Real Time (NRT) video was again provided, with a window that extended for approximately 25\nminutes; enough to capture all but the last few minutes of test point #4. Leroy gave a ‘thumbs up’\nwhen he turned on each device at the beginning of this session, and through PAYCOM there were\nsome real time communications regarding the activities during the test points.\nFor test point #2 Leroy was asked to mate and demate Velcro in front of the intake for the tubing that\nsupplies samples to both of the devices. That data is provided in Section III C. Figures 3 and 4.Test\npoints #3 and #4 were taken in Lab 1, adjacent to Port 6 and in the US Node 1, mid-cabin,\nrespectively.\nD.3 DAFT-3, Session 1, GMT 229, 2006\nThe first test point for DAFT-3 and -4 was scheduled to be performed on August 18, 2006 (GMT\n229), during Increment 13. DAFT required NRT Video. During the hardware was set up procedure in\nfront of EXPRESS Rack 5, Jeff Williams was in the process of unpacking the experiment equipment,\nand held each item in front of the camera as he unpacked it. When he held up the DAFT Fill\nAssembly, the ground team noticed immediately that the HEPA filter that supports the pressure relief\nvalves that protect the Sample Bag from being over filled, was missing. The POD was notified and\nrequested to ask Jeff to return the Fill Assembly into the field of view, which he did, confirming the\nobservation. Jeff noted that the HEPA Filter Subassembly was still within the foam enclosure. He\nthen held up that enclosure, and noted that it was permanently deformed. The DAFT Fill Assembly is\na series of linear tubing connections with ‘appendages’ connected to it by tees. The foam that encased\nit (minicell) is approximately three times longer than it is wide, and it is about 2 inches thick. From\nthe video, it was clear that the foam was deformed from flat by about one inch along the shorter axis,\nin line with the thickness. The foam is a ‘donut’ like cutout, with no strength in the direction of the\ndeformation.\n5",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "At that point, the nominal test plan was aborted. Jeff was asked to restow the Fill Assembly, and to\nrevert to the procedure that was used for DAFT-1 &-2, taking a cabin air sample, which he did. Later,\nwhen he attempted to download the data from the devices, another anomaly occurred. When he had\nattached the P-Trak and attempted the data transfer, the message: “Error Communicating” popped up.\nThe transfer was attempted one more time with the P-Trak and also once with the DustTrak. Backing\nup in the procedure and attempting to select a com port revealed that the EXPRESS Laptop being\nused did not have a “Com Port 1” within its list of available choices, which was a problem, since the\nDAFT Software was configured to use that port.\nD.4 DAFT-3, GMT 230, 2006\nAs a result of the discovery of the broken part on the previous day, a special Safety telecom was\nconvened to determine if the experiment could be performed, and if so, what level of repair or\nmodification would be required to provide the necessary protection for the crew. That telecom\ninvolved members of the PSRP, the ISS Cadre, DAFT Project Management and Safety, POIC\nSafety, the Crew Office and MER Safety.\nThe DAFT engineering team provided several options for repair. They are briefly described as\nfollows:\nOption 1: Cover the opening to the tubing system with a finger tip, or alternately, with gray\ntape, and perform the experiment nominally.\nOption 2: Remove the fitting that supports the Gage subassembly, remove the high pressure\nrelief valve from that subassembly and replace it in that location; and use the remaining\nfitting to reinstall the low pressure relief valves, without the HEPA filter.\nOption 3: Disassemble the DAFT Impactor and remove the HEPA filter. Use that HEPA\nfilter to replace the broken one on the Fill Assembly and scavenge the parts from the\nImpactor that are necessary to deliver the sample to the devices.\nAfter a significant discussion regarding the implications and ramifications of each potential fix, it was\ndetermined that Option 1, using gray tape to cover the opening, would be the most desirable and did\nnot pose an undue Safety risk to the crew.\nThe engineering team worked with the designated Crew Procedures Engineer (Wayne Wright) to\ndevelop the procedures to support that activity, and it was approved for use.\nAlso, the issue regarding the labeling of the com ports on the ELC was worked with the EXPRESS\nSoftware group. This issue was resolved when the EXPRESS group renamed the ports to be in\ncompliance with the needs of the DAFT software.\nAn ISS Payload Anomaly Report (PSR) number (DAFT-HW-01) was issued to describe, record and\ndocument the resolution of the broken DAFT Fill Assembly.\nD.5 DAFT-3, Session 1, GMT 233, 2006\nJeff accomplished the repair without incident and proceeded to perform the nominal test procedures.\nSince the DAFT ground team realized that this might be the only opportunity to perform the\nexperiment and in order to insure that the test points would have the maximum experimental value,\nPOD was asked to direct PAYCOM to ask Jeff to voice down the real-time readings from the P-Trak\nand the DustTrak during the sampling period. This would allow the team to know immediately if the\nconcentration of the aerosol within the Sample Bags was appropriate to keep both of the instruments\nwithin range. It was extremely fortunate that that opportunity was provided to the Science and\nEngineering team. Near Real Time Video was also made available whenever there was Ku Band\ncoverage.\n6",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "The ground team requested that Alcohol Wick S/N 02 be used, to insure that there would be enough\nalcohol to run all of the test points. Jeff was unable to open the container that it was in. The reason for\nthat is unknown. He was directed to revert to using Alcohol Wick S/N 01.\nThe 2.5 micron Impactor was installed on the DustTrak from the Accessories kit.\nJeff noted during set up that he could not make the DustTrak go into Log Mode 2. Using voice up\nmessaging with POD and PAYCOM, the ground team asked Jeff to make a second attempt, which he\ndid, but that did not help. He was instructed to ignore the problem and move forward.\nThe number of requested toggles of the fill valve (per the Execution Notes), once the DAFT Dust\nHolder was installed onto the Fill Assembly, was four.\nBoth of the instrument’s count values went to zero when the HEPA filter was installed on the DAFT\nImpactor inlet, which is nominal.\nOnce the devices were attached, while performing DAFT Sample Extract, Jeff gave a reading from\neach instrument at 30 second intervals for the entire time that sampling was occurring. The data was\nrecorded manually by the DAFT ground team. That data has been transcribed to an Excel file and is\nincluded in Appendix C, labeled as ‘Bag #1’.\nThe operations proceeded nominally from this point forward, although the P-Trak reportedly started\nbeeping sometime before Bag #2 was extracted. It is unknown if this was an actual low alcohol\nwarning, or merely an artifact of drawing the Sample Low enough to cause a vacuum within the P-\nTrak.\nThe HEPA filter was installed on the inlet of the DAFT Impactor before each test point and the\ndevices were re-zeroed. Six toggles were used to introduce dust into Sample Bag #2. Eight toggles\nwere used for Sample Bag #3. Jeff continued to provide call downs of the instrument readings every\n30 seconds for all of the test points, and they were recorded in a similar fashion. The units were not\nturned off in between test points, and no removal or reinstallation of the P-Trak Alcohol Wick was\nperformed until the end of the session. All of the used Sample Bags and Dust Holders were placed in\nthe trash at the end of the test period. The DAFT hardware was all restowed at the end of the testing,\nsince the scheduled Data Download would not be performed for several hours.\nWhen Jeff attached the P-Trak to the ELC to download the data, it was clear that the fix implemented\nby the EXPRESS team had worked, the device recognized the Com Port, and reported that there\nwere four test points ready for downloading. This did not seem to be right, since it was the opinion of\nthe ground team that the four test points from the previous testing (last year) should still have been\nstored, and the test numbers should have incremented starting at number 5. The devices were both\nqueried for test points 5, 6 and 7, and no data was found. The DATA Download procedure was then\nperformed nominally, transferring test points 1 – 4 and those four files were placed on the ELC for\ndownlink as a part of their housekeeping data.\nUnfortunately, the only data received electronically once it was transferred from EXPRESS to the\nGRC TSC was the data obtained from the DAFT-1 and -2 over a year ago.\nIII. Results\nA. List of Pre-, In-, Postflight Anomalies\nDetailed in the Sessions section.\nB. Completeness/Quality of Data\n7",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "The data taken from DAFT 1 and 2 can be seen in Section III C. Figures 1 through 4.\nTest point #2 data (Figures 3 and 4) shows that the P-Trak responded to the Velcro dust quite well, with\nseveral readings above the 30,000 pt/cc mark (P-Trak has a maximum count of 500,000 pt/cc). Although\nthere is no way to exactly correlate between the Velcro demates and the increases in the P-Trak readings,\nthe observations that the unit’s readings increased and decreased in a logical fashion, were within the\nunit’s prescribed range and there were no observed anomalies serve to indicate that the unit was\nfunctioning normally. DustTrak also responded well to the Velcro dust, but did not reach readings above\n10% of its overall capability.\nTest points #3 and #4 were not appreciably different from Test point #1 for either device.\nSection III C. Figure 7 contains a chart developed from the ground testing that was performed in May of\n2003, using the crew training hardware in a flight like manner. It can be seen from that graph that\nalthough there is a wide variation in the amount of aerosol that is contained within the various samples,\nthe relationship between the DustTrak and P-Trak readings is very linear, meaning that the overall\ncomposition of the various aerosols created on the ground, regardless of concentration, is very similar\nwith regard to the relationship between the number and the sizes of the particles entrained.\nA comparison between this chart and the one taken from the flight data, presented in Appendix C, shows\nthat the data acquired on orbit falls outside of this ground based relationship. The data points are clustered\nto the left of the line (area), in a region where the count/mass ratio is lower than what was determined\nfrom ground testing. This indicates then, that the mass of the average particle counted on orbit is higher\nthan that determined on Earth. This observation makes sense since, on-orbit, without gravity to drive\nsettling, more of the larger particles from the dust sample should remain entrained.\nIt should be noted that, although the DAFT Impactor is designed to filter out the larger particles, it is only\nabout 50% efficient; which implies that it is allowing a considerable number of larger particles to be\ndrawn into the devices.\nIf the data collected on orbit had been to the lower right of the ground based testing line on the graph in\nAppendix D, it would have meant that more smaller particles would have been present; which is counter\nintuitive and would have indicated that the P-Trak may have been over counting the particles, one of the\npostulated failure modes.\nThe analysis of the average particulate size and mass shown on the spreadsheet in Figure 5 (provided by\nZengguang Yuan) shows a good uniformity between the particulates sampled from the various bags. The\naverage mass (assuming a material density of water) is 2.5 E-12 grams, with a range from 2 – 3 E-12. The\ncalculated average diameter is 1.65 micron, ranging from 1.56 – 1.7 micron.\nThe sample material, Arizona Road Dust (Fine) is a standardized, homogenous material; but since it\ncontains a wide distribution of sizes, it is a mixture. The amount of the material that is enclosed in each\nDust Holder is small (0.25 gram). From ground testing, it is estimated that only about 10% of the material\ncontained within the Dust Holder is introduced into the aerosol, due to the irregular interior surfaces\nwithin it, the surface adhesion of the dust and other factors. Therefore, the net amount of sample delivered\nto the Sample Bags is about 25 milligrams. Since this amount is so small and is coming from a mixture,\nsome variation in the average particle size between samples is expected.\nC. Tables, Graphs, Figures Index\n8",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "text",
+      "id": "b10",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "P-Trak 001\n500\n450\n400\n350\n300\n250\n200\n150\n100\n50\n0\n0 100 200 300 400 500 600 700\nHEPA Filter ON: 59 sec Hose ON: 149 sec\nHEPA Filter OFF: 88 sec\nTime (sec)\nFigure 1: DAFT P-Trak data from Test Point #1\nDustTrak 001\n0.2\n0.18\n0.16\n0.14\n0.12\n0.1\n0.08\n0.06\n0.04\n0.02\n0\n0 100 200 300 400 500 600 700 800\nHEPA Filter ON: 68 sec Hose ON: 192 sec\nHEPA Filter OFF: 128 sec\nTime (sec)\nFigure 2: DAFT DustTrak data from Test Point #1\n9",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "PTrk0002\n50000\n45000\n40000\n35000\n30000\n25000\n20000\n15000\n10000\n5000\n0\n0 100 200 300 400 500 600 700 800\nTime (sec)\n10\ncc/tp\nFigure 3: DAFT P-Trak data from Test Point #2\nDTrk0002\n0.2\n0.18\n0.16\n0.14\n0.12\n0.1\n0.08\n0.06\n0.04\n0.02\n0\n0 100 200 300 400 500 600 700 800\nTime (sec)\n3m/gm\nFigure 4: DAFT DustTrak data from Test Point #2",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "table",
+      "id": "b12",
+      "name": "Page 10 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 10,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "PTrk0002\n50000\n45000\n40000\n35000\n30000\ncc/tp\n25000\n20000\n15000\n10000\n5000\n0\n0 100 200 300 400 500 600\nTime (sec)",
+        "column_2",
+        "column_3",
+        "column_4",
+        "column_5",
+        "column_6",
+        "column_7",
+        "column_8",
+        "column_9",
+        "column_10",
+        "column_11",
+        "column_12",
+        "column_13",
+        "column_14",
+        "column_15",
+        "column_16",
+        "column_17",
+        "column_18",
+        "column_19",
+        "800"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 11,
+          "raw": {
+            "PTrk0002\n50000\n45000\n40000\n35000\n30000\ncc/tp\n25000\n20000\n15000\n10000\n5000\n0\n0 100 200 300 400 500 600\nTime (sec)": "",
+            "column_2": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "column_11": "",
+            "column_12": "",
+            "column_13": "",
+            "column_14": "",
+            "column_15": "",
+            "column_16": "",
+            "column_17": "",
+            "column_18": "",
+            "column_19": "700",
+            "800": ""
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "PTrk0002\n50000\n45000\n40000\n35000\n30000\ncc/tp\n25000\n20000\n15000\n10000\n5000\n0\n0 100 200 300 400 500 600\nTime (sec)": "",
+            "column_2": "",
+            "column_3": "DTrk0002",
+            "column_4": "",
+            "column_5": "",
+            "column_6": "",
+            "column_7": "",
+            "column_8": "",
+            "column_9": "",
+            "column_10": "",
+            "column_11": "",
+            "column_12": "",
+            "column_13": "",
+            "column_14": "",
+            "column_15": "",
+            "column_16": "",
+            "column_17": "",
+            "column_18": "",
+            "column_19": "",
+            "800": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Bag #1 Bag#2 Bag#3\nDustTra DustTra\nP-Trak DustTrak P-Trak k P-Trak k\ntime n/cm3 mg/m3 n/cm3 mg/m3 n/cm3 mg/m3\n10 16800 41 25000 34.4 36500 61.4\n30 17000 42 18800 34.5 34300 62\n60 16800 43.7 19400 34.4 30000 60.2\n90 17000 45.2 19100 33.9 24500 61.3\n120 17900 45.8 18600 33.5 21500 63.1\n150 18200 46 18400 33.5 20300 66\n180 18000 45.1 17600 33.3 15800 65.2\n210 17500 43.3 17000 33.5 11400 63.7\n240 17000 43.3 16900 32.8 26400 66.7\n270 16400 41.4 17000 33 25800 66\n300 17700 40.9 17000 33.6 21100 51.6\n330 17400 40.4 16300 34.5 24600 71\n360 17200 42.4 15500 34.3\n390 17500 43.6 14000 34.1\n12500 34.5\n13000 37.6\naverage 17314.286 43.15 17256 34.088 24350 63.183\nMass Per Particle\n(gram) 2.492E-12 2E-12 3E-12\nVolume Per Particle\n(cm3) 2.492E-12 2E-12 3E-12\nD (micon) 1.68 1.56 1.70\nslop 0g 0.0024922\nslop 1g 0.0007692\nslop ratio 3.2398102\n0gD/1gD 1.4796984\ndensity 1\nDtrack/Ptrak~D^3\nFigure 5: Tabular data from DAFT-3 and -4\n11",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "table",
+      "id": "b14",
+      "name": "Page 11 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 11,
+        "table": 1
+      },
+      "headerRow": 2,
+      "columns": [
+        "time",
+        "P-Trak\nn/cm3",
+        "DustTrak\nmg/m3",
+        "column_4",
+        "P-Trak\nn/cm3 (2)",
+        "DustTra\nk\nmg/m3",
+        "column_7",
+        "P-Trak\nn/cm3 (3)",
+        "DustTra\nk\nmg/m3 (2)"
+      ],
+      "rowCount": 26,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "time": "10",
+            "P-Trak\nn/cm3": "16800",
+            "DustTrak\nmg/m3": "41",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "25000",
+            "DustTra\nk\nmg/m3": "34.4",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "36500",
+            "DustTra\nk\nmg/m3 (2)": "61.4"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "time": "30",
+            "P-Trak\nn/cm3": "17000",
+            "DustTrak\nmg/m3": "42",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "18800",
+            "DustTra\nk\nmg/m3": "34.5",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "34300",
+            "DustTra\nk\nmg/m3 (2)": "62"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "time": "60",
+            "P-Trak\nn/cm3": "16800",
+            "DustTrak\nmg/m3": "43.7",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "19400",
+            "DustTra\nk\nmg/m3": "34.4",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "30000",
+            "DustTra\nk\nmg/m3 (2)": "60.2"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "time": "90",
+            "P-Trak\nn/cm3": "17000",
+            "DustTrak\nmg/m3": "45.2",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "19100",
+            "DustTra\nk\nmg/m3": "33.9",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "24500",
+            "DustTra\nk\nmg/m3 (2)": "61.3"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "time": "120",
+            "P-Trak\nn/cm3": "17900",
+            "DustTrak\nmg/m3": "45.8",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "18600",
+            "DustTra\nk\nmg/m3": "33.5",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "21500",
+            "DustTra\nk\nmg/m3 (2)": "63.1"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "time": "150",
+            "P-Trak\nn/cm3": "18200",
+            "DustTrak\nmg/m3": "46",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "18400",
+            "DustTra\nk\nmg/m3": "33.5",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "20300",
+            "DustTra\nk\nmg/m3 (2)": "66"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "time": "180",
+            "P-Trak\nn/cm3": "18000",
+            "DustTrak\nmg/m3": "45.1",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "17600",
+            "DustTra\nk\nmg/m3": "33.3",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "15800",
+            "DustTra\nk\nmg/m3 (2)": "65.2"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "time": "210",
+            "P-Trak\nn/cm3": "17500",
+            "DustTrak\nmg/m3": "43.3",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "17000",
+            "DustTra\nk\nmg/m3": "33.5",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "11400",
+            "DustTra\nk\nmg/m3 (2)": "63.7"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "time": "240",
+            "P-Trak\nn/cm3": "17000",
+            "DustTrak\nmg/m3": "43.3",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "16900",
+            "DustTra\nk\nmg/m3": "32.8",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "26400",
+            "DustTra\nk\nmg/m3 (2)": "66.7"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "time": "270",
+            "P-Trak\nn/cm3": "16400",
+            "DustTrak\nmg/m3": "41.4",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "17000",
+            "DustTra\nk\nmg/m3": "33",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "25800",
+            "DustTra\nk\nmg/m3 (2)": "66"
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "time": "300",
+            "P-Trak\nn/cm3": "17700",
+            "DustTrak\nmg/m3": "40.9",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "17000",
+            "DustTra\nk\nmg/m3": "33.6",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "21100",
+            "DustTra\nk\nmg/m3 (2)": "51.6"
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "time": "330",
+            "P-Trak\nn/cm3": "17400",
+            "DustTrak\nmg/m3": "40.4",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "16300",
+            "DustTra\nk\nmg/m3": "34.5",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "24600",
+            "DustTra\nk\nmg/m3 (2)": "71"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "time": "360",
+            "P-Trak\nn/cm3": "17200",
+            "DustTrak\nmg/m3": "42.4",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "15500",
+            "DustTra\nk\nmg/m3": "34.3",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "",
+            "DustTra\nk\nmg/m3 (2)": ""
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "time": "390",
+            "P-Trak\nn/cm3": "17500",
+            "DustTrak\nmg/m3": "43.6",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "14000",
+            "DustTra\nk\nmg/m3": "34.1",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "",
+            "DustTra\nk\nmg/m3 (2)": ""
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "time": "",
+            "P-Trak\nn/cm3": "",
+            "DustTrak\nmg/m3": "",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "12500",
+            "DustTra\nk\nmg/m3": "34.5",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "",
+            "DustTra\nk\nmg/m3 (2)": ""
+          }
+        },
+        {
+          "sourceRow": 16,
+          "raw": {
+            "time": "",
+            "P-Trak\nn/cm3": "",
+            "DustTrak\nmg/m3": "",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "13000",
+            "DustTra\nk\nmg/m3": "37.6",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "",
+            "DustTra\nk\nmg/m3 (2)": ""
+          }
+        },
+        {
+          "sourceRow": 19,
+          "raw": {
+            "time": "average",
+            "P-Trak\nn/cm3": "17314.286",
+            "DustTrak\nmg/m3": "43.15",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "17256",
+            "DustTra\nk\nmg/m3": "34.088",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "24350",
+            "DustTra\nk\nmg/m3 (2)": "63.183"
+          }
+        },
+        {
+          "sourceRow": 21,
+          "raw": {
+            "time": "Mass Per Particle\n(gram)",
+            "P-Trak\nn/cm3": "2.492E-12",
+            "DustTrak\nmg/m3": "",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "2E-12",
+            "DustTra\nk\nmg/m3": "",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "3E-12",
+            "DustTra\nk\nmg/m3 (2)": ""
+          }
+        },
+        {
+          "sourceRow": 22,
+          "raw": {
+            "time": "Volume Per Particle\n(cm3)",
+            "P-Trak\nn/cm3": "2.492E-12",
+            "DustTrak\nmg/m3": "",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "2E-12",
+            "DustTra\nk\nmg/m3": "",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "3E-12",
+            "DustTra\nk\nmg/m3 (2)": ""
+          }
+        },
+        {
+          "sourceRow": 23,
+          "raw": {
+            "time": "D (micon)",
+            "P-Trak\nn/cm3": "1.68",
+            "DustTrak\nmg/m3": "",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "1.56",
+            "DustTra\nk\nmg/m3": "",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "1.70",
+            "DustTra\nk\nmg/m3 (2)": ""
+          }
+        },
+        {
+          "sourceRow": 26,
+          "raw": {
+            "time": "slop 0g",
+            "P-Trak\nn/cm3": "0.0024922",
+            "DustTrak\nmg/m3": "",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "",
+            "DustTra\nk\nmg/m3": "",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "",
+            "DustTra\nk\nmg/m3 (2)": ""
+          }
+        },
+        {
+          "sourceRow": 28,
+          "raw": {
+            "time": "slop 1g",
+            "P-Trak\nn/cm3": "0.0007692",
+            "DustTrak\nmg/m3": "",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "",
+            "DustTra\nk\nmg/m3": "",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "",
+            "DustTra\nk\nmg/m3 (2)": ""
+          }
+        },
+        {
+          "sourceRow": 31,
+          "raw": {
+            "time": "slop ratio",
+            "P-Trak\nn/cm3": "3.2398102",
+            "DustTrak\nmg/m3": "",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "",
+            "DustTra\nk\nmg/m3": "",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "",
+            "DustTra\nk\nmg/m3 (2)": ""
+          }
+        },
+        {
+          "sourceRow": 33,
+          "raw": {
+            "time": "0gD/1gD",
+            "P-Trak\nn/cm3": "1.4796984",
+            "DustTrak\nmg/m3": "",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "",
+            "DustTra\nk\nmg/m3": "",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "",
+            "DustTra\nk\nmg/m3 (2)": ""
+          }
+        },
+        {
+          "sourceRow": 34,
+          "raw": {
+            "time": "",
+            "P-Trak\nn/cm3": "",
+            "DustTrak\nmg/m3": "density",
+            "column_4": "1",
+            "P-Trak\nn/cm3 (2)": "",
+            "DustTra\nk\nmg/m3": "",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "",
+            "DustTra\nk\nmg/m3 (2)": ""
+          }
+        },
+        {
+          "sourceRow": 36,
+          "raw": {
+            "time": "Dtrack/Ptrak~D^3",
+            "P-Trak\nn/cm3": "",
+            "DustTrak\nmg/m3": "",
+            "column_4": "",
+            "P-Trak\nn/cm3 (2)": "",
+            "DustTra\nk\nmg/m3": "",
+            "column_7": "",
+            "P-Trak\nn/cm3 (3)": "",
+            "DustTra\nk\nmg/m3 (2)": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b15",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Aug. 21, 2006\n180\n160\n140\n120\n100\n80\n60\n40\n20\n0\n0 20000 40000 60000 80000 100000 120000 140000 160000 180000\nPtrack (particles/cm3)\n12\n)3m/gm(\nkarTtsuD\nbag1\nbag2\nbag3\nFigure 6: Graphed data from DAFT-3 and -4\nArizona Test Dust\n180\n160\n140\n120\n100\n80\n60\n40\n20\n0\n0 20000 40000 60000 80000 100000 120000 140000 160000 180000\nP-Trak (particles/cm3)\n)3m/gm(\nkarttsuD\nFigure 7: DAFT Ground Test data",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "text",
+      "id": "b16",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "H. Conclusion\nIdeally, DAFT would have collected electronic data from all of the planned 15 test points to establish a\nlarge body of consistent, repeated data. Several factors contributed to the decision to not pursue additional\ntest points. They were:\nCrew Time: Although DAFT was planned for Increment 13, there was not enough crew time available to\nsupport all of the desired Payload activities and the prospects for actually performing the experiment at all\nwere extremely uncertain. Fortunately for DAFT, ALTEA had some problems with their hardware and a\nsmall block of time came open. DAFT had to negotiate very hard to be allowed the opportunity to\nschedule 1 + 3 test points, and there was very little chance for another session.\nIsopropyl Alcohol: As mentioned in the Results section, Jeff Williams was unable to open the DAFT\nAlcohol Wick container -02. This limited the amount of alcohol available to support the operation of the\nP-Trak. Leroy Chiao used this alcohol wick when he performed DAFT-1 and -2 and both of those units\nwere loaded with alcohol over 3 years ago, so the amount that is remaining is highly questionable.\nSample Build Up: Testing in the lab has shown that under some circumstances, especially when a\nsignificant amount of the larger ARD particles is sent to the devices, a buildup of particles can occur\nwithin the optics chamber of the P-Trak. Clearly, the data shows that the sample aerosol contained a\ngreater proportion of larger particles than is experienced on Earth. It also shows that as the run time on the\nP-Trak is increasing, especially during Bag #3, the count/mass ratio is declining. Although it is not certain\nthat this build up is occurring, the symptoms of that condition are consistent with the data.\nThe lack of the electronic data collection has limited the ability of the project team to perform a more\ndetailed analysis of the data, since it will remain unknown as to the actual range of the readings over time.\nThe team feels that the information gathered and transmitted by Jeff does represent a good average, but\ndetails regarding the data spread could well be lost and not retrievable, since the log functions on both\nmachines seem to have failed (although the possibility of operator error does remain).\nBased on the limited availability of the crew, it does not seem reasonable to think that time and\nprocedures could be made available for Jeff or the follow on Increment 14 crew to troubleshoot the\ndevices.\nThat being said, DAFT was conceived and built as a Risk Mitigation experiment, not necessarily a\nScience experiment. It was delivered only 6 months after being proposed and accepted, and it was\nunderstood that in some respects, the sample material (the ARD, a poly disperse particulate) was less than\nideal.\n(Note: For those unfamiliar with the experiment, ideally, a mono disperse aerosol with particulates about\n0.7 microns in size would have been created in a density of about 50,000 pt/cc in order to provide a more\nquantifiable relationship between the readings from the DustTrak and P-Trak. Unfortunately, an aerosol\nof this type is difficult to manufacture, and the project did not have time or resources to attempt such a\ndevelopment.)\nThe data shows that the devices were able to operate in microgravity for an extended period of time with\nno apparent failure. One of the major concerns was that the P-Trak would accumulate alcohol in the\noptics chamber and obscure them, causing the unit to either read ‘0’ or display and error code. This did\nnot happen. The units gave readings from zero well up into the middle of their operational ranges, and\nthen back; in short, they performed as expected.\nDAFT-1 and -2 showed that the units were ‘apparently working’ and that the air aboard the ISS is almost\nunbelievably clean. The readings from the devices during that part of the overall experiment though,\nnever crossed the 20% of the operational range threshold, leaving the results somewhat suspect.\n13",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "text",
+      "id": "b17",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "This latest experimental run, however, did. The project team feels that the optimal reading range for the\nP-Trak is from 30,000 – 100,000 pt/cc (although the published range goes up to 500,000 pt/cc) and for\nthe DustTrak; 20 – 80 mg/m3. Clearly, the latest data was within this range.\nThe count/mass ratio between the devices as measured on orbit, although well outside of the value\ndetermined on Earth, is both explainable and credible; and to the best of the team’s ability to analyze the\ndata, seems very consistent.\nThe problems with the equipment and the data have been discussed at some length, and although they do\nleave something to be desired, it does appear that there is enough consistency to determine that the\nreadings recorded are believable and representative of the aerosol created, implying that the units both\nfunctioned nominally.\nDue to the constraints listed above, DAFT-4, using the ‘unmodified’ P-Trak, was not performed. Since\nthe flight hardware for SAME has been manufactured to the same specifications as the unit that was\ntested (P-Trak-01), this is not considered to be a factor.\nThe Science team has examined the data and compared the results against the empirical data accumulated\nfor polydisperse aerosols; and determined that the results do have a good basis for acceptance within the\nbounds of that analysis.\nFor these reasons, the SAME (DAFT) project team feels that the DAFT experiment has been a complete\nsuccess, and that it has confidence that the P-Traks as designed and manufactured for SAME will perform\nas accurately and effectively on-orbit as they have in the labs.\nI. Earth Benefits / Spin-off Applications\nThere are no tangible Earth benefits from this experiment.\n14",
+      "location": {
+        "page": 14
+      }
+    }
+  ]
+}

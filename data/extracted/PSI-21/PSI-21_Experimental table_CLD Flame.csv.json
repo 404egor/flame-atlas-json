@@ -1,0 +1,471 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-21",
+  "format": "csv",
+  "source": {
+    "fileName": "PSI-21_Experimental table_CLD Flame.csv",
+    "folder": "Experimental table",
+    "subfolder": null,
+    "key": "psi-data/PSI-21/Experimental table/PSI-21_Experimental table_CLD Flame.csv",
+    "version": 1,
+    "sizeBytes": 2454,
+    "sha256": "9fafbc5b3dddaf715ce8025ed9154ce297803f7b69a935f077ec26c8249e44c0",
+    "localPath": "data/raw/PSI-21/Experimental table/PSI-21_Experimental table_CLD Flame.csv",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21"
+  },
+  "extractor": {
+    "name": "csv",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:13:27+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 1,
+    "tableRows": 32,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "table",
+      "id": "b1",
+      "name": "PSI-21_Experimental table_CLD Flame",
+      "confidence": "high",
+      "location": {},
+      "headerRow": 1,
+      "columns": [
+        "Test Type",
+        "Test Day",
+        "Fuel MFC",
+        "N2 MFC",
+        "Fuel Bottle",
+        "Fuel conc. Range",
+        "Flames ignited",
+        "Notes"
+      ],
+      "rowCount": 32,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Test Type": "Methane based test",
+            "Test Day": "17319",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "40% CH4",
+            "Fuel conc. Range": "30%-40%",
+            "Flames ignited": "10",
+            "Notes": "Test Day - includes the year as the first two digits followed by the 3-digit day of the year (where any late-hour transition to the next day is neglected). MFC - identifies the maximum flow rate of the specified ACME Mass Flow Controller (MFC) in slpm on a nitrogen basis. Fuel conc. - (as diluted with nitrogen on a volume basis) was varied between tests and sometimes during tests where the listing here accounts for both. However, it does not account for extinction that sometimes occurred before the flame fully reached the lowest concentration. Flames ignited is the number ignited on that test day."
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Test Type": "Methane based test",
+            "Test Day": "17324",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "40% CH5",
+            "Fuel conc. Range": "30%-40%",
+            "Flames ignited": "5",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Test Type": "Methane based test",
+            "Test Day": "17342",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "40% CH6",
+            "Fuel conc. Range": "40%",
+            "Flames ignited": "8",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Test Type": "Methane based test",
+            "Test Day": "17356",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "40% CH7",
+            "Fuel conc. Range": "30%-40%",
+            "Flames ignited": "3",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Test Type": "Methane based test",
+            "Test Day": "18003",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "40% CH8",
+            "Fuel conc. Range": "25%-40%",
+            "Flames ignited": "9",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Test Type": "Methane based test",
+            "Test Day": "18005",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "40% CH9",
+            "Fuel conc. Range": "30%-40%",
+            "Flames ignited": "7",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Test Type": "Methane based test",
+            "Test Day": "18008",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "40% CH10",
+            "Fuel conc. Range": "25%-40%",
+            "Flames ignited": "8",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Test Type": "Methane based test",
+            "Test Day": "18011",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "40% CH11",
+            "Fuel conc. Range": "25%-40%",
+            "Flames ignited": "14",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Test Type": "Methane based test",
+            "Test Day": "18022",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "40% CH12",
+            "Fuel conc. Range": "30%-40%",
+            "Flames ignited": "3",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Test Type": "Methane based test",
+            "Test Day": "18026",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "40% CH13",
+            "Fuel conc. Range": "25%-40%",
+            "Flames ignited": "16",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Test Type": "Methane based test",
+            "Test Day": "18032",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "40% CH14",
+            "Fuel conc. Range": "30%-40%",
+            "Flames ignited": "13",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "Test Type": "Methane based test",
+            "Test Day": "18039",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.05",
+            "Fuel Bottle": "100% CH4",
+            "Fuel conc. Range": "50%-80%",
+            "Flames ignited": "8",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Test Type": "Methane based test",
+            "Test Day": "18043",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.05",
+            "Fuel Bottle": "100% CH5",
+            "Fuel conc. Range": "50%-100%",
+            "Flames ignited": "10",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "Test Type": "Methane based test",
+            "Test Day": "18053",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.02",
+            "Fuel Bottle": "100% CH6",
+            "Fuel conc. Range": "30%-40%",
+            "Flames ignited": "16",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "Test Type": "Ethylene based test",
+            "Test Day": "18145",
+            "Fuel MFC": "0.2",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "100% C2H4",
+            "Fuel conc. Range": "80%-100%",
+            "Flames ignited": "3",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 16,
+          "raw": {
+            "Test Type": "Ethylene based test",
+            "Test Day": "18151",
+            "Fuel MFC": "0.2",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "100% C2H5",
+            "Fuel conc. Range": "100%",
+            "Flames ignited": "2",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 17,
+          "raw": {
+            "Test Type": "Ethylene based test",
+            "Test Day": "18177",
+            "Fuel MFC": "0.2",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "100% C2H6",
+            "Fuel conc. Range": "80%-100%",
+            "Flames ignited": "9",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 18,
+          "raw": {
+            "Test Type": "Ethylene based test",
+            "Test Day": "18186",
+            "Fuel MFC": "0.2",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "100% C2H7",
+            "Fuel conc. Range": "60%-100%",
+            "Flames ignited": "14",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 19,
+          "raw": {
+            "Test Type": "Ethylene based test",
+            "Test Day": "18192",
+            "Fuel MFC": "0.2",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "100% C2H8",
+            "Fuel conc. Range": "50%-60%",
+            "Flames ignited": "10",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 20,
+          "raw": {
+            "Test Type": "Ethylene based test",
+            "Test Day": "18199",
+            "Fuel MFC": "0.2",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "100% C2H9",
+            "Fuel conc. Range": "40%-100%",
+            "Flames ignited": "16",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 21,
+          "raw": {
+            "Test Type": "Ethylene based test",
+            "Test Day": "18214",
+            "Fuel MFC": "0.2",
+            "N2 MFC": "0.05",
+            "Fuel Bottle": "100% C2H10",
+            "Fuel conc. Range": "100%",
+            "Flames ignited": "13",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 22,
+          "raw": {
+            "Test Type": "Ethylene based test",
+            "Test Day": "18218",
+            "Fuel MFC": "0.2",
+            "N2 MFC": "0.05",
+            "Fuel Bottle": "100% C2H11",
+            "Fuel conc. Range": "80%",
+            "Flames ignited": "18",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 23,
+          "raw": {
+            "Test Type": "Ethylene based test",
+            "Test Day": "18235",
+            "Fuel MFC": "0.2",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "50% C2H4",
+            "Fuel conc. Range": "50%",
+            "Flames ignited": "16",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 24,
+          "raw": {
+            "Test Type": "Ethylene based test",
+            "Test Day": "18239",
+            "Fuel MFC": "0.2",
+            "N2 MFC": "0.1",
+            "Fuel Bottle": "50% C2H5",
+            "Fuel conc. Range": "40%",
+            "Flames ignited": "14",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 25,
+          "raw": {
+            "Test Type": "Ethylene based test",
+            "Test Day": "18241",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.2",
+            "Fuel Bottle": "50% C2H6",
+            "Fuel conc. Range": "10%-20%",
+            "Flames ignited": "6",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 26,
+          "raw": {
+            "Test Type": "Ethylene based test",
+            "Test Day": "18249",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.2",
+            "Fuel Bottle": "50% C2H7",
+            "Fuel conc. Range": "10%-30%",
+            "Flames ignited": "12",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 27,
+          "raw": {
+            "Test Type": "Ethylene based test",
+            "Test Day": "18253",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.2",
+            "Fuel Bottle": "50% C2H8",
+            "Fuel conc. Range": "15%-30%",
+            "Flames ignited": "14",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 28,
+          "raw": {
+            "Test Type": "Ethylene based test",
+            "Test Day": "18257",
+            "Fuel MFC": "0.1",
+            "N2 MFC": "0.2",
+            "Fuel Bottle": "50% C2H9",
+            "Fuel conc. Range": "15%-20%",
+            "Flames ignited": "15",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 29,
+          "raw": {
+            "Test Type": "Improved coflow tests",
+            "Test Day": "21041",
+            "Fuel MFC": "0.2",
+            "N2 MFC": "0.2",
+            "Fuel Bottle": "30% C2H4",
+            "Fuel conc. Range": "0%-30%",
+            "Flames ignited": "9",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 30,
+          "raw": {
+            "Test Type": "Improved coflow tests",
+            "Test Day": "21046",
+            "Fuel MFC": "0.2",
+            "N2 MFC": "0.2",
+            "Fuel Bottle": "30% C2H5",
+            "Fuel conc. Range": "15%-20%",
+            "Flames ignited": "16",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 31,
+          "raw": {
+            "Test Type": "Improved coflow tests",
+            "Test Day": "21050",
+            "Fuel MFC": "0.2",
+            "N2 MFC": "0.2",
+            "Fuel Bottle": "40% CH4",
+            "Fuel conc. Range": "20%-40%",
+            "Flames ignited": "16",
+            "Notes": ""
+          }
+        },
+        {
+          "sourceRow": 32,
+          "raw": {
+            "Test Type": "Improved coflow tests",
+            "Test Day": "21062",
+            "Fuel MFC": "0.2",
+            "N2 MFC": "0.2",
+            "Fuel Bottle": "40% CH5",
+            "Fuel conc. Range": "30%-40%",
+            "Flames ignited": "11",
+            "Notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

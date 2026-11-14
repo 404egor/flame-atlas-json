@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-47",
+  "format": "csv",
+  "source": {
+    "fileName": "PSI-47_Experimental table_DAFT.csv",
+    "folder": "Experimental table",
+    "subfolder": null,
+    "key": "psi-data/PSI-47/Experimental table/PSI-47_Experimental table_DAFT.csv",
+    "version": 2,
+    "sizeBytes": 518,
+    "sha256": "d9d1a436c6e7bbc410b433e04575fe7dedaff763b5237d688089929b7393b5c0",
+    "localPath": "data/raw/PSI-47/Experimental table/PSI-47_Experimental table_DAFT.csv",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-47"
+  },
+  "extractor": {
+    "name": "csv",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:24:50+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 1,
+    "tableRows": 2,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "table",
+      "id": "b1",
+      "name": "PSI-47_Experimental table_DAFT",
+      "confidence": "high",
+      "location": {},
+      "headerRow": 1,
+      "columns": [
+        "Session Name",
+        "Actual Day",
+        "Hardware Description",
+        "Sample Material",
+        "Sampled Location"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Session Name": "D1",
+            "Actual Day": "GMT 54 (2005)",
+            "Hardware Description": "Contained the modified P-Trak with Alcohol Wick and batteries",
+            "Sample Material": "Arizona Road Dust (ARD Fine) in combination with ISS GN2 to create an aerosol for measurement purposes.",
+            "Sampled Location": "Sampled air near Express rack 4"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Session Name": "D2",
+            "Actual Day": "GMT 63 (2005)",
+            "Hardware Description": "Contained DustTrak and batteries",
+            "Sample Material": "Arizona Road Dust (ARD Fine) in combination with ISS GN2 to create an aerosol for measurement purposes.",
+            "Sampled Location": "Sampled separated Velcro and the air near Port rack 6 and in Node 1"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-102",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-102_Engineering Documents_60089MFHA411 Teflon Ignitor Wire Coil Assembly.pdf",
+    "folder": "Engineering Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA411 Teflon Ignitor Wire Coil Assembly.pdf",
+    "version": 2,
+    "sizeBytes": 175861,
+    "sha256": "24a25119a5732adca9f02d3f437867be1a6250297311504720eea0cab6dcd9d7",
+    "localPath": "data/raw/PSI-102/Engineering Documents/PSI-102_Engineering Documents_60089MFHA411 Teflon Ignitor Wire Coil Assembly.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-102"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:27:09+00:00",
+  "status": "partial",
+  "error": null,
+  "warnings": [
+    "no-text-layer: no page has extractable text (scanned PDF?)"
+  ],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": 1
+  },
+  "blocks": []
+}

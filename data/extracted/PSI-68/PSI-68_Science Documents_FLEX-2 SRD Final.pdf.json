@@ -1,0 +1,1227 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-68",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-68_Science Documents_FLEX-2 SRD Final.pdf",
+    "folder": "Science Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-68/Science Documents/PSI-68_Science Documents_FLEX-2 SRD Final.pdf",
+    "version": 1,
+    "sizeBytes": 1001814,
+    "sha256": "3ea215485f65c4c08fd86b5d74f0bf4435d45b2e2d5e4ac6c33820316175e562",
+    "localPath": "data/raw/PSI-68/Science Documents/PSI-68_Science Documents_FLEX-2 SRD Final.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-68"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:25:14+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 68,
+    "characters": 143490,
+    "tables": 9,
+    "tableRows": 31,
+    "pages": 68
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Science Requirements Document\nFundamental Studies in Droplet Combustion and\nFlame Extinguishment in Microgravity\n(FLEX-2)\nResearch Team Lead:\nForman A. Williams, University of California, San Diego\nNASA Research Team Members:\nDaniel L. Dietrich, NASA Glenn Research Center\nMichael C. Hicks, NASA Glenn Research Center\nVedha Nayagam, National Center for Space Exploration Research\nExternal Research Team Members:\nC. Thomas Avedisian, Cornell\nMun Y. Choi, Drexel University\nFrederick L. Dryer, Princeton University\nBenjamin D. Shaw, University of California, Davis\nProject Scientist:\nMichael C. Hicks, NASA Glenn Research Center\nMarch 15, 2010",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "FLEX-2 Science Requirements Document\nSignature Page\nExternal Research Team:\n‌Forman A. Williams ‌Date ‌Benjamin D. Shaw ‌Date\nResearch Team Lead Research Team Member\nUniversity of California, San Diego University of California, Davis\n‌Frederick L. Dryer ‌Date ‌C. Thomas Avedisian ‌Date\nResearch Team Member Research Team Member\nPrinceton University Cornell University\n‌Mun Y. Choi ‌Date\nResearch Team Member\nUniversity of Connecticut\nInternal Research Team:\n‌Daniel L. Dietrich ‌Date ‌Vedha Nayagam ‌Date\nResearch Team Member Research Team Member\nNASA Glenn Research Center National Center for Space Exploration\n‌Michael C. Hicks ‌Date\nProject Scientist\nNASA Glenn Research Center\nNASA Headquarters:\n‌Francis P. Chiaramonte ‌Date\nPhysical Sciences Program Manager\nNASA - Headquarters",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "CONTENTS FLEX-2 SRD Rev. 1\nContents\n1 Introduction 1\n2 Literature Review 3\n2.1 Droplet Combustion and Extinction . . . . . . . . . . . . . . . . . . . . . . . . . 3\n2.2 Liquid-Phase Phenomena . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5\n2.3 Surrogate Fuel Droplet Combustion . . . . . . . . . . . . . . . . . . . . . . . . . . 6\n2.4 Mechanisms of Soot Formation . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\n2.5 Slow Convective Effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11\n2.6 Droplet Arrays Combustion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\n3 Research Goals 18\n3.1 Liquid-Phase Phenomena . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18\n3.2 Surrogate Fuel Droplet Combustion . . . . . . . . . . . . . . . . . . . . . . . . . . 19\n3.3 Sooting Effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20\n3.4 Slow Convective Effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21\n3.5 Droplet Arrays Combustion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22\n4 Flight Experiment Description 23\n4.1 Experiment Objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24\n4.2 Test Matrix Envelope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25\n4.3 Science Data End Products . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28\n5 Flight Experiment Requirements 31\n5.1 Experiment Requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31\n5.1.1 Test Fuels . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33\n5.1.2 Droplet Deployment and Ignition . . . . . . . . . . . . . . . . . . . . . . . 34\n5.1.3 Initial Pressure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35\n5.1.4 Initial Ambient . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\n5.1.5 Droplet Translation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36\n5.1.6 Operational Requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . 37\ni",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "CONTENTS FLEX-2 SRD Rev. 1\n5.1.7 Microgravity Requirements . . . . . . . . . . . . . . . . . . . . . . . . . . 37\n5.2 Diagnostic Requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39\n5.2.1 Droplet Imaging . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41\n5.2.2 OH∗ Flame Imaging . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42\n5.2.3 Secondary Color Flame Imaging . . . . . . . . . . . . . . . . . . . . . . . 42\n5.2.4 Flame Radiation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43\n5.2.5 Soot Volume Fraction Measurement . . . . . . . . . . . . . . . . . . . . . 43\n5.2.6 Soot/Fiber Temperature . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44\n5.2.7 Tethered Droplet Motion . . . . . . . . . . . . . . . . . . . . . . . . . . . 45\n5.2.8 Ambient Temperature and Pressure Measurement . . . . . . . . . . . . . . 45\n5.2.9 Synchronization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45\n5.3 Flight Experiment Test Procedures . . . . . . . . . . . . . . . . . . . . . . . . . . 45\n5.4 FLEX-2 Test Matrix . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46\n6 Post-Flight Data Analysis 47\n6.1 Science Success Criteria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47\n6.1.1 Minimal Success . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48\n6.1.2 Complete Success . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48\n6.2 Hardware Success Criteria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48\n6.2.1 Minimal Success Criteria . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49\n6.2.2 Complete Success Criteria . . . . . . . . . . . . . . . . . . . . . . . . . . . 49\n7 Ground-Based Research Program 50\n7.1 Experiments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\n7.2 Theoretical and Numerical Studies . . . . . . . . . . . . . . . . . . . . . . . . . . 50\n8 Science Management Plan 52\n9 Justification for Reduced Gravity 54\nii",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "LIST OF FIGURES FLEX-2 SRD Rev. 1\nList of Figures\n1 Representative data on droplet and flame dimensions in a microgravity com-\nbustion experiment with heptane-hexadecane droplets. In this experiment, the\npressure was one atm. Data are from Aharon and Shaw (1998). . . . . . . . . . . 6\n2 The ratio V /V vs. the initial hexadecane mass fraction Y, where V is the\nc 0 c\ndroplet volume at the onset of flame contraction, and V the initial droplet vol-\n0\nume. The lines are theoretical predictions (Aharon and Shaw, 1998) of V /V\nc 0\nvs. Y for various values of . All experimental data shown, which are for heptane-\nhexadecane mixture droplets, show the values achieved in the various experiments. 7\n3 Liquid species diffusion coefficients D ( calculated using the relation D = K1/8)\nas a function of pressure. All data shown are for heptane-hexadecane mixture\ndroplets. The data points are from experiments. The solid lines are D values\nestimated from correlations (Erkey et al., 1990) using asymptotic predictions of\ndroplet temperatures (Aharon and Shaw, 1998). The dashed lines are D values\nestimatedfromcorrelations(Erkeyetal., 1990), wheredroplettemperatureswere\nassumed to be at the pressure-dependent boiling point of heptane. . . . . . . . . 8\n4 a) schematic of a droplet burning with minimal buoyancy; b) backlighted pho-\ntograph of a 0.52mm nonane droplet showing soot shell (black ring); c) color\nphotograph of a 0.47 mm nonane droplet . . . . . . . . . . . . . . . . . . . . . . . 9\n5 Measured and predicted droplet burning rate as a function of initial droplet di-\nameter. Model predictions were obtained for a)no radiation, b)non-luminous\nradiation, c)non-luminous and luminous (soot) radiation cases. . . . . . . . . . . 11\n6 Schematic illustration of various flame configurations. . . . . . . . . . . . . . . . . 12\n7 Effect of forced convection on methanol droplet burning in microgravity Dietrich\net al. (1996). . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13\n8 Normalized droplet diameter squared and flame height for a single droplet and\nbinary droplet array (L = 3.3 mm) burning in an ambient oxygen mole fraction\nof 0.15 (balance nitrogen) at 190 mmHg total pressure in microgravity . . . . . . 15\n9 Normalizeddropletdiametersquaredandflameheightasafunctionofnormalized\ntime for a single droplet and binary droplet array (L = 3.7 mm) burning in\nan ambient oxygen mole fraction of 0.25 (balance helium) at 190 mmHg total\npressure in microgravity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n10 a)JP8ina70%He/30%O2gas; b)burningrateobtainedasslopeofdatainfigure\nc); flame diameter for oxygen with nitrogen or helium. . . . . . . . . . . . . . . . 20\n11 Burning of ethanol droplet in normal-gravity under 1 and 2 atmospheric pressures. 21\n12 Qualitative representation of the effect of droplet interactions on flammability\nlimits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23\niii",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "LIST OF TABLES FLEX-2 SRD Rev. 1\nList of Tables\n1 Selected Properties of Fuels. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\n2 FLEX-2 Test Matrix Envelope. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27\n3 Estimated Number of Tests . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27\n4 Science Data End Products ... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28\n5 Hardware Requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31\n6 Diagnostic Requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39\n7 Specific Roles and Areas Responsibility of FLEX-2 Researchers. . . . . . . . . . . 52\niv",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "1.0 Introduction FLEX-2 SRD Rev. 1\n1 Introduction\nCombustion, which has been both friend and foe to mankind since antiquity, still defies compre-\nhension in many important respects. Needs therefore exist to advance fundamental knowledge\nin combustion science. Practical consequences of such advancement of knowledge are improve-\nments in strategies for energy production, since most of the energy that is used by society\nwill continue to be provided by combustion for many years, and mitigation of fire losses, fire\nsafety being a continuing concern in all sectors. The NASA Microgravity Combustion Science\nProgram, which was established through recognition of these needs, did much to increase our\nfundamental understanding of combustion processes Ronney (1988),Williams (2007). Droplet\ncombustion experiments had a great deal to do with the advancements in knowledge through\nthis program. Such experiments, in effect, focus on a microcosm of the field of combustion\nthat can be used to study most aspects of the topic. In addition, droplet combustion is of\npractical interest in itself, since liquid fuels possess high energy content per unit mass and are\nrelatively safe to store and transport, making them valuable to the transportation industry for\nthe foreseeable future. Phenomena of finite-rate gas-phase chemistry, multicomponent-species\ngas-phase transport processes, production of soot and other pollutants, phase-change processes,\nliquid-phase species separation and fluid motion, natural and force convection, radiation and\nconductive energy transfer and interactions of different burning fuel elements, for example, all\nare involved in droplet combustion (and, in fact, all are aspects of the subject of the present\nSRD). By offering a well-controlled arena in which to investigate these combustion phenomena,\nmicrogravity droplet combustion research provides valuable data that help develop detailed\nchemical and physical models of combustion phenomena.\nThe NASA program in the area of microgravity droplet combustion has employed laboratory\nexperiments, low-gravityfacilities, aircraftflyingparabolictrajectoriesandspace-basedresearch\nto reduce or eliminate buoyancy, thereby increasing the fidelity of the descriptions of the com-\nbustion processes. Following glovebox space-shuttle experiments on a fiber-supported droplet\ncombustion, FSDC, the freely deployed droplet-combustion experiment DCE was flown on the\nMSL-1 missions, providing a number of new insights into the fundamentals of droplet com-\nbustion. Among the DCE results was the demonstration of boundaries between radiative and\ndiffusive extinction of combustion in droplet burning and the establishment of atmospheres in\nwhich the dilution was great enough that the oxygen concentration was too low for combustion\nto occur Nayagam et al. (1998), Ackerman et al. (2003). This last observation demonstrated\nhow droplet-combustion studies could be used to investigate the limiting oxygen index, LOI,\nneeded to prevent combustion, and so the Flammability-limit experiment FLEX, was designed\nfor the International Space Station, ISS, to be run using the multiuser droplet combustion ap-\nparatus, MDCA, in the combustion integrated rack, CIR. While FLEX is focussed on spacecraft\nfire safety and fire suppression, FLEX-2 returns to the broader objective of improving the fun-\ndamental understanding of liquid-fuel combustion. The FLEX-2 experiments thus fall in the\ncategory of the broad NASA mission to improve basic science through microgravity research.\nThey focus on ethanol and decane as fuels, as well as various fuel mixtures, in oxygen-nitrogen\nand oxygen-helium atmospheres at various pressures.\n1",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "1.0 Introduction FLEX-2 SRD Rev. 1\nSpecific aspects of FLEX-2 and of how the FLEX-2 plans build on and differ from previous\nfundamental droplet-combustion studies are addressed in detail in the following sections. Brief\ndescriptionsoftherelevantliteraturewillbegiven, theobjectivesoftheproposedresearcheffort\nwillbeoutlined,descriptionswillbegivenoftheexperimentalresearch,andrequirementsforthe\nflight experiments will be stated. Post-flight data analysis, ground-based efforts in support of\nthe flight experiments and the overall science management plan are described in the subsequent\nsections.\n2",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.0 Literature Review FLEX-2 SRD Rev. 1\n2 Literature Review\n2.1 Droplet Combustion and Extinction\nThe spherically symmetrical combustion of a liquid fuel droplet in a quiescent ambient gaseous\noxidizing atmosphere is a classical problem in combustion research, having been addressed\nfirst more than 50 years ago by Godsave (1952), Hall and Diederichsen (1953) and Spalding\n(1953b,a). Numerous reviews of the subject are now available in the literature, among them\nthose of Wise and Agoston (1958), Williams, F. (1965), Williams (1973),Faeth (1977), Law\n(1982), Sirignano (1993, 1999), Avedisian (2000), Chiu (2000) and Choi and Dryer (2001). An\nadvantage of the spherical symmetry is that only one spatial dimension enters the description\nof the combustion process, so that one-dimensional (spherically symmetrical) time-dependent\nconservation equations apply, greatly facilitating both computational and theoretical descrip-\ntions of the combustion and thereby enhancing understanding of experimental results, which\nbecomes much more difficult, uncertain and inaccurate in multidimensional situations. Natural\nconvection, however, destroys the spherical symmetry of the combustion in normal gravity, as\nwas quite evident already in the earliest experiments of Hall and Diederichsen (1953) and Gold-\nsmith (1956). Kumagai (1956) was the first to realize that microgravity experiments afforded\nthe opportunity to achieve spherical symmetry, a fact which NASA has used to advantage in\nfundamental investigations for a number of years e.g., (Williams, 1981; Dietrich et al., 1996;\nNayagam et al., 1998). Although microgravity experiments are, in a sense, somewhat artificial\nfor earthbound combustion, they are of direct concern for combustion hazards in the spacecraft\nwhich are needed to pursue human exploration of planets and their satellites in space.\nDespite the simplifications afforded by spherical symmetry, many complexities remain in micro-\ngravity studies of droplet combustion. Among them are time-dependent liquid-phase phenom-\nena, soot production, radiant energy transfer and effects of multicomponent fuels. These topics\nare addressed in the following subsections. The focus of the present subsection is on gas-phase\nphenomena, as they influence burning rates and finite-rate chemistry, leading ultimately to ex-\ntinction of the spherical flame that surrounds the liquid droplet. Because of the small value of\nthe ratio of gas density to liquid density, in a first approximation the gas phase is quasisteady\nWilliams (1960, 1985). It is this quasisteadiness, along with a fast-chemistry approximation,\nthat leads to the well-known \"d-square law\" for the droplet burning rate, in which the square of\nthe droplet diameter decreases linearly with time. There are, however, notable time-dependent\ngas-phase phenomena in need of further study, even when the gas-phase chemistry is fast.\nOnesuchphenomenaistheflame-diameterhistory. Anentirelyquasisteadygasphasewithrapid\nchemistry maintains a constant ratio of flame diameter to droplet diameter during combustion,\nbut already in early microgravity droplet-combustion experiments this was observed not to\noccur Kumagai and Isoda (1956); Isoda and Kumagai (1958); Okajima and Kumagai (1974a).\nIt is now understood that whether the flame diameter should behave in a quasisteady manner\ndepends on the value of the stoichiometric mixture fraction, the ratio of the oxidizer mass to\nthe sum of the fuel and oxidizer mass in a stoichiometric mixture (Crespo and Liñan (1975);\nWaldman (1974); Williams (1985)). A quasisteady flame radius occurs if the stoichiometric\n3",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "text",
+      "id": "b10",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.1 Droplet Combustion and Extinction FLEX-2 SRD Rev. 1\nmixture fraction is sufficiently large, but in most experiments it is too small (less than 0.1)\nfor the flame radius to achieve quasisteady behavior during the droplet lifetime. Dilution of\nthe atmosphere reduces the stoichiometric mixture fraction, as does oxygenation of the fuel, so\nmethanol, for example, in increased-oxygen atmospheres would have a more nearly quasisteady\nflame radius than hydrocarbon fuels, such as heptane, burning in air. Microgravity experiments\n(e.g., Dietrich et al. (1996)) suggest a stronger tendency toward quasisteady flame-diameter\nbehavior for methanol than for heptane. It is not known, however, whether this tendency also\nwould be exhibited by ethanol, since ethanol is not as highly oxygenated as methanol. The\nproposed experiments with ethanol would help to address this question; for the experiments\nwith decane, the flame diameters should remain unsteady during the entire burning history.\nMicrogravity experiments have shown that there always is an initial period during which the\nflame diameters increase with time (Nayagam et al. (1998)). During this period the flame\nresides in the outer transient-diffusive zone (Crespo and Liñan (1975)). Only at sufficiently\nlarge stoichiometric mixture fractions can it return to the inner convective-diffusive zone and\nbecome quasisteady. A tendency for the flame to return, that is, for the flame diameter to begin\nto decrease with time, can be observed only if the gas-phase chemistry remains sufficiently fast.\nIf the chemistry is too slow, the flame may extinguish before it begins to return.\nHeat losses reduce the temperature of the gas and thereby slows the chemistry. Two types of\nheat losses are diffusive, that is, by heat conduction away from the flame, and radiative, that\nis radiant energy loss from the flame region to the surroundings. Diffusive losses are increased\nat small flame diameters, while radiative losses are increased at large flame diameters relative\nto energy release. Flame extinction that occurs as the flame diameter begins to decrease after\nreaching a maximum is therefore termed radiative extinction, while extinctions that occurs at\nsmall flame diameters are termed diffusive extinction. The boundary between conditions of\nradiative and diffusive extinction depends on the initial droplet diameter and on the dilution\nof the atmosphere, as well as on the fuel. Microgravity experiments (Nayagam et al. (1998),\nAckerman et al. 2003) have established these boundaries for heptane. The boundaries between\nradiative and diffusive extinction are, however, not known for ethanol or decane. The proposed\nexperiments would determine these boundaries for these two fuels, each of which is of interest,\nthe first as a constituent of biofuels and the second as a constituent of surrogate fuels for diesel\nand aircraft fuels.\nDetailed chemical kinetic mechanisms are available for the combustion of both ethanol and\ndecane fuels. It is now possible to use this detailed chemistry in time-dependent, spherically\nsymmetrical computations of droplet burning to calculate extinction conditions. However, sys-\ntematicallyreducedchemistrymodelsusingrate-ratioasymptoticsarenotyetavailableforthese\nfuels. Experimental measurement of diffusive and radiative extinction boundaries for the two\nfuels should help in developing these reduced chemical kinetic schemes.\n4",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.2 Liquid-Phase Phenomena FLEX-2 SRD Rev. 1\n2.2 Liquid-Phase Phenomena\nThe bulk of the isolated droplet combustion studies, as seen from the previous section, treat\nthe droplet as being a pure, single component liquid. In contrast, practical fuels are multi-\ncomponent, or have constituents with a wide range of physical and chemical properties. The\ngas-phase and thus flame behaviors are determined by the species that have gasified, and liq-\nuid behaviors are determined by the species that remain inside of the droplets. A particular\nspecies within a droplet can be gasified only if it is present at the liquid surface. Thus, the\ngas phase and vaporization behaviors of a fuel droplet are strongly influenced by the rate at\nwhich various components are transported to the surface of the droplet. Previous work shows\nthatliquidspeciesdiffusionratesareveryimportantindeterminingthegasificationbehaviorsof\nmulticomponent droplets (see, e.g., Hanson et al. (1982); Randolph et al. (1986); Dwyer, 1989;\nMegaridis (1993); Sirignano (1999)).\nA species can reach the surface of the droplet by two mechanisms, diffusion and convection.\nThecausesofinternalliquidconvectionweretypicallythoughttoresultfromtheatomizationor\ninjectionprocessesandtheaerodynamicshearstressesatthedropletsurface(Sirignano(1999)).\nAharon and Shaw (1996) showed that capillary stresses can promote or oppose droplet internal\nflows, depending on the relative strengths of the solutal and thermal capillary stresses. These\ncapillary stresses can dominate the internal flows and can cause strong random internal motions\nwith spray-size droplets (50 to 100 µm or smaller), even under high droplet velocity conditions\nrepresentative of modern combustors (Dwyer et al. (1996); Dwyer et al. (1998); Niazmand et al.\n(1995)). One of the focuses of the present FLEX-2 experiments will be to investigate the effects\nof thermal and solutal capillary flows on droplet combustion behaviors.\nThe process of differential vaporization of a bi-component fuel is manifested in the gas phase\nas ‘flame contraction.’ Flame contractions occur as a result of the massive liquid heating (and\ndecreased vaporization) when the surface mass fraction of the low-volatility component rapidly\napproachesunity. RepresentativeflameanddropletdatafromAharonandShaw(1998)showing\na flame contraction are presented in Fig. 1.\nTheoreticalexpressionshavebeendeveloped(ShawandWilliams(1990))andextended(Aharon\nand Shaw (1998)) to analyze conditions leading to the onset of flame contractions. The theory\npredicts that the ratio of the initial droplet diameter, d , to the droplet diameter at the onset\n0\nof flame contraction, d , is a function of both the initial mass fraction of the low-volatility\nc\ncomponent in the droplet, Y, and the parameter ε = 8D/K. This parameter (ε) is the ratio\nof a characteristic droplet lifetime to a characteristic species diffusion time in a droplet. The\nvariable D is the liquid species diffusivity and K is the burning-rate constant prior to the flame\ncontraction. Undertypicalconditions,ε<<1isexpected;thetheorycapitalizesonthesmallness\nof ε. The solid lines in Fig. 2 show theoretical predictions of (d /d )3 as a function of Y for\nc 0\nvarious values of ε.\nFigure 3 shows the effective liquid phase species diffusion coefficients, D, computed from the\nexperiments in Fig. 2. The data in Fig. 3 show that the smallest D values were in the drop\ntower experiments. In addition, the 0.1 MPa data show that the D values calculated from the\n5",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "text",
+      "id": "b12",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.3 Surrogate Fuel Droplet Combustion FLEX-2 SRD Rev. 1\n1.50 25\n1.25\n20\n1.00\n15\n0.75\n10\n0.50\n5\n0.25\n0.00 0\n0.0 0.5 1.0 1.5 2.0\nTime After Ignition (s)\n)2mm(\nretemaiD\ntelporD\nfo\nerauqS\n)2mm(\nretemaiD\nemalF\nfo\nerauqS\nTest 9\nX = 0.21 (Air)\nDroplet Y = 0.05\nSwelling\nFlame\nK 1 = 0.49 mm2/s Contraction\n\"Plateau\"\nK = 0.35 mm2/s\n3\nFigure 1–Representativedataondropletandflamedimensionsinamicrogravitycombustionexperiment\nwith heptane-hexadecane droplets. In this experiment, the pressure was one atm. Data are from Aharon\nand Shaw (1998).\nnormal-gravity results of Wang et al. (1984) are about an order-of-magnitude larger than the\none-atm D values obtained by Shaw and co-workers. Clearly, the different methods used for\ndroplet deployment influences the extent of liquid phase mixing, and thus the effective D, in\nmany of the studies cited here. The present FLEX-2 experiments using bi-component mixtures\nwill allow the droplet internal circulation to decay prior to ignition and characterize the motion\nthat results from only thermocapillary or solutalcapillary stresses.\nIn summary, data from well characterized bi-component droplet combustion experiments specif-\nically designed to elucidate the role of liquid-phase internal circulation are not available to\ndate. The primary goal of the flight experiments is to provide benchmark experimental data\non bi-component droplet combustion over a wide range of initial conditions that could be used\nto validate numerical simulations and to develop new theoretical models. The detailed experi-\nmental objectives and selection of suitable fuel mixtures are further described in the following\nsections.\n2.3 Surrogate Fuel Droplet Combustion\nAviation fuels like JP8 have poor reproducibility of composition in the manufacturing process.\nThereforeitisdifficulttocross-referencelaboratoryresultsfromdifferentbatches. Ifasurrogate\ncould be identified which matches one or more measures of the combustion performance of JP8,\nmodels for predicting combustion could be more easily developed by doing experiments on the\nsurrogate rather than JP8 directly. The microgravity platform with its reduced buoyant flow\nand ability to promote spherical droplet flames can assist in developing such blends for this\n6",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.3 Surrogate Fuel Droplet Combustion FLEX-2 SRD Rev. 1\n1.0\nFSDC-1\n0.8\nFSDC-2\nDrop Tower Experiments\n0.6 Mikami et al. (1993)\nWang et al. (1984) (1-g)\n0.4\n0.2\n0.0\n0.0 0.1 0.2 0.3 0.4 0.5\nY\nV/\nV\n0\nc\ne= 0.01\ne= 0.05\ne= 0.1 e »0.36\ne= 0.2\nFigure 2 – The ratio V /V vs. the initial hexadecane mass fraction Y, where V is the droplet volume\nc 0 c\nat the onset of flame contraction, and V the initial droplet volume. The lines are theoretical predictions\n0\n(Aharon and Shaw, 1998) of V /V vs. Y for various values of . All experimental data shown, which are\nc 0\nfor heptane-hexadecane mixture droplets, show the values achieved in the various experiments.\npurpose.\nThe concept of surrogates is not new. As far back as the 1920s surrogate fuels were used to\nunderstand the influence of composition on performance of gasoline fuels (Colket et al. (2007)).\nOver the years, a variety of surrogates have been evaluated. The most elementary is a single\ncomponent fuel, the relevance of which to a real fuel, is at most to represent single phase heat\ntransfer behavior (Edwards and Maurice (2001)). More realistically, blends of several fuels are\nnecessarytoexploitdifferencesamongindividualconstituentstoattempttoreproduceaspecific\nmetric of the real fuel. Surrogates containing two (Kyne et al. 1999) to over twenty constituents\n(Hakansson et al. (2001)) have been proposed to model performance of real fuels including\nliquid fuels (e.g., sprays Smith et al. (1985)) and gaseous fuels (e.g., Cooke et al. (2005)).\nInterestingly, Zhang et al. (2007) used the combustion chemistry of heptane as a building block\nwith additional sub-models to predict acetylene concentration in surrogate mixtures of liquid\ntransportation fuels. Smith et al. (1985) proposed a blend of fourteen compounds to match the\nphase equilibrium and sooting behavior of JP8 in a spray flame.\nRecenteffortstodevelopsurrogatefuelshavefocusedonidentifyingclassesofcompoundsinstead\nof specific fractional amounts. For example, Tsang (2003) noted that the chemistry of real\ntransportation fuels may be described by constituents coming from six chemical classes: iso-\nparaffins; normal paraffins; single ring aromatics; cyclo-paraffins; olefinic species; multi-ring\naromatics. And Colket et al. (2007) identified five chemical classes of transportation fuels\n7",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "text",
+      "id": "b14",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.3 Surrogate Fuel Droplet Combustion FLEX-2 SRD Rev. 1\nFigure 3 – Liquid species diffusion coefficients D ( calculated using the relation D = K1/8) as a function\nof pressure. All data shown are for heptane-hexadecane mixture droplets. The data points are from\nexperiments. ThesolidlinesareDvaluesestimatedfromcorrelations(Erkeyetal.,1990)usingasymptotic\npredictionsofdroplettemperatures(AharonandShaw,1998). ThedashedlinesareDvaluesestimatedfrom\ncorrelations(Erkeyetal.,1990),wheredroplettemperatureswereassumedtobeatthepressure-dependent\nboiling point of heptane.\n(straight-chain alkanes; branched-chain alkanes; cycloalkanes; single-ring aromatics and multi-\nring aromatics).\nTwo aspects that can assist development of surrogate fuels are 1) an appropriate experimental\nconfiguration for developing data, and 2) identification of appropriate metrics for the chosen\nconfiguration to serve as points of comparison between the surrogate and real fuel. The choice\nof combustion configuration in which to develop a surrogate should have the following features:\n1) transport is easily modelable; 2) the configuration has a capability to produce accurate data;\nand 3) combustion incorporates some of the unsteadiness associated with liquid fuel burning\nprocesses. Several experimental configurations satisfy these constraints for gaseous fuels: coun-\nterflowdiffusionflame;shocktube;flowreactor;andpoolfiretonameafew. Allhaveincommon\nthat they allow for a numerically tractable configuration from which complex processes, such as\nsoot formation and complex chemistry, can be examined. Regarding liquid fuels, the concept is\nthat the isolated spherically symmetric droplet burning configuration of Fig. 4 belongs among\nthe list of configurations from which surrogates could be developed and which can provide an\nunderstanding of the performance of real fuels. For droplet combustion the metrics for com-\nparison include burning rate, burning time, soot aggregate size, extinction diameter, ignition\nand flame luminosity. Furthermore, unlike the other configurations, the spherical droplet flame\n8",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "text",
+      "id": "b15",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.4 Mechanisms of Soot Formation FLEX-2 SRD Rev. 1\nFigure 4 – a) schematic of a droplet burning with minimal buoyancy; b) backlighted photograph of a\n0.52mm nonane droplet showing soot shell (black ring); c) color photograph of a 0.47 mm nonane droplet\nconfiguration experiments proposed here also captures some of the unsteady effects typical of\ncombustion of liquid fuels. No work has thus far been reported on using the spherically sym-\nmetric droplet combustion configuration of Fig. 4 for this purpose and the results from this\nstudy should provide a unique method for developing a surrogate fuel formula.\n2.4 Mechanisms of Soot Formation\nUnderstanding soot formation during the combustion of liquid fuels is important due to its\nnegative effects on the environment and human health as well as for its practical uses in certain\nindustrial processes. Despite its practical relevance the process of soot formation during the\ncombustion of a liquid fuel has not been fully understood due to its complexity (Avedisian\n(2000)). Theprocessofsootformationinvolvesbothchemicalandphysicalaspects: thechemical\naspects involve the reaction pathways for the formation of soot precursors, and the physical\naspects include nucleation, soot particle surface growth, oxidation, and particle agglomeration.\nThe most widely used models for soot formations include semi-empirical approaches of Moss et\nal. (Moss et al. (1988); Bressloff et al. (1996)), Lindstedt and co-workers (Leung et al. (1991)),\nand the detailed models proposed by Frenklach and co-workers (Frenklach and Wang (1991,\n1994) ).\nTheearliestobservationsofsootingduringsphericallysymmetricdropletcombustionwerethose\nof Okajima and Kumagai (1974b, 1982), Yang et al. (1990), Choi et al. (1990a). More recently\nJackson and Avedisian (1994) and Nayagam et al. (1998) measured soot shell diameter for\nn-heptane droplets. Choi and Lee (1996); Lee et al. (1998) and Chen and Shaw (2000) have ob-\ntained soot volume fraction data for droplets of varying initial sizes. The current understanding\nofsootshellformationsuggeststhatsootparticlesformedneartheflamefrontareacteduponby\nviscous drag (caused by Stefan flow), thermophoresis and diffusion. The balance of the various\ntransport mechanisms causes the transient accumulation of soot particles and the formation of\na spherical sootshell on the fuel-rich side of the diffusion flame. Further agglomeration of soot\nwithin the shell eventually leads to the formation of larger agglomerates that are swept through\nthe diffusion flame by the Stefan drag, and subsequently ignite and burn in the surrounding,\nhot oxygen rich outer flame zone.\n9",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "text",
+      "id": "b16",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.4 Mechanisms of Soot Formation FLEX-2 SRD Rev. 1\nSoot formation during combustion of liquid fuels is inherently linked to the combustion process\nitself and influence the quasi-steady behavior of droplet burning rate and the transient behavior\nof flame extinction. There are several suggested mechanisms through which sooting can affect\nthe burning behavior. The formation of soot through pyrolysis reactions (pyrolysis reactions\nare strongly endothermic) is a heat sink (Choi et al. (1990b);Jackson et al. (1992)). This factor\nwill reduce the effective heat of combustion and therefore the transfer number. Although the\ntransfer number appears in the natural log term of the d2-law, reduction in the burning rate\nis expected for conditions of significant soot conversion. Related to this phenomenon is the\naccumulation of the formed soot in a sootshell. This material contains chemical energy not\nreleased in the flame and thus causes a reduction in the effective heat of combustion (Choi et al.\n(1990b);Jackson et al. (1991)). The magnitude of this effect is related to the soot conversion\nratio (mass of soot formed divided by mass of fuel consumed). The presence of soot can also\nmodify the thermophysical properties of the soot-laden gas. The thermal conductivity is higher\nfor soot compared to the surrounding gas, but the overall conductivity of the mixture is not\nexpected to be much different from the gas since contact among soot aggregates to form a solid\nstructural shell is unlikely. The presence of the soot in the fuel-rich region can also affect the\nradiative emission and reabsorption, thereby influencing the flame temperature distribution.\nSince soot is a broad band emitter, its presence between the droplet surface and the flame\ncould influence radiative heat loss from the flame zone. The enhanced soot radiation near flame\nzone could lead to droplet heat up by liquid phase absorption or an overall reduction in heat\ntransferred back to the droplet caused by reduced flame temperature and absorption of the\nradiation from the flame by the soot-containing region. When the loss mechanism dominates\nthe flame temperature will be lowered sufficiently and cause radiative extinction of the flame\nas observed by Nayagam et al. (1998). A comprehensive theoretical or numerical model, which\nincludes soot formation process (chemical and physical aspects) and radiation, that can predict\nradiative extinction is still not available. Manzello et al. (2000) have included the luminous\nradiation from soot in their numerical calculations by including the measured soot volume\nfraction values. Figure 5 displays the measured and computed burning rates for various initial\ndropletdiameters. Morerecently, Kumaretal.(2002)havepresentedasootmodelthatincludes\nsoot nucleation, growth, and coagulation and O and OH oxidation for transient combustion of\n2\nspherically symmetric n-heptane droplets.\nUnderstanding soot formation is also important in fire safety applications. Fire sensing tech-\nnology in microgravity environments typically relies on scattering from particles(Urban et al.\n(1997)). Characterization of soot morphological properties including the primary particle size,\nd , radius of gyration, R , and fractal dimension, D r, and their evolution with residence time\np g f\nundervariousenvironmentalconditionsareimportantfortheanalysisofsootprocessesincluding\nprimary particle growth, soot agglomeration and oxidation processes.\nDespite the progress that has been made over the past several decades, systematic detailed\nmeasurements of soot properties over a wide range of initial and ambient conditions that could\nbe used to develop and validate theoretical and numerical models are not yet available. The\nproposed soot measurements in FLEX-2 investigation should provide some of these data for at\n10",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "text",
+      "id": "b17",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.5 Slow Convective Effects FLEX -2 SRD Rev. 1\nFigure 5 – Measured and predicted droplet burning rate as a function of initial droplet diameter. Model\npredictionswereobtainedfora)noradiation,b)non-luminousradiation,c)non-luminousandluminous(soot)\nradiation cases.\nleast two different fuel types, as described in the following sections.\n2.5 Slow Convective Effects\nAs described in the previous section droplet combustion involves interaction among different\ntime scales, namely residence time, chemical time, radiation time, etc. Often, in many practical\napplications there exists a relative motion between the droplet and surrounding gas. Forced\nconvective flow imposed on a burning droplet introduces an additional time scale (∼ d/U )\n∞\n, where U is the relative gas/droplet velocity and d is the droplet diameter. This fluid me-\n∞\nchanical time scale interacts with other characteristic time scales (e.g., liquid and gas phase\ndiffusion, chemical kinetic) and modifies the results of quiescent droplet combustion for burning\nrates, flame dynamics, soot and other pollution formation, as well as ignition and extinction\nconditions. The most visible demonstration of this fact is that when a droplet burns in a con-\nvective environment it can support several different flame configurations, namely, an envelope\nflame, side-boundary-layer flame, and wake flame, unlike the quiescent burning case where only\nan envelope flame is possible.\nDespite both practical and scientific relevance, effects of forced convection on droplet combus-\ntion, in particular combustion in a slow convective flow regime where the Reynolds number\n11",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "text",
+      "id": "b18",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.5 Slow Convective Effects FLEX-2 SRD Rev. 1\n(a) (b) (c) (d)\nFigure 6 – Schematic illustration of various flame configurations.\ndefined as Re = dU /ν where ν is the kinematic viscosity of the oxidizer at the ambient\n∞ ∞ ∞\ntemperature is of the order one or less, has received very little attention in the past. Most of\nthe results available thus far rely heavily on semi-empirical approach resulting in correlations of\nexperimental measurements and numerical simulations (Chiu (2000)).\nThe classical works of Frossling (1938), and Ranz and Marshall (1952) were concerned with the\nevaporation rates of fuel droplets in a flowing stream. The well-known Frossling Ranz-Marshall\n(FRM) correlation,\nNu = 2.0K1PrmRen (1)\nwhere Nu = hd/k is the Nusselt number, Pr = α/ν is the Prandtl number, α is the thermal\ndiffusivity, k is the thermal conductivity, h is the heat transfer coefficient, and the exponents\nm and n are 1/3 and 1/2, respectively, and the constant K = 0.6, is originally developed for\n1\nevaporating droplets. Numerous studies since then have developed several ad-hoc techniques\nto account for the high gasification rates and the thermophysical property variations during\ncombustion. Thesesemi-empiricalcorrelationsincludethoseofEisenklametal.(1967),Lawand\nWilliams(1972)andSirignano(1999). Themajordraw-backofthesesemi-empiricalcorrelations\nis that they lack universal validity and are limited to certain range of conditions. While these\napproximate analyses provide a useful way to make complex spray calculations, they do not\nprovide concrete physical predictions to test against experimental measurements.\nFairlysophisticatednumericalsimulationsofconvectivedropletcombustionhavebeendeveloped\nin the last decade. The key contribution of these numerical models is the inclusion of full\nNavier-Stokes equations for the gas-phase flow field. However, due to the inherent complexity\nof the problem, varying degrees of approximations have been made in treating the chemistry,\nradiation, and the coupling between the gas and liquid phases. Dwyer and Sanders (1986,\n1988) have presented unsteady numerical calculations for a single droplet burning in a flowing\nstream for Reynolds number ranging from 100 initially to small values. Huang and Chen (1998)\nnumerically solved conservation equations for steady burning of a fuel droplet under buoyancy\ninduced flow conditions (normal gravity conditions). More recently Gogos and co-workers Pope\n12",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.5 Slow Convective Effects FLEX-2 SRD Rev. 1\n1.8\n1.6\n1.4\n1.2\n1\n0.8\n0.6\n0.4\n0.2\n0\n0 4 8 12 16 20\nTime (s)\n2H/1H\n,2)0D/D(\nH1 H2\nflo\nFigure 7 – Effect of forced convection on methanol droplet burning in microgravity Dietrich et al. (1996).\nand Gogos (2005); Raghavan et al. (2006) have developed a comprehensive numerical code\ncapableofsimulatingboththeliquid-phaseandsolid-phaseprocessesduringdropletcombustion\nin slow convective flows. Their numerical code at this time can not simulate combustion of large\ndroplets or sooting droplets where radiation and soot formation become important.\nTheoretical treatments of slow convective droplet combustion stem from the fluid dynamic\nstudies on the motion of a spherical particle in a quiescent environment. In these studies, the\nconvective effect is considered as a perturbation to the spherically symmetric combustion and\na suitable small perturbation parameter is identified. The gas-phase conservation equations\nare then expanded in terms of this small parameter to obtain a perturbation problem to be\nsolved using method of matched asymptotic expansions. Fendell and co-workers (Fendell et al.\n(1966)) were the first to investigate the effects of forced convection on droplet burning. In\ntheir analysis the small perturbation parameter is the Peclet number Pe(= U d/D << 1).\n∞\nAyyaswamy and co-workers (Sadhal and Ayyaswamy (1983); Gogos et al. (1986); Gogos and\nAyyaswamy (1988); Jog et al. (1996)) removed many of the approximations included in Fendell\net al. (1966) and developed a perturbation solution using Reynolds number as a perturbation\nparameter. RecentlyAckermanandWIlliams(2005)developedanasymptoticmodelfordroplet\ncombustion valid for small Reynolds number regime.\nOkajimaandKumagai(1974b,1982)werethefirsttoreportexperimentalresultsforfueldroplets\nburning in a slow convective flow. Their experiments were carried out in a microgravity envi-\nronment (drop-tower) at atmospheric pressures using a wind tunnel. Their limited number of\n13",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "text",
+      "id": "b20",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.6 Droplet Arrays Combustion FLEX-2 SRD Rev. 1\nexperimental data seemed to follow the FRM correlation with the constant in equation (4) close\nto 0.3. Gokalp et al. (1988) reported observations of n-heptane droplets burning in a forced\nconvective flow under normal gravity and in microgravity (parabolic flights on board KC-135\naircraft). They observed wake flames for a Reynolds number value of 65 based on ambient prop-\nerties. Their results also showed that Frossling-type correlations agreed with the forced flow\nresults (with the constant K in equation (4) equal to 0.25) conducted under normal gravity and\nnot with the microgravity experiments. A limited number of convective droplet experiments\nwere conducted using the Glovebox facility in the Spacelab during the USML-2 and MSL-1\nspace shuttle flights (Dietrich et al. (1996); Nayagam et al. (1998)). Figure 7 shows the effect\nof forced convection on methanol droplet burning in microgravity.\nBench mark data for convective droplet combustion including burning rates, gas-phase flame\ndynamics, soot-shell structure and extinction diameters, for sooting and non-sooting fuels under\nslowconvectiveflowsarecurrentlynotavailable. Inordertodevelopacomprehensivetheoretical\nand numerical models for convective droplet combustion detailed measurements over a range of\ninitial conditions are needed.\n2.6 Droplet Arrays Combustion\nStudyingsmallnumbersofinteractingdropletsinawell-controlledgeometryrepresentsalogical\nstep in extending single droplet investigations to more practical spray configurations. Studies\nof droplet interactions date back to Rex et al. (1956) , and were most recently summarized\nby Annamalai and Ryan (1992) and Annamalai (1995). Most studies determined the change\nin the burning rate constant, K, as a result of interactions. The changes in K occur as a\nresult of two competing mechanisms. The burning droplets compete for the available oxidizer,\nbut there is also a reduction in the heat loss from the flame. Under certain conditions, there\nexists a separation distance where the droplet lifetime reaches a minimum (Rex et al., 1956;\nSangiovanni and Kesten, 1976; Xiong et al., 1984). Additionally, since inter-droplet separation\ndistance, L, increases relative to the droplet size, D, as the burning proceeds, the burning rate\nis not constant throughout the burn, but changes continuously with time (Miyasaka and Law,\n1981; Xiong et al., 1984). These experiments were all in normal gravity, and the strong buoyant\nflow strongly influenced the observations.\nThe majority of the experimental studies cited were in terrestrial laboratories. Both Law and\nco-workers (Miyasaka and Law, 1981; Xiong et al., 1984) and Mikami and co-workers (Mikami\net al., 1994), however, did perform their experiments in reduced buoyancy environments pro-\nduced using reduced pressure conditions. Law and co-workers utilized low pressure, high oxygen\nambients, and Mikami and co-workers used drop towers. The oxidizer concentration in the am-\nbient had to be high (> 40%) in Lawś studies, however, to avoid extinction or ignition limits\ndue to the reduced pressure. Both of these studies concluded that interactions retarded droplet\nheatingearlyinthedropletlifetime. Mikamiandco-workersfurtherfoundthattheburntimeof\nan array reached a minimum at a critical inter-droplet spacing. They assert that this minimum\nresults from the opposite effects of radiative enhanced heating of the droplets and competition\n14",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "text",
+      "id": "b21",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.6 Droplet Arrays Combustion FLEX-2 SRD Rev. 1\nFigure 8 – Normalized droplet diameter squared and flame height for a single droplet and binary droplet\narray (L = 3.3 mm) burning in an ambient oxygen mole fraction of 0.15 (balance nitrogen) at 190 mmHg\ntotal pressure in microgravity\nfor the available oxygen. While both diffusive and radiative extinction of single droplets in\nmicrogravity have been observed before (Dietrich et al. (1996); Nayagam et al. (1998), there\nexists almost no information on how droplet interactions affect the extinction limits.\nFigure 8 shows the burning behavior for a single droplet and a binary array (L ≈ 3 mm)\nin a 0.15 oxygen mole fraction (balance nitrogen), 190 mmHg ambient. There are several\nnoteworthy features of the single droplet burning behavior. First, this ambient condition was\nnot flammable in normal gravity. In fact, in this ambient oxygen mole fraction, droplets of\nthis size could not sustain a flame in normal gravity at pressures up to 760 mmHg. Figure 8\nalso shows that while the single droplet burned to completion, the flame surrounding the array\nextinguished approximately one second after the igniter withdrew. The droplet diameter at\nflame extinction was approximately 1.1 mm for both droplets of the array. Further, the flame\nsize was nearly 50 percent larger than the flame surrounding the single droplet and the flame\nwas much dimmer (evaluated by the intensity of the video images). In the binary array test, the\nflame size increased, reached a maximum, and extinguished. The above trends were consistent\nover a range of inter-droplet spacings and ambient pressures. In the 0.15 oxygen mole fraction\nambient, theflamesurroundingthebinaryarrayalwaysextinguishedatafinitedropletsizethat\nwas larger than the single droplet extinction diameter.\nFigure 9 shows a similar results for a single and binary droplet array burning in oxygen/helium\nenvironment. The burning rate constant K was much higher for the helium diluted experiments\nthan those in the nitrogen diluted experiments (Fig. 8). Also, the flames were much brighter\n15",
+      "location": {
+        "page": 21
+      }
+    },
+    {
+      "type": "text",
+      "id": "b22",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.6 Droplet Arrays Combustion FLEX-2 SRD Rev. 1\nFigure 9 – Normalized droplet diameter squared and flame height as a function of normalized time for a\nsingle droplet and binary droplet array (L=3.7mm) burning in an ambient oxygen mole fraction of 0.25\n(balance helium) at 190 mmHg total pressure in microgravity\nin the He/O ambients and the flame sizes and standoff distances in the He/O ambients were\n2 2\napproximately50percentsmaller. Theflamesurroundingthesingledropletextinguishesquickly\nafter ignition (D ≈ 1.4mm). The flame surrounding the binary array, however, burns much\next\nlonger, and the extinction droplet diameter is much smaller (D ≈ 1.1mm). This extinction\next\ntrend is opposite to that displayed in O /N experiments, but in agreement with the normal\n2 2\ngravityexperiments. TheK forthebinaryarray(0.75mm2/s)wassmallerthanK forthesingle\ndroplet(0.90mm2/s),althoughthereisonlyashorttimeperiodinthesingledropletexperiment\nto calculate K. The flame height for the binary array was larger than the flame height for the\nsingle droplet. Further tests showed that the flames surrounding the binary droplet array at\ninter-droplet spacings of L ≈ 8 and 12 mm (merged flames existed for both spacings) both\nextinguished at droplet diameters smaller than the single droplet. The extinction behavior at\nan inter-droplet spacing of 24 mm, however, was nearly identical to that of a single droplet.\nThe helium and nitrogen-diluted microgravity experiments clearly exhibit different extinction\nbehaviorforthebinaryarraysversusthesingledroplets. Thesingledropletsandbinaryarraysin\nthe nitrogen ambient have very large, weak flames and small burning rate constants (relative to\nthe helium-diluted tests). Consequently, the ratio of the radiative heat loss from the flame zone\nto the energy release from combustion is likely much larger for the nitrogen-diluted tests. This\nratio increases with droplet size since the radiative loss increases with the cube of the droplet\ndiameter while the heat release increases proportionally to the droplet diameter (assuming K\nis independent of droplet diameter). Therefore one could speculate that the increase in flame\n16",
+      "location": {
+        "page": 22
+      }
+    },
+    {
+      "type": "text",
+      "id": "b23",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "2.6 Droplet Arrays Combustion FLEX-2 SRD Rev. 1\nsize, and decrease in K from the single droplet to the binary droplet array increases the ratio\nof radiative loss to energy release, potentially enough to cause extinction of the binary array.\nAlternately, if the inter-droplet spacing were to approach zero for a binary droplet array, this\nwould create a single droplet whose size is 26 percent larger than each individual droplet. This\nincrease in droplet size and corresponding increase in radiative loss relative to heat release could\nbe enough to cause extinction of the flame surrounding the binary array. A similar argument\ncan be made to explain the behavior of the helium-diluted tests. The decrease in flame size,\nincrease in K, and the results of previous work Nayagam et al. (1998) lead us to believe that\nthe helium-diluted experiments were less dominated by radiative loss. Since radiative loss is not\ndominant, the flame temperature is (approximately) independent of the flame size (Williams,\n1985). Extinction occurs when the residence time is smaller than the required chemical reaction\ntime, the later of which is independent of droplet diameter in this regime (diffusive extinction).\nFor the binary droplet array, if the inter-droplet spacing were zero, this would again create a\nlarger single droplet, with a correspondingly larger flame. This single droplet would have a\nlarger residence time, and the flame would not extinguish until the droplet size was equal to\nthe single droplet extinction size. The data in Fig 9 support this view. If the two droplets in\nthe array at flame extinction merged, the resulting single droplet would have a droplet size very\nclose to the extinction droplet size in the single droplet test. Almost no theoretical or numerical\nstudies exist to compare with the present experiments.\n17",
+      "location": {
+        "page": 23
+      }
+    },
+    {
+      "type": "text",
+      "id": "b24",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "3.0 Research Goals FLEX-2 SRD Rev. 1\n3 Research Goals\n3.1 Liquid-Phase Phenomena\nAsdescribedintheprevioussectiontheoverallobjectiveofthebi-componentdropletcombustion\nexperiments is to examine the role of liquid phase mixing on the burning characteristics of a\nsingledroplet. Liquidphasemixingcausedeitherbythermocapillaryflowsorbysolutalcapillary\nflows will be investigated.\nTheexperimentswillexaminetheburningbehaviorofsingledropletsoverarangeoftheparam-\neter ε. This is accomplished by examining different fuel mixtures, ambient pressures, oxygen\nmole fractions, and also altering the time from deployment to ignition (altering the initial liquid\nmotion in the droplet). The flight experiments will involve two different classes of bi-component\nfuel mixture droplets. The first class is expected from theoretical predictions to be hydrody-\nnamically stable in the sense that droplet internal flows will be damped as a result of stabilizing\nthermocapillary effects. Alkane fuel mixtures, e.g., heptane and hexadecane, are candidate fuels\nfor these experiments. The heptane-hexadecane droplets will display flame contractions. In\naddition, differences in surface tension between heptane and hexadecane are small enough such\nthat solutalcapillary effects should be subdominant and these droplets should be hydrodynam-\nically stable. For these droplets, thermocapillary effects should damp internal droplet flows, as\nsuggested by Aharon and Shaw (1996).\nThe second class of fuel mixture droplets is expected to be hydrodynamically unstable in that\ndroplet internal flows will be strongly promoted as a result of destabilizing solutal-capillary\neffects that are expected to cause rapid motions in the liquid phase, causing significant mix-\ning within droplets. Candidate fuels for these experiments are 1-propanol and glycerol, which\nwill not absorb significant amounts of water. The propanol-glycerol droplets will display flame\ncontractions as well. However, the surface tension for propanol is much smaller than for glyc-\nerol, which should induce hydrodynamic instabilities, i.e., capillary flows from solutalcapillary\neffects, as suggested by the theory of Aharon and Shaw (1996). In addition, these droplets\nmay absorb small amounts of water from the ambient during combustion - this water will also\ninduce solutalcapillary instabilities. Any absorbed water will be completely miscible with the\npropanol-glycerol droplet mixture. Complete miscibility is important to allow comparison with\npresent theory.\nThe ambient pressure changes the boiling temperature of the fuel. The burning rate constant,\nhowever, is only a weak function of the pressure. Therefore, by changing the pressure, one\ncan change the ratio of the liquid phase diffusion coefficient to the burning rate constant (the\nsmall parameter, ε, in the analyses of Shaw and Williams (1990) and Aharon and Shaw (1998).\nEstimates indicate that the change in pressure from 1 to 3 atm will result in about a factor of 5\nincrease in ε. Changes in the ambient composition will cause changes in burning rates by about\n50%. In addition, varying the levels of internal circulation within droplets will change effective\nliquid diffusivities by at least a factor of 2. All of these factors will be allowed to vary by more\nthan an order of magnitude (e.g., from 0.01 to 0.5).\n18",
+      "location": {
+        "page": 24
+      }
+    },
+    {
+      "type": "text",
+      "id": "b25",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "3.2 Surrogate Fuel Droplet Combustion FLEX-2 SRD Rev. 1\n3.2 Surrogate Fuel Droplet Combustion\nThisareaofstudyinvolvesapplicationoftheone-dimensionaldropletflameconfigurationshown\ninFig.4toevaluatethecombustionprocessofhydrocarbonsconsideredassurrogatecomponents\nof a real transportation fuel such as JP8. The idea is that the spherical droplet flame configura-\ntion should be as useful for developing surrogate liquid fuels as counterflow flames, shock tubes,\npool fires, stirred reactors, and flow reactors have been to evaluate performance of gaseous fuels.\nEach of these configurations provides a unique perspective to combustion by targeting specific\naspects of the burning process, for example combustion chemistry, ignition and extinction. Fur-\nthermore, unliketheseothercombustionconfigurations, thesphericaldropletflameisimportant\nbecause it captures some of the unsteadiness which is typical of combustion of liquid fuels (i.e.,\nsprays)\nSeveral considerations guide the selection of the liquids for this study. They concern the chemi-\ncal and physical characteristics of JP8 which is comprised of the following general hydrocarbon\nclassifications: straight chain alkanes, aromatics, branched-chain alkanes, and single ring aro-\nmatics(EdwardsandMaurice(2001). Theliquidsareselectedforthisphaseoftheground-based\nexperiments (see, Appendix), are summarized in Table 1.\nTable 1: Selected Properties of Fuels.\nName Formula T (k) T (K) P (atm) ρ,293K\nb c c\nheptane C H 372 540 27 680\n7 16\ndecane C H 447 618 21 730\n10 22\niso-octane C H 372 544 26 690\n8 18\npropyl-benzene C H 432 638 32 860\n9 12\nhexanol C H O 430 611 41 820\n6 14\nJP8 C H 395-473 576 23 810\n11 21\nThe boiling point ranges of the liquids in Table 1 are close enough that microexplosions should\nnot be expected to occur for blends of the liquids. This is an important consideration because of\nthe droplet deployment design which will be used in the proposed experiments. Three mixtures\nare also included in the study: heptane/octane mixture (which has long been considered as a\nsurrogate for gasoline since the 1920s); decane/propylbenzne (currently under consideration in\nEurope as a surrogate (Colket et al. (2007)) and JP8/hexanol. Hexanol is included because\nof its significantly reduced sooting propensity while also having a boiling point in the range\nof the other liquids listed in Table 1. With the exception of hexanol, all of the hydrocarbons\nsoot extensively. We expect soot shells to form and for soot shell diameter to be included in\nthe database to be developed as part of the proposed research except possibly for JP8. One of\nthe purposes of hexanol will be to reduce soot formation through blending to allow observation\nof the droplet through a dense soot cloud. This problem will be an important consideration\n19",
+      "location": {
+        "page": 25
+      }
+    },
+    {
+      "type": "text",
+      "id": "b26",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "3.3 Sooting Effects FLEX-2 SRD Rev. 1\nFigure 10 – a) JP8 in a 70%He/30%O2 gas; b) burning rate obtained as slope of data in figure c); flame\ndiameter for oxygen with nitrogen or helium.\nfor JP8 which soots so extensively that the droplet cannot easily be observed through the soot\ncloud (Bae and Avedisian (2005, 2004)).\nThe initial droplet diameters will be in the sub-millimeter range for the ground-based investi-\ngations. The information from droplets of this size will bridge to larger droplet studies pursued\nin the FLEX-2 flight experiments. There are a number of aspects of the burning which are\ndroplet-size-dependent, most notably the evolution of droplet diameter and the droplet burning\nrate, andsootformation(Leeetal.(1998); Jacksonetal.(1992);JacksonandAvedisian(1994)),\nwhich will benefit from comparisons between large and small droplet results. The ambient will\ninclude inerts of nitrogen (e.g., air) and helium or CO2. An ambience of He/O2 in particular\nis effective in controlling sooting of JP8 droplets (Bae and Avedisian (2004)), which also shows\nevidence of flame extinction. Measurements will be made of the following: evolution of droplet\ndiameter(ifsootdoesnotobscurethedropletvisibility)andflamestructure, burningrate(slope\nof D2), burning time, extinction diameter (if extinction occurs), and soot shell diameter. Exam-\nplesofsomerepresentativedataforJP8usingequipmentsimilartothatofMDCAapparatusare\nshown in Figure 10 (Bae and Avedisian (2004)). Specific experimental objectives are described\nin the following sections.\n3.3 Sooting Effects\nThe primary fuels that are being considered in the FLEX-2 program are known to display\nsignificant sooting behaviors. Previous studies indicate that sooting behavior can influence\ndroplet burning rate, flame temperature, flame radiative emission, and extinction behavior.\nThe overall objectives of the sooting effects study is to obtain quantitative data (soot volume\nfractionandsoottemperature)fromaheavily-sootingalkanefuelandanvariably-sootingalcohol\n20",
+      "location": {
+        "page": 26
+      }
+    },
+    {
+      "type": "text",
+      "id": "b27",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "3.4 Slow Convective Effects FLEX-2 SRD Rev. 1\nFigure 11 – Burning of ethanol droplet in normal-gravity under 1 and 2 atmospheric pressures.\nfuel so that detailed models can be developed and validated for soot processes that affect quasi-\nsteady and transient droplet burning behaviors. Furthermore, the measurements of soot volume\nfraction and soot temperature may provide important insights for sub-mechanisms that will\naffect droplet burning rate, flame temperatures, radiative emission, and flame extinction for the\nrelated studies on slow-convection, droplet arrays, surrogate fuels, and liquid-phase phenomena.\n3.4 Slow Convective Effects\nConvective droplet combustion is inherently a complex problem involving nonlinear interactions\namong disparate time and length scales. Review of the literature clearly reveals that most of\nthe work in this area has been motivated primarily by spray combustion applications and rely\nheavily on empirical or semi-empirical methods using limited experimental data and numerical\nsimulations. Fundamentalphysicalprocesses,especiallythoseinvolvingtransientphenomenaare\nstill not well understood. Experiments involving controlled transient effects including droplet\nacceleration/deceleration and extinction are scarce if not nonexistent. In the low Reynolds\nnumber regime, with envelope flames, there are a limited number of microgravity experimental\ndata obtained in air at atmospheric pressures. In order to develop comprehensive theoretical\nmodels and validate them, more systematic experimentation over wider range of parameters is\nneeded (Avedisian (2000)).\nIn the modeling arena both numerical simulations and theoretical models which use asymptotic\ntechniques are available for convective droplet combustion. However, these models include a\n21",
+      "location": {
+        "page": 27
+      }
+    },
+    {
+      "type": "text",
+      "id": "b28",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "3.5 Droplet Arrays Combustion FLEX-2 SRD Rev. 1\nvariety of simplifying assumptions and are in need of more comprehensive comparisons against\nexperiments. Transient phenomena including extinction and acceleration/deceleration effects\nhave scarcely been addressed in the past. The present project is aimed at obtaining systematic\ndata on convective droplet combustion in the small Reynolds number regime over a range of\ndroplet and environmental conditions and should help in the development of comprehensive\ntheoretical models. Specific objectives of the slow convective droplet combustion study are\ndescribed in the next section.\n3.5 Droplet Arrays Combustion\nThe droplet arrays experiments described in the previous section provided unique insight into\nthe extinction behavior of droplet arrays compared to single droplets. The data, however, were\nlimited by the time available in the microgravity facilities. Ideally, there would be sufficient\ntest time to observe both radiative and diffusive extinction in a single test ambient (nitrogen or\nhelium). Ground-based microgravity facilities do not have sufficient reduced gravity time (drop\ntowers) or quality (aircraft) to get data over a range of droplet sizes and ambient environments.\nTheproposedexperimentwillexaminetheburningbehaviorofbinarydropletarraysoverarange\nof droplet sizes, droplet separation distances and ambient environments where it is possible to\nobserve both diffusive and radiative extinction. The goal of the work is to test determine\nthe flammability map of both the single droplet and droplet array and determine how droplet\ninteractions influence the extinction and flammability limits.\nFigure 12 shows a conceptual flammability diagram of a single droplet and a binary droplet\narray. The abscissa is the droplet size and the ordinate is the ambient oxygen mole fraction.\nFor the single droplet the left branch represents the diffusive extinction regime and the right\nbranch represents the radiative extinction regime. Inside this boundary quasi-steady burning is\npossible, and outside it is not. In a typical droplet combustion experiment ignition occurs at a\npoint inside the boundary, and burning proceeds along a horizontal line up until the diffusive\nextinction boundary line, where the flame extinguishes. The results presented in the previous\nsection suggest that droplet interactions shift this boundary to the left as Fig 12 shows. Details\noftheexperimentalprocedureandspecificexperimentalobjectivesaredescribedinthefollowing\nsections.\n22",
+      "location": {
+        "page": 28
+      }
+    },
+    {
+      "type": "text",
+      "id": "b29",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "4.0 Flight Experiment Description FLEX-2 SRD Rev. 1\nFigure 12 – Qualitative representation of the effect of droplet interactions on flammability limits\n4 Flight Experiment Description\nTheflightexperimentutilizestheMultipleDropletCombustionApparatus(MDCA)installedin\nthe Combustion Integrated Rack (CIR) in the International Space Station (ISS) to investigate\nseveral fundamental aspects of droplet combustion. Combustion of large droplets with burning\ntimes of the order of tens of seconds are the focus of the flight experiments while the ground-\nbased microgravity experiments are focussed on smaller droplets. From experimental point of\nview the overall investigation can be grouped into the following four categories, namely\n• Pure fuel experiments\n• Fuel mixture experiments\n• Convective effects experiments\n• Droplet arrays experiment\nThe independently varied experimental parameters during FLEX-2 experiments are: 1) Fuel\ntype, 2)Ambient gas composition, 3)Ambient Pressure, 4)Droplet initial diameter, 5)Droplet\ntranslation velocity (and acceleration) and 6)Droplet spacing and initial size in a binary linear\narray. This section outlines the specific scientific objectives, the diagnostic requirements, and\nthe science data end products for each of the four categories.\n23",
+      "location": {
+        "page": 29
+      }
+    },
+    {
+      "type": "text",
+      "id": "b30",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "4.1 Experiment Objectives FLEX-2 SRD Rev. 1\n4.1 Experiment Objectives\nPure Fuel Experiments: The objectives of the pure fuel studies are to examine the steady\nand unsteady liquid and gas-phase phenomena, flame extinction, soot formation mechanisms\nand radiative heat transfer. As explained in the earlier sections, decane (C H ) and ethanol\n10 22\n(C H OH) fuels are chosen so that we can build on the results of our earlier flight experiments\n2 5\n(DCE,FSDC-1andFSDC-2)withheptaneandmethanol. Intheseexperimentsdropletburning\nrate, flamedimensions, radiativeemissions, andsootvolumefractionaremeasuredasafunction\nof time and droplet initial size at different ambient conditions. When flame extinction occurs,\nthe diameter of the unburned droplet at extinction is also determined. The specific set of\nobjectives for these experiments are as follows:\n4.1.1 Determine diffusive and radiative flame extinction boundaries for ethanol and decane\ndroplets in test atmospheres containing N or He at pressures ranging from 0.5 atm to\n2\n3.0 atm.\n4.1.2 Measuredropletextinctiondiametersforethanolanddecanefuelsforvalidationofdetailed\nand reduced chemical kinetic models.\n4.1.3 Measure soot volume fractions and soot temperatures for a range of initial conditions to\ndetermine influence on droplet burning and flame extinction.\n4.1.4 Measure radiant emissions from both luminous and non-luminous flames in test atmo-\nspheres containing N or He and at pressures ranging from 0.5 atm to 3.0 atm.\n2\nFuel Mixture Experiments: Bi-component fuel mixtures are chosen to examine the role of liq-\nuid phase transport effects as well as to study the burning characteristics of simulated ‘real’\nfuels. Propanol/glycerol and heptane/hexadecane mixtures are used to examine the role of liq-\nuid phase diffusion, preferential evaporation, and mixing in the burning characteristics of fuel\nmixtures. Heptane/octane and decane/propylbenzene experiments are focussed on simulating\nthe characteristics of ‘real’ fuels, like gasoline and jet fuels, which contain a variety of hydrocar-\nbon with differing volatilities. The experimental measurements made during these experiments\nare similar to the pure fuel studies, however, the initial fuel composition and the interpretation\nof the results are different. The primary objectives of these experiments are as follows:\n4.1.5 Measure diameter d at the onset of flame contraction relative to the initial droplet diam-\nc\neter d . Correlate with theoretical predictions and provide estimates for effective liquid\n0\ndiffusivities.\n4.1.6 Measure burning rate, burning time, extinction diameter, and flame luminosity for the\nJP8 surrogate fuel mixtures.\nConvective Droplet Experiments: The overall objectives of this set of experiment are to inves-\ntigate the effects of slow convective flows on the burning characteristics of liquid-fuel droplets.\n24",
+      "location": {
+        "page": 30
+      }
+    },
+    {
+      "type": "text",
+      "id": "b31",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "4.2 Test Matrix Envelope FLEX-2 SRD Rev. 1\nTheimposedflowvelocitiesaresuchthattheReynoldsnumberbasedoninitialdropletdiameter\nis of the order unity. The specific objectives of the present flight experiments are as follows:\n4.1.7 Obtain radiative and diffusive flame extinction limits in the low Reynolds number flow\nregime over the range of ambient test pressures and oxygen concentrations.\n4.1.8 Measure droplet regression rates for sooting (decane) and non sooting (ethanol) fuels as a\nfunction of imposed flow at low velocities over a range of ambient oxygen concentrations\nand pressures.\n4.1.9 Measureflamestand-offdistance, flameshape, andtemperaturefieldmeasurementsinlow\nflowvelocitiesunderarangeoftestatmospheresforuseinvalidationofdetailedtheoretical\nmodels (i.e., radiative and finite-rate chemical kinetic effects).\nDroplet Arrays Experiments: Theobjectivesofthedropletarraysexperimentsaretoinvestigate\nthedroplet-dropletinteractionsonthediffusiveandradiativeextinctionoftheflamesurrounding\nthe droplets for various L/D ratios using pure fuels. The specific microgravity experimental\n0\nobjectives are as follows:\n4.1.10 Determine the flammability map (diffusive and radiative extinction limits) for a binary\ndroplet array as function of the L/D ratio where the droplet spacing will be determined\n0\nby the bead spacing.\n4.1.11 Measurevariationsinburningrateconstantk asafunctionofL/D forarangeofambient\n0\nconditions to verify theoretical predictions.\nThe overall FLEX-2 experiments consist of a series of droplet combustion experiments to ex-\namine the fundamental aspects of pure and fuel-mixture droplets. The experiments involve\ndispensing, deploying and igniting a single droplet in a known and controlled gaseous environ-\nment. The ignited droplets burns to either completion or the flame extinguishes at a finite\ndroplet radius in a quiescent ambient. During the droplet arrays experiments, two droplets are\nplaced along a support fiber at known locations and the droplets are ignited simultaneously and\nthe subsequent burning is recorded. In the convective flow tests the droplet is subjected to a\nknown and controlled small, sub-buoyant flow. The primary independent experiment variables\nare described in the next section followed by a discussion of the diagnostics. The exact require-\nments in tabular form for the hardware and diagnostics are discussed in subsequent sections.\n4.2 Test Matrix Envelope\nThe test matrix envelope is chosen so that all the science objectives stated earlier can be met\nwithin the MDCA hardware constraints. Detailed experimental test points are not provided at\nthistime. However,on-goinggroundtestsinthedroptowers,experimentalresultsfromFLEX-1\n25",
+      "location": {
+        "page": 31
+      }
+    },
+    {
+      "type": "text",
+      "id": "b32",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "4.2 Test Matrix Envelope FLEX-2 SRD Rev. 1\n(e.g., this experiments predecessor experiment), as well as numerical and theoretical analyses\nwill be used to define a detailed test matrix as the program evolves.\nTohelpestimateresourcerequirementsfortheflightprogramweprovidethefollowingestimates\nforthenumberoftestsforeachinvestigation. Conservativelyanaverageinitialdropletdiameter\nof3mmcanbeassumedforallthetests. Thebi-componentfuelmixturescanbeassumedtobe\na 50-50 mix of each component for resource estimation, though different mixtures composition\nwill be specified at a later date.\n26",
+      "location": {
+        "page": 32
+      }
+    },
+    {
+      "type": "text",
+      "id": "b33",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "4.2 Test Matrix Envelope FLEX-2 SRD Rev. 1\nTable 2: FLEX-2 Test Matrix Envelope\nExperiment Parameter Value\nPure Fuels n-decane, ethanol\nFuel Mixtures n-heptane/n-hexadecane mixtures\n1-propanol/glycerol mixtures\nn-heptane/iso-octane (2,2,4 trimethylpentane)\nn-decane/n-propylbenzene\nAmbient Gas O /N mixtures\n2 2\nO /He mixtures\n2\nOxygen mole fraction 0.17, 0.21, 0.25, and 0.30\nAmbient Pressure 0.5, 1.0, 1.5, 2.0, and 3.0 atm.\nInitial Droplet Size 1.5 to 5.0 mm\nArrays Configuration binary linear\nFlow Velocity 0.1 to 5 cm/s\nTable 3: Estimated Number of Tests\nExperiment Category Fuel No. of Tests\nPure Fuel (quiescent) n-decane 100\nethanol 100\nPure Fuel (flow) n-decane 50\nethanol 50\nPure fuel (arrays-2) ethanol 25\n(arrays-2) n-decane 25\nFuel Mixture n-heptane/n-hexadecane 50\n1-propanol/glycerol 50\nn-heptane/iso-octane 50\nn-decane/n-propylbenzene 50\n27",
+      "location": {
+        "page": 33
+      }
+    },
+    {
+      "type": "text",
+      "id": "b34",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "4.3 Science Data End Products FLEX-2 SRD Rev. 1\n4.3 Science Data End Products\nThe Science Data End Products represent the manner in which the data obtained from testing\nwill be analyzed and ultimately presented. This information is presented in Table 4.3 on the\nfollowing page and provides a summary of the diagnostics necessary to meet the stated science\nobjectives.\nTable 4: Science Data End Products ...\nNo. Science Objectives Diagnostics Science Data End Product\nPure Fuel Tests\n4.1.1 Determine diffusive and - OH flame view with CIR - droplet and flame histories\nradiative flame extinction LLL-UV camera with pre-ignition, ignition,\n-FlameviewwithMDCAcolor\nboundaries for ethanol and extinction and post-extinction\ncamera\ndecane droplets in test behavior\n- Back-lit images from CIR\natmospheres containing N or\n2 HiBMs cameras\nHe at pressures ranging from\n0.5 atm to 3.0 atm\n4.1.2 Measure droplet extinction - OH flame view with CIR - plots of D as a function of\next\ndiameters for ethanol and LLL-UV camera oxygen concentration and\n-FlameviewwithMDCAcolor\ndecane fuels for validation of pressureforethanolanddecane\ncamera\ndetailed and reduced chemical\n- Back-lit droplet images from\nkinetic models\nCIR HiBMs cameras\n4.1.3 Measure soot volume fractions - CIR HiBMs w/ LCTF - plots of burning rates and\nand soot temperatures for a - OH flame view with CIR droplet extinction diameters as\nLLL-UV camera a function of SVF\nrange of initial conditions to\n- Back-lit droplet images from - plots of SVF as a function of\ndetermine influence on droplet\nCIR HiBMs cameras pressure and oxygen\nburning and flame extinction\nconcentrations\n4.1.4 Measureradiantemissionsfrom - OH flame view with CIR\nboth luminous and LLL-UV camera - plots of narrow-band and\n- flame view with MDCA color\nnon-luminous flames in test broad-band emissions as a\ncamera\natmospheres containing N or function of time for different\n2 - OH flame view with CIR\nHe and at pressures ranging LLL-UV camera ambient conditions\nfrom 0.5 atm to 3.0 atm - wide and narrow band\nradiometers\n28",
+      "location": {
+        "page": 34
+      }
+    },
+    {
+      "type": "table",
+      "id": "b35",
+      "name": "Page 34 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 34,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "No.",
+        "Science Objectives",
+        "Diagnostics",
+        "Science Data End Product"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "No.": "Pure Fuel Tests",
+            "Science Objectives": "",
+            "Diagnostics": "",
+            "Science Data End Product": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "No.": "4.1.1",
+            "Science Objectives": "Determine diffusive and\nradiative flame extinction\nboundaries for ethanol and\ndecane droplets in test\natmospheres containing N or\n2\nHe at pressures ranging from\n0.5 atm to 3.0 atm",
+            "Diagnostics": "- OH flame view with CIR\nLLL-UV camera\n-FlameviewwithMDCAcolor\ncamera\n- Back-lit images from CIR\nHiBMs cameras",
+            "Science Data End Product": "- droplet and flame histories\nwith pre-ignition, ignition,\nextinction and post-extinction\nbehavior"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "No.": "4.1.2",
+            "Science Objectives": "Measure droplet extinction\ndiameters for ethanol and\ndecane fuels for validation of\ndetailed and reduced chemical\nkinetic models",
+            "Diagnostics": "- OH flame view with CIR\nLLL-UV camera\n-FlameviewwithMDCAcolor\ncamera\n- Back-lit droplet images from\nCIR HiBMs cameras",
+            "Science Data End Product": "- plots of D as a function of\next\noxygen concentration and\npressureforethanolanddecane"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "No.": "4.1.3",
+            "Science Objectives": "Measure soot volume fractions\nand soot temperatures for a\nrange of initial conditions to\ndetermine influence on droplet\nburning and flame extinction",
+            "Diagnostics": "- CIR HiBMs w/ LCTF\n- OH flame view with CIR\nLLL-UV camera\n- Back-lit droplet images from\nCIR HiBMs cameras",
+            "Science Data End Product": "- plots of burning rates and\ndroplet extinction diameters as\na function of SVF\n- plots of SVF as a function of\npressure and oxygen\nconcentrations"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "No.": "4.1.4",
+            "Science Objectives": "Measureradiantemissionsfrom\nboth luminous and\nnon-luminous flames in test\natmospheres containing N or\n2\nHe and at pressures ranging\nfrom 0.5 atm to 3.0 atm",
+            "Diagnostics": "- OH flame view with CIR\nLLL-UV camera\n- flame view with MDCA color\ncamera\n- OH flame view with CIR\nLLL-UV camera\n- wide and narrow band\nradiometers",
+            "Science Data End Product": "- plots of narrow-band and\nbroad-band emissions as a\nfunction of time for different\nambient conditions"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b36",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "4.3 Science Data End Products FLEX-2 SRD Rev. 1\nScience Data End Products (cont.)\nNo. Science Objectives Diagnostics Science Data End Product\nFuel Mixture\n4.1.5 Measure diameter d at the - OH flame view with CIR - plots of d for different\nc c\nonset of flame contraction LLL-UV camera ambient conditions and fuel\n- flame view with MDCA color\nrelative to the initial droplet mixtures\ncamera\ndiameter d\n0 - OH flame view with CIR\nLLL-UV camera\n- back-lit images from CIR\nHiBMs cameras\n4.1.6 Measure burning rate, burning - OH flame view with CIR - plots of d2 versus time for\ntime, extinction diameter, and LLL-UV camera different ambient conditions\n- flame view with MDCA color\nflame luminosity for the JP8 and fuel mixtures\ncamera\nsurrogate fuel mixtures\n- OH flame view with CIR\nLLL-UV camera\n- images from CIR HiBMs\ncameras\nSlow Convective Flow Tests\n4.1.7 Obtain radiative and diffusive - back-lit droplet images from - plot of extinction diameter as\nflame extinction limits in the CIR HiBMs cameras function of Reynolds number\n- OH flame view with CIR for various ambient\nlow Reynolds number flow\nLLL-UV - dimensionless plots of\nregime over the range of\n- wide and narrow band extinction Damköhler number\nambient test pressures and\nradiometers versus Reynolds number\noxygen concentrations\n4.1.8 Measure droplet regression - back-lit droplet images from - plot of extinction diameter as\nrates for sooting (decane) and CIR HiBMs cameras function of Reynolds number\nnon sooting (ethanol) fuels as a - OH flame view with CIR for various ambient conditions\nfunction of imposed flow at low LLL-UV - dimensionless plots of\nextinction Damköhler number\nvelocities over a range of\nversus Reynolds number\nambient oxygen concentrations\nand pressures\n4.1.9 Measure flame stand-off - back-lit droplet images from - plots of flame stand-off, flame\ndistance, flame shape, and CIR HiBMs cameras height, and flame length as a\n- OH flame view with CIR\ntemperature field function of Reynolds number\nLLL-UV -flame view with\nmeasurements in low flow for various ambient conditions\nMDCA color camera\nvelocities under a range of test\n- wide and narrow band\natmospheres for use in\nradiometers\nvalidation of detailed\ntheoretical models (i.e.,\nradiative and finite-rate\nchemical kinetic effects)\n29",
+      "location": {
+        "page": 35
+      }
+    },
+    {
+      "type": "table",
+      "id": "b37",
+      "name": "Page 35 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 35,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "No.",
+        "Science Objectives",
+        "Diagnostics",
+        "Science Data End Product"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "No.": "Fuel Mixture",
+            "Science Objectives": "",
+            "Diagnostics": "",
+            "Science Data End Product": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "No.": "4.1.5",
+            "Science Objectives": "Measure diameter d at the\nc\nonset of flame contraction\nrelative to the initial droplet\ndiameter d\n0",
+            "Diagnostics": "- OH flame view with CIR\nLLL-UV camera\n- flame view with MDCA color\ncamera\n- OH flame view with CIR\nLLL-UV camera\n- back-lit images from CIR\nHiBMs cameras",
+            "Science Data End Product": "- plots of d for different\nc\nambient conditions and fuel\nmixtures"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "No.": "4.1.6",
+            "Science Objectives": "Measure burning rate, burning\ntime, extinction diameter, and\nflame luminosity for the JP8\nsurrogate fuel mixtures",
+            "Diagnostics": "- OH flame view with CIR\nLLL-UV camera\n- flame view with MDCA color\ncamera\n- OH flame view with CIR\nLLL-UV camera\n- images from CIR HiBMs\ncameras",
+            "Science Data End Product": "- plots of d2 versus time for\ndifferent ambient conditions\nand fuel mixtures"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "No.": "Slow Convective Flow Tests",
+            "Science Objectives": "",
+            "Diagnostics": "",
+            "Science Data End Product": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "No.": "4.1.7",
+            "Science Objectives": "Obtain radiative and diffusive\nflame extinction limits in the\nlow Reynolds number flow\nregime over the range of\nambient test pressures and\noxygen concentrations",
+            "Diagnostics": "- back-lit droplet images from\nCIR HiBMs cameras\n- OH flame view with CIR\nLLL-UV\n- wide and narrow band\nradiometers",
+            "Science Data End Product": "- plot of extinction diameter as\nfunction of Reynolds number\nfor various ambient\n- dimensionless plots of\nextinction Damköhler number\nversus Reynolds number"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "No.": "4.1.8",
+            "Science Objectives": "Measure droplet regression\nrates for sooting (decane) and\nnon sooting (ethanol) fuels as a\nfunction of imposed flow at low\nvelocities over a range of\nambient oxygen concentrations\nand pressures",
+            "Diagnostics": "- back-lit droplet images from\nCIR HiBMs cameras\n- OH flame view with CIR\nLLL-UV",
+            "Science Data End Product": "- plot of extinction diameter as\nfunction of Reynolds number\nfor various ambient conditions\n- dimensionless plots of\nextinction Damköhler number\nversus Reynolds number"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "No.": "4.1.9",
+            "Science Objectives": "Measure flame stand-off\ndistance, flame shape, and\ntemperature field\nmeasurements in low flow\nvelocities under a range of test\natmospheres for use in\nvalidation of detailed\ntheoretical models (i.e.,\nradiative and finite-rate\nchemical kinetic effects)",
+            "Diagnostics": "- back-lit droplet images from\nCIR HiBMs cameras\n- OH flame view with CIR\nLLL-UV -flame view with\nMDCA color camera\n- wide and narrow band\nradiometers",
+            "Science Data End Product": "- plots of flame stand-off, flame\nheight, and flame length as a\nfunction of Reynolds number\nfor various ambient conditions"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b38",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "4.3 Science Data End Products FLEX-2 SRD Rev. 1\nScience Data End Products (cont.)\nNo. Science Objectives Diagnostics Science Data End Product\nDroplet Array Tests\n4.1.10 Determine the flammability - back-lit droplet images from - plot of extinction diameter as\nmap (diffusive and radiative CIR HiBMs cameras function of Reynolds number\n- OH flame view with CIR for various ambient conditions\nextinction limits) for a binary\nLLL-UV - dimensionless plots of\ndroplet array as function of\n- wide and narrow band extinction Damköhler number\nL/D ratio\n0 radiometers versus Reynolds number\n4.1.11 Measure variations in burning - back-lit droplet images from - plots of D as a function of\next\nrate constant k as a function of CIR HiBMs cameras oxygen concentration and\nL/D for a range of ambient - OH flame view with CIR pressureforethanolanddecane\n0\nconditions to verify theoretical LLL-UV\npredictions - plots of burning rates as a\nfunction of L/D for various\n0\ntest conditions\n30",
+      "location": {
+        "page": 36
+      }
+    },
+    {
+      "type": "table",
+      "id": "b39",
+      "name": "Page 36 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 36,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "No.",
+        "Science Objectives",
+        "Diagnostics",
+        "Science Data End Product"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "No.": "Droplet Array Tests",
+            "Science Objectives": "",
+            "Diagnostics": "",
+            "Science Data End Product": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "No.": "4.1.10",
+            "Science Objectives": "Determine the flammability\nmap (diffusive and radiative\nextinction limits) for a binary\ndroplet array as function of\nL/D ratio\n0",
+            "Diagnostics": "- back-lit droplet images from\nCIR HiBMs cameras\n- OH flame view with CIR\nLLL-UV\n- wide and narrow band\nradiometers",
+            "Science Data End Product": "- plot of extinction diameter as\nfunction of Reynolds number\nfor various ambient conditions\n- dimensionless plots of\nextinction Damköhler number\nversus Reynolds number"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "No.": "4.1.11",
+            "Science Objectives": "Measure variations in burning\nrate constant k as a function of\nL/D for a range of ambient\n0\nconditions to verify theoretical\npredictions",
+            "Diagnostics": "- back-lit droplet images from\nCIR HiBMs cameras\n- OH flame view with CIR\nLLL-UV",
+            "Science Data End Product": "- plots of D as a function of\next\noxygen concentration and\npressureforethanolanddecane\n- plots of burning rates as a\nfunction of L/D for various\n0\ntest conditions"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b40",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.1 Experiment Requirements FLEX-2 SRD Rev. 1\n5 Flight Experiment Requirements\n5.1 Experiment Requirements\nThissectiondescribestheexperimentalrequirementsandtherationalebehindtherequirements.\nA summary of all the requirements is provided in tabular form first, followed by a more detailed\nexplanation about the rationale behind the requirement.\nTable 5: Hardware Requirements\nSection Description Requirements\n- pure fuel tests: n-decane (C H sooting); ethanol\n10 22\n(C H OH non-sooting)\n2 5\n- mixed fuel tests shall consist of the following binary\nfuel mixtures: n-heptane/n-hexadecane,\n1-propanol/glycerol, n-heptane/iso-octane, and\n5.1.1 Test Fuels\nn-decane/n-propylbenzene\n- research grade, dry, degassed, purity greater than\n99.5%\n- fuel temperature at the start of the test shall be in\nthe range of 18 oC−27 oC\n- support fiber diameter < 100µm and capable of\nanchoring droplet at a fixed location\n- hotwire ignition using minimum ignition energy\nfollowing cessation of deployment-induced\noscillations\n- igniter positioning shall be within 1-5 D away from\n0\nDroplet\nsurface, command controllable to within 0.5 mm,\n5.1.2 Deployment and\nand removable from the field of view\nIgnition\n- igniter power and duration of powered cycle shall be\ncommand controllable to provide ignition of droplet\nusing the minimum ignition energy\n- for all tests: a spherical zone-of-exclusion at least\n10D from droplet center\n0\n- capability of igniting a binary droplet array\n31",
+      "location": {
+        "page": 37
+      }
+    },
+    {
+      "type": "table",
+      "id": "b41",
+      "name": "Page 37 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 37,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Section",
+        "Description",
+        "Requirements"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Section": "5.1.1",
+            "Description": "Test Fuels",
+            "Requirements": "- pure fuel tests: n-decane (C H sooting); ethanol\n10 22\n(C H OH non-sooting)\n2 5\n- mixed fuel tests shall consist of the following binary\nfuel mixtures: n-heptane/n-hexadecane,\n1-propanol/glycerol, n-heptane/iso-octane, and\nn-decane/n-propylbenzene\n- research grade, dry, degassed, purity greater than\n99.5%\n- fuel temperature at the start of the test shall be in\nthe range of 18 oC−27 oC"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Section": "5.1.2",
+            "Description": "Droplet\nDeployment and\nIgnition",
+            "Requirements": "- support fiber diameter < 100µm and capable of\nanchoring droplet at a fixed location\n- hotwire ignition using minimum ignition energy\nfollowing cessation of deployment-induced\noscillations\n- igniter positioning shall be within 1-5 D away from\n0\nsurface, command controllable to within 0.5 mm,\nand removable from the field of view\n- igniter power and duration of powered cycle shall be\ncommand controllable to provide ignition of droplet\nusing the minimum ignition energy\n- for all tests: a spherical zone-of-exclusion at least\n10D from droplet center\n0\n- capability of igniting a binary droplet array"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b42",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.1 Experiment Requirements FLEX-2 SRD Rev. 1\nHardware Requirements (cont.)\nSection Description Requirements\n- test pressures at 0.5, 1.0, 2.0 and 3.0 atm ± 0.05\natm\n5.1.3 Initial Pressure\n- chamber pressure to be maintained within ± 10% of\ninitial pressure throughout each test\n- mole fractions of O from 0.10 to 0.40\n2\n- diluents will be either N or He\n2\n- initial gas temperature at 18 oC−27 oC\n5.1.4 Initial Ambient\n- humidity < 10% for all test points\n- quiescent atmosphere prior to ignition\n- well-mixed gases prior to ignition\n- tethered droplet velocities between 0.1cm/sec and\nDroplet 5.0cm/sec ±1%\n5.1.5\nTranslation\n- tethered dropelt acceleration/deceleration shall be\ncontrollable\n- allow at least 2 minutes after filling chamber to\nensure gas temperature and pressure has stabilized\n- allow a ‘droplet dwell time’ of at least 10sec to\nensure all droplet motion imparted by droplet\ndeployment and needle retraction has subsided\n- a ‘near real time’ downlink of the color camera\nOperational\n5.1.6 video and the chamber gas pressure and\nRequirements\ntemperature shall be provided\n- fuel vapor mole fraction of < 0.005 in the\natmosphere\n- mole fraction of product species from previous tests\nshall be < 0.02 (for each product species; e.g., CO,\nCO , H O)\n2 2\n32",
+      "location": {
+        "page": 38
+      }
+    },
+    {
+      "type": "table",
+      "id": "b43",
+      "name": "Page 38 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 38,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Section",
+        "Description",
+        "Requirements"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Section": "5.1.3",
+            "Description": "Initial Pressure",
+            "Requirements": "- test pressures at 0.5, 1.0, 2.0 and 3.0 atm ± 0.05\natm\n- chamber pressure to be maintained within ± 10% of\ninitial pressure throughout each test"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Section": "5.1.4",
+            "Description": "Initial Ambient",
+            "Requirements": "- mole fractions of O from 0.10 to 0.40\n2\n- diluents will be either N or He\n2\n- initial gas temperature at 18 oC−27 oC\n- humidity < 10% for all test points\n- quiescent atmosphere prior to ignition\n- well-mixed gases prior to ignition"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Section": "5.1.5",
+            "Description": "Droplet\nTranslation",
+            "Requirements": "- tethered droplet velocities between 0.1cm/sec and\n5.0cm/sec ±1%\n- tethered dropelt acceleration/deceleration shall be\ncontrollable"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Section": "5.1.6",
+            "Description": "Operational\nRequirements",
+            "Requirements": "- allow at least 2 minutes after filling chamber to\nensure gas temperature and pressure has stabilized\n- allow a ‘droplet dwell time’ of at least 10sec to\nensure all droplet motion imparted by droplet\ndeployment and needle retraction has subsided\n- a ‘near real time’ downlink of the color camera\nvideo and the chamber gas pressure and\ntemperature shall be provided\n- fuel vapor mole fraction of < 0.005 in the\natmosphere\n- mole fraction of product species from previous tests\nshall be < 0.02 (for each product species; e.g., CO,\nCO , H O)\n2 2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b44",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.1 Experiment Requirements FLEX-2 SRD Rev. 1\nHardware Requirements (cont.)\nSection Description Requirements\n- acceleration levels less than 10−4m/s2 on three axes\n- measurement accuracy shall be 10−6m/s2\nMicrogravity\n5.1.7\nRequirements - frequency range shall be 0.01 − 125Hz\n- sampling rate shall be 1 − 5 times the frequency\n5.1.1 Test Fuels\nFLEX-2 experiments use two different pure fuels and four different fuel mixtures. The pure\nfuels are a sooting alkane fuel (decane) and a nominally non-sooting alcohol fuel (ethanol).\nInvestigations of sooting and non-sooting fuels allow us to quantify the influences of sooting\non extinction and burning dynamics, such as radiative output. Also, the chemical kinetics of\nalkanes and alcohols are fundamentally different due to the presence of oxygen molecules in the\nalcohol which will help explain effects of fuels on the burning characteristics. In addition, since\nthe Droplet Combustion Experiment 1 (DCE-1) and FLEX-1 experiments used a lower alkane\n(heptane) and a lower alcohol (methanol) these higher order alkane and alcohol test will help\ndevelop comprehensive chemical kinetic models for realistic fuels. These fuels have also been\nusedintheFSDCanddrop-towerexperimentsandextensiveexperimentaldataexistforsmaller\ndroplets. Thefuelmixturesusedintheexperimentsareheptane/hexadecane,propanol/glycerol,\nheptane/octane, and decane/propylbenzene. The frist two binary fuel mixtures are chosen to\nexamine the liquid phase diffusion effects and the last two binary fuel mixtures are used to\ndevelop surrogate models for the aviation fuel JP8.\nFuel type: Pure fuel droplets shall be n-decane (C H ), an alkane fuel with a wide\n10 22\nrange of sooting behavior that varies depending on environmental conditions or ethanol\n(C H OH), a non-sooting alcohol fuel. Mixed fuel droplet tests shall be selected from\n2 5\nany of the following binary fuel mixtures; n-heptane/n-hexadecane, 1-propanol/glycerol,\nn-heptane/iso-octane, and n-decane/n-propylbenzene.\nFuel purity: Purity levels shall be the highest purity level that is commercially available\n(research grade at 99.5% by volume at present) and all liquids shall be degassed and\ncontain no H O.\n2\nQuality assurance: Certification of test samples shall be provided prior to flight.\nFuel temperature: Fuels shall be deployed at temperatures between 18 oC −27 oC.\n33",
+      "location": {
+        "page": 39
+      }
+    },
+    {
+      "type": "table",
+      "id": "b45",
+      "name": "Page 39 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 39,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Section",
+        "Description",
+        "Requirements"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Section": "5.1.7",
+            "Description": "Microgravity\nRequirements",
+            "Requirements": "- acceleration levels less than 10−4m/s2 on three axes\n- measurement accuracy shall be 10−6m/s2\n- frequency range shall be 0.01 − 125Hz\n- sampling rate shall be 1 − 5 times the frequency"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b46",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.1 Experiment Requirements FLEX-2 SRD Rev. 1\n5.1.2 Droplet Deployment and Ignition\nDroplet sizes, during FLEX-2 experiments, will vary between 1.5mm and 5.0mm. A measured\nquantity of fuel is dispensed from a fuel reservoir and deposited onto the support fiber using\na suitable deployment technique (e.g., opposed-needle technique used in DCE or single-needle\ntechniqueimplementedintheground-basedrigs). Asubsetoftestswillrequirethatthedroplets\nare deployed on support fibers equipped with either a single pinning bead (i.e., for the slow\nconvective flow tests, as discussed in Section 2.5) or a set of pinning beads spaced a distance,\nL , apart (i.e., droplet array tests, as discussed in Section 2.6). In addition to the subset of\ntests requiring a beaded fiber it will also be required to provide the option for all tests, at\nthe discretion of the researcher, of deploying droplets onto a beaded or an un-beaded fiber.\nThis option would be exercised when the the researcher feels it is warranted either to ensure a\nsuccessful droplet deployment or to take advantage of fiber pyrometry.\nFollowing droplet deployment, after a preset dwell time designed to allow droplet surface oscil-\nlations to die out, the fuel vapor/oxidizer mixture is ignited using a minimum ignition energy.\nPrevious experimental results show that deployment-induced droplet surface oscillations die out\nwithin a second. The ignition system should be capable of waiting for a predetermined dura-\ntion for these oscillations to die out. Immediately following ignition, the ignitor, as well as all\nother hardware should be removed from the test region. This zone-of-exclusion is defined as a\nspherical region extending at least 10 initial droplet diameters in the radial direction from the\ndroplet center.\nDroplet size: Droplet diameters shall vary from 1.5mm to 5mm ± 0.25mm.\nDroplet reproducibility: Droplet size shall be reproducible to within ±5%.\nDroplet support fiber: A support fiber (i.e., either a wire or fiber), used to anchor the\nposition of the droplet within the camera’s FOV, shall have a diameter less than 100µm.\nThe material used for the fiber shall have incandescent properties comparable to that\npossessedbyan80µmSiCfiber, suchthattheemissionintensitycanbecalibratedagainst\na blackbody source to allow for indirect temperature measurement using thin filament\npyrometry techniques with the existing HiBM’s camera and LCTF configuration. It is\nrequested that the thermal diffusivity of the support fiber be kept as low as possible and,\nat its worst, no greater than what is curently being used for FLEX (i.e., α = 2.3cm2/s for\na SiC fiber).\nFiber’s pinning bead: Some, if not all, of the support fibers shall include pinning beads\nto hold the position of the droplet on the fiber throughout the duration of the test. As\ndiscussed above, these pinning beads will be necessary for the convective flow tests as well\nas for the droplet array tests. The bead shall be made of impervious material, and in such\na manner that they will not trap gas and/or cause vapor generation during the time from\ndeployment of the droplet through completion of each test. These pinning beads shall be\nmade spherical in shape (to the extent practical) and kept as small as possible, but of\n34",
+      "location": {
+        "page": 40
+      }
+    },
+    {
+      "type": "text",
+      "id": "b47",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.1 Experiment Requirements FLEX-2 SRD Rev. 1\nsufficient size as to allow consistent droplet deployment and positioning for the full range\nof initial droplet diameters, D , specified for these tests.\no\nPosition of pinning beads: The binary array tests shall require a pinning bead spacing\nof L = 12mm, which will allow for up to three beads to be captured in the 30 mm\nback-lit FOV. This effectively allows two values for spacing lengths between beads (i.e.,\nL = 12mm and L = 24mm) and, considering the range of initial droplet diameters (i.e.,\n1.5mm ≤ D ≤ 5.0mm), willallowforseveralexperimentalvaluesforL/D . Considering\no o\nthis, it is important that the beads either (i) be able tolerate flame conditions without\noxidizing and/or degrading or (ii) that they be placed at different locations on the fiber in\nsuch a manner that the beads spaced at L = 12mm are not impacted by tests performed\nwith beads spaced at L = 24mm.\nDroplet ignition: Ignition shall occur by hot-wire ignition.\nIgnitor positioning: The ignitor tip shall be positioned within 1.0 D − 5.0 D away\n0 0\nfrom the anticipated droplet surface. The position of ignitor tip shall be controllable by\ncommand to within 0.5mm. The ignitor tip shall be removed from viewing area upon\nignition. For the droplet array experiments the ignitor shall be capable of igniting two\ndropletssimultaneouslyandfortheconvectiveflowexperimentstheignitorshallbecapable\nof igniting the droplet at the edge of the smaller of the two HiBM’s FOV, as set for that\nparticular suite of tests.\nIgnitor operation: Thetimeofignitorpower-upanddurationofignitoroperationshallbe\ncontrollable by command and shall ignite the droplet with the minimum ignition energy\nnecessary to sustain combustion.\nZone of exclusion: A spherical zone-of-exclusion of at least 10D extending radially in\n0\nall directions from the droplet center must be maintained free of any objects (where D\n0\nis the initial droplet diameter) for all tests.\n5.1.3 Initial Pressure\nThe ambient pressure changes the sooting and radiation characteristics of the droplet.\nAmbient pressure: Theinitialambientabsolutepressureshallbesetto0.5atm−3.0atm±\n0.05atm.\nPressure transient:: The chamber pressure shall be maintained within ±10% the initial\nambient pressure throughout each test.\n35",
+      "location": {
+        "page": 41
+      }
+    },
+    {
+      "type": "text",
+      "id": "b48",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.1 Experiment Requirements FLEX-2 SRD Rev. 1\n5.1.4 Initial Ambient\nThe ambient oxygen mole fraction influences the burning rate, extinction diameter, flame chem-\nistry and flame characteristics (size, temperature). This parameter will vary from 0.4 down\nto the limit where no flame can be sustained at any droplet diameter. The diluents used in\nthe present study will be nitrogen and helium. Note that both nitrogen and helium are bio-\ncompatible and helium help control the flame temperature.\nOxygen mole fraction: The oxygen mole fraction shall range from 0.1 − 0.4 ±0.005.\nDiluent type: Diluents shall consist of either N or He.\n2\nDiluent mole fraction: The diluent mole fractions shall vary depending upon the oxygen\nconcentration specified for each test.\nAmbient quiescence: Gases shall be well-mixed and quiescent prior to ignition.\nAmbient temperature: Theinitialchambergastemperatureshallbewithin18oC−27oC.\nRelative humidity: The chamber relative humidity shall be less than 10% for all the test\npoints.\n5.1.5 Droplet Translation\nOne objective of FLEX-2 is tostudy slow convective flow effects on burning characteristics. The\n“flow field” may be established around the droplet by translating a tethered droplet to induce\nan effective flow field. This method would provide precise control over the imposed flow and\nwould allow accurate control of the flow acceleration/deceleration, particularly at low speeds.\nDuring combustion the droplet continually shrinks in size and the Reynolds number, based\non instantaneous droplet diameter, continually decreases if the flow velocity is not increased\nwith time. In order to maintain a desired Reynolds number during combustion and to study\nflow induced transient effects it is requested that the translation velocity is controllable with\nprescribed acceleration/deceleration values that are selectable for specific test runs.\nDroplet translation velocity: The tethered droplet translation velocity shall be selectable\nfor a given test between 0.1cm/sec to 5cm/sec ± 1%.\nDroplet acceleration/deceleration: Thetethereddroplettranslationacceleration/deceleration\nshall be selectable for a given test.\n36",
+      "location": {
+        "page": 42
+      }
+    },
+    {
+      "type": "text",
+      "id": "b49",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.1 Experiment Requirements FLEX-2 SRD Rev. 1\n5.1.6 Operational Requirements\nThechambershallbefilledwiththeappropriateatmosphere,whichwillvaryinpressurebetween\n0.5 atm to 3.0 atm and will vary in O concentration between 0.1 to 0.4 mole fraction with the\n2\ndiluent gas making up the balance. A settling time of approximately 2 minutes will elapse prior\nto initiating the test in order to ensure that the temperature and pressure of the chamber gases\nhavestabilized. Thissettlingtimewill befollowedby thedispensingofa predeterminedamount\noffuel(basedonthetargetdropletsize)ontothesupportfiberforthosetestsinwhichthedroplet\nis not freely deployed. When sufficient fuel has been dispensed the dispensing needles will be\nretracted and a dwell period of at least 10 seconds will be allowed for the droplet internal fluid\nmotion induced by deployment to subside. This will then be followed by initiating power to the\nignitorforaselectableamountoftimerangingfrom1secondto5secondsafterwhichtheignitor\nwill be retracted from the field of view. If the flow field is to be generated by translating the\ndroplet then droplet motion would commence at the same time that the ignitor is retracted. A\n“near real-time” download of the color camera video will be required in order to verify successful\ndroplet deployment, ignition, and overall progress of the experiment. Pressure and temperature\ndata of the chamber environment will also be required in ‘near real time’.\nGas stabilization time: After filling the chamber a stabilization period of at least 2\nminutes shall be required to ensure that the chamber gas temperature and pressure have\nstabilized.\nDroplet dwell time: Immediately following droplet deployment, a dwell time of up to 10\nseconds shall be required to ensure all droplet motion imparted by droplet deployment\nand needle retraction has subsided. 1.\nReal time downlink: A ‘near real time’ downlink of the color camera video and the\nchamber’s gas, pressure and temperature shall be provided.\nChamber atmosphere purity: The fuel vapor mole fraction shall be < 0.005 in the atmo-\nsphere prior to each test and the mole fraction of each product species (i.e., CO, CO and\n2\nother products) from any preceding tests shall be < 0.02.\n5.1.7 Microgravity Requirements\nIn order to compare the experimental data with theoretical results obtained under the condi-\ntions when Re ∼ O(1) we need to minimize the effects of buoyancy on the flow field. The\ndimensionless parameter that compares the buoyancy effects to forced flow effects is the ratio\nof two dimensionless groups, the Gr/Re2, where Gr is the Grashof number, and Re is the\nReynolds number. The magnitude of this dimensionless group indicates the relative effect of\n1This time may be insufficient for large droplets, at least for damping of internal flows. Also, internal flows\nwithinmethanoldropletsmayneverdecaytolowlevelsbecauseofMarangonieffects(i.e.,fromwaterabsorption)\n37",
+      "location": {
+        "page": 43
+      }
+    },
+    {
+      "type": "text",
+      "id": "b50",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.1 Experiment Requirements FLEX-2 SRD Rev. 1\nbuoyancy compared to forced convection. These experiments will require that Gr/Re2 << 1\nwhich translates into the following requirement for the g-level:\nGr gβ ∆T D\n= << 1 (2)\nRe2 U2\n∞\nwhere g is the gravitational acceleration, β is the coefficient of thermal expansion, ∆T is the\ncharacteristic temperature difference, D is the characteristic length scale and U is the free-\n∞\nstream velocity. For the worst case scenario where β ·∆T ∼ 5, D ∼ 1cm and U ∼ 1cm/s\n∞\nwhich suggests a g/g value less than 1x10−5 as the required g-level (where g is earth’s normal\n0 0\ngravity).\nMicro-gravity levels: Accelerations are required to be less than 10−4 m/s2 within a fre-\nquency range of 0.01Hz−125Hz in order to ensure buoyant forces are negligible. Mea-\nsurements shall be made within an accuracy of 10−6m/s2 at a sampling rate of 1−5 times\nthe frequency.\n38",
+      "location": {
+        "page": 44
+      }
+    },
+    {
+      "type": "text",
+      "id": "b51",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.2 Diagnostic Requirements FLEX-2 SRD Rev. 1\n5.2 Diagnostic Requirements\nThis section describes the diagnostic requirements and the rationale behind the requirements.\nA table summarizing each of the diagnostic requirements is presented below and is followed by\na detailed explanation of the rationale behind each of the requirements.\nTable 6: Diagnostic Requirements\nSection Description Requirements\n- focal plane parallel to support fiber\n- FOV at least 3.0cm centered on droplet (center of\nFOV)\n- resolution of 30µm for smallest droplet size over\nentire FOV\n5.2.1 Droplet Imaging\n- frame rate at least 30fps\n- depth of view at least 5.0mm\n- some tests may be run in 2x2 binned mode (at\n60−100fps) with a ±60µm spatial resolution\n- ability to backlight the droplet\n- focal plane parallel to support fiber\n- FOV at least 5.0cm centered on droplet (center of\nFOV)\nOH∗ Flame - color detection for wavelengths of 310nm ±5nm\n5.2.2\nImaging - resolution of 150µm\n- frame rate at least 30fps\n- depth of view at least 5.0mm\n- adjustable gain\n- full flame view with focal plane parallel to support\nfiber (preferred)\nColor Flame\nImaging - FOV at least 5.0cm and positioned such that entire\n5.2.3 (Experiment flame is imaged\nMonitoring - resolution of 100µm\nCamera)\n- frame rate at least 30fps\n- near real- time downlink\n39",
+      "location": {
+        "page": 45
+      }
+    },
+    {
+      "type": "table",
+      "id": "b52",
+      "name": "Page 45 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 45,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Section",
+        "Description",
+        "Requirements"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Section": "5.2.1",
+            "Description": "Droplet Imaging",
+            "Requirements": "- focal plane parallel to support fiber\n- FOV at least 3.0cm centered on droplet (center of\nFOV)\n- resolution of 30µm for smallest droplet size over\nentire FOV\n- frame rate at least 30fps\n- depth of view at least 5.0mm\n- some tests may be run in 2x2 binned mode (at\n60−100fps) with a ±60µm spatial resolution\n- ability to backlight the droplet"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Section": "5.2.2",
+            "Description": "OH∗ Flame\nImaging",
+            "Requirements": "- focal plane parallel to support fiber\n- FOV at least 5.0cm centered on droplet (center of\nFOV)\n- color detection for wavelengths of 310nm ±5nm\n- resolution of 150µm\n- frame rate at least 30fps\n- depth of view at least 5.0mm\n- adjustable gain"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Section": "5.2.3",
+            "Description": "Color Flame\nImaging\n(Experiment\nMonitoring\nCamera)",
+            "Requirements": "- full flame view with focal plane parallel to support\nfiber (preferred)\n- FOV at least 5.0cm and positioned such that entire\nflame is imaged\n- resolution of 100µm\n- frame rate at least 30fps\n- near real- time downlink"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b53",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.2 Diagnostic Requirements FLEX-2 SRD Rev. 1\nDiagnostic Requirements (cont.)\nSection Description Requirements\n- radiometer used to detect water vapor radiation\nshall be filtered to detect wavelengths in a band\ncentered at 1.87µm\n- radiometer used for broad-band radiation shall\ndetect wavelengths within a band from 0.6−5.0µm\n- sample rate shall be at a frequency of 30Hz\n- radiometers shall be shielded from all reflected\n5.2.4 Flame Radiation and/or direct radiation from the igniter wire\n- radiometers shall be positioned ata distance\nsufficient for detection of all incident radiation from\nthe flame\n- accuracy 5% of full scale incident radiation\n- response time constant to be < 40ms\n- field of view shall be 65mm diameter centered\naround the deployment site\n- camera shall provide full view of the droplet and\nflame with a preferred orientation such that the\nfocal plane is parallel to the flow direction and\ncoplanar with the droplet\nSoot Volume\n5.2.5 - backlit with wavelength of 660nm and a FWHM of\nFraction\n5nm\n- frame rate of 15fps\n- FOV at least 5cm about center of deployed droplet\n- resolution of 50µm over the entire FOV\n- wavelengths for pyrometric measurements shall\nbe700nm and 800nm\n- focal plane shall be coplanar with the drpelt\nSoot/Fiber support fiber and centered on the droplet\n5.2.6\nTemperature - FOV at least 5cm about the center of the deployed\ndroplet\n- at least 7fps for both wavelengths\n- resolution of 50µm over the entire FOV\n40",
+      "location": {
+        "page": 46
+      }
+    },
+    {
+      "type": "table",
+      "id": "b54",
+      "name": "Page 46 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 46,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Section",
+        "Description",
+        "Requirements"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Section": "5.2.4",
+            "Description": "Flame Radiation",
+            "Requirements": "- radiometer used to detect water vapor radiation\nshall be filtered to detect wavelengths in a band\ncentered at 1.87µm\n- radiometer used for broad-band radiation shall\ndetect wavelengths within a band from 0.6−5.0µm\n- sample rate shall be at a frequency of 30Hz\n- radiometers shall be shielded from all reflected\nand/or direct radiation from the igniter wire\n- radiometers shall be positioned ata distance\nsufficient for detection of all incident radiation from\nthe flame\n- accuracy 5% of full scale incident radiation\n- response time constant to be < 40ms\n- field of view shall be 65mm diameter centered\naround the deployment site"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Section": "5.2.5",
+            "Description": "Soot Volume\nFraction",
+            "Requirements": "- camera shall provide full view of the droplet and\nflame with a preferred orientation such that the\nfocal plane is parallel to the flow direction and\ncoplanar with the droplet\n- backlit with wavelength of 660nm and a FWHM of\n5nm\n- frame rate of 15fps\n- FOV at least 5cm about center of deployed droplet\n- resolution of 50µm over the entire FOV"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Section": "5.2.6",
+            "Description": "Soot/Fiber\nTemperature",
+            "Requirements": "- wavelengths for pyrometric measurements shall\nbe700nm and 800nm\n- focal plane shall be coplanar with the drpelt\nsupport fiber and centered on the droplet\n- FOV at least 5cm about the center of the deployed\ndroplet\n- at least 7fps for both wavelengths\n- resolution of 50µm over the entire FOV"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b55",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.2 Diagnostic Requirements FLEX-2 SRD Rev. 1\nDiagnostic Requirements (cont.)\nSection Description Requirements\n- record translated motion of fiber (acceleration and\nTethered Droplet\n5.2.7 velocity)\nMotion\n- sample rate shall be ≥ 30Hz\n- minimum sample rate shall be at 10 Hz\nAmbient Pressure - temperature accuracy shall be at least ±0.5C in\n5.2.8 and Temperature the range of 18−27C\nMeasurement\n- pressure accuracy shall be at least ±0.01atm in the\nrange of 0.5−3.0atm\nTime - all measurements shall be referenced to GMT with\n5.2.9\nSynchronization a minimum accuracy of ±0.03sec\n5.2.1 Droplet Imaging\nA back-lit view of the droplet shall be provided that will allow accurate measurements of the\ndropletsizeasafunctionoftime. Thisisnecessarytoobtaindropletburningratesandextinction\ndroplet diameters. This view also yields quantitative information regarding the soot shell and\nsoot shell dynamics. The time resolution is necessary to accurately measure the burning rate\nconstant and it’s temporal variation as well as accurate measurements of the extinction droplet\ndiameter.\nOrientation: The focal plane shall be aligned so that it is parallel with the fiber support\naxis and coplanar with the droplet.\nField of view: The FOV shall not exceed 5.0 cm centered about the droplet.\nSpatial resolution: Thespatialresolutionshallbe30µm(i.e. > 16lp/mm)forthesmallest\ndroplet size over the entire FOV. If higher than nominal framing rates are requested\nfor specific tests (i.e.,from 60-100 fps) then the spatial resolution shall be 60 µm(i.e.\n> 8lp/mm).\nMinimum frame rate: Thenominalminimumframerateshallbe30fpsovertheduration\nof the test unless a faster frame rate (i.e., between 60fps−100fps) is requested.\nDepth of view: The depth of view shall be no less than 3.0cm.\nIllumination: The droplet shall be ‘back-lit with a uniform collimated light source of\nsufficient intensity to allow the droplet’s edge to be clearly detected.\n41",
+      "location": {
+        "page": 47
+      }
+    },
+    {
+      "type": "table",
+      "id": "b56",
+      "name": "Page 47 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 47,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Section",
+        "Description",
+        "Requirements"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Section": "5.2.7",
+            "Description": "Tethered Droplet\nMotion",
+            "Requirements": "- record translated motion of fiber (acceleration and\nvelocity)\n- sample rate shall be ≥ 30Hz"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Section": "5.2.8",
+            "Description": "Ambient Pressure\nand Temperature\nMeasurement",
+            "Requirements": "- minimum sample rate shall be at 10 Hz\n- temperature accuracy shall be at least ±0.5C in\nthe range of 18−27C\n- pressure accuracy shall be at least ±0.01atm in the\nrange of 0.5−3.0atm"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Section": "5.2.9",
+            "Description": "Time\nSynchronization",
+            "Requirements": "- all measurements shall be referenced to GMT with\na minimum accuracy of ±0.03sec"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b57",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.2 Diagnostic Requirements FLEX-2 SRD Rev. 1\n5.2.2 OH∗ Flame Imaging\nThe flame structure and its dynamic response shall be obtained from the flame imaging camera\noriented perpendicular to the stream-wise flow direction (i.e,. the flow direction shall be parallel\nwith the image plane). The flame image shall be derived from the ultraviolet OH-radical chemi-\nluminescence emission intensity. This technique is well understood and has been implemented\nin a previous flight experiment (DCE-1).\nOrientation: The focal plane shall be parallel to the flow direction.\nField of view: The flame FOV shall be no less than 5.0cm.\nDepth of view: The depth of view shall be no less than 5.0mm.\nColor: The flame imaging camera shall be capable of detecting wavelengths of 310nm ±\n5nm using an intensified camera in order to detect OH∗ radical emission.\nSpatial resolution: The spatial resolution of the flame imaging camera shall be 150µm\n(i.e. > 3.3 lp/mm) over the entire FOV.\nMinimum frame rate: The frame rate shall be 30fps over the duration of test.\nGain setting: The gain shall be adjustable prior to each test.\n5.2.3 Secondary Color Flame Imaging\nAcolorCCDcameraviewingthedropletataspecifiedanglewillprovideflamecolorinformation\nduring combustion. Based on earlier flight experiments, it is also desired that this camera serve\nas the experiment’s monitor camera to facilitate experiment operation/monitoring from the\nground.\nOrientation: The color camera shall provide full view of the droplet and flame with the\nfocal plane parallel to the flow direction preferred; this camera shall provide viewing of\nthe droplet dispensing and deployment sequence.\nField of view: The FOV shall be at least 5.0cm.\nMinimum frame rate: The frame rate shall be 30fps over the duration of the test.\nDownlink: The images shall be down-linked to the PI in near real-time during each test.\nZoom: A ‘zoom’ capability shall be provided, upon request by the PI (allowing for a\ncommensuratedecreaseinFOV)intheeventthatamoredetailedviewofthedeployment,\nignition and burning process is required.\n42",
+      "location": {
+        "page": 48
+      }
+    },
+    {
+      "type": "text",
+      "id": "b58",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.2 Diagnostic Requirements FLEX-2 SRD Rev. 1\n5.2.4 Flame Radiation\nPrior experimental results from DCE and FSDC have established that both luminous and non-\nluminous radiation play a significant role in flame extinction. These measurements will be used\ntoobtainthetotalradiantenergylossaswellastoestablishtheexactmomentofflameextinction\nand to supplement other imaging data in determining transient flame behavior. Thermopile\nradiometers, positioned at distances far enough from the droplet to allow full view of the flame,\nwill be used to measure broad-band radiation and water-vapor radiation from the flame zone.\nWater vapor: The radiometer used to detect water vapor radiation shall be filtered to\ndetect wavelengths in a band centered at 1.87µm\nBroad-band spectrum: The radiometer used for broad-band radiation shall detect wave-\nlengths within a band from 0.6µm −5.0µm.\nSample rate: Data sampled from the radiometer shall be at a frequency of 30Hz.\nPositioning: The radiometers shall be positioned at a distance sufficient for detection of\nall incident radiation from the flame.\nField of view: The FOV of at least 65mm shall be centered on the droplet deployment\nsite.\nResponse time: The radiometers shall have a time constant of less than 40ms.\nAccuracy: The radiometers shall be accurate to within 5% of the estimated full scale\nincident radiation.\n5.2.5 Soot Volume Fraction Measurement\nIt has long been established that the presence of soot will influence the droplet burning rate,\nthe flame dynamics, and the flame extinction limits. Increased thermal radiation from the\nsoot forming region, impacts on mass and thermal diffusion due to the physical presence of soot\nactingasabarriertothediffusiveprocesses, andthechangesinthermophysicalpropertiesinthe\nfuel-rich region of the diffusion flame due to varying levels of soot concentration all contribute\nto changes in the dynamics of the droplet burning and extinction behavior. In order to assess\nthese influences with the n-heptane droplet tests it is desired to quantify soot concentration\nlevels by obtaining soot volume fraction measurements within the diffusion flame.\nAn established technique for making this measurement has been to use a multi-chord, line-of-\nsight light extinction measurement coupled with an inversion technique to obtain soot volume\nfraction distributions. This requires a backlight using a collimated laser light source of known\nintensity and by discriminating that intensity from the flame emission and stray light by using\ncombinations of interference and neutral density filters. It is anticipated that this measurement,\nif available, will use the HiBMS camera with the appropriate spectral filtering, typically 660nm\n43",
+      "location": {
+        "page": 49
+      }
+    },
+    {
+      "type": "text",
+      "id": "b59",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.2 Diagnostic Requirements FLEX-2 SRD Rev. 1\nwithaFWHM(fullwidthhalfmaximum)of5nm, andwithanappropriateintensityresolution,\nwhich typically requires a minimum of 8 bits of dynamic range.\nOrientation: The camera used for SVF measurements shall provide a full view of the\ndroplet and flame with a preferred orientation such that the focal plane is parallel to the\nflow direction and coplanar with the droplet center.\nBack-lit illumination: A collimated light source with a wavelength of 660 nm and a\nFWHM of 5nm shall be provided.\nFrame rate: The frame rate shall be at least 15fps.\nField of view: The FOV shall be at least 5.0cmx5.0cm.\nResolution: The resolution shall be 50µm (i.e. > 10lp/mm) over the entire FOV.\n5.2.6 Soot/Fiber Temperature\nIn addition to knowing the soot volume fraction it is equally important to know the soot tem-\nperature. Therefore, it is desired to quantify the soot temperature (and fiber temperature) to\nobtain quantitative information regarding the broadband radiation due to soot.\nAn established technique for making soot temperature measurements, which has been success-\nfully implemented in ground-based facilities, is by use of multi-wavelength pyrometry. This\nmeasurement will use the CIR HiBMS camera with the Liquid Crystal Tunable Filter (LCTF)\nsincelimitationsoftheCIR/MDCAhardwarewillprecludetwocamerassimultaneouslyimaging\ndifferent wavelengths.\nThe framing rate of the single HiBMS camera, combined with a rapid temporal response of\nthe LCTF, will make it feasible to make measurements on successive frames at two different\nwavelengths. Assuming minimal changes in soot volume fraction and temperature during the\ninter-frame time, it will be possible to measure soot temperature. Additionally, this system will\nbe used to measure the temperature of the support fiber (during non-sooting tests) as a proxy\nfor the gas-phase flame temperature.\nWavelengths: The two wavelengths to be used for pyrometric measurements shall be\n700nm and 800nm.\nOrientation: The camera shall provide full view of the droplet and the flame with a\npreferred orientation such that the focal plane of the camera is coplanar with the support\nfiber.\nFrame rate: The frame rate shall be at least 7fps.\nField of view: TheFOVshallbeatleast5.0cm×5.0cmaboutthecenterofthedeployed\ndroplet.\nResolution: The resolution shall be 50µm (i.e. > 10lp/mm) over the entire FOV.\n44",
+      "location": {
+        "page": 50
+      }
+    },
+    {
+      "type": "text",
+      "id": "b60",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.3 Flight Experiment Test Procedures FLEX-2 SRD Rev. 1\n5.2.7 Tethered Droplet Motion\nDuring the low convectv flow tests it is important that the instantaneous relative free-stream\nvelocity is known accurately during the entire combustion process. This relative flow velocity\nmay be established by translating the tethered droplet. Information providing droplet position\nwith time shall be required with a sampling frequency of at least 30 Hz.\nSample rate: Droplet position data synchronized with time shall be provided at a fre-\nquency of at least 30Hz.\n5.2.8 Ambient Temperature and Pressure Measurement\nDuring each test the chamber gas temperature and pressure measurements shall be required.\nThe following are the specifications for this data.\nSample rate: The frequency of chamber temperature and pressure data shall be 10 Hz.\nTemperature: Temperatures shall be accurate to within ±0.5oC.\nPressure: Pressures shall be accurate to within ±0.01atm in the range of 0.5−3.0atm.\n5.2.9 Synchronization\nExperiment objectives require all data to be time-synchronized to a reference time. This will\nallow accurate interpretation of the data and will allow evaluation of droplet regression rate,\nflame structure, and flame extinction as a function of time.\nTime synchronization: All measurements shall be referenced to GMT and shall be accu-\nrate to within ±0.03sec.\n5.3 Flight Experiment Test Procedures\nThe FLEX-2 experiments involve igniting and observing the burning behavior of relatively large\ndroplets in a preselected ambient condition. The primary objectives of the experiments are to\nstudy the fundamental burning characteristics of sooting and non-sooting pure fuels and fuel\nmixtures. The effects of slow convection and the droplet-droplet interactions associated with\ndroplet pairs are also examined. The basic procedures of a typical experimental run will be as\nfollows:\n1. Select the test pressure, oxygen/diluent mixture concentration and fill the combustion\nchamber.\n45",
+      "location": {
+        "page": 51
+      }
+    },
+    {
+      "type": "text",
+      "id": "b61",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "5.4 FLEX-2 Test Matrix FLEX-2 SRD Rev. 1\n2. Allow, at a minimum, approximately two minutes for the ambient gas to reach quiescence.\n3. Energize the diagnostic devices and start the recording process and ensure that there is a\nlive down-link of the color camera\n4. Select the droplet’s initial size and deploy the droplet (or droplets) in either a free-floated\nor tethered mode.\n5. Wait few seconds for droplet deployment induced velocities to die down.\n6. Ignite and observe the combustion process.\n7. If the chamber environment, following a combustion event, permits a subsequent run then\nrepeat steps 3 through 6; if not, then start from step 1.\n5.4 FLEX-2 Test Matrix\nA detailed test matrix is currently under development and will need to strike a balance between\nmeeting all the stated science objectives and the resource and operational constraints imposed\nby the flight hardware and space station operations. As is customary, the exact test matrix\nand/or the sequence of test points will potentially change during the conduct of the FLEX-2\nexperiment. The extensive ground testing in the drop towers at the NASA Glenn Research\nCenter and the results from the earlier FLEX experiments will provide information which will\nbe used in finalizing the final test matrix and test point sequencing. Nonetheless, since it is\nnecessary for the engineering team to have a preliminary test matrix envelope, in order to\nestimate consumables and prepare for the necessary safety reviews, a test matrix envelop has\nbeen presented in Section 4.3. A final test matrix, with individual test point specificity, will be\nincorporated by addendum to this document in the the Appendix.\n46",
+      "location": {
+        "page": 52
+      }
+    },
+    {
+      "type": "text",
+      "id": "b62",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "6.0 Post-Flight Data Analysis FLEX-2 SRD Rev. 1\n6 Post-Flight Data Analysis\nThe data obtained from the flight experiments are in the form of video images and text data\nsampledandstoredataspecifictimeintervals. Thevideoimagesconsistofback-litdropletview,\nOH* emission views, and color camera views, all obtained at 30 fps. However, when needed the\ndroplet view camera will be operated up to 100 fps. The radiometer data is stored in text form\nand sampled at 100 Hz. The combustion chamber temperature and pressure are also measured\nandstoredduringeachexperimentalrunandtheyareavailablefordatainterpretationifneeded.\nForm these raw data a number of quantitative flame characteristics are extracted using image\nanalysis and other mathematical analysis tools.\nSpecific analyses and model(s)-to-experiment comparisons to be performed include, but are not\nlimited to the following list:\n• Droplet diameter as a function time and burning rate constant\n• Flame diameter as a function of time\n• Droplet diameter at flame extinction\n• Flame diameter at extinction\n• Soot volume fraction as a function of time\n• Soot-shell dynamics\n• Radiant emission from the flame\n• Effects slow convection on the items mentioned above\n• Effects of tethering on the items mentioned above\n6.1 Science Success Criteria\nIn order to gauge the level of experimental success, criteria for two levels of success - minimal\nand complete success - have been defined in this section. Minimal Success requires that the\nmeasurements listed below are successfully obtained for a sufficiently representative set of test\npoints to the extent that some meaningful conclusions related to the Science Objectives, as\ndefined in Section 4, can be made. Complete Success requires that all the measurements listed\nbelow, for a sufficiently representative set of test points, are successfully obtained.\n47",
+      "location": {
+        "page": 53
+      }
+    },
+    {
+      "type": "text",
+      "id": "b63",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "6.2 Hardware Success Criteria FLEX-2 SRD Rev. 1\n6.1.1 Minimal Success\nIn order for the flight experiment to be considered minimally successful, the FLEX-2 team\nmust acquire a minimal set of data to allow validation of the theoretical/numerical models\nover a minimal range of ambient conditions. There must be sufficient data to allow for at\nleast two of the four categories of experiments, namely, pure fuel experiments, fuel mixture\nexperiments, convective effects experiments, and droplet arrays experiments, have the following\nmeasurements:\n• Obtain droplet diameter and either OH∗ or color video flame measurements as function\nof time at two pressures over a range of droplet sizes and oxygen concentrations.\nThis criteria essentially states that sufficient data is collected for two of the four categories of\nexperiments to make meaningful scientific conclusions in the form of a technical publication.\n6.1.2 Complete Success\nIn order for the complete success criteria to be met the following measurements, are required\nfor three of the four categories of experiments:\n• Droplet diameter and flame diameter as function of time for a range of initial diameter,\noxygen concentration, and pressure.\n• Radiometer data for the same range of conditions.\n• ForconvectiveeffectsexperimentsatleastfivedifferentinitialReynoldsnumberconditions.\n• For arrays experiments two different L/D ratios or two different diluent conditions for the\nsame L/D ratio.\n6.2 Hardware Success Criteria\nHardware success is also defined at a minimal and complete level and is determined by the\nrequired functionality of the hardware to meet the same Science Success Criteria defined above.\nDiscussion of the hardware is limited to those components and/or systems that are specific\nto this experiment’s diagnostics and/or operation and as such does not include discussion of\nhardware operability that may be considered more global in application (e.g., FOMA, data\nstorage and retrieval systems, etc.).\n48",
+      "location": {
+        "page": 54
+      }
+    },
+    {
+      "type": "text",
+      "id": "b64",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "6.2 Hardware Success Criteria FLEX-2 SRD Rev. 1\n6.2.1 Minimal Success Criteria\nThe following components need to function successfully in order to meet the minimal success\ncriteria.\n• CIR Laser Illuminating Package used for droplet backlighting and the CIR HFR/HR used\nfor imaging the droplet imaging.\n• MDCA color camera used for flame imaging in the visible spectrum.\n• All components required for successfully dispensing, deploying on a fiber, and igniting the\ndroplets.\n• All components required for establishing and measuring the full range of flow velocities.\n• All components required to deploy a binary linear droplet array.\n6.2.2 Complete Success Criteria\nIn addition to the required hardware functionality listed above for minimal success the following\nprovides a list of the functionality required for complete success:\n• Free deployment of droplets with initial sizes greater than 2 mm.\n• UV imaging camera views at 30 fps.\n• Radiometer data at 100 Hz for both broad band and narrow band.\n49",
+      "location": {
+        "page": 55
+      }
+    },
+    {
+      "type": "text",
+      "id": "b65",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "7.0 Ground-Based Research Program FLEX-2 SRD Rev. 1\n7 Ground-Based Research Program\nThe ground based experimental and theoretical studies form a subset of the overall FLEX-2\nflight experimental program. The ground-based studies help in interpreting the flight results\nover an wider range of time and length scales pertinent to droplet combustion. The following\nsubsections outline the planned experimental and analytical research in support of FLEX-2.\nThere are four primary objectives to the ground-based FLEX research program. The first\ngoal is to use the drop towers and reduced gravity aircraft (when appropriate) to develop the\nprocedures and hardware settings necessary to ensure satisfactory operation on orbit. This\nportion of the ground-based program is typically handled by the engineering team and is not\ncovered by this document. The second component is to take data that will be used to determine\nthe final FLEX-2 test matrix. The third component of the ground-based research program\nis to perform experiments to compliment the flight-based data (typically with smaller initial\ndroplet sizes). The final component of the ground-based research program is the development\nof the theoretical and numerical tools necessary to extend and generalize the results of droplet\ncombustion experiments to a wider range of fuels and environments.\n7.1 Experiments\nCurrently three drop-tower capable (2.2 second tower and the 5 second zero gravity facility)\nmicrogravity droplet combustion experimental rigs are available to support the FLEX-2 ex-\nperimental program, namely, Bi-component rig (UC, Davis), Sooting droplet rig (Drexel), and\nConvective droplet rig (NASA/NCSER). These rigs are capable of freely deploying the droplet\nand igniting them at various pressures and ambient environments. Tethered droplets with an\nimposed slow convective velocities can also be studied using one of the rigs. Modification will be\nmade to the droplet translating, fiber-supported droplet combustion rig to study droplet array\ncombustion. An additional experimental rig suitable for the one second drop facility at Cornell\nwill be modified and fitted with digital imaging systems for experiments at Cornell focussed on\nsurrogate fuel studies.\n7.2 Theoretical and Numerical Studies\nTheoretical and numerical models help to generalize the experimental observation to a wider\nrange of conditions encountered in practical applications. As described in Section 3, each team\nmember has specific scientific objectives and is responsible for the theoretical and/or numerical\nmodel development. Some of the planned activity in this area are described below. FLEX-\n2 research program will examine diffusive transport in detail with the goal of validating and\nimproving diffusive transport models for use in theoretical and numerical simulations of droplet\ncombustion with multicomponent liquid fuels. Particular emphases will be to examine the\ninfluences of Soret transport and multicomponent diffusion effects on transport of species to\nand from flame zones, e.g., through appropriate modeling of Lewis numbers, with the resulting\n50",
+      "location": {
+        "page": 56
+      }
+    },
+    {
+      "type": "text",
+      "id": "b66",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "7.2 Theoretical and Numerical Studies FLEX-2 SRD Rev. 1\ninfluences on transient combustion behaviors (e.g., burning rates and flame standoff ratios),\nradiant heat transfer, extinction, LOI conditions and sooting. The modeling approaches will\nbe analytical, using asymptotic methods, as well as computational, where detailed models for\ntransportwillbeincludedinexistingcodes. Whereappropriate,reducedchemicalkineticmodels\nfor the various fuels will be developed and expanded as done in the previous flight experiment\nprograms(DCEandFLEX).Numericalmodelswithdetailedchemistryalongwithexperimental\ndata will be used to validate the reduced chemical kinetic schemes. Theoretical models for\nother aspects of droplet combustion such as the effects of slow convection and droplet-droplet\ninteractions will also be developed during this study.\n51",
+      "location": {
+        "page": 57
+      }
+    },
+    {
+      "type": "text",
+      "id": "b67",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "8.0 Science Management Plan FLEX-2 SRD Rev. 1\n8 Science Management Plan\nTheFLEX-2ResearchTeamLead,F.A.Williams,maintainsoverallresponsibilityfortheFLEX-\n2 research program. All major decisions regarding the FLEX-2 flight experiment and ground-\nbased research program rest with the Research Team Lead. It is fully expected, however, that\nall of the external and internal GRC investigators will have a great deal of autonomy in the\nday to day operations of their own research. This includes the preparation of test plans and\nconducting experiments and analyzing and reporting the resulting data. All of the participating\nwill meet and talk periodically to discuss flight hardware developments, research results and\ndiscuss relevant issues. All team members will report the results of their results to NASA in\nthe form of periodic progress reports and more importantly to the peer community in technical\nmeetings and journal publications. The Research Team Lead is responsible for the reporting\nthe results of the overall research at the conclusion of the FLEX-2 project. Table shows the\nprimary responsibility of each of the team members.\nTable 7: Specific Roles and Areas Responsibility of FLEX-2 Researchers.\nInvestigator Role Area of Research\nF. A. Williams PI and Team Lead Theoretical Model Development\nNASA Research Team\nD. Dietrich Co-Is Droplet Arrays Combustion\nM. Hicks and V. Nayagam Co-Is Radiation and Slow Convection Effects\nExternal Research Team\nC. T. Avedisian Co-I Real Fuel Experiments\nM. Y. Choi Co-I Soot Formation\nF. L. Dryer Co-I Numerical Model Development\nB. D. Shaw Co-I Liquid Phase Phenomena\nThe primary day to day responsibility for the flight hardware rests with the GRC investigators,\nV. Nayagam and M. Hicks. The are responsible for the daily interactions with the hardware\ndevelopment team, reviewing flight hardware performance documentation and test results and\nsupervising the ground-based experiments that impact the development of the detailed test\nmatrixandflighthardware. TheinternalinvestigatorswillkeeptheentireFLEX-2teamupdated\non the results of testing and status of the flight hardware. Any critical decisions regarding the\nflight experiments are the responsibility of the Research Team Lead in consultation with all of\nthe FLEX-2 team members.\nThe analysis of the ground-based data will be the responsibility of the researcher who acquires\nthe data. The analysis of the flight data will be jointly performed by the entire FLEX-2 team\n52",
+      "location": {
+        "page": 58
+      }
+    },
+    {
+      "type": "text",
+      "id": "b68",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "8.0 Science Management Plan FLEX-2 SRD Rev. 1\nunderthedirectionoftheFLEX-2ResearchTeamLead. Thearchivingoftheflightexperimental\ndata in an open-source, publicly available format will be the responsibility of the GRC team\nmembers under the supervision of the FLEX-2 Research Team Lead.\nThe development of the detailed numerical model will be the responsibility of F.L. Dryer. This\nincludes code development, incorporation of state of the art sub-models of radiation, chemical\nkinetics, transport, etc. and validation of the model against both the space-flight and ground-\nbased data.\n53",
+      "location": {
+        "page": 59
+      }
+    },
+    {
+      "type": "text",
+      "id": "b69",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "9.0 Justification for Reduced Gravity FLEX-2 SRD Rev. 1\n9 Justification for Reduced Gravity\nThe objective of this experiment is to use the droplet as a model geometry for investigating\nsuppressant agent efficacy. In order to completely leverage the droplet geometry, it is critically\nimportant to maintain spherical symmetry throughout the test. This can only occur if the\ndiffusive residence times (i.e., mass (τ ) and thermal (τ ) are much lower than the buoyancy-\nm k\ncontrolled residence time (τ ). Using the droplet diameter (D) as the characteristic length the\nb\nexpressions for the ratio of these two characteristic times to the buoyancy controlled residence\ntime are\n(cid:112)\nτ gD3\nk\n= (3)\nτ α\nb g\nand\n(cid:112)\nτ gD3\nm\n= (4)\nτ D\nb g\nwhere α and D are the thermal and mass diffusivities of the gas phase. In order to justify\ng g\nneglecting buoyant effects the above ratios must be much lower than unity. This is only accom-\nplished by changing at least one of the three independent variables, droplet diameter, pressure\nor gravity level (or some combination of the three).\nExperimentsin1-genvironments, performedinpressuresof1atmosphere, requiredropletdiam-\neters substantially smaller than 1 mm. This makes key diagnostics impractical since the image\nresolutionbeginstoapproachthedimensionsofthedistancesbeingmeasured(e.g., flamestand-\noffs, droplet regression, thin filament pyrometry). Also, the present experiment requires finite\nand measurable extinction droplet diameters (and a period of near quasi-steady burning prior\nto extinction) in order to quantify the influence of finite rate chemistry. The droplet diameters\nrequired to minimize buoyancy effects are small enough that extinction droplet diameters would\neither not be practically measurable or, more likely, not even exist.\nSince diffusivities are inversely proportional to pressure the residence time ratios could alter-\nnatively be reduced by reducing test pressures. Chung and Law (1986) used this approach\nto measure extinction droplet diameters and from that determine single step chemical kinetic\nconstants for decane in normal gravity. The range of oxygen concentrations and pressures was,\nhowever, very limited. Studying such a small range of droplet diameters, pressures and oxygen\nconcentrations would severely limit the ability to achieve the stated objectives of the present\nstudy. Furthermore, Easton (1998) showed that the conditions that yielded finite extinction\ndiameters in the work of Chung and Law (1986) burned to completion (no flame extinction) in\nmicrogravity. The author attributed this to a small residual buoyant-flow that is large enough\nin the vicinity of the flame to influence the extinction process (Struk et al., 1997).\nThe need for extended duration microgravity facilities is predicated on the fact that the burn-\nto-completion time for large droplets is longer than the time available in the ground-based\n54",
+      "location": {
+        "page": 60
+      }
+    },
+    {
+      "type": "text",
+      "id": "b70",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "9.0 Justification for Reduced Gravity FLEX-2 SRD Rev. 1\nfacilities. Typically the droplet life-time (τ ) can be estimated from the initial droplet size\nl\nD2\n(D ) and the average burning rate constant (k) as τ = 0. The values of τ for n-heptane,\n0 l k l\nand methanol droplets burning in air at one atmospheric pressure range from 10 to 30 s for\ninitial droplet diameters in the range 3 to 5 mm assuming an average burning rate constant\nof 0.8 mm2/s. Moreover, high fidelity experiments demand additional microgravity time for\ndropletdeployment,dropletquiescence,andignition. Experimentsinvolvingradiativeextinction\nrequire that the droplets be ignited in microgravity. Such experimental requirements also lead\nus to employ larger droplets, which in turn necessitates long-duration microgravity facilities.\nBoth Dietrich et al. (2005) and Easton (1998) studied extinction of single droplets in drop\ntowers. Dietrich et al. (2005) used the Japan Microgravity Center 10 s drop tower, a facility\nno longer available, and even then could only study a limited parameter space because of the\nlimitedmicrogravitytime. Therefore,theonlyfacilitywhichwillenabledataofsufficientquality\nover a wide parameter space is the microgravity environment available in extended-duration\nmicrogravity facilities (i.e. Space Shuttle or ISS).\n55",
+      "location": {
+        "page": 61
+      }
+    },
+    {
+      "type": "text",
+      "id": "b71",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "References FLEX-2 SRD Rev. 1\nReferences\nAckerman, M., Colantonio, R. O., Crouch, R. K., Dryer, F. L., Haggard, J. B., Linteris, G. T.,\nMarchese, A. J., Nayagam, V., Voss, J. E., and Williams, F. (2003). A treatment of measure-\nments of heptane droplet combustion aboard MSL-1. NASA-TM 2003-212553.\nAckerman, M. D. and WIlliams, F. A. (2005). A simplified model for droplet combustion in a\nslow convective flow. Combustion and Flame.\nAharon, I. and Shaw, B. D. (1996). Marangoni instability of bi-component droplet gasification.\nPhysic of Fluids, 8:1820–1827.\nAharon, I. and Shaw, B. D. (1998). Estimates of liquid species diffusivities from experiments on\nreduced-gravitycombustionofheptane-hexadecanedroplets.CombustionandFlame,113:507–\n518.\nAnnamalai,K.(1995). Interactiveprocessesinevaporationandcombustionofliquiddroparrays\nand clouds. In Chiu, H. H. and Chigier, N., editors, Mechanics and Combustion of Droplets\nand Sprays, pages 116–160. Begell House, Inc.\nAnnamalai, K. and Ryan, W. (1992). Interactive processes in gasification and combustion. part\ni: Liquid drop arrays and clouds. Progress in Energy and Combustion Science, 18:221–295.\nAvedisian, C. T. (2000). Recent advances in soot formation from spherical droplet flames at\natmospheric pressure. Journal of Power and Propulsion, 16(4):628–635.\nBae, J. and Avedisian, C. (2004). Experimental study of the combustion dynamics of jet fuel\ndroplets with additives in the absence of convection. Combustion and Flame, 137(1-2):148 –\n162.\nBae,J.H.andAvedisian,C.T.(2005). Sootemissionsfromsphericaldropletflamesformixtures\nof jp8 and tripropylene glycol monomethyl ether. Environmental Science and Technology,\n39(20):8008 – 8013. Soot dynamics;Droplet flames;Soot emissions;Droplet diameters;.\nBressloff, N., Moss, J., and Rubini, P. (1996). Cfd prediction of coupled radiation heat transfer\nand soot production in turbulent flames. Proceedings of the Combustion Institute, 26:2379 –\n2386. Droplet combustion ; Soot.\nChen, A. and Shaw, B. (2000). Laser attenuation measurements of soot volume fractions during\nreduced-gravity combustion of heptane and heptane/hexadecane droplets. Combustion Sci-\nence and Technology, 150(1):59 – 75. Reduced gravity combustion;Hexadecane;Soot volume\nfractions;.\nChiu, H. H. (2000). Advances and challenges in droplet and spray combustion: Toward a\nunified theory of droplet aerothermochemistry. Progress in Energy and Combustion Sciences,\n26:381–416.\n56",
+      "location": {
+        "page": 62
+      }
+    },
+    {
+      "type": "text",
+      "id": "b72",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "References FLEX-2 SRD Rev. 1\nChoi, M. Y. and Dryer, F. L. (2001). Microgravity droplet combustion. In Ross, H. D., editor,\nMicrogravity Combustion: Fire in Free Fall, Combustion Treatise, chapter 4, pages 183–297.\nAcademic Press.\nChoi, M. Y., Dryer, F. L., and Haggard, J. B. (1990a). Observations on a slow burning regime\nfor hydrocarbon droplets: n-heptane/air results. Proceedings of the Combustion Institute,\n23:1597–1604.\nChoi, M. Y., Dryer, F. L., and Jr., J. B. H. (1990b). Observations on a slow burning regime\nfor hydrocarbon droplets: n-heptane/air results. Proceedings of the Combustion Institute,\n23:1597–1605.\nChoi, M. Y. and Lee, K.-O. (1996). Investigation of sooting in microgravity droplet combustion.\nProceedings of the Combustion Institute, 26:1243 – 1249.\nChung, S.H.andLaw, C.K.(1986). Anexperimentalstudyofdropletextinctionintheabsence\nof external convection. Combustion and Flame, 64:237–241.\nColket, M., Edwards, T., Williams, S., Cernansky, N. P., Miller, D. L., Egolfopoulos, F., Lind-\nstedt, P., Seshadri, K., Dryer, F. L., Law, C. K., Friend, D., Lenhert, D. B., Pitsch, H.,\nSarofim, A., Smooke, M., and Tsang, W. (Jan 8-11, 2007). Development of an experimental\ndatabase and kinetic models for surrogate jet fuels. In AIAA Paper 2007-0770, Reno, NV,\nUnited States.\nCooke, J. A., Bellucci, M., Smooke, M. D., Gomez, A., Violi, A., Faravelli, T., Ranzi, E., and\nQuintiere, J. (2005). Computational and experimental study of jp-8, a surrogate, and its\ncomponents in counterflow diffusion flames. Proceedings of the Combustion Institute, 30:439\n– 446.\nCrespo, A. and Liñan, A. (1975). Unsteady effects in droplet evaporation and combustion.\nCombustion Science and Technoaly, 11:9–18.\nDietrich, D. L., Haggard, J. B., Dryer, F. L., Nayagam, V., Shaw, B. D., and Williams, F. A.\n(1996). Dropletcombustionexperimentsinspacelab. Proceedings of the Combustion Institute,\n26:1201–1207.\nDietrich, D. L., Struk, P. M., Ikegami, M., and Xu, G. (2005). Single droplet combustion\nof decane in microgravity: Experiments and numerical modeling. Combustion Theory and\nModeling, 9(4):569–585.\nDwyer, H. and Sanders, B. R. (1986). A detailed study of burning of fuel droplets. Proceding\nof the Combustion Institute, 21.\nDwyer, H. and Sanders, B. R. (1988). Calculations of unsteady reacting droplet. Proceding of\nthe Combustion Institute, 22:1923–1929.\n57",
+      "location": {
+        "page": 63
+      }
+    },
+    {
+      "type": "text",
+      "id": "b73",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "References FLEX-2 SRD Rev. 1\nDwyer, H. A., Aharon, I., Shaw, B. D., and Niazmand, H. (1996). Surface tension influences\non methanol droplet evaporation in the presence of water. Proceedings of the Combustion\nInstitute, 26:1613–1619.\nDwyer, H. A., Shaw, B. D., and Niazmand, H. (1998). Droplet/flame interactions including\nsurface tension influences. Proceedings of the Combustion Institute, 27:12–16.\nEaston, J. W. (1998). Large diameter, radiative extinction experiments with decane droplets in\nmicrogravity. Master’s thesis, Case Western Reserve University, Cleveland, Ohio 44106.\nEdwards, T. and Maurice, L. Q. (2001). Surrogate mixtures to represent complex aviation and\nrocket fuels. Journal of Propulsion and Power, 17(2):461–466.\nEisenklam, P., Arunachalam, S., and Weston, J. (1967). Evaporaion rates and drag resistance\nof burning drops. Proceedings of the Combustion Institute, 11:715–728.\nFaeth, G. (1977). Current status of droplet and liquid combustion. Progress in Energy and\nCombustion Sciences, 3:191–224.\nFendell, F., Sprankle, M., and Dodson, D. (1966). This-flame theory for a fuel droplet in slow\nviscous flow. Journal of Fluid Mechanics, 26(2):267–280.\nFrenklach, M. and Wang, H. (1991). Proceedings of the Combustion Institute, 23:1559–1566.\nFrenklach,M.andWang,H.(1994).Detailedmechanismandmodelingofsootparticleformation,\npages165–192. Number59. Polycyclicaromatichydrocarbons;Surfacegrowth;Mathematical\nformalism;Chemical processes;Physical processes;.\nFrossling, N. (1938). Evaporation of falling drops. Gerlands Beitr. Geophys., 52:170–216.\nGodsave, G. A. E. (1952). Studies of the combustion of drops in a fuel spray - the burning of\nsingle drops of fuel. Proceedings of the Combustion Institute, 4:818–830.\nGogos, G. and Ayyaswamy, P. S. (1988). Model for the evaporation of a slowly moving droplet.\nCombustion and Flame, 74(2):111 – 129.\nGogos, G., Sadhal, S. S., Ayyasamy, P. S., and Sundararajan, T. (1986). Thin-flame theory for\nthe combustion of a moving liquid drop: Effects due to variable density. Journal of Fluid\nMechanics, 171:121–144.\nGokalp, I., Chauveau, C., Richard, J. R., Kramer, M., and Lueckel, W. (1988). Observation on\nthelowtemperaturevaporizationandenvelopeorwakeflameburningofn-heptanedropletsat\nreduced gravity during parabolics flights. Proceedingss of the Combustion Institute, 22:2027–\n2035.\nGoldsmith, M. (1956). Experiments on the burning of single drops of fuel. Jet Propulsion,\n26:628–635.\n58",
+      "location": {
+        "page": 64
+      }
+    },
+    {
+      "type": "text",
+      "id": "b74",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "References FLEX-2 SRD Rev. 1\nHakansson, A., Stromberg, K., Pedersen, J., and Olsson, J. (2001). Combustion of gasolines\nin premixed laminar flames european certified and california phase 2 reformulated gasoline.\nChemosphere, 44(5):1243 – 1252.\nHall, A. R. and Diederichsen, J. (1953). An experimental study of the burning of single drops\nof fuel in air at pressures up to twenty atmospheres. Proceedings of the Combustion Institute,\n4:837–846.\nHanson,S.P.,Beer,J.M.,andSarofim,A.F.(1982). Non-equilibriumeffectsinthevaporization\nof multicomponent fuel droplets. Proceedings of the Combustion Institute, 19:1029–1036.\nHuang, L. W. and Chen, C. H. (1998). Numerical analysis of burning droplet with internal\ncirculation in a gravitational environment. Numerical Heat Transfer, Part A, 34:43–60.\nIsoda, H. and Kumagai, S. (1958). New aspects of droplet combustion. Proceedings of the\nCombustion Institute, 7:523–531.\nJackson, G. and Avedisian, C. (1994). The effect of initial diamter in spherically symmetric\ndroplet combustion of sooting fuel. Proceedings of the Royal Society of London A, 446:255–\n276.\nJackson, G., Avedisian, C., and Yang, J. (1991). Soot formation during combustion of unsup-\nported methanol/toluene mixture droplets in microgravity. Proceedings of The Royal Society\nof London, Series A: Mathematical and Physical Sciences, 435:359 – 369.\nJackson, G. S., Avesisian, C. T., and Yang, J. C. (1992). Observations of soot during droplet\ncombustion at low gravity: heptane and heptane/monochloroalkane mixtures. International\nJournal of Heat and Mass Transfer, 35(8):2017–2033.\nJog, M.A., Ayyaswamy, P.S., andCohen, I.M.(1996). Thin-flametheoryforthecombustionof\namovingliquiddrop: effectsduetovariabledensity. JournalofFluidMechanics,307:135–165.\nKumagai, S. (1956). Combustion of fuel droplets in falling chambers with special refernce to\nthe effect of natural convection. Jet Propulsion, 26:786.\nKumagai, S.andIsoda, H.(1956). Combustionoffueldropletsinafallingchamber. Proceedings\nof the Combustion Institute, 6:726–731.\nKumar, S., Ray, A., and Kale, S. (2002). A soot model for transient, spherically symmetric\nn-heptane droplet combustion. Combustion Science and Technology, 174(9):67 – 102.\nLaw, C. (1982). Recent advances in droplet vaporization and combustion. Progress in Energy\nand Combustion Sciences, 8(3):171–201.\nLaw, C. and Williams, F. (1972). Kinetics and convection in the combustion of alkane droplets.\nCombustion and Flame, 19(3):393–405.\n59",
+      "location": {
+        "page": 65
+      }
+    },
+    {
+      "type": "text",
+      "id": "b75",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "References FLEX-2 SRD Rev. 1\nLee, K., Manzello, S., and Choi, M. (1998). The effect of initial diamter on sooting and burn-\ning behavior of isolated droplets under microgravity conditions. Combustion Science and\nTechnology, 132:139–156.\nLeung, K., Lindstedt, R., and Jones, W. (1991). A simplified reaction mechanism for soot\nformation in non-premixed flame. Combustion and Flame, 87:289 – 305. Droplet combustion\n; Soot.\nManzello, S. L., Choi, M. Y., Kazakhov, A., Dryer, F. L., Dobashi, R., and Hirano, T. (2000).\nSootingbehavioroflargedropletsinthejamicfacility.ProceedingsoftheCombustionInstitute,\n28:1079–1086.\nMegaridis, C. M. (1993). Liquid-phase variable property effects in multicomponent droplet\nevaporation. Combustion Science and Technology, 92:291–311.\nMikami, M., Kato, H., Sato, J., and Kono, M. (1994). Proceedings of the Combustion Institute,\n25:431.\nMiyasaka, K. and Law, C. K. (1981). Combustion of strongly-interacting linear droplet arrays.\nProceedings of the Combustion Institute, 18:283–292.\nMoss, J. B., Stewart, C. D., and Sayed, K. J. (1988). Flowfield modelling of soot formation at\nelevated pressure. Proceedings of the Combustion Institute, 22:413 – 423.\nNayagam, V., Haggard, J. B., Colantonio, R. O., Marchese, A. J., Dryer, F. L., Zhang, B. L.,\nand Williams, F. A. (1998). Microgravity n-heptane droplet combustion in oxygen-helium\nmixtures at atmospheric pressure. AIAA Journal, 36(8):1369–1378.\nNiazmand, H., Shaw, B. D., Dwyer, H. A., and Aharon, I. (1995). Effects of marangoni convec-\ntion on transient droplet evaporation. Combustion Science and Technology, 103:219–233.\nOkajima, S. and Kumagai, S. (1974a). Further investigations of combustion of free droplets in\na freely falling chamber including moving droplets. Proceedings of the Combustion Institute,\n15:401–407.\nOkajima, S. and Kumagai, S. (1974b). Further investigations of combustion of free droplets in a\nfreely falling chamber including moving droplets. Proceding of the Combustion Institute, 15.\nOkajima, S. and Kumagai, S. (1982). Experimental studies on combustion of fuel droplets in\nflowing air under zero- and high-gravity conditions. Proceedings of the Combustion Institute,\n19.\nPope, D. N. and Gogos, G. (2005). A new multicomponent diffusion formulation for the finite-\nvolumemethod: Applicationtoconvectivedropletcombustion. Numerical Heat Transfer Part\nB-Fundamentals, 48(3):213–233.\nRaghavan, V., Pope, D. N., Howard, D., and Gogos, G. (2006). Surface tension effects during\nlow-reynolds-number methanol droplet combustion. Combustion and Flame, 145(4):791–807.\n60",
+      "location": {
+        "page": 66
+      }
+    },
+    {
+      "type": "text",
+      "id": "b76",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "References FLEX-2 SRD Rev. 1\nRandolph, A. L., Makino, A., and Law, C. K. (1986). Liquid-phase diffusional resistance in\nmulticomponent droplet gasification. Proceedings of the Combustion Institute, 25:601–608.\nRanz, W. E. and Marshall, W. R. (1952). Evaporation from droplets. Chem. Eng. Prog.,\n48:141–146 and 173–180.\nRex, J. F., Fuhs, A. E., and Penner, S. S. (1956). Interference effects during burning in air for\nstationary n-heptane, ethyl alcohol and methyl alcohol droplets. Jet Propulsion, 26:179–187.\nRonney, P. D. (1988). Understanding combustion processes through microgravity reaserch.\nProceedings of the Combustion Institute, 22:2485–2506.\nSadhal, S. S. and Ayyaswamy, P. S. (1983). Flow past a liquid drop with a large non-uniform\nradial velocity. Journal of Fluid Mechanics, 133:65 – 81.\nSangiovanni, J.J.and Kesten, A. S.(1976). Effect ofdropletinteraction on ignitioninmonodis-\npersed droplet streams. Proceedings of the Combustion Institute, 16:577–592.\nShaw, B. D. and Williams, F. A. (1990). Theory of influence of a low-volatility, soluble impurity\nonsphericallysymmetriccombustionoffueldroplets. International Journal of Heat and Mass\nTransfer, 33:301–317.\nSirignano, W. A. (1993). Fluid dynamics of sparays - 1992 freeman scholar lecture. ASME\nJouranal of Fluid Engineering, 1157:346–378.\nSirignano, W. A. (1999). Fluid dynamics and transport of droplets and sprays. Cambirdge\nUniversity Press, England.\nSmith, R. A., Wood, C. P., and Samuelsen, G. S. (1985). Formation of soot from practical land\nsurrogatefuelsinaswirl-stabilized, spray-atomizedcombustor. page8, Monterey, CA,United\nStates. Kinetic models;Surrogate fuels;Surrogate fuel kinetics;.\nSpalding,D.B.(1953a). Thecombustionofliquidfuels. Proceedings of the Combustion Institute,\n4:847–864.\nSpalding, D. B. (1953b). Experiments on the burning and extinction of liquid fuel spheres. Fuel,\n32:169–185.\nStruk, P.M., T’ien, J.S., Dietrich, D.L., anddBLenhert(1997). Experimentalstudiesofflame\nshape around droplets in different buoyant environments. 35th Aerospace Sciences Meeting\nand Exhibit AIAA-97-1001, American Institute of Aeronautics and Astronautics.\nTsang, W. (2003). Experimental studies of flame shape around droplets in different buoyant\nenvironments.TechnicalReportNISTR-7155,NationalInstituteofStandardsandTechnology.\nUrban, D., Griffin, D., and Gard, M. (1997). In NASA Fourth International Microgravity\nCombustion Workshop, Cleveland, Ohio.\n61",
+      "location": {
+        "page": 67
+      }
+    },
+    {
+      "type": "text",
+      "id": "b77",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "References FLEX-2 SRD Rev. 1\nWaldman, C. H. (1974). Theory of non-steady state droplet combustion. Proceedings of the\nCombustion Institute, 15:429–442.\nWang,C.H.,Liu,X.Q.,andLaw,C.K.(1984). Combustionandmicroexplosionoffreely-falling\nmulticomponent droplets. Combustion and Flame, 56:175–197.\nWilliams, A. (1973). Combustion of droplets of liquid fuels: A review. Combustion and Flame,\n21:1–31.\nWilliams, F. A. (1960). On the assumptions underlying droplet vaporization and combustion.\nJouranal of Chemical Physics, 33:133–144.\nWilliams, F. A. (1981). Droplet burning. In Cochran, T. H., editor, Progress in Astronautics\nand Aeronautics, volume 73, chapter 2, pages 31–60. American Institute of Aeronautics and\nAstronautics.\nWilliams, F. A. (1985). Combustion Theory. 2nd Edition. Addison-Wesley, New York.\nWilliams, F. A. (2007). Contributions of microgravity research to adavancements in comustion\nscience. InProceedings of the Sixth Asia-Pacific Conference on Combustion, NagoyaCongress\nCenter, Nagoya, Japan.\nWise, H. and Agoston, G. A. (1958). Burning of liquid droplets. In Advances in Chemistry, 20,\npages 116–135. American Chemical Society, Washington, D.C.\nXiong, T. Y., Law, C. K., and Miyasaka, K. (1984). Interactive vaporization and combustion of\nbinary droplet systems. Proceedings of the Combustion Institute, 20:1781–1787.\nYang, J. T., Wang, G. G., and Li, H. Y. (1990). Modeling of the convective thermal ignition\nprocess of solid fuel particles. Journal of Heat Transfer, 112:995–1001.\nZhang, H. R., Eddings, E. G., and Sarofim, A. F. (2007). Criteria for selection of components\nfor surrogate of natural gas and transportation fuels. Proceedings of the Combustion Institute,\n31:401 – 409.\n62",
+      "location": {
+        "page": 68
+      }
+    }
+  ]
+}

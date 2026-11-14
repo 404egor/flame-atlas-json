@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-107",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-107_Engineering Documents_SPICE-MEM-010.pdf",
+    "folder": "Engineering Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-107/Engineering Documents/PSI-107_Engineering Documents_SPICE-MEM-010.pdf",
+    "version": 1,
+    "sizeBytes": 113106,
+    "sha256": "46babf9aaa8c26e8cbce989b6e63b9f59a670d36ef03339993291bb0fceb30ac",
+    "localPath": "data/raw/PSI-107/Engineering Documents/PSI-107_Engineering Documents_SPICE-MEM-010.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-107"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:28:57+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 2,
+    "characters": 2615,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": 2
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Memorandum SPICE-MEM-010\nTO: Tibor Lorik, SPICE Project Lead, ZIN Technologies, Inc.\nFROM: Kevin Magee, Project Engineer, ZIN Technologies, Inc.\nSUBJECT: SPICE Flow Duct Velocity Measurements\nDATE: July 6, 2009\n______________________________________________________________\nThis Memo addresses the SPICE flow duct velocity measurements, which were performed by Kevin\nMagee on the flight hardware from June 16-24, 2008. A hot wire anemometer probe was used to\nmeasure the air velocity at various points within the flow duct. This probe was passed into the duct\nthrough a special multi-piece top window with probe ports at the desired locations. Unused ports were\ntaped shut on the inside and outside to prevent leakage and minimize flow disturbances. The window\nitself was assembled and sealed with Kapton tape around its perimeter.\nThe probe used was a TSI, Inc., Model 1261A miniature boundary layer probe (S/N# 012077) with a\nT1.5 (coated tungsten platinum) wire and a 56 ohm control resistor to give a 260oC operating\ntemperature. Its calibration was performed in a free jet facility on April 28, 2006.\nMeasurements were taken at two axial stations of 13 and 56 mm as measured by the permanent scale\nbonded to the floor of the duct. These locations are where the tip of the probe was located, not where\nthe ports were located since the probe curves forward into the air flow. At each axial station,\nmeasurements were taken at three width locations: the duct centerline, 20 mm off the centerline\ntowards the back wall (called the “inside” position), and 20 mm off the centerline towards the front\nwindow (called the “outside” position). At each width position, measurements were taken at three\nheights: 19, 36, and 57 mm off the floor of the duct. It should be noted that the 36 mm height\ncorresponds to the height of the nozzle, which was installed for the tests. However, no flow out of the\nnozzle was done during the tests. All locations are shown in Figure 1.\nAt each measured position, the anemometer probe’s velocity readings were recorded for FAN dial\nsettings of 0, 2, 4, 6, 8, and 10. The FAN and AIR readings were also noted. Plots were then created\nto compare the probe velocity, AIR reading, and FAN reading for the different FAN dial settings.\nVelocity profile plots were also generated at the various axial stations in both width and height. These\nplots and the raw data can be found in the spreadsheets at the following location.\n(Z:) Zindata1\\zinapp\\Shares\\MRDOC\\60107_086_SPP\\SPICE\\Duct Flow Data\nSPICE-MEM-010 Page 1 of 2",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Figure 1 - SPICE Flow Duct Measurement Locations\nSPICE-MEM-010 Page 2 of 2",
+      "location": {
+        "page": 2
+      }
+    }
+  ]
+}

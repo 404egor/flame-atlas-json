@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-69",
+  "format": "docx",
+  "source": {
+    "fileName": "PSI-69_Science Documents_FLEX DoD.docx",
+    "folder": "Science Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-69/Science Documents/PSI-69_Science Documents_FLEX DoD.docx",
+    "version": 1,
+    "sizeBytes": 18758,
+    "sha256": "1120819bb8f57f418cc5185700bbbd8304f1a019d9a99ca67baee130898fac98",
+    "localPath": "data/raw/PSI-69/Science Documents/PSI-69_Science Documents_FLEX DoD.docx",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69"
+  },
+  "extractor": {
+    "name": "docx",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:25:29+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 9,
+    "characters": 1460,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "FLEX (Flame Extinguishment Experiment) investigates the effectiveness of fire suppressants in microgravity and quantify the effect of different possible crew exploration atmospheres on fire suppression. There are five fuel samples. Experiment data records representing the fuel samples are:",
+      "location": {
+        "paragraph": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "list-item",
+      "level": null,
+      "style": "List Paragraph",
+      "text": "FLEX – Calibration",
+      "location": {
+        "paragraph": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "list-item",
+      "level": null,
+      "style": "List Paragraph",
+      "text": "FLEX - LCTF Calibration",
+      "location": {
+        "paragraph": 4
+      }
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "list-item",
+      "level": null,
+      "style": "List Paragraph",
+      "text": "FLEX - Radiometer Calibration",
+      "location": {
+        "paragraph": 5
+      }
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "list-item",
+      "level": null,
+      "style": "List Paragraph",
+      "text": "FLEX – HEP",
+      "location": {
+        "paragraph": 6
+      }
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "list-item",
+      "level": null,
+      "style": "List Paragraph",
+      "text": "FLEX – MeOH",
+      "location": {
+        "paragraph": 7
+      }
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Plain Text",
+      "text": "These Experiment Data records are located on the “Data” tab within the FLEX investigation in PSI. When an experiment data record is selected, the “Scientific Data and Information” tab is opened. In the Experiment Data records “Raw Data”, “Analyzed Data”, “Raw Videos”, “Images” are organized by GMT data and/or gas mixture.",
+      "location": {
+        "paragraph": 9
+      }
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Plain Text",
+      "text": "The “Raw Data”, “Analyzed Data” links display records for the raw/analyzed data within the specific GMT/gas mixture.  When a raw/analyzed data record is selected, there will be the following tabs: “General”, “Analyzed Data and Information”, “Raw Data and Information”, and “Comments”. The “Analyzed Data and Information” tab will contain .txt files of the experiment’s analyzed data and the “Raw Data and Information” will contain .txt files of the experiment’s raw data.",
+      "location": {
+        "paragraph": 11
+      }
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Plain Text",
+      "text": "The “Raw Videos” and “Images” links displays records for each video/image within the specific GMT/gas mixture.  The “General” tab will contain the Video. An “Image Data” tab within this link provides an Image Gallery with thumbnail images, and a .zip file provides the original images.",
+      "location": {
+        "paragraph": 13
+      }
+    }
+  ]
+}

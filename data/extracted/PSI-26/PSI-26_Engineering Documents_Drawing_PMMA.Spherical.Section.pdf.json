@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-26",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-26_Engineering Documents_Drawing_PMMA.Spherical.Section.pdf",
+    "folder": "Engineering Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Spherical.Section.pdf",
+    "version": 2,
+    "sizeBytes": 595300,
+    "sha256": "56cc0ab64b2bb5a5b31a17cef2279396b5d7a600d25752deef67432d4efa76fd",
+    "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Spherical.Section.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:22:53+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 1,
+    "characters": 23,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": 1
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "BASS-ECO-031 In Process",
+      "location": {
+        "page": 1
+      }
+    }
+  ]
+}

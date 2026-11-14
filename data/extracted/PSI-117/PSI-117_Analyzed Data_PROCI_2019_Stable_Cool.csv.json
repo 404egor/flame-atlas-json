@@ -1,0 +1,2970 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-117",
+  "format": "csv",
+  "source": {
+    "fileName": "PSI-117_Analyzed Data_PROCI_2019_Stable_Cool.csv",
+    "folder": "Analyzed Data",
+    "subfolder": "Reduced Gravity/Simulation/PROC1",
+    "key": "psi-data/PSI-117/Analyzed Data/PSI-117_Analyzed Data_PROCI_2019_Stable_Cool.csv",
+    "version": 1,
+    "sizeBytes": 15477,
+    "sha256": "c0713c4ad79d1d20832d5ab9582d1bef6d184cff1a86bc3565d059f44998ed6f",
+    "localPath": "data/raw/PSI-117/Analyzed Data/Reduced Gravity/Simulation/PROC1/PSI-117_Analyzed Data_PROCI_2019_Stable_Cool.csv",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-117"
+  },
+  "extractor": {
+    "name": "csv",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:29:16+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 1,
+    "tableRows": 243,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "table",
+      "id": "b1",
+      "name": "PSI-117_Analyzed Data_PROCI_2019_Stable_Cool",
+      "confidence": "high",
+      "location": {},
+      "headerRow": 1,
+      "columns": [
+        "Time(sec)",
+        "Diameter(mm)",
+        "K(mm^2/sec)",
+        "T_max(K)",
+        "D_Tmax/D_drop",
+        "D_OHm/D_drop",
+        "(D/Do)2"
+      ],
+      "rowCount": 243,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Time(sec)": "0",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0325791",
+            "T_max(K)": "600",
+            "D_Tmax/D_drop": "20.0398",
+            "D_OHm/D_drop": "1",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Time(sec)": "1E-10",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.032579",
+            "T_max(K)": "600",
+            "D_Tmax/D_drop": "20.0398",
+            "D_OHm/D_drop": "6.92455",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Time(sec)": "3E-10",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.032579",
+            "T_max(K)": "600",
+            "D_Tmax/D_drop": "20.0398",
+            "D_OHm/D_drop": "6.92473",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Time(sec)": "7E-10",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0325788",
+            "T_max(K)": "600",
+            "D_Tmax/D_drop": "20.0398",
+            "D_OHm/D_drop": "6.92575",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Time(sec)": "1.5E-09",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0325785",
+            "T_max(K)": "600",
+            "D_Tmax/D_drop": "20.0398",
+            "D_OHm/D_drop": "6.92746",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Time(sec)": "3.1E-09",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0325779",
+            "T_max(K)": "600",
+            "D_Tmax/D_drop": "20.0397",
+            "D_OHm/D_drop": "6.93082",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Time(sec)": "6.3E-09",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0325767",
+            "T_max(K)": "600",
+            "D_Tmax/D_drop": "20.0397",
+            "D_OHm/D_drop": "6.93746",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Time(sec)": "1.27E-08",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0325744",
+            "T_max(K)": "599.999",
+            "D_Tmax/D_drop": "20.0397",
+            "D_OHm/D_drop": "6.95063",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Time(sec)": "2.55E-08",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0325697",
+            "T_max(K)": "599.998",
+            "D_Tmax/D_drop": "20.0397",
+            "D_OHm/D_drop": "6.97649",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Time(sec)": "5.11E-08",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0325603",
+            "T_max(K)": "599.996",
+            "D_Tmax/D_drop": "20.0396",
+            "D_OHm/D_drop": "7.02642",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Time(sec)": "1.023E-07",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0325417",
+            "T_max(K)": "599.993",
+            "D_Tmax/D_drop": "20.0395",
+            "D_OHm/D_drop": "7.1258",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "Time(sec)": "2.047E-07",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0325054",
+            "T_max(K)": "599.986",
+            "D_Tmax/D_drop": "20.0393",
+            "D_OHm/D_drop": "7.31073",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Time(sec)": "4.095E-07",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0324358",
+            "T_max(K)": "599.972",
+            "D_Tmax/D_drop": "20.0389",
+            "D_OHm/D_drop": "7.6404",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "Time(sec)": "8.191E-07",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0323069",
+            "T_max(K)": "599.944",
+            "D_Tmax/D_drop": "20.038",
+            "D_OHm/D_drop": "8.19482",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "Time(sec)": "1.6383E-06",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0320819",
+            "T_max(K)": "599.892",
+            "D_Tmax/D_drop": "20.0363",
+            "D_OHm/D_drop": "9.0322",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 16,
+          "raw": {
+            "Time(sec)": "3.2767E-06",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0317194",
+            "T_max(K)": "599.795",
+            "D_Tmax/D_drop": "20.033",
+            "D_OHm/D_drop": "10.161",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 17,
+          "raw": {
+            "Time(sec)": "4.9151E-06",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0314168",
+            "T_max(K)": "599.706",
+            "D_Tmax/D_drop": "20.0296",
+            "D_OHm/D_drop": "10.8565",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 18,
+          "raw": {
+            "Time(sec)": "8.1919E-06",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0309471",
+            "T_max(K)": "599.676",
+            "D_Tmax/D_drop": "19.887",
+            "D_OHm/D_drop": "11.8713",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 19,
+          "raw": {
+            "Time(sec)": "1.14687E-05",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0305602",
+            "T_max(K)": "599.706",
+            "D_Tmax/D_drop": "19.7816",
+            "D_OHm/D_drop": "12.5277",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 20,
+          "raw": {
+            "Time(sec)": "1.47455E-05",
+            "Diameter(mm)": "0.5",
+            "K(mm^2/sec)": "-0.0302283",
+            "T_max(K)": "599.739",
+            "D_Tmax/D_drop": "19.7202",
+            "D_OHm/D_drop": "13.0044",
+            "(D/Do)2": "1"
+          }
+        },
+        {
+          "sourceRow": 21,
+          "raw": {
+            "Time(sec)": "2.12991E-05",
+            "Diameter(mm)": "0.500001",
+            "K(mm^2/sec)": "-0.029691",
+            "T_max(K)": "599.808",
+            "D_Tmax/D_drop": "19.6499",
+            "D_OHm/D_drop": "13.5998",
+            "(D/Do)2": "1.000004"
+          }
+        },
+        {
+          "sourceRow": 22,
+          "raw": {
+            "Time(sec)": "2.78527E-05",
+            "Diameter(mm)": "0.500001",
+            "K(mm^2/sec)": "-0.0292355",
+            "T_max(K)": "599.875",
+            "D_Tmax/D_drop": "19.6085",
+            "D_OHm/D_drop": "13.9727",
+            "(D/Do)2": "1.000004"
+          }
+        },
+        {
+          "sourceRow": 23,
+          "raw": {
+            "Time(sec)": "4.09599E-05",
+            "Diameter(mm)": "0.500001",
+            "K(mm^2/sec)": "-0.028513",
+            "T_max(K)": "599.994",
+            "D_Tmax/D_drop": "19.5574",
+            "D_OHm/D_drop": "14.3633",
+            "(D/Do)2": "1.000004"
+          }
+        },
+        {
+          "sourceRow": 24,
+          "raw": {
+            "Time(sec)": "5.40671E-05",
+            "Diameter(mm)": "0.500002",
+            "K(mm^2/sec)": "-0.0279127",
+            "T_max(K)": "600.098",
+            "D_Tmax/D_drop": "19.5235",
+            "D_OHm/D_drop": "14.604",
+            "(D/Do)2": "1.000008"
+          }
+        },
+        {
+          "sourceRow": 25,
+          "raw": {
+            "Time(sec)": "6.71743E-05",
+            "Diameter(mm)": "0.500002",
+            "K(mm^2/sec)": "-0.0273983",
+            "T_max(K)": "600.196",
+            "D_Tmax/D_drop": "19.4859",
+            "D_OHm/D_drop": "14.7738",
+            "(D/Do)2": "1.000008"
+          }
+        },
+        {
+          "sourceRow": 26,
+          "raw": {
+            "Time(sec)": "9.33887E-05",
+            "Diameter(mm)": "0.500003",
+            "K(mm^2/sec)": "-0.0265023",
+            "T_max(K)": "600.581",
+            "D_Tmax/D_drop": "19.274",
+            "D_OHm/D_drop": "15.043",
+            "(D/Do)2": "1.000012"
+          }
+        },
+        {
+          "sourceRow": 27,
+          "raw": {
+            "Time(sec)": "0.000119603",
+            "Diameter(mm)": "0.500003",
+            "K(mm^2/sec)": "-0.0258062",
+            "T_max(K)": "600.951",
+            "D_Tmax/D_drop": "19.1597",
+            "D_OHm/D_drop": "15.2404",
+            "(D/Do)2": "1.000012"
+          }
+        },
+        {
+          "sourceRow": 28,
+          "raw": {
+            "Time(sec)": "0.000172032",
+            "Diameter(mm)": "0.500005",
+            "K(mm^2/sec)": "-0.0246813",
+            "T_max(K)": "601.646",
+            "D_Tmax/D_drop": "19.0308",
+            "D_OHm/D_drop": "15.521",
+            "(D/Do)2": "1.00002"
+          }
+        },
+        {
+          "sourceRow": 29,
+          "raw": {
+            "Time(sec)": "0.000218326",
+            "Diameter(mm)": "0.500006",
+            "K(mm^2/sec)": "-0.0239499",
+            "T_max(K)": "602.289",
+            "D_Tmax/D_drop": "18.8905",
+            "D_OHm/D_drop": "15.683",
+            "(D/Do)2": "1.000024"
+          }
+        },
+        {
+          "sourceRow": 30,
+          "raw": {
+            "Time(sec)": "0.00026462",
+            "Diameter(mm)": "0.500007",
+            "K(mm^2/sec)": "-0.0233654",
+            "T_max(K)": "603.022",
+            "D_Tmax/D_drop": "18.7278",
+            "D_OHm/D_drop": "15.7833",
+            "(D/Do)2": "1.000028"
+          }
+        },
+        {
+          "sourceRow": 31,
+          "raw": {
+            "Time(sec)": "0.000310914",
+            "Diameter(mm)": "0.500008",
+            "K(mm^2/sec)": "-0.0228583",
+            "T_max(K)": "603.747",
+            "D_Tmax/D_drop": "18.6174",
+            "D_OHm/D_drop": "15.8377",
+            "(D/Do)2": "1.000032"
+          }
+        },
+        {
+          "sourceRow": 32,
+          "raw": {
+            "Time(sec)": "0.000357209",
+            "Diameter(mm)": "0.500009",
+            "K(mm^2/sec)": "-0.0224164",
+            "T_max(K)": "604.465",
+            "D_Tmax/D_drop": "18.5339",
+            "D_OHm/D_drop": "15.8628",
+            "(D/Do)2": "1.000036"
+          }
+        },
+        {
+          "sourceRow": 33,
+          "raw": {
+            "Time(sec)": "0.000403503",
+            "Diameter(mm)": "0.50001",
+            "K(mm^2/sec)": "-0.0220218",
+            "T_max(K)": "605.207",
+            "D_Tmax/D_drop": "18.4406",
+            "D_OHm/D_drop": "15.8651",
+            "(D/Do)2": "1.00004"
+          }
+        },
+        {
+          "sourceRow": 34,
+          "raw": {
+            "Time(sec)": "0.000496091",
+            "Diameter(mm)": "0.500012",
+            "K(mm^2/sec)": "-0.021344",
+            "T_max(K)": "606.866",
+            "D_Tmax/D_drop": "18.2065",
+            "D_OHm/D_drop": "15.8286",
+            "(D/Do)2": "1.000048001"
+          }
+        },
+        {
+          "sourceRow": 35,
+          "raw": {
+            "Time(sec)": "0.00058868",
+            "Diameter(mm)": "0.500014",
+            "K(mm^2/sec)": "-0.0207689",
+            "T_max(K)": "608.558",
+            "D_Tmax/D_drop": "18.0493",
+            "D_OHm/D_drop": "15.7653",
+            "(D/Do)2": "1.000056001"
+          }
+        },
+        {
+          "sourceRow": 36,
+          "raw": {
+            "Time(sec)": "0.000681268",
+            "Diameter(mm)": "0.500016",
+            "K(mm^2/sec)": "-0.0202424",
+            "T_max(K)": "610.386",
+            "D_Tmax/D_drop": "17.8664",
+            "D_OHm/D_drop": "15.6823",
+            "(D/Do)2": "1.000064001"
+          }
+        },
+        {
+          "sourceRow": 37,
+          "raw": {
+            "Time(sec)": "0.000773856",
+            "Diameter(mm)": "0.500018",
+            "K(mm^2/sec)": "-0.0197571",
+            "T_max(K)": "612.354",
+            "D_Tmax/D_drop": "17.6904",
+            "D_OHm/D_drop": "15.5874",
+            "(D/Do)2": "1.000072001"
+          }
+        },
+        {
+          "sourceRow": 38,
+          "raw": {
+            "Time(sec)": "0.000866445",
+            "Diameter(mm)": "0.50002",
+            "K(mm^2/sec)": "-0.0193182",
+            "T_max(K)": "614.405",
+            "D_Tmax/D_drop": "17.5502",
+            "D_OHm/D_drop": "15.4824",
+            "(D/Do)2": "1.000080002"
+          }
+        },
+        {
+          "sourceRow": 39,
+          "raw": {
+            "Time(sec)": "0.000959033",
+            "Diameter(mm)": "0.500021",
+            "K(mm^2/sec)": "-0.0189108",
+            "T_max(K)": "616.654",
+            "D_Tmax/D_drop": "17.3724",
+            "D_OHm/D_drop": "15.3685",
+            "(D/Do)2": "1.000084002"
+          }
+        },
+        {
+          "sourceRow": 40,
+          "raw": {
+            "Time(sec)": "0.00114421",
+            "Diameter(mm)": "0.500025",
+            "K(mm^2/sec)": "-0.0181924",
+            "T_max(K)": "621.597",
+            "D_Tmax/D_drop": "17.0695",
+            "D_OHm/D_drop": "15.0914",
+            "(D/Do)2": "1.000100003"
+          }
+        },
+        {
+          "sourceRow": 41,
+          "raw": {
+            "Time(sec)": "0.00131087",
+            "Diameter(mm)": "0.500028",
+            "K(mm^2/sec)": "-0.0176124",
+            "T_max(K)": "626.782",
+            "D_Tmax/D_drop": "16.7569",
+            "D_OHm/D_drop": "14.7919",
+            "(D/Do)2": "1.000112003"
+          }
+        },
+        {
+          "sourceRow": 42,
+          "raw": {
+            "Time(sec)": "0.00147753",
+            "Diameter(mm)": "0.500031",
+            "K(mm^2/sec)": "-0.0170869",
+            "T_max(K)": "632.716",
+            "D_Tmax/D_drop": "16.4576",
+            "D_OHm/D_drop": "14.4395",
+            "(D/Do)2": "1.000124004"
+          }
+        },
+        {
+          "sourceRow": 43,
+          "raw": {
+            "Time(sec)": "0.00164419",
+            "Diameter(mm)": "0.500033",
+            "K(mm^2/sec)": "-0.0166084",
+            "T_max(K)": "639.615",
+            "D_Tmax/D_drop": "16.1545",
+            "D_OHm/D_drop": "14.0403",
+            "(D/Do)2": "1.000132004"
+          }
+        },
+        {
+          "sourceRow": 44,
+          "raw": {
+            "Time(sec)": "0.00192917",
+            "Diameter(mm)": "0.500038",
+            "K(mm^2/sec)": "-0.0158883",
+            "T_max(K)": "654.63",
+            "D_Tmax/D_drop": "15.5329",
+            "D_OHm/D_drop": "13.3078",
+            "(D/Do)2": "1.000152006"
+          }
+        },
+        {
+          "sourceRow": 45,
+          "raw": {
+            "Time(sec)": "0.00216001",
+            "Diameter(mm)": "0.500042",
+            "K(mm^2/sec)": "-0.0153885",
+            "T_max(K)": "671.269",
+            "D_Tmax/D_drop": "14.9198",
+            "D_OHm/D_drop": "12.8326",
+            "(D/Do)2": "1.000168007"
+          }
+        },
+        {
+          "sourceRow": 46,
+          "raw": {
+            "Time(sec)": "0.00239441",
+            "Diameter(mm)": "0.500045",
+            "K(mm^2/sec)": "-0.0149562",
+            "T_max(K)": "696.303",
+            "D_Tmax/D_drop": "13.9669",
+            "D_OHm/D_drop": "12.8291",
+            "(D/Do)2": "1.000180008"
+          }
+        },
+        {
+          "sourceRow": 47,
+          "raw": {
+            "Time(sec)": "0.00265303",
+            "Diameter(mm)": "0.500049",
+            "K(mm^2/sec)": "-0.0145723",
+            "T_max(K)": "753.158",
+            "D_Tmax/D_drop": "12.3998",
+            "D_OHm/D_drop": "12.5233",
+            "(D/Do)2": "1.00019601"
+          }
+        },
+        {
+          "sourceRow": 48,
+          "raw": {
+            "Time(sec)": "0.00291839",
+            "Diameter(mm)": "0.500053",
+            "K(mm^2/sec)": "-0.014301",
+            "T_max(K)": "957.291",
+            "D_Tmax/D_drop": "9.96409",
+            "D_OHm/D_drop": "8.95161",
+            "(D/Do)2": "1.000212011"
+          }
+        },
+        {
+          "sourceRow": 49,
+          "raw": {
+            "Time(sec)": "0.00321265",
+            "Diameter(mm)": "0.500057",
+            "K(mm^2/sec)": "-0.0141729",
+            "T_max(K)": "1065.32",
+            "D_Tmax/D_drop": "6.6129",
+            "D_OHm/D_drop": "5.76286",
+            "(D/Do)2": "1.000228013"
+          }
+        },
+        {
+          "sourceRow": 50,
+          "raw": {
+            "Time(sec)": "0.00349089",
+            "Diameter(mm)": "0.500061",
+            "K(mm^2/sec)": "-0.0142727",
+            "T_max(K)": "1123.28",
+            "D_Tmax/D_drop": "4.96069",
+            "D_OHm/D_drop": "4.04457",
+            "(D/Do)2": "1.000244015"
+          }
+        },
+        {
+          "sourceRow": 51,
+          "raw": {
+            "Time(sec)": "0.0036897",
+            "Diameter(mm)": "0.500064",
+            "K(mm^2/sec)": "-0.014533",
+            "T_max(K)": "1144.73",
+            "D_Tmax/D_drop": "4.19279",
+            "D_OHm/D_drop": "3.05881",
+            "(D/Do)2": "1.000256016"
+          }
+        },
+        {
+          "sourceRow": 52,
+          "raw": {
+            "Time(sec)": "0.00388822",
+            "Diameter(mm)": "0.500067",
+            "K(mm^2/sec)": "-0.018388",
+            "T_max(K)": "1151.94",
+            "D_Tmax/D_drop": "3.91654",
+            "D_OHm/D_drop": "2.29181",
+            "(D/Do)2": "1.000268018"
+          }
+        },
+        {
+          "sourceRow": 53,
+          "raw": {
+            "Time(sec)": "0.00394002",
+            "Diameter(mm)": "0.500068",
+            "K(mm^2/sec)": "-0.0260047",
+            "T_max(K)": "1152.47",
+            "D_Tmax/D_drop": "3.90829",
+            "D_OHm/D_drop": "2.13539",
+            "(D/Do)2": "1.000272018"
+          }
+        },
+        {
+          "sourceRow": 54,
+          "raw": {
+            "Time(sec)": "0.00396357",
+            "Diameter(mm)": "0.500069",
+            "K(mm^2/sec)": "-0.0328218",
+            "T_max(K)": "1152.61",
+            "D_Tmax/D_drop": "3.90795",
+            "D_OHm/D_drop": "2.0698",
+            "(D/Do)2": "1.000276019"
+          }
+        },
+        {
+          "sourceRow": 55,
+          "raw": {
+            "Time(sec)": "0.00397416",
+            "Diameter(mm)": "0.500069",
+            "K(mm^2/sec)": "-0.0369078",
+            "T_max(K)": "1152.65",
+            "D_Tmax/D_drop": "3.90824",
+            "D_OHm/D_drop": "2.04001",
+            "(D/Do)2": "1.000276019"
+          }
+        },
+        {
+          "sourceRow": 56,
+          "raw": {
+            "Time(sec)": "0.00398122",
+            "Diameter(mm)": "0.500069",
+            "K(mm^2/sec)": "-0.0400452",
+            "T_max(K)": "1152.68",
+            "D_Tmax/D_drop": "3.90857",
+            "D_OHm/D_drop": "2.01978",
+            "(D/Do)2": "1.000276019"
+          }
+        },
+        {
+          "sourceRow": 57,
+          "raw": {
+            "Time(sec)": "0.00398829",
+            "Diameter(mm)": "0.50007",
+            "K(mm^2/sec)": "-0.0435469",
+            "T_max(K)": "1152.69",
+            "D_Tmax/D_drop": "3.90898",
+            "D_OHm/D_drop": "2.00251",
+            "(D/Do)2": "1.00028002"
+          }
+        },
+        {
+          "sourceRow": 58,
+          "raw": {
+            "Time(sec)": "0.003993",
+            "Diameter(mm)": "0.50007",
+            "K(mm^2/sec)": "-0.0460968",
+            "T_max(K)": "1152.7",
+            "D_Tmax/D_drop": "3.9093",
+            "D_OHm/D_drop": "1.99196",
+            "(D/Do)2": "1.00028002"
+          }
+        },
+        {
+          "sourceRow": 59,
+          "raw": {
+            "Time(sec)": "0.00399771",
+            "Diameter(mm)": "0.50007",
+            "K(mm^2/sec)": "-0.0488272",
+            "T_max(K)": "1152.71",
+            "D_Tmax/D_drop": "3.90964",
+            "D_OHm/D_drop": "1.97945",
+            "(D/Do)2": "1.00028002"
+          }
+        },
+        {
+          "sourceRow": 60,
+          "raw": {
+            "Time(sec)": "0.00400006",
+            "Diameter(mm)": "0.50007",
+            "K(mm^2/sec)": "-0.0502632",
+            "T_max(K)": "1152.72",
+            "D_Tmax/D_drop": "3.90982",
+            "D_OHm/D_drop": "1.97434",
+            "(D/Do)2": "1.00028002"
+          }
+        },
+        {
+          "sourceRow": 61,
+          "raw": {
+            "Time(sec)": "0.00400242",
+            "Diameter(mm)": "0.50007",
+            "K(mm^2/sec)": "-0.051747",
+            "T_max(K)": "1152.72",
+            "D_Tmax/D_drop": "3.91001",
+            "D_OHm/D_drop": "1.96865",
+            "(D/Do)2": "1.00028002"
+          }
+        },
+        {
+          "sourceRow": 62,
+          "raw": {
+            "Time(sec)": "0.00400477",
+            "Diameter(mm)": "0.50007",
+            "K(mm^2/sec)": "-0.0532799",
+            "T_max(K)": "1152.72",
+            "D_Tmax/D_drop": "3.91021",
+            "D_OHm/D_drop": "1.96261",
+            "(D/Do)2": "1.00028002"
+          }
+        },
+        {
+          "sourceRow": 63,
+          "raw": {
+            "Time(sec)": "0.00400712",
+            "Diameter(mm)": "0.500071",
+            "K(mm^2/sec)": "-0.0548626",
+            "T_max(K)": "1152.72",
+            "D_Tmax/D_drop": "3.91041",
+            "D_OHm/D_drop": "1.95673",
+            "(D/Do)2": "1.00028402"
+          }
+        },
+        {
+          "sourceRow": 64,
+          "raw": {
+            "Time(sec)": "0.00400948",
+            "Diameter(mm)": "0.500071",
+            "K(mm^2/sec)": "-0.0564957",
+            "T_max(K)": "1152.72",
+            "D_Tmax/D_drop": "3.91061",
+            "D_OHm/D_drop": "1.95088",
+            "(D/Do)2": "1.00028402"
+          }
+        },
+        {
+          "sourceRow": 65,
+          "raw": {
+            "Time(sec)": "0.00401419",
+            "Diameter(mm)": "0.500071",
+            "K(mm^2/sec)": "-0.0599171",
+            "T_max(K)": "1152.73",
+            "D_Tmax/D_drop": "3.91104",
+            "D_OHm/D_drop": "1.93927",
+            "(D/Do)2": "1.00028402"
+          }
+        },
+        {
+          "sourceRow": 66,
+          "raw": {
+            "Time(sec)": "0.0040189",
+            "Diameter(mm)": "0.500071",
+            "K(mm^2/sec)": "-0.063548",
+            "T_max(K)": "1152.73",
+            "D_Tmax/D_drop": "3.91148",
+            "D_OHm/D_drop": "1.92804",
+            "(D/Do)2": "1.00028402"
+          }
+        },
+        {
+          "sourceRow": 67,
+          "raw": {
+            "Time(sec)": "0.00402361",
+            "Diameter(mm)": "0.500072",
+            "K(mm^2/sec)": "-0.0673924",
+            "T_max(K)": "1152.73",
+            "D_Tmax/D_drop": "3.91194",
+            "D_OHm/D_drop": "21.3686",
+            "(D/Do)2": "1.000288021"
+          }
+        },
+        {
+          "sourceRow": 68,
+          "raw": {
+            "Time(sec)": "0.00402831",
+            "Diameter(mm)": "0.500072",
+            "K(mm^2/sec)": "-0.0714531",
+            "T_max(K)": "1152.72",
+            "D_Tmax/D_drop": "3.9124",
+            "D_OHm/D_drop": "21.3744",
+            "(D/Do)2": "1.000288021"
+          }
+        },
+        {
+          "sourceRow": 69,
+          "raw": {
+            "Time(sec)": "0.00403302",
+            "Diameter(mm)": "0.500072",
+            "K(mm^2/sec)": "-0.0757313",
+            "T_max(K)": "1152.72",
+            "D_Tmax/D_drop": "3.91288",
+            "D_OHm/D_drop": "21.3803",
+            "(D/Do)2": "1.000288021"
+          }
+        },
+        {
+          "sourceRow": 70,
+          "raw": {
+            "Time(sec)": "0.00403773",
+            "Diameter(mm)": "0.500073",
+            "K(mm^2/sec)": "-0.0802296",
+            "T_max(K)": "1152.71",
+            "D_Tmax/D_drop": "3.91336",
+            "D_OHm/D_drop": "21.3861",
+            "(D/Do)2": "1.000292021"
+          }
+        },
+        {
+          "sourceRow": 71,
+          "raw": {
+            "Time(sec)": "0.00404244",
+            "Diameter(mm)": "0.500073",
+            "K(mm^2/sec)": "-0.0849475",
+            "T_max(K)": "1152.71",
+            "D_Tmax/D_drop": "3.91385",
+            "D_OHm/D_drop": "21.3919",
+            "(D/Do)2": "1.000292021"
+          }
+        },
+        {
+          "sourceRow": 72,
+          "raw": {
+            "Time(sec)": "0.00404715",
+            "Diameter(mm)": "0.500073",
+            "K(mm^2/sec)": "-0.0898835",
+            "T_max(K)": "1152.7",
+            "D_Tmax/D_drop": "3.91434",
+            "D_OHm/D_drop": "21.3978",
+            "(D/Do)2": "1.000292021"
+          }
+        },
+        {
+          "sourceRow": 73,
+          "raw": {
+            "Time(sec)": "0.00405657",
+            "Diameter(mm)": "0.500074",
+            "K(mm^2/sec)": "-0.10039",
+            "T_max(K)": "1152.68",
+            "D_Tmax/D_drop": "3.91537",
+            "D_OHm/D_drop": "21.4095",
+            "(D/Do)2": "1.000296022"
+          }
+        },
+        {
+          "sourceRow": 74,
+          "raw": {
+            "Time(sec)": "0.00406599",
+            "Diameter(mm)": "0.500075",
+            "K(mm^2/sec)": "-0.111698",
+            "T_max(K)": "1152.66",
+            "D_Tmax/D_drop": "3.91642",
+            "D_OHm/D_drop": "21.4214",
+            "(D/Do)2": "1.000300023"
+          }
+        },
+        {
+          "sourceRow": 75,
+          "raw": {
+            "Time(sec)": "0.00407541",
+            "Diameter(mm)": "0.500076",
+            "K(mm^2/sec)": "-0.123726",
+            "T_max(K)": "1152.63",
+            "D_Tmax/D_drop": "3.91743",
+            "D_OHm/D_drop": "21.4333",
+            "(D/Do)2": "1.000304023"
+          }
+        },
+        {
+          "sourceRow": 76,
+          "raw": {
+            "Time(sec)": "0.00409236",
+            "Diameter(mm)": "0.500079",
+            "K(mm^2/sec)": "-0.146822",
+            "T_max(K)": "1152.57",
+            "D_Tmax/D_drop": "3.91915",
+            "D_OHm/D_drop": "21.455",
+            "(D/Do)2": "1.000316025"
+          }
+        },
+        {
+          "sourceRow": 77,
+          "raw": {
+            "Time(sec)": "0.00412626",
+            "Diameter(mm)": "0.500085",
+            "K(mm^2/sec)": "-0.195079",
+            "T_max(K)": "1152.41",
+            "D_Tmax/D_drop": "3.92185",
+            "D_OHm/D_drop": "21.4997",
+            "(D/Do)2": "1.000340029"
+          }
+        },
+        {
+          "sourceRow": 78,
+          "raw": {
+            "Time(sec)": "0.00421234",
+            "Diameter(mm)": "0.500105",
+            "K(mm^2/sec)": "-0.276075",
+            "T_max(K)": "1151.82",
+            "D_Tmax/D_drop": "3.92237",
+            "D_OHm/D_drop": "21.6244",
+            "(D/Do)2": "1.000420044"
+          }
+        },
+        {
+          "sourceRow": 79,
+          "raw": {
+            "Time(sec)": "0.00437733",
+            "Diameter(mm)": "0.500149",
+            "K(mm^2/sec)": "-0.233865",
+            "T_max(K)": "1149.96",
+            "D_Tmax/D_drop": "3.933",
+            "D_OHm/D_drop": "21.8051",
+            "(D/Do)2": "1.000596089"
+          }
+        },
+        {
+          "sourceRow": 80,
+          "raw": {
+            "Time(sec)": "0.00483248",
+            "Diameter(mm)": "0.500227",
+            "K(mm^2/sec)": "-0.130752",
+            "T_max(K)": "1134.68",
+            "D_Tmax/D_drop": "4.26648",
+            "D_OHm/D_drop": "22.1728",
+            "(D/Do)2": "1.000908206"
+          }
+        },
+        {
+          "sourceRow": 81,
+          "raw": {
+            "Time(sec)": "0.00533315",
+            "Diameter(mm)": "0.500281",
+            "K(mm^2/sec)": "-0.0895518",
+            "T_max(K)": "1110.8",
+            "D_Tmax/D_drop": "4.6481",
+            "D_OHm/D_drop": "22.4661",
+            "(D/Do)2": "1.001124316"
+          }
+        },
+        {
+          "sourceRow": 82,
+          "raw": {
+            "Time(sec)": "0.00587933",
+            "Diameter(mm)": "0.500321",
+            "K(mm^2/sec)": "-0.0608208",
+            "T_max(K)": "1085.94",
+            "D_Tmax/D_drop": "4.9954",
+            "D_OHm/D_drop": "22.682",
+            "(D/Do)2": "1.001284412"
+          }
+        },
+        {
+          "sourceRow": 83,
+          "raw": {
+            "Time(sec)": "0.00647102",
+            "Diameter(mm)": "0.50035",
+            "K(mm^2/sec)": "-0.0376787",
+            "T_max(K)": "1062.73",
+            "D_Tmax/D_drop": "5.32188",
+            "D_OHm/D_drop": "22.8922",
+            "(D/Do)2": "1.00140049"
+          }
+        },
+        {
+          "sourceRow": 84,
+          "raw": {
+            "Time(sec)": "0.00715375",
+            "Diameter(mm)": "0.500369",
+            "K(mm^2/sec)": "-0.0172285",
+            "T_max(K)": "1040.4",
+            "D_Tmax/D_drop": "5.65036",
+            "D_OHm/D_drop": "22.9412",
+            "(D/Do)2": "1.001476545"
+          }
+        },
+        {
+          "sourceRow": 85,
+          "raw": {
+            "Time(sec)": "0.00788199",
+            "Diameter(mm)": "0.500375",
+            "K(mm^2/sec)": "-0.000320193",
+            "T_max(K)": "1020.76",
+            "D_Tmax/D_drop": "5.95762",
+            "D_OHm/D_drop": "22.8985",
+            "(D/Do)2": "1.001500563"
+          }
+        },
+        {
+          "sourceRow": 86,
+          "raw": {
+            "Time(sec)": "0.00879229",
+            "Diameter(mm)": "0.500367",
+            "K(mm^2/sec)": "0.0162071",
+            "T_max(K)": "1000.59",
+            "D_Tmax/D_drop": "6.29148",
+            "D_OHm/D_drop": "22.6549",
+            "(D/Do)2": "1.001468539"
+          }
+        },
+        {
+          "sourceRow": 87,
+          "raw": {
+            "Time(sec)": "0.00970259",
+            "Diameter(mm)": "0.500346",
+            "K(mm^2/sec)": "0.0293254",
+            "T_max(K)": "983.877",
+            "D_Tmax/D_drop": "6.58082",
+            "D_OHm/D_drop": "22.5984",
+            "(D/Do)2": "1.001384479"
+          }
+        },
+        {
+          "sourceRow": 88,
+          "raw": {
+            "Time(sec)": "0.010795",
+            "Diameter(mm)": "0.500307",
+            "K(mm^2/sec)": "0.0419849",
+            "T_max(K)": "966.98",
+            "D_Tmax/D_drop": "6.87823",
+            "D_OHm/D_drop": "22.6571",
+            "(D/Do)2": "1.001228377"
+          }
+        },
+        {
+          "sourceRow": 89,
+          "raw": {
+            "Time(sec)": "0.0118873",
+            "Diameter(mm)": "0.500255",
+            "K(mm^2/sec)": "0.0523936",
+            "T_max(K)": "952.588",
+            "D_Tmax/D_drop": "7.13597",
+            "D_OHm/D_drop": "22.7455",
+            "(D/Do)2": "1.00102026"
+          }
+        },
+        {
+          "sourceRow": 90,
+          "raw": {
+            "Time(sec)": "0.0130889",
+            "Diameter(mm)": "0.500187",
+            "K(mm^2/sec)": "0.0619672",
+            "T_max(K)": "938.792",
+            "D_Tmax/D_drop": "7.37931",
+            "D_OHm/D_drop": "22.8444",
+            "(D/Do)2": "1.00074814"
+          }
+        },
+        {
+          "sourceRow": 91,
+          "raw": {
+            "Time(sec)": "0.0143997",
+            "Diameter(mm)": "0.5001",
+            "K(mm^2/sec)": "0.0708011",
+            "T_max(K)": "925.568",
+            "D_Tmax/D_drop": "7.60686",
+            "D_OHm/D_drop": "22.9663",
+            "(D/Do)2": "1.00040004"
+          }
+        },
+        {
+          "sourceRow": 92,
+          "raw": {
+            "Time(sec)": "0.0161694",
+            "Diameter(mm)": "0.499965",
+            "K(mm^2/sec)": "0.0808076",
+            "T_max(K)": "909.959",
+            "D_Tmax/D_drop": "7.86459",
+            "D_OHm/D_drop": "23.1198",
+            "(D/Do)2": "0.999860005"
+          }
+        },
+        {
+          "sourceRow": 93,
+          "raw": {
+            "Time(sec)": "0.017939",
+            "Diameter(mm)": "0.499814",
+            "K(mm^2/sec)": "0.0893156",
+            "T_max(K)": "896.274",
+            "D_Tmax/D_drop": "8.07823",
+            "D_OHm/D_drop": "23.2378",
+            "(D/Do)2": "0.999256138"
+          }
+        },
+        {
+          "sourceRow": 94,
+          "raw": {
+            "Time(sec)": "0.0202985",
+            "Diameter(mm)": "0.499591",
+            "K(mm^2/sec)": "0.0994711",
+            "T_max(K)": "880.308",
+            "D_Tmax/D_drop": "8.29571",
+            "D_OHm/D_drop": "23.3549",
+            "(D/Do)2": "0.998364669"
+          }
+        },
+        {
+          "sourceRow": 95,
+          "raw": {
+            "Time(sec)": "0.0223709",
+            "Diameter(mm)": "0.499375",
+            "K(mm^2/sec)": "0.109627",
+            "T_max(K)": "868.194",
+            "D_Tmax/D_drop": "8.37774",
+            "D_OHm/D_drop": "23.4299",
+            "(D/Do)2": "0.997501563"
+          }
+        },
+        {
+          "sourceRow": 96,
+          "raw": {
+            "Time(sec)": "0.0248287",
+            "Diameter(mm)": "0.499085",
+            "K(mm^2/sec)": "0.126237",
+            "T_max(K)": "856.144",
+            "D_Tmax/D_drop": "8.25356",
+            "D_OHm/D_drop": "23.493",
+            "(D/Do)2": "0.996343349"
+          }
+        },
+        {
+          "sourceRow": 97,
+          "raw": {
+            "Time(sec)": "0.0276377",
+            "Diameter(mm)": "0.498708",
+            "K(mm^2/sec)": "0.140365",
+            "T_max(K)": "844.478",
+            "D_Tmax/D_drop": "8.07119",
+            "D_OHm/D_drop": "23.5371",
+            "(D/Do)2": "0.994838677"
+          }
+        },
+        {
+          "sourceRow": 98,
+          "raw": {
+            "Time(sec)": "0.0304467",
+            "Diameter(mm)": "0.498298",
+            "K(mm^2/sec)": "0.150111",
+            "T_max(K)": "833.987",
+            "D_Tmax/D_drop": "7.95308",
+            "D_OHm/D_drop": "23.5591",
+            "(D/Do)2": "0.993203587"
+          }
+        },
+        {
+          "sourceRow": 99,
+          "raw": {
+            "Time(sec)": "0.0339579",
+            "Diameter(mm)": "0.49775",
+            "K(mm^2/sec)": "0.160876",
+            "T_max(K)": "822.324",
+            "D_Tmax/D_drop": "7.75272",
+            "D_OHm/D_drop": "23.5687",
+            "(D/Do)2": "0.99102025"
+          }
+        },
+        {
+          "sourceRow": 100,
+          "raw": {
+            "Time(sec)": "0.0380309",
+            "Diameter(mm)": "0.497068",
+            "K(mm^2/sec)": "0.172197",
+            "T_max(K)": "810.779",
+            "D_Tmax/D_drop": "7.39374",
+            "D_OHm/D_drop": "23.5748",
+            "(D/Do)2": "0.988306386"
+          }
+        },
+        {
+          "sourceRow": 101,
+          "raw": {
+            "Time(sec)": "0.041823",
+            "Diameter(mm)": "0.496392",
+            "K(mm^2/sec)": "0.181592",
+            "T_max(K)": "801.741",
+            "D_Tmax/D_drop": "6.94119",
+            "D_OHm/D_drop": "23.5912",
+            "(D/Do)2": "0.985620071"
+          }
+        },
+        {
+          "sourceRow": 102,
+          "raw": {
+            "Time(sec)": "0.0443511",
+            "Diameter(mm)": "0.495922",
+            "K(mm^2/sec)": "0.18737",
+            "T_max(K)": "796.572",
+            "D_Tmax/D_drop": "6.57446",
+            "D_OHm/D_drop": "23.6112",
+            "(D/Do)2": "0.98375452"
+          }
+        },
+        {
+          "sourceRow": 103,
+          "raw": {
+            "Time(sec)": "0.0468791",
+            "Diameter(mm)": "0.495437",
+            "K(mm^2/sec)": "0.192799",
+            "T_max(K)": "792.07",
+            "D_Tmax/D_drop": "6.1674",
+            "D_OHm/D_drop": "23.6389",
+            "(D/Do)2": "0.981831284"
+          }
+        },
+        {
+          "sourceRow": 104,
+          "raw": {
+            "Time(sec)": "0.0494072",
+            "Diameter(mm)": "0.494939",
+            "K(mm^2/sec)": "0.197927",
+            "T_max(K)": "788.218",
+            "D_Tmax/D_drop": "5.75228",
+            "D_OHm/D_drop": "23.6766",
+            "(D/Do)2": "0.979858455"
+          }
+        },
+        {
+          "sourceRow": 105,
+          "raw": {
+            "Time(sec)": "0.0506713",
+            "Diameter(mm)": "0.494684",
+            "K(mm^2/sec)": "0.200383",
+            "T_max(K)": "786.517",
+            "D_Tmax/D_drop": "5.5546",
+            "D_OHm/D_drop": "23.6988",
+            "(D/Do)2": "0.978849039"
+          }
+        },
+        {
+          "sourceRow": 106,
+          "raw": {
+            "Time(sec)": "0.0519353",
+            "Diameter(mm)": "0.494427",
+            "K(mm^2/sec)": "0.202777",
+            "T_max(K)": "784.968",
+            "D_Tmax/D_drop": "5.37216",
+            "D_OHm/D_drop": "23.722",
+            "(D/Do)2": "0.977832233"
+          }
+        },
+        {
+          "sourceRow": 107,
+          "raw": {
+            "Time(sec)": "0.0531993",
+            "Diameter(mm)": "0.494166",
+            "K(mm^2/sec)": "0.205122",
+            "T_max(K)": "783.556",
+            "D_Tmax/D_drop": "5.20636",
+            "D_OHm/D_drop": "23.747",
+            "(D/Do)2": "0.976800142"
+          }
+        },
+        {
+          "sourceRow": 108,
+          "raw": {
+            "Time(sec)": "0.0544634",
+            "Diameter(mm)": "0.493902",
+            "K(mm^2/sec)": "0.207406",
+            "T_max(K)": "782.264",
+            "D_Tmax/D_drop": "5.06169",
+            "D_OHm/D_drop": "23.7725",
+            "(D/Do)2": "0.975756742"
+          }
+        },
+        {
+          "sourceRow": 109,
+          "raw": {
+            "Time(sec)": "0.0557274",
+            "Diameter(mm)": "0.493635",
+            "K(mm^2/sec)": "0.209637",
+            "T_max(K)": "781.082",
+            "D_Tmax/D_drop": "4.93845",
+            "D_OHm/D_drop": "23.7997",
+            "(D/Do)2": "0.974702053"
+          }
+        },
+        {
+          "sourceRow": 110,
+          "raw": {
+            "Time(sec)": "0.0569914",
+            "Diameter(mm)": "0.493365",
+            "K(mm^2/sec)": "0.211818",
+            "T_max(K)": "779.99",
+            "D_Tmax/D_drop": "4.83247",
+            "D_OHm/D_drop": "23.8264",
+            "(D/Do)2": "0.973636093"
+          }
+        },
+        {
+          "sourceRow": 111,
+          "raw": {
+            "Time(sec)": "0.0582555",
+            "Diameter(mm)": "0.493092",
+            "K(mm^2/sec)": "0.213945",
+            "T_max(K)": "778.979",
+            "D_Tmax/D_drop": "4.74004",
+            "D_OHm/D_drop": "23.8546",
+            "(D/Do)2": "0.972558882"
+          }
+        },
+        {
+          "sourceRow": 112,
+          "raw": {
+            "Time(sec)": "0.0607836",
+            "Diameter(mm)": "0.492538",
+            "K(mm^2/sec)": "0.218067",
+            "T_max(K)": "777.195",
+            "D_Tmax/D_drop": "4.59974",
+            "D_OHm/D_drop": "23.9124",
+            "(D/Do)2": "0.970374726"
+          }
+        },
+        {
+          "sourceRow": 113,
+          "raw": {
+            "Time(sec)": "0.0633116",
+            "Diameter(mm)": "0.491973",
+            "K(mm^2/sec)": "0.222003",
+            "T_max(K)": "775.642",
+            "D_Tmax/D_drop": "4.49412",
+            "D_OHm/D_drop": "23.9711",
+            "(D/Do)2": "0.968149731"
+          }
+        },
+        {
+          "sourceRow": 114,
+          "raw": {
+            "Time(sec)": "0.0645757",
+            "Diameter(mm)": "0.491687",
+            "K(mm^2/sec)": "0.223916",
+            "T_max(K)": "774.955",
+            "D_Tmax/D_drop": "4.45525",
+            "D_OHm/D_drop": "24",
+            "(D/Do)2": "0.967024424"
+          }
+        },
+        {
+          "sourceRow": 115,
+          "raw": {
+            "Time(sec)": "0.0658397",
+            "Diameter(mm)": "0.491398",
+            "K(mm^2/sec)": "0.225797",
+            "T_max(K)": "774.305",
+            "D_Tmax/D_drop": "4.41919",
+            "D_OHm/D_drop": "24.0313",
+            "(D/Do)2": "0.965887978"
+          }
+        },
+        {
+          "sourceRow": 116,
+          "raw": {
+            "Time(sec)": "0.0671037",
+            "Diameter(mm)": "0.491106",
+            "K(mm^2/sec)": "0.22763",
+            "T_max(K)": "773.685",
+            "D_Tmax/D_drop": "4.38528",
+            "D_OHm/D_drop": "24.0615",
+            "(D/Do)2": "0.964740413"
+          }
+        },
+        {
+          "sourceRow": 117,
+          "raw": {
+            "Time(sec)": "0.0683678",
+            "Diameter(mm)": "0.490812",
+            "K(mm^2/sec)": "0.229434",
+            "T_max(K)": "773.115",
+            "D_Tmax/D_drop": "4.35875",
+            "D_OHm/D_drop": "24.0893",
+            "(D/Do)2": "0.963585677"
+          }
+        },
+        {
+          "sourceRow": 118,
+          "raw": {
+            "Time(sec)": "0.0708958",
+            "Diameter(mm)": "0.490216",
+            "K(mm^2/sec)": "0.232946",
+            "T_max(K)": "772.063",
+            "D_Tmax/D_drop": "4.31328",
+            "D_OHm/D_drop": "24.149",
+            "(D/Do)2": "0.961246907"
+          }
+        },
+        {
+          "sourceRow": 119,
+          "raw": {
+            "Time(sec)": "0.0734239",
+            "Diameter(mm)": "0.489611",
+            "K(mm^2/sec)": "0.236336",
+            "T_max(K)": "771.106",
+            "D_Tmax/D_drop": "4.27406",
+            "D_OHm/D_drop": "24.2088",
+            "(D/Do)2": "0.958875725"
+          }
+        },
+        {
+          "sourceRow": 120,
+          "raw": {
+            "Time(sec)": "0.075952",
+            "Diameter(mm)": "0.488996",
+            "K(mm^2/sec)": "0.239609",
+            "T_max(K)": "770.271",
+            "D_Tmax/D_drop": "4.24599",
+            "D_OHm/D_drop": "24.2698",
+            "(D/Do)2": "0.956468352"
+          }
+        },
+        {
+          "sourceRow": 121,
+          "raw": {
+            "Time(sec)": "0.0784801",
+            "Diameter(mm)": "0.488372",
+            "K(mm^2/sec)": "0.242774",
+            "T_max(K)": "769.522",
+            "D_Tmax/D_drop": "4.2235",
+            "D_OHm/D_drop": "24.3306",
+            "(D/Do)2": "0.954028842"
+          }
+        },
+        {
+          "sourceRow": 122,
+          "raw": {
+            "Time(sec)": "0.0810081",
+            "Diameter(mm)": "0.48774",
+            "K(mm^2/sec)": "0.245833",
+            "T_max(K)": "768.847",
+            "D_Tmax/D_drop": "4.2047",
+            "D_OHm/D_drop": "24.3931",
+            "(D/Do)2": "0.95156123"
+          }
+        },
+        {
+          "sourceRow": 123,
+          "raw": {
+            "Time(sec)": "0.0835362",
+            "Diameter(mm)": "0.487098",
+            "K(mm^2/sec)": "0.248802",
+            "T_max(K)": "768.237",
+            "D_Tmax/D_drop": "4.18917",
+            "D_OHm/D_drop": "24.4561",
+            "(D/Do)2": "0.949057846"
+          }
+        },
+        {
+          "sourceRow": 124,
+          "raw": {
+            "Time(sec)": "0.0860643",
+            "Diameter(mm)": "0.486448",
+            "K(mm^2/sec)": "0.251685",
+            "T_max(K)": "767.687",
+            "D_Tmax/D_drop": "4.17655",
+            "D_OHm/D_drop": "24.5218",
+            "(D/Do)2": "0.946526627"
+          }
+        },
+        {
+          "sourceRow": 125,
+          "raw": {
+            "Time(sec)": "0.0885924",
+            "Diameter(mm)": "0.48579",
+            "K(mm^2/sec)": "0.254483",
+            "T_max(K)": "767.191",
+            "D_Tmax/D_drop": "4.16648",
+            "D_OHm/D_drop": "24.5903",
+            "(D/Do)2": "0.943967696"
+          }
+        },
+        {
+          "sourceRow": 126,
+          "raw": {
+            "Time(sec)": "0.0911204",
+            "Diameter(mm)": "0.485124",
+            "K(mm^2/sec)": "0.257203",
+            "T_max(K)": "766.754",
+            "D_Tmax/D_drop": "4.15964",
+            "D_OHm/D_drop": "24.6639",
+            "(D/Do)2": "0.941381182"
+          }
+        },
+        {
+          "sourceRow": 127,
+          "raw": {
+            "Time(sec)": "0.0936485",
+            "Diameter(mm)": "0.48445",
+            "K(mm^2/sec)": "0.259851",
+            "T_max(K)": "766.367",
+            "D_Tmax/D_drop": "4.15522",
+            "D_OHm/D_drop": "24.734",
+            "(D/Do)2": "0.93876721"
+          }
+        },
+        {
+          "sourceRow": 128,
+          "raw": {
+            "Time(sec)": "0.0961766",
+            "Diameter(mm)": "0.483768",
+            "K(mm^2/sec)": "0.262429",
+            "T_max(K)": "766.02",
+            "D_Tmax/D_drop": "4.15222",
+            "D_OHm/D_drop": "24.8067",
+            "(D/Do)2": "0.936125911"
+          }
+        },
+        {
+          "sourceRow": 129,
+          "raw": {
+            "Time(sec)": "0.0987047",
+            "Diameter(mm)": "0.483079",
+            "K(mm^2/sec)": "0.264943",
+            "T_max(K)": "765.707",
+            "D_Tmax/D_drop": "4.15043",
+            "D_OHm/D_drop": "24.8759",
+            "(D/Do)2": "0.933461281"
+          }
+        },
+        {
+          "sourceRow": 130,
+          "raw": {
+            "Time(sec)": "0.101233",
+            "Diameter(mm)": "0.482382",
+            "K(mm^2/sec)": "0.267398",
+            "T_max(K)": "765.426",
+            "D_Tmax/D_drop": "4.1497",
+            "D_OHm/D_drop": "24.9426",
+            "(D/Do)2": "0.930769576"
+          }
+        },
+        {
+          "sourceRow": 131,
+          "raw": {
+            "Time(sec)": "0.103761",
+            "Diameter(mm)": "0.481677",
+            "K(mm^2/sec)": "0.269788",
+            "T_max(K)": "765.176",
+            "D_Tmax/D_drop": "4.14991",
+            "D_OHm/D_drop": "25.0127",
+            "(D/Do)2": "0.928050929"
+          }
+        },
+        {
+          "sourceRow": 132,
+          "raw": {
+            "Time(sec)": "0.106289",
+            "Diameter(mm)": "0.480966",
+            "K(mm^2/sec)": "0.272118",
+            "T_max(K)": "764.953",
+            "D_Tmax/D_drop": "4.15098",
+            "D_OHm/D_drop": "25.0734",
+            "(D/Do)2": "0.925313173"
+          }
+        },
+        {
+          "sourceRow": 133,
+          "raw": {
+            "Time(sec)": "0.108817",
+            "Diameter(mm)": "0.480247",
+            "K(mm^2/sec)": "0.274384",
+            "T_max(K)": "764.756",
+            "D_Tmax/D_drop": "4.15283",
+            "D_OHm/D_drop": "25.1479",
+            "(D/Do)2": "0.922548724"
+          }
+        },
+        {
+          "sourceRow": 134,
+          "raw": {
+            "Time(sec)": "0.111345",
+            "Diameter(mm)": "0.479522",
+            "K(mm^2/sec)": "0.276609",
+            "T_max(K)": "764.584",
+            "D_Tmax/D_drop": "4.15541",
+            "D_OHm/D_drop": "25.2167",
+            "(D/Do)2": "0.919765394"
+          }
+        },
+        {
+          "sourceRow": 135,
+          "raw": {
+            "Time(sec)": "0.113873",
+            "Diameter(mm)": "0.478789",
+            "K(mm^2/sec)": "0.278782",
+            "T_max(K)": "764.433",
+            "D_Tmax/D_drop": "4.15864",
+            "D_OHm/D_drop": "25.2898",
+            "(D/Do)2": "0.916955626"
+          }
+        },
+        {
+          "sourceRow": 136,
+          "raw": {
+            "Time(sec)": "0.116401",
+            "Diameter(mm)": "0.47805",
+            "K(mm^2/sec)": "0.280903",
+            "T_max(K)": "764.302",
+            "D_Tmax/D_drop": "4.16244",
+            "D_OHm/D_drop": "25.3615",
+            "(D/Do)2": "0.91412721"
+          }
+        },
+        {
+          "sourceRow": 137,
+          "raw": {
+            "Time(sec)": "0.121457",
+            "Diameter(mm)": "0.476551",
+            "K(mm^2/sec)": "0.28501",
+            "T_max(K)": "764.092",
+            "D_Tmax/D_drop": "4.17146",
+            "D_OHm/D_drop": "25.5004",
+            "(D/Do)2": "0.908403422"
+          }
+        },
+        {
+          "sourceRow": 138,
+          "raw": {
+            "Time(sec)": "0.126513",
+            "Diameter(mm)": "0.475026",
+            "K(mm^2/sec)": "0.288935",
+            "T_max(K)": "763.94",
+            "D_Tmax/D_drop": "4.18195",
+            "D_OHm/D_drop": "25.6924",
+            "(D/Do)2": "0.902598803"
+          }
+        },
+        {
+          "sourceRow": 139,
+          "raw": {
+            "Time(sec)": "0.13157",
+            "Diameter(mm)": "0.473476",
+            "K(mm^2/sec)": "0.292695",
+            "T_max(K)": "763.839",
+            "D_Tmax/D_drop": "4.19413",
+            "D_OHm/D_drop": "25.7416",
+            "(D/Do)2": "0.89671809"
+          }
+        },
+        {
+          "sourceRow": 140,
+          "raw": {
+            "Time(sec)": "0.136626",
+            "Diameter(mm)": "0.4719",
+            "K(mm^2/sec)": "0.296299",
+            "T_max(K)": "763.79",
+            "D_Tmax/D_drop": "4.20849",
+            "D_OHm/D_drop": "26.0002",
+            "(D/Do)2": "0.89075844"
+          }
+        },
+        {
+          "sourceRow": 141,
+          "raw": {
+            "Time(sec)": "0.141682",
+            "Diameter(mm)": "0.470301",
+            "K(mm^2/sec)": "0.299752",
+            "T_max(K)": "763.774",
+            "D_Tmax/D_drop": "4.22362",
+            "D_OHm/D_drop": "26.1283",
+            "(D/Do)2": "0.884732122"
+          }
+        },
+        {
+          "sourceRow": 142,
+          "raw": {
+            "Time(sec)": "0.151794",
+            "Diameter(mm)": "0.467032",
+            "K(mm^2/sec)": "0.306237",
+            "T_max(K)": "763.814",
+            "D_Tmax/D_drop": "4.25535",
+            "D_OHm/D_drop": "26.5344",
+            "(D/Do)2": "0.872475556"
+          }
+        },
+        {
+          "sourceRow": 143,
+          "raw": {
+            "Time(sec)": "0.166963",
+            "Diameter(mm)": "0.461959",
+            "K(mm^2/sec)": "0.314988",
+            "T_max(K)": "763.978",
+            "D_Tmax/D_drop": "4.30438",
+            "D_OHm/D_drop": "27.038",
+            "(D/Do)2": "0.853624471"
+          }
+        },
+        {
+          "sourceRow": 144,
+          "raw": {
+            "Time(sec)": "0.182131",
+            "Diameter(mm)": "0.456693",
+            "K(mm^2/sec)": "0.322672",
+            "T_max(K)": "764.196",
+            "D_Tmax/D_drop": "4.35404",
+            "D_OHm/D_drop": "27.6979",
+            "(D/Do)2": "0.834273985"
+          }
+        },
+        {
+          "sourceRow": 145,
+          "raw": {
+            "Time(sec)": "0.1973",
+            "Diameter(mm)": "0.451245",
+            "K(mm^2/sec)": "0.329387",
+            "T_max(K)": "764.457",
+            "D_Tmax/D_drop": "4.40832",
+            "D_OHm/D_drop": "28.3574",
+            "(D/Do)2": "0.8144882"
+          }
+        },
+        {
+          "sourceRow": 146,
+          "raw": {
+            "Time(sec)": "0.212468",
+            "Diameter(mm)": "0.445623",
+            "K(mm^2/sec)": "0.335213",
+            "T_max(K)": "764.674",
+            "D_Tmax/D_drop": "4.46012",
+            "D_OHm/D_drop": "29.0804",
+            "(D/Do)2": "0.794319433"
+          }
+        },
+        {
+          "sourceRow": 147,
+          "raw": {
+            "Time(sec)": "0.227636",
+            "Diameter(mm)": "0.439837",
+            "K(mm^2/sec)": "0.340222",
+            "T_max(K)": "764.829",
+            "D_Tmax/D_drop": "4.50944",
+            "D_OHm/D_drop": "29.8206",
+            "(D/Do)2": "0.773826346"
+          }
+        },
+        {
+          "sourceRow": 148,
+          "raw": {
+            "Time(sec)": "0.247861",
+            "Diameter(mm)": "0.431877",
+            "K(mm^2/sec)": "0.345742",
+            "T_max(K)": "764.985",
+            "D_Tmax/D_drop": "4.57942",
+            "D_OHm/D_drop": "30.8897",
+            "(D/Do)2": "0.746070973"
+          }
+        },
+        {
+          "sourceRow": 149,
+          "raw": {
+            "Time(sec)": "0.268086",
+            "Diameter(mm)": "0.42365",
+            "K(mm^2/sec)": "0.350072",
+            "T_max(K)": "765.025",
+            "D_Tmax/D_drop": "4.64728",
+            "D_OHm/D_drop": "32.0278",
+            "(D/Do)2": "0.71791729"
+          }
+        },
+        {
+          "sourceRow": 150,
+          "raw": {
+            "Time(sec)": "0.280726",
+            "Diameter(mm)": "0.418378",
+            "K(mm^2/sec)": "0.352234",
+            "T_max(K)": "764.991",
+            "D_Tmax/D_drop": "4.68865",
+            "D_OHm/D_drop": "32.7921",
+            "(D/Do)2": "0.700160604"
+          }
+        },
+        {
+          "sourceRow": 151,
+          "raw": {
+            "Time(sec)": "0.290838",
+            "Diameter(mm)": "0.41409",
+            "K(mm^2/sec)": "0.353685",
+            "T_max(K)": "764.935",
+            "D_Tmax/D_drop": "4.72167",
+            "D_OHm/D_drop": "33.3929",
+            "(D/Do)2": "0.685882112"
+          }
+        },
+        {
+          "sourceRow": 152,
+          "raw": {
+            "Time(sec)": "0.30449",
+            "Diameter(mm)": "0.408205",
+            "K(mm^2/sec)": "0.355284",
+            "T_max(K)": "764.852",
+            "D_Tmax/D_drop": "4.77106",
+            "D_OHm/D_drop": "34.2623",
+            "(D/Do)2": "0.666525288"
+          }
+        },
+        {
+          "sourceRow": 153,
+          "raw": {
+            "Time(sec)": "0.318141",
+            "Diameter(mm)": "0.402209",
+            "K(mm^2/sec)": "0.356494",
+            "T_max(K)": "764.721",
+            "D_Tmax/D_drop": "4.82008",
+            "D_OHm/D_drop": "35.1237",
+            "(D/Do)2": "0.647088319"
+          }
+        },
+        {
+          "sourceRow": 154,
+          "raw": {
+            "Time(sec)": "0.327243",
+            "Diameter(mm)": "0.398152",
+            "K(mm^2/sec)": "0.357103",
+            "T_max(K)": "764.606",
+            "D_Tmax/D_drop": "4.85254",
+            "D_OHm/D_drop": "35.7383",
+            "(D/Do)2": "0.63410006"
+          }
+        },
+        {
+          "sourceRow": 155,
+          "raw": {
+            "Time(sec)": "0.337481",
+            "Diameter(mm)": "0.39353",
+            "K(mm^2/sec)": "0.357609",
+            "T_max(K)": "764.452",
+            "D_Tmax/D_drop": "4.88902",
+            "D_OHm/D_drop": "36.4329",
+            "(D/Do)2": "0.619463444"
+          }
+        },
+        {
+          "sourceRow": 156,
+          "raw": {
+            "Time(sec)": "0.346582",
+            "Diameter(mm)": "0.389371",
+            "K(mm^2/sec)": "0.357912",
+            "T_max(K)": "764.296",
+            "D_Tmax/D_drop": "4.92169",
+            "D_OHm/D_drop": "37.0622",
+            "(D/Do)2": "0.606439103"
+          }
+        },
+        {
+          "sourceRow": 157,
+          "raw": {
+            "Time(sec)": "0.357959",
+            "Diameter(mm)": "0.384105",
+            "K(mm^2/sec)": "0.358107",
+            "T_max(K)": "764.083",
+            "D_Tmax/D_drop": "4.96386",
+            "D_OHm/D_drop": "37.8984",
+            "(D/Do)2": "0.590146604"
+          }
+        },
+        {
+          "sourceRow": 158,
+          "raw": {
+            "Time(sec)": "0.37161",
+            "Diameter(mm)": "0.377687",
+            "K(mm^2/sec)": "0.358092",
+            "T_max(K)": "763.823",
+            "D_Tmax/D_drop": "5.01992",
+            "D_OHm/D_drop": "38.8892",
+            "(D/Do)2": "0.57058988"
+          }
+        },
+        {
+          "sourceRow": 159,
+          "raw": {
+            "Time(sec)": "0.380711",
+            "Diameter(mm)": "0.373349",
+            "K(mm^2/sec)": "0.357943",
+            "T_max(K)": "763.628",
+            "D_Tmax/D_drop": "5.05761",
+            "D_OHm/D_drop": "39.607",
+            "(D/Do)2": "0.557557903"
+          }
+        },
+        {
+          "sourceRow": 160,
+          "raw": {
+            "Time(sec)": "0.389812",
+            "Diameter(mm)": "0.368962",
+            "K(mm^2/sec)": "0.357688",
+            "T_max(K)": "763.415",
+            "D_Tmax/D_drop": "5.09564",
+            "D_OHm/D_drop": "40.3",
+            "(D/Do)2": "0.54453183"
+          }
+        },
+        {
+          "sourceRow": 161,
+          "raw": {
+            "Time(sec)": "0.398913",
+            "Diameter(mm)": "0.364525",
+            "K(mm^2/sec)": "0.357333",
+            "T_max(K)": "763.184",
+            "D_Tmax/D_drop": "5.1341",
+            "D_OHm/D_drop": "41.0287",
+            "(D/Do)2": "0.531513903"
+          }
+        },
+        {
+          "sourceRow": 162,
+          "raw": {
+            "Time(sec)": "0.408014",
+            "Diameter(mm)": "0.36004",
+            "K(mm^2/sec)": "0.356888",
+            "T_max(K)": "762.936",
+            "D_Tmax/D_drop": "5.17305",
+            "D_OHm/D_drop": "41.7941",
+            "(D/Do)2": "0.518515206"
+          }
+        },
+        {
+          "sourceRow": 163,
+          "raw": {
+            "Time(sec)": "0.417116",
+            "Diameter(mm)": "0.355504",
+            "K(mm^2/sec)": "0.356353",
+            "T_max(K)": "762.671",
+            "D_Tmax/D_drop": "5.21255",
+            "D_OHm/D_drop": "42.539",
+            "(D/Do)2": "0.505532376"
+          }
+        },
+        {
+          "sourceRow": 164,
+          "raw": {
+            "Time(sec)": "0.426217",
+            "Diameter(mm)": "0.350916",
+            "K(mm^2/sec)": "0.355735",
+            "T_max(K)": "762.408",
+            "D_Tmax/D_drop": "5.25598",
+            "D_OHm/D_drop": "43.3337",
+            "(D/Do)2": "0.492568156"
+          }
+        },
+        {
+          "sourceRow": 165,
+          "raw": {
+            "Time(sec)": "0.435318",
+            "Diameter(mm)": "0.346277",
+            "K(mm^2/sec)": "0.355037",
+            "T_max(K)": "762.135",
+            "D_Tmax/D_drop": "5.30117",
+            "D_OHm/D_drop": "44.161",
+            "(D/Do)2": "0.479631043"
+          }
+        },
+        {
+          "sourceRow": 166,
+          "raw": {
+            "Time(sec)": "0.444419",
+            "Diameter(mm)": "0.341585",
+            "K(mm^2/sec)": "0.354268",
+            "T_max(K)": "761.846",
+            "D_Tmax/D_drop": "5.34711",
+            "D_OHm/D_drop": "44.9707",
+            "(D/Do)2": "0.466721249"
+          }
+        },
+        {
+          "sourceRow": 167,
+          "raw": {
+            "Time(sec)": "0.45352",
+            "Diameter(mm)": "0.336838",
+            "K(mm^2/sec)": "0.353427",
+            "T_max(K)": "761.539",
+            "D_Tmax/D_drop": "5.39388",
+            "D_OHm/D_drop": "45.8425",
+            "(D/Do)2": "0.453839353"
+          }
+        },
+        {
+          "sourceRow": 168,
+          "raw": {
+            "Time(sec)": "0.462621",
+            "Diameter(mm)": "0.332035",
+            "K(mm^2/sec)": "0.352521",
+            "T_max(K)": "761.214",
+            "D_Tmax/D_drop": "5.44157",
+            "D_OHm/D_drop": "46.7466",
+            "(D/Do)2": "0.440988965"
+          }
+        },
+        {
+          "sourceRow": 169,
+          "raw": {
+            "Time(sec)": "0.471722",
+            "Diameter(mm)": "0.327174",
+            "K(mm^2/sec)": "0.35155",
+            "T_max(K)": "760.871",
+            "D_Tmax/D_drop": "5.49025",
+            "D_OHm/D_drop": "47.6395",
+            "(D/Do)2": "0.428171305"
+          }
+        },
+        {
+          "sourceRow": 170,
+          "raw": {
+            "Time(sec)": "0.479913",
+            "Diameter(mm)": "0.32275",
+            "K(mm^2/sec)": "0.350628",
+            "T_max(K)": "760.557",
+            "D_Tmax/D_drop": "5.53702",
+            "D_OHm/D_drop": "48.49",
+            "(D/Do)2": "0.41667025"
+          }
+        },
+        {
+          "sourceRow": 171,
+          "raw": {
+            "Time(sec)": "0.488104",
+            "Diameter(mm)": "0.318275",
+            "K(mm^2/sec)": "0.349657",
+            "T_max(K)": "760.243",
+            "D_Tmax/D_drop": "5.58732",
+            "D_OHm/D_drop": "49.392",
+            "(D/Do)2": "0.405195903"
+          }
+        },
+        {
+          "sourceRow": 172,
+          "raw": {
+            "Time(sec)": "0.496295",
+            "Diameter(mm)": "0.31375",
+            "K(mm^2/sec)": "0.348639",
+            "T_max(K)": "759.911",
+            "D_Tmax/D_drop": "5.63853",
+            "D_OHm/D_drop": "50.2908",
+            "(D/Do)2": "0.39375625"
+          }
+        },
+        {
+          "sourceRow": 173,
+          "raw": {
+            "Time(sec)": "0.504486",
+            "Diameter(mm)": "0.309173",
+            "K(mm^2/sec)": "0.347582",
+            "T_max(K)": "759.563",
+            "D_Tmax/D_drop": "5.69077",
+            "D_OHm/D_drop": "51.2033",
+            "(D/Do)2": "0.382351776"
+          }
+        },
+        {
+          "sourceRow": 174,
+          "raw": {
+            "Time(sec)": "0.512677",
+            "Diameter(mm)": "0.304541",
+            "K(mm^2/sec)": "0.346477",
+            "T_max(K)": "759.196",
+            "D_Tmax/D_drop": "5.74415",
+            "D_OHm/D_drop": "52.2066",
+            "(D/Do)2": "0.370980883"
+          }
+        },
+        {
+          "sourceRow": 175,
+          "raw": {
+            "Time(sec)": "0.520868",
+            "Diameter(mm)": "0.299853",
+            "K(mm^2/sec)": "0.345332",
+            "T_max(K)": "758.811",
+            "D_Tmax/D_drop": "5.7988",
+            "D_OHm/D_drop": "53.2045",
+            "(D/Do)2": "0.359647286"
+          }
+        },
+        {
+          "sourceRow": 176,
+          "raw": {
+            "Time(sec)": "0.529059",
+            "Diameter(mm)": "0.295106",
+            "K(mm^2/sec)": "0.344121",
+            "T_max(K)": "758.418",
+            "D_Tmax/D_drop": "5.85696",
+            "D_OHm/D_drop": "54.2166",
+            "(D/Do)2": "0.348350205"
+          }
+        },
+        {
+          "sourceRow": 177,
+          "raw": {
+            "Time(sec)": "0.53725",
+            "Diameter(mm)": "0.290299",
+            "K(mm^2/sec)": "0.342885",
+            "T_max(K)": "758.024",
+            "D_Tmax/D_drop": "5.92017",
+            "D_OHm/D_drop": "55.3024",
+            "(D/Do)2": "0.337094038"
+          }
+        },
+        {
+          "sourceRow": 178,
+          "raw": {
+            "Time(sec)": "0.545441",
+            "Diameter(mm)": "0.285429",
+            "K(mm^2/sec)": "0.34161",
+            "T_max(K)": "757.609",
+            "D_Tmax/D_drop": "5.98493",
+            "D_OHm/D_drop": "56.4629",
+            "(D/Do)2": "0.325878856"
+          }
+        },
+        {
+          "sourceRow": 179,
+          "raw": {
+            "Time(sec)": "0.553632",
+            "Diameter(mm)": "0.280493",
+            "K(mm^2/sec)": "0.340355",
+            "T_max(K)": "757.172",
+            "D_Tmax/D_drop": "6.05146",
+            "D_OHm/D_drop": "57.605",
+            "(D/Do)2": "0.314705292"
+          }
+        },
+        {
+          "sourceRow": 180,
+          "raw": {
+            "Time(sec)": "0.561822",
+            "Diameter(mm)": "0.275488",
+            "K(mm^2/sec)": "0.339013",
+            "T_max(K)": "756.712",
+            "D_Tmax/D_drop": "6.11983",
+            "D_OHm/D_drop": "58.8096",
+            "(D/Do)2": "0.303574553"
+          }
+        },
+        {
+          "sourceRow": 181,
+          "raw": {
+            "Time(sec)": "0.570013",
+            "Diameter(mm)": "0.270412",
+            "K(mm^2/sec)": "0.337604",
+            "T_max(K)": "756.233",
+            "D_Tmax/D_drop": "6.19168",
+            "D_OHm/D_drop": "60.111",
+            "(D/Do)2": "0.292490599"
+          }
+        },
+        {
+          "sourceRow": 182,
+          "raw": {
+            "Time(sec)": "0.578204",
+            "Diameter(mm)": "0.26526",
+            "K(mm^2/sec)": "0.336205",
+            "T_max(K)": "755.755",
+            "D_Tmax/D_drop": "6.27149",
+            "D_OHm/D_drop": "61.4558",
+            "(D/Do)2": "0.28145147"
+          }
+        },
+        {
+          "sourceRow": 183,
+          "raw": {
+            "Time(sec)": "0.586395",
+            "Diameter(mm)": "0.260029",
+            "K(mm^2/sec)": "0.334725",
+            "T_max(K)": "755.25",
+            "D_Tmax/D_drop": "6.35358",
+            "D_OHm/D_drop": "62.813",
+            "(D/Do)2": "0.270460323"
+          }
+        },
+        {
+          "sourceRow": 184,
+          "raw": {
+            "Time(sec)": "0.594586",
+            "Diameter(mm)": "0.254714",
+            "K(mm^2/sec)": "0.333232",
+            "T_max(K)": "754.713",
+            "D_Tmax/D_drop": "6.43847",
+            "D_OHm/D_drop": "64.3364",
+            "(D/Do)2": "0.259516887"
+          }
+        },
+        {
+          "sourceRow": 185,
+          "raw": {
+            "Time(sec)": "0.601958",
+            "Diameter(mm)": "0.249855",
+            "K(mm^2/sec)": "0.331826",
+            "T_max(K)": "754.202",
+            "D_Tmax/D_drop": "6.51736",
+            "D_OHm/D_drop": "65.7485",
+            "(D/Do)2": "0.249710084"
+          }
+        },
+        {
+          "sourceRow": 186,
+          "raw": {
+            "Time(sec)": "0.60933",
+            "Diameter(mm)": "0.24492",
+            "K(mm^2/sec)": "0.330394",
+            "T_max(K)": "753.688",
+            "D_Tmax/D_drop": "6.60442",
+            "D_OHm/D_drop": "67.1849",
+            "(D/Do)2": "0.239943226"
+          }
+        },
+        {
+          "sourceRow": 187,
+          "raw": {
+            "Time(sec)": "0.616702",
+            "Diameter(mm)": "0.239906",
+            "K(mm^2/sec)": "0.32892",
+            "T_max(K)": "753.156",
+            "D_Tmax/D_drop": "6.69686",
+            "D_OHm/D_drop": "68.7024",
+            "(D/Do)2": "0.230219555"
+          }
+        },
+        {
+          "sourceRow": 188,
+          "raw": {
+            "Time(sec)": "0.624074",
+            "Diameter(mm)": "0.234809",
+            "K(mm^2/sec)": "0.327404",
+            "T_max(K)": "752.59",
+            "D_Tmax/D_drop": "6.79248",
+            "D_OHm/D_drop": "70.3723",
+            "(D/Do)2": "0.220541066"
+          }
+        },
+        {
+          "sourceRow": 189,
+          "raw": {
+            "Time(sec)": "0.631446",
+            "Diameter(mm)": "0.229624",
+            "K(mm^2/sec)": "0.32585",
+            "T_max(K)": "751.987",
+            "D_Tmax/D_drop": "6.89162",
+            "D_OHm/D_drop": "72.1019",
+            "(D/Do)2": "0.210908726"
+          }
+        },
+        {
+          "sourceRow": 190,
+          "raw": {
+            "Time(sec)": "0.641721",
+            "Diameter(mm)": "0.222239",
+            "K(mm^2/sec)": "0.323588",
+            "T_max(K)": "751.121",
+            "D_Tmax/D_drop": "7.04589",
+            "D_OHm/D_drop": "74.6321",
+            "(D/Do)2": "0.197560692"
+          }
+        },
+        {
+          "sourceRow": 191,
+          "raw": {
+            "Time(sec)": "0.651996",
+            "Diameter(mm)": "0.214654",
+            "K(mm^2/sec)": "0.321271",
+            "T_max(K)": "750.189",
+            "D_Tmax/D_drop": "7.21332",
+            "D_OHm/D_drop": "77.5059",
+            "(D/Do)2": "0.184305359"
+          }
+        },
+        {
+          "sourceRow": 192,
+          "raw": {
+            "Time(sec)": "0.662272",
+            "Diameter(mm)": "0.206852",
+            "K(mm^2/sec)": "0.318813",
+            "T_max(K)": "749.169",
+            "D_Tmax/D_drop": "7.39462",
+            "D_OHm/D_drop": "80.5679",
+            "(D/Do)2": "0.171151"
+          }
+        },
+        {
+          "sourceRow": 193,
+          "raw": {
+            "Time(sec)": "0.672547",
+            "Diameter(mm)": "0.198808",
+            "K(mm^2/sec)": "0.316236",
+            "T_max(K)": "748.093",
+            "D_Tmax/D_drop": "7.60244",
+            "D_OHm/D_drop": "83.9935",
+            "(D/Do)2": "0.158098483"
+          }
+        },
+        {
+          "sourceRow": 194,
+          "raw": {
+            "Time(sec)": "0.682822",
+            "Diameter(mm)": "0.190495",
+            "K(mm^2/sec)": "0.31351",
+            "T_max(K)": "746.889",
+            "D_Tmax/D_drop": "7.82736",
+            "D_OHm/D_drop": "87.8366",
+            "(D/Do)2": "0.14515338"
+          }
+        },
+        {
+          "sourceRow": 195,
+          "raw": {
+            "Time(sec)": "0.693098",
+            "Diameter(mm)": "0.181883",
+            "K(mm^2/sec)": "0.310618",
+            "T_max(K)": "745.604",
+            "D_Tmax/D_drop": "8.09089",
+            "D_OHm/D_drop": "92.0789",
+            "(D/Do)2": "0.132325703"
+          }
+        },
+        {
+          "sourceRow": 196,
+          "raw": {
+            "Time(sec)": "0.703373",
+            "Diameter(mm)": "0.172931",
+            "K(mm^2/sec)": "0.307563",
+            "T_max(K)": "744.161",
+            "D_Tmax/D_drop": "8.38606",
+            "D_OHm/D_drop": "97.0273",
+            "(D/Do)2": "0.119620523"
+          }
+        },
+        {
+          "sourceRow": 197,
+          "raw": {
+            "Time(sec)": "0.712621",
+            "Diameter(mm)": "0.164542",
+            "K(mm^2/sec)": "0.304611",
+            "T_max(K)": "742.73",
+            "D_Tmax/D_drop": "8.69382",
+            "D_OHm/D_drop": "102.029",
+            "(D/Do)2": "0.108296279"
+          }
+        },
+        {
+          "sourceRow": 198,
+          "raw": {
+            "Time(sec)": "0.721868",
+            "Diameter(mm)": "0.155793",
+            "K(mm^2/sec)": "0.30145",
+            "T_max(K)": "741.133",
+            "D_Tmax/D_drop": "9.0535",
+            "D_OHm/D_drop": "107.948",
+            "(D/Do)2": "0.097085835"
+          }
+        },
+        {
+          "sourceRow": 199,
+          "raw": {
+            "Time(sec)": "0.731116",
+            "Diameter(mm)": "0.146626",
+            "K(mm^2/sec)": "0.298028",
+            "T_max(K)": "739.318",
+            "D_Tmax/D_drop": "9.47408",
+            "D_OHm/D_drop": "114.697",
+            "(D/Do)2": "0.085996736"
+          }
+        },
+        {
+          "sourceRow": 200,
+          "raw": {
+            "Time(sec)": "0.740364",
+            "Diameter(mm)": "0.136966",
+            "K(mm^2/sec)": "0.294301",
+            "T_max(K)": "737.246",
+            "D_Tmax/D_drop": "9.98107",
+            "D_OHm/D_drop": "122.938",
+            "(D/Do)2": "0.075038741"
+          }
+        },
+        {
+          "sourceRow": 201,
+          "raw": {
+            "Time(sec)": "0.748687",
+            "Diameter(mm)": "0.127769",
+            "K(mm^2/sec)": "0.290592",
+            "T_max(K)": "735.092",
+            "D_Tmax/D_drop": "10.5415",
+            "D_OHm/D_drop": "131.828",
+            "(D/Do)2": "0.065299669"
+          }
+        },
+        {
+          "sourceRow": 202,
+          "raw": {
+            "Time(sec)": "0.75701",
+            "Diameter(mm)": "0.117995",
+            "K(mm^2/sec)": "0.286483",
+            "T_max(K)": "732.582",
+            "D_Tmax/D_drop": "11.2472",
+            "D_OHm/D_drop": "142.748",
+            "(D/Do)2": "0.05569128"
+          }
+        },
+        {
+          "sourceRow": 203,
+          "raw": {
+            "Time(sec)": "0.764501",
+            "Diameter(mm)": "0.108589",
+            "K(mm^2/sec)": "0.282322",
+            "T_max(K)": "729.925",
+            "D_Tmax/D_drop": "12.0618",
+            "D_OHm/D_drop": "155.253",
+            "(D/Do)2": "0.047166284"
+          }
+        },
+        {
+          "sourceRow": 204,
+          "raw": {
+            "Time(sec)": "0.770089",
+            "Diameter(mm)": "0.101109",
+            "K(mm^2/sec)": "0.278861",
+            "T_max(K)": "727.619",
+            "D_Tmax/D_drop": "12.8286",
+            "D_OHm/D_drop": "166.597",
+            "(D/Do)2": "0.04089212"
+          }
+        },
+        {
+          "sourceRow": 205,
+          "raw": {
+            "Time(sec)": "0.775677",
+            "Diameter(mm)": "0.0931398",
+            "K(mm^2/sec)": "0.275006",
+            "T_max(K)": "724.955",
+            "D_Tmax/D_drop": "13.803",
+            "D_OHm/D_drop": "180.979",
+            "(D/Do)2": "0.034700089"
+          }
+        },
+        {
+          "sourceRow": 206,
+          "raw": {
+            "Time(sec)": "0.780707",
+            "Diameter(mm)": "0.0854463",
+            "K(mm^2/sec)": "0.271138",
+            "T_max(K)": "722.172",
+            "D_Tmax/D_drop": "14.9363",
+            "D_OHm/D_drop": "197.264",
+            "(D/Do)2": "0.029204281"
+          }
+        },
+        {
+          "sourceRow": 207,
+          "raw": {
+            "Time(sec)": "0.78432",
+            "Diameter(mm)": "0.0795403",
+            "K(mm^2/sec)": "0.268055",
+            "T_max(K)": "719.919",
+            "D_Tmax/D_drop": "15.9718",
+            "D_OHm/D_drop": "211.834",
+            "(D/Do)2": "0.025306637"
+          }
+        },
+        {
+          "sourceRow": 208,
+          "raw": {
+            "Time(sec)": "0.787934",
+            "Diameter(mm)": "0.0732379",
+            "K(mm^2/sec)": "0.264731",
+            "T_max(K)": "717.441",
+            "D_Tmax/D_drop": "17.278",
+            "D_OHm/D_drop": "230.156",
+            "(D/Do)2": "0.02145516"
+          }
+        },
+        {
+          "sourceRow": 209,
+          "raw": {
+            "Time(sec)": "0.791186",
+            "Diameter(mm)": "0.0671406",
+            "K(mm^2/sec)": "0.261456",
+            "T_max(K)": "715.01",
+            "D_Tmax/D_drop": "18.7898",
+            "D_OHm/D_drop": "250.831",
+            "(D/Do)2": "0.018031441"
+          }
+        },
+        {
+          "sourceRow": 210,
+          "raw": {
+            "Time(sec)": "0.793534",
+            "Diameter(mm)": "0.0624247",
+            "K(mm^2/sec)": "0.258928",
+            "T_max(K)": "713.126",
+            "D_Tmax/D_drop": "20.1573",
+            "D_OHm/D_drop": "270.017",
+            "(D/Do)2": "0.015587373"
+          }
+        },
+        {
+          "sourceRow": 211,
+          "raw": {
+            "Time(sec)": "0.795482",
+            "Diameter(mm)": "0.058263",
+            "K(mm^2/sec)": "0.256704",
+            "T_max(K)": "711.489",
+            "D_Tmax/D_drop": "21.5418",
+            "D_OHm/D_drop": "289.068",
+            "(D/Do)2": "0.013578309"
+          }
+        },
+        {
+          "sourceRow": 212,
+          "raw": {
+            "Time(sec)": "0.797429",
+            "Diameter(mm)": "0.053821",
+            "K(mm^2/sec)": "0.254356",
+            "T_max(K)": "709.793",
+            "D_Tmax/D_drop": "23.2348",
+            "D_OHm/D_drop": "313.124",
+            "(D/Do)2": "0.0115868"
+          }
+        },
+        {
+          "sourceRow": 213,
+          "raw": {
+            "Time(sec)": "0.799183",
+            "Diameter(mm)": "0.0495234",
+            "K(mm^2/sec)": "0.252134",
+            "T_max(K)": "708.229",
+            "D_Tmax/D_drop": "25.1263",
+            "D_OHm/D_drop": "340.051",
+            "(D/Do)2": "0.009810269"
+          }
+        },
+        {
+          "sourceRow": 214,
+          "raw": {
+            "Time(sec)": "0.800483",
+            "Diameter(mm)": "0.0461063",
+            "K(mm^2/sec)": "0.250419",
+            "T_max(K)": "707.06",
+            "D_Tmax/D_drop": "26.8549",
+            "D_OHm/D_drop": "365.447",
+            "(D/Do)2": "0.008503164"
+          }
+        },
+        {
+          "sourceRow": 215,
+          "raw": {
+            "Time(sec)": "0.801783",
+            "Diameter(mm)": "0.0424413",
+            "K(mm^2/sec)": "0.248647",
+            "T_max(K)": "705.888",
+            "D_Tmax/D_drop": "28.9639",
+            "D_OHm/D_drop": "396.894",
+            "(D/Do)2": "0.007205056"
+          }
+        },
+        {
+          "sourceRow": 216,
+          "raw": {
+            "Time(sec)": "0.802953",
+            "Diameter(mm)": "0.0388739",
+            "K(mm^2/sec)": "0.246959",
+            "T_max(K)": "704.843",
+            "D_Tmax/D_drop": "31.3307",
+            "D_OHm/D_drop": "433.475",
+            "(D/Do)2": "0.00604472"
+          }
+        },
+        {
+          "sourceRow": 217,
+          "raw": {
+            "Time(sec)": "0.803785",
+            "Diameter(mm)": "0.036142",
+            "K(mm^2/sec)": "0.245721",
+            "T_max(K)": "704.117",
+            "D_Tmax/D_drop": "33.4106",
+            "D_OHm/D_drop": "466.236",
+            "(D/Do)2": "0.005224977"
+          }
+        },
+        {
+          "sourceRow": 218,
+          "raw": {
+            "Time(sec)": "0.804475",
+            "Diameter(mm)": "0.0337218",
+            "K(mm^2/sec)": "0.244649",
+            "T_max(K)": "703.527",
+            "D_Tmax/D_drop": "35.4754",
+            "D_OHm/D_drop": "499.304",
+            "(D/Do)2": "0.004548639"
+          }
+        },
+        {
+          "sourceRow": 219,
+          "raw": {
+            "Time(sec)": "0.805164",
+            "Diameter(mm)": "0.0311258",
+            "K(mm^2/sec)": "0.243523",
+            "T_max(K)": "702.952",
+            "D_Tmax/D_drop": "37.9708",
+            "D_OHm/D_drop": "541.704",
+            "(D/Do)2": "0.003875262"
+          }
+        },
+        {
+          "sourceRow": 220,
+          "raw": {
+            "Time(sec)": "0.805785",
+            "Diameter(mm)": "0.0286001",
+            "K(mm^2/sec)": "0.242458",
+            "T_max(K)": "702.457",
+            "D_Tmax/D_drop": "40.7525",
+            "D_OHm/D_drop": "588.841",
+            "(D/Do)2": "0.003271863"
+          }
+        },
+        {
+          "sourceRow": 221,
+          "raw": {
+            "Time(sec)": "0.806238",
+            "Diameter(mm)": "0.0266114",
+            "K(mm^2/sec)": "0.241643",
+            "T_max(K)": "702.119",
+            "D_Tmax/D_drop": "43.285",
+            "D_OHm/D_drop": "633.74",
+            "(D/Do)2": "0.002832666"
+          }
+        },
+        {
+          "sourceRow": 222,
+          "raw": {
+            "Time(sec)": "0.806615",
+            "Diameter(mm)": "0.0248424",
+            "K(mm^2/sec)": "0.240929",
+            "T_max(K)": "701.847",
+            "D_Tmax/D_drop": "45.7947",
+            "D_OHm/D_drop": "678.6",
+            "(D/Do)2": "0.002468579"
+          }
+        },
+        {
+          "sourceRow": 223,
+          "raw": {
+            "Time(sec)": "0.806993",
+            "Diameter(mm)": "0.0229432",
+            "K(mm^2/sec)": "0.240189",
+            "T_max(K)": "701.593",
+            "D_Tmax/D_drop": "48.8556",
+            "D_OHm/D_drop": "734.275",
+            "(D/Do)2": "0.002105562"
+          }
+        },
+        {
+          "sourceRow": 224,
+          "raw": {
+            "Time(sec)": "0.807332",
+            "Diameter(mm)": "0.0210938",
+            "K(mm^2/sec)": "0.239457",
+            "T_max(K)": "701.387",
+            "D_Tmax/D_drop": "52.3228",
+            "D_OHm/D_drop": "799.872",
+            "(D/Do)2": "0.001779794"
+          }
+        },
+        {
+          "sourceRow": 225,
+          "raw": {
+            "Time(sec)": "0.807584",
+            "Diameter(mm)": "0.0196154",
+            "K(mm^2/sec)": "0.238872",
+            "T_max(K)": "701.244",
+            "D_Tmax/D_drop": "55.4713",
+            "D_OHm/D_drop": "859.214",
+            "(D/Do)2": "0.001539056"
+          }
+        },
+        {
+          "sourceRow": 226,
+          "raw": {
+            "Time(sec)": "0.807792",
+            "Diameter(mm)": "0.0183022",
+            "K(mm^2/sec)": "0.238355",
+            "T_max(K)": "701.142",
+            "D_Tmax/D_drop": "58.6808",
+            "D_OHm/D_drop": "921.514",
+            "(D/Do)2": "0.001339882"
+          }
+        },
+        {
+          "sourceRow": 227,
+          "raw": {
+            "Time(sec)": "0.808001",
+            "Diameter(mm)": "0.0168903",
+            "K(mm^2/sec)": "0.237809",
+            "T_max(K)": "701.05",
+            "D_Tmax/D_drop": "62.6161",
+            "D_OHm/D_drop": "999.202",
+            "(D/Do)2": "0.001141129"
+          }
+        },
+        {
+          "sourceRow": 228,
+          "raw": {
+            "Time(sec)": "0.808189",
+            "Diameter(mm)": "0.0155132",
+            "K(mm^2/sec)": "0.237252",
+            "T_max(K)": "700.978",
+            "D_Tmax/D_drop": "67.0598",
+            "D_OHm/D_drop": "1086.59",
+            "(D/Do)2": "0.000962637"
+          }
+        },
+        {
+          "sourceRow": 229,
+          "raw": {
+            "Time(sec)": "0.808327",
+            "Diameter(mm)": "0.0144159",
+            "K(mm^2/sec)": "0.236797",
+            "T_max(K)": "700.941",
+            "D_Tmax/D_drop": "71.2267",
+            "D_OHm/D_drop": "1171.35",
+            "(D/Do)2": "0.000831273"
+          }
+        },
+        {
+          "sourceRow": 230,
+          "raw": {
+            "Time(sec)": "0.808442",
+            "Diameter(mm)": "0.0134414",
+            "K(mm^2/sec)": "0.236388",
+            "T_max(K)": "700.91",
+            "D_Tmax/D_drop": "75.3797",
+            "D_OHm/D_drop": "1255.96",
+            "(D/Do)2": "0.000722685"
+          }
+        },
+        {
+          "sourceRow": 231,
+          "raw": {
+            "Time(sec)": "0.808557",
+            "Diameter(mm)": "0.0123924",
+            "K(mm^2/sec)": "0.23595",
+            "T_max(K)": "700.898",
+            "D_Tmax/D_drop": "80.6535",
+            "D_OHm/D_drop": "1360.69",
+            "(D/Do)2": "0.000614286"
+          }
+        },
+        {
+          "sourceRow": 232,
+          "raw": {
+            "Time(sec)": "0.80866",
+            "Diameter(mm)": "0.0113676",
+            "K(mm^2/sec)": "0.235487",
+            "T_max(K)": "700.89",
+            "D_Tmax/D_drop": "86.6485",
+            "D_OHm/D_drop": "1486.27",
+            "(D/Do)2": "0.000516889"
+          }
+        },
+        {
+          "sourceRow": 233,
+          "raw": {
+            "Time(sec)": "0.808736",
+            "Diameter(mm)": "0.0105552",
+            "K(mm^2/sec)": "0.235101",
+            "T_max(K)": "700.89",
+            "D_Tmax/D_drop": "92.2007",
+            "D_OHm/D_drop": "1599.62",
+            "(D/Do)2": "0.000445649"
+          }
+        },
+        {
+          "sourceRow": 234,
+          "raw": {
+            "Time(sec)": "0.808798",
+            "Diameter(mm)": "0.0098345",
+            "K(mm^2/sec)": "0.234749",
+            "T_max(K)": "700.897",
+            "D_Tmax/D_drop": "97.9182",
+            "D_OHm/D_drop": "1715.03",
+            "(D/Do)2": "0.00038687"
+          }
+        },
+        {
+          "sourceRow": 235,
+          "raw": {
+            "Time(sec)": "0.808861",
+            "Diameter(mm)": "0.00905778",
+            "K(mm^2/sec)": "0.234368",
+            "T_max(K)": "700.903",
+            "D_Tmax/D_drop": "104.997",
+            "D_OHm/D_drop": "1865.55",
+            "(D/Do)2": "0.000328174"
+          }
+        },
+        {
+          "sourceRow": 236,
+          "raw": {
+            "Time(sec)": "0.808917",
+            "Diameter(mm)": "0.00829801",
+            "K(mm^2/sec)": "0.233953",
+            "T_max(K)": "700.921",
+            "D_Tmax/D_drop": "113.331",
+            "D_OHm/D_drop": "2035.2",
+            "(D/Do)2": "0.000275428"
+          }
+        },
+        {
+          "sourceRow": 237,
+          "raw": {
+            "Time(sec)": "0.808958",
+            "Diameter(mm)": "0.00769854",
+            "K(mm^2/sec)": "0.233601",
+            "T_max(K)": "700.934",
+            "D_Tmax/D_drop": "121.006",
+            "D_OHm/D_drop": "2190.77",
+            "(D/Do)2": "0.00023707"
+          }
+        },
+        {
+          "sourceRow": 238,
+          "raw": {
+            "Time(sec)": "0.808992",
+            "Diameter(mm)": "0.00716737",
+            "K(mm^2/sec)": "0.233277",
+            "T_max(K)": "700.947",
+            "D_Tmax/D_drop": "128.885",
+            "D_OHm/D_drop": "2356.23",
+            "(D/Do)2": "0.000205485"
+          }
+        },
+        {
+          "sourceRow": 239,
+          "raw": {
+            "Time(sec)": "0.809026",
+            "Diameter(mm)": "0.00659435",
+            "K(mm^2/sec)": "0.232926",
+            "T_max(K)": "700.964",
+            "D_Tmax/D_drop": "138.874",
+            "D_OHm/D_drop": "2562.03",
+            "(D/Do)2": "0.000173942"
+          }
+        },
+        {
+          "sourceRow": 240,
+          "raw": {
+            "Time(sec)": "0.809056",
+            "Diameter(mm)": "0.0060331",
+            "K(mm^2/sec)": "0.232533",
+            "T_max(K)": "700.979",
+            "D_Tmax/D_drop": "150.442",
+            "D_OHm/D_drop": "2795",
+            "(D/Do)2": "0.000145593"
+          }
+        },
+        {
+          "sourceRow": 241,
+          "raw": {
+            "Time(sec)": "0.809078",
+            "Diameter(mm)": "0.00559243",
+            "K(mm^2/sec)": "0.232195",
+            "T_max(K)": "700.993",
+            "D_Tmax/D_drop": "161.226",
+            "D_OHm/D_drop": "3014.46",
+            "(D/Do)2": "0.000125101"
+          }
+        },
+        {
+          "sourceRow": 242,
+          "raw": {
+            "Time(sec)": "0.809096",
+            "Diameter(mm)": "0.00520247",
+            "K(mm^2/sec)": "0.231884",
+            "T_max(K)": "701.006",
+            "D_Tmax/D_drop": "172.338",
+            "D_OHm/D_drop": "3246.37",
+            "(D/Do)2": "0.000108263"
+          }
+        },
+        {
+          "sourceRow": 243,
+          "raw": {
+            "Time(sec)": "0.809114",
+            "Diameter(mm)": "0.00478136",
+            "K(mm^2/sec)": "0.231546",
+            "T_max(K)": "701.016",
+            "D_Tmax/D_drop": "186.278",
+            "D_OHm/D_drop": "3527.28",
+            "(D/Do)2": "9.14456E-05"
+          }
+        }
+      ]
+    }
+  ]
+}

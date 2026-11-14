@@ -1,0 +1,386 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-99",
+  "format": "docx",
+  "source": {
+    "fileName": "PSI-99_Science Documents_SAFFIRE-II Readme.docx",
+    "folder": "Science Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-99/Science Documents/PSI-99_Science Documents_SAFFIRE-II Readme.docx",
+    "version": 1,
+    "sizeBytes": 134425,
+    "sha256": "9f71bb8461dd1306d73a84264729851a10d7195616390096f929fa3f5ecbad72",
+    "localPath": "data/raw/PSI-99/Science Documents/PSI-99_Science Documents_SAFFIRE-II Readme.docx",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99"
+  },
+  "extractor": {
+    "name": "docx",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:25:35+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 11,
+    "characters": 2588,
+    "tables": 2,
+    "tableRows": 28,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "The objectives of the SAFFIRE (Spacecraft Fire Experiment) experiments are to (1) determine how rapidly a large scale fire grows in low-gravity and (2) investigate the low-g flammability limits compared to those obtained in NASA’s normal gravity material flammability screening test. The specific objective of SAFFIRE-II tests is to quantify that affect in long-duration low-gravity using samples of the same size as those used in the NASA-STD-6001 Test 1 normal-gravity tests. SAFFIRE-II has a sample card that contains 9 samples, each 5 cm x 29 cm. Sample composition is described in Table 1 and position on the sample card is illustrated in Figure 1.",
+      "location": {
+        "paragraph": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "Table 1. Saffire-II Samples",
+      "location": {
+        "paragraph": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "Figure 1. Sample Layout for Saffire-II",
+      "location": {
+        "paragraph": 6
+      }
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "In addition to the 9 samples, data was also collected for pre-flow and post-flow. These image sets are denoted as F1 for pre-flow and F2 for post-flow.",
+      "location": {
+        "paragraph": 9
+      }
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "The experiment data is organized in PSI by sample number and camera number. There were 2 cameras capturing images during the experiment and they are denoted as C1 for camera 1 and C2 for camera 2. There are various documents and associated information located on the different tabs within the SAFFIRE Investigations records in PSI. A very useful document to review first is the “SAFFIRE Objectives, Development and Status.pdf” document located on the “Overview” tab in the Summary Document section. The experiment records are found on the “Data” tab in the SAFFIRE-II Investigations record. Table 2 contains list of experiment records in PSI and a short description of what each record contains.",
+      "location": {
+        "paragraph": 10
+      }
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "Table 2. Saffire-II Experiment Data in PSI",
+      "location": {
+        "paragraph": 12
+      }
+    },
+    {
+      "type": "table",
+      "id": "b7",
+      "name": "Table 1",
+      "confidence": "high",
+      "location": {
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Experiment Data Record Name",
+        "Description"
+      ],
+      "rowCount": 17,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II F1C1",
+            "Description": "Pre-flow, camera 1 image sets"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II F1C2",
+            "Description": "Pre-flow, camera 2 image sets"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II F2C1",
+            "Description": "Post-flow, camera 1 image sets"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II F2C2",
+            "Description": "Post-flow, camera 2 image sets"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II S1C1",
+            "Description": "Sample 1, camera 1 image sets"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II S1C2",
+            "Description": "Sample 1, camera 2 image sets"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II S2C2",
+            "Description": "Sample 2, camera 2 image sets"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II S3C2",
+            "Description": "Sample 3, camera 2 image sets"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II S4C1",
+            "Description": "Sample 4, camera 1 image sets"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II S4C2",
+            "Description": "Sample 4, camera 2 image sets"
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II S5C1",
+            "Description": "Sample 5, camera 1 image sets"
+          }
+        },
+        {
+          "sourceRow": 12,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II S5C2",
+            "Description": "Sample 5, camera 2 image sets"
+          }
+        },
+        {
+          "sourceRow": 13,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II S6C1",
+            "Description": "Sample 6, camera 1 image sets"
+          }
+        },
+        {
+          "sourceRow": 14,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II S6C2",
+            "Description": "Sample 6, camera 2 image sets"
+          }
+        },
+        {
+          "sourceRow": 15,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II S7C1",
+            "Description": "Sample 7, camera 1 image sets"
+          }
+        },
+        {
+          "sourceRow": 16,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II S8C1",
+            "Description": "Sample 8, camera 1 image sets"
+          }
+        },
+        {
+          "sourceRow": 17,
+          "raw": {
+            "Experiment Data Record Name": "SAFFIRE-II S9C1",
+            "Description": "Sample 9, camera 1 image sets"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "Each Experiment Data record contains raw data and multiple image sets. Associated raw data documents and individual image sets are located on the “Scientific Data and Information” tab within the Experiment Data record. The raw data is captured from each experimental sensor and presented in excel files. The suite of experimental sensors used is summarized in Table 3.",
+      "location": {
+        "paragraph": 14
+      }
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "Table 3. Saffire, I, II and III Diagnostics",
+      "location": {
+        "paragraph": 16
+      }
+    },
+    {
+      "type": "text",
+      "id": "b10",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "Table 4 contains a description of the different SAFFIRE image sets loaded in PSI.",
+      "location": {
+        "paragraph": 19
+      }
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "Table 4. SAFFIRE Image Sets in PSI",
+      "location": {
+        "paragraph": 21
+      }
+    },
+    {
+      "type": "table",
+      "id": "b12",
+      "name": "Table 2",
+      "confidence": "high",
+      "location": {
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Image Set Name",
+        "Description"
+      ],
+      "rowCount": 11,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Image Set Name": "BIT",
+            "Description": "Built-In Test images were captured immediately after the payload was powered on"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Image Set Name": "DistortionGrids_Sample_ROI",
+            "Description": "Image sets characterize the camera distortion of the system (pre-flight) using a checkerboard pattern grid"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Image Set Name": "DistortionGrids_Sample_ROI_Mapped",
+            "Description": "DistortionGrid images processed post-flight where the distortion of the camera system is corrected, or mapped, to a flat grid"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Image Set Name": "jpeg",
+            "Description": "Jpeg images created on-board SAFFIRE payload and downlinked by command"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Image Set Name": "Jpeg_Mapped",
+            "Description": "Jpeg images processed post-flight where the distortion of the camera system is corrected, or mapped, to a flat grid"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Image Set Name": "jpeg2png_icmad",
+            "Description": "Jpeg images annotated with ICMAD 'Exposure' and 'Gain' information.  Data is appended to the bottom of each frame using ImageMagick script and re-saved as .png format to minimize additional compression artifacts"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Image Set Name": "Raw_DistroMaster",
+            "Description": "Camera original RAW files recorded on-board and downlinked on command.  Contains 8-byte offset that must be processed prior to color interpolation and distribution"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Image Set Name": "Raw2TIFF",
+            "Description": "TIFF images of the RAW Distribution Master files, color interpolated (demosaiced) using IrfanView Batch Conversion process"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Image Set Name": "Raw2TIFF_Mapped",
+            "Description": "RAW2TIFF images processed post-flight where the distortion of the camera system is corrected, or mapped, to a flat grid"
+          }
+        },
+        {
+          "sourceRow": 10,
+          "raw": {
+            "Image Set Name": "Raw2TIFF_icmad",
+            "Description": "Raw2TIFF files annotated with ICMAD 'Exposure' and 'Gain' information. Data is appended to the bottom of each frame using ImageMagick script and resaved as TIFF"
+          }
+        },
+        {
+          "sourceRow": 11,
+          "raw": {
+            "Image Set Name": "Raw2TIFF_icmad_Mapped",
+            "Description": "RAW2TIFF_icmad images processed post-flight where the distortion of the camera system is corrected, or mapped, to a flat grid"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "paragraph",
+      "level": null,
+      "style": "Normal",
+      "text": "Some image sets are very large. They may contain over 10,000 images which makes it impractical to display as thumbnails in the Image Gallery which appears on the “Image Data and Information” tab of the Videos & Images record of the image set. In the case of very large image sets, all the images are provided in zip files labeled “Original Image Files” on the “Image Data and Information” tab. These files can be downloaded and viewed on the local machine.",
+      "location": {
+        "paragraph": 23
+      }
+    }
+  ]
+}

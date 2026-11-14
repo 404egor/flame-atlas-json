@@ -1,0 +1,901 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-102",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-102_Reference Data_SAME_Crew Interface Description.pdf",
+    "folder": "Reference Data",
+    "subfolder": null,
+    "key": "psi-data/PSI-102/Reference Data/PSI-102_Reference Data_SAME_Crew Interface Description.pdf",
+    "version": 2,
+    "sizeBytes": 694482,
+    "sha256": "6d67f5e435a94a639f45d7781d998045ab9555dad422d67f8c93a7006995b8f6",
+    "localPath": "data/raw/PSI-102/Reference Data/PSI-102_Reference Data_SAME_Crew Interface Description.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-102"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:28:02+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 7 table 1: 3 empty header(s) named column_<n> (columns 1, 3-4)",
+    "Page 12 table 1: 3 empty header(s) named column_<n> (columns 1, 3-4)",
+    "Page 12 table 2: 2 empty header(s) named column_<n> (columns 1, 3)",
+    "Page 13 table 1: 3 empty header(s) named column_<n> (columns 1, 3-4)",
+    "Page 14 table 1: 3 empty header(s) named column_<n> (columns 1, 3-4)",
+    "Page 15 table 1: 3 empty header(s) named column_<n> (columns 1, 3-4)"
+  ],
+  "stats": {
+    "textBlocks": 24,
+    "characters": 27265,
+    "tables": 9,
+    "tableRows": 44,
+    "pages": 24
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\nSmoke Aerosol Measurement Experiment (SAME)\nCrew Interface Description\nFebruary, 2006\nPrepared For:\nNational Aeronautics and Space Administration\nJohn H. Glenn Research Center at Lewis Field\nMicrogravity Science Division\nCleveland, Ohio 44135\nPrepared By:\nZIN Technologies, Incorporated\n2001 Aerospace Parkway\nBrook Park, Ohio 44142\nUnder Contract NAS3-99155, 60089-DO-084",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\nAPPROVALS\nPrepared by: /s/ Jeff Eggers for GAF Date: 01-06-06\nGregory A. Fedor\nZIN Technologies, Inc.\nSAME Software Engineer\nReviewed by: /s/ Jeff C. Eggers Date: 01-06-06\nJeffrey C. Eggers\nZIN Technologies, Inc.\nSAME Software Lead\nReviewed by: /s/ Kimesha M. Calaway Date: 01-06-06\nKimesha M. Calaway\nZIN Technologies, Inc.\nSAME Systems Engineer\nApproved by: /s/ Greg Funk Date: 01-06-06\nGregory P. Funk\nZIN Technologies, Inc.\nSAME Project Lead",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\nREVISIONS\nRevision Letter Publication Date Change Description Approval\n06/05 Draft\n-- 01/06 Baseline Release\nA 02/06 SAME-ECO-105: To reflect changes made when SYC 2/22/06\nconverting interface from Java\nGF 2/22/06\nto C++.\niii",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "table",
+      "id": "b4",
+      "name": "Page 3 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 3,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Revision Letter",
+        "Publication Date",
+        "Change Description",
+        "Approval"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Revision Letter": "",
+            "Publication Date": "06/05",
+            "Change Description": "Draft",
+            "Approval": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Revision Letter": "--",
+            "Publication Date": "01/06",
+            "Change Description": "Baseline Release",
+            "Approval": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Revision Letter": "A",
+            "Publication Date": "02/06",
+            "Change Description": "SAME-ECO-105: To reflect changes made when\nconverting interface from Java\nto C++.",
+            "Approval": "SYC 2/22/06\nGF 2/22/06"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\nTABLE OF CONTENTS\n1.0 INTRODUCTION ................................................................................................................................................. 1\n1.1 PURPOSE ......................................................................................................................................................... 1\n1.2 SCOPE ............................................................................................................................................................. 1\n2.0 CREW INTERFACE ............................................................................................................................................ 2\n2.1 PURPOSE ......................................................................................................................................................... 2\n2.2 DESCRIPTION .................................................................................................................................................. 3\n2.2.1 Primary Button Panel ............................................................................................................................ 3\n2.2.2 Menu Bar ............................................................................................................................................... 3\n2.2.3 Payload Status Area............................................................................................................................... 4\n2.2.4 Status Bar .............................................................................................................................................. 4\n2.2.5 Workspace.............................................................................................................................................. 5\n2.2.5.1 Welcome Screen ................................................................................................................................................ 5\n2.2.5.2 Status Screen ...................................................................................................................................................... 6\n2.2.5.3 Operations .......................................................................................................................................................... 7\n2.2.5.3.6 System Group ................................................................................................................................................... 7\n2.2.5.3.7 Test Group ........................................................................................................................................................ 8\n2.2.5.4 Commercial Diagnostics .................................................................................................................................... 9\n2.2.5.5 P-Trak .............................................................................................................................................................. 11\n2.2.6 Log ....................................................................................................................................................... 12\n2.2.7 Help ..................................................................................................................................................... 12\n2.2.8 Exit ....................................................................................................................................................... 13\n3.0 FLOW DIAGRAMS ............................................................................................................................................ 14\nLIST OF FIGURES\nFigure 1- Display Components ...................................................................................................................................... 3\nFigure 2 - Welcome Screen............................................................................................................................................ 5\nFigure 3 - Status Screen ................................................................................................................................................ 6\nFigure 4 - Operations Screen ........................................................................................................................................ 7\nFigure 5 – Commerical Diagnostics Screen .................................................................................................................. 9\nFigure 6 – P-Trak Screen ............................................................................................................................................ 11\nFigure 7 - Log Window ................................................................................................................................................ 12\nFigure 8 - Help Window .............................................................................................................................................. 12\nFigure 9 - Exit Confirmation ....................................................................................................................................... 13\nLIST OF TABLES\nTable 1 - Primary Buttons ............................................................................................................................................. 3\nTable 2 - Run Mode Values ........................................................................................................................................... 4\nTable 3 - Ethernet Switch Position Values .................................................................................................................... 7\nTable 4 - SAME System Command Buttons ................................................................................................................... 8\nTable 5 - SAME Test Commands ................................................................................................................................... 8\nTable 6 - DustTrak Buttons.......................................................................................................................................... 10\nTable 7 – P-Trak Buttons ............................................................................................................................................. 11\niv",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\n1.0 INTRODUCTION\nSmoke Aerosol Measurement Experiment (SAME) is an experiment payload planned for the Microgravity Science\nGlovebox (MSG) located on the International Space Station (ISS). The Crew Display (a.k.a. Human-Computer\nInterface or HCI) will operate on the MSG Laptop Computer MLC. It provides the crew with information about the\ncurrent status of the experiment and an ability to issue commands to control the system.\nThe crew interface for SAME is intended to be used only in off-nominal conditions. The nominal operation of the\nexperiment will occur via ground commanding.\n1.1 Purpose\nThe purpose of this document is to describe the SAME Crew Display and to:\n1) Provide details about the implementation of the SAME Crew Display requirements found in SAME-DOC-\n004, Section 7.0\n2) Satisfy the Preliminary and Candidate Display Deliveries as required for the Payload Display Review Team\n(PDRT)\n1.2 Scope\nThis document is limited to the operation of the SAME Crew Display. Issues concerning general operation of the\nexperiment via the software operating on the DACU or ground systems are not discussed here.\n1",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\n2.0 CREW INTERFACE\n2.1 Purpose\nThe purpose of the crew interface on SAME is to provide some basic information about the status of the experiment\nduring off-nominal conditions, especially in case of loss of data telemetry and/or commanding from and to the\nground. This information is minimal in nature. It represents the basic information that a crew member may be\nasked to report and commands they are asked to issue during off-nominal conditions.\nSection 3.0 provides flow diagrams showing the typical use of the crew interface. In summary, those uses are:\n• Commanding and Telemetry Check. Verification of SAME data transmittal and command reception.\n• Sample Positioning Check. Used to debug unexpected sample positioning behavior that could use a crew\nmember’s eye.\n• Gate Valve Check. Used to debug unexpected gate valve behavior.\n• P-Trak Configure. Execute specified commands and verify specified results on the P-Trak to achieve\nreconfiguration and/or debugging.\n• Commercial Diagnostics Configure. Execute specified commands and verify specified results on the\nCommercial Diagnostics unit to achieve reconfiguration and/or debugging.\n• Attended Operations. Ability to power-up the SAME DACU, initialize the instrument, run a specified\ntest, and shut down.\n2",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\n2.2 Description\nThe basic layout of the Crew Display is dictated by the requirements found in the Display and Graphics\nCommonality Standard (DGCS) (SSP 50313 Rev B). The standard describes the look-and-feel and deals with items\nsuch as colors, button type and placement, and major layout elements. Figure 1 below identifies the major layout\nelements.\nMenu\nBar\nPayload\nStatus\nArea\nc\na Primary\np\ns Button\nk\nr o Panel\nW\ne\nStatus\nBar\nFigure 1- Display Components\n2.2.1 Primary Button Panel\nThese buttons represent the major functions and operations of the interface.\nButton Description\nStatus The Status summary display is shown in the workspace. See 2.2.5.2\nOperations The Test display is shown in the workspace. See 2.2.5.3\nCommercial The Commercial Diagnostics display is shown in the workspace. See 2.2.5.4\nDiagnostics\nP-Trak The P-Trak display is shown in the workspace. See 2.2.5.5\nLog Displays the message log dialog panel. See 2.2.6\nHelp See 2.2.7\nExit Terminates the crew interface program. See 2.2.8\nTable 1 - Primary Buttons\n2.2.2 Menu Bar\nAs required by SSP50313 the menu bar replicates the functionality of buttons and commands that appear in other\nparts of the interface.\n3",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "table",
+      "id": "b9",
+      "name": "Page 7 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 7,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "Button",
+        "column_3",
+        "column_4",
+        "Description"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "Status",
+            "Button": "",
+            "column_3": "",
+            "column_4": "The Status summary display is shown in the workspace. See 2.2.5.2",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "Operations",
+            "Button": "",
+            "column_3": "",
+            "column_4": "The Test display is shown in the workspace. See 2.2.5.3",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "Commercial\nDiagnostics",
+            "Button": "",
+            "column_3": "",
+            "column_4": "The Commercial Diagnostics display is shown in the workspace. See 2.2.5.4",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "P-Trak",
+            "Button": "",
+            "column_3": "",
+            "column_4": "The P-Trak display is shown in the workspace. See 2.2.5.5",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "Log",
+            "Button": "",
+            "column_3": "",
+            "column_4": "Displays the message log dialog panel. See 2.2.6",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "Help",
+            "Button": "",
+            "column_3": "",
+            "column_4": "See 2.2.7",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "column_1": "Exit",
+            "Button": "",
+            "column_3": "",
+            "column_4": "Terminates the crew interface program. See 2.2.8",
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b10",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\n2.2.3 Payload Status Area\nThis is an area reserved in the DGCS for payloads to present critical information that is shown at all times. SAME\nwill use this area to display information about the experiment and testing status.\nThe Run Mode field displays the current running status of the SAME experiment. Possible values are:\nSTARTUP The DACU software is starting\nUNINITIALIZED The DACU software is waiting for the System Initialize command\nSTANDBY The DACU software has been successfully initialized and is waiting for\ncommands and is emitting housekeeping data.\nTEST RUNNING A test is currently in progress\nTEST PAUSED A test is paused\nSHUTDOWN The DACU software is in the process of shutting down.\nTable 2 - Run Mode Values\nThe OK Status indicator replicates the physical LED labeled OK on the DACU housing. It represents the physical\nstatus of the experiment. When the indicator is lit the system is operational (e,g, powered, booted, ready to run);\nunlit indicates the system is not operational (e.g. not powered, in error).\nThe Test Number field displays the current test number the DACU is running or prepared to run.\nThe Elapsed Time field displays how long the current test has been running (HH:MM:SS). If no test is running the\nfield will be blank\nThe GPS field is required by SSP50313. It provides a time reference for payload operations.\n2.2.4 Status Bar\nMessage Text Details\nTimestamp Level\nDescription\nThe latest information message received from the DACU will be displayed here. In addition, it is added to the\ngeneral message log (see 2.2.6). The message is specific to SAME and is composed of four comma-separated parts.\nThe first part is the GPS time the message was generated on the DACU. Next is the level of the message which is\neither INFO or ERROR. This is followed by the message text and optional detail text. The last two fields make up\nthe Description field in the general message log.\n4",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "table",
+      "id": "b11",
+      "name": "Page 8 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 8,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "STARTUP",
+        "The DACU software is starting"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "STARTUP": "UNINITIALIZED",
+            "The DACU software is starting": "The DACU software is waiting for the System Initialize command"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "STARTUP": "STANDBY",
+            "The DACU software is starting": "The DACU software has been successfully initialized and is waiting for\ncommands and is emitting housekeeping data."
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "STARTUP": "TEST RUNNING",
+            "The DACU software is starting": "A test is currently in progress"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "STARTUP": "TEST PAUSED",
+            "The DACU software is starting": "A test is paused"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "STARTUP": "SHUTDOWN",
+            "The DACU software is starting": "The DACU software is in the process of shutting down."
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b12",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\n2.2.5 Workspace\nThe workspace area is used for displaying information and controls for a given function. The contents will change\nbased on the primary function selected.\n2.2.5.1 Welcome Screen\nThe welcome screen is the first thing displayed when the crew display is started. There is no real content display, but\nit serves the purpose of positively identifying the SAME experiment. Once the operator selects a function from the\nprimary button panel, the workspace will change to the new display. There is no way of displaying the welcome\nscreen again without exiting and restarting the program.\nFigure 2 - Welcome Screen\n5",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\n2.2.5.2 Status Screen\nThe summary status display is shown when the operator presses the Status button. It shows information about the\nstate of SAME in addition to what is shown in the Payload Status Area (see 2.2.3).\nFigure 3 - Status Screen\n2.2.5.2.1 Sample Positioning Group\nThe sample group consists of 3 fields. The Sample Number field is the number of the sample within the carousel\nbeing tested at that time. The Carousel Number field is the number of the carousel that is installed. A carousel\nholds six samples. The combination of the carousel and sample number uniquely identifies a particular test item. The\nResistance field displays the measured resistance of the heater wire coil for the sample. This is used as a unique\nphysical indicator of which sample is being tested.\n2.2.5.2.2 SAME Power Group\nMSG provides SAME with 120VDC. SAME converts this into 5 separate voltages using DC/DC converters. The\nSAME Power group consists of fields indicating the state of the 5 voltages. For all voltages, the possible state\ninclude ON and OFF. In addtion the 12 VDC Heater, 12 VDC Misc, and 5 VDC can have a state of Enabled, which\nmeans that it was turned on, but has not yet been sensed as on.\n2.2.5.2.3 Ethernet Switch Group\nThe MLC Ethernet connection is routed through a switch inside SAME. The switch connects the MLC to either the\nISS LAN Backbone or to the SAME DACU. The purpose of this is to allow the DACU to transfer data files to the\nMLC via FTP. The switch is nominally controlled by the DACU; however the crew can manually activate the switch\nif necessary. When the DACU is unpowered, the switch connects the MLC to the ISS LAN. The Ethernet Switch\ngroup reports the state of the switch. There are three possible values:\n6",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "text",
+      "id": "b14",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\nMLC to SAME The MLC network connection is connected to the SAME DACU\n(for the purpose of transferring files)\nMLC to LAN The MLC network connection is connected to the ISS LAN\nThe above two states are achieved electronically by DACU commands\nManual: MLC to SAME The manual switch has been used to force the MLC network\nconnection to the SAME DACU.\nTable 3 - Ethernet Switch Position Values\n2.2.5.2.4 Gate Valves Group\nThe Gate Valves group displays the status of two valves; the Inlet and Outlet valves. These can either be OPEN or\nCLOSED.\n2.2.5.2.5 Supply Group\nSAME uses the GN2 and vacuum resources supplied by MSG. SAME regulates the GN2 supply as needed. The\nSupply Group displays the status of these gas supplies and the vacuum state. The Main GN2 and Main Vacuum\nresources both have valves that are controlled by the DACU. The valve indicator fields show the state of these\nvalves; OPEN or CLOSED. The pressure of the main GN2 supply, the vacuum, and the regulated GN2 are\nreported.\n2.2.5.3 Operations\nThe Operations display allows for sending commands that affect the operation of the SAME experiment. There are\ntwo groups of these commands.\nFigure 4 - Operations Screen\n2.2.5.3.6 System Group\nThese commands affect the entire SAME experiment.\n7",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "table",
+      "id": "b15",
+      "name": "Page 11 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 11,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "MLC to SAME",
+        "The MLC network connection is connected to the SAME DACU\n(for the purpose of transferring files)"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "MLC to SAME": "MLC to LAN",
+            "The MLC network connection is connected to the SAME DACU\n(for the purpose of transferring files)": "The MLC network connection is connected to the ISS LAN"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "MLC to SAME": "The above two states are achieved electronically by DACU commands",
+            "The MLC network connection is connected to the SAME DACU\n(for the purpose of transferring files)": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "MLC to SAME": "Manual: MLC to SAME",
+            "The MLC network connection is connected to the SAME DACU\n(for the purpose of transferring files)": "The manual switch has been used to force the MLC network\nconnection to the SAME DACU."
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b16",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\nButton Name Description\nCauses an innoculous command to be sent to the DACU to verify the ability of the\ninterface to communicate with the DACU in the crew interface-to-DACU direction. If the\nCheck\nmessage is successfully transmitted and received by the DACU, the DACU will send a\nCommunications\nreply message which will appear in the status bar. Communication in the DACU-to-crew\ninterface direction is checked by verifying that the GPS is updating correctly.\nCauses a System Initialization command to be sent to the DACU causing it to initialize\nInitialize the hardware component and prepare for test operations. Successful execution of this\ncommand will cause the Run Mode to change from UNINITIALIZED to STANDBY.\nCauses a System Shutdown command to be sent to the DACU causing it to perform an\norderly shutdown. The Run Mode will change to SHUTDOWN just prior to actual\nshutdown. This action must be confirmed using the following dialog box:\nShutdown…\nTable 4 - SAME System Command Buttons\n2.2.5.3.7 Test Group\nThese commands affect a SAME test.\nButton/Field Description\nName\nThis is a field where the user enters the desired test number to be used during execution of the\nTest Number\nStart… command.\nCauses the DACU to start the test specified by the Test Number field. The response will be seen by\na change of value in the Test Number field in the Payload Status Area. Also, the Run Mode field\nwill change to TEST RUNNING. This action must be confirmed using the following dialog:\nStart…\nPause Causes the DACU to suspend the current test. The Run Mode will change to TEST PAUSED.\nResume Causes the DACU to resume a paused test. The Run Mode field will change to TEST RUNNING.\nCauses the DACU to abort a test that has been started. This action must be confirmed using the\nfollowing dialog box:\nAbort…\nTable 5 - SAME Test Commands\n8",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "table",
+      "id": "b17",
+      "name": "Page 12 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 12,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "Button Name",
+        "column_3",
+        "column_4",
+        "Description"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "Check\nCommunications",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "Causes an innoculous command to be sent to the DACU to verify the ability of the\ninterface to communicate with the DACU in the crew interface-to-DACU direction. If the\nmessage is successfully transmitted and received by the DACU, the DACU will send a\nreply message which will appear in the status bar. Communication in the DACU-to-crew\ninterface direction is checked by verifying that the GPS is updating correctly.",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "Initialize",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "Causes a System Initialization command to be sent to the DACU causing it to initialize\nthe hardware component and prepare for test operations. Successful execution of this\ncommand will cause the Run Mode to change from UNINITIALIZED to STANDBY.",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "Shutdown…",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "Causes a System Shutdown command to be sent to the DACU causing it to perform an\norderly shutdown. The Run Mode will change to SHUTDOWN just prior to actual\nshutdown. This action must be confirmed using the following dialog box:",
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b18",
+      "name": "Page 12 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 12,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "Button/Field",
+        "column_3",
+        "Description"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "",
+            "Button/Field": "Name",
+            "column_3": "",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "Test Number",
+            "Button/Field": "",
+            "column_3": "",
+            "Description": "This is a field where the user enters the desired test number to be used during execution of the\nStart… command."
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "Start…",
+            "Button/Field": "",
+            "column_3": "",
+            "Description": "Causes the DACU to start the test specified by the Test Number field. The response will be seen by\na change of value in the Test Number field in the Payload Status Area. Also, the Run Mode field\nwill change to TEST RUNNING. This action must be confirmed using the following dialog:"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "Pause",
+            "Button/Field": "",
+            "column_3": "",
+            "Description": "Causes the DACU to suspend the current test. The Run Mode will change to TEST PAUSED."
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "Resume",
+            "Button/Field": "",
+            "column_3": "",
+            "Description": "Causes the DACU to resume a paused test. The Run Mode field will change to TEST RUNNING."
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "Abort…",
+            "Button/Field": "",
+            "column_3": "",
+            "Description": "Causes the DACU to abort a test that has been started. This action must be confirmed using the\nfollowing dialog box:"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\n2.2.5.4 Commercial Diagnostics\nThis display is shown when the operator clicks the Commercial Diagnostics button on the primary button panel. It\nprovides a set of commands to control the Commercial Diagnostics apparatus.\nFigure 5 – Commerical Diagnostics Screen\nThe Commercial Diagnostics unit contains a COTS instrument\ncalled a DustTrak. The DustTrak has a keypad and LCD as its\nprimary user interface. For SAME, the keypad has been removed\nand replaced with an electronic interface that is controlled by the\nDACU. The LCD has been retained and is located on the\nCommercial Diagnostics package and serves as the mechanism to\nview the status of the unit. The picture at left shows the COTS\npackaging, not as repackaged for SAME.\nThe interface display replicates the functions that would normally\nbe found on the keypad. When a button is clicked on the display, a\ncommand is sent to the DACU which in turn sends a signal to the\nDustTrak unit. The unit will act on the signal and the response\nwill be viewed on the LCD. There is no feedback to the crew\ninterface itself.\nButton Name Description\nPower On Turns the unit on.\nPower Off Turns the unit off.\nIncrement Sampling Each click of this button causes the next in a series of 4 modes to be\nMode displayed on the LCD. The modes are Survey, Log1, Log2, and Log3.\n9",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "table",
+      "id": "b20",
+      "name": "Page 13 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 13,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "Button Name",
+        "column_3",
+        "column_4",
+        "Description"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "Power On",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "Turns the unit on.",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "Power Off",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "Turns the unit off.",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "Increment Sampling\nMode",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "Each click of this button causes the next in a series of 4 modes to be\ndisplayed on the LCD. The modes are Survey, Log1, Log2, and Log3.",
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b21",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\nButton Name Description\nStart/Stop Sampling If the unit is sampling, clicking the button causes the unit to stop\nsampling. Otherwise, clicking the button will cause the unit to start\nsampling.\nView Statistics Each click of the button will cause the next in a series of 4 values to be\ndisplayed on the LCD. The values are the average, minimum, maximum\nreadings, and the elapsed time of the most recently sampled data.\nUp These two buttons are used to changed values displayed on the LCD\nDown during calibration.\nCalibrate Causes the unit to enter its calibration mode.\nClear Memory This will erase all data stored in the unit’s memory. This action must be\nconfirmed using the following dialog box:\nView Log Interval View the current frequency/averaging period for recording data in LOG\nmodes.\nIncrement Log Effectively presses and holds the View Log Interval key so that it\nInterval increments to the next available Log Interval setting.\nView Time Constant View the current time-constant on the LCD.\nIncrement Time Effectively presses and holds the View Time Constant key so that it\nConstant increments to the next available Time Constant setting.\nTable 6 - DustTrak Buttons\n10",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "table",
+      "id": "b22",
+      "name": "Page 14 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 14,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "Button Name",
+        "column_3",
+        "column_4",
+        "Description"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "Start/Stop Sampling",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "If the unit is sampling, clicking the button causes the unit to stop\nsampling. Otherwise, clicking the button will cause the unit to start\nsampling.",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "View Statistics",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "Each click of the button will cause the next in a series of 4 values to be\ndisplayed on the LCD. The values are the average, minimum, maximum\nreadings, and the elapsed time of the most recently sampled data.",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "Up\nDown",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "These two buttons are used to changed values displayed on the LCD\nduring calibration.",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "Calibrate",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "Causes the unit to enter its calibration mode.",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "Clear Memory",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "This will erase all data stored in the unit’s memory. This action must be\nconfirmed using the following dialog box:",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "column_1": "View Log Interval",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "View the current frequency/averaging period for recording data in LOG\nmodes.",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "column_1": "Increment Log\nInterval",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "Effectively presses and holds the View Log Interval key so that it\nincrements to the next available Log Interval setting.",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "column_1": "View Time Constant",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "View the current time-constant on the LCD.",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "column_1": "Increment Time\nConstant",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "Effectively presses and holds the View Time Constant key so that it\nincrements to the next available Time Constant setting.",
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b23",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\n2.2.5.5 P-Trak\nThis display is shown when the operator clicks the P-Trak button on the primary button panel. It provides a set of\ncommands to control the P-Trak apparatus.\nFigure 6 – P-Trak Screen\nThe P-Trak unit is a COTS item. It has a keypad and LCD as its primary user\ninterface. For SAME, the keypad has been removed and replaced with an\nelectronic interface that is controlled by the DACU. The LCD has been\nretained and is located on the SAME experiment package and serves as the\nmechanism to view the status of the unit. The picture at left shows the COTS\npackaging, not as repackaged for SAME.\nThe interface display replicates the functions that would normally be found\non the keypad. When a button is clicked on the display, a command is sent to\nthe DACU which in turn sends a signal to the P-Trak unit. The unit will act\non the signal and the response will be viewed on the LCD. There is no\nfeedback to the crew interface itself.\nButton Name Description\nPower On Turns the unit on.\nPower Off Turns the unit off.\nUp, Down These four buttons are used to changed values displayed on the\nLeft, Right LCD when such behavior is allowed.\nEnter Used with the arrow keys to navigate the LCD and change values\nwhen such behavior is allowed.\nView Setup Effectively presses the left and right buttons simultaneously\ncausing the P-Trak to display setup information on the LCD.\nTable 7 – P-Trak Buttons\n11",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "table",
+      "id": "b24",
+      "name": "Page 15 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 15,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "column_1",
+        "Button Name",
+        "column_3",
+        "column_4",
+        "Description"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "column_1": "Power On",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "Turns the unit on.",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "Power Off",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "Turns the unit off.",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "Up, Down\nLeft, Right",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "These four buttons are used to changed values displayed on the\nLCD when such behavior is allowed.",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "Enter",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "Used with the arrow keys to navigate the LCD and change values\nwhen such behavior is allowed.",
+            "Description": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "View Setup",
+            "Button Name": "",
+            "column_3": "",
+            "column_4": "Effectively presses the left and right buttons simultaneously\ncausing the P-Trak to display setup information on the LCD.",
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b25",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\n2.2.6 Log\nThe message log lists all the messages that have been received or generated by the interface. Messages originate\nfrom two sources: the DACU and the interface itself. The latest DACU message also appears on the Status Bar (see\n2.2.4). By default messages are sorted by GPS with the latest messages at the top. The window may be scrolled to\nsee earlier messages. Sorting order and column can be changed by selecting the column heading. Sub-sorts are\nachieved by holding <CTRL> while selecting two or more headings. An arrow in the heading indicates whether\nsorting is by decreasing (down arrow) or increasing (up arrow) order.\nMessages appear in the list with three pieces of information. First is the GPS timestamp of the message. Second is a\nLevel indicator. Messages are assigned one of the following levels: INFO, ERROR, or CONFIG. The final piece of\ninformation is the message description itself.\nMessages that originated from the DACU are always assigned an INFO or ERROR level. The DACU message is\nthen summarized in a single text string with all the individual message fields identified. Messages originating from\nthe interface can be CONFIG or ERROR level.\nFigure 7 - Log Window\n2.2.7 Help\nSelecting Help opens the Help window containing information similar to this document.\nFigure 8 - Help Window\n12",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "text",
+      "id": "b26",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\n2.2.8 Exit\nIn order to stop the crew interface program, select the Exit button on the Primary Button Panel. The following\nconfirmation dialog panel will be displayed.\nFigure 9 - Exit Confirmation\n13",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "text",
+      "id": "b27",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\n3.0 FLOW DIAGRAMS\nCommanding and Telemetry Check\nStart SAME Confirm: Select\nConfirm:\nin Crew Display Yes\nSelect Yes\nPower On Select Wait\nSAME Log 3 minutes\nWait\nCheck\n3 minutes no Power Off\nCommunication √\nSAME\nSuccess POIC\nmessage\n?\nGPS no\n√\nUpdating\nPOIC Select Exit\n?\nLog: Select\nOK\nOperations:\nSelect Check Confirm:\nOperations:\nCommunications Select Yes\nSelect\nShutdown\nCrew operations, SAME crew display\nCrew operations, other\nout\nGround operations\n14",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "text",
+      "id": "b28",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\nSample Positioning Check\nStatus: Verify that\nthe sample number\nSAME is\ndisplayed matches\nin powered &\nthe actual position and\ninitialized from\nthat sample resistance is\nground\ngood when carousel is\nengaged.\nStart SAME\nCrew Display\nReport results\nto POIC\nGPS no\n√\nUpdating Select Exit\nPOIC\n?\nSample carousel is Confirm:\nmanipulated Select Yes\nfrom the ground\nCrew operations, SAME crew display out\nCrew operations, other\nGround operations\n15",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "text",
+      "id": "b29",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\nGate Valve Check\nType\nPosition Commerical Gate valves are\nin Diagnostics unit manipulated\nto view LCD. from the ground\nPriority\nSAME is\nStatus:\npowered &\nVerify actual gate\ninitialized from\nvalve position(s) match\nground\nthose on crew display\nStart SAME\nCrew Display\nReport result\nto POIC\nno\nGP S √\nU pdating POIC Select Exit\n?\nCrew operations, SAME crew display Confirm:\nout\nSelect Yes\nCrew operations, other\nGround operations\n16",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "text",
+      "id": "b30",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\nP-Trak Configure\nP-Trak:\nPosition P-Trak select buttons as specified\nin to view LCD. by execution notes.\nObserve LCD on actual\nP-Trak unit.\nSAME is\npowered &\ninitialized from\nground\nReport results\nto POIC\nStart SAME\nCrew Display\nSelect Exit\nno\nGP S √ Confirm:\nUpdating POIC Select Yes\n?\nout\nCrew operations, SAME crew display\nCrew operations, other\nGround operations\n17",
+      "location": {
+        "page": 21
+      }
+    },
+    {
+      "type": "text",
+      "id": "b31",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\nCommercial Diagnostics Configure\nCommercial Diagnostics:\nSelect Unit A or B\nPosition Commerical\nas directed\nDiagnostics unit\nin\nto view LCD.\nCommercial Diagnostics:\nSAME is select buttons as specified\npowered & by execution notes. Observe\ninitialized from LCD on actual\nground Commercial Diagnostics unit.\nStart SAME\nCrew Display\nReport LCD results\nto POIC\nno\nGP S √\nSelect Exit\nU pdating POIC\n?\nConfirm:\nCrew operations, SAME crew display Select Yes out\nCrew operations, other\nGround operations\n18",
+      "location": {
+        "page": 22
+      }
+    },
+    {
+      "type": "text",
+      "id": "b32",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\nAttended Operations\nOperations:\nin Enter\nTest Number\nWait\n1 minute\nStart Crew\nDisplay\nOperations:\nSelect\nStart\nno\nPower On Run Mode √\nSAME = STANDBY POIC\n?\nConfirm: Select\nYes\nGPS no\n√ Status: check\nUpdating\nPOIC some values\n?\n(TBD)\nRun Mode no\n√\n= TEST\nPOIC\nRUNNING\nSe\nO\nle\np\nc\ne\nt\nr a\nIn\nti\ni\no\nti\nn\na\ns\nliz\n:\ne\nGoo d no\n√\n?\nValues\nPOIC\n?\nA\nCrew operations, SAME crew display\nCrew operations, other\nGround operations\n19",
+      "location": {
+        "page": 23
+      }
+    },
+    {
+      "type": "text",
+      "id": "b33",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAME-DOC-008 Rev A\nAttended Operations (continued)\nConfirm: Select\nYes\nA Operations:\nSelect\nResume\nWait\n3 minutes Wait 2 min\nRun M ode\nno\n= TEST √\nRUNNING POIC Select\nRun M ode no ? Exit\n√\n= TEST\nP AUSED\nPOIC\n?\nWait for\nConfirm:\nSelect Yes\nRun Mode =\nSTANDBY\nStatus:\n(20-50 min) Check\nSamp le # no\nm atches\n√ Every\nactual\nPOIC 10 min\nPower OFF\n? SAME\nOperations:\nSelect\nShutdown\nCrew operations, SAME crew display\nout\nCrew operations, other\nGround operations\n20",
+      "location": {
+        "page": 24
+      }
+    }
+  ]
+}

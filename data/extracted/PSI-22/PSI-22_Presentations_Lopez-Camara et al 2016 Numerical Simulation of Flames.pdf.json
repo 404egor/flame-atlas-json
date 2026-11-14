@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-22",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-22_Presentations_Lopez-Camara et al 2016 Numerical Simulation of Flames.pdf",
+    "folder": "Presentations",
+    "subfolder": null,
+    "key": "psi-data/PSI-22/Presentations/PSI-22_Presentations_Lopez-Camara et al 2016 Numerical Simulation of Flames.pdf",
+    "version": 1,
+    "sizeBytes": 1214646,
+    "sha256": "27d1146d5e7f8d6c5ae4eda19f5f6bde3f65b55e78716cb511b0a054ab2adf42",
+    "localPath": "data/raw/PSI-22/Presentations/PSI-22_Presentations_Lopez-Camara et al 2016 Numerical Simulation of Flames.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:16:35+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 6 table 2: 2 duplicate header(s) renamed: Yes (2), Yes (3)",
+    "Page 6 table 3: 2 duplicate header(s) renamed: No (2), Yes (2)",
+    "Page 9 table 2: 2 line(s) above the header skipped",
+    "Page 9 table 2: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 9 table 3: 1 line(s) above the header skipped",
+    "Page 9 table 4: 1 line(s) above the header skipped",
+    "Page 13 table 2: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 14 table 2: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 15 table 2: 1 empty header(s) named column_<n> (columns 2)",
+    "Page 16 table 2: 1 empty header(s) named column_<n> (columns 2)"
+  ],
+  "stats": {
+    "textBlocks": 20,
+    "characters": 7686,
+    "tables": 28,
+    "tableRows": 48,
+    "pages": 20
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Drop-Tower experiment at NASA Glenn Research Center (Cleveland, OH). March 5th 2010.\nCo-flow methane/air flame with external electric field applied (-5kV ). Simulating zero-gravity\nPic by Sunny V. Karnani, LFA laboratory (UC Irvine, CA)",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Drop-Tower experiment at NASA Glenn Research Center (Cleveland, OH). March 5th 2010.\nCo-flow methane/air flame with external electric field applied (-5kV ). Simulating zero-gravity\nPic by Sunny V. Karnani, LFA laboratory (UC Irvine, CA)",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Numerical Simulation of Flames\nunder the Influence of Electric Fields\nC-F. López-Cámara J. Tinajero V. Ricchiuti D. Dunn-Rankin\nMechanical and Aerospace Engineering Dept., UC Irvine (California, USA)\n32nd Annual Meeting of the American Society for Gravitational and Space Research\nThe Hilton-Downtown Cleveland, Cleveland, Ohio, USA\nOctober 26-29th 2016\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 3",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "table",
+      "id": "b4",
+      "name": "Page 3 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 3,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Numerical Simulation of Flames\nunder the Influence of Electric Fields\nC-F. López-Cámara J. Tinajero V. Ricchiuti D. Dunn-Rankin\nMechanical and Aerospace Engineering Dept., UC Irvine (California, USA)\n32nd Annual Meeting of the American Society for Gravitational and Space Research\nThe Hilton-Downtown Cleveland, Cleveland, Ohio, USA\nOctober 26-29th 2016"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Numerical Simulation of Flames\nunder the Influence of Electric Fields\nC-F. López-Cámara J. Tinajero V. Ricchiuti D. Dunn-Rankin\nMechanical and Aerospace Engineering Dept., UC Irvine (California, USA)\n32nd Annual Meeting of the American Society for Gravitational and Space Research\nThe Hilton-Downtown Cleveland, Cleveland, Ohio, USA\nOctober 26-29th 2016": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 3"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Introduction\nFlames and External E-field\nFlame behavior changes with an applied electric field\nCo-flow ethylene flame with E-field applied.\nPictures: Sunny V. Karnani, LFA group (UC Irvine, CA, US)\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 4",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "table",
+      "id": "b6",
+      "name": "Page 4 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 4,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Introduction\nFlames and External E-field\nFlame behavior changes with an applied electric field\nCo-flow ethylene flame with E-field applied.\nPictures: Sunny V. Karnani, LFA group (UC Irvine, CA, US)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Introduction\nFlames and External E-field\nFlame behavior changes with an applied electric field\nCo-flow ethylene flame with E-field applied.\nPictures: Sunny V. Karnani, LFA group (UC Irvine, CA, US)": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 4"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Experiments\nFlames and External E-field\n0 kV/cm 0.5 kV/cm 1 kV/cm 1.5 kV/cm\n2 kV/cm 2.5 kV/cm 3 kV/cm 3.5 kV/cm\nAbel inverted images: Jesse A. Tinajero (LFA laboratory, UC Irvine, CA)\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 5",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "table",
+      "id": "b8",
+      "name": "Page 5 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 5,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Experiments\nFlames and External E-field\n0 kV/cm 0.5 kV/cm 1 kV/cm 1.5 kV/cm\n2 kV/cm 2.5 kV/cm 3 kV/cm 3.5 kV/cm\nAbel inverted images: Jesse A. Tinajero (LFA laboratory, UC Irvine, CA)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Experiments\nFlames and External E-field\n0 kV/cm 0.5 kV/cm 1 kV/cm 1.5 kV/cm\n2 kV/cm 2.5 kV/cm 3 kV/cm 3.5 kV/cm\nAbel inverted images: Jesse A. Tinajero (LFA laboratory, UC Irvine, CA)": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 5"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Simulations\nChemical-Kinetic Mechanisms\nMain published chemical kinetic mechanisms for methane/air flames\nExcited\nChemi-ions Non-\nMechanism #R Neutrals Species\n(HCO+, H O+) Premixed\n3 (OH*, CH*)\nT. Pedersen\nand R.C.\n86 Yes Yes Yes No\nBrown\n(1993)\nPrager et al.\n208 Yes Yes No Yes\n(1997)\nGRI-Mech\n325 Yes No No Yes\n3.0 (2000)\nJ. Hu et al.\n31 Yes Yes No Yes\n(2000)\nK. T. Walsh\n19 No No Yes Yes\n(2000)\nPanoutsos et\n19 No No Yes Yes\nal. (2009)\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 6",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "table",
+      "id": "b10",
+      "name": "Page 6 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 6,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Simulations\nChemical-Kinetic Mechanisms\nMain published chemical kinetic mechanisms for methane/air flames\nExcited\nChemi-ions Non-\nMechanism #R Neutrals Species\n(HCO+, H O+) Premixed\n3 (OH*, CH*)\nT. Pedersen\nand R.C.\n86 Yes Yes Yes No\nBrown\n(1993)\nPrager et al.\n208 Yes Yes No Yes\n(1997)\nGRI-Mech\n325 Yes No No Yes\n3.0 (2000)\nJ. Hu et al.\n31 Yes Yes No Yes\n(2000)\nK. T. Walsh\n19 No No Yes Yes\n(2000)\nPanoutsos et\n19 No No Yes Yes\nal. (2009)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Simulations\nChemical-Kinetic Mechanisms\nMain published chemical kinetic mechanisms for methane/air flames\nExcited\nChemi-ions Non-\nMechanism #R Neutrals Species\n(HCO+, H O+) Premixed\n3 (OH*, CH*)\nT. Pedersen\nand R.C.\n86 Yes Yes Yes No\nBrown\n(1993)\nPrager et al.\n208 Yes Yes No Yes\n(1997)\nGRI-Mech\n325 Yes No No Yes\n3.0 (2000)\nJ. Hu et al.\n31 Yes Yes No Yes\n(2000)\nK. T. Walsh\n19 No No Yes Yes\n(2000)\nPanoutsos et\n19 No No Yes Yes\nal. (2009)": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 6"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b11",
+      "name": "Page 6 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 6,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "T. Pedersen\nand R.C.\nBrown\n(1993)",
+        "86",
+        "Yes",
+        "Yes (2)",
+        "Yes (3)",
+        "No"
+      ],
+      "rowCount": 2,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "T. Pedersen\nand R.C.\nBrown\n(1993)": "Prager et al.\n208 Yes Yes No Yes\n(1997)",
+            "86": "",
+            "Yes": "",
+            "Yes (2)": "",
+            "Yes (3)": "",
+            "No": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "T. Pedersen\nand R.C.\nBrown\n(1993)": "GRI-Mech\n3.0 (2000)",
+            "86": "325",
+            "Yes": "Yes",
+            "Yes (2)": "No",
+            "Yes (3)": "No",
+            "No": "Yes"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b12",
+      "name": "Page 6 table 3",
+      "confidence": "low",
+      "location": {
+        "page": 6,
+        "table": 3
+      },
+      "headerRow": 1,
+      "columns": [
+        "K. T. Walsh\n(2000)",
+        "19",
+        "No",
+        "No (2)",
+        "Yes",
+        "Yes (2)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "K. T. Walsh\n(2000)": "Panoutsos et\n19 No No Yes Yes\nal. (2009)",
+            "19": "",
+            "No": "",
+            "No (2)": "",
+            "Yes": "",
+            "Yes (2)": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Goals\nGoals\n• Simulate a methane/air flame in a microgravity environment\nand with the application of an electric field.\nCreate a chemical kinetic mechanism for methane/air\nflames including ions and excited species suitable for\ninclusion in CFD models.\nExamine this new mechanism for non-premixed\nmethane/air flames using OpenFOAM® and\nCHEMKIN® software.\nTry new approaches to reach accurate simulations\n(Lower Mach Number code with Adaptive Mesh\nResolution; LBNL)\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 7",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "table",
+      "id": "b14",
+      "name": "Page 7 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 7,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Goals\nGoals\n• Simulate a methane/air flame in a microgravity environment\nand with the application of an electric field.\nCreate a chemical kinetic mechanism for methane/air\nflames including ions and excited species suitable for\ninclusion in CFD models.\nExamine this new mechanism for non-premixed\nmethane/air flames using OpenFOAM® and\nCHEMKIN® software.\nTry new approaches to reach accurate simulations\n(Lower Mach Number code with Adaptive Mesh\nResolution; LBNL)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Goals\nGoals\n• Simulate a methane/air flame in a microgravity environment\nand with the application of an electric field.\nCreate a chemical kinetic mechanism for methane/air\nflames including ions and excited species suitable for\ninclusion in CFD models.\nExamine this new mechanism for non-premixed\nmethane/air flames using OpenFOAM® and\nCHEMKIN® software.\nTry new approaches to reach accurate simulations\n(Lower Mach Number code with Adaptive Mesh\nResolution; LBNL)": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 7"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b15",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nCHEMKIN® Simulation\nTemperature\n2500\n2000\n]\nK 1500\n[\ne\nr\nu\nt\na\nr\ne\np\nm\n1000\ne\nT\n500\n0\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nGGRIR_vI 33.0 PPrargaegre_rfr eomt a_lR.i e del GGRIR_2I 121.1_v11 PPrargaegre_pr lu+s W_exaclsithed _neg\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 8",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "table",
+      "id": "b16",
+      "name": "Page 8 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 8,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nCHEMKIN® Simulation\nTemperature\n2500\n2000\n]\nK 1500\n[\ne\nr\nu\nt\na\nr\ne\np\nm\n1000\ne\nT\n500\n0\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nGGRIR_vI 33.0 PPrargaegre_rfr eomt a_lR.i e del GGRIR_2I 121.1_v11 PPrargaegre_pr lu+s W_exaclsithed _neg"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nCHEMKIN® Simulation\nTemperature\n2500\n2000\n]\nK 1500\n[\ne\nr\nu\nt\na\nr\ne\np\nm\n1000\ne\nT\n500\n0\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nGGRIR_vI 33.0 PPrargaegre_rfr eomt a_lR.i e del GGRIR_2I 121.1_v11 PPrargaegre_pr lu+s W_exaclsithed _neg": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 8"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b17",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nCHEMKIN® Simulation\nMain species\n1 2200\n0.9\n0.8 1700\nCH\n4\n0.7\nN\n2\nn 0.6 1200 K ]\no [\ni t e\nc a r u\nr 0.5 t a\nf\ne\nr\ne\nl p\no m\nM 0.4 700\ne\nT\n0.3 H O\n2\n0.2 200\nO\nCO 2\n0.1 2\n0 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 9",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "table",
+      "id": "b18",
+      "name": "Page 9 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 9,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nCHEMKIN® Simulation\nMain species\n1 2200\n0.9\n0.8 1700\nCH\n4\n0.7\nN\n2\nn 0.6 1200 K ]\no [\ni t e\nc a r u\nr 0.5 t a\nf r\ne e\nl p\no m\nM 0.4 700\ne\nT\n0.3 H O\n2\n0.2 200\nO\nCO 2\n0.1 2\n0 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nCHEMKIN® Simulation\nMain species\n1 2200\n0.9\n0.8 1700\nCH\n4\n0.7\nN\n2\nn 0.6 1200 K ]\no [\ni t e\nc a r u\nr 0.5 t a\nf r\ne e\nl p\no m\nM 0.4 700\ne\nT\n0.3 H O\n2\n0.2 200\nO\nCO 2\n0.1 2\n0 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 9"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b19",
+      "name": "Page 9 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 9,
+        "table": 2
+      },
+      "headerRow": 3,
+      "columns": [
+        "CH\n4",
+        "column_2"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "CH\n4": "N\n2",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "CH\n4": "H O\n2",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "CH\n4": "CO",
+            "column_2": "O\n2"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "CH\n4": "2",
+            "column_2": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b20",
+      "name": "Page 9 table 5",
+      "confidence": "low",
+      "location": {
+        "page": 9,
+        "table": 5
+      },
+      "headerRow": 1,
+      "columns": [
+        "CO"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "CO": "2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b21",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nCHEMKIN® Simulation\n[H O+]\n3\n1.00E-08 2200\n8.00E-09 1700\nn\no ]\nit 6.00E-09 1200 K [\nc\na e\nr f r u\ne t a\nlo r\nM e\np\n+ 4.00E-09 700 m\nO e\n3 T\nH\n2.00E-09 200\n0.00E+00 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nHH3OO+_+ PPrraaggere_rf reotm a_lR. iedel HH3OO+_+P Praragegre_rp l+u sW_eaxlcsithe d_neg T\n3 3\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 10",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "table",
+      "id": "b22",
+      "name": "Page 10 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 10,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nCHEMKIN® Simulation\n[H O+]\n3\n1.00E-08 2200\n8.00E-09 1700\nn\no ]\nit 6.00E-09 1200 K [\nc\na e\nr f r u\ne t a\nlo r\nM e\np\n+ 4.00E-09 700 m\nO e\n3 T\nH\n2.00E-09 200\n0.00E+00 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nHH3OO+_+ PPrraaggere_rf reotm a_lR. iedel HH3OO+_+P Praragegre_rp l+u sW_eaxlcsithe d_neg T\n3 3"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nCHEMKIN® Simulation\n[H O+]\n3\n1.00E-08 2200\n8.00E-09 1700\nn\no ]\nit 6.00E-09 1200 K [\nc\na e\nr f r u\ne t a\nlo r\nM e\np\n+ 4.00E-09 700 m\nO e\n3 T\nH\n2.00E-09 200\n0.00E+00 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nHH3OO+_+ PPrraaggere_rf reotm a_lR. iedel HH3OO+_+P Praragegre_rp l+u sW_eaxlcsithe d_neg T\n3 3": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 10"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b23",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nCHEMKIN® Simulation\n[HCO+]\n9.00E-12 2200\n8.00E-12\n1700\n7.00E-12\n6.00E-12\nn\no\nit 1200 ] K\nc [\na 5.00E-12 e\nr r\nf u\ne t\nlo a r\nM 4.00E-12 e p\n+ O 700\nm\ne\nC T\nH 3.00E-12\n2.00E-12\n200\n1.00E-12\n0.00E+00 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nHHCCOO+_+P Prargaegre_frr oemt a_Rl.i edel HHCCOO+_+P Prargaegre_pr l+us W_eaxclsithe d_neg T\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 11",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "table",
+      "id": "b24",
+      "name": "Page 11 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 11,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nCHEMKIN® Simulation\n[HCO+]\n9.00E-12 2200\n8.00E-12\n1700\n7.00E-12\n6.00E-12\nn\no\nit 1200 ] K\nc [\na 5.00E-12 e\nr r\nf u\ne t\nlo a r\nM 4.00E-12 e p\nm\n+ O 700 e\nC T\nH 3.00E-12\n2.00E-12\n200\n1.00E-12\n0.00E+00 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nHHCCOO+_+P Prargaegre_frr oemt a_Rl.i edel HHCCOO+_+P Prargaegre_pr l+us W_eaxclsithe d_neg T"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nCHEMKIN® Simulation\n[HCO+]\n9.00E-12 2200\n8.00E-12\n1700\n7.00E-12\n6.00E-12\nn\no\nit 1200 ] K\nc [\na 5.00E-12 e\nr r\nf u\ne t\nlo a r\nM 4.00E-12 e p\nm\n+ O 700 e\nC T\nH 3.00E-12\n2.00E-12\n200\n1.00E-12\n0.00E+00 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nHHCCOO+_+P Prargaegre_frr oemt a_Rl.i edel HHCCOO+_+P Prargaegre_pr l+us W_eaxclsithe d_neg T": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 11"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b25",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nCHEMKIN® Simulation\n[E]\nAxial Position [cm]\n0 0.2 0.4 0.6 0.8 1 1.2\n1.00E-05 2200\n1.00E-06\n1.00E-07 1700\n1.00E-08\nn o 1.00E-09 1200 ] K [\nit e\nc r\na u\nr f 1.00E-10 t a\ne r\nlo e\np\nM m\n1.00E-11 700\nE e T\n1.00E-12\n1.00E-13 200\n1.00E-14\n1.00E-15 -300\nEE_ PPrraagegre_rf reotm a_lR. iedel E_EP Prargaegre_pr lu+s W_eaxclsithed _v1_neg T\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 12",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "table",
+      "id": "b26",
+      "name": "Page 12 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 12,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nCHEMKIN® Simulation\n[E]\nAxial Position [cm]\n0 0.2 0.4 0.6 0.8 1 1.2\n1.00E-05 2200\n1.00E-06\n1.00E-07 1700\n1.00E-08\nn o 1.00E-09 1200 ] K [\nit e\nc r\na u\nr f 1.00E-10 t a\ne r\nlo e\np\nM m\n1.00E-11 700\nE e T\n1.00E-12\n1.00E-13 200\n1.00E-14\n1.00E-15 -300\nEE_ PPrraagegre_rf reotm a_lR. iedel E_EP Prargaegre_pr lu+s W_eaxclsithed _v1_neg T"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nCHEMKIN® Simulation\n[E]\nAxial Position [cm]\n0 0.2 0.4 0.6 0.8 1 1.2\n1.00E-05 2200\n1.00E-06\n1.00E-07 1700\n1.00E-08\nn o 1.00E-09 1200 ] K [\nit e\nc r\na u\nr f 1.00E-10 t a\ne r\nlo e\np\nM m\n1.00E-11 700\nE e T\n1.00E-12\n1.00E-13 200\n1.00E-14\n1.00E-15 -300\nEE_ PPrraagegre_rf reotm a_lR. iedel E_EP Prargaegre_pr lu+s W_eaxclsithed _v1_neg T": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 12"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b27",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nCHEMKIN® Simulation\n[OH*]\nAxial Position [cm]\n0 0.2 0.4 0.6 0.8 1 1.2\n1.00E-05 2200\nK.T Walsh (2D, 2000)\n1.00E-06\n4e-11 (measured)\n1.00E-07 5e-11 (calculated) 1700\nPanoutsos et al.(1D, 2009)\n1.00E-08\n1.5e-11 to 1e-10\nn\no (calculated, depending on ] K\nit 1.00E-09 1200 [\nc a strain rate) e\nr f r u\ne 1.00E-10 t a\nlo\nM Our Proposed Model (1D)\nr\ne p\n*\n1.00E-11\n3.83e-9\n700 m\nH e\nT\nO\n1.00E-12\n1.00E-13 200\n1.00E-14\n1.00E-15 -300\nOOhsH_*P rPagraerg_eprlu +s _Wexaclitsehd _neg T\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 13",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "table",
+      "id": "b28",
+      "name": "Page 13 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 13,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nCHEMKIN® Simulation\n[OH*]\nAxial Position [cm]\n0 0.2 0.4 0.6 0.8 1 1.2\n1.00E-05 2200\nK.T Walsh (2D, 2000)\n1.00E-06\n4e-11 (measured)\n1.00E-07 5e-11 (calculated) 1700\nPanoutsos et al.(1D, 2009)\n1.00E-08\n1.5e-11 to 1e-10\nn\no (calculated, depending on ] K\nit 1.00E-09 1200 [\nc a strain rate) e\nr f r u\ne 1.00E-10 t a\nlo r\nM Our Proposed Model (1D) e p\n1.00E-11 700 m\n* 3.83e-9\nH e\nT\nO\n1.00E-12\n1.00E-13 200\n1.00E-14\n1.00E-15 -300\nOOhsH_*P rPagraerg_eprlu +s _Wexaclitsehd _neg T"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nCHEMKIN® Simulation\n[OH*]\nAxial Position [cm]\n0 0.2 0.4 0.6 0.8 1 1.2\n1.00E-05 2200\nK.T Walsh (2D, 2000)\n1.00E-06\n4e-11 (measured)\n1.00E-07 5e-11 (calculated) 1700\nPanoutsos et al.(1D, 2009)\n1.00E-08\n1.5e-11 to 1e-10\nn\no (calculated, depending on ] K\nit 1.00E-09 1200 [\nc a strain rate) e\nr f r u\ne 1.00E-10 t a\nlo r\nM Our Proposed Model (1D) e p\n1.00E-11 700 m\n* 3.83e-9\nH e\nT\nO\n1.00E-12\n1.00E-13 200\n1.00E-14\n1.00E-15 -300\nOOhsH_*P rPagraerg_eprlu +s _Wexaclitsehd _neg T": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 13"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b29",
+      "name": "Page 13 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 13,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "K.T Walsh (2D, 2000)",
+        "column_2"
+      ],
+      "rowCount": 7,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "K.T Walsh (2D, 2000)": "",
+            "column_2": "K.T Walsh (2D, 2000)"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "K.T Walsh (2D, 2000)": "",
+            "column_2": "4e-11 (measured)\n5e-11 (calculated)"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "K.T Walsh (2D, 2000)": "",
+            "column_2": "Panoutsos et al.(1D, 2009)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "K.T Walsh (2D, 2000)": "",
+            "column_2": "1.5e-11 to 1e-10\n(calculated, depending on"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "K.T Walsh (2D, 2000)": "",
+            "column_2": "strain rate)"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "K.T Walsh (2D, 2000)": "",
+            "column_2": "Our Proposed Model (1D)"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "K.T Walsh (2D, 2000)": "3.83e-9",
+            "column_2": "3.83e-9"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b30",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nCHEMKIN® Simulation\n[OH]\n1.00E-02 2200\nMatynia et al. (1D, 2012)\n9.00E-03\nPREMIX\n7.1e-3 (GRI-Mech 2.11)\n8.00E-03 1700\n6.9e-3 (GRI-Mech 3.0)\n4e-3±1e-3 (measured)\n7.00E-03\nn Our Proposed Model (1D) ]\no 6.00E-03 1200 K\nit\nc 8.66e-3\n[\ne\na r\nr u\nf e 5.00E-03 t a\nlo r e\nM p\nm\nH\n4.00E-03 700\ne\nO T\n3.00E-03\n2.00E-03 200\n1.00E-03\n0.00E+00 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nOH OH\nOH_GRI_v3 OHO_HP rPagrearg_efrro emt_ aRli.e del OH_GRI_2.11 OOHH_P Prargaegre_rp l+u sW_eaxclsithe d_v1_neg T\nGRI_3.0 GRI_2.11\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 14",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "table",
+      "id": "b31",
+      "name": "Page 14 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 14,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nCHEMKIN® Simulation\n[OH]\n1.00E-02 2200\nMatynia et al. (1D, 2012)\n9.00E-03\nPREMIX\n7.1e-3 (GRI-Mech 2.11)\n8.00E-03 1700\n6.9e-3 (GRI-Mech 3.0)\n4e-3±1e-3 (measured)\n7.00E-03\nn Our Proposed Model (1D) ]\no 6.00E-03 1200 K\nit [\nc 8.66e-3 e\na r\nr u\nf e 5.00E-03 t a\nlo r e\nM p\nm\n4.00E-03 700\nH e\nO T\n3.00E-03\n2.00E-03 200\n1.00E-03\n0.00E+00 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nOH OH\nOH_GRI_v3 OHO_HP rPagrearg_efrro emt_ aRli.e del OH_GRI_2.11 OOHH_P Prargaegre_rp l+u sW_eaxclsithe d_v1_neg T\nGRI_3.0 GRI_2.11"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nCHEMKIN® Simulation\n[OH]\n1.00E-02 2200\nMatynia et al. (1D, 2012)\n9.00E-03\nPREMIX\n7.1e-3 (GRI-Mech 2.11)\n8.00E-03 1700\n6.9e-3 (GRI-Mech 3.0)\n4e-3±1e-3 (measured)\n7.00E-03\nn Our Proposed Model (1D) ]\no 6.00E-03 1200 K\nit [\nc 8.66e-3 e\na r\nr u\nf e 5.00E-03 t a\nlo r e\nM p\nm\n4.00E-03 700\nH e\nO T\n3.00E-03\n2.00E-03 200\n1.00E-03\n0.00E+00 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nOH OH\nOH_GRI_v3 OHO_HP rPagrearg_efrro emt_ aRli.e del OH_GRI_2.11 OOHH_P Prargaegre_rp l+u sW_eaxclsithe d_v1_neg T\nGRI_3.0 GRI_2.11": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 14"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b32",
+      "name": "Page 14 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 14,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "Matynia et al. (1D, 2012)",
+        "column_2"
+      ],
+      "rowCount": 5,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Matynia et al. (1D, 2012)": "",
+            "column_2": "Matynia et al. (1D, 2012)"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Matynia et al. (1D, 2012)": "",
+            "column_2": "PREMIX\n7.1e-3 (GRI-Mech 2.11)"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Matynia et al. (1D, 2012)": "",
+            "column_2": "6.9e-3 (GRI-Mech 3.0)\n4e-3±1e-3 (measured)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Matynia et al. (1D, 2012)": "Our Proposed Model (1D)",
+            "column_2": ""
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Matynia et al. (1D, 2012)": "8.66e-3",
+            "column_2": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b33",
+      "name": "Page 14 table 3",
+      "confidence": "low",
+      "location": {
+        "page": 14,
+        "table": 3
+      },
+      "headerRow": 1,
+      "columns": [
+        "Our Proposed Model (1D)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Our Proposed Model (1D)": "8.66e-3"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b34",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nCHEMKIN® Simulation\n[CH]\n5.00E-06 2200\n4.50E-06 K.T Walsh (2D, 2000)\n4e-6 (measured)\n4.00E-06 3.3e-6 (calculated) 1700\n3.50E-06 Our Proposed Model (1D)\nn\n3.83e-6\n]\no 3.00E-06 1200 K\ni\nt c\n[\ne\na r\nr u\nf e 2.50E-06 t a\nlo r e\nM p\nm\nH\n2.00E-06 700\ne\nC T\n1.50E-06\n1.00E-06 200\n5.00E-07\n0.00E+00 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nCH CH\nCH_GRI_v3 CHC_HP rPargaegr_efrr oemt _aRl.ie del CH_GRI_2.11 CCHH_P rPargaegr_eprl u+s W_exaclisthed _v1_neg T\nGRI_3.0 GRI_2.11\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 15",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "table",
+      "id": "b35",
+      "name": "Page 15 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 15,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nCHEMKIN® Simulation\n[CH]\n5.00E-06 2200\n4.50E-06 K.T Walsh (2D, 2000)\n4e-6 (measured)\n4.00E-06 3.3e-6 (calculated) 1700\n3.50E-06 Our Proposed Model (1D)\n3.83e-6\nn ]\no 3.00E-06 1200 K\ni [\nt c e\na r\nr u\nf e 2.50E-06 t a\nlo r e\nM p\nm\n2.00E-06 700\nH e\nC T\n1.50E-06\n1.00E-06 200\n5.00E-07\n0.00E+00 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nCH CH\nCH_GRI_v3 CHC_HP rPargaegr_efrr oemt _aRl.ie del CH_GRI_2.11 CCHH_P rPargaegr_eprl u+s W_exaclisthed _v1_neg T\nGRI_3.0 GRI_2.11"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nCHEMKIN® Simulation\n[CH]\n5.00E-06 2200\n4.50E-06 K.T Walsh (2D, 2000)\n4e-6 (measured)\n4.00E-06 3.3e-6 (calculated) 1700\n3.50E-06 Our Proposed Model (1D)\n3.83e-6\nn ]\no 3.00E-06 1200 K\ni [\nt c e\na r\nr u\nf e 2.50E-06 t a\nlo r e\nM p\nm\n2.00E-06 700\nH e\nC T\n1.50E-06\n1.00E-06 200\n5.00E-07\n0.00E+00 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nCH CH\nCH_GRI_v3 CHC_HP rPargaegr_efrr oemt _aRl.ie del CH_GRI_2.11 CCHH_P rPargaegr_eprl u+s W_exaclisthed _v1_neg T\nGRI_3.0 GRI_2.11": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b36",
+      "name": "Page 15 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 15,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "K.T Walsh (2D, 2000)",
+        "column_2"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "K.T Walsh (2D, 2000)": "",
+            "column_2": "K.T Walsh (2D, 2000)"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "K.T Walsh (2D, 2000)": "",
+            "column_2": "4e-6 (measured)"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "K.T Walsh (2D, 2000)": "3.3e-6 (calculated)",
+            "column_2": "3.3e-6 (calculated)"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "K.T Walsh (2D, 2000)": "",
+            "column_2": "Our Proposed Model (1D)\n3.83e-6"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b37",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Results\nCHEMKIN® Simulation\n[CH*]\n1.00E-10 2200\nK.T Walsh (2D, 2000)\n1.2e-11 (measured)\n6e-11 (calculated)\n8.00E-11 1700\nPanoutsos et al.\n(1D, 2009)\n1e-9 to 2.7e-9\nn\no 6.00E-11 (calculated, depending on 1200 ] K\ni t\nc\n[\ne\na strain rate) r\nr u\nf\ne\nt\na\nlo r\ne\nM Our Proposed Model (1D) p\n* H 4.00E-11 6.75e-11 700\nm\ne\nT\nC\n2.00E-11 200\n0.00E+00 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nCH* Panoutsos et al.\nCHs_Prager_Panoutsos_v1_neg CHCsH_P*r aPgrearg_eplru +s_ Wexcailtsehd _neg T\n(mech 7)\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 16",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "table",
+      "id": "b38",
+      "name": "Page 16 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 16,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Results\nCHEMKIN® Simulation\n[CH*]\n1.00E-10 2200\nK.T Walsh (2D, 2000)\n1.2e-11 (measured)\n6e-11 (calculated)\n8.00E-11 1700\nPanoutsos et al.\n(1D, 2009)\n1e-9 to 2.7e-9\nn\no 6.00E-11 (calculated, depending on 1200 ] K\ni t [\nc e\na strain rate) r\nr u\nf\nt\ne a\nlo r\ne\nM Our Proposed Model (1D) p\nm\n* H 4.00E-11 6.75e-11 700 e\nT\nC\n2.00E-11 200\n0.00E+00 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nCH* Panoutsos et al.\nCHs_Prager_Panoutsos_v1_neg CHCsH_P*r aPgrearg_eplru +s_ Wexcailtsehd _neg T\n(mech 7)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Results\nCHEMKIN® Simulation\n[CH*]\n1.00E-10 2200\nK.T Walsh (2D, 2000)\n1.2e-11 (measured)\n6e-11 (calculated)\n8.00E-11 1700\nPanoutsos et al.\n(1D, 2009)\n1e-9 to 2.7e-9\nn\no 6.00E-11 (calculated, depending on 1200 ] K\ni t [\nc e\na strain rate) r\nr u\nf\nt\ne a\nlo r\ne\nM Our Proposed Model (1D) p\nm\n* H 4.00E-11 6.75e-11 700 e\nT\nC\n2.00E-11 200\n0.00E+00 -300\n0 0.2 0.4 0.6 0.8 1 1.2\nAxial Position [cm]\nCH* Panoutsos et al.\nCHs_Prager_Panoutsos_v1_neg CHCsH_P*r aPgrearg_eplru +s_ Wexcailtsehd _neg T\n(mech 7)": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 16"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b39",
+      "name": "Page 16 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 16,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "K.T Walsh (2D, 2000)\n1.2e-11 (measured)\n6e-11 (calculated)",
+        "column_2"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "K.T Walsh (2D, 2000)\n1.2e-11 (measured)\n6e-11 (calculated)": "",
+            "column_2": "K.T Walsh (2D, 2000)\n1.2e-11 (measured)\n6e-11 (calculated)"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "K.T Walsh (2D, 2000)\n1.2e-11 (measured)\n6e-11 (calculated)": "",
+            "column_2": "Panoutsos et al.\n(1D, 2009)\n1e-9 to 2.7e-9"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "K.T Walsh (2D, 2000)\n1.2e-11 (measured)\n6e-11 (calculated)": "(calculated, depending on\nstrain rate)\nOur Proposed Model (1D)",
+            "column_2": "(calculated, depending on\nstrain rate)"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "K.T Walsh (2D, 2000)\n1.2e-11 (measured)\n6e-11 (calculated)": "6.75e-11",
+            "column_2": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b40",
+      "name": "Page 16 table 3",
+      "confidence": "low",
+      "location": {
+        "page": 16,
+        "table": 3
+      },
+      "headerRow": 1,
+      "columns": [
+        "Our Proposed Model (1D)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Our Proposed Model (1D)": "6.75e-11"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b41",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Future research\nFuture research\n• Confirm that our proposed mechanism is accurate (we do\nnot have 1D experiments).\n2D simulations compared with 2D measurements\n• Simulate a co-flow methane/air flame in a microgravity\nenvironment with the application of an electric field as a\nboundary condition.\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 17",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "table",
+      "id": "b42",
+      "name": "Page 17 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 17,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Future research\nFuture research\n• Confirm that our proposed mechanism is accurate (we do\nnot have 1D experiments).\n2D simulations compared with 2D measurements\n• Simulate a co-flow methane/air flame in a microgravity\nenvironment with the application of an electric field as a\nboundary condition."
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Future research\nFuture research\n• Confirm that our proposed mechanism is accurate (we do\nnot have 1D experiments).\n2D simulations compared with 2D measurements\n• Simulate a co-flow methane/air flame in a microgravity\nenvironment with the application of an electric field as a\nboundary condition.": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 17"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b43",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "LBNL Research\nParallel research\nSimulations with Lower Mach Number code with Adaptive Mesh Refinement\nBasic idea\nGoverning equations can be solved, at each time-step, on a multilevel grid.\nMain advantages\n• Mesh is refined only where it is needed saves time and computational\ncosts\n• LMN code VS Constant Density Projection bigger steps and more robust\nso it can perform AMR\nTemperature profile [K] for a 2D co-flow diffusion flame\nWork in progress by Valentina Ricchiuti (Lawrence Berkeley National Laboratory, CA)\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 18",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "table",
+      "id": "b44",
+      "name": "Page 18 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 18,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "LBNL Research\nParallel research\nSimulations with Lower Mach Number code with Adaptive Mesh Refinement\nBasic idea\nGoverning equations can be solved, at each time-step, on a multilevel grid.\nMain advantages\n• Mesh is refined only where it is needed saves time and computational\ncosts\n• LMN code VS Constant Density Projection bigger steps and more robust\nso it can perform AMR\nTemperature profile [K] for a 2D co-flow diffusion flame\nWork in progress by Valentina Ricchiuti (Lawrence Berkeley National Laboratory, CA)"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "LBNL Research\nParallel research\nSimulations with Lower Mach Number code with Adaptive Mesh Refinement\nBasic idea\nGoverning equations can be solved, at each time-step, on a multilevel grid.\nMain advantages\n• Mesh is refined only where it is needed saves time and computational\ncosts\n• LMN code VS Constant Density Projection bigger steps and more robust\nso it can perform AMR\nTemperature profile [K] for a 2D co-flow diffusion flame\nWork in progress by Valentina Ricchiuti (Lawrence Berkeley National Laboratory, CA)": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 18"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b45",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Summary\nSummary\n• A preliminary model for non-premixed methane/air\nflames that contains both chemi-ions and excited\nspecies has been achieved.\n• 2D simulations have to be done to check CH* and OH*\nconcentrations with experiments.\n• LBNL Adaptative Mesh Refinement (AMR) has been\nsuccessfully implemented in 1D simulations with e-field\napplied.\n• LBNL – AMR technique should be improved to apply it\nin 2D simulations with e-field.\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 19",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "table",
+      "id": "b46",
+      "name": "Page 19 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 19,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Summary\nSummary\n• A preliminary model for non-premixed methane/air\nflames that contains both chemi-ions and excited\nspecies has been achieved.\n• 2D simulations have to be done to check CH* and OH*\nconcentrations with experiments.\n• LBNL Adaptative Mesh Refinement (AMR) has been\nsuccessfully implemented in 1D simulations with e-field\napplied.\n• LBNL – AMR technique should be improved to apply it\nin 2D simulations with e-field."
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Summary\nSummary\n• A preliminary model for non-premixed methane/air\nflames that contains both chemi-ions and excited\nspecies has been achieved.\n• 2D simulations have to be done to check CH* and OH*\nconcentrations with experiments.\n• LBNL Adaptative Mesh Refinement (AMR) has been\nsuccessfully implemented in 1D simulations with e-field\napplied.\n• LBNL – AMR technique should be improved to apply it\nin 2D simulations with e-field.": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 19"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b47",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "THANK YOU FOR YOUR ATTENTION\nASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 20",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "table",
+      "id": "b48",
+      "name": "Page 20 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 20,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "THANK YOU FOR YOUR ATTENTION"
+      ],
+      "rowCount": 1,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "THANK YOU FOR YOUR ATTENTION": "ASGSR. 32nd Annual Meeting. Oct. 26-29, 2016 20"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-39",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-39_Analyzed Data_FLEX-1261_Summary_prelim.pdf",
+    "folder": "Analyzed Data",
+    "subfolder": "Reduced Gravity/CFI – DODECANE",
+    "key": "psi-data/PSI-39/Analyzed Data/PSI-39_Analyzed Data_FLEX-1261_Summary_prelim.pdf",
+    "version": 2,
+    "sizeBytes": 211160,
+    "sha256": "8a8649ce1f36b2f434c0a033b454407581ea510bc61753235dca9766589eae2b",
+    "localPath": "data/raw/PSI-39/Analyzed Data/Reduced Gravity/CFI – DODECANE/PSI-39_Analyzed Data_FLEX-1261_Summary_prelim.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:24:23+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 1,
+    "characters": 437,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": 1
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "1.0\n0.8\n0.6\n0.4\n0.2\nVisible hot-flame oscillations\nHot flame nearly invisible, but fiber glow indicates hot flame\n0.0\n2 )\nD\n/\nD\n(\n0\n30\n25\n20\n15\n10\n5\n0.0 0.5 1.0 1.5 2.0 2.5\n2 2\nt / D ( s / mm )\n0\nDf\n(\nmm\n)\n,\nDf\n/\nDd\n6\n5\n4\n3\n2\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\nFlame\nRadiance\n(\nW\n)\nMon, May 15, 2017\nFLEX-1261\nF135A05\nP = 3777.606 mmHg\nY = 0.210\nO2\nY = 0.790\nN2\nY = 0.000\nCO2\nY = 0.000\nHe\nDodecane\nD = 5.646 mm\n0\nD = 4.600 mm\n0\n2\nk = 0.618 mm /sec\navg",
+      "location": {
+        "page": 1
+      }
+    }
+  ]
+}

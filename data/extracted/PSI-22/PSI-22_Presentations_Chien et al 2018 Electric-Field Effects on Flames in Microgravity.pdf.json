@@ -1,0 +1,257 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-22",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-22_Presentations_Chien et al 2018 Electric-Field Effects on Flames in Microgravity.pdf",
+    "folder": "Presentations",
+    "subfolder": null,
+    "key": "psi-data/PSI-22/Presentations/PSI-22_Presentations_Chien et al 2018 Electric-Field Effects on Flames in Microgravity.pdf",
+    "version": 1,
+    "sizeBytes": 1674645,
+    "sha256": "413ba2bfc776b962609decf13964a0a42e367c0f4799619ec2e686c49ac4a2f4",
+    "localPath": "data/raw/PSI-22/Presentations/PSI-22_Presentations_Chien et al 2018 Electric-Field Effects on Flames in Microgravity.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:16:31+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 5 table 1: 1 line(s) above the header skipped",
+    "Page 6 table 1: 1 line(s) above the header skipped",
+    "Page 7 table 1: 1 line(s) above the header skipped",
+    "Page 7 table 1: 4 empty header(s) named column_<n> (columns 3-5, 7)",
+    "Page 8 table 1: 2 line(s) above the header skipped",
+    "Page 8 table 1: 1 empty header(s) named column_<n> (columns 1)"
+  ],
+  "stats": {
+    "textBlocks": 10,
+    "characters": 7166,
+    "tables": 2,
+    "tableRows": 7,
+    "pages": 10
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "dmAonstrcniatipae id Sanc sti eronaualAonNati\nchamber insertACME\ninsertE ber cMhamACthe of ionatntrepreseodel mSolid .sa.gnaovwww\n7",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "dmAonstrcniatipae id Sanc sti eronaualAonNati\nE - FIELDFlames operations\n(cid:0)(cid:135) (cid:0)7(cid:0)K(cid:0)H(cid:0)(cid:3)(cid:0)(cid:3)(cid:0),(cid:0)6(cid:0)6(cid:0)(cid:3)(cid:0)F(cid:0)G(cid:0)R(cid:0)Q(cid:0)¶(cid:0)U(cid:0)H(cid:0)Z(cid:0)W(cid:0)(cid:3)(cid:0)F(cid:0)R(cid:0)Q(cid:0)G(cid:0)X(cid:0)F(cid:0)W(cid:0)(cid:3)\nthe E - FIELD Flames or other\nCIR tests ; theyare instead\nremotelycommanded from\nlenn.G NASA\n(cid:0)(cid:135) (cid:0)V(cid:0)(cid:3)(cid:0)%(cid:0)X(cid:0)W(cid:0)(cid:3)(cid:0)W(cid:0)K(cid:0)H(cid:0)(cid:3)(cid:0)U(cid:0)R(cid:0)O(cid:0)H(cid:0)(cid:3)(cid:0)L(cid:0)¶(cid:0)Q(cid:0)(cid:3)(cid:0)V(cid:0)F(cid:0)H(cid:0)W(cid:0)W(cid:0)L(cid:0)U(cid:0)H(cid:0)Z(cid:0)Q(cid:0)J(cid:0)(cid:3)\nup the tests Theyciritis cal.\ncexhange gas bottles, mass\nflowcontrollers, igniter tips,\nburners, instrumentation, etc.\nark Mop: T andeV eiH ander AlexBot:t omingle. TSc,ot t Misurkin Joe , Acaba Anton , Shkaplerov . .sa.gnaovwww\n8",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "dmAonstrcniatipae id Sanc sti eronaualAonNati\nExample results\n4 0%CHin10\n/7921O2/N2\n,\nwfloco werrh nubti\ne, btuer nin IDmm 2.2\ne,btuter uomm ID25\n/s cm4,CH19\nno coflow , rtrcuenPeak\nfield electrice ativegn\n418073A\nincriease nlioc Parab\nw rtht ricuen nio\nthgstrenfi eld\nrtrcuen rnatiSatuo\nwre flames e120\nfirst e th in itednig\nEf o dnuro - DIELF\ngsin(utests lames F\ne th wfloco err),nu b\nm fro ctedudnco\nic engthctrstr a funt fieldelenctio asurren of Ion c\n17*M toay14 M arch\n* oflowC 4)2HCith (w 25 ayMon e resumshould tests e) lamF LD(Ce lamFfusion ifDinar Lam .sa.gnaovwww",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "dmAonstrcniatipae id Sanc sti eronaualAonNati\nEffect yancyof buo\ng1\n.~18\nA(cid:181).~16\ng(cid:181)\n.~25\n.~19\n.~10\n.~08 A(cid:181)\n(cid:0)(cid:135) eak.p arpsha twuohit lateaup rnatisatuoe th es reachlythosmort rcuen, nioe thityravgrmalo n In\n(cid:0)(cid:135) wlor chemua at s rateusatt rrencu nio,e thityravgmicro In anth lauatep lrma on in .ityravg\n(cid:0)(cid:135) g(cid:181)e hT rt rcuen lateaup 1ge ths exceedrt rcueneak p on4, HC(100%wosh ncases thob in wfloco ).\n.sa.gnaovwww\n10",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "dmAonstrcniatipae id Sanc sti eronaualAonNati\nEffect of CH4 flow\n(w/no coflow )\nnturreIon c\nO/792/N24 0%21CHin10\n,\nwfloco e ativegnw errh nubti fieldelc ectri 3.0\n4HC wflo d, rieano v oflowc ,\n2.5\n37081 14(M arch ) 2.0\n.15\n1.0\n0.5\n5m/s1c nturre Ion c((cid:181)A) 0.0\n0.0 0.5 1.0 1.5 2.0 2.5 3.0\nsh (kVFietrengt/cld m)\n* dieancCHirra\n9m/s1c 15 cm/s CH4, no coflow 19 cm/s CH4, no coflow\n400,000\n(cid:0)(cid:135) ,wfloel fue thf o nctionfua is rt rcuen nIo\nemthwo shne avhlts resus uiorevpw ereh\n300,000\nalrntiooprope b\n(cid:0)(cid:135) :tos leadwflo4 HC Greater 200,000\n(cid:0)(cid:135) eakprt rcuen nioer high\n(cid:0)(cid:135) ellev rnatisatuort rcuen nioer high 100,000\n(cid:0)(cid:135) fi elder highat eakingprt rcuen nio\n0\nthgstren\n0.0 0.5 1.0 1.5 2.0 2.5 3.0\n(cid:0)(cid:135) 324 - 244 woshs * i*cer) iCHranadm n.(e.,g enc)diam2CHrra/c* i(W\nsh (kVFietrengt/cld m)\nas rt rcuen nio tori oavehb similar almilnoyn\nthgstrenfi elde thf o nctionfua 15 cm/s CH4, no coflow 19 cm/s CH4, no coflow\n*eIrradianc TPMat easuredm .2t3i45 h aw deppiuqe - nm bandpass 18.5, filter - WFHMnm .sa.gnaovwww",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "dmAonstrcniatipae id Sanc sti eronaualAonNati\nEffect of coflow\n(w/19 cm/s CH4)\nnturreIon c\nO/792/N24 0%21CHin10\n,\nwfloco e ativegnw errh nubti fieldelc ectri .30\n, /s 4 cmCH91 wofloc d,rieav 2.5\n37081 14(M arch ) 2.0\n1.5\n1.0\n0.5\nnturre Ion c((cid:181)A)\n0.0\n.13m/sc 0.0 0.5 1.0 1.5 2.0 2.5 3.0\nsh (kVFietrengt/cld m)\n* dieancCHirra\n19 cm/s CH4.1, 3 cm/ofs clow 19 cm/s CH4, no coflow\n0m/s c\n400,000\n(cid:0)(cid:135) rt rcuen nioe ths, thgstrent fi eldwloA\ne thf ot endenepdine b toears pap wfloco\n300,000\n(cid:0)(cid:135) wflooC :tos lead\n(cid:0)(cid:135) eakprt rcuen nioer high 02,0000\n(cid:0)(cid:135) ellev rnatisatuort rcuen nioer high\n(cid:0)(cid:135) fi elder highat eakingprt rcuen nio 100,000\nthgstren\n0\n(cid:0)(cid:135) 324 -wos sh* ceii*ran) radHC .m (e.,gn 442\n0.0 0.5 1.0 1.5 2.0 2.5 3.0\nrt rcuen nio tori oavehb similar almilnoyn enc)diam2CHrra/c* i(W\nsh (kVFietrengt/cld m)\nis it t ub, thgstrenfi elde thf o nctionfua as\ne thf o tendenepdint o nclearly wfloco 19 cm/s CH4.1, 3 cm/ofs clow 19 cm/s CH4, no coflow\n.sa.gnaovwww",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "dmAonstrcniatipae id Sanc sti eronaualAonNati\nIon current\n3.0\nO/792/N24 0%21CHin10 , 4HCcm/s 19\nwfloco fielde ativegnw errh nubti cm/s 3.1 wfloco\n& 4wfloCH wofloc d,rieav\n2.5\n37081 14(M arch )\n4HCcm/s 15\ncm/s 3.1\ncm/s 3.1 wfloco\n2.0 wfloco\n1.5\nationsrvObse on\n1.0\noIn encurt r((cid:181)A)\nwfloco\n(cid:0)(cid:135) nioe ths, thgstrent fieldwloA\ne b toears paprt rcuen\ne thf ot endenepdin wfloco\n0.5\n(cid:0)(cid:135) thoB wfloco 4 HCreaterg dan\n:to leadwflo\n(cid:0)(cid:135) eakprt rcuen nioer high\n0.0\n(cid:0)(cid:135) t rrencu nioer high\n0.0 0.5 1.0 1.5 2.0 2.5 3.0\nellev rnatisatuo (kV/cm) thgstrien elFd\n(cid:0)(cid:135) at eakingprt rcuen nio\nthgstrenfi elder high 15 cm/s CH4.1, 3 cm/ofs clow 15 cm/s CH4, no coflow\n19 cm/s CH4.1, 3 cm/ofs clow 19 cm/s CH4, no coflow\n.sa.gnaovwww",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "table",
+      "id": "b8",
+      "name": "Page 7 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 7,
+        "table": 1
+      },
+      "headerRow": 2,
+      "columns": [
+        "4HCcm/s 15\ncm/s 3.1",
+        "wfloco",
+        "column_3",
+        "column_4",
+        "column_5",
+        "cm/s 3.1",
+        "column_7"
+      ],
+      "rowCount": 3,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "4HCcm/s 15\ncm/s 3.1": "",
+            "wfloco": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "cm/s 3.1": "wfloco",
+            "column_7": ""
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "4HCcm/s 15\ncm/s 3.1": "",
+            "wfloco": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "cm/s 3.1": "",
+            "column_7": "on"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "4HCcm/s 15\ncm/s 3.1": "",
+            "wfloco": "",
+            "column_3": "",
+            "column_4": "",
+            "column_5": "",
+            "cm/s 3.1": "",
+            "column_7": "wfloco"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "dmAonstrcniatipae id Sanc sti eronaualAonNati\n324 - nceCH*, irradia., e.gnm, 2 44\n400,000\nO/792/N24 0%21CHin10\n,\nwfloco fielde ativegnw errh nubti\n350,000\n& 4wfloCH wofloc d,rieav\n37081 14(M arch )\n300,000\ncm/s 19 4HC\ncm/s 3.1 wfloco\n250,000\n200,000\ncm/s 3.1\nwfloco\n150,000\ncm/s 15 4HC\nCadanrH irce *i(Wcm2)/ 100,000\ncm/s 3.1 wfloco\nationsrvObse\n50,000 on\n(cid:0)(cid:135) 324 - *) HCm .(e.n,g442 wfloco\nyb red(measu* iceriranad PM T\n0\nw hti asspdanb woshs filter) 0.0 0.5 1.0 1.5 2.0 2.5 3.0\nnio tori oavehb similar almilnoyn /)(kVcm thgstreni eldF\nfi elde thf o nctionfua as rt rcuen\n15 cm/s CH4.1, 3 cm/ofs clow 15 cm/s CH4, no coflow\nt o ncliears lyit t ub thgstren\n19 cm/s CH4.1, 3 cm/ofs clow 19 cm/s CH4, no coflow\ne thf ot endenepdin wfloco\n.sa.gnaovwww",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "table",
+      "id": "b10",
+      "name": "Page 8 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 8,
+        "table": 1
+      },
+      "headerRow": 3,
+      "columns": [
+        "column_1",
+        "cm/s 19 4HC\ncm/s 3.1 wfloco"
+      ],
+      "rowCount": 4,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 2,
+          "raw": {
+            "column_1": "",
+            "cm/s 19 4HC\ncm/s 3.1 wfloco": "cm/s 3.1\nwfloco"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "column_1": "",
+            "cm/s 19 4HC\ncm/s 3.1 wfloco": "cm/s 15 4HC"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "column_1": "",
+            "cm/s 19 4HC\ncm/s 3.1 wfloco": "cm/s 3.1 wfloco"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "column_1": "",
+            "cm/s 19 4HC\ncm/s 3.1 wfloco": "on\nwfloco"
+          }
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "dmAonstrcniatipae id Sanc sti eronaualAonNati\nElectric - field effects oton so\nC2H4100%, elde fiNegativ\n/79H421O2/N2inC2\n,\nwfloco errnub\ne triclec - driea vfield prityola\nf iedarvuel\nMarch - 2018ripl A\nCH4100%d, e fieltivPosi\nationsrvObse\n(cid:0)(cid:135) can thgstrenfi eld,e thlaroiptyerei th ithW\nflamee th winht otsoie thaffect\netimreal near in nlinked ideo dowvera cam(ops) soperationAnalog .sa.gnaovwww",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "text",
+      "id": "b12",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "dmAonstrcniatipae id Sanc sti eronaualAonNati\nAcknowledgements\nCMEA\n(cid:0)(cid:135) Project Manager nLauren Brow\n(cid:0)(cid:135) DeputyProject Scientist FumiTakahaaksihi\n(cid:0)(cid:135) sSupportcience agamVedha Nay\n(cid:0)(cid:135) Intern Scott Karn\nInhnc.TecolZIog, N ies\nTo follow ACME’s progress:\n(cid:0)(cid:135) Operations wsewbook..flaccmom/seew.pafac\nwwos/som/photw.r.cpafliccek - sflame\n(cid:0)(cid:135) Lead Chris Mroczka\n(cid:0)(cid:135) perationsO Lead Angie Adams\n(cid:0)(cid:135) und roGtesting RobbinsJess\n(cid:0)(cid:135) elopmentDev\n(cid:0)(cid:135) Lead skBriian Borow\n(cid:0)(cid:135) Diagnostics Stevne Law\n(cid:0)(cid:135) Electrical/Eltronicecs obelTim Gi\n(cid:0)(cid:135) ationIntegr sisChr Roger\n(cid:0)(cid:135) Mechanical Adrian Drake\n(cid:0)(cid:135) areSoftw Jeff Eggers\n(cid:0)(cid:135) stemsSy Chris Mroczka\nK OATAOrbital op: T - 7.ayMon it Ih RCwingle TScott Bot:t om 21. ayMon launch 9 .sa.gnaovwww\n16",
+      "location": {
+        "page": 10
+      }
+    }
+  ]
+}

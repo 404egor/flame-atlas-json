@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-26",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-26_Engineering Documents_Drawing_PMMA.Flat_1cm.pdf",
+    "folder": "Engineering Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Flat_1cm.pdf",
+    "version": 2,
+    "sizeBytes": 1108850,
+    "sha256": "f4eed17506314b89e7eda49ccc0adf3c6433011d586df615c3ac3e3bfc08b8c5",
+    "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_PMMA.Flat_1cm.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:22:51+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 1,
+    "characters": 47,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": 1
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "BASS-ECO-024 In Process\nBASS-ECO-028 In Process",
+      "location": {
+        "page": 1
+      }
+    }
+  ]
+}

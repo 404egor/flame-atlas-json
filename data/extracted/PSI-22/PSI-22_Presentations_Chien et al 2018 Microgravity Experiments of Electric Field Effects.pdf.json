@@ -1,0 +1,283 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-22",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-22_Presentations_Chien et al 2018 Microgravity Experiments of Electric Field Effects.pdf",
+    "folder": "Presentations",
+    "subfolder": null,
+    "key": "psi-data/PSI-22/Presentations/PSI-22_Presentations_Chien et al 2018 Microgravity Experiments of Electric Field Effects.pdf",
+    "version": 1,
+    "sizeBytes": 14546094,
+    "sha256": "77756a24227fb3a1b527811b8817d4f9e4b1d5a5a5ff694e4593ace7f18af472",
+    "localPath": "data/raw/PSI-22/Presentations/PSI-22_Presentations_Chien et al 2018 Microgravity Experiments of Electric Field Effects.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:16:31+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "Page 8 table 1: 1 line(s) above the header skipped",
+    "Page 9 table 1: 1 line(s) above the header skipped",
+    "Page 10 table 1: 1 line(s) above the header skipped",
+    "Page 11 table 1: 1 line(s) above the header skipped",
+    "Page 12 table 1: 1 line(s) above the header skipped",
+    "Page 14 table 1: 1 line(s) above the header skipped",
+    "Page 14 table 1: 1 empty header(s) named column_<n> (columns 1)"
+  ],
+  "stats": {
+    "textBlocks": 22,
+    "characters": 4608,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": 22
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Microgravity Experiments of Electric Field Effects\non Laminar Ethylene/Air Diffusion Flames\nAmerican Society for Gravitation and Space Research (ASGSR) Annual Meeting,\nCombustion 4: Gaseous Flames\nNovember 2nd 2018, 18306\nYu-Chien (Alice) Chien1, Jesse Tinajero2, Dennis Stocker3, Uday Hegde4, Derek Dunn-Rankin1\n1 Department of Mechanical and Aerospace Engineering, University of California, Irvine, 4200 Engineering Gateway, Irvine, CA 92697, U.S.A.\n2 Department of Mechanical Engineering and Material Science, Yale University, 10 HillhouseAvenue, New Haven, CT 06520, U.S.A.\n3 NASA Glenn Research Center, 21000 BrookparkRd., Cleveland, OH 44135, U.S.A.\n4 Department of Mechanical and Aerospace Engineering, Case Western Reserve University, Cleveland, Ohio 44135, U.S.A.",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "text",
+      "id": "b2",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Advanced Combustion\nMicrogravity Experiment (ACME)\nE-FIELD Flames\nElectric-Field Effects on Laminar Diffusion Flames",
+      "location": {
+        "page": 2
+      }
+    },
+    {
+      "type": "text",
+      "id": "b3",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Ions in hydrocarbon flames\nThe dominant ion in the flame zone is found\nexperimentally and numerically from:\nCHO+ + H O àH O+ + CO H\n2 3\nD\nPederson et al. 1993\n1g, Chien et al. 2018, Energies",
+      "location": {
+        "page": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "b4",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Electric Body Force – Ion wind\nPositive ion\naccelerates\nbetween each -\ncollision with\n! !\nneutral bath gas\nn n n F = j / K\nn\nmolecules – ion n n\nn n ee-- n ± ±\ndrift velocity ~ n ++ ++\nee-- ee-- ee-- ee--\n100 m/s n n F: body force\nn n ++ ++\n++ n\nJ : ion current density\nn n\n++ ee--\nn n\nee-- n n ++ n K: ion mobility\nEach collision ee--\n++ n n n\n++\nn\ntransfers newly\nn\nacquired kinetic\nenergy to the\n+\nneutral gas\nproducing an ion\ndriven wind –\ninduced drift\nvelocity ~1m/s\nConceptual animation",
+      "location": {
+        "page": 4
+      }
+    },
+    {
+      "type": "text",
+      "id": "b5",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Apparatus in the ACME chamber insert\nThe coflow The copper\nburner photo electrode\ntaken on 12 Oct. mesh, used by\n2017 after the E-FIELD\nburner Flames\ninstallation on experiment,\nthe chamber can be seen\ninsert. above the\ncoflow burner.\nInner tube:\n2.1mm I.D. 8.9 cm I.D.\nOuter tube:\n25mm I.D.",
+      "location": {
+        "page": 5
+      }
+    },
+    {
+      "type": "text",
+      "id": "b6",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Polarity and electric field direction\nØ Burner orientation\nØ Ion wind flow\nØ Electrode location\nØ 1g or μg\nThe image is an ethylene single jet flame from recent μg experiment with negative electric field\n(10/29/18)\nKarnani, S. 2013",
+      "location": {
+        "page": 6
+      }
+    },
+    {
+      "type": "text",
+      "id": "b7",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "E-FIELD Flames Operations and Accomplishments\n• Part 2 is currently on going from September 26th\n30% ethylene with air coflowing at 3.1 cm/s",
+      "location": {
+        "page": 7
+      }
+    },
+    {
+      "type": "text",
+      "id": "b8",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "30% C H at 19cm/s\n2 4\n4\n6\n5\n3\n1 2 3 4 5 6\n2\n1",
+      "location": {
+        "page": 8
+      }
+    },
+    {
+      "type": "text",
+      "id": "b9",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "30% C H at 15 cm/s\n2 4\n4 5\n3\n2\n1 2 3 4 5\n1",
+      "location": {
+        "page": 9
+      }
+    },
+    {
+      "type": "text",
+      "id": "b10",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "30% C H at 19 cm/s\n2 4\n1 2 3 4 5 6\n4\n3 5\n6\n2\n1",
+      "location": {
+        "page": 10
+      }
+    },
+    {
+      "type": "text",
+      "id": "b11",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "30% C H at 15 cm/s\n2 4\n1 2 3 4 5\n4\n3\n5\n2\n1",
+      "location": {
+        "page": 11
+      }
+    },
+    {
+      "type": "text",
+      "id": "b12",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "30% C H at 27 cm/s\n2 4\n1 2 3 4 5 6\n3 4\n5\n6\n2\n1",
+      "location": {
+        "page": 12
+      }
+    },
+    {
+      "type": "text",
+      "id": "b13",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "V-I curve overlay",
+      "location": {
+        "page": 13
+      }
+    },
+    {
+      "type": "text",
+      "id": "b14",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "V-I curve overlay",
+      "location": {
+        "page": 14
+      }
+    },
+    {
+      "type": "text",
+      "id": "b15",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "NASA Operation Camera Video\nDownward (positive power supply)\nelectric field\nThe movie is 3-5x speed at different region\nConditions: 30% C2H4; 27 cm/s velocity; low coflow – 3.1 cm/s",
+      "location": {
+        "page": 15
+      }
+    },
+    {
+      "type": "text",
+      "id": "b16",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Recent NASA Ops Camera Video\nDownward (positive power supply)\nelectric field\nThe movie is 4x speed\nConditions: 30% C2H4; 19 cm/s velocity; single jet (10/29/18)",
+      "location": {
+        "page": 16
+      }
+    },
+    {
+      "type": "text",
+      "id": "b17",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Acknowledgements\n• Thanks for the support from NASA ACME: EFIELD – Electric Field\nEffects on Laminar Diffusion Flames (NNX17AC51A)\n• Thanks to Marshall Long for the support of data handling\n• NASA Microgravity Combustion Program and ……",
+      "location": {
+        "page": 17
+      }
+    },
+    {
+      "type": "text",
+      "id": "b18",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "European Space Agency (ESA) astronaut Paolo Nespoli installing the chamber insert for\nthe Advanced Combustion via Microgravity Experiments (ACME) in the Combustion\nIntegrated Rack (CIR). This photograph [ISS053e098207] was taken on the International\nSpace Station (ISS) on 12 Oct. 2017",
+      "location": {
+        "page": 18
+      }
+    },
+    {
+      "type": "text",
+      "id": "b19",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "NASA astronaut Joe Acaba reviewing procedures to align the hot-wire igniter on the\nACME chamber insert to his left taken on 5 Jan. 2018",
+      "location": {
+        "page": 19
+      }
+    },
+    {
+      "type": "text",
+      "id": "b20",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Angie Adams RO, PD, Planner, Crew Ops, ACME Ops Lead\nArt Atherton DMO\nAlex Beltram RO\nMike Carozzoni DMO\nDonna Davis DMO, Data Manager\nDeena Dombrosky PD\nSam Dunton DMO, Anomalies\nMark Flynn DMO, Data Manager\nAaron Godfrey PD\nMargaret Hericks RO, Planner\nSteve Lawn RO, DMO, Diagnostics\nKevin McPherson NASA/FCF Ops Lead, RO, DMO, Sustaining Engineering\nTracy Neff FCF Ops Lead, RO, DMO, Crew Training, Crew Ops\nJustin Niehaus RO\nDon Rahe DMO\nSharon Reinke Planner, Crew Procedures, Crew Training, Crew Ops\nJesse Robbins PD, Sustaining Engineering\nChris Rogers PD, DMO",
+      "location": {
+        "page": 20
+      }
+    },
+    {
+      "type": "text",
+      "id": "b21",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Sharon Reinke Planner, Crew Procedures, Crew Training, Crew Ops\nJesse Robbins PD, Sustaining Engineering\nChris Rogers PD, DMO\nMelani Smajdek CIR Planning Lead\nJennifer Storck Crew Training, Crew Ops\nKaren Tuttle RO, DMO\nBrandon Wagner DMO\nLori Yost DMO\nJeff Eggers ACME Software & ACME TADS\nJennifer Keller FCF Software Lead\nMatt Leach CIR TADS\nJohn Morrison CIR TADS\nJeff Schellentrager CIR software\nMarty O'Toole FCF Manager\nChris Mroczka ACME Manager\nTerri Miller Increment Trainer (for console operators), Anomalies\nStetmond Roberson Anomalies",
+      "location": {
+        "page": 21
+      }
+    },
+    {
+      "type": "text",
+      "id": "b22",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "Thank you",
+      "location": {
+        "page": 22
+      }
+    }
+  ]
+}

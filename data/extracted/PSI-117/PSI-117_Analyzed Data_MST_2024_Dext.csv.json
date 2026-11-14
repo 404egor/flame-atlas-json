@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-117",
+  "format": "csv",
+  "source": {
+    "fileName": "PSI-117_Analyzed Data_MST_2024_Dext.csv",
+    "folder": "Analyzed Data",
+    "subfolder": "Reduced Gravity/Simulation/MST",
+    "key": "psi-data/PSI-117/Analyzed Data/PSI-117_Analyzed Data_MST_2024_Dext.csv",
+    "version": 1,
+    "sizeBytes": 372,
+    "sha256": "2ed485fec6fad15c1409cd9b5c558ecf7bee262df29c832e9a54f3befc9c2e46",
+    "localPath": "data/raw/PSI-117/Analyzed Data/Reduced Gravity/Simulation/MST/PSI-117_Analyzed Data_MST_2024_Dext.csv",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-117"
+  },
+  "extractor": {
+    "name": "csv",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:29:16+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [
+    "PSI-117_Analyzed Data_MST_2024_Dext: 1 empty header(s) named column_<n> (columns 5)",
+    "PSI-117_Analyzed Data_MST_2024_Dext: 1 duplicate header(s) renamed: Pressure (2)"
+  ],
+  "stats": {
+    "textBlocks": 0,
+    "characters": 0,
+    "tables": 1,
+    "tableRows": 9,
+    "pages": null
+  },
+  "blocks": [
+    {
+      "type": "table",
+      "id": "b1",
+      "name": "PSI-117_Analyzed Data_MST_2024_Dext",
+      "confidence": "high",
+      "location": {},
+      "headerRow": 1,
+      "columns": [
+        "Model",
+        "Pressure",
+        "Dext_cool",
+        "Dext_hot",
+        "column_5",
+        "Expt",
+        "Pressure (2)",
+        "Dext_cool_Expt"
+      ],
+      "rowCount": 9,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "Model": "",
+            "Pressure": "0.5",
+            "Dext_cool": "1.197278912",
+            "Dext_hot": "3.442176871",
+            "column_5": "",
+            "Expt": "",
+            "Pressure (2)": "0.5",
+            "Dext_cool_Expt": "1.947105678"
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Model": "",
+            "Pressure": "0.75",
+            "Dext_cool": "0.414965986",
+            "Dext_hot": "3.68707483",
+            "column_5": "",
+            "Expt": "",
+            "Pressure (2)": "0.5",
+            "Dext_cool_Expt": "1.815514531"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Model": "",
+            "Pressure": "1",
+            "Dext_cool": "0.27",
+            "Dext_hot": "3.72139",
+            "column_5": "",
+            "Expt": "",
+            "Pressure (2)": "0.5",
+            "Dext_cool_Expt": "1.753104633"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Model": "",
+            "Pressure": "1.25",
+            "Dext_cool": "0.220136054",
+            "Dext_hot": "3.74829932",
+            "column_5": "",
+            "Expt": "",
+            "Pressure (2)": "0.75",
+            "Dext_cool_Expt": "0.906443529"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Model": "",
+            "Pressure": "3",
+            "Dext_cool": "0",
+            "Dext_hot": "3.945578231",
+            "column_5": "",
+            "Expt": "",
+            "Pressure (2)": "0.75",
+            "Dext_cool_Expt": "0.816118188"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Model": "",
+            "Pressure": "",
+            "Dext_cool": "",
+            "Dext_hot": "",
+            "column_5": "",
+            "Expt": "",
+            "Pressure (2)": "1",
+            "Dext_cool_Expt": "0.513770647"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Model": "",
+            "Pressure": "",
+            "Dext_cool": "",
+            "Dext_hot": "",
+            "column_5": "",
+            "Expt": "",
+            "Pressure (2)": "1",
+            "Dext_cool_Expt": "0.414665152"
+          }
+        },
+        {
+          "sourceRow": 8,
+          "raw": {
+            "Model": "",
+            "Pressure": "",
+            "Dext_cool": "",
+            "Dext_hot": "",
+            "column_5": "",
+            "Expt": "",
+            "Pressure (2)": "1",
+            "Dext_cool_Expt": "0.323172128"
+          }
+        },
+        {
+          "sourceRow": 9,
+          "raw": {
+            "Model": "",
+            "Pressure": "",
+            "Dext_cool": "",
+            "Dext_hot": "",
+            "column_5": "",
+            "Expt": "",
+            "Pressure (2)": "1.25",
+            "Dext_cool_Expt": "0.405990889"
+          }
+        }
+      ]
+    }
+  ]
+}

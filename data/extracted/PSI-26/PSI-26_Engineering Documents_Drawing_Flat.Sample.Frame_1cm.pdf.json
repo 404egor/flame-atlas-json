@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-26",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-26_Engineering Documents_Drawing_Flat.Sample.Frame_1cm.pdf",
+    "folder": "Engineering Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Flat.Sample.Frame_1cm.pdf",
+    "version": 2,
+    "sizeBytes": 586727,
+    "sha256": "bae2ceac0f5b7e1617329884dfcfa4b027d4660e9f84fb8d15fa4d820b99b80b",
+    "localPath": "data/raw/PSI-26/Engineering Documents/PSI-26_Engineering Documents_Drawing_Flat.Sample.Frame_1cm.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:22:47+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 1,
+    "characters": 23,
+    "tables": 0,
+    "tableRows": 0,
+    "pages": 1
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "BASS-ECO-026 In Process",
+      "location": {
+        "page": 1
+      }
+    }
+  ]
+}

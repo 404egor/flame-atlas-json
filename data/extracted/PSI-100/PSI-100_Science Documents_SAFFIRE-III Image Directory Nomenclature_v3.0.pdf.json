@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "1.0.0",
+  "investigationId": "PSI-100",
+  "format": "pdf",
+  "source": {
+    "fileName": "PSI-100_Science Documents_SAFFIRE-III Image Directory Nomenclature_v3.0.pdf",
+    "folder": "Science Documents",
+    "subfolder": null,
+    "key": "psi-data/PSI-100/Science Documents/PSI-100_Science Documents_SAFFIRE-III Image Directory Nomenclature_v3.0.pdf",
+    "version": 1,
+    "sizeBytes": 273485,
+    "sha256": "5dfe4822358df39475a542b79c0424bf4c44bb6c3382fd3f92e3288c0c917ff2",
+    "localPath": "data/raw/PSI-100/Science Documents/PSI-100_Science Documents_SAFFIRE-III Image Directory Nomenclature_v3.0.pdf",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-100"
+  },
+  "extractor": {
+    "name": "pdf",
+    "version": "1.1.0"
+  },
+  "extractedAt": "2026-11-14T17:25:41+00:00",
+  "status": "ok",
+  "error": null,
+  "warnings": [],
+  "stats": {
+    "textBlocks": 1,
+    "characters": 1380,
+    "tables": 2,
+    "tableRows": 12,
+    "pages": 1
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "id": "b1",
+      "kind": "page",
+      "level": null,
+      "style": null,
+      "text": "SAFFIRE-III\nImage Directory Nomenclature SAFFIRE-III_Image_Data_Package Contents\nVersion 3.0\nBit F1 F2 S1 S2\nXnCn_Raw_CamOriginal Camera original RAW files recorded on-board and downlinked on command.\nContains 8-byte offset that must be processed prior to color interpolation and\ndistribution. This data set is archived at NASA-GRC.\nXnCn_Raw_DistroMaster RAW Camara Orginal files processed for 8-byte offset using ImageJ, and resaved\nusing originial file name. This is the RAW Distribution Master set for Science Team\nX X X X\ndistribution and color interpolation (demosaicing).\nXn_Raw2TIFF TIFF images of the RAW Distribution Master files, color interpolated (demosaiced)\nusing IrfanView Batch Conversion process.\nX X X X\nXn_Raw2TIFF_icmad Raw2TIFF files annotated with ICMAD 'Exposure' and 'Gain' information. Data is\nappended to the bottom of each frame using ImageMagick script and resaved as\nX X\nTIFF.\nXn_jpeg Jpeg images created on-board SAFFIRE payload and downlinked by command\nX X X X\nXn_jpeg_corrupt Jpeg images received corrupted after downlink.\nX X X X\nXn_jpeg2png_icmad Jpeg images annotated with ICMAD 'Exposure' and 'Gain' information. Data is\nappended to the bottom of each frame using ImageMagick script and re-saved as X X\n.png format to minimize additional compression artifacts.\n\"Xn\" Denotes run type and number\n\"Cn\" Denotes camera number (if sorted separately)",
+      "location": {
+        "page": 1
+      }
+    },
+    {
+      "type": "table",
+      "id": "b2",
+      "name": "Page 1 table 1",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 1
+      },
+      "headerRow": 1,
+      "columns": [
+        "Bit",
+        "F1",
+        "F2",
+        "S1",
+        "S2"
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 2,
+          "raw": {
+            "Bit": "",
+            "F1": "X",
+            "F2": "X",
+            "S1": "X",
+            "S2": "X"
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "Bit": "",
+            "F1": "X",
+            "F2": "X",
+            "S1": "X",
+            "S2": "X"
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "Bit": "",
+            "F1": "",
+            "F2": "",
+            "S1": "X",
+            "S2": "X"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "Bit": "",
+            "F1": "X",
+            "F2": "X",
+            "S1": "X",
+            "S2": "X"
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "Bit": "",
+            "F1": "X",
+            "F2": "X",
+            "S1": "X",
+            "S2": "X"
+          }
+        },
+        {
+          "sourceRow": 7,
+          "raw": {
+            "Bit": "",
+            "F1": "",
+            "F2": "",
+            "S1": "X",
+            "S2": "X"
+          }
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "b3",
+      "name": "Page 1 table 2",
+      "confidence": "low",
+      "location": {
+        "page": 1,
+        "table": 2
+      },
+      "headerRow": 1,
+      "columns": [
+        "XnCn_Raw_CamOriginal",
+        "Camera original RAW files recorded on-board and downlinked on command.\nContains 8-byte offset that must be processed prior to color interpolation and\ndistribution. This data set is archived at NASA-GRC."
+      ],
+      "rowCount": 6,
+      "truncated": false,
+      "rows": [
+        {
+          "sourceRow": 1,
+          "raw": {
+            "XnCn_Raw_CamOriginal": "XnCn_Raw_DistroMaster",
+            "Camera original RAW files recorded on-board and downlinked on command.\nContains 8-byte offset that must be processed prior to color interpolation and\ndistribution. This data set is archived at NASA-GRC.": "RAW Camara Orginal files processed for 8-byte offset using ImageJ, and resaved\nusing originial file name. This is the RAW Distribution Master set for Science Team\ndistribution and color interpolation (demosaicing)."
+          }
+        },
+        {
+          "sourceRow": 2,
+          "raw": {
+            "XnCn_Raw_CamOriginal": "Xn_Raw2TIFF",
+            "Camera original RAW files recorded on-board and downlinked on command.\nContains 8-byte offset that must be processed prior to color interpolation and\ndistribution. This data set is archived at NASA-GRC.": "TIFF images of the RAW Distribution Master files, color interpolated (demosaiced)\nusing IrfanView Batch Conversion process."
+          }
+        },
+        {
+          "sourceRow": 3,
+          "raw": {
+            "XnCn_Raw_CamOriginal": "Xn_Raw2TIFF_icmad",
+            "Camera original RAW files recorded on-board and downlinked on command.\nContains 8-byte offset that must be processed prior to color interpolation and\ndistribution. This data set is archived at NASA-GRC.": "Raw2TIFF files annotated with ICMAD 'Exposure' and 'Gain' information. Data is\nappended to the bottom of each frame using ImageMagick script and resaved as\nTIFF."
+          }
+        },
+        {
+          "sourceRow": 4,
+          "raw": {
+            "XnCn_Raw_CamOriginal": "Xn_jpeg",
+            "Camera original RAW files recorded on-board and downlinked on command.\nContains 8-byte offset that must be processed prior to color interpolation and\ndistribution. This data set is archived at NASA-GRC.": "Jpeg images created on-board SAFFIRE payload and downlinked by command"
+          }
+        },
+        {
+          "sourceRow": 5,
+          "raw": {
+            "XnCn_Raw_CamOriginal": "Xn_jpeg_corrupt",
+            "Camera original RAW files recorded on-board and downlinked on command.\nContains 8-byte offset that must be processed prior to color interpolation and\ndistribution. This data set is archived at NASA-GRC.": "Jpeg images received corrupted after downlink."
+          }
+        },
+        {
+          "sourceRow": 6,
+          "raw": {
+            "XnCn_Raw_CamOriginal": "Xn_jpeg2png_icmad",
+            "Camera original RAW files recorded on-board and downlinked on command.\nContains 8-byte offset that must be processed prior to color interpolation and\ndistribution. This data set is archived at NASA-GRC.": "Jpeg images annotated with ICMAD 'Exposure' and 'Gain' information. Data is\nappended to the bottom of each frame using ImageMagick script and re-saved as\n.png format to minimize additional compression artifacts."
+          }
+        }
+      ]
+    }
+  ]
+}
