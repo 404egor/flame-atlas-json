@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ClaimText } from "@/components/claim-text";
 import { NotBuiltYet } from "@/components/page-parts";
 import { PillarBadge } from "@/components/pillar-badge";
-import { formatPressure, formatRange, formatText } from "@/domain/format";
+import { formatList, formatPressure, formatRange, formatText } from "@/domain/format";
 import { countRows } from "@/domain/rows";
 import type { Claim, Investigation } from "@/generated/contract";
 import { getTestsOfInvestigation } from "@/lib/data";
@@ -101,6 +101,17 @@ export function InvestigationDetail({ investigation }: { investigation: Investig
           </dd>
         </dl>
       </section>
+
+      {investigation.fuelAnalogOf ? (
+        <section>
+          <h2 className="text-lg font-semibold">
+            Fuel stands in for {formatList(investigation.fuelAnalogOf.states)} fuels
+          </h2>
+          <div className="mt-2 rounded-lg border border-line bg-surface p-4">
+            <ClaimText claim={investigation.fuelAnalogOf.claim} />
+          </div>
+        </section>
+      ) : null}
 
       <ClaimList title="Objectives" claims={investigation.objectives} />
       <ClaimList title="Measurements" claims={investigation.measurements} />

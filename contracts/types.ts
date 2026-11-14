@@ -1,5 +1,5 @@
 /**
- * Flame Atlas data contract, version 1.0.0.
+ * Flame Atlas data contract, version 1.1.0.
  *
  * TypeScript mirror of contracts/schema/*.schema.json. The JSON Schemas are the
  * source of truth; if they change, this file changes in the same commit.
@@ -7,7 +7,7 @@
  * scenarios.json, meta.json (from data/fixtures or data/processed).
  */
 
-export const CONTRACT_VERSION = '1.0.0';
+export const CONTRACT_VERSION = '1.1.0';
 
 export const PILLARS = ['prevention', 'detection', 'suppression', 'fundamentals'] as const;
 export const FUEL_STATES = ['solid', 'liquid', 'gas', 'aerosol'] as const;
@@ -125,6 +125,11 @@ export interface Investigation {
   pillarsSecondary: Pillar[];
   fuelStates: FuelState[];
   fuels: { name: string; state: FuelState; geometry: string | null }[];
+  /**
+   * Set when the investigation burns one fuel to stand in for fuels of another state,
+   * e.g. a gas burner that emulates solid and liquid fuels. Optional since 1.1.0.
+   */
+  fuelAnalogOf?: { states: FuelState[]; claim: Claim } | null;
 
   /** Ranges computed by the pipeline from tests.json. null = not reported. */
   conditions: {

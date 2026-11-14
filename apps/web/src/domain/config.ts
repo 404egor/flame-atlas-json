@@ -36,23 +36,6 @@ export const FUEL_SCORES = {
   none: 0,
 } as const;
 
-/**
- * Investigations whose fuel stands in for another fuel state.
- * This is a claim about an experiment, so every entry carries its source.
- * It belongs in the data contract; it lives here until the contract has a field for it.
- */
-export const FUEL_ANALOGS: Readonly<
-  Record<string, { standsInFor: readonly ("solid" | "liquid")[]; note: string; sourceUrl: string; sourceQuote: string }>
-> = {
-  "PSI-20": {
-    standsInFor: ["solid", "liquid"],
-    note: "Burns gas on a porous burner to emulate solid and liquid fuels, so the fuel counts as a partial match.",
-    // NASA PSI record of the investigation, field "objective".
-    sourceUrl: "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-20",
-    sourceQuote: "Emphasize fuel conditions that can be related to a diverse range of condensed fuels.",
-  },
-};
-
 /** Pillar component: the investigation's main pillar, one of its secondary pillars, or neither. */
 export const PILLAR_SCORES = {
   primary: 1,
