@@ -30,8 +30,8 @@
       "o2PctMax": 22.2,
       "pressureKpaMin": null,
       "pressureKpaMax": null,
-      "flowCmSMin": null,
-      "flowCmSMax": null,
+      "flowCmSMin": 5,
+      "flowCmSMax": 5,
       "diluents": [
         "N2"
       ],

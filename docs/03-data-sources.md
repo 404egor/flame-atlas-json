@@ -52,6 +52,11 @@
 5. **Тимчасові посилання S3 швидко спливають.** Посилання отримуємо безпосередньо перед завантаженням.
 6. **Не навантажуємо сервер.** Запити послідовно, з паузою, з кешем на диску. Повторний запуск
    ingest не має нічого качати вдруге.
+7. **CSV починається з BOM.** Читати з `encoding="utf-8-sig"`, інакше назва першої колонки буде зіпсована.
+8. **ReadMe — це словник колонок.** У папці `Science Documents` кожного дослідження є малий файл ReadMe
+   (у BASS-II це 21 КБ, .docx). Там пояснено, що означає кожна колонка таблиці. Без нього колонку легко
+   витлумачити неправильно: у BASS-II швидкість потоку лежить у колонці `Air display`, а не `Fan display`.
+   ReadMe читаємо перед маппінгом кожної таблиці.
 
 ## 3. 24 дослідження з горіння
 
@@ -102,7 +107,13 @@
 **PSI-25 BASS-II** (`BASS-II.csv`, 129, тест)
 `PI, Test #, Date, GMT, Sample #, Fuel Sample Material, Flow restrictor, Fan display, Air display, Radiometer gain (1000 250 50 10), Total Frames Shot, Calibrated initial O2 % by vol, Calibrated final O2 % by vol, Initial CO2 % by vol, Final CO2 % by vol, Initial CO (ppm), Final CO (ppm)`
 Приклад: `Bhattacharjee, B1, 2/19/2014, 50, 147, 100 micron PMMA film   2 cm wide, 2, 62, 5, 50, 57, 22.2, 22.2, 0.44, 0.44, 0, 6`.
-Швидкість потоку задана показами вентилятора й обмежувачем: перерахунок у см/с лежить у `Reference Data/Fan calibration data.xlsx`.
+Значення колонок пояснює ReadMe дослідження:
+- `Air display` — швидкість потоку в каналі, см/с. Датчик повільний (близько хвилини), показ стабільний лише при сталому режимі;
+- `Fan display` — напруга вентилятора × 10, а не швидкість;
+- `Flow restrictor` — обмежувач потоку: 0 дає найбільший потік, 2 найменший;
+- кисень відкалібровано за бортовим аналізатором МКС; `OR` у колонці CO означає понад 1000 ppm.
+
+Наслідку тесту в таблиці немає. У файлі Test Matrices (xlsx) ті самі колонки, наслідку там теж немає.
 
 **PSI-98 SAFFIRE-I** (`SAFFIRE-1.csv`, 4)
 `Sample Number, Material, Sample Thickness (cm), Sample Length (cm), Sample Width (cm), Air Flow (cm/s), Percent O2, Ignition Power (W), Ignition Time (s), Burn Time (s), Flow Direction, Camera 1, Camera 2`
@@ -194,6 +205,7 @@ Inverse (1015): `Flame Type, Day, Fuel, Test, Xf before test, Xf after test, app
 - **Одиниці різні:** mmHg, atm, bar; мольні частки й відсотки; одиниці всередині значень.
 - **У ACME-таблицях колонка `Notes` — це виноски до всієї таблиці**, розкладені по рядках, а не примітки
   до конкретного рядка. Їх переносимо в `tableNotes` маппінгу.
+- **Назви колонок не завжди зрозумілі без ReadMe.** Перед маппінгом таблиці читаємо ReadMe її дослідження.
 - **Частини умов у таблицях немає** (BASS, BRE, SAME): вони в ReadMe, Test Matrices і звітах.
   Такі поля заповнюємо з документа з посиланням і додаємо шлях поля в `norm.inferred`.
 - **Пріоритет маппінгу:** BASS-II → FLEX → CFI-G → SAFFIRE I–III → SPICE → BASS → Flame Design → CFI →
