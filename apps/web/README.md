@@ -13,6 +13,9 @@ npm run lint
 npm run build      # static export into out/
 ```
 
+To look at the static export itself, build without a base path and serve `out/`
+(`python3 -m http.server 4173 --directory out`). It behaves like the published site.
+
 Node 20.19 or newer is required.
 
 ## Where the data comes from
@@ -51,7 +54,9 @@ The short version:
 - No server features: the site is a static export (`output: "export"`). The `searchParams` page prop is one of them: read the query string in client components only.
 - Whether a row falls in an interval is decided only by `rangeMatchesInterval` in `src/domain/num.ts`, so a grid cell, a filter and a headline count always agree.
 - Shapes of domain inputs and results are fixed in `src/domain/types.ts` before the code that uses them.
-- The chosen environment is read from the address with `parseScenario` (`src/lib/url-state/scenario.ts`). Change the address with `window.history.replaceState` and a relative `?query`; `usePathname()` does not include the base path.
+- The chosen environment is read from the address with `parseScenario` (`src/lib/url-state/scenario.ts`). The address is read and changed only through the `useQueryState` hook (`src/lib/url-state/use-query-state.ts`); a screen that uses it is a client component mounted in `<Suspense>` by its route file, with a fallback that shows the default state.
+- A table row shows its origin only through `<RowSource>` (`src/components/row-source.tsx`); a number typed by the user goes through `<NumberField>`.
+- The ranking score is `rankInvestigations` in `src/domain/rank.ts`. The formula and the choices behind it are in `docs/02-architecture.md`, section 5.
 - If a real chart is needed: `npm i recharts@3.10.1 react-is@19.3.0`, both together. With the old `react-is` Recharts silently drops elements under React 19.
 - Colours come only from the tokens in `src/app/globals.css` (`bg-surface`, `text-fg-muted`, `border-line` and so on), never from palette classes such as `bg-white` or `text-slate-600`. Each token has a light and a dark value, so a component written with tokens works in both themes. The one exception is `src/lib/pillars.ts`, where every palette class has a `dark:` pair.
 
