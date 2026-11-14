@@ -1,0 +1,30 @@
+# dependencies and build output
+node_modules/
+.next/
+dist/
+out/
+coverage/
+
+# secrets: keys live only in .env.local and in the hosting provider's env
+.env
+.env.*
+!.env.example
+
+# local caches
+.cache/
+.turbo/
+.vercel/
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# archives and large downloads (role B extends this for data/raw documents)
+*.zip
+data/raw/**/*.pdf
+data/raw/**/*.docx
+data/raw/**/*.doc
+data/raw/**/*.pptx
+data/raw/**/*.ppt
+data/raw/**/*.xlsx
