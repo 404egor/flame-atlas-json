@@ -67,6 +67,16 @@
             }
           }
         },
+        "fuelAnalogOf": {
+          "description": "optional; set when the investigation burns one fuel to stand in for fuels of another state (a gas burner that emulates solid and liquid fuels); null or absent otherwise",
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "required": ["states", "claim"],
+          "properties": {
+            "states": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/fuelState" }, "description": "fuel states the investigation stands in for" },
+            "claim": { "$ref": "#/$defs/Claim", "description": "the statement with its source" }
+          }
+        },
 
         "conditions": {
           "type": "object",

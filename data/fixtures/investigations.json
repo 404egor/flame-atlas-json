@@ -427,6 +427,22 @@
         "geometry": "burner"
       }
     ],
+    "fuelAnalogOf": {
+      "states": [
+        "solid",
+        "liquid"
+      ],
+      "claim": {
+        "text": "Burns gas on a porous burner to emulate solid and liquid (condensed) fuels.",
+        "citations": [
+          {
+            "label": "PSI-20 metadata: objective",
+            "url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-20",
+            "quote": "Emphasize fuel conditions that can be related to a diverse range of condensed fuels."
+          }
+        ]
+      }
+    },
     "conditions": {
       "o2PctMin": 21,
       "o2PctMax": 40,
