@@ -2,7 +2,6 @@ import { describe, expect, it } from "vitest";
 import type { Investigation, TestRecord } from "@/generated/contract";
 import {
   DISTANCE_SCALES,
-  FUEL_ANALOGS,
   FUEL_SCORES,
   GRAVITY_SCORES,
   NEAREST_ROWS_LIMIT,
@@ -198,20 +197,28 @@ describe("scoreFuel", () => {
     expect(scoreFuel(lunarHabitat, investigation({ fuelStates: ["liquid"] })).score).toBe(FUEL_SCORES.none);
   });
 
+  const standIn = investigation({
+    fuelStates: ["gas"],
+    fuelAnalogOf: {
+      states: ["solid", "liquid"],
+      claim: { text: "Emulates condensed fuels.", citations: [{ label: "source", url: "https://example.org", quote: null }] },
+    },
+  });
+
   it("scores a recognised stand-in as a partial match and explains it", () => {
-    const [analogId] = Object.keys(FUEL_ANALOGS);
-    const part = scoreFuel(lunarHabitat, investigation({ id: analogId as Investigation["id"], fuelStates: ["gas"] }));
+    const part = scoreFuel(lunarHabitat, standIn);
     expect(part.score).toBe(FUEL_SCORES.analog);
     expect(part.known).toBe(true);
-    expect(part.caveat).toBe(FUEL_ANALOGS[analogId].note);
+    expect(part.caveat).toBe("Its fuel stands in for solid and liquid fuels, so the fuel counts as a partial match.");
   });
 
   it("does not treat a stand-in as one for a fuel state it does not emulate", () => {
-    const [analogId] = Object.keys(FUEL_ANALOGS);
-    const aerosol: ScenarioInput = { ...lunarHabitat, fuelStates: ["aerosol"] };
-    expect(scoreFuel(aerosol, investigation({ id: analogId as Investigation["id"], fuelStates: ["gas"] })).score).toBe(
-      FUEL_SCORES.none,
-    );
+    expect(scoreFuel({ ...lunarHabitat, fuelStates: ["aerosol"] }, standIn).score).toBe(FUEL_SCORES.none);
+  });
+
+  it("scores a different fuel as no match when the data names no stand-in", () => {
+    expect(scoreFuel(lunarHabitat, investigation({ fuelStates: ["gas"], fuelAnalogOf: null })).score).toBe(FUEL_SCORES.none);
+    expect(scoreFuel(lunarHabitat, investigation({ fuelStates: ["gas"] })).score).toBe(FUEL_SCORES.none);
   });
 
   it("is neutral when the investigation reports no fuel state", () => {
@@ -486,6 +493,10 @@ describe("rankInvestigations", () => {
         id: "PSI-20", // ACME BRE
         pillarsSecondary: ["fundamentals"],
         fuelStates: ["gas"],
+        fuelAnalogOf: {
+          states: ["solid", "liquid"],
+          claim: { text: "Emulates condensed fuels.", citations: [{ label: "source", url: "https://example.org", quote: null }] },
+        },
         conditions: { o2PctMin: 21, o2PctMax: 40, ...noPressure, ...noFlow },
         testStats: stats(18, "test-day"),
       }),

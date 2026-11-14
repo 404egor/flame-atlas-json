@@ -13,7 +13,6 @@ import type { Investigation, TestRecord } from "@/generated/contract";
 import {
   DATA_SCORE,
   DISTANCE_SCALES,
-  FUEL_ANALOGS,
   FUEL_SCORES,
   GRAVITY_CLASS_LIMITS,
   GRAVITY_SCORES,
@@ -87,9 +86,13 @@ export function scoreFuel(scenario: ScenarioInput, investigation: Investigation)
   if (investigation.fuelStates.length === 0) return notReported("Fuel state");
   if (investigation.fuelStates.some((state) => scenario.fuelStates.includes(state))) return known(FUEL_SCORES.match);
 
-  const analog = FUEL_ANALOGS[investigation.id];
-  if (analog && analog.standsInFor.some((state) => scenario.fuelStates.includes(state))) {
-    return known(FUEL_SCORES.analog, analog.note);
+  // The claim itself, with its source, is shown on the investigation card.
+  const analog = investigation.fuelAnalogOf;
+  if (analog && analog.states.some((state) => scenario.fuelStates.includes(state))) {
+    return known(
+      FUEL_SCORES.analog,
+      `Its fuel stands in for ${analog.states.join(" and ")} fuels, so the fuel counts as a partial match.`,
+    );
   }
   return known(FUEL_SCORES.none);
 }
