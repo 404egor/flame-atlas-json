@@ -9,11 +9,20 @@
 
 **Наші папки:** `apps/web/`, деплой.
 
-**Стек:** Next.js зі статичним експортом, TypeScript, Tailwind, shadcn/ui, Recharts. Хостинг: GitHub Pages.
+**Стек:** Next.js 16 зі статичним експортом, React 19, TypeScript, Tailwind 4, Vitest 4. Хостинг: GitHub Pages.
+Компоненти shadcn/ui і графіки Recharts додаємо, коли вони знадобляться.
 Сайт не має серверної частини й бази: усе рахується в браузері з готових файлів. LLM на сайті поки немає.
 
 **Перед роботою прочитай:** `AGENTS.md`, `contracts/README.md`, `docs/01-product-spec.md`,
-розділ 5 у `docs/02-architecture.md`.
+розділ 5 у `docs/02-architecture.md`, [apps/web/README.md](../apps/web/README.md) і архітектурні правила сайту:
+[ARCHITECTURE-SPINE.md](../_bmad-output/planning-artifacts/architecture/architecture-flame-atlas-2026-11-14/ARCHITECTURE-SPINE.md).
+У ньому 12 правил (AD-1 … AD-12), які не дають двом людям написати несумісний код.
+
+**Планування через BMAD.** У репозиторії встановлено BMAD (модуль BMM, навички в `.claude/skills`).
+Архітектуру сайту зроблено навичкою `bmad-architecture`. Окрему задачу зручно вести навичкою `bmad-build`.
+
+**Стан.** Каркас готовий (PR-1 і PR-2): статичний експорт, синхронізація даних, шлюз даних, навігація,
+п'ять сторінок-заготовок на зразках, ядро `src/domain` з тестами. Далі за списком: PR-3 і PR-4.
 
 Позначки: `одна людина`, `пара`. Задачі **КШ** лежать на критичному шляху.
 
