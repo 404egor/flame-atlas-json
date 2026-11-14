@@ -2,9 +2,13 @@ import { describe, expect, it } from "vitest";
 import {
   NOT_REPORTED,
   formatBoolean,
+  formatGranularity,
+  formatGravityLevels,
+  formatList,
   formatNumber,
   formatPressure,
   formatRange,
+  formatTableName,
   formatText,
   formatValue,
 } from "./format";
@@ -65,5 +69,35 @@ describe("scalar formatters", () => {
     expect(formatValue(420, "s")).toBe("420 s");
     expect(formatBoolean(true)).toBe("yes");
     expect(formatText("PMMA")).toBe("PMMA");
+  });
+});
+
+describe("labels for contract enums", () => {
+  it("names gravity levels in words and never leaves an empty list blank", () => {
+    expect(formatGravityLevels(["micro"])).toBe("microgravity");
+    expect(formatGravityLevels(["micro", "partial-simulated"])).toBe("microgravity; simulated partial gravity");
+    expect(formatGravityLevels([])).toBe(NOT_REPORTED);
+  });
+
+  it("names what a table row is, in singular and plural", () => {
+    expect(formatGranularity("test")).toBe("test");
+    expect(formatGranularity("test-day", true)).toBe("test days");
+    expect(formatGranularity("matrix-row")).toBe("test-matrix row");
+  });
+
+  it("joins a list with semicolons", () => {
+    expect(formatList(["solid", "liquid"])).toBe("solid; liquid");
+    expect(formatList([])).toBe(NOT_REPORTED);
+  });
+});
+
+describe("formatTableName", () => {
+  it("shortens a PSI table file name to the part that tells tables apart", () => {
+    expect(formatTableName("PSI-25_Experimental table_BASS-II.csv")).toBe("BASS-II");
+    expect(formatTableName("PSI-159_Experimental table_CFI-G_Normal Flames.csv")).toBe("CFI-G_Normal Flames");
+  });
+
+  it("leaves an unexpected name as it is", () => {
+    expect(formatTableName("notes.txt")).toBe("notes.txt");
   });
 });

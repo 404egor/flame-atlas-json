@@ -56,6 +56,16 @@ describe("buildScenarioParams", () => {
     expect(reread).toEqual(original);
   });
 
+  it("recognises a preset by its values, whatever the address called it", () => {
+    const iss = presets.find((preset) => preset.id === "iss")!;
+    const typedIn = parseScenario(
+      new URLSearchParams(`o2=${iss.o2Pct}&p=${iss.pressureKpa}&g=${iss.gravityG}&focus=${iss.focus}`),
+      presets,
+    );
+    expect(typedIn.presetId).toBe("iss");
+    expect(buildScenarioParams(typedIn, presets).toString()).toBe("scenario=iss");
+  });
+
   it("round-trips a custom environment", () => {
     const original = parseScenario(new URLSearchParams("scenario=rover&o2=28&p=62.5&g=0.38&focus=detection"), presets);
     const reread = parseScenario(buildScenarioParams(original, presets), presets);

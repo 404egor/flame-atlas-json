@@ -38,6 +38,17 @@ export function distanceToRange(value: number, range: Range): number | null {
   return 0;
 }
 
+/**
+ * Gap between two reported spans, in their own unit; 0 when they share a value.
+ * Unknown ranges return null.
+ */
+export function distanceBetweenRanges(a: Range, b: Range): number | null {
+  if (!isKnown(a) || !isKnown(b)) return null;
+  if (a.max < b.min) return b.min - a.max;
+  if (b.max < a.min) return a.min - b.max;
+  return 0;
+}
+
 /** True when two ranges share at least one value. Unknown ranges return null. */
 export function rangesOverlap(a: Range, b: Range): boolean | null {
   if (!isKnown(a) || !isKnown(b)) return null;

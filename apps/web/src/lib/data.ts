@@ -32,6 +32,12 @@ export function getInvestigation(id: string): Investigation | undefined {
   return investigationsById.get(id as Investigation["id"]);
 }
 
+const testsById = new Map(tests.map((row) => [row.id, row]));
+
+export function getTest(id: string): TestRecord | undefined {
+  return testsById.get(id);
+}
+
 export function getTestsOfInvestigation(id: string): TestRecord[] {
   return tests.filter((row) => row.investigationId === id);
 }

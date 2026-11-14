@@ -26,6 +26,92 @@ export const DISTANCE_SCALES = {
 /** Score given to a component whose value is not reported in the data. */
 export const UNKNOWN_COMPONENT_SCORE = 0.5;
 
+/** Airflow speed used for an environment with no forced airflow, in cm/s. */
+export const NO_FORCED_FLOW_CM_S = 0;
+
+/** Fuel component: same fuel state, a recognised stand-in for it, or neither. */
+export const FUEL_SCORES = {
+  match: 1,
+  analog: 0.5,
+  none: 0,
+} as const;
+
+/**
+ * Investigations whose fuel stands in for another fuel state.
+ * This is a claim about an experiment, so every entry carries its source.
+ * It belongs in the data contract; it lives here until the contract has a field for it.
+ */
+export const FUEL_ANALOGS: Readonly<
+  Record<string, { standsInFor: readonly ("solid" | "liquid")[]; note: string; sourceUrl: string; sourceQuote: string }>
+> = {
+  "PSI-20": {
+    standsInFor: ["solid", "liquid"],
+    note: "Burns gas on a porous burner to emulate solid and liquid fuels, so the fuel counts as a partial match.",
+    // NASA PSI record of the investigation, field "objective".
+    sourceUrl: "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-20",
+    sourceQuote: "Emphasize fuel conditions that can be related to a diverse range of condensed fuels.",
+  },
+};
+
+/** Pillar component: the investigation's main pillar, one of its secondary pillars, or neither. */
+export const PILLAR_SCORES = {
+  primary: 1,
+  secondary: 0.6,
+  other: 0.2,
+} as const;
+
+/**
+ * Gravity classes of an environment, by its gravity in g.
+ * At or below `microMaxG` it is microgravity; at or above `normalMinG` it is Earth gravity;
+ * in between it is partial gravity (Moon 0.165 g, Mars 0.38 g).
+ */
+export const GRAVITY_CLASS_LIMITS = {
+  microMaxG: 0.01,
+  normalMinG: 0.9,
+} as const;
+
+/**
+ * Gravity component: environment class, then the gravity level of the data.
+ * PSI has no test at real partial gravity. "partial-simulated" scores below 1
+ * because the partial gravity was imitated, for example with an electric field.
+ */
+export const GRAVITY_SCORES = {
+  micro: { micro: 1, "partial-simulated": 0.7, normal: 0.5 },
+  partial: { "partial-simulated": 0.9, micro: 0.7, normal: 0.5 },
+  normal: { normal: 1, "partial-simulated": 0.7, micro: 0.5 },
+} as const;
+
+/**
+ * Data-volume component: three parts that add up to 1.
+ * Rows count on a logarithmic scale and reach full credit at `rowsForFullCredit`.
+ */
+export const DATA_SCORE = {
+  rowsShare: 0.6,
+  tableShare: 0.2,
+  publicationsShare: 0.2,
+  rowsForFullCredit: 300,
+  publicationsForFullCredit: 5,
+} as const;
+
+/** Accepted values for a custom environment. A value outside these is ignored, never guessed. */
+export const SCENARIO_LIMITS = {
+  o2Pct: { min: 0, max: 100 },
+  pressureKpa: { min: 0.1, max: 1000 },
+  gravityG: { min: 0, max: 10 },
+  flowCmS: { min: 0, max: 10000 },
+} as const;
+
+/** Gravity levels offered as shortcuts in the environment form, in g. */
+export const GRAVITY_SHORTCUTS = [
+  { label: "Microgravity", gravityG: 0 },
+  { label: "Moon", gravityG: 0.165 },
+  { label: "Mars", gravityG: 0.38 },
+  { label: "Earth", gravityG: 1 },
+] as const;
+
+/** How many of an investigation's closest rows a ranked result lists. */
+export const NEAREST_ROWS_LIMIT = 3;
+
 /** The preset every screen falls back to when the address names none. */
 export const DEFAULT_SCENARIO_ID = "lunar-habitat";
 

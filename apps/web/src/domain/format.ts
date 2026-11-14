@@ -3,6 +3,7 @@
  * `null` always becomes NOT_REPORTED and never a zero or an empty string.
  */
 
+import type { Granularity, Gravity } from "@/generated/contract";
 import { KPA_PER_PSI } from "./config";
 import type { Range } from "./num";
 
@@ -68,4 +69,41 @@ export function formatBoolean(value: boolean | null, yes = "yes", no = "no"): st
 
 export function formatText(value: string | null): string {
   return value === null || value.trim() === "" ? NOT_REPORTED : value;
+}
+
+const GRAVITY_LABELS: Record<Gravity, string> = {
+  micro: "microgravity",
+  normal: "normal gravity",
+  "partial-simulated": "simulated partial gravity",
+};
+
+export function formatGravity(level: Gravity): string {
+  return GRAVITY_LABELS[level];
+}
+
+/** "microgravity", "microgravity; normal gravity" or "not reported". */
+export function formatGravityLevels(levels: readonly Gravity[]): string {
+  return levels.length === 0 ? NOT_REPORTED : levels.map(formatGravity).join("; ");
+}
+
+const GRANULARITY_LABELS: Record<Granularity, { one: string; many: string }> = {
+  test: { one: "test", many: "tests" },
+  "test-day": { one: "test day", many: "test days" },
+  "matrix-row": { one: "test-matrix row", many: "test-matrix rows" },
+  reference: { one: "published figure", many: "published figures" },
+};
+
+/** What a table row is, in words: only "test" rows are individual experiments. */
+export function formatGranularity(granularity: Granularity, plural = false): string {
+  return GRANULARITY_LABELS[granularity][plural ? "many" : "one"];
+}
+
+/** "solid", "solid; liquid" or "not reported". */
+export function formatList(values: readonly string[]): string {
+  return values.length === 0 ? NOT_REPORTED : values.join("; ");
+}
+
+/** "PSI-25_Experimental table_BASS-II.csv" becomes "BASS-II". The full file name stays available next to it. */
+export function formatTableName(tableFile: string): string {
+  return tableFile.replace(/^PSI-\d+_Experimental table_/, "").replace(/\.csv$/i, "");
 }

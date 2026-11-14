@@ -11,7 +11,7 @@
  * An unknown or missing preset falls back to DEFAULT_SCENARIO_ID.
  */
 
-import { DEFAULT_SCENARIO_ID } from "@/domain/config";
+import { DEFAULT_SCENARIO_ID, SCENARIO_LIMITS } from "@/domain/config";
 import { type ScenarioInput, scenarioInputFromPreset } from "@/domain/types";
 import { FUEL_STATES, type FuelState, PILLARS, type Pillar, type Scenario } from "@/generated/contract";
 
@@ -31,11 +31,16 @@ const NO_FLOW = "none";
 
 type ReadableParams = Pick<URLSearchParams, "get">;
 
-function readNumber(params: ReadableParams, name: string, min: number, max: number): number | undefined {
+interface Limits {
+  min: number;
+  max: number;
+}
+
+function readNumber(params: ReadableParams, name: string, limits: Limits): number | undefined {
   const raw = params.get(name);
   if (raw === null || raw.trim() === "") return undefined;
   const value = Number(raw);
-  return Number.isFinite(value) && value >= min && value <= max ? value : undefined;
+  return Number.isFinite(value) && value >= limits.min && value <= limits.max ? value : undefined;
 }
 
 function isFuelState(value: string): value is FuelState {
@@ -58,11 +63,11 @@ export function parseScenario(params: ReadableParams, presets: readonly Scenario
   const preset = findPreset(presets, params.get(SCENARIO_PARAMS.preset));
   const input = scenarioInputFromPreset(preset);
 
-  const o2Pct = readNumber(params, SCENARIO_PARAMS.o2Pct, 0, 100);
-  const pressureKpa = readNumber(params, SCENARIO_PARAMS.pressureKpa, 0.1, 1000);
-  const gravityG = readNumber(params, SCENARIO_PARAMS.gravityG, 0, 10);
-  const flowCmSMin = readNumber(params, SCENARIO_PARAMS.flowCmSMin, 0, 10000);
-  const flowCmSMax = readNumber(params, SCENARIO_PARAMS.flowCmSMax, 0, 10000);
+  const o2Pct = readNumber(params, SCENARIO_PARAMS.o2Pct, SCENARIO_LIMITS.o2Pct);
+  const pressureKpa = readNumber(params, SCENARIO_PARAMS.pressureKpa, SCENARIO_LIMITS.pressureKpa);
+  const gravityG = readNumber(params, SCENARIO_PARAMS.gravityG, SCENARIO_LIMITS.gravityG);
+  const flowCmSMin = readNumber(params, SCENARIO_PARAMS.flowCmSMin, SCENARIO_LIMITS.flowCmS);
+  const flowCmSMax = readNumber(params, SCENARIO_PARAMS.flowCmSMax, SCENARIO_LIMITS.flowCmS);
 
   if (o2Pct !== undefined) input.o2Pct = o2Pct;
   if (pressureKpa !== undefined) input.pressureKpa = pressureKpa;
@@ -84,8 +89,22 @@ export function parseScenario(params: ReadableParams, presets: readonly Scenario
   const focus = params.get(SCENARIO_PARAMS.focus);
   if (focus !== null && isFocus(focus)) input.focus = focus;
 
-  if (!sameAsPreset(input, preset)) input.presetId = null;
+  input.presetId = matchingPreset(input, presets, preset.id)?.id ?? null;
   return input;
+}
+
+/**
+ * The preset whose values equal the environment's, if any. `preferredId` wins
+ * when two presets hold the same values.
+ */
+export function matchingPreset(
+  input: ScenarioInput,
+  presets: readonly Scenario[],
+  preferredId: string | null = input.presetId,
+): Scenario | undefined {
+  const preferred = presets.find((item) => item.id === preferredId);
+  if (preferred && sameAsPreset(input, preferred)) return preferred;
+  return presets.find((item) => sameAsPreset(input, item));
 }
 
 function sameAsPreset(input: ScenarioInput, preset: Scenario): boolean {
@@ -107,8 +126,8 @@ function sameAsPreset(input: ScenarioInput, preset: Scenario): boolean {
  */
 export function buildScenarioParams(input: ScenarioInput, presets: readonly Scenario[]): URLSearchParams {
   const params = new URLSearchParams();
-  const preset = presets.find((item) => item.id === input.presetId);
-  if (preset && sameAsPreset(input, preset)) {
+  const preset = matchingPreset(input, presets);
+  if (preset) {
     params.set(SCENARIO_PARAMS.preset, preset.id);
     return params;
   }

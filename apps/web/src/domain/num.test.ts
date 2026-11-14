@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { distanceToRange, inRange, isKnown, rangesOverlap } from "./num";
+import { distanceBetweenRanges, distanceToRange, inRange, isKnown, rangesOverlap } from "./num";
 
 const unknown = { min: null, max: null };
 
@@ -57,5 +57,22 @@ describe("rangesOverlap", () => {
   it("detects touching and separate ranges", () => {
     expect(rangesOverlap({ min: 5, max: 20 }, { min: 20, max: 30 })).toBe(true);
     expect(rangesOverlap({ min: 5, max: 19 }, { min: 20, max: 30 })).toBe(false);
+  });
+});
+
+describe("distanceBetweenRanges", () => {
+  it("is 0 when the spans share a value", () => {
+    expect(distanceBetweenRanges({ min: 5, max: 20 }, { min: 20, max: 30 })).toBe(0);
+    expect(distanceBetweenRanges({ min: 5, max: 20 }, { min: 10, max: 10 })).toBe(0);
+  });
+
+  it("is the gap between the spans, whichever comes first", () => {
+    expect(distanceBetweenRanges({ min: 5, max: 20 }, { min: 50, max: 60 })).toBe(30);
+    expect(distanceBetweenRanges({ min: 50, max: 60 }, { min: 5, max: 20 })).toBe(30);
+  });
+
+  it("is null when either span is not reported", () => {
+    expect(distanceBetweenRanges({ min: 5, max: 20 }, unknown)).toBeNull();
+    expect(distanceBetweenRanges(unknown, { min: 5, max: 20 })).toBeNull();
   });
 });
