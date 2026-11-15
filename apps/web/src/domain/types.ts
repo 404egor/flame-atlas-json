@@ -44,7 +44,7 @@ export interface RankItem {
   score: number;
   /** Each component is 0 to 1, before weighting. */
   components: Record<RankComponent, number>;
-  /** Components that used the neutral score because the data does not report the value. */
+  /** Components the data does not report; they earn UNKNOWN_COMPONENT_SCORE. */
   unknownComponents: RankComponent[];
   /** Plain-English warnings, e.g. "Pressure is not reported for this investigation". */
   caveats: string[];

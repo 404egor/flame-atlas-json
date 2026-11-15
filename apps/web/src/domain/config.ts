@@ -23,8 +23,18 @@ export const DISTANCE_SCALES = {
   flowCmS: 15,
 } as const;
 
-/** Score given to a component whose value is not reported in the data. */
-export const UNKNOWN_COMPONENT_SCORE = 0.5;
+/**
+ * Score given to a component whose value is not reported in the data: no evidence, no points.
+ * A neutral 0.5 put investigations whose tables report no conditions at the top (docs/decisions.md).
+ */
+export const UNKNOWN_COMPONENT_SCORE = 0;
+
+/**
+ * Closeness assumed for a condition a single row does not report, when choosing an
+ * investigation's closest rows. It only orders rows inside one investigation, so a
+ * row with a gap is neither favoured nor ruled out; it never changes the score.
+ */
+export const UNKNOWN_ROW_CONDITION_SCORE = 0.5;
 
 /** Airflow speed used for an environment with no forced airflow, in cm/s. */
 export const NO_FORCED_FLOW_CM_S = 0;
