@@ -1,7 +1,13 @@
 {
   "investigationId": "PSI-21",
   "source": "psi",
-  "listedAt": "2026-11-14T16:50:33+00:00",
+  "listedAt": "2026-11-15T09:08:01+00:00",
+  "listings": [
+    "added",
+    "experimentalTable",
+    "tree"
+  ],
+  "listingComplete": true,
   "selection": {
     "allowedExtensions": [
       "pdf",
@@ -18,8 +24,8 @@
   "stats": {
     "listed": 4134,
     "selected": 1,
-    "downloaded": 1,
-    "cached": 0,
+    "downloaded": 0,
+    "cached": 1,
     "failed": 0
   },
   "files": [

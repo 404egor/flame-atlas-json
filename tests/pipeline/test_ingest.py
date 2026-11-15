@@ -30,6 +30,11 @@ class TreeTest(unittest.TestCase):
         self.assertEqual(split_key("psi-data/PSI-25/Science Documents/a/b.docx", "PSI-25"),
                          ("Science Documents", "a", "b.docx"))
 
+    def test_split_key_keeps_slash_inside_psi_file_name(self):
+        key = "psi-data/PSI-22/Engineering Documents/PSI-22_Engineering Documents_S1101MFS0004_rev_A - ACME/CIR Integrated Pneumatic Schematic.pdf"
+        self.assertEqual(split_key(key, "PSI-22"), ("Engineering Documents", None,
+                         "PSI-22_Engineering Documents_S1101MFS0004_rev_A - ACME/CIR Integrated Pneumatic Schematic.pdf"))
+
     def test_parse_tree_walks_nested_folders_and_skips_hidden(self):
         files = parse_tree(TREE, "PSI-99")
         self.assertEqual(len(files), 3)
@@ -45,6 +50,20 @@ class TreeTest(unittest.TestCase):
         csv = [f for f in files if f.extension == "csv"][0]
         self.assertEqual(sorted(csv.origin), ["experimentalTable", "tree"])
         self.assertEqual(len(files), 3)
+
+
+class CacheTest(unittest.TestCase):
+    def test_wrong_listing_size_is_cached_after_first_download(self):
+        import tempfile
+        from pathlib import Path
+        from pipeline.ingest import is_cached
+        with tempfile.TemporaryDirectory() as d:
+            dest = Path(d) / "a.pdf"
+            dest.write_bytes(b"x" * 10)
+            f = RemoteFile(key="k", file_name="a.pdf", folder="Reports", subfolder=None, size_bytes=7, version=1)
+            self.assertFalse(is_cached(dest, f))
+            self.assertTrue(is_cached(dest, f, {"k": {"sizeBytes": 7, "downloadedBytes": 10}}))
+            self.assertFalse(is_cached(dest, f, {"k": {"sizeBytes": 8, "downloadedBytes": 10}}))  # listing changed
 
 
 class SelectionTest(unittest.TestCase):

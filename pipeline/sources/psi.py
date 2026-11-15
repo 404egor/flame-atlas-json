@@ -115,6 +115,11 @@ def split_key(key: str, investigation_id: str) -> Tuple[str, Optional[str], str]
     rest = parts[start:]
     if len(rest) <= 1:
         return "", None, rest[-1] if rest else key
+    # PSI file names start with "<id>_"; a "/" after that is part of the name, not a folder
+    # (PSI-22: "PSI-22_Engineering Documents_S1101MFS0004_rev_A - ACME/CIR Integrated Pneumatic Schematic.pdf").
+    for i in range(1, len(rest)):
+        if rest[i].startswith(f"{investigation_id}_"):
+            return rest[0], "/".join(rest[1:i]) or None, "/".join(rest[i:])
     sub = "/".join(rest[1:-1]) or None
     return rest[0], sub, rest[-1]
 

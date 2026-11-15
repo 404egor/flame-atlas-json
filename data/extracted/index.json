@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-14T17:30:03+00:00",
+  "generatedAt": "2026-11-15T09:12:07+00:00",
   "source": {
     "name": "NASA Physical Sciences Informatics (PSI)",
     "url": "https://psi.nasa.gov",
@@ -8,10 +8,10 @@
   },
   "counts": {
     "investigations": 24,
-    "documents": 386,
+    "documents": 387,
     "documentsFailed": 1,
-    "tables": 4434,
-    "tableRows": 167726
+    "tables": 4435,
+    "tableRows": 167728
   },
   "investigations": [
     {
@@ -1289,6 +1289,17 @@
           "tables": 1,
           "tableRows": 7,
           "warnings": 3
+        },
+        {
+          "fileName": "PSI-22_Engineering Documents_S1101MFS0004_rev_A - ACME/CIR Integrated Pneumatic Schematic.pdf",
+          "folder": "Engineering Documents",
+          "format": "pdf",
+          "path": "data/extracted/PSI-22/PSI-22_Engineering Documents_S1101MFS0004_rev_A - ACME_CIR Integrated Pneumatic Schematic.pdf.json",
+          "status": "ok",
+          "textBlocks": 1,
+          "tables": 1,
+          "tableRows": 2,
+          "warnings": 0
         },
         {
           "fileName": "PSI-22_Engineering Documents_s1101mfa0100_C - ACME Chamber Insert Assembly.pdf",

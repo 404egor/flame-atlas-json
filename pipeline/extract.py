@@ -26,6 +26,7 @@ from pipeline.download import sha256_file
 from pipeline.extractors.base import SCHEMA_VERSION, ExtractionResult, TableBlock, blocks_to_json, stats
 from pipeline.ingest import rel, write_json
 from pipeline.settings import REPO_ROOT, Settings, load_settings
+from pipeline.sources.base import safe_name
 from pipeline.validate_extracted import validate_folder
 
 _log = log.get("pipeline.extract")
@@ -59,7 +60,7 @@ def extract_file(settings: Settings, inv_id: str, f: Dict[str, Any], *, force: b
         _log.info("%s: no extractor for .%s (%s)", inv_id, ext, f["fileName"])
         return None
 
-    out_path = settings.extracted_dir / inv_id / (f["fileName"] + ".json")
+    out_path = settings.extracted_dir / inv_id / (safe_name(f["fileName"]) + ".json")
     sha = f.get("sha256") or sha256_file(src)
     if not force and up_to_date(out_path, sha, extractor.version):
         return json.loads(out_path.read_text(encoding="utf-8"))
@@ -135,7 +136,7 @@ def extract_investigation(settings: Settings, inv_id: str, formats: Optional[Lis
             "fileName": f["fileName"],
             "folder": f.get("folder") or "",
             "format": doc["format"],
-            "path": rel(settings.extracted_dir / inv_id / (f["fileName"] + ".json")),
+            "path": rel(settings.extracted_dir / inv_id / (safe_name(f["fileName"]) + ".json")),
             "status": doc["status"],
             "textBlocks": doc["stats"]["textBlocks"],
             "tables": doc["stats"]["tables"],

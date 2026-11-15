@@ -21,7 +21,7 @@ from typing import Any, Dict, List, Optional
 from pipeline import log, selection
 from pipeline.download import Http, sha256_file
 from pipeline.settings import REPO_ROOT, Settings, load_settings
-from pipeline.sources.base import RemoteFile, Source
+from pipeline.sources.base import RemoteFile, Source, safe_name
 from pipeline.sources.psi import PsiSource
 
 _log = log.get("pipeline.ingest")
@@ -45,7 +45,7 @@ def local_path_for(raw_dir: Path, investigation_id: str, f: RemoteFile) -> Path:
     parts = [investigation_id, f.folder or "_root"]
     if f.subfolder:
         parts.extend(p for p in f.subfolder.split("/") if p)
-    return raw_dir.joinpath(*parts, f.file_name)
+    return raw_dir.joinpath(*parts, safe_name(f.file_name))
 
 
 def rel(path: Path) -> str:
@@ -55,15 +55,31 @@ def rel(path: Path) -> str:
         return path.as_posix()
 
 
-def is_cached(dest: Path, f: RemoteFile) -> bool:
+def is_cached(dest: Path, f: RemoteFile, previous: Optional[Dict[str, Any]] = None) -> bool:
+    """On disk with the listed size, or with the size recorded by the last download of the same listing."""
     if not dest.exists():
         return False
-    return f.size_bytes is None or dest.stat().st_size == f.size_bytes
+    size = dest.stat().st_size
+    if f.size_bytes is None or size == f.size_bytes:
+        return True
+    prev = (previous or {}).get(f.key) or {}
+    return prev.get("sizeBytes") == f.size_bytes and prev.get("downloadedBytes") == size
+
+
+def previous_listing(inv_dir: Path) -> Dict[str, Any]:
+    path = inv_dir / "files.json"
+    if not path.exists():
+        return {}
+    try:
+        return {x["key"]: x for x in json.loads(path.read_text(encoding="utf-8")).get("files", [])}
+    except (OSError, ValueError, KeyError):
+        return {}
 
 
 def ingest_one(source: Source, http: Http, settings: Settings, inv_id: str, *, dry_run: bool, force: bool,
                download: bool) -> Dict[str, Any]:
     inv_dir = settings.raw_dir / inv_id
+    previous = previous_listing(inv_dir)
     details = source.details(inv_id)
     if not dry_run:
         write_json(inv_dir / "metadata.json", details)
@@ -82,13 +98,15 @@ def ingest_one(source: Source, http: Http, settings: Settings, inv_id: str, *, d
         f.local_path = rel(dest)
         if dry_run or not download:
             continue
-        if is_cached(dest, f) and not force:
+        if is_cached(dest, f, previous) and not force:
             stats["cached"] += 1
             f.sha256 = sha256_file(dest)
+            f.downloaded_bytes = dest.stat().st_size
             continue
         try:
             url = source.download_url(inv_id, f)  # fresh short-lived link right before the download
             f.sha256 = http.download(url, dest)
+            f.downloaded_bytes = dest.stat().st_size
             if f.size_bytes is not None and dest.stat().st_size != f.size_bytes:
                 _log.warning("%s: size %d differs from listing %d", f.file_name, dest.stat().st_size, f.size_bytes)
             stats["downloaded"] += 1

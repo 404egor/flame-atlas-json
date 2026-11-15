@@ -35,6 +35,7 @@ class RemoteFile:
     reason: Optional[str] = None  # why it was skipped (or "selected")
     local_path: Optional[str] = None  # repo-relative path once downloaded
     sha256: Optional[str] = None
+    downloaded_bytes: Optional[int] = None  # actual size on disk (PSI listings are sometimes wrong)
 
     @property
     def extension(self) -> str:
@@ -44,6 +45,11 @@ class RemoteFile:
         d = asdict(self)
         d["extension"] = self.extension
         return {_camel(k): v for k, v in d.items()}
+
+
+def safe_name(file_name: str) -> str:
+    """File name usable on disk: PSI names may contain '/'."""
+    return file_name.replace("/", "_")
 
 
 def _camel(name: str) -> str:

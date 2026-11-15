@@ -1,7 +1,12 @@
 {
   "investigationId": "PSI-22",
   "source": "psi",
-  "listedAt": "2026-11-14T16:53:03+00:00",
+  "listedAt": "2026-11-15T09:08:17+00:00",
+  "listings": [
+    "experimentalTable",
+    "tree"
+  ],
+  "listingComplete": true,
   "selection": {
     "allowedExtensions": [
       "pdf",
@@ -18,9 +23,9 @@
   "stats": {
     "listed": 2578,
     "selected": 58,
-    "downloaded": 57,
-    "cached": 0,
-    "failed": 1
+    "downloaded": 1,
+    "cached": 57,
+    "failed": 0
   },
   "files": [
     {
@@ -393,18 +398,18 @@
     },
     {
       "key": "psi-data/PSI-22/Engineering Documents/PSI-22_Engineering Documents_S1101MFS0004_rev_A - ACME/CIR Integrated Pneumatic Schematic.pdf",
-      "fileName": "CIR Integrated Pneumatic Schematic.pdf",
+      "fileName": "PSI-22_Engineering Documents_S1101MFS0004_rev_A - ACME/CIR Integrated Pneumatic Schematic.pdf",
       "folder": "Engineering Documents",
-      "subfolder": "PSI-22_Engineering Documents_S1101MFS0004_rev_A - ACME",
+      "subfolder": null,
       "sizeBytes": 308670,
       "version": 1,
       "origin": [
         "tree"
       ],
       "selected": true,
-      "reason": "download-failed:HTTPError",
-      "localPath": null,
-      "sha256": null,
+      "reason": "selected",
+      "localPath": "data/raw/PSI-22/Engineering Documents/PSI-22_Engineering Documents_S1101MFS0004_rev_A - ACME_CIR Integrated Pneumatic Schematic.pdf",
+      "sha256": "415f24ed91686fa32d96b164d17646be5a1fae1884c25fc2d0b75bb81618d14e",
       "extension": "pdf"
     },
     {

@@ -17,7 +17,7 @@
     "name": "pdf",
     "version": "1.1.0"
   },
-  "extractedAt": "2026-11-14T17:24:15+00:00",
+  "extractedAt": "2026-11-15T09:12:05+00:00",
   "status": "failed",
   "error": "PdfminerException: No /Root object! - Is this really a PDF?",
   "warnings": [],

@@ -1,7 +1,12 @@
 {
   "investigationId": "PSI-60",
   "source": "psi",
-  "listedAt": "2026-11-14T16:59:07+00:00",
+  "listedAt": "2026-11-15T09:09:30+00:00",
+  "listings": [
+    "added",
+    "tree"
+  ],
+  "listingComplete": true,
   "selection": {
     "allowedExtensions": [
       "pdf",
