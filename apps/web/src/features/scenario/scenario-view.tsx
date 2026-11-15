@@ -47,7 +47,7 @@ export function ScenarioView({
             <h2 id="ranked-heading" className="text-lg font-semibold">
               {result.items.length} investigation{result.items.length === 1 ? "" : "s"}, closest conditions first
             </h2>
-            <p className="mt-1 text-sm text-fg-muted" aria-live="polite">
+            <p className="mt-1 min-h-[2lh] text-sm text-fg-muted" aria-live="polite">
               {activePreset ? `${activePreset.name}: ` : "Custom environment: "}
               {describeEnvironment(scenario)}
             </p>

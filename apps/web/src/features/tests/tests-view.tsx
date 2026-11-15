@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo } from "react";
+import { useMemo, useRef } from "react";
 import { PageHeader } from "@/components/page-parts";
 import { RowSource } from "@/components/row-source";
 import { filterTests, hasActiveFilters } from "@/domain/filters";
@@ -30,6 +30,14 @@ export function TestsView({
   const pages = Math.max(1, Math.ceil(matching.length / PAGE_SIZE));
   const current = Math.min(page, pages);
   const rows = matching.slice((current - 1) * PAGE_SIZE, current * PAGE_SIZE);
+  const sectionRef = useRef<HTMLElement>(null);
+
+  // The page buttons sit under the table: after a page change, show the new page from its first row.
+  function goToPage(next: number) {
+    onChange(filters, next);
+    const section = sectionRef.current;
+    if (section && section.getBoundingClientRect().top < 0) section.scrollIntoView({ block: "start" });
+  }
 
   return (
     <div className="space-y-6">
@@ -43,7 +51,7 @@ export function TestsView({
           <TestsFilters filters={filters} onChange={(next) => onChange(next, 1)} />
         </div>
 
-        <section aria-label="Rows" className="min-w-0 space-y-3">
+        <section ref={sectionRef} aria-label="Rows" className="min-w-0 scroll-mt-4 space-y-3">
           <p className="text-sm text-fg-muted" aria-live="polite">
             {hasActiveFilters(filters) ? "Matching the filters: " : "In this build: "}
             <span className="font-medium text-fg">
@@ -85,34 +93,34 @@ export function TestsView({
                 <tbody className="divide-y divide-line">
                   {rows.map((row) => (
                     <tr key={row.id} className="align-top">
-                      <td className="px-3 py-2 font-mono text-xs">{formatText(row.label)}</td>
-                      <td className="px-3 py-2">
+                      <td className="whitespace-nowrap px-3 py-2 font-mono text-xs">{formatText(row.label)}</td>
+                      <td className="whitespace-nowrap px-3 py-2">
                         <Link href={investigationHref(row.investigationId)} className="underline underline-offset-2">
                           {getInvestigation(row.investigationId)?.acronym ?? row.investigationId}
                         </Link>
                       </td>
-                      <td className="px-3 py-2">{formatGranularity(row.granularity)}</td>
-                      <td className="px-3 py-2">
+                      <td className="whitespace-nowrap px-3 py-2">{formatGranularity(row.granularity)}</td>
+                      <td className="whitespace-nowrap px-3 py-2">
                         {formatText(row.fuelName)}
                         {row.fuelState ? <span className="text-fg-subtle">, {row.fuelState}</span> : null}
                       </td>
-                      <td className="px-3 py-2 tabular-nums">
+                      <td className="whitespace-nowrap px-3 py-2 tabular-nums">
                         {formatRange(
                           { min: row.o2PctMin, max: row.o2PctMax, values: row.o2PctValues },
                           { unit: "%", approx: row.o2PctApprox },
                         )}
                       </td>
-                      <td className="px-3 py-2 tabular-nums">
+                      <td className="whitespace-nowrap px-3 py-2 tabular-nums">
                         {formatPressure({ min: row.pressureKpaMin, max: row.pressureKpaMax })}
                       </td>
-                      <td className="px-3 py-2 tabular-nums">
+                      <td className="whitespace-nowrap px-3 py-2 tabular-nums">
                         {formatRange({ min: row.flowCmSMin, max: row.flowCmSMax }, { unit: "cm/s" })}
                         {row.flowDirection !== "unknown" ? (
                           <span className="text-fg-subtle">, {row.flowDirection}</span>
                         ) : null}
                       </td>
-                      <td className="px-3 py-2">{formatText(row.outcome)}</td>
-                      <td className="px-3 py-2">
+                      <td className="whitespace-nowrap px-3 py-2">{formatText(row.outcome)}</td>
+                      <td className="min-w-48 px-3 py-2">
                         <RowSource row={row} />
                       </td>
                     </tr>
@@ -127,7 +135,7 @@ export function TestsView({
               <button
                 type="button"
                 disabled={current <= 1}
-                onClick={() => onChange(filters, current - 1)}
+                onClick={() => goToPage(current - 1)}
                 className="rounded-md border border-line-strong px-3 py-1 hover:bg-surface-muted disabled:cursor-not-allowed disabled:opacity-50"
               >
                 Previous
@@ -138,7 +146,7 @@ export function TestsView({
               <button
                 type="button"
                 disabled={current >= pages}
-                onClick={() => onChange(filters, current + 1)}
+                onClick={() => goToPage(current + 1)}
                 className="rounded-md border border-line-strong px-3 py-1 hover:bg-surface-muted disabled:cursor-not-allowed disabled:opacity-50"
               >
                 Next

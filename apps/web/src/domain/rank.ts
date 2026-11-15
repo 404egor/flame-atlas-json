@@ -21,6 +21,7 @@ import {
   PILLAR_SCORES,
   RANK_WEIGHTS,
   UNKNOWN_COMPONENT_SCORE,
+  UNKNOWN_ROW_CONDITION_SCORE,
 } from "./config";
 import { formatGranularity, formatGravity, formatNumber } from "./format";
 import { type Range, distanceBetweenRanges, distanceToRange } from "./num";
@@ -31,7 +32,7 @@ import type { ConditionDistance, RankComponent, RankInvestigations, RankItem, Sc
 export interface ComponentScore {
   /** 0 to 1. */
   score: number;
-  /** False when the data does not report the value and the neutral score was used. */
+  /** False when the data does not report the value, so the component earns UNKNOWN_COMPONENT_SCORE. */
   known: boolean;
   /** A sentence for the result card when there is something to warn about. */
   caveat: string | null;
@@ -45,7 +46,7 @@ function notReported(what: string): ComponentScore {
   return {
     score: UNKNOWN_COMPONENT_SCORE,
     known: false,
-    caveat: `${what} is not reported for this investigation, so that part of the score is the neutral ${UNKNOWN_COMPONENT_SCORE}.`,
+    caveat: `${what} is not reported for this investigation, so that part of the score earns no points.`,
   };
 }
 
@@ -147,15 +148,15 @@ export function scoreGravity(scenario: ScenarioInput, investigation: Investigati
   return known(scores[best], caveat);
 }
 
-/** Normalized distance at which closeness() equals the neutral score. Used for a condition a row does not report. */
-const UNKNOWN_DISTANCE = Math.sqrt(-Math.log(UNKNOWN_COMPONENT_SCORE));
+/** Normalized distance at which closeness() equals UNKNOWN_ROW_CONDITION_SCORE. Used for a condition a row does not report. */
+const UNKNOWN_DISTANCE = Math.sqrt(-Math.log(UNKNOWN_ROW_CONDITION_SCORE));
 
 /**
  * Distance between an environment and one row, over oxygen, pressure and airflow.
  *
  * Each condition is measured in its own scale (DISTANCE_SCALES) and weighted like
  * the score (RANK_WEIGHTS). A condition the row does not report counts as the
- * distance that gives the neutral score, so a row with gaps is neither favoured
+ * distance that gives UNKNOWN_ROW_CONDITION_SCORE, so a row with gaps is neither favoured
  * nor ruled out. A row that reports none of the three returns null.
  */
 export const conditionDistance: ConditionDistance = (scenario, row) => {
@@ -237,6 +238,18 @@ export function rankInvestigation(
     caveats,
     nearestRowIds: nearestRowIds(scenario, rows),
   };
+}
+
+/**
+ * How many of the 100 points could be checked against reported values. The rest belong
+ * to components the data does not report, which earn nothing.
+ */
+export function checkedPoints(item: RankItem): number {
+  let points = 0;
+  for (const name of COMPONENT_ORDER) {
+    if (!item.unknownComponents.includes(name)) points += RANK_WEIGHTS[name] * 100;
+  }
+  return Math.round(points * 10) / 10;
 }
 
 /** What one component adds to the 0 to 100 score, and the most it could add. */

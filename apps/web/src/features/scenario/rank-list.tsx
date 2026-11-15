@@ -12,7 +12,7 @@ import {
   formatRange,
   formatText,
 } from "@/domain/format";
-import { componentPoints } from "@/domain/rank";
+import { checkedPoints, componentPoints } from "@/domain/rank";
 import { isTestRow } from "@/domain/rows";
 import type { RankComponent, RankItem, RankResult } from "@/domain/types";
 import type { Investigation, TestRecord } from "@/generated/contract";
@@ -83,8 +83,9 @@ function ScoreBreakdown({ item, investigation }: { item: RankItem; investigation
                           ? "h-full bg-[repeating-linear-gradient(45deg,var(--line-strong)_0_3px,transparent_3px_6px)]"
                           : "h-full bg-accent"
                       }
+                      // A value that is not reported fills the bar with stripes: no points, and nothing to compare.
                       // Whole percent: a long fraction is rewritten by the browser and no longer matches the static HTML.
-                      style={{ width: `${Math.round(item.components[name] * 100)}%` }}
+                      style={{ width: unknown ? "100%" : `${Math.round(item.components[name] * 100)}%` }}
                     />
                   </div>
                 </td>
@@ -159,6 +160,7 @@ function RankCard({ item, position }: { item: RankItem; position: number }) {
   const investigation = getInvestigation(item.investigationId);
   if (!investigation) return null;
   const rows = item.nearestRowIds.map(getTest).filter((row): row is TestRecord => row !== undefined);
+  const checked = checkedPoints(item);
 
   return (
     <li className="rounded-lg border border-line bg-surface p-4">
@@ -178,10 +180,17 @@ function RankCard({ item, position }: { item: RankItem; position: number }) {
           </div>
           <p className="mt-0.5 text-sm text-fg-muted">{investigation.title}</p>
         </div>
-        <p className="text-right" aria-label={`Score ${formatNumber(item.score, 1)} out of 100`}>
-          <span className="text-2xl font-semibold tabular-nums text-fg">{formatNumber(item.score, 1)}</span>
-          <span className="text-sm text-fg-subtle"> / 100</span>
-        </p>
+        <div className="text-right">
+          <p aria-label={`Score ${formatNumber(item.score, 1)} out of 100`}>
+            <span className="text-2xl font-semibold tabular-nums text-fg">{formatNumber(item.score, 1)}</span>
+            <span className="text-sm text-fg-subtle"> / 100</span>
+          </p>
+          {checked < 100 ? (
+            <p className="text-xs text-fg-subtle">
+              {formatNumber(checked, 0)} of 100 points could be checked against the data
+            </p>
+          ) : null}
+        </div>
       </div>
 
       <div className="mt-3">

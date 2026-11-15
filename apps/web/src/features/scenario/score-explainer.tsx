@@ -62,8 +62,11 @@ export function ScoreExplainer() {
           </table>
         </div>
         <p>
-          A value the data does not report scores the neutral {UNKNOWN_COMPONENT_SCORE}, is drawn as a striped bar and
-          is listed under the card. Equal scores are ordered by investigation number.
+          A value the data does not report scores {UNKNOWN_COMPONENT_SCORE}: there is no evidence that the
+          investigation tested anything close, so it earns no points. It is drawn as a striped bar and listed under the
+          card, and the card says how many of the 100 points could be checked against the data. Most gaps are in the
+          NASA tables themselves: many do not record pressure or airflow. Equal scores are ordered by investigation
+          number.
         </p>
         <p>
           The weights are a first version and have not been reviewed by a combustion specialist. The score compares

@@ -10,6 +10,7 @@ import {
   UNKNOWN_COMPONENT_SCORE,
 } from "./config";
 import {
+  checkedPoints,
   closeness,
   componentPoints,
   conditionDistance,
@@ -116,7 +117,7 @@ describe("scoreOxygen and scorePressure", () => {
     expect(scorePressure(lunarHabitat, tested).score).toBeCloseTo(closeness(44.8, DISTANCE_SCALES.pressureKpa), 10);
   });
 
-  it("use the neutral score and say so when the value is not reported", () => {
+  it("earn no points and say so when the value is not reported", () => {
     const tested = investigation({ conditions: { o2PctMin: null, o2PctMax: null, pressureKpaMin: null, pressureKpaMax: null } });
     for (const part of [scoreOxygen(lunarHabitat, tested), scorePressure(lunarHabitat, tested)]) {
       expect(part.score).toBe(UNKNOWN_COMPONENT_SCORE);
@@ -142,7 +143,7 @@ describe("scoreFlow", () => {
     expect(scoreFlow(still, tested).score).toBeCloseTo(closeness(5, DISTANCE_SCALES.flowCmS), 10);
   });
 
-  it("is neutral when the investigation reports no airflow", () => {
+  it("earns no points when the investigation reports no airflow", () => {
     const part = scoreFlow(lunarHabitat, investigation({ conditions: { flowCmSMin: null, flowCmSMax: null } }));
     expect(part).toMatchObject({ score: UNKNOWN_COMPONENT_SCORE, known: false });
   });
@@ -181,7 +182,7 @@ describe("scoreFuel", () => {
     expect(scoreFuel(lunarHabitat, investigation({ fuelStates: ["gas"] })).score).toBe(FUEL_SCORES.none);
   });
 
-  it("is neutral when the investigation reports no fuel state", () => {
+  it("earns no points when the investigation reports no fuel state", () => {
     expect(scoreFuel(lunarHabitat, investigation({ fuelStates: [] }))).toMatchObject({
       score: UNKNOWN_COMPONENT_SCORE,
       known: false,
@@ -267,7 +268,7 @@ describe("scoreGravity", () => {
     expect(scoreGravity(lunarHabitat, both).score).toBe(GRAVITY_SCORES.partial.micro);
   });
 
-  it("is neutral when no gravity level is reported", () => {
+  it("earns no points when no gravity level is reported", () => {
     expect(scoreGravity(lunarHabitat, investigation({ conditions: { gravity: [] } }))).toMatchObject({
       score: UNKNOWN_COMPONENT_SCORE,
       known: false,
@@ -343,7 +344,7 @@ describe("rankInvestigation", () => {
     expect(item.caveats).toEqual([]);
   });
 
-  it("does not break on an investigation that reports nothing, and names every neutral component", () => {
+  it("does not break on an investigation that reports nothing, and names every unreported component", () => {
     const empty = investigation({
       fuelStates: [],
       conditions: {
@@ -372,7 +373,8 @@ describe("rankInvestigation", () => {
     const max = names.reduce((total, name) => total + componentPoints(item, name).max, 0);
     expect(earned).toBeCloseTo(item.score, 1);
     expect(max).toBeCloseTo(100, 10);
-    expect(componentPoints(item, "flow")).toEqual({ earned: 5, max: 10 });
+    expect(componentPoints(item, "flow")).toEqual({ earned: 0, max: 10 });
+    expect(checkedPoints(item)).toBe(90);
   });
 
   it("equals 100 times the weighted sum of its components", () => {
@@ -471,5 +473,21 @@ describe("rankInvestigations", () => {
 
     const order = rankInvestigations(lunarHabitat, sample, []).items.map((item) => item.investigationId);
     expect(order).toEqual(["PSI-20", "PSI-25", "PSI-99", "PSI-98", "PSI-159", "PSI-69"]);
+  });
+
+  it("does not put an investigation that reports no conditions above one that reports close ones", () => {
+    // BASS in the real data: solid fuel, the right pillar, but no oxygen, pressure or airflow in its table.
+    const silent = investigation({
+      id: "PSI-26",
+      conditions: { o2PctMin: null, o2PctMax: null, pressureKpaMin: null, pressureKpaMax: null, flowCmSMin: null, flowCmSMax: null },
+    });
+    // BASS-II: solid fuel, reports oxygen near Earth air and airflow, but no pressure.
+    const reported = investigation({
+      id: "PSI-25",
+      conditions: { o2PctMin: 22.2, o2PctMax: 22.2, pressureKpaMin: null, pressureKpaMax: null, flowCmSMin: 5, flowCmSMax: 5 },
+    });
+    const result = rankInvestigations(lunarHabitat, [silent, reported], []);
+    expect(result.items.map((item) => item.investigationId)).toEqual(["PSI-25", "PSI-26"]);
+    expect(checkedPoints(result.items[1])).toBe(50);
   });
 });

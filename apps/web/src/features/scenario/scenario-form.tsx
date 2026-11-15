@@ -209,7 +209,26 @@ export function ScenarioForm({
         </div>
       </fieldset>
 
-      <PresetNote preset={activePreset} />
+      {/*
+        Every note sits in the same grid cell and only the active one is visible, so the
+        cell is as tall as the longest note and the fields below do not move when the
+        preset changes.
+      */}
+      <div className="grid">
+        {[...presets, undefined].map((preset) => {
+          const active = preset?.id === activePreset?.id;
+          return (
+            <div
+              key={preset?.id ?? "custom"}
+              className={`col-start-1 row-start-1 ${active ? "" : "invisible"}`}
+              aria-hidden={!active}
+              inert={!active}
+            >
+              <PresetNote preset={preset} />
+            </div>
+          );
+        })}
+      </div>
 
       <div className="grid grid-cols-2 gap-4">
         <NumberField
