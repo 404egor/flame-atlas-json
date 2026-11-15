@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { filterTests } from "./filters";
-import { findGaps, gapFilters } from "./gaps";
+import { findGaps, gapFilters, testedConditions } from "./gaps";
 import { testRow } from "./test-helpers";
 import type { ScenarioInput } from "./types";
 
@@ -92,5 +92,27 @@ describe("findGaps", () => {
     const gaps = findGaps(lunar, []);
     expect(gaps).toHaveLength(4);
     expect(gaps[0].statement).toBe("The data has no test with solid fuel.");
+  });
+});
+
+describe("testedConditions", () => {
+  it("spans oxygen and pressure over the tests with the environment's fuel and counts who reports them", () => {
+    expect(testedConditions(lunar, rows)).toEqual({
+      total: 3,
+      o2Pct: { min: 21, max: 40, reported: 3 },
+      pressureKpa: { min: 60, max: 101.3, reported: 2 },
+      gravity: ["micro"],
+    });
+  });
+
+  it("leaves the span empty when no test reports the value", () => {
+    const tested = testedConditions(lunar, [solid("a", 21, null), solid("b", 22, null)]);
+    expect(tested.pressureKpa).toEqual({ min: null, max: null, reported: 0 });
+    expect(tested.o2Pct).toEqual({ min: 21, max: 22, reported: 2 });
+  });
+
+  it("lists the gravity levels in the contract's order", () => {
+    const tested = testedConditions({ ...lunar, fuelStates: ["solid", "gas"] }, rows);
+    expect(tested.gravity).toEqual(["micro", "partial-simulated"]);
   });
 });

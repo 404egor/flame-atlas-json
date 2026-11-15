@@ -5,7 +5,7 @@
  * next to a gap opens exactly the rows it counted.
  */
 
-import type { FuelState, TestRecord } from "@/generated/contract";
+import { type FuelState, GRAVITIES, type Gravity, type TestRecord } from "@/generated/contract";
 import { NEAR_SCENARIO } from "./config";
 import { EXPLORATION_INTERVALS } from "./coverage";
 import { NO_FILTERS, filterTests, rowRanges } from "./filters";
@@ -18,7 +18,7 @@ import {
   formatValue,
   kpaToPsi,
 } from "./format";
-import { isKnown } from "./num";
+import { type Range, isKnown } from "./num";
 import { conditionDistance } from "./rank";
 import { isTestRow } from "./rows";
 import type {
@@ -163,6 +163,52 @@ function gap(facts: GapFacts, rows: readonly TestRecord[]): Gap {
     total: facts.total,
     statement: describeGap(facts),
     rowIds: rows.map((row) => row.id),
+  };
+}
+
+/** The span of one condition over a set of tests, and how many of them report it. */
+export interface TestedSpan {
+  min: number | null;
+  max: number | null;
+  reported: number;
+}
+
+/** What the individual tests with the environment's fuel actually covered. */
+export interface TestedConditions {
+  /** Individual tests with the environment's fuel. */
+  total: number;
+  o2Pct: TestedSpan;
+  pressureKpa: TestedSpan;
+  /** Gravity levels among those tests, in the contract's order. */
+  gravity: Gravity[];
+}
+
+function span(ranges: readonly Range[]): TestedSpan {
+  let min: number | null = null;
+  let max: number | null = null;
+  let reported = 0;
+  for (const range of ranges) {
+    if (!isKnown(range)) continue;
+    reported += 1;
+    min = min === null ? range.min : Math.min(min, range.min);
+    max = max === null ? range.max : Math.max(max, range.max);
+  }
+  return { min, max, reported };
+}
+
+/**
+ * The oxygen, pressure and gravity covered by the individual tests with the
+ * environment's fuel, so the environment can be set beside them.
+ */
+export function testedConditions(scenario: ScenarioInput, tests: readonly TestRecord[]): TestedConditions {
+  const withFuel = filterTests(tests, { ...TESTS_ONLY, fuelStates: scenario.fuelStates });
+  const ranges = withFuel.map(rowRanges);
+  const levels = new Set(withFuel.map((row) => row.gravity));
+  return {
+    total: withFuel.length,
+    o2Pct: span(ranges.map((range) => range.o2Pct)),
+    pressureKpa: span(ranges.map((range) => range.pressureKpa)),
+    gravity: GRAVITIES.filter((level) => levels.has(level)),
   };
 }
 
